@@ -44,10 +44,7 @@ Application web **gratuite, open source, sans inscription** pour préparer l'exa
 
 - La V1 est terminée et testée dans Chrome sans interface (mobile, ordinateur, mode sombre) : aucune erreur.
 - Le premier commit est fait sur la branche `main`. Le remote est `https://github.com/Nicko887/passeport-civique.git`.
-- **Le push est bloqué :** les identifiants Git du poste sont ceux de **NicodemeKONE**, qui n'a pas d'accès en écriture au dépôt (erreur 403). Il faut soit ajouter NicodemeKONE comme collaborateur (Write) du dépôt Nicko887/passeport-civique, soit se connecter avec Nicko887. Ensuite :
-  1. `git push -u origin main` ;
-  2. activer GitHub Pages (Settings > Pages > Deploy from a branch > main / root) ;
-  3. le site sera à l'adresse https://nicko887.github.io/passeport-civique/.
+- **Push réussi le 23/11/2026** (`main` suit `origin/main`). Reste à activer GitHub Pages (Settings > Pages > Deploy from a branch > main / root) ; le site sera à l'adresse https://nicko887.github.io/passeport-civique/.
 - Les 5 questions douteuses ont été validées par l'utilisateur (nat 111, nat 112, nat 150, res 172 = « Cinquième », res 184).
 
 ## Prochaines étapes, validées par l'utilisateur
