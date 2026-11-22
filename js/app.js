@@ -1,7 +1,7 @@
 // Application principale : navigation et écrans.
-import { APP_NAME, PARCOURS, THEMES, themeById, EXAMEN, EXAMEN_MODULE, SERIE_ENTRAINEMENT } from './config.js';
+import { APP_NAME, PARCOURS, THEMES, themeById, EXAMEN, EXAMEN_MODULE, SERIE_ENTRAINEMENT, NB_SITUATIONS } from './config.js';
 import * as store from './store.js';
-import { chargerQuestions, chargerCours, preparer, choisirSerie, tirerExamen, bilan, pointsFaibles, melanger } from './data.js';
+import { chargerQuestions, chargerCours, preparer, choisirSerie, tirerExamen, tirerModule, bilan, pointsFaibles, melanger } from './data.js';
 import { lireCours, echapper } from './markdown.js';
 import * as audio from './audio.js';
 
@@ -136,6 +136,7 @@ async function vueTheme(themeId) {
   if (!t) return naviguer('#/');
   const qs = (await questions()).filter((q) => q.t === t.id);
   const b = bilan(qs);
+  const nbSit = qs.filter((q) => q.s).length;
   afficher(`
     ${entete(t.icone + ' ' + t.court)}
     <section style="--c:${t.couleur}">
@@ -146,6 +147,7 @@ async function vueTheme(themeId) {
       <div class="pile-boutons">
         <a class="bouton" href="#/cours/${t.id}">📘 Lire le cours</a>
         <a class="bouton" href="#/entrainement/${t.id}">✏️ S’entraîner sur ce thème</a>
+        ${nbSit ? `<a class="bouton" href="#/entrainement/situations/${t.id}">🧭 Mises en situation (${nbSit})</a>` : ''}
         <a class="bouton secondaire" href="#/examen/${t.id}">⏱️ Examen du module</a>
       </div>
       <h2 class="titre-section">Parties du thème</h2>
@@ -270,10 +272,12 @@ async function lancerEcoute(themeId, index) {
 
 async function vueChoixEntrainement() {
   const qs = await questions();
+  const sit = qs.filter((q) => q.s);
   afficher(`
     ${entete('S’entraîner')}
     <p class="intro-page">Répondez aux questions et découvrez tout de suite la correction. Les questions que vous ratez reviendront plus tard pour être bien retenues.</p>
     <a class="action-principale" href="#/entrainement/tout"><span class="emoji" aria-hidden="true">🎲</span><span><strong>Tous les thèmes</strong><small>${SERIE_ENTRAINEMENT} questions choisies pour vous</small></span><span aria-hidden="true">→</span></a>
+    ${sit.length ? `<a class="action-principale secondaire" href="#/entrainement/situations"><span class="emoji" aria-hidden="true">🧭</span><span><strong>Mises en situation</strong><small>Des cas concrets de la vie quotidienne · ${NB_SITUATIONS} questions sur ${EXAMEN.nbQuestions} à l’examen</small></span><span aria-hidden="true">→</span></a>` : ''}
     <div class="liste-themes">
       ${THEMES.map((t) => {
         const bt = bilan(qs.filter((q) => q.t === t.id));
@@ -287,8 +291,13 @@ async function vueChoixEntrainement() {
 
 async function demarrerEntrainement(themeId, stId, titre, retour) {
   let qs = await questions();
-  if (themeId && themeId !== 'tout') qs = qs.filter((q) => q.t === themeId);
-  if (stId) qs = qs.filter((q) => q.st === stId);
+  if (themeId === 'situations') {
+    // #/entrainement/situations ou #/entrainement/situations/<theme>
+    qs = qs.filter((q) => q.s && (!stId || q.t === stId));
+  } else {
+    if (themeId && themeId !== 'tout') qs = qs.filter((q) => q.t === themeId);
+    if (stId) qs = qs.filter((q) => q.st === stId);
+  }
   const serie = choisirSerie(qs, SERIE_ENTRAINEMENT).map(preparer);
   if (!serie.length) return naviguer('#/entrainement');
   session = { mode: 'entrainement', titre, retour, questions: serie, i: 0, reponses: [], verrou: false };
@@ -317,7 +326,7 @@ function vueQuestion() {
         <div class="quiz-avance">${barre((s.i + (examen ? 0 : s.verrou ? 1 : 0)) / s.questions.length, 'Avancement')}<small>Question ${s.i + 1} sur ${s.questions.length}</small></div>
         ${examen ? `<div class="chrono" id="chrono" aria-live="off">--:--</div>` : ''}
       </header>
-      <p class="quiz-theme">${t.icone} ${t.court}</p>
+      <p class="quiz-theme">${t.icone} ${t.court}${q.s ? ' · <span class="badge-situation">🧭 Mise en situation</span>' : ''}</p>
       <h1 class="quiz-question">${e(q.q)}</h1>
       ${audio.audioDisponible ? `<button class="lien-audio" data-action="lire-question">🔊 Écouter la question</button>` : ''}
       <div class="options" role="group" aria-label="Réponses possibles">
@@ -412,7 +421,7 @@ async function vueChoixExamen() {
     <div class="carte info-exam">
       <h2>Comme le jour de l’examen</h2>
       <ul>
-        <li><strong>${EXAMEN.nbQuestions} questions</strong> sur les 5 thèmes</li>
+        <li><strong>${EXAMEN.nbQuestions} questions</strong> sur les 5 thèmes, dont <strong>${NB_SITUATIONS} mises en situation</strong></li>
         <li><strong>${EXAMEN.dureeMinutes} minutes</strong> maximum</li>
         <li>Il faut <strong>${EXAMEN.seuil} bonnes réponses</strong> (80 %) pour réussir</li>
         <li>La correction s’affiche à la fin</li>
@@ -443,7 +452,7 @@ async function demarrerExamen(type) {
     liste = tirerExamen(qs);
     duree = EXAMEN.dureeMinutes * 60;
   } else {
-    liste = melanger(qs.filter((q) => q.t === type)).slice(0, EXAMEN_MODULE.nbQuestions);
+    liste = tirerModule(qs, type, EXAMEN_MODULE.nbQuestions);
     duree = liste.length * EXAMEN_MODULE.secondesParQuestion;
   }
   session = { mode: 'examen', type, questions: liste.map(preparer), i: 0, reponses: [], fin: Date.now() + duree * 1000, debut: Date.now() };
@@ -601,8 +610,8 @@ function vueAPropos() {
       <ul>
         <li>Questions : listes officielles publiées par le ministère de l’Intérieur.</li>
         <li>Réponses suggérées par <a href="https://leqcmcivique.fr" target="_blank" rel="noopener">leqcmcivique.fr</a>, publiées sur data.gouv.fr sous Licence Ouverte 2.0.</li>
-        <li>Mauvaises réponses, explications et cours : rédigés pour ce projet. Ils peuvent contenir des erreurs : signalez-les !</li>
-        <li>Format de l’examen : 40 questions, 45 minutes, 32 bonnes réponses pour réussir.</li>
+        <li>Mauvaises réponses, explications, mises en situation et cours : rédigés pour ce projet. Il n’existe pas de liste officielle des mises en situation. Ces contenus peuvent contenir des erreurs : signalez-les !</li>
+        <li>Format de l’examen : 40 questions, dont 12 mises en situation, 45 minutes, 32 bonnes réponses pour réussir (arrêté du 10 octobre 2025).</li>
       </ul>
       <h2>Contribuer</h2>
       <p>Le code et le contenu sont ouverts. Vous pouvez signaler une erreur ou proposer une amélioration sur GitHub.</p>
@@ -644,7 +653,7 @@ async function routeur() {
       case 'entrainement':
         if (!a) return await vueChoixEntrainement();
         history.replaceState(null, '', '#/session');
-        dernierLancement.fn = () => demarrerEntrainement(a, null, null, '#/entrainement');
+        dernierLancement.fn = () => demarrerEntrainement(a, b || null, null, a === 'situations' && b ? '#/theme/' + b : '#/entrainement');
         return await dernierLancement.fn();
       case 'examen':
         if (!a) return await vueChoixExamen();

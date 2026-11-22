@@ -1,0 +1,722 @@
+[
+  {
+    "src_id": 1,
+    "question": "Vous travaillez au guichet de la mairie comme agent public. Pouvez-vous porter un signe religieux visible pendant votre travail ?",
+    "bonne_reponse": "Non, un agent public doit rester neutre",
+    "distracteurs": [
+      "Oui, si le signe religieux reste petit et discret",
+      "Oui, si votre responsable vous donne son accord",
+      "Oui, mais seulement pendant les fêtes religieuses"
+    ],
+    "explication": "Les agents des services publics doivent respecter la neutralité religieuse : ils ne peuvent pas montrer leur religion pendant leur travail, même avec un petit signe. C'est une règle de la laïcité.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "source": "Code général de la fonction publique, art. L121-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 2,
+    "question": "Vous allez à la mairie pour une démarche. Vous portez un foulard religieux. Que se passe-t-il ?",
+    "bonne_reponse": "Vous êtes reçu normalement, comme les autres usagers",
+    "distracteurs": [
+      "On vous demande d'enlever votre foulard à l'entrée",
+      "Vous devez être reçu dans un bureau séparé",
+      "Vous devez revenir avec une autre personne"
+    ],
+    "explication": "La neutralité s'impose aux agents publics, pas aux usagers. Un usager peut porter un signe religieux dans un service public. Seul le fait de cacher entièrement son visage est interdit dans l'espace public.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "source": "Charte de la laïcité dans les services publics",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 3,
+    "question": "Votre fille va au collège public. Elle veut porter un grand voile religieux en classe. Est-ce possible ?",
+    "bonne_reponse": "Non, c'est interdit au collège public",
+    "distracteurs": [
+      "Oui, si les parents signent une autorisation écrite",
+      "Oui, la liberté religieuse s'applique partout de la même façon",
+      "Non, sauf si d'autres élèves portent aussi un voile"
+    ],
+    "explication": "Depuis la loi du 15 mars 2004, les élèves des écoles, collèges et lycées publics ne peuvent pas porter de signes ou de tenues qui montrent clairement une appartenance religieuse (grand voile, kippa, grande croix…).",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "source": "Code de l'éducation, art. L141-5-1 (loi du 15 mars 2004)",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 4,
+    "question": "Votre fils de 20 ans étudie à l'université publique. Il veut porter une kippa pendant les cours. Est-ce possible ?",
+    "bonne_reponse": "Oui, les étudiants peuvent porter un signe religieux",
+    "distracteurs": [
+      "Non, la loi de 2004 s'applique aussi à l'université",
+      "Non, sauf s'il étudie dans une faculté de théologie",
+      "Oui, mais seulement en dehors des salles de cours"
+    ],
+    "explication": "L'interdiction des signes religieux ostensibles concerne seulement les élèves des écoles, collèges et lycées publics. Les étudiants sont des adultes : ils peuvent porter un signe religieux à l'université, s'ils respectent les règles de l'établissement.",
+    "sous_theme": "laicite",
+    "difficulte": 3,
+    "source": "Code de l'éducation, art. L141-5-1 et L811-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 5,
+    "question": "À la cantine de l'école publique, on sert parfois du porc. Votre enfant n'en mange pas pour des raisons religieuses. Que dit la règle ?",
+    "bonne_reponse": "La commune peut proposer un autre plat, mais elle n'y est pas obligée",
+    "distracteurs": [
+      "La commune doit toujours prévoir un menu religieux pour chaque enfant",
+      "L'enfant doit manger le plat servi, comme tous les autres",
+      "L'enfant n'a plus le droit d'aller à la cantine"
+    ],
+    "explication": "La cantine scolaire est un service facultatif. La commune peut proposer des repas de remplacement, mais aucune loi ne l'oblige à le faire. Le Conseil d'État l'a rappelé en 2020.",
+    "sous_theme": "laicite",
+    "difficulte": 3,
+    "source": "Conseil d'État, 11 décembre 2020, Commune de Chalon-sur-Saône",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 6,
+    "question": "Dans un hôpital public, un patient refuse d'être soigné par un médecin parce que ce médecin est une femme. Que dit la règle ?",
+    "bonne_reponse": "Il ne peut pas refuser un médecin à cause de son sexe",
+    "distracteurs": [
+      "L'hôpital doit toujours lui trouver un médecin homme",
+      "Le patient peut choisir le médecin s'il paie un supplément",
+      "Le patient doit d'abord demander l'accord du directeur"
+    ],
+    "explication": "Selon la Charte de la laïcité dans les services publics, les usagers ne peuvent pas refuser un agent public à cause de son sexe ou de sa religion, ni exiger une adaptation du service public.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "source": "Charte de la laïcité dans les services publics",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 7,
+    "question": "Votre amie veut quitter sa religion. Sa famille lui dit que c'est interdit. Que dit la loi française ?",
+    "bonne_reponse": "Chacun est libre de changer de religion ou de ne pas en avoir",
+    "distracteurs": [
+      "Il faut l'accord d'un responsable religieux pour quitter sa religion",
+      "On peut changer de religion seulement à partir de 25 ans",
+      "Il faut faire une déclaration officielle à la mairie"
+    ],
+    "explication": "La laïcité garantit la liberté de conscience : chacun peut croire, ne pas croire ou changer de religion. Personne ne peut obliger quelqu'un à garder une religion.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "source": "Loi du 9 décembre 1905, art. 1 ; Déclaration de 1789, art. 10",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 8,
+    "question": "Un journal publie un dessin qui se moque d'une religion. Que dit la loi ?",
+    "bonne_reponse": "C'est permis : c'est la liberté d'expression",
+    "distracteurs": [
+      "C'est interdit : le blasphème est puni par la loi",
+      "C'est permis seulement si les responsables religieux sont d'accord",
+      "C'est interdit, sauf dans les journaux pour adultes"
+    ],
+    "explication": "En France, le blasphème n'est pas un délit : on peut critiquer ou caricaturer une religion. En revanche, insulter ou appeler à la haine contre des personnes à cause de leur religion est puni par la loi.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "source": "Loi du 29 juillet 1881 sur la liberté de la presse",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 9,
+    "question": "Vous voulez vous marier lors d'une cérémonie religieuse. Que devez-vous faire avant ?",
+    "bonne_reponse": "Vous marier d'abord à la mairie",
+    "distracteurs": [
+      "Demander l'autorisation à la préfecture",
+      "Rien : le mariage religieux suffit pour être mariés",
+      "Faire enregistrer la cérémonie chez un notaire"
+    ],
+    "explication": "En France, seul le mariage civil, célébré à la mairie, a une valeur légale. Un responsable religieux n'a pas le droit de célébrer un mariage religieux si le mariage civil n'a pas eu lieu avant.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "source": "Code pénal, art. 433-21",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 10,
+    "question": "Une association religieuse demande à la mairie de payer le salaire de son responsable religieux. Que répond la mairie ?",
+    "bonne_reponse": "Non : la République ne salarie et ne subventionne aucun culte",
+    "distracteurs": [
+      "Oui, si la religion est pratiquée par beaucoup d'habitants",
+      "Oui, mais seulement pour les religions les plus anciennes",
+      "Oui, si le préfet donne son accord"
+    ],
+    "explication": "La loi de 1905 sépare les Églises et l'État : l'État et les communes ne paient pas les responsables religieux et ne financent pas les cultes. Il existe un régime particulier en Alsace-Moselle.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "source": "Loi du 9 décembre 1905, art. 2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 11,
+    "question": "Un responsable religieux dit que les règles de sa religion passent avant les lois françaises. Qu'en est-il ?",
+    "bonne_reponse": "La loi s'applique à tous, quelles que soient les croyances",
+    "distracteurs": [
+      "Chacun peut suivre les règles de sa religion à la place de la loi",
+      "Les règles religieuses passent avant la loi dans la vie de famille",
+      "La loi ne s'applique qu'aux personnes sans religion"
+    ],
+    "explication": "La liberté religieuse existe, mais dans le respect de la loi. Personne ne peut invoquer sa religion pour ne pas respecter les règles communes.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "source": "Constitution du 4 octobre 1958, art. 1 ; loi du 24 août 2021",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 12,
+    "question": "Un élève du collège public refuse d'aller au cours de natation pour des raisons religieuses. Que se passe-t-il ?",
+    "bonne_reponse": "Il doit y aller, comme tous les élèves",
+    "distracteurs": [
+      "Il peut être dispensé si ses parents écrivent une lettre",
+      "Il peut choisir un autre cours à la place",
+      "L'école doit organiser un cours séparé pour lui"
+    ],
+    "explication": "Les élèves ne peuvent pas refuser un enseignement ou une activité obligatoire pour des raisons religieuses. Seule une raison médicale, avec un certificat, peut justifier une dispense de sport.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "source": "Circulaire du 18 mai 2004 relative à l'application de la loi du 15 mars 2004",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 13,
+    "question": "Une personne veut se promener dans la rue avec le visage entièrement caché par un vêtement. Est-ce permis ?",
+    "bonne_reponse": "Non, c'est interdit dans l'espace public",
+    "distracteurs": [
+      "Oui, si c'est pour des raisons religieuses",
+      "Oui, mais seulement dans son quartier",
+      "Non, sauf pour les personnes de nationalité étrangère"
+    ],
+    "explication": "Depuis la loi du 11 octobre 2010, personne ne peut porter dans l'espace public une tenue qui cache le visage. Il y a des exceptions : raisons de santé, travail, fêtes ou manifestations traditionnelles.",
+    "sous_theme": "libertes",
+    "difficulte": 2,
+    "source": "Loi n° 2010-1192 du 11 octobre 2010",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 14,
+    "question": "Vous cherchez un appartement. Le propriétaire refuse de vous louer parce que vous êtes d'origine étrangère. Que pouvez-vous faire ?",
+    "bonne_reponse": "Saisir le Défenseur des droits, car c'est une discrimination",
+    "distracteurs": [
+      "Rien : un propriétaire choisit librement pour n'importe quelle raison",
+      "Payer une caution plus élevée pour qu'il accepte",
+      "Demander au maire de choisir un autre locataire"
+    ],
+    "explication": "Refuser un logement à cause de l'origine est une discrimination punie par la loi. Le Défenseur des droits peut vous aider gratuitement. Vous pouvez aussi porter plainte.",
+    "sous_theme": "egalite",
+    "difficulte": 1,
+    "source": "Code pénal, art. 225-1 et 225-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 15,
+    "question": "Une discothèque laisse entrer vos amis mais vous refuse à cause de votre couleur de peau. Comment appelle-t-on cela ?",
+    "bonne_reponse": "Une discrimination, punie par la loi",
+    "distracteurs": [
+      "Un droit de l'établissement, qui choisit ses clients",
+      "Une simple impolitesse, sans conséquence",
+      "Une règle normale si la salle est pleine"
+    ],
+    "explication": "Refuser l'accès à un lieu ou à un service à cause de l'origine, de la couleur de peau ou de la religion est une discrimination. C'est un délit puni d'amende et de prison.",
+    "sous_theme": "egalite",
+    "difficulte": 1,
+    "source": "Code pénal, art. 225-1 et 225-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 16,
+    "question": "Une personne aveugle veut entrer dans un restaurant avec son chien guide. Le restaurant refuse. A-t-il le droit ?",
+    "bonne_reponse": "Non, les chiens guides doivent être acceptés",
+    "distracteurs": [
+      "Oui, les animaux sont toujours interdits dans les restaurants",
+      "Oui, si d'autres clients ont peur des chiens",
+      "Non, sauf si le chien n'a pas de muselière"
+    ],
+    "explication": "Les chiens guides d'aveugle et les chiens d'assistance doivent être acceptés dans les transports, les magasins, les restaurants et les lieux ouverts au public. Le refus est puni d'une amende.",
+    "sous_theme": "egalite",
+    "difficulte": 2,
+    "source": "Loi n° 87-588 du 30 juillet 1987, art. 88",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 17,
+    "question": "Un médecin refuse de vous recevoir parce que vous avez la complémentaire santé solidaire. A-t-il le droit ?",
+    "bonne_reponse": "Non, c'est un refus de soins discriminatoire",
+    "distracteurs": [
+      "Oui, un médecin choisit toujours librement ses patients",
+      "Oui, si son cabinet est en centre-ville",
+      "Non, sauf si vous êtes de nationalité étrangère"
+    ],
+    "explication": "Un professionnel de santé ne peut pas refuser de soigner une personne parce qu'elle bénéficie de la complémentaire santé solidaire ou de l'aide médicale de l'État. Vous pouvez le signaler à votre caisse d'assurance maladie ou au Défenseur des droits.",
+    "sous_theme": "egalite",
+    "difficulte": 3,
+    "source": "Code de la santé publique, art. L1110-3",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 18,
+    "question": "Une famille sans titre de séjour veut inscrire son enfant de 6 ans à l'école de la commune. Que doit faire la mairie ?",
+    "bonne_reponse": "Inscrire l'enfant, quelle que soit la situation des parents",
+    "distracteurs": [
+      "Refuser tant que les parents n'ont pas de titre de séjour",
+      "Prévenir la police avant d'inscrire l'enfant",
+      "Inscrire l'enfant seulement s'il parle déjà français"
+    ],
+    "explication": "En France, l'instruction est obligatoire pour tous les enfants de 3 à 16 ans, quelle que soit leur nationalité ou la situation de leurs parents. La mairie ne peut pas refuser l'inscription pour cette raison.",
+    "sous_theme": "egalite",
+    "difficulte": 2,
+    "source": "Code de l'éducation, art. L111-1 et L131-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 19,
+    "question": "Votre voisin vous annonce qu'il va se marier avec un autre homme. Est-ce possible en France ?",
+    "bonne_reponse": "Oui, c'est légal depuis 2013",
+    "distracteurs": [
+      "Non, le mariage est réservé à un homme et une femme",
+      "Oui, mais seulement à l'étranger",
+      "Non, ils peuvent seulement vivre ensemble"
+    ],
+    "explication": "Depuis la loi du 17 mai 2013, deux personnes de même sexe peuvent se marier en France. Elles ont les mêmes droits que les autres couples mariés.",
+    "sous_theme": "egalite",
+    "difficulte": 1,
+    "source": "Loi n° 2013-404 du 17 mai 2013",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 20,
+    "question": "Dans la rue, une personne vous insulte à cause de votre origine. Que pouvez-vous faire ?",
+    "bonne_reponse": "Porter plainte, car une injure raciste est un délit",
+    "distracteurs": [
+      "Rien : les insultes dans la rue ne sont jamais punies",
+      "Répondre par une insulte, c'est votre droit",
+      "Seulement en parler à votre employeur"
+    ],
+    "explication": "Une injure publique à cause de l'origine, de la religion ou de la couleur de peau est un délit. Vous pouvez porter plainte au commissariat ou à la gendarmerie.",
+    "sous_theme": "egalite",
+    "difficulte": 1,
+    "source": "Loi du 29 juillet 1881, art. 33",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 21,
+    "question": "Une agence d'intérim reçoit cette demande d'une entreprise : « Pas de candidats d'origine étrangère ». Que doit faire l'agence ?",
+    "bonne_reponse": "Refuser, car cette demande est discriminatoire",
+    "distracteurs": [
+      "Accepter, car le client choisit ses salariés",
+      "Accepter, si l'entreprise le demande par écrit",
+      "Accepter, mais seulement pour les postes à responsabilité"
+    ],
+    "explication": "Choisir un salarié selon son origine est une discrimination interdite. L'entreprise qui le demande et l'agence qui l'accepte peuvent être toutes les deux punies.",
+    "sous_theme": "egalite",
+    "difficulte": 2,
+    "source": "Code pénal, art. 225-2 ; Code du travail, art. L1132-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 22,
+    "question": "Avec des voisins, vous voulez organiser une manifestation dans la rue. Que devez-vous faire ?",
+    "bonne_reponse": "La déclarer à l'avance à la mairie ou à la préfecture",
+    "distracteurs": [
+      "Rien : on peut manifester sans prévenir personne",
+      "Demander l'autorisation au ministre de l'Intérieur",
+      "Payer une taxe pour utiliser la voie publique"
+    ],
+    "explication": "La liberté de manifester est protégée. Une manifestation sur la voie publique doit être déclarée à la mairie (ou à la préfecture de police à Paris) au moins 3 jours francs avant.",
+    "sous_theme": "libertes",
+    "difficulte": 2,
+    "source": "Code de la sécurité intérieure, art. L211-1 et L211-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 23,
+    "question": "Sur les réseaux sociaux, vous critiquez la politique du Président de la République. Est-ce autorisé ?",
+    "bonne_reponse": "Oui, sans insulter ni diffamer personne",
+    "distracteurs": [
+      "Non, il est interdit de critiquer le chef de l'État",
+      "Non, seuls les journalistes peuvent le faire",
+      "Oui, mais seulement pendant les campagnes électorales"
+    ],
+    "explication": "La liberté d'expression permet de critiquer les responsables politiques. Elle a des limites : l'injure, la diffamation et l'appel à la haine sont punis par la loi.",
+    "sous_theme": "libertes",
+    "difficulte": 1,
+    "source": "Déclaration de 1789, art. 11 ; loi du 29 juillet 1881",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 24,
+    "question": "Vous voulez créer une association pour aider les familles de votre quartier. Que faut-il faire ?",
+    "bonne_reponse": "C'est libre, puis on la déclare en préfecture",
+    "distracteurs": [
+      "Il faut d'abord l'autorisation du maire et du préfet",
+      "Il faut être de nationalité française",
+      "Il faut au moins dix membres et un avocat"
+    ],
+    "explication": "La liberté d'association est garantie par la loi de 1901. Deux personnes suffisent pour créer une association. Pour qu'elle ait une existence juridique (compte bancaire, subventions), on la déclare en préfecture ou en ligne.",
+    "sous_theme": "libertes",
+    "difficulte": 2,
+    "source": "Loi du 1er juillet 1901 relative au contrat d'association",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 25,
+    "question": "Sur internet, vous écrivez que votre voisin est un voleur, sans aucune preuve. Que risquez-vous ?",
+    "bonne_reponse": "Une condamnation pour diffamation",
+    "distracteurs": [
+      "Rien : sur internet, on peut tout écrire",
+      "Rien, si vous effacez le message après un jour",
+      "Seulement une suppression de votre compte"
+    ],
+    "explication": "Accuser publiquement une personne d'un fait qui porte atteinte à son honneur, sans pouvoir le prouver, est une diffamation. C'est puni par la loi, aussi sur internet.",
+    "sous_theme": "libertes",
+    "difficulte": 2,
+    "source": "Loi du 29 juillet 1881, art. 29 et 32",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 26,
+    "question": "Une personne publie des messages qui appellent à la violence contre les membres d'une religion. Que dit la loi ?",
+    "bonne_reponse": "C'est un délit puni par la loi",
+    "distracteurs": [
+      "C'est permis, grâce à la liberté d'expression",
+      "C'est permis si le message est anonyme",
+      "C'est interdit seulement dans les journaux"
+    ],
+    "explication": "Provoquer à la haine ou à la violence contre des personnes à cause de leur religion, de leur origine ou de leur sexe est un délit, sur internet comme ailleurs. On peut le signaler sur la plateforme officielle PHAROS.",
+    "sous_theme": "libertes",
+    "difficulte": 1,
+    "source": "Loi du 29 juillet 1881, art. 24",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 27,
+    "question": "Vous pratiquez votre religion. Où pouvez-vous le faire ?",
+    "bonne_reponse": "Librement, dans le respect de l'ordre public",
+    "distracteurs": [
+      "Seulement chez vous, jamais dans un lieu de culte",
+      "Seulement si votre religion est reconnue par l'État",
+      "Seulement avec une autorisation de la mairie"
+    ],
+    "explication": "La République garantit le libre exercice des cultes. Elle ne reconnaît aucune religion en particulier : toutes sont libres, dans les limites fixées par la loi pour protéger l'ordre public.",
+    "sous_theme": "libertes",
+    "difficulte": 1,
+    "source": "Loi du 9 décembre 1905, art. 1 et 2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 28,
+    "question": "Lors d'une cérémonie officielle du 14 Juillet, une personne siffle la Marseillaise et insulte le drapeau. Que risque-t-elle ?",
+    "bonne_reponse": "Une amende pour outrage à l'hymne et au drapeau",
+    "distracteurs": [
+      "Rien : c'est la liberté d'expression",
+      "La perte automatique de sa nationalité française",
+      "Une simple remarque du maire"
+    ],
+    "explication": "Outrager publiquement l'hymne national ou le drapeau tricolore lors d'une manifestation organisée par les autorités publiques est un délit puni de 7 500 € d'amende.",
+    "sous_theme": "symboles",
+    "difficulte": 2,
+    "source": "Code pénal, art. 433-5-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 29,
+    "question": "Votre enfant demande pourquoi on ne travaille pas le 14 juillet. Que lui répondez-vous ?",
+    "bonne_reponse": "C'est la fête nationale française",
+    "distracteurs": [
+      "C'est le jour de l'élection du Président",
+      "C'est l'anniversaire de la fin de la Seconde Guerre mondiale",
+      "C'est la fête de l'Union européenne"
+    ],
+    "explication": "Le 14 juillet est la fête nationale. Il rappelle la prise de la Bastille (14 juillet 1789) et la fête de la Fédération (14 juillet 1790). La fin de la Seconde Guerre mondiale en Europe est fêtée le 8 mai.",
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "source": "Loi du 6 juillet 1880",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 30,
+    "question": "Dans la salle des mariages de la mairie, vous voyez le buste d'une femme portant un bonnet. Qui représente-t-il ?",
+    "bonne_reponse": "Marianne, symbole de la République",
+    "distracteurs": [
+      "La première femme maire de la commune",
+      "Jeanne d'Arc, sainte patronne de la ville",
+      "L'épouse du premier Président de la République"
+    ],
+    "explication": "Marianne est une figure symbolique de la République française. Elle porte souvent un bonnet phrygien, symbole de liberté. Son buste est présent dans beaucoup de mairies.",
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "source": "elysee.fr : les symboles de la République",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 31,
+    "question": "Sur la façade de l'école publique de votre enfant, trois mots sont écrits. Lesquels ?",
+    "bonne_reponse": "Liberté, Égalité, Fraternité",
+    "distracteurs": [
+      "Travail, Famille, Patrie",
+      "Unité, Progrès, Justice",
+      "Liberté, Sécurité, Solidarité"
+    ],
+    "explication": "« Liberté, Égalité, Fraternité » est la devise de la République, inscrite dans la Constitution. On la voit sur les mairies et les écoles publiques. « Travail, Famille, Patrie » était la devise du régime de Vichy (1940-1944).",
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "source": "Constitution du 4 octobre 1958, art. 2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 32,
+    "question": "Votre ami est marocain et vit en France depuis 15 ans avec une carte de résident. Peut-il voter aux élections municipales ?",
+    "bonne_reponse": "Non, il n'a pas le droit de vote aux municipales",
+    "distracteurs": [
+      "Oui, après 10 ans de résidence en France",
+      "Oui, s'il paie des impôts dans la commune",
+      "Oui, s'il est inscrit dans une association locale"
+    ],
+    "explication": "Aux élections municipales, peuvent voter les Français et les citoyens des autres pays de l'Union européenne qui vivent en France. Les autres étrangers ne peuvent pas voter, même avec une carte de résident.",
+    "sous_theme": "citoyennete",
+    "difficulte": 2,
+    "source": "Constitution, art. 88-3 ; Code électoral, art. LO227-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 33,
+    "question": "Votre voisine est italienne et habite en France. À quelles élections peut-elle voter en France ?",
+    "bonne_reponse": "Aux élections municipales et européennes",
+    "distracteurs": [
+      "À toutes les élections, comme les Français",
+      "Seulement à l'élection présidentielle",
+      "À aucune élection en France"
+    ],
+    "explication": "Les citoyens de l'Union européenne qui vivent en France peuvent voter aux élections municipales et européennes, s'ils sont inscrits sur les listes électorales complémentaires. Ils ne votent pas à la présidentielle ni aux législatives.",
+    "sous_theme": "citoyennete",
+    "difficulte": 2,
+    "source": "Constitution, art. 88-3 ; service-public.fr : vote des citoyens européens",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 34,
+    "question": "Le jour de l'élection, votre mari veut entrer dans l'isoloir avec vous pour voir votre vote. A-t-il le droit ?",
+    "bonne_reponse": "Non, le vote est personnel et secret",
+    "distracteurs": [
+      "Oui, un couple marié peut voter ensemble",
+      "Oui, si vous êtes d'accord tous les deux",
+      "Oui, si c'est votre premier vote"
+    ],
+    "explication": "Chaque électeur vote seul, dans l'isoloir, pour garantir le secret du vote. Seule une personne en situation de handicap peut se faire aider par un électeur de son choix.",
+    "sous_theme": "citoyennete",
+    "difficulte": 1,
+    "source": "Constitution, art. 3 ; Code électoral, art. L62 et L64",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 35,
+    "question": "Vous êtes Français et vous serez en voyage le jour d'une élection. Comment pouvez-vous quand même voter ?",
+    "bonne_reponse": "En donnant une procuration à un autre électeur",
+    "distracteurs": [
+      "En envoyant votre bulletin de vote par la poste à la mairie",
+      "En votant par SMS",
+      "En votant le lendemain à la mairie"
+    ],
+    "explication": "Si vous ne pouvez pas aller voter, vous pouvez désigner un autre électeur qui votera pour vous : c'est la procuration. On la fait au commissariat, à la gendarmerie, ou en ligne sur maprocuration.gouv.fr puis avec une vérification d'identité.",
+    "sous_theme": "citoyennete",
+    "difficulte": 1,
+    "source": "Code électoral, art. L71 et suivants",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 36,
+    "question": "Le jour de l'élection, dans le bureau de vote, est-il obligatoire de passer par l'isoloir ?",
+    "bonne_reponse": "Oui, pour garantir le secret du vote",
+    "distracteurs": [
+      "Non, on peut remplir son bulletin devant tout le monde",
+      "Non, l'isoloir est seulement pour les personnes âgées",
+      "Oui, mais seulement pour l'élection présidentielle"
+    ],
+    "explication": "Le passage par l'isoloir est obligatoire. L'électeur y met son bulletin dans une enveloppe, sans être vu, puis il le dépose dans l'urne.",
+    "sous_theme": "citoyennete",
+    "difficulte": 2,
+    "source": "Code électoral, art. L62",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 37,
+    "question": "Votre fille, de nationalité française, vient d'avoir 16 ans. Quelle démarche doit-elle faire ?",
+    "bonne_reponse": "Se faire recenser à la mairie",
+    "distracteurs": [
+      "S'inscrire au service militaire obligatoire",
+      "Demander sa carte d'électeur",
+      "Passer un examen de citoyenneté"
+    ],
+    "explication": "Tout jeune Français doit se faire recenser à la mairie (ou en ligne) dans les 3 mois après ses 16 ans. Il est ensuite convoqué à la Journée défense et citoyenneté (JDC). L'attestation est demandée pour certains examens, comme le permis de conduire ou le baccalauréat.",
+    "sous_theme": "citoyennete",
+    "difficulte": 2,
+    "source": "Code du service national, art. L113-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 38,
+    "question": "Votre fils de 19 ans veut s'engager plusieurs mois dans une mission utile à la société et recevoir une indemnité. Que peut-il faire ?",
+    "bonne_reponse": "Un service civique",
+    "distracteurs": [
+      "Un contrat de travail saisonnier",
+      "Une journée défense et citoyenneté",
+      "Un stage en entreprise non payé"
+    ],
+    "explication": "Le service civique permet aux jeunes de 16 à 25 ans (30 ans pour les jeunes en situation de handicap) de faire une mission d'intérêt général de 6 à 12 mois, avec une indemnité. C'est une forme d'engagement citoyen.",
+    "sous_theme": "citoyennete",
+    "difficulte": 2,
+    "source": "Code du service national, art. L120-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 39,
+    "question": "En hiver, vous voyez dans la rue une personne sans abri qui semble en danger à cause du froid. Quel numéro appelez-vous ?",
+    "bonne_reponse": "Le 115, le numéro d'urgence pour les personnes sans abri",
+    "distracteurs": [
+      "Le 3919, le numéro pour les violences faites aux femmes",
+      "Le 119, le numéro pour l'enfance en danger",
+      "Le 3949, le numéro de France Travail"
+    ],
+    "explication": "Le 115 (Samu social) est gratuit et répond jour et nuit pour aider les personnes sans abri. Si la personne est inconsciente ou en danger immédiat, appelez le 15 ou le 112. Aider les autres, c'est la fraternité.",
+    "sous_theme": "valeurs",
+    "difficulte": 2,
+    "source": "service-public.fr : numéros d'urgence",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 40,
+    "question": "Au travail, un collègue dit que les femmes ne devraient pas avoir les mêmes droits que les hommes. Que dit la République ?",
+    "bonne_reponse": "Les femmes et les hommes ont les mêmes droits",
+    "distracteurs": [
+      "Les hommes ont plus de droits dans la vie de famille",
+      "Les droits dépendent de la religion de chacun",
+      "Les femmes ont les mêmes droits seulement au travail"
+    ],
+    "explication": "L'égalité entre les femmes et les hommes est un principe de la République, inscrit dans la Constitution : « La loi garantit à la femme, dans tous les domaines, des droits égaux à ceux de l'homme ».",
+    "sous_theme": "valeurs",
+    "difficulte": 1,
+    "source": "Préambule de la Constitution de 1946, alinéa 3",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 41,
+    "question": "Une association de votre quartier distribue des repas, sans demander la religion ni l'origine des personnes. Quelle valeur de la République cela illustre-t-il ?",
+    "bonne_reponse": "La fraternité",
+    "distracteurs": [
+      "La laïcité",
+      "La souveraineté",
+      "L'indivisibilité"
+    ],
+    "explication": "La fraternité, c'est la solidarité et l'entraide entre tous, sans distinction. Elle fait partie de la devise « Liberté, Égalité, Fraternité ».",
+    "sous_theme": "valeurs",
+    "difficulte": 1,
+    "source": "Constitution du 4 octobre 1958, art. 2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 42,
+    "question": "Dans votre pays d'origine, une pratique est autorisée, mais elle est interdite en France. Vous vivez en France. Que devez-vous faire ?",
+    "bonne_reponse": "Respecter la loi française",
+    "distracteurs": [
+      "Suivre la loi de votre pays d'origine",
+      "Choisir la loi qui vous convient le mieux",
+      "Demander une dérogation à la préfecture"
+    ],
+    "explication": "La loi française s'applique à toutes les personnes qui vivent en France, quelle que soit leur nationalité. C'est une condition de la vie commune et de l'égalité de tous devant la loi.",
+    "sous_theme": "valeurs",
+    "difficulte": 1,
+    "source": "Code civil, art. 3",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 43,
+    "question": "Un ami vous dit que les personnes riches ont plus de droits devant la justice. Que dit la République ?",
+    "bonne_reponse": "Tous les citoyens sont égaux devant la loi",
+    "distracteurs": [
+      "Les personnes riches ont des tribunaux spéciaux",
+      "La loi est différente selon le niveau de revenus",
+      "Seuls les Français de naissance sont égaux devant la loi"
+    ],
+    "explication": "L'article 1er de la Constitution dit que la République « assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, de race ou de religion ». Les personnes qui ont peu d'argent peuvent obtenir l'aide juridictionnelle pour payer un avocat.",
+    "sous_theme": "valeurs",
+    "difficulte": 1,
+    "source": "Constitution du 4 octobre 1958, art. 1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 44,
+    "question": "Une famille veut ouvrir une école privée confessionnelle (religieuse). Est-ce possible en France ?",
+    "bonne_reponse": "Oui, sous le contrôle de l'État",
+    "distracteurs": [
+      "Non, toutes les écoles doivent être publiques",
+      "Non, la laïcité interdit toutes les écoles religieuses",
+      "Oui, et elle n'a aucune règle à respecter"
+    ],
+    "explication": "La liberté de l'enseignement permet d'ouvrir des écoles privées, y compris religieuses. Elles sont contrôlées par l'État. Les écoles sous contrat suivent les programmes officiels et accueillent tous les enfants, sans distinction de religion.",
+    "sous_theme": "laicite",
+    "difficulte": 3,
+    "source": "Code de l'éducation, art. L151-1 et L442-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 45,
+    "question": "Une enseignante d'une école publique veut parler de sa propre religion à ses élèves pour les convaincre. A-t-elle le droit ?",
+    "bonne_reponse": "Non, elle doit rester neutre devant ses élèves",
+    "distracteurs": [
+      "Oui, si les parents ne s'y opposent pas",
+      "Oui, pendant les heures de récréation",
+      "Oui, si elle parle aussi des autres religions"
+    ],
+    "explication": "Les enseignants de l'école publique sont des agents publics. Ils doivent respecter la neutralité religieuse et ne peuvent pas faire de propagande pour une religion ou une opinion. Ils peuvent enseigner le fait religieux de manière objective, dans le cadre des programmes.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "source": "Code général de la fonction publique, art. L121-2 ; Charte de la laïcité à l'École",
+    "a_verifier": false,
+    "note": ""
+  }
+]

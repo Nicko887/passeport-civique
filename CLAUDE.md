@@ -22,6 +22,7 @@ Application web **gratuite, open source, sans inscription** pour préparer l'exa
   - `js/markdown.js` : lecture des cours.
 - **Contenu modifiable :**
   - `contenu/qcm/<parcours>-<theme>.json` : bonne réponse, 3 distracteurs, explication, sous-thème, `a_verifier` ;
+  - `contenu/qcm/situations-<theme>.json` : mises en situation, **communes aux deux parcours** (identifiants `sit-<n>`, champ `s: 1` dans `data/`), avec un champ `source` (texte de loi). Numérotation : principes 1 à 50, droits 51 à 100 ;
   - `contenu/cours/<theme>.md` : cours en Markdown restreint ; les sections `## Titre {#id_sous_theme}` doivent avoir les mêmes identifiants que les sous-thèmes de `config.js`.
 - **Après chaque modification du contenu :** lancer `python outils/construire.py`, qui produit `data/*.json` et vérifie le contenu. Avant chaque publication, incrémenter `VERSION` dans `sw.js`.
 - **Tester en local :** `python -m http.server 8000`.
@@ -30,7 +31,14 @@ Application web **gratuite, open source, sans inscription** pour préparer l'exa
 
 ## Format de l'examen (dans `config.js`)
 
-40 questions en 45 minutes ; il faut 32 bonnes réponses pour réussir. Répartition par thème selon l'arrêté du 10 octobre 2025, d'après des sources secondaires : principes 11, institutions 6, droits 11, histoire 8, société 4. À confirmer sur Légifrance.
+40 questions en 45 minutes ; il faut 32 bonnes réponses pour réussir. Répartition **vérifiée sur Légifrance le 23/11/2026** (arrêté du 10 octobre 2025, art. 3, JORFTEXT000052381620), identique pour toutes les mentions :
+- principes 11 (devise et symboles 3, laïcité 2, **mises en situation 6**) ;
+- institutions 6 (démocratie et vote 3, organisation de la République 2, institutions européennes 1) ;
+- droits 11 (droits fondamentaux 2, obligations et devoirs 3, **mises en situation 6**) ;
+- histoire 8 (périodes et personnages 3, territoires et géographie 3, patrimoine 2) ;
+- société 4 (s'installer 1, soins 1, travail 1, autorité parentale et école 1).
+
+`EXAMEN.situations` dans `config.js` ; `tirerExamen` et `tirerModule` dans `data.js` respectent cette proportion. L'article 2 fixe le seuil de 80 % pour la mention naturalisation ; le seuil des autres mentions n'a pas été vérifié (l'appli applique 32/40 partout).
 
 ## État au 23/11/2026
 
@@ -44,9 +52,9 @@ Application web **gratuite, open source, sans inscription** pour préparer l'exa
 
 ## Prochaines étapes, validées par l'utilisateur
 
-1. **Les mises en situation** : environ 12 questions sur 40 au vrai examen, sans liste officielle. Commencer par vérifier sur Légifrance leur nombre et leur répartition, puis rédiger environ 100 questions (situation concrète, une seule bonne réponse, des distracteurs plausibles et pas absurdes, une explication), et les intégrer à l'examen blanc.
+1. ~~Les mises en situation~~ : **faites le 23/11/2026** (95 questions : 45 principes, 50 droits ; intégrées à l'examen blanc, à l'entraînement et aux écrans de thème). La bonne réponse est la plus longue dans 22 % des cas. Elles restent **à faire relire par l'utilisateur**.
 2. Plus tard, si l'utilisateur le demande :
-   - rééquilibrer la longueur des réponses : la bonne réponse est la plus longue dans environ 35 % des cas, l'objectif est 25 % ;
+   - rééquilibrer la longueur des réponses des questions officielles : `construire.py` affiche la part par fichier (de 18 à 51 % ; objectif 25 %) ;
    - ajouter une aide en plusieurs langues ;
    - ajouter des comptes facultatifs ;
    - enregistrer de vrais podcasts ;

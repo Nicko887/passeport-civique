@@ -179,6 +179,12 @@ h1:focus { outline: none; }
 .action-principale > span:nth-child(2) { flex: 1; display: grid; }
 .action-principale strong { font-size: 1.05rem; }
 .action-principale > span:last-child { font-size: 1.4rem; color: var(--primaire); }
+.action-principale.secondaire { border-color: var(--bord); }
+
+.badge-situation {
+  display: inline-block; padding: 1px 8px; border-radius: 999px;
+  background: var(--surface-2); color: var(--texte); font-weight: 650;
+}
 
 .grille-tuiles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
 @media (min-width: 560px) { .grille-tuiles { grid-template-columns: repeat(3, 1fr); } }

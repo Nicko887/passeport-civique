@@ -22,9 +22,48 @@ THEMES = {
 PARCOURS = {"naturalisation": "nat", "resident": "res"}
 
 
+def lire_fichier(fichier, theme, sous_themes, prefixe, situation, problemes, a_verifier, longueurs):
+    """Lit un fichier de questions et renvoie les questions au format de l'application."""
+    questions = []
+    plus_longue = 0
+    for item in json.loads(fichier.read_text(encoding="utf-8")):
+        ref = f"{fichier.name} #{item.get('src_id')}"
+        d = [x.strip() for x in item.get("distracteurs", [])]
+        a = item.get("bonne_reponse", "").strip()
+        if len(d) != 3 or len(set(d)) != 3 or a in d or not a:
+            problemes.append(f"{ref} : réponses invalides")
+            continue
+        if situation and not item.get("explication", "").strip():
+            problemes.append(f"{ref} : une mise en situation doit avoir une explication")
+        st = item.get("sous_theme")
+        if st not in sous_themes:
+            problemes.append(f"{ref} : sous-thème inconnu « {st} », remplacé par {sous_themes[0]}")
+            st = sous_themes[0]
+        if item.get("a_verifier"):
+            a_verifier.append(f"{ref} : {item.get('note', '')}")
+        if len(a) > max(len(x) for x in d):
+            plus_longue += 1
+        questions.append({
+            "id": f"{prefixe}-{item['src_id']}",
+            "t": theme,
+            "st": st,
+            "q": item["question"].strip(),
+            "a": a,
+            "d": d,
+            "e": item.get("explication", "").strip(),
+            "n": item.get("difficulte", 2),
+            **({"s": 1} if situation else {}),
+            **({"v": 1} if item.get("a_verifier") else {}),
+        })
+    if questions:
+        longueurs[fichier.name] = plus_longue / len(questions)
+    return questions
+
+
 def construire():
     problemes = []
     a_verifier = []
+    longueurs = {}
     for parcours, prefixe in PARCOURS.items():
         questions = []
         for theme, sous_themes in THEMES.items():
@@ -32,30 +71,15 @@ def construire():
             if not fichier.exists():
                 problemes.append(f"MANQUANT : {fichier.name}")
                 continue
-            for item in json.loads(fichier.read_text(encoding="utf-8")):
-                ref = f"{fichier.name} #{item.get('src_id')}"
-                d = [x.strip() for x in item.get("distracteurs", [])]
-                a = item.get("bonne_reponse", "").strip()
-                if len(d) != 3 or len(set(d)) != 3 or a in d or not a:
-                    problemes.append(f"{ref} : réponses invalides")
-                    continue
-                st = item.get("sous_theme")
-                if st not in sous_themes:
-                    problemes.append(f"{ref} : sous-thème inconnu « {st} », remplacé par {sous_themes[0]}")
-                    st = sous_themes[0]
-                if item.get("a_verifier"):
-                    a_verifier.append(f"{ref} : {item.get('note', '')}")
-                questions.append({
-                    "id": f"{prefixe}-{item['src_id']}",
-                    "t": theme,
-                    "st": st,
-                    "q": item["question"].strip(),
-                    "a": a,
-                    "d": d,
-                    "e": item.get("explication", "").strip(),
-                    "n": item.get("difficulte", 2),
-                    **({"v": 1} if item.get("a_verifier") else {}),
-                })
+            questions += lire_fichier(fichier, theme, sous_themes, prefixe, False,
+                                      problemes, a_verifier, longueurs)
+            # Mises en situation : communes aux deux parcours (même répartition pour toutes les mentions).
+            situations = QCM / f"situations-{theme}.json"
+            if situations.exists():
+                questions += lire_fichier(situations, theme, sous_themes, "sit", True,
+                                          problemes if parcours == "naturalisation" else [],
+                                          a_verifier if parcours == "naturalisation" else [],
+                                          longueurs)
         ids = [q["id"] for q in questions]
         if len(ids) != len(set(ids)):
             problemes.append(f"{parcours} : identifiants en double")
@@ -64,7 +88,12 @@ def construire():
             json.dumps({"parcours": parcours, "questions": questions}, ensure_ascii=False, separators=(",", ":")),
             encoding="utf-8",
         )
-        print(f"{parcours} : {len(questions)} questions")
+        nb_sit = sum(1 for q in questions if q.get("s"))
+        print(f"{parcours} : {len(questions)} questions, dont {nb_sit} mises en situation")
+
+    print("\nPart des questions où la bonne réponse est la plus longue (objectif : 25 % ou moins) :")
+    for nom, part in sorted(longueurs.items()):
+        print(f" - {nom} : {round(part * 100)} %")
 
     for p in problemes:
         print("PROBLÈME", p)

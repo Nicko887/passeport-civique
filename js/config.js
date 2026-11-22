@@ -100,13 +100,17 @@ export const THEMES = [
 export const themeById = (id) => THEMES.find((t) => t.id === id);
 
 // Format officiel : 40 questions, 45 minutes, 32 bonnes réponses (80 %) pour réussir.
-// Répartition par thème selon l'arrêté du 10 octobre 2025.
+// Répartition par thème selon l'article 3 de l'arrêté du 10 octobre 2025 (Légifrance, JORFTEXT000052381620),
+// identique pour toutes les mentions. Les 12 mises en situation sont comprises dans les totaux des thèmes.
 export const EXAMEN = {
   nbQuestions: 40,
   dureeMinutes: 45,
   seuil: 32,
   repartition: { principes: 11, institutions: 6, droits: 11, histoire: 8, societe: 4 },
+  situations: { principes: 6, droits: 6 },
 };
+
+export const NB_SITUATIONS = Object.values(EXAMEN.situations).reduce((a, b) => a + b, 0);
 
 // Examen par module : 10 questions, même rythme que l'examen réel.
 export const EXAMEN_MODULE = { nbQuestions: 10, secondesParQuestion: Math.round((45 * 60) / 40) };

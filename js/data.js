@@ -55,12 +55,35 @@ export function choisirSerie(questions, n) {
     .map((x) => x.q);
 }
 
+/**
+ * Tire n questions d'un thème, dont nSit mises en situation.
+ * S'il manque des questions d'un type, on complète avec l'autre.
+ */
+function tirerTheme(questions, theme, n, nSit) {
+  const duTheme = questions.filter((q) => q.t === theme);
+  const sit = melanger(duTheme.filter((q) => q.s)).slice(0, nSit);
+  const connaissances = melanger(duTheme.filter((q) => !q.s)).slice(0, n - sit.length);
+  const choix = [...connaissances, ...sit];
+  if (choix.length < n) {
+    const reste = melanger(duTheme.filter((q) => !choix.includes(q)));
+    choix.push(...reste.slice(0, n - choix.length));
+  }
+  return choix; // connaissances d'abord, puis mises en situation
+}
+
 export function tirerExamen(questions) {
   const choix = [];
   for (const [theme, n] of Object.entries(EXAMEN.repartition)) {
-    choix.push(...melanger(questions.filter((q) => q.t === theme)).slice(0, n));
+    choix.push(...tirerTheme(questions, theme, n, EXAMEN.situations[theme] || 0));
   }
   return choix; // regroupées par thème, comme à l'examen
+}
+
+/** Examen d'un seul module : même proportion de mises en situation que l'examen complet. */
+export function tirerModule(questions, theme, n) {
+  const total = EXAMEN.repartition[theme] || 1;
+  const nSit = Math.round((n * (EXAMEN.situations[theme] || 0)) / total);
+  return melanger(tirerTheme(questions, theme, n, nSit));
 }
 
 /** Statistiques d'un ensemble de questions. */

@@ -1,0 +1,802 @@
+[
+  {
+    "src_id": 51,
+    "question": "Des parents veulent marier leur fille de 17 ans à un homme qu'elle n'a pas choisi. Que dit la loi ?",
+    "bonne_reponse": "C'est interdit, c'est un mariage forcé",
+    "distracteurs": [
+      "C'est permis si les deux familles sont d'accord",
+      "C'est permis si le mariage a lieu à l'étranger",
+      "C'est permis si la fille signe un papier"
+    ],
+    "explication": "En France, on ne peut se marier qu'à partir de 18 ans et avec son libre consentement. Forcer quelqu'un à se marier est puni par la loi. On peut demander de l'aide au 3919 ou à la police.",
+    "sous_theme": "famille",
+    "difficulte": 1,
+    "source": "Code civil, art. 144 et 146 ; Code pénal, art. 222-14-4",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 52,
+    "question": "Un homme déjà marié veut épouser une deuxième femme en France. Est-ce possible ?",
+    "bonne_reponse": "Non, la polygamie est interdite en France",
+    "distracteurs": [
+      "Oui, si sa première femme est d'accord",
+      "Oui, si sa religion l'autorise",
+      "Oui, si les deux mariages ont lieu à la mairie"
+    ],
+    "explication": "On ne peut pas se marier une deuxième fois tant que le premier mariage n'est pas dissous (divorce ou décès). La bigamie est un délit. Un étranger polygame ne peut pas obtenir de carte de résident.",
+    "sous_theme": "famille",
+    "difficulte": 1,
+    "source": "Code civil, art. 147 ; Code pénal, art. 433-20",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 53,
+    "question": "Vous entendez votre voisine crier : son mari la frappe. Que faites-vous ?",
+    "bonne_reponse": "J'appelle le 17 pour prévenir la police",
+    "distracteurs": [
+      "Rien : ce qui se passe dans un couple est privé",
+      "J'attends le lendemain pour en parler au syndic",
+      "J'envoie un courrier à la mairie"
+    ],
+    "explication": "Les violences dans le couple sont des délits graves. En cas de danger, appelez le 17 (police) ou le 112. Le 3919 est un numéro gratuit et anonyme pour écouter et conseiller les victimes. Ne rien faire peut être puni (non-assistance à personne en danger).",
+    "sous_theme": "famille",
+    "difficulte": 1,
+    "source": "Code pénal, art. 222-13 et 223-6",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 54,
+    "question": "Un parent donne une gifle à son enfant pour le punir. Que dit la loi ?",
+    "bonne_reponse": "C'est interdit, même une seule gifle",
+    "distracteurs": [
+      "C'est permis si la gifle n'est pas trop forte",
+      "C'est permis à la maison, mais pas en public",
+      "C'est permis jusqu'aux 10 ans de l'enfant"
+    ],
+    "explication": "Depuis la loi du 10 juillet 2019, le Code civil dit que l'autorité parentale s'exerce « sans violences physiques ou psychologiques ». Les punitions avec des coups, même légers, sont interdites.",
+    "sous_theme": "famille",
+    "difficulte": 2,
+    "source": "Code civil, art. 371-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 55,
+    "question": "Vous êtes séparés. Le père de votre enfant veut le changer d'école sans vous demander. En a-t-il le droit ?",
+    "bonne_reponse": "Non, les grandes décisions se prennent à deux parents",
+    "distracteurs": [
+      "Oui, le père décide seul pour l'école",
+      "Oui, le parent qui paie la pension décide seul",
+      "Oui, si l'enfant a plus de 6 ans"
+    ],
+    "explication": "En général, les deux parents exercent ensemble l'autorité parentale, même séparés. Les décisions importantes (école, santé, religion, déménagement loin) doivent être prises par les deux. En cas de désaccord, on peut saisir le juge aux affaires familiales.",
+    "sous_theme": "famille",
+    "difficulte": 2,
+    "source": "Code civil, art. 372 et 373-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 56,
+    "question": "Une famille qui vit en France veut faire exciser sa fille pendant des vacances dans un autre pays. Que dit la loi française ?",
+    "bonne_reponse": "C'est puni par la loi française, même si c'est fait à l'étranger",
+    "distracteurs": [
+      "C'est permis si c'est la tradition du pays",
+      "C'est interdit seulement si c'est fait sur le sol français",
+      "C'est permis si un médecin le fait"
+    ],
+    "explication": "L'excision est une mutilation interdite. Sur une enfant de moins de 15 ans, c'est un crime puni de 15 ans de réclusion, et de 20 ans si l'auteur est un parent. La loi française s'applique même si l'acte a lieu à l'étranger, quand la victime mineure vit habituellement en France.",
+    "sous_theme": "famille",
+    "difficulte": 2,
+    "source": "Code pénal, art. 222-9, 222-10 et 222-16-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 57,
+    "question": "Votre fils aura 3 ans à la rentrée de septembre. Que dit la loi ?",
+    "bonne_reponse": "Il doit être instruit, en général à l'école maternelle",
+    "distracteurs": [
+      "L'école n'est obligatoire qu'à partir de 6 ans",
+      "Il peut aller à l'école seulement s'il parle français",
+      "Il doit attendre d'être propre pour être inscrit"
+    ],
+    "explication": "Depuis 2019, l'instruction est obligatoire de 3 à 16 ans pour tous les enfants qui vivent en France. La plupart des enfants vont à l'école maternelle dès 3 ans.",
+    "sous_theme": "famille",
+    "difficulte": 1,
+    "source": "Code de l'éducation, art. L131-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 58,
+    "question": "Un père qui a un fils et une fille dit que seul son fils héritera de sa maison. Que dit la loi ?",
+    "bonne_reponse": "Les enfants héritent de la même façon, filles et garçons",
+    "distracteurs": [
+      "Le fils aîné hérite toujours de la maison",
+      "Les filles reçoivent la moitié de la part des garçons",
+      "Le père choisit librement, sans aucune règle"
+    ],
+    "explication": "En France, les enfants héritent sans distinction de sexe. La loi protège une part minimale pour chaque enfant (la réserve héréditaire) : un parent ne peut pas déshériter totalement l'un de ses enfants.",
+    "sous_theme": "famille",
+    "difficulte": 2,
+    "source": "Code civil, art. 735 et 913",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 59,
+    "question": "Votre bébé est né hier à l'hôpital. Quelle démarche faut-il faire rapidement ?",
+    "bonne_reponse": "Déclarer la naissance à la mairie dans les 5 jours",
+    "distracteurs": [
+      "Déclarer la naissance à la préfecture dans les 3 mois",
+      "Déclarer la naissance à la CAF dans l'année",
+      "Aucune : l'hôpital fait tout automatiquement"
+    ],
+    "explication": "La naissance doit être déclarée à la mairie du lieu de naissance dans les 5 jours qui suivent l'accouchement. Parfois, une mairie annexe se trouve dans la maternité.",
+    "sous_theme": "famille",
+    "difficulte": 2,
+    "source": "Code civil, art. 55",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 60,
+    "question": "Vous pensez qu'un enfant de votre immeuble est maltraité par ses parents. Quel numéro pouvez-vous appeler ?",
+    "bonne_reponse": "Le 119, Allô enfance en danger",
+    "distracteurs": [
+      "Le 115, le Samu social",
+      "Le 3949, France Travail",
+      "Le 3646, l'Assurance maladie"
+    ],
+    "explication": "Le 119 est gratuit, anonyme et ouvert jour et nuit. Il reçoit les appels des enfants et des adultes inquiets pour un enfant. En cas de danger immédiat, appelez le 17 ou le 112.",
+    "sous_theme": "famille",
+    "difficulte": 1,
+    "source": "Code de l'action sociale et des familles, art. L226-6",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 61,
+    "question": "Votre enfant va entrer à la crèche. On vous demande son carnet de vaccination. Pourquoi ?",
+    "bonne_reponse": "Certains vaccins sont obligatoires",
+    "distracteurs": [
+      "Pour vérifier la nationalité de l'enfant",
+      "Pour calculer le prix de la crèche",
+      "C'est une demande facultative, sans règle"
+    ],
+    "explication": "Pour les enfants nés depuis 2018, 11 vaccins sont obligatoires. Ils sont nécessaires pour entrer en crèche, à l'école ou dans toute collectivité d'enfants.",
+    "sous_theme": "famille",
+    "difficulte": 2,
+    "source": "Code de la santé publique, art. L3111-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 62,
+    "question": "Une femme mariée veut ouvrir un compte bancaire et travailler. Doit-elle demander l'accord de son mari ?",
+    "bonne_reponse": "Non, elle est libre de le faire seule",
+    "distracteurs": [
+      "Oui, il doit signer une autorisation",
+      "Oui, mais seulement pour le compte bancaire",
+      "Non, mais elle doit prévenir la mairie"
+    ],
+    "explication": "Depuis la loi du 13 juillet 1965, une femme mariée peut ouvrir un compte bancaire et exercer un métier sans l'autorisation de son mari. Les époux ont les mêmes droits.",
+    "sous_theme": "egalite_fh",
+    "difficulte": 1,
+    "source": "Code civil, art. 221 et 223",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 63,
+    "question": "Vous découvrez qu'un collègue homme gagne plus que vous pour exactement le même travail. Que dit la loi ?",
+    "bonne_reponse": "L'employeur doit payer le même salaire pour le même travail",
+    "distracteurs": [
+      "L'employeur peut payer les hommes plus s'il le veut",
+      "C'est normal si le collègue a une famille à nourrir",
+      "La loi impose l'égalité seulement dans la fonction publique"
+    ],
+    "explication": "L'égalité de rémunération entre les femmes et les hommes est obligatoire : à travail égal, salaire égal. Vous pouvez en parler aux représentants du personnel, à l'inspection du travail ou au Défenseur des droits.",
+    "sous_theme": "egalite_fh",
+    "difficulte": 1,
+    "source": "Code du travail, art. L3221-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 64,
+    "question": "Au travail, votre chef vous fait sans cesse des remarques à caractère sexuel qui vous mettent mal à l'aise. Qu'est-ce que c'est ?",
+    "bonne_reponse": "Du harcèlement sexuel, puni par la loi",
+    "distracteurs": [
+      "Une forme normale d'humour au travail",
+      "Un problème privé entre deux personnes",
+      "Une faute seulement si vous êtes mariée"
+    ],
+    "explication": "Le harcèlement sexuel est un délit. La victime peut porter plainte, prévenir son employeur, l'inspection du travail ou le Défenseur des droits. L'employeur doit protéger ses salariés.",
+    "sous_theme": "egalite_fh",
+    "difficulte": 1,
+    "source": "Code pénal, art. 222-33 ; Code du travail, art. L1153-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 65,
+    "question": "Dans la rue, un homme suit une femme et lui fait des remarques sexuelles insistantes. Que dit la loi ?",
+    "bonne_reponse": "C'est un outrage sexiste, puni d'une amende",
+    "distracteurs": [
+      "C'est permis tant qu'il ne la touche pas",
+      "C'est seulement de la drague, sans conséquence",
+      "C'est interdit seulement la nuit"
+    ],
+    "explication": "Depuis 2018, la loi punit l'outrage sexiste : des propos ou comportements à connotation sexuelle ou sexiste qui humilient ou intimident une personne. La victime ou les témoins peuvent appeler le 17.",
+    "sous_theme": "egalite_fh",
+    "difficulte": 2,
+    "source": "Code pénal, art. R625-8-3 et 222-33-1-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 66,
+    "question": "Une femme majeure veut interrompre sa grossesse. Qui décide ?",
+    "bonne_reponse": "Elle seule, dans les délais prévus par la loi",
+    "distracteurs": [
+      "Son mari ou son compagnon",
+      "Ses parents et le médecin ensemble",
+      "Un juge, après une enquête"
+    ],
+    "explication": "L'interruption volontaire de grossesse (IVG) est un droit, possible jusqu'à la fin de la 14e semaine de grossesse. Depuis 2024, la Constitution garantit la liberté de la femme d'y avoir recours.",
+    "sous_theme": "egalite_fh",
+    "difficulte": 2,
+    "source": "Constitution, art. 34 ; Code de la santé publique, art. L2212-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 67,
+    "question": "Une femme veut divorcer, mais son mari refuse. Peut-elle quand même demander le divorce ?",
+    "bonne_reponse": "Oui, chaque époux peut demander le divorce",
+    "distracteurs": [
+      "Non, le mari doit toujours être d'accord",
+      "Non, seul le mari peut demander le divorce",
+      "Oui, mais seulement après 20 ans de mariage"
+    ],
+    "explication": "Chacun des époux peut demander le divorce, même si l'autre n'est pas d'accord. C'est le juge aux affaires familiales qui prononce alors le divorce.",
+    "sous_theme": "egalite_fh",
+    "difficulte": 1,
+    "source": "Code civil, art. 229",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 68,
+    "question": "Votre compagne vient d'accoucher. Vous êtes salarié. Que prévoit la loi pour vous ?",
+    "bonne_reponse": "Un congé de paternité et d'accueil de l'enfant",
+    "distracteurs": [
+      "Rien : seule la mère a droit à un congé",
+      "Un seul jour de congé, non payé",
+      "Un congé seulement si vous êtes marié"
+    ],
+    "explication": "Le père, ou la personne qui vit en couple avec la mère, a droit à un congé de paternité et d'accueil de l'enfant. Il n'est pas nécessaire d'être marié.",
+    "sous_theme": "egalite_fh",
+    "difficulte": 2,
+    "source": "Code du travail, art. L1225-35",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 69,
+    "question": "Lors d'un entretien d'embauche, une femme se voit refuser un poste parce qu'elle est enceinte. Que dit la loi ?",
+    "bonne_reponse": "C'est une discrimination interdite",
+    "distracteurs": [
+      "C'est permis si le poste est à temps plein",
+      "C'est permis si l'entreprise est petite",
+      "C'est permis si elle ne l'a pas dit tout de suite"
+    ],
+    "explication": "Un employeur ne peut pas refuser d'embaucher, licencier ou muter une femme à cause de sa grossesse. Une candidate n'a pas à dire qu'elle est enceinte.",
+    "sous_theme": "egalite_fh",
+    "difficulte": 1,
+    "source": "Code du travail, art. L1225-1 et L1225-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 70,
+    "question": "Un employeur vous propose de travailler « au noir », sans contrat ni déclaration. Que faut-il savoir ?",
+    "bonne_reponse": "C'est illégal et vous n'êtes pas protégé",
+    "distracteurs": [
+      "C'est légal si vous êtes d'accord tous les deux",
+      "C'est légal pour un travail de moins de 6 mois",
+      "C'est légal si le salaire est payé en espèces"
+    ],
+    "explication": "Le travail non déclaré (travail dissimulé) est interdit. Le salarié n'est pas protégé : pas de cotisations pour la retraite, pas d'assurance chômage, pas de protection en cas d'accident du travail.",
+    "sous_theme": "travail",
+    "difficulte": 1,
+    "source": "Code du travail, art. L8221-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 71,
+    "question": "Vous avez 30 ans et travaillez à temps plein. Votre employeur vous paie moins que le SMIC. A-t-il le droit ?",
+    "bonne_reponse": "Non, le salaire ne peut pas être inférieur au SMIC",
+    "distracteurs": [
+      "Oui, si vous êtes de nationalité étrangère",
+      "Oui, si vous avez signé votre contrat",
+      "Oui, pendant les deux premières années"
+    ],
+    "explication": "Le SMIC (salaire minimum interprofessionnel de croissance) est le salaire horaire minimum en France. Un salarié majeur ne peut pas être payé moins, quelle que soit sa nationalité.",
+    "sous_theme": "travail",
+    "difficulte": 1,
+    "source": "Code du travail, art. L3231-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 72,
+    "question": "Vous participez à une grève organisée dans votre entreprise. Que peut faire votre employeur ?",
+    "bonne_reponse": "Retenir le salaire des heures de grève",
+    "distracteurs": [
+      "Vous licencier immédiatement",
+      "Vous retirer vos congés payés",
+      "Vous payer quand même pour les heures de grève"
+    ],
+    "explication": "Le droit de grève est garanti par la Constitution. L'employeur peut retenir le salaire des heures non travaillées, mais il ne peut pas sanctionner ou licencier un salarié parce qu'il a fait grève (sauf faute lourde).",
+    "sous_theme": "travail",
+    "difficulte": 2,
+    "source": "Préambule de 1946, alinéa 7 ; Code du travail, art. L2511-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 73,
+    "question": "Vous travaillez à temps plein depuis un an chez le même employeur. Combien de semaines de congés payés avez-vous ?",
+    "bonne_reponse": "5 semaines par an",
+    "distracteurs": [
+      "2 semaines par an",
+      "3 semaines par an",
+      "Aucune la première année"
+    ],
+    "explication": "Chaque mois de travail donne droit à 2,5 jours ouvrables de congés payés, soit 30 jours ouvrables (5 semaines) pour une année complète.",
+    "sous_theme": "travail",
+    "difficulte": 1,
+    "source": "Code du travail, art. L3141-3",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 74,
+    "question": "Vous vous blessez sur votre lieu de travail. Que devez-vous faire ?",
+    "bonne_reponse": "Prévenir votre employeur dans les 24 heures",
+    "distracteurs": [
+      "Attendre la fin du mois pour en parler",
+      "Prévenir seulement votre médecin traitant",
+      "Rien, si la blessure n'est pas grave"
+    ],
+    "explication": "En cas d'accident du travail, le salarié doit informer son employeur dans la journée ou au plus tard dans les 24 heures. L'employeur doit ensuite le déclarer à la CPAM. Le salarié est alors mieux protégé.",
+    "sous_theme": "travail",
+    "difficulte": 2,
+    "source": "Code de la sécurité sociale, art. R441-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 75,
+    "question": "Votre employeur ne vous donne jamais de bulletin de paie. A-t-il le droit ?",
+    "bonne_reponse": "Non, il doit en remettre un à chaque paiement du salaire",
+    "distracteurs": [
+      "Oui, si le salaire est versé par virement",
+      "Oui, le bulletin est donné seulement à la demande",
+      "Oui, il suffit d'en donner un par an"
+    ],
+    "explication": "Le bulletin de paie (fiche de paie) est obligatoire. Il prouve votre travail et vos droits (retraite, chômage). Gardez-le toute votre vie.",
+    "sous_theme": "travail",
+    "difficulte": 1,
+    "source": "Code du travail, art. L3243-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 76,
+    "question": "Vous voulez adhérer à un syndicat. Votre employeur vous dit que c'est mal vu. Que dit la loi ?",
+    "bonne_reponse": "Vous êtes libre d'adhérer au syndicat de votre choix",
+    "distracteurs": [
+      "Il faut l'accord écrit de l'employeur",
+      "C'est réservé aux salariés de nationalité française",
+      "C'est possible seulement après 5 ans dans l'entreprise"
+    ],
+    "explication": "La liberté syndicale est garantie par la Constitution. L'employeur ne peut pas tenir compte de l'appartenance à un syndicat pour embaucher, payer, promouvoir ou licencier.",
+    "sous_theme": "travail",
+    "difficulte": 1,
+    "source": "Préambule de 1946, alinéa 6 ; Code du travail, art. L2141-5",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 77,
+    "question": "On vous propose un contrat à durée déterminée (CDD), mais l'employeur ne veut rien écrire. Que dit la loi ?",
+    "bonne_reponse": "Un CDD doit toujours être écrit",
+    "distracteurs": [
+      "Un accord oral suffit pour un CDD",
+      "Le contrat écrit est obligatoire seulement pour un CDI",
+      "Le contrat est écrit seulement si le salarié le demande"
+    ],
+    "explication": "Le CDD doit être écrit et remis au salarié dans les 2 jours ouvrables après l'embauche. Sans écrit, il peut être considéré comme un CDI (contrat à durée indéterminée).",
+    "sous_theme": "travail",
+    "difficulte": 3,
+    "source": "Code du travail, art. L1242-12 et L1242-13",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 78,
+    "question": "Votre médecin vous donne un arrêt de travail. Que devez-vous faire ?",
+    "bonne_reponse": "L'envoyer à la CPAM et à l'employeur sous 48 h",
+    "distracteurs": [
+      "Le garder chez vous jusqu'à votre retour au travail",
+      "L'envoyer seulement à la mairie",
+      "L'envoyer à la préfecture dans le mois"
+    ],
+    "explication": "L'avis d'arrêt de travail doit être envoyé dans les 48 heures : les volets 1 et 2 à la caisse d'assurance maladie (CPAM), le volet 3 à l'employeur. Souvent, le médecin envoie lui-même les volets à la CPAM en ligne.",
+    "sous_theme": "travail",
+    "difficulte": 2,
+    "source": "Code de la sécurité sociale, art. R321-2",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 79,
+    "question": "Votre employeur vous demande quelle maladie vous avez pendant votre arrêt de travail. Devez-vous répondre ?",
+    "bonne_reponse": "Non, votre maladie est protégée par le secret médical",
+    "distracteurs": [
+      "Oui, l'employeur a le droit de tout savoir",
+      "Oui, sinon vous ne serez pas payé",
+      "Oui, mais seulement si c'est une maladie grave"
+    ],
+    "explication": "Le volet de l'arrêt de travail envoyé à l'employeur n'indique pas la maladie. Le secret médical protège votre vie privée : vous n'avez pas à dire de quoi vous souffrez.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "source": "Code de la santé publique, art. L1110-4",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 80,
+    "question": "La police vous place en garde à vue. Quel droit avez-vous ?",
+    "bonne_reponse": "Celui d'être assisté par un avocat",
+    "distracteurs": [
+      "Celui de rentrer chez vous quand vous le voulez",
+      "Celui de choisir le policier qui vous interroge",
+      "Aucun droit avant le jugement"
+    ],
+    "explication": "En garde à vue, vous avez notamment le droit d'être assisté par un avocat, de garder le silence, d'être examiné par un médecin, de faire prévenir un proche et d'avoir un interprète si vous ne comprenez pas le français.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "source": "Code de procédure pénale, art. 63-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 81,
+    "question": "Votre voisin est accusé d'un vol, mais il n'a pas encore été jugé. Comment doit-on le considérer ?",
+    "bonne_reponse": "Comme innocent tant qu'il n'est pas condamné",
+    "distracteurs": [
+      "Comme coupable dès qu'une plainte est déposée",
+      "Comme coupable s'il a déjà eu des problèmes",
+      "Comme coupable s'il ne peut pas prouver son innocence"
+    ],
+    "explication": "C'est la présomption d'innocence : toute personne est considérée comme innocente tant que sa culpabilité n'a pas été prouvée et jugée par un tribunal.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "source": "Déclaration de 1789, art. 9 ; Code civil, art. 9-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 82,
+    "question": "Une connaissance publie sur internet une photo de vous, prise chez vous, sans votre accord. Que pouvez-vous faire ?",
+    "bonne_reponse": "Demander son retrait : c'est votre droit à l'image",
+    "distracteurs": [
+      "Rien : une photo publiée appartient à tout le monde",
+      "Rien, si la photo est jolie",
+      "Payer le site internet pour qu'il la supprime"
+    ],
+    "explication": "Chacun a droit au respect de sa vie privée et de son image. Vous pouvez demander le retrait de la photo à la personne et au site. Sinon, vous pouvez saisir la justice.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "source": "Code civil, art. 9 ; Code pénal, art. 226-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 83,
+    "question": "Vous êtes locataire. Votre propriétaire entre dans votre appartement quand vous n'êtes pas là, sans votre accord. A-t-il le droit ?",
+    "bonne_reponse": "Non, il doit avoir votre accord",
+    "distracteurs": [
+      "Oui, car l'appartement lui appartient",
+      "Oui, s'il a gardé une clé",
+      "Oui, une fois par mois pour vérifier"
+    ],
+    "explication": "Le domicile est protégé par la loi, même pour un locataire. Le propriétaire ne peut pas entrer sans votre accord. La violation de domicile est un délit.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "source": "Code pénal, art. 226-4",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 84,
+    "question": "Nous sommes en janvier. Votre propriétaire veut vous expulser parce que vous avez des loyers impayés. Que dit la loi ?",
+    "bonne_reponse": "L'expulsion est suspendue pendant la trêve hivernale",
+    "distracteurs": [
+      "Il peut vous expulser lui-même, à tout moment",
+      "Il peut couper l'eau pour vous obliger à partir",
+      "Il peut garder vos affaires jusqu'au paiement"
+    ],
+    "explication": "Pendant la trêve hivernale, du 1er novembre au 31 mars, les expulsions locatives sont suspendues (sauf exceptions). Une expulsion ne peut se faire qu'avec une décision de justice. Le propriétaire ne peut jamais expulser lui-même son locataire.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "source": "Code des procédures civiles d'exécution, art. L412-6",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 85,
+    "question": "Vous pensez qu'un policier a eu un comportement abusif envers vous. À qui pouvez-vous vous adresser ?",
+    "bonne_reponse": "Au Défenseur des droits",
+    "distracteurs": [
+      "Au maire de votre commune",
+      "À votre employeur",
+      "À votre banque"
+    ],
+    "explication": "Le Défenseur des droits contrôle le respect de la déontologie par les forces de sécurité (police, gendarmerie, etc.). Vous pouvez aussi porter plainte ou faire un signalement à l'inspection de la police (IGPN) ou de la gendarmerie (IGGN).",
+    "sous_theme": "justice_recours",
+    "difficulte": 2,
+    "source": "Loi organique n° 2011-333 du 29 mars 2011, art. 4",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 86,
+    "question": "Vous êtes témoin d'un accident de la route. Une personne est blessée. Que faites-vous ?",
+    "bonne_reponse": "J'appelle les secours (15, 18 ou 112)",
+    "distracteurs": [
+      "Je pars : ce n'est pas mon problème",
+      "Je déplace tout de suite le blessé chez moi",
+      "Je prends seulement une photo pour les réseaux sociaux"
+    ],
+    "explication": "Il faut alerter les secours : le 15 (SAMU), le 18 (pompiers) ou le 112 (numéro d'urgence européen). Ne pas aider une personne en danger, alors qu'on peut le faire sans risque, est un délit.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "source": "Code pénal, art. 223-6",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 87,
+    "question": "Vous recevez une lettre : vous êtes tiré au sort pour être juré à la cour d'assises. Que devez-vous faire ?",
+    "bonne_reponse": "Y participer, sauf motif grave accepté par la justice",
+    "distracteurs": [
+      "Refuser librement, sans donner de raison",
+      "Envoyer un membre de votre famille à votre place",
+      "Payer une taxe pour ne pas y aller"
+    ],
+    "explication": "Être juré est un devoir citoyen pour les Français. Un juré absent sans motif valable peut recevoir une amende de 3 750 €.",
+    "sous_theme": "devoirs",
+    "difficulte": 2,
+    "source": "Code de procédure pénale, art. 288",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 88,
+    "question": "Vous vivez en France et vous avez de faibles revenus. Devez-vous déclarer vos revenus aux impôts ?",
+    "bonne_reponse": "Oui, chaque année, même si vous ne payez pas d'impôt",
+    "distracteurs": [
+      "Non, seulement si vous gagnez plus que le SMIC",
+      "Non, seulement si vous êtes de nationalité française",
+      "Non, seulement si vous êtes propriétaire"
+    ],
+    "explication": "Toute personne qui a son domicile fiscal en France doit déclarer ses revenus chaque année. La déclaration est souvent utile pour obtenir des aides (logement, prestations sociales).",
+    "sous_theme": "devoirs",
+    "difficulte": 2,
+    "source": "Code général des impôts, art. 170",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 89,
+    "question": "Vous louez un appartement vide. Le propriétaire vous demande une attestation d'assurance. Est-ce obligatoire ?",
+    "bonne_reponse": "Oui, le locataire doit assurer son logement",
+    "distracteurs": [
+      "Non, c'est au propriétaire de tout assurer",
+      "Non, c'est seulement conseillé",
+      "Oui, mais seulement si vous avez des enfants"
+    ],
+    "explication": "Le locataire d'un logement vide doit s'assurer contre les risques locatifs (incendie, dégât des eaux, explosion) et en donner la preuve au propriétaire chaque année.",
+    "sous_theme": "devoirs",
+    "difficulte": 2,
+    "source": "Loi n° 89-462 du 6 juillet 1989, art. 7",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 90,
+    "question": "Lors d'un contrôle, un policier vous demande votre titre de séjour. Vous êtes étranger. Que devez-vous faire ?",
+    "bonne_reponse": "Le présenter, c'est une obligation",
+    "distracteurs": [
+      "Refuser : seuls les Français doivent montrer leurs papiers",
+      "Le montrer seulement s'il est accompagné d'un avocat",
+      "Le présenter le lendemain à la préfecture"
+    ],
+    "explication": "Un étranger doit pouvoir présenter les documents qui l'autorisent à séjourner en France quand les autorités le lui demandent. Gardez votre titre de séjour sur vous ou à portée de main.",
+    "sous_theme": "devoirs",
+    "difficulte": 2,
+    "source": "CESEDA, art. L812-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 91,
+    "question": "Un homme insulte un policier qui fait son travail. Que risque-t-il ?",
+    "bonne_reponse": "Des poursuites pour outrage",
+    "distracteurs": [
+      "Rien : c'est la liberté d'expression",
+      "Rien, si le policier n'est pas en uniforme",
+      "Seulement un rappel à la politesse"
+    ],
+    "explication": "Insulter ou menacer un policier, un gendarme, un enseignant ou un autre agent public pendant son travail est un délit d'outrage. Le respect des personnes qui représentent l'autorité publique est un devoir.",
+    "sous_theme": "devoirs",
+    "difficulte": 2,
+    "source": "Code pénal, art. 433-5",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 92,
+    "question": "Vous trouvez un portefeuille avec de l'argent dans la rue. Que devez-vous faire ?",
+    "bonne_reponse": "Le déposer aux objets trouvés, à la mairie ou à la police",
+    "distracteurs": [
+      "Le garder : ce qu'on trouve appartient à celui qui le trouve",
+      "Garder l'argent et jeter le portefeuille",
+      "Le donner à une association caritative"
+    ],
+    "explication": "Un objet perdu appartient toujours à son propriétaire. Il faut le rapporter au service des objets trouvés (souvent à la mairie) ou au commissariat. Garder un objet trouvé peut être puni.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "source": "service-public.fr : objets trouvés",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 93,
+    "question": "On vous vole votre téléphone dans le métro. Que faites-vous ?",
+    "bonne_reponse": "Je porte plainte au commissariat ou à la gendarmerie",
+    "distracteurs": [
+      "J'écris au maire pour qu'il retrouve mon téléphone",
+      "Je vais au tribunal pour demander un jugement",
+      "Je vais à la préfecture pour faire une déclaration"
+    ],
+    "explication": "Une victime d'infraction peut porter plainte dans n'importe quel commissariat ou gendarmerie. On peut faire une pré-plainte en ligne pour gagner du temps. Le dépôt de plainte est gratuit.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "source": "Code de procédure pénale, art. 15-3",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 94,
+    "question": "Vous devez aller devant un juge, mais vous n'avez pas assez d'argent pour payer un avocat. Que pouvez-vous demander ?",
+    "bonne_reponse": "L'aide juridictionnelle",
+    "distracteurs": [
+      "Le revenu de solidarité active (RSA)",
+      "L'allocation de rentrée scolaire",
+      "Un prêt à la banque de France"
+    ],
+    "explication": "L'aide juridictionnelle permet aux personnes qui ont de faibles revenus de faire payer par l'État tout ou partie des frais de justice et d'avocat.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "source": "Loi n° 91-647 du 10 juillet 1991",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 95,
+    "question": "Vous avez une question juridique sur votre bail et vous voulez un conseil gratuit. Où pouvez-vous aller ?",
+    "bonne_reponse": "Dans un point-justice",
+    "distracteurs": [
+      "À la cour d'assises",
+      "Au bureau de vote",
+      "À la Cour des comptes"
+    ],
+    "explication": "Les points-justice (dont les maisons de justice et du droit) offrent des informations et des conseils juridiques gratuits et confidentiels, avec des avocats, des juristes ou des associations.",
+    "sous_theme": "justice_recours",
+    "difficulte": 2,
+    "source": "justice.fr : points-justice",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 96,
+    "question": "Vous avez un conflit avec votre employeur au sujet de votre salaire. Quel tribunal pouvez-vous saisir ?",
+    "bonne_reponse": "Le conseil de prud'hommes",
+    "distracteurs": [
+      "Le tribunal administratif",
+      "La cour d'assises",
+      "Le Conseil constitutionnel"
+    ],
+    "explication": "Le conseil de prud'hommes règle les conflits entre un salarié et son employeur (salaire, licenciement, contrat de travail). Il cherche d'abord une conciliation.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "source": "Code du travail, art. L1411-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 97,
+    "question": "La préfecture refuse votre demande de titre de séjour. Vous pensez que c'est injuste. Que pouvez-vous faire ?",
+    "bonne_reponse": "La contester devant le tribunal administratif",
+    "distracteurs": [
+      "Rien : une décision de la préfecture est définitive",
+      "Saisir le conseil de prud'hommes",
+      "Demander au maire d'annuler la décision"
+    ],
+    "explication": "On peut contester une décision de l'administration : par un recours auprès de l'administration elle-même, puis devant le tribunal administratif. Les délais sont courts : lisez bien la lettre de refus, qui les indique.",
+    "sous_theme": "justice_recours",
+    "difficulte": 2,
+    "source": "Code de justice administrative, art. R421-1 ; CESEDA",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 98,
+    "question": "Vous avez un désaccord avec votre voisin à propos d'une haie. Vous voulez éviter un procès. Qui peut vous aider gratuitement ?",
+    "bonne_reponse": "Un conciliateur de justice",
+    "distracteurs": [
+      "Un huissier, qui décide à la place du juge",
+      "Le préfet de votre département",
+      "Le procureur de la République"
+    ],
+    "explication": "Le conciliateur de justice est un bénévole qui aide gratuitement à trouver un accord amiable dans les petits conflits (voisinage, consommation, location). On le trouve souvent à la mairie ou au tribunal.",
+    "sous_theme": "justice_recours",
+    "difficulte": 2,
+    "source": "Décret n° 78-381 du 20 mars 1978",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 99,
+    "question": "Vous pensez avoir été victime d'une discrimination à l'embauche. Quelle autorité peut vous aider gratuitement ?",
+    "bonne_reponse": "Le Défenseur des droits",
+    "distracteurs": [
+      "Le Conseil constitutionnel",
+      "Le Premier ministre",
+      "La Cour des comptes"
+    ],
+    "explication": "Le Défenseur des droits est une autorité indépendante. Il aide gratuitement les victimes de discriminations, en ligne, par téléphone (3928) ou auprès de ses délégués présents dans chaque département.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "source": "Constitution, art. 71-1",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 100,
+    "question": "Votre ex-conjoint ne paie plus la pension alimentaire fixée par le juge pour vos enfants. Qui peut vous aider ?",
+    "bonne_reponse": "La CAF ou la MSA",
+    "distracteurs": [
+      "Personne : il faut attendre qu'il recommence à payer",
+      "L'école de vos enfants",
+      "Le conseil de prud'hommes"
+    ],
+    "explication": "L'Agence de recouvrement et d'intermédiation des pensions alimentaires (ARIPA), gérée par la CAF et la MSA, peut récupérer les pensions impayées et verser en attendant une allocation de soutien familial. Ne pas payer une pension est aussi un délit (abandon de famille).",
+    "sous_theme": "famille",
+    "difficulte": 3,
+    "source": "Code de la sécurité sociale, art. L582-1 ; Code pénal, art. 227-3",
+    "a_verifier": false,
+    "note": ""
+  }
+]
