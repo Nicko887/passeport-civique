@@ -1,0 +1,587 @@
+[
+  {
+    "src_id": 1,
+    "question": "Complétez les paroles de la Marseillaise \"Allons enfants de la patrie...\"",
+    "bonne_reponse": "Le jour de gloire est arrivé",
+    "distracteurs": [
+      "Le temps de la paix est venu",
+      "La liberté est arrivée",
+      "Le jour de la fête est venu"
+    ],
+    "explication": "La Marseillaise commence par « Allons enfants de la patrie, le jour de gloire est arrivé ». Elle a été écrite par Rouget de Lisle en 1792 et c'est l'hymne national.",
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 2,
+    "question": "Dans le cadre d'un entretien d'embauche, que peut-on demander au candidat ?",
+    "bonne_reponse": "Des questions sur ses compétences et son expérience",
+    "distracteurs": [
+      "Des questions sur sa religion et ses opinions politiques",
+      "Des questions sur son projet d'avoir des enfants",
+      "Des questions sur son origine et celle de ses parents"
+    ],
+    "explication": "Un employeur peut seulement poser des questions liées au poste : compétences, diplômes, expérience. Interroger un candidat sur sa religion, sa famille ou son origine est une discrimination interdite.",
+    "sous_theme": "egalite",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Question hors du thème principal (embauche) : rattachée à la non-discrimination."
+  },
+  {
+    "src_id": 3,
+    "question": "Déclarer ses revenus aux services fiscaux est :",
+    "bonne_reponse": "Une obligation pour tous les contribuables",
+    "distracteurs": [
+      "Facultatif pour les personnes qui ne paient pas d'impôt",
+      "Obligatoire seulement pour les personnes de nationalité française",
+      "Obligatoire uniquement pour les propriétaires"
+    ],
+    "explication": "Chaque année, toute personne qui a des revenus en France doit les déclarer, même si elle ne paie finalement pas d'impôt.",
+    "sous_theme": "citoyennete",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Question hors du thème principal (fiscalité) : rattachée à la citoyenneté."
+  },
+  {
+    "src_id": 4,
+    "question": "En France, les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+    "bonne_reponse": "Ils financent les services publics comme l'école, la santé et la sécurité",
+    "distracteurs": [
+      "Ils servent uniquement à payer le salaire du Président",
+      "Ils sont reversés aux grandes entreprises privées",
+      "Ils financent seulement les fêtes nationales"
+    ],
+    "explication": "Les impôts payent les services publics utilisés par tous : écoles, hôpitaux, police, routes. Payer l'impôt est une forme de solidarité.",
+    "sous_theme": "citoyennete",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Question hors du thème principal (fiscalité) : rattachée à la citoyenneté."
+  },
+  {
+    "src_id": 5,
+    "question": "La liberté d'association est :",
+    "bonne_reponse": "Le droit de créer une association ou d'y adhérer librement",
+    "distracteurs": [
+      "Un droit réservé aux personnes de nationalité française",
+      "Un droit qui exige l'autorisation du préfet",
+      "Une obligation pour chaque habitant d'une commune"
+    ],
+    "explication": "La loi du 1er juillet 1901 permet à toute personne, française ou étrangère, de créer une association ou d'en devenir membre. Une simple déclaration suffit, aucune autorisation n'est demandée.",
+    "sous_theme": "libertes",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 6,
+    "question": "La liberté d'expression sur les réseaux sociaux en France est :",
+    "bonne_reponse": "Libre, mais les messages de haine ou de violence sont interdits",
+    "distracteurs": [
+      "Totale : on peut tout écrire sans aucun risque",
+      "Interdite pour les personnes de nationalité étrangère",
+      "Réservée aux journalistes et aux élus"
+    ],
+    "explication": "La liberté d'expression existe aussi sur internet, mais elle a des limites : l'injure, la diffamation, l'appel à la haine ou à la violence sont punis par la loi.",
+    "sous_theme": "libertes",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 7,
+    "question": "Lequel de ces prénoms évoque un symbole de la République ?",
+    "bonne_reponse": "Marianne",
+    "distracteurs": [
+      "Joséphine",
+      "Clotilde",
+      "Geneviève"
+    ],
+    "explication": "Marianne est une figure de femme qui représente la République française. On voit son buste dans les mairies et son visage sur les timbres.",
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 8,
+    "question": "Lequel de ces symboles représente la République française ?",
+    "bonne_reponse": "Le drapeau bleu, blanc, rouge",
+    "distracteurs": [
+      "La fleur de lys",
+      "L'aigle impérial",
+      "La couronne royale"
+    ],
+    "explication": "Le drapeau tricolore est l'emblème national prévu par l'article 2 de la Constitution. La fleur de lys et la couronne sont des symboles de la royauté, l'aigle est celui de l'Empire.",
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 9,
+    "question": "Où peut-on voir la devise de la République ?",
+    "bonne_reponse": "Sur la façade des mairies et des écoles publiques",
+    "distracteurs": [
+      "Sur les billets de banque en euros",
+      "Sur les plaques d'immatriculation des voitures",
+      "Sur les panneaux de signalisation routière"
+    ],
+    "explication": "La devise « Liberté, Égalité, Fraternité » est inscrite sur le fronton des bâtiments publics : mairies, écoles, tribunaux. On la trouve aussi sur certaines pièces de monnaie françaises.",
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 10,
+    "question": "Lesquels sont des symboles officiels de la République française ?",
+    "bonne_reponse": "Le drapeau tricolore, La Marseillaise et la devise",
+    "distracteurs": [
+      "Le drapeau tricolore, la fleur de lys et Marianne",
+      "La Marseillaise, la couronne royale et le 14 Juillet",
+      "La devise, la tour Eiffel et le drapeau tricolore"
+    ],
+    "explication": "La Constitution cite le drapeau, l'hymne et la devise. Marianne et le 14 Juillet sont aussi des symboles de la République. La fleur de lys, la couronne et la tour Eiffel n'en font pas partie.",
+    "sous_theme": "symboles",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 11,
+    "question": "Peut-on brûler publiquement un drapeau français ?",
+    "bonne_reponse": "Non, c'est interdit et puni par la loi",
+    "distracteurs": [
+      "Oui, c'est une forme de liberté d'expression",
+      "Oui, si c'est pendant une manifestation",
+      "Oui, si le drapeau appartient à la personne"
+    ],
+    "explication": "Outrager le drapeau tricolore en public, par exemple le brûler ou le détruire, est puni d'une amende, et d'une peine plus lourde pendant une manifestation.",
+    "sous_theme": "symboles",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 12,
+    "question": "Quand la sécurité sociale a-t-elle été établie en France ?",
+    "bonne_reponse": "En 1945",
+    "distracteurs": [
+      "En 1789",
+      "En 1905",
+      "En 1968"
+    ],
+    "explication": "La Sécurité sociale a été créée en 1945, à la fin de la Seconde Guerre mondiale. Elle protège chacun face à la maladie, la vieillesse ou les accidents : c'est un exemple de fraternité et de République sociale.",
+    "sous_theme": "valeurs",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Question hors du thème principal (histoire sociale) : rattachée à la République sociale et à la fraternité."
+  },
+  {
+    "src_id": 13,
+    "question": "Que commémore la fête nationale ?",
+    "bonne_reponse": "La prise de la Bastille et la fête de la Fédération",
+    "distracteurs": [
+      "La victoire de 1918 à la fin de la Première Guerre mondiale",
+      "La naissance de l'empereur Napoléon Bonaparte",
+      "La signature de la Constitution de la Ve République"
+    ],
+    "explication": "Le 14 Juillet rappelle la prise de la Bastille le 14 juillet 1789 et la fête de la Fédération le 14 juillet 1790, qui a célébré l'unité de la Nation.",
+    "sous_theme": "symboles",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 14,
+    "question": "Que porte Marianne sur la tête ?",
+    "bonne_reponse": "Un bonnet phrygien",
+    "distracteurs": [
+      "Une couronne de roi",
+      "Un casque de soldat",
+      "Un chapeau haut de forme"
+    ],
+    "explication": "Marianne porte un bonnet phrygien, souvent rouge. Pendant la Révolution, ce bonnet était un symbole de liberté.",
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 15,
+    "question": "Que signifie le mot 'fraternité' dans la devise française ?",
+    "bonne_reponse": "La solidarité et l'entraide entre tous les citoyens",
+    "distracteurs": [
+      "Le droit de penser et de dire ce que l'on veut",
+      "Le fait d'avoir les mêmes droits devant la loi",
+      "L'obligation de partager la même religion"
+    ],
+    "explication": "La fraternité, c'est voir l'autre comme un semblable et l'aider, malgré les différences. Penser librement correspond à la liberté, et les mêmes droits correspondent à l'égalité.",
+    "sous_theme": "valeurs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 16,
+    "question": "Quel symbole de la République peut-on voir sur les maillots de l'équipe de France de football ?",
+    "bonne_reponse": "Le coq gaulois",
+    "distracteurs": [
+      "Le lion",
+      "L'aigle",
+      "La fleur de lys"
+    ],
+    "explication": "Le coq est un symbole très populaire de la France, surtout dans le sport. Il n'est pas cité dans la Constitution, mais il figure sur le maillot de l'équipe de France.",
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Le coq n'est pas un symbole officiel au sens de la Constitution ; la question parle seulement de « symbole »."
+  },
+  {
+    "src_id": 17,
+    "question": "Quelle est la devise de l'Union européenne ?",
+    "bonne_reponse": "Unie dans la diversité",
+    "distracteurs": [
+      "Liberté, Égalité, Fraternité",
+      "Paix et prospérité",
+      "Ensemble, plus forts"
+    ],
+    "explication": "La devise de l'Union européenne est « Unie dans la diversité ». « Liberté, Égalité, Fraternité » est la devise de la République française.",
+    "sous_theme": "symboles",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 18,
+    "question": "Quelle est la devise de la République française ?",
+    "bonne_reponse": "Liberté, Égalité, Fraternité",
+    "distracteurs": [
+      "Travail, Famille, Patrie",
+      "Unie dans la diversité",
+      "Liberté, Justice, Solidarité"
+    ],
+    "explication": "La devise de la République est « Liberté, Égalité, Fraternité », inscrite à l'article 2 de la Constitution. « Travail, Famille, Patrie » était la devise du régime de Vichy pendant la Seconde Guerre mondiale.",
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 19,
+    "question": "Qu'est-ce que la liberté d'association ?",
+    "bonne_reponse": "Le droit de se regrouper librement autour d'un projet commun",
+    "distracteurs": [
+      "Le droit de créer une entreprise pour faire des bénéfices",
+      "L'obligation d'adhérer à un syndicat ou à un parti",
+      "Un droit réservé aux personnes de nationalité française"
+    ],
+    "explication": "Une association réunit des personnes autour d'un projet commun, sans chercher à faire des bénéfices à partager. Elle est régie par la loi du 1er juillet 1901 et ouverte aux Français comme aux étrangers.",
+    "sous_theme": "libertes",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 20,
+    "question": "Qu'est-ce qu'une liberté ?",
+    "bonne_reponse": "Le droit de faire tout ce qui ne nuit pas à autrui",
+    "distracteurs": [
+      "Le droit de faire tout ce que l'on veut, sans aucune limite",
+      "Le droit de ne pas respecter une loi qu'on trouve injuste",
+      "Un droit réservé aux personnes qui ont un travail"
+    ],
+    "explication": "Selon l'article 4 de la Déclaration des droits de l'homme et du citoyen de 1789, la liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui. Ses limites sont fixées par la loi.",
+    "sous_theme": "valeurs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 21,
+    "question": "Selon la Constitution, la France est une République...",
+    "bonne_reponse": "Indivisible, laïque, démocratique et sociale",
+    "distracteurs": [
+      "Fédérale, laïque, démocratique et sociale",
+      "Indivisible, chrétienne, démocratique et sociale",
+      "Indivisible, laïque, monarchique et libérale"
+    ],
+    "explication": "L'article 1er de la Constitution de 1958 dit : « La France est une République indivisible, laïque, démocratique et sociale. »",
+    "sous_theme": "valeurs",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 22,
+    "question": "Sur quel document peut-on voir Marianne ?",
+    "bonne_reponse": "Sur les timbres-poste",
+    "distracteurs": [
+      "Sur les billets de banque en euros",
+      "Sur les tickets de cinéma",
+      "Sur les étiquettes des produits alimentaires"
+    ],
+    "explication": "Le visage de Marianne figure sur les timbres, sur les pièces de 1, 2 et 5 centimes d'euro françaises et sur le logo des documents de l'administration. Les billets en euros sont communs à toute l'Europe et ne la montrent pas.",
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 23,
+    "question": "Une des valeurs de la devise républicaine est l'Égalité. Qu'est-ce que cela signifie ?",
+    "bonne_reponse": "Tous les citoyens ont les mêmes droits et les mêmes devoirs",
+    "distracteurs": [
+      "Toutes les personnes doivent gagner le même salaire",
+      "Toutes les personnes doivent avoir la même religion",
+      "Les personnes riches ont plus de droits devant la loi"
+    ],
+    "explication": "L'égalité signifie que la loi est la même pour tous, sans distinction d'origine, de religion ou de sexe. Cela ne veut pas dire que tout le monde a le même salaire.",
+    "sous_theme": "valeurs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 24,
+    "question": "Une personne peut-elle changer librement de religion en France ?",
+    "bonne_reponse": "Oui, c'est la liberté de conscience",
+    "distracteurs": [
+      "Non, il faut garder la religion de ses parents",
+      "Oui, mais seulement avec l'accord de la mairie",
+      "Non, sauf avec l'autorisation d'un juge"
+    ],
+    "explication": "En France, chacun est libre de croire, de ne pas croire ou de changer de religion. Personne n'a besoin d'une autorisation pour cela.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 25,
+    "question": "Selon le principe de laïcité, que signifie la neutralité de l'Etat ?",
+    "bonne_reponse": "L'État ne favorise aucune religion et traite tout le monde de la même façon",
+    "distracteurs": [
+      "L'État choisit une religion officielle pour tout le pays",
+      "L'État interdit toutes les religions dans la rue",
+      "L'État paie les responsables de toutes les religions"
+    ],
+    "explication": "La neutralité veut dire que l'État n'a pas de religion. Il ne favorise aucun culte et les services publics traitent tous les usagers de la même manière, quelle que soit leur croyance.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 26,
+    "question": "Que peut faire un usager du service public dans une mairie ?",
+    "bonne_reponse": "Se marier civilement",
+    "distracteurs": [
+      "Célébrer un mariage religieux",
+      "Faire baptiser son enfant",
+      "Passer l'examen du permis de conduire"
+    ],
+    "explication": "À la mairie, on peut se marier civilement, déclarer une naissance ou s'inscrire sur les listes électorales. Le mariage religieux se fait dans un lieu de culte, et seulement après le mariage civil.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 27,
+    "question": "En France, il est possible pour l'État de financer :",
+    "bonne_reponse": "La restauration d'une église classée monument historique",
+    "distracteurs": [
+      "Les cérémonies religieuses d'un culte",
+      "Les voyages de pèlerinage des fidèles",
+      "La publicité pour une religion"
+    ],
+    "explication": "La République ne finance pas les cultes. Mais elle peut payer l'entretien ou la restauration de bâtiments religieux classés, car ils font partie du patrimoine de tous.",
+    "sous_theme": "laicite",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": "Régime particulier en Alsace-Moselle (Concordat) : distracteurs choisis pour rester faux aussi dans ces départements."
+  },
+  {
+    "src_id": 28,
+    "question": "En quelle année la loi de séparation des Églises et de l'État a-t-elle été votée ?",
+    "bonne_reponse": "1905",
+    "distracteurs": [
+      "1789",
+      "1848",
+      "1958"
+    ],
+    "explication": "La loi de séparation des Églises et de l'État a été votée le 9 décembre 1905. C'est le texte fondateur de la laïcité en France.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 29,
+    "question": "Que dit la loi de 1905 ?",
+    "bonne_reponse": "Elle sépare les Églises et l'État",
+    "distracteurs": [
+      "Elle fait du catholicisme la religion officielle",
+      "Elle interdit toutes les religions en France",
+      "Elle oblige chacun à déclarer sa religion"
+    ],
+    "explication": "La loi de 1905 garantit la liberté de conscience et le libre exercice des cultes. Elle précise que la République ne reconnaît, ne salarie et ne subventionne aucun culte.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 30,
+    "question": "Que garantit le principe de laïcité ?",
+    "bonne_reponse": "La neutralité de l'État et la liberté de conscience",
+    "distracteurs": [
+      "La supériorité d'une religion sur les autres",
+      "L'interdiction de pratiquer une religion",
+      "L'obligation d'être athée pour voter"
+    ],
+    "explication": "La laïcité protège la liberté de chacun de croire ou de ne pas croire. L'État reste neutre et ne privilégie aucune religion.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 31,
+    "question": "Quel jour célèbre-t-on officiellement la laïcité en France ?",
+    "bonne_reponse": "Le 9 décembre",
+    "distracteurs": [
+      "Le 14 juillet",
+      "Le 8 mai",
+      "Le 11 novembre"
+    ],
+    "explication": "Le 9 décembre est la journée de la laïcité. Cette date rappelle le vote de la loi de séparation des Églises et de l'État, le 9 décembre 1905.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 32,
+    "question": "Quel symbole religieux peut être porté dans une école publique dans le respect de la laïcité ?",
+    "bonne_reponse": "Une petite croix ou une petite médaille discrète",
+    "distracteurs": [
+      "Un voile qui couvre les cheveux",
+      "Une grande croix portée sur les vêtements",
+      "Une kippa portée pendant les cours"
+    ],
+    "explication": "Depuis la loi du 15 mars 2004, les élèves des écoles, collèges et lycées publics ne peuvent pas porter de signes religieux ostensibles. Les signes discrets restent autorisés.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 33,
+    "question": "Quel terme désigne précisément la haine ou les préjugés contre les Juifs ?",
+    "bonne_reponse": "L'antisémitisme",
+    "distracteurs": [
+      "La xénophobie",
+      "L'homophobie",
+      "La misogynie"
+    ],
+    "explication": "L'antisémitisme désigne la haine ou les préjugés contre les Juifs. La xénophobie vise les étrangers, l'homophobie les personnes homosexuelles et la misogynie les femmes.",
+    "sous_theme": "egalite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 34,
+    "question": "Quel texte est considéré comme le texte fondateur de la laïcité ?",
+    "bonne_reponse": "La loi de 1905 de séparation des Églises et de l'État",
+    "distracteurs": [
+      "Le Concordat de 1801 signé avec le pape",
+      "Le Code civil de 1804 de Napoléon",
+      "La loi de 1901 sur les associations"
+    ],
+    "explication": "La loi du 9 décembre 1905 est le texte fondateur de la laïcité. Elle a mis fin au Concordat de 1801, qui organisait les liens entre l'État et l'Église catholique.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 35,
+    "question": "Quelle institution française doit rester neutre en matière de religion ?",
+    "bonne_reponse": "Les services publics, comme l'école ou la mairie",
+    "distracteurs": [
+      "Les associations religieuses",
+      "Les entreprises privées",
+      "Les partis politiques"
+    ],
+    "explication": "L'État, les collectivités et tous les services publics doivent rester neutres en matière de religion. Les associations, les entreprises et les partis ne sont pas soumis à cette obligation de la même façon.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 36,
+    "question": "Qu'est-ce que la laïcité ?",
+    "bonne_reponse": "La séparation de l'État et des religions",
+    "distracteurs": [
+      "L'interdiction de toutes les religions",
+      "L'obligation de pratiquer une religion",
+      "Le choix d'une religion officielle"
+    ],
+    "explication": "La laïcité sépare l'État et les religions. Elle garantit la liberté de conscience et permet de vivre ensemble, quelles que soient les croyances.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 37,
+    "question": "À l'école, la charte de la laïcité permet de :",
+    "bonne_reponse": "Expliquer aux élèves les règles et le sens de la laïcité",
+    "distracteurs": [
+      "Choisir la religion enseignée à tous les élèves",
+      "Organiser des temps de prière en classe",
+      "Dispenser certains élèves de cours selon leur religion"
+    ],
+    "explication": "La charte de la laïcité, affichée dans les écoles publiques depuis 2013, rappelle les règles de la laïcité et explique qu'elle protège la liberté des élèves.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 38,
+    "question": "Qui doit respecter et veiller à la neutralité religieuse dans les services publics ?",
+    "bonne_reponse": "Les agents du service public",
+    "distracteurs": [
+      "Uniquement les usagers du service public",
+      "Uniquement les responsables religieux",
+      "Les visiteurs et les patients des hôpitaux"
+    ],
+    "explication": "Les agents publics, par exemple les fonctionnaires, doivent être neutres : ils ne montrent pas leur religion au travail. Les usagers, eux, restent libres de porter un signe religieux.",
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 39,
+    "question": "Une personne déclare ne croire en aucun dieu. On peut dire :",
+    "bonne_reponse": "Elle est athée",
+    "distracteurs": [
+      "Elle est croyante",
+      "Elle est laïque",
+      "Elle est pratiquante"
+    ],
+    "explication": "Une personne athée ne croit en aucun dieu. Le mot « laïque » ne décrit pas une croyance : il désigne la neutralité de l'État vis-à-vis des religions.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  }
+]

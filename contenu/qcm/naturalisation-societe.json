@@ -1,0 +1,662 @@
+[
+  {
+    "src_id": 215,
+    "question": "Où faut-il déclarer la naissance d'un enfant ?",
+    "bonne_reponse": "À la mairie du lieu de naissance.",
+    "distracteurs": [
+      "À la préfecture du département.",
+      "Au commissariat de police.",
+      "À la Caisse d'allocations familiales."
+    ],
+    "explication": "La naissance se déclare au service de l'état civil de la mairie de la commune où l'enfant est né. La mairie établit ensuite l'acte de naissance.",
+    "sous_theme": "demarches",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 216,
+    "question": "Quelle action peut réaliser le locataire d'un logement sans l'autorisation du propriétaire ?",
+    "bonne_reponse": "Repeindre les murs ou poser du papier peint.",
+    "distracteurs": [
+      "Abattre une cloison entre deux pièces.",
+      "Construire une véranda sur le balcon.",
+      "Remplacer la chaudière par un autre modèle."
+    ],
+    "explication": "Le locataire peut faire des travaux de décoration sans autorisation. Pour les gros travaux qui transforment le logement, il doit avoir l'accord écrit du propriétaire.",
+    "sous_theme": "logement",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 217,
+    "question": "Quel mariage est reconnu légalement ?",
+    "bonne_reponse": "Le mariage civil, célébré à la mairie.",
+    "distracteurs": [
+      "Le mariage religieux, célébré dans un lieu de culte.",
+      "Le mariage coutumier, célébré en famille.",
+      "Le mariage signé chez un avocat, sans cérémonie."
+    ],
+    "explication": "En France, seul le mariage civil, célébré par le maire ou un adjoint à la mairie, a une valeur légale. Une cérémonie religieuse est possible, mais seulement après le mariage civil.",
+    "sous_theme": "demarches",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 218,
+    "question": "Le stationnement sur une place réservée aux personnes handicapées :",
+    "bonne_reponse": "Est réservé aux titulaires de la carte mobilité inclusion.",
+    "distracteurs": [
+      "Est autorisé à tous pendant moins de dix minutes, avec les feux allumés.",
+      "Est autorisé à tous les soirs et le dimanche.",
+      "Est réservé aux personnes âgées de plus de 70 ans."
+    ],
+    "explication": "Les places pour personnes handicapées sont réservées aux véhicules qui affichent la carte mobilité inclusion « stationnement ». Les autres conducteurs risquent une amende de 135 euros.",
+    "sous_theme": "vie_quotidienne",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 219,
+    "question": "Si une machine à laver est cassée, il est possible de :",
+    "bonne_reponse": "Faire jouer la garantie légale auprès du vendeur.",
+    "distracteurs": [
+      "Exiger un remboursement par le fabricant après 5 ans.",
+      "Demander une réparation gratuite à la mairie.",
+      "Porter plainte directement au commissariat de police."
+    ],
+    "explication": "Un appareil neuf est couvert par la garantie légale de conformité pendant 2 ans. Le vendeur doit alors le réparer ou le remplacer gratuitement.",
+    "sous_theme": "vie_quotidienne",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 220,
+    "question": "Dans quel cas faut-il déclarer son enfant au service d'état civil ?",
+    "bonne_reponse": "Toujours, dans les 5 jours suivant la naissance.",
+    "distracteurs": [
+      "Seulement si les parents sont mariés.",
+      "Seulement si l'enfant est né à la maison.",
+      "Seulement si un parent est de nationalité française."
+    ],
+    "explication": "La déclaration de naissance est obligatoire pour tous les enfants nés en France, quelle que soit la situation des parents. Elle se fait dans les 5 jours qui suivent la naissance.",
+    "sous_theme": "demarches",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 221,
+    "question": "Quand faut-il déclarer son enfant au service d'état civil ?",
+    "bonne_reponse": "Dans les 5 jours suivant la naissance.",
+    "distracteurs": [
+      "Dans les 2 mois suivant la naissance.",
+      "Avant le premier anniversaire de l'enfant.",
+      "Au moment de l'inscription à l'école."
+    ],
+    "explication": "La naissance doit être déclarée à la mairie dans les 5 jours. Le jour de la naissance n'est pas compté, et le délai est prolongé si le dernier jour tombe un week-end ou un jour férié.",
+    "sous_theme": "demarches",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 222,
+    "question": "Quel numéro d'urgence permet d'appeler la police ?",
+    "bonne_reponse": "Le 17.",
+    "distracteurs": [
+      "Le 15.",
+      "Le 18.",
+      "Le 119."
+    ],
+    "explication": "Le 17 permet d'appeler Police secours. Le 15 appelle le SAMU, le 18 les pompiers et le 119 l'enfance en danger. Le 112 est aussi un numéro d'urgence valable partout en Europe.",
+    "sous_theme": "vie_quotidienne",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Le 112 (numéro européen) est aussi une bonne réponse dans les suggestions : il n'est pas utilisé comme distracteur."
+  },
+  {
+    "src_id": 223,
+    "question": "Quel numéro d'urgence permet d'appeler le SAMU ?",
+    "bonne_reponse": "Le 15.",
+    "distracteurs": [
+      "Le 17.",
+      "Le 18.",
+      "Le 119."
+    ],
+    "explication": "Le 15 permet d'appeler le SAMU pour une urgence médicale. Le 17 appelle la police, le 18 les pompiers et le 119 l'enfance en danger.",
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Le 112 permet aussi de joindre les secours médicaux : il n'est pas utilisé comme distracteur."
+  },
+  {
+    "src_id": 224,
+    "question": "Auprès de quelle institution les parents peuvent inscrire leurs enfants à l'école publique ?",
+    "bonne_reponse": "La mairie.",
+    "distracteurs": [
+      "La préfecture.",
+      "La Caisse d'allocations familiales.",
+      "Le conseil départemental."
+    ],
+    "explication": "Pour l'école maternelle et l'école élémentaire publiques, les parents inscrivent d'abord leur enfant à la mairie. Ensuite, le directeur de l'école fait l'admission.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 225,
+    "question": "En cas de divorce, qui exerce l'autorité parentale ?",
+    "bonne_reponse": "Les deux parents, sauf décision contraire du juge.",
+    "distracteurs": [
+      "Uniquement la mère, dans tous les cas.",
+      "Uniquement le parent qui a le plus de revenus.",
+      "Uniquement le parent qui a demandé le divorce."
+    ],
+    "explication": "Le divorce sépare les époux, mais pas les parents de leurs enfants. Les deux parents gardent l'autorité parentale, sauf si le juge décide autrement dans l'intérêt de l'enfant.",
+    "sous_theme": "demarches",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 226,
+    "question": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
+    "bonne_reponse": "L'aide juridictionnelle.",
+    "distracteurs": [
+      "L'allocation de rentrée scolaire.",
+      "La prime d'activité.",
+      "L'aide personnalisée au logement."
+    ],
+    "explication": "L'aide juridictionnelle permet aux personnes qui ont de faibles revenus d'avoir un avocat payé en totalité ou en partie par l'État.",
+    "sous_theme": "demarches",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 227,
+    "question": "Qui peut demander le divorce de personnes mariées ?",
+    "bonne_reponse": "L'un des époux ou les deux époux.",
+    "distracteurs": [
+      "Seulement le mari.",
+      "Seulement le maire de la commune.",
+      "Seulement les parents des époux."
+    ],
+    "explication": "En France, le mari comme la femme peut demander le divorce, seul ou d'un commun accord. Les deux époux ont les mêmes droits.",
+    "sous_theme": "demarches",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 228,
+    "question": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
+    "bonne_reponse": "La Caisse primaire d'assurance maladie.",
+    "distracteurs": [
+      "La Caisse d'allocations familiales.",
+      "Le centre des finances publiques.",
+      "Le centre communal d'action sociale."
+    ],
+    "explication": "La Caisse primaire d'assurance maladie, ou Assurance Maladie, rembourse une partie des frais de santé : consultations, médicaments, examens.",
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 229,
+    "question": "La contraception :",
+    "bonne_reponse": "Est un droit garanti, y compris pour les mineurs.",
+    "distracteurs": [
+      "Est interdite aux personnes non mariées.",
+      "Est réservée aux femmes de plus de 25 ans.",
+      "Nécessite toujours l'accord des parents ou du conjoint."
+    ],
+    "explication": "Toute personne peut choisir librement d'utiliser une contraception, même si elle est mineure et sans l'accord de ses parents ou de son conjoint. Elle est prise en charge par l'Assurance Maladie.",
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 230,
+    "question": "Qu'est-ce que le principe de confidentialité dans le domaine de la santé ?",
+    "bonne_reponse": "Les soignants gardent secrètes les informations médicales.",
+    "distracteurs": [
+      "Le médecin doit informer l'employeur des maladies de ses patients.",
+      "Le patient doit garder secret le nom de son médecin.",
+      "Les informations médicales sont transmises à la mairie."
+    ],
+    "explication": "C'est le secret médical : le médecin et tous les soignants ne doivent pas révéler les informations de santé d'un patient, même à sa famille ou à son employeur.",
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 231,
+    "question": "À quoi sert la carte Vitale ?",
+    "bonne_reponse": "À prouver ses droits à l'Assurance Maladie.",
+    "distracteurs": [
+      "À payer ses achats dans les magasins et sur internet.",
+      "À prouver son identité lors d'un passage à la frontière.",
+      "À voter aux élections municipales."
+    ],
+    "explication": "La carte Vitale prouve que vous êtes assuré. Chez le médecin ou à la pharmacie, elle permet d'envoyer la feuille de soins par internet et d'être remboursé plus rapidement.",
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 232,
+    "question": "À quoi sert une mutuelle santé ?",
+    "bonne_reponse": "À compléter les remboursements de l'Assurance Maladie.",
+    "distracteurs": [
+      "À remplacer complètement l'Assurance Maladie pour tous les soins.",
+      "À payer les frais de scolarité des enfants.",
+      "À assurer sa voiture en cas d'accident."
+    ],
+    "explication": "L'Assurance Maladie ne rembourse qu'une partie des frais de santé. La mutuelle, ou complémentaire santé, paie tout ou partie du reste.",
+    "sous_theme": "sante",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 233,
+    "question": "Qu'est-ce que le tiers payant ?",
+    "bonne_reponse": "Ne pas avancer la part payée par l'Assurance Maladie.",
+    "distracteurs": [
+      "Le paiement des soins par une troisième personne de la famille.",
+      "Le droit de choisir un troisième médecin gratuitement.",
+      "Le remboursement des soins en trois versements."
+    ],
+    "explication": "Avec le tiers payant, vous ne payez pas au médecin ou au pharmacien la part prise en charge : l'Assurance Maladie, et parfois la mutuelle, le paient directement.",
+    "sous_theme": "sante",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 234,
+    "question": "L'inscription à l'Assurance maladie est :",
+    "bonne_reponse": "Obligatoire pour toute personne qui réside en France de façon stable et régulière.",
+    "distracteurs": [
+      "Facultative pour les personnes de nationalité étrangère qui vivent en France.",
+      "Réservée aux personnes qui ont un contrat de travail à durée indéterminée.",
+      "Possible seulement après dix ans de résidence en France."
+    ],
+    "explication": "Toute personne qui travaille ou qui réside en France de façon stable et régulière doit être affiliée à l'Assurance Maladie. C'est la protection universelle maladie.",
+    "sous_theme": "sante",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 235,
+    "question": "L'avortement est-il possible en France ?",
+    "bonne_reponse": "Oui, c'est une liberté garantie par la Constitution.",
+    "distracteurs": [
+      "Non, c'est interdit sauf en cas de danger pour la vie.",
+      "Oui, mais seulement pour les femmes mariées.",
+      "Oui, mais seulement avec l'accord du conjoint."
+    ],
+    "explication": "L'interruption volontaire de grossesse est légale en France jusqu'à 14 semaines de grossesse. Depuis 2024, la liberté d'y recourir est inscrite dans la Constitution.",
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 236,
+    "question": "Travailler sans être déclaré est :",
+    "bonne_reponse": "Une infraction pénale appelée travail dissimulé.",
+    "distracteurs": [
+      "Une pratique autorisée pour les petits emplois.",
+      "Une simple erreur administrative sans sanction.",
+      "Un choix libre entre le salarié et l'employeur."
+    ],
+    "explication": "Le travail « au noir » est un délit : l'employeur et parfois le travailleur peuvent être sanctionnés. Le salarié non déclaré n'a pas de protection sociale, ni de droits à la retraite ou au chômage.",
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 237,
+    "question": "Qu'est-ce que le SMIC ?",
+    "bonne_reponse": "Le salaire horaire minimum garanti en France.",
+    "distracteurs": [
+      "Une aide versée aux personnes sans emploi.",
+      "Le salaire moyen des fonctionnaires.",
+      "Un impôt payé par les entreprises."
+    ],
+    "explication": "SMIC veut dire salaire minimum interprofessionnel de croissance. Un employeur ne peut pas payer un salarié majeur moins que le SMIC.",
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 238,
+    "question": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
+    "bonne_reponse": "S'inscrire à France Travail.",
+    "distracteurs": [
+      "Demander une carte de travail à la mairie.",
+      "S'inscrire à la Caisse d'allocations familiales.",
+      "Ouvrir un compte à la Banque de France."
+    ],
+    "explication": "France Travail, anciennement Pôle emploi, accompagne les personnes qui cherchent un emploi : offres, conseils, formations et, sous conditions, allocations chômage.",
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 239,
+    "question": "Quelle est la durée légale du temps de travail par semaine ?",
+    "bonne_reponse": "35 heures.",
+    "distracteurs": [
+      "39 heures.",
+      "40 heures.",
+      "48 heures."
+    ],
+    "explication": "La durée légale du travail à temps plein est de 35 heures par semaine. Au-delà, les heures sont des heures supplémentaires, mieux payées.",
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "48 heures est le maximum absolu hebdomadaire, pas la durée légale : le distracteur reste faux pour cette question."
+  },
+  {
+    "src_id": 240,
+    "question": "Qui peut demander un congé parental d'éducation ?",
+    "bonne_reponse": "Tout salarié, père ou mère, après une naissance ou une adoption.",
+    "distracteurs": [
+      "Seulement la mère, après une naissance ou une adoption.",
+      "Seulement le parent qui gagne le moins dans le couple.",
+      "Seulement les fonctionnaires de l'État."
+    ],
+    "explication": "Le congé parental d'éducation est ouvert au père comme à la mère, après une naissance ou une adoption. Les deux parents peuvent le prendre en même temps ou l'un après l'autre.",
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 241,
+    "question": "Une personne étrangère, en situation régulière, peut créer son entreprise :",
+    "bonne_reponse": "Oui, si son titre de séjour l'y autorise.",
+    "distracteurs": [
+      "Non, c'est réservé aux personnes de nationalité française.",
+      "Non, sauf si elle est mariée à une personne française.",
+      "Oui, mais seulement après vingt ans de résidence."
+    ],
+    "explication": "Il n'est pas nécessaire d'être français pour créer une entreprise. La personne étrangère doit être en situation régulière, avec un titre de séjour qui permet cette activité.",
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 242,
+    "question": "Une femme peut-elle créer son entreprise ?",
+    "bonne_reponse": "Oui, sans aucune restriction.",
+    "distracteurs": [
+      "Oui, mais avec l'accord de son mari.",
+      "Oui, mais seulement dans certains métiers.",
+      "Non, sauf si elle a plus de 30 ans."
+    ],
+    "explication": "Les femmes et les hommes ont exactement les mêmes droits pour créer une entreprise. Aucune autorisation du conjoint n'est nécessaire.",
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 243,
+    "question": "Quels sont les textes qui définissent les règles au travail ?",
+    "bonne_reponse": "Le Code du travail, les conventions collectives et le règlement intérieur.",
+    "distracteurs": [
+      "Le Code de la route, le Code civil et le règlement de la mairie.",
+      "Le Code civil, le règlement de copropriété et les usages locaux.",
+      "Les statuts de l'association des salariés."
+    ],
+    "explication": "Le Code du travail fixe les règles générales. Les conventions collectives les complètent pour chaque secteur, et le règlement intérieur précise la discipline dans l'entreprise.",
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 244,
+    "question": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+    "bonne_reponse": "Les conflits entre un employeur et un salarié.",
+    "distracteurs": [
+      "Les conflits entre deux voisins.",
+      "Les conflits entre un locataire et son propriétaire.",
+      "Les conflits entre deux époux qui divorcent."
+    ],
+    "explication": "Le conseil de prud'hommes juge les litiges liés au contrat de travail : licenciement, salaire non payé, heures supplémentaires.",
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 245,
+    "question": "Qui a le droit de se syndiquer ?",
+    "bonne_reponse": "Tous les travailleurs, sans condition.",
+    "distracteurs": [
+      "Seulement les salariés de nationalité française.",
+      "Seulement les salariés en contrat à durée indéterminée.",
+      "Seulement les salariés qui ont plus de dix ans d'ancienneté."
+    ],
+    "explication": "La liberté syndicale est garantie par la Constitution. Tout salarié peut adhérer au syndicat de son choix, ou n'adhérer à aucun syndicat.",
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 246,
+    "question": "Est-il possible de licencier une femme enceinte ou en congé maternité, en raison de sa grossesse ?",
+    "bonne_reponse": "Non, cela est interdit par la loi.",
+    "distracteurs": [
+      "Oui, si l'entreprise compte moins de 10 salariés.",
+      "Oui, si la salariée est en période d'essai.",
+      "Oui, si l'employeur lui verse une indemnité."
+    ],
+    "explication": "Licencier une femme parce qu'elle est enceinte est une discrimination interdite. Pendant le congé maternité, la salariée est protégée contre le licenciement.",
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Distracteur « période d'essai » : même pendant l'essai, une rupture motivée par la grossesse est discriminatoire et interdite."
+  },
+  {
+    "src_id": 247,
+    "question": "L'instruction des enfants est obligatoire de :",
+    "bonne_reponse": "3 ans à 16 ans.",
+    "distracteurs": [
+      "6 ans à 16 ans.",
+      "3 ans à 14 ans.",
+      "5 ans à 18 ans."
+    ],
+    "explication": "Depuis 2019, l'instruction est obligatoire pour tous les enfants de 3 à 16 ans, qu'ils soient français ou étrangers. Ensuite, les jeunes de 16 à 18 ans ont une obligation de formation.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 248,
+    "question": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+    "bonne_reponse": "6 mois de prison et 7 500 euros d'amende.",
+    "distracteurs": [
+      "Un simple avertissement, sans amende.",
+      "15 jours de prison et 150 euros d'amende.",
+      "10 ans de prison et 150 000 euros d'amende."
+    ],
+    "explication": "Ne pas inscrire son enfant à l'école ou dans une autre forme d'instruction, après une mise en demeure, est un délit. Les parents risquent jusqu'à 6 mois de prison et 7 500 euros d'amende.",
+    "sous_theme": "education",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": "Article 227-17-1 du Code pénal. L'article 227-17, plus sévère (2 ans, 30 000 euros), vise les parents qui compromettent gravement la santé ou l'éducation de l'enfant : il n'est pas utilisé comme distracteur."
+  },
+  {
+    "src_id": 249,
+    "question": "Quelle est la définition de l'autorité parentale ?",
+    "bonne_reponse": "L'ensemble des droits et devoirs des parents envers leurs enfants.",
+    "distracteurs": [
+      "Le droit des enfants de prendre seuls toutes les décisions de la famille.",
+      "Le pouvoir du père seul sur toute la famille.",
+      "Le droit des enseignants de punir les élèves."
+    ],
+    "explication": "L'autorité parentale appartient au père et à la mère. Elle sert à protéger l'enfant, à assurer sa santé, sa sécurité et son éducation, jusqu'à sa majorité.",
+    "sous_theme": "education",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 250,
+    "question": "Quel motif d'absence est accepté par l'école ?",
+    "bonne_reponse": "La maladie de l'enfant.",
+    "distracteurs": [
+      "Un départ en vacances plus tôt pour avoir un billet moins cher.",
+      "L'anniversaire d'un camarade de classe.",
+      "L'envie de rester à la maison ce jour-là."
+    ],
+    "explication": "La loi accepte quelques motifs d'absence : maladie de l'enfant, maladie contagieuse dans la famille, réunion de famille importante comme un mariage ou un enterrement, ou problème de transport.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 251,
+    "question": "Jusqu'à quel âge l'école est-elle obligatoire ?",
+    "bonne_reponse": "Jusqu'à 16 ans.",
+    "distracteurs": [
+      "Jusqu'à 12 ans.",
+      "Jusqu'à 14 ans.",
+      "Jusqu'à 15 ans."
+    ],
+    "explication": "L'instruction est obligatoire jusqu'à 16 ans. Entre 16 et 18 ans, le jeune doit continuer à se former : lycée, apprentissage, emploi ou service civique.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "18 ans n'est pas utilisé comme distracteur pour éviter toute confusion avec l'obligation de formation de 16 à 18 ans."
+  },
+  {
+    "src_id": 252,
+    "question": "À quel âge commence l'instruction obligatoire des enfants ?",
+    "bonne_reponse": "À 3 ans.",
+    "distracteurs": [
+      "À 2 ans.",
+      "À 5 ans.",
+      "À 6 ans."
+    ],
+    "explication": "Depuis la rentrée 2019, l'instruction est obligatoire dès 3 ans. Avant, elle commençait à 6 ans.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 253,
+    "question": "Comment s'appellent les établissements scolaires que les élèves intègrent après l'école élémentaire ?",
+    "bonne_reponse": "Le collège.",
+    "distracteurs": [
+      "Le lycée.",
+      "L'école maternelle.",
+      "L'université."
+    ],
+    "explication": "Après l'école élémentaire, qui va du CP au CM2, les élèves entrent au collège vers 11 ans, pour 4 ans. Ensuite, ils vont au lycée.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 254,
+    "question": "En tant que parent d'élève, il est possible de :",
+    "bonne_reponse": "Voter aux élections des représentants de parents d'élèves.",
+    "distracteurs": [
+      "Choisir les professeurs de son enfant.",
+      "Modifier le programme scolaire de la classe de son enfant.",
+      "Assister aux cours dans la classe quand on le souhaite."
+    ],
+    "explication": "Les parents sont membres de la communauté éducative. Ils peuvent voter aux élections de parents d'élèves, se présenter, rejoindre une association et rencontrer les enseignants.",
+    "sous_theme": "education",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 255,
+    "question": "Quelle instruction est prévue pour les enfants qui ne parlent pas français ?",
+    "bonne_reponse": "Ils vont à l'école comme les autres et y apprennent le français.",
+    "distracteurs": [
+      "Ils doivent d'abord apprendre le français avant d'être inscrits.",
+      "Ils sont scolarisés uniquement dans des écoles privées.",
+      "Ils sont dispensés d'école jusqu'à ce qu'ils parlent français."
+    ],
+    "explication": "Tous les enfants ont le droit d'aller à l'école. Les élèves qui arrivent sans parler français sont inscrits dans une classe ordinaire et reçoivent des cours de français adaptés.",
+    "sous_theme": "education",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 256,
+    "question": "S'agissant de l'accueil des enfants en situation de handicap à l'école, laquelle des propositions est vraie ?",
+    "bonne_reponse": "Ils peuvent avoir un emploi du temps aménagé pour suivre leurs soins.",
+    "distracteurs": [
+      "Ils ne peuvent pas être inscrits dans une école ordinaire de leur quartier.",
+      "Ils doivent obligatoirement suivre les cours à la maison.",
+      "Ils sont scolarisés seulement à partir de 10 ans."
+    ],
+    "explication": "L'école est inclusive : elle s'adapte pour accueillir les enfants en situation de handicap, avec des aménagements et parfois un accompagnant, appelé AESH.",
+    "sous_theme": "education",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 257,
+    "question": "Depuis le 1er juillet 2021, quelle est la durée du congé paternité ?",
+    "bonne_reponse": "28 jours.",
+    "distracteurs": [
+      "11 jours.",
+      "3 mois.",
+      "6 mois."
+    ],
+    "explication": "Depuis le 1er juillet 2021, le congé de paternité et d'accueil de l'enfant dure 28 jours, dont 7 jours obligatoires. Avant, il durait 11 jours.",
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Durée de 28 jours (25 jours + 3 jours de congé de naissance). La loi de financement de la sécurité sociale pour 2026 a créé un congé de naissance supplémentaire : cela ne change pas la réponse à la question posée, mais le cours n'en parle pas."
+  },
+  {
+    "src_id": 258,
+    "question": "Est-ce possible de punir physiquement ses enfants ?",
+    "bonne_reponse": "Non, la loi interdit les violences physiques envers les enfants.",
+    "distracteurs": [
+      "Oui, si la punition reste légère et ne laisse pas de marque.",
+      "Oui, seulement à la maison, et jamais devant d'autres personnes.",
+      "Oui, si l'enfant a plus de 10 ans."
+    ],
+    "explication": "Depuis 2019, la loi interdit les violences éducatives ordinaires : pas de gifle, de fessée ni d'humiliation. L'autorité parentale s'exerce sans violence physique ni psychologique.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  }
+]

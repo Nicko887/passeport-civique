@@ -1,0 +1,827 @@
+[
+  {
+    "src_id": 40,
+    "question": "Comment est désigné le Premier ministre ?",
+    "bonne_reponse": "Il est nommé par le Président de la République.",
+    "distracteurs": [
+      "Il est élu directement par les citoyens.",
+      "Il est élu par les députés.",
+      "Il est choisi par les sénateurs."
+    ],
+    "explication": "La Constitution prévoit que le Président de la République nomme le Premier ministre. En pratique, il le choisit en tenant compte de la majorité à l'Assemblée nationale.",
+    "sous_theme": "executif",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 41,
+    "question": "Qui peut se présenter aux élections présidentielles ?",
+    "bonne_reponse": "Un citoyen français majeur qui a obtenu 500 parrainages d'élus.",
+    "distracteurs": [
+      "Uniquement un député ou un sénateur en fonction.",
+      "Un membre d'un parti politique âgé d'au moins 40 ans.",
+      "Toute personne qui vit en France depuis cinq ans."
+    ],
+    "explication": "Pour être candidat, il faut être français, majeur, avoir ses droits civiques et réunir 500 signatures d'élus, appelées parrainages.",
+    "sous_theme": "elections",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 42,
+    "question": "À qui appartient la souveraineté nationale ?",
+    "bonne_reponse": "Au peuple.",
+    "distracteurs": [
+      "Au Président de la République.",
+      "Au Gouvernement.",
+      "Au Conseil constitutionnel."
+    ],
+    "explication": "L'article 3 de la Constitution dit que la souveraineté nationale appartient au peuple. Il l'exerce par ses représentants élus et par le référendum.",
+    "sous_theme": "constitution",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 43,
+    "question": "Qui est élu lors des élections municipales ?",
+    "bonne_reponse": "Les conseillers municipaux.",
+    "distracteurs": [
+      "Les députés.",
+      "Les sénateurs.",
+      "Les conseillers régionaux."
+    ],
+    "explication": "Aux élections municipales, les électeurs élisent les conseillers municipaux. Ensuite, ces conseillers élisent le maire parmi eux.",
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 44,
+    "question": "L'inscription sur les listes électorales est :",
+    "bonne_reponse": "Obligatoire selon la loi, mais sans sanction.",
+    "distracteurs": [
+      "Payante chaque année.",
+      "Réservée aux propriétaires d'un logement.",
+      "Possible seulement à partir de 25 ans."
+    ],
+    "explication": "Le Code électoral dit que l'inscription est obligatoire, mais il n'y a pas d'amende. Sans inscription, on ne peut pas voter. Les jeunes de 18 ans sont en général inscrits automatiquement.",
+    "sous_theme": "elections",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 45,
+    "question": "Quelle condition est nécessaire pour voter aux élections présidentielles ?",
+    "bonne_reponse": "Être français, majeur et inscrit sur les listes électorales.",
+    "distracteurs": [
+      "Être né en France et avoir un emploi.",
+      "Être propriétaire de son logement.",
+      "Avoir plus de 21 ans et payer des impôts."
+    ],
+    "explication": "Pour voter à l'élection présidentielle, il faut avoir la nationalité française, au moins 18 ans, ses droits civiques et être inscrit sur les listes électorales.",
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 46,
+    "question": "Quelle condition faut-il remplir pour être candidat aux élections municipales ?",
+    "bonne_reponse": "Être français ou citoyen de l'Union européenne, et majeur.",
+    "distracteurs": [
+      "Être membre d'un parti politique.",
+      "Avoir au moins 30 ans.",
+      "Être né dans la commune."
+    ],
+    "explication": "Un candidat aux municipales doit avoir 18 ans et être français ou citoyen d'un autre pays de l'Union européenne. Il doit aussi avoir un lien avec la commune, comme y être électeur ou y payer des impôts locaux.",
+    "sous_theme": "elections",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 47,
+    "question": "Parmi ces autorités, laquelle est élue ?",
+    "bonne_reponse": "Le député.",
+    "distracteurs": [
+      "Le préfet.",
+      "Le recteur d'académie.",
+      "Le Premier ministre."
+    ],
+    "explication": "Les députés sont élus par les citoyens. Le préfet, le recteur et le Premier ministre ne sont pas élus : ils sont nommés.",
+    "sous_theme": "elections",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 48,
+    "question": "Quelles sont les fonctions du maire ?",
+    "bonne_reponse": "Il célèbre les mariages et veille à l'ordre public dans la commune.",
+    "distracteurs": [
+      "Il vote les lois avec les députés.",
+      "Il nomme le préfet du département.",
+      "Il juge les délits commis dans la commune."
+    ],
+    "explication": "Le maire est officier d'état civil : il célèbre les mariages. Il exécute les décisions du conseil municipal et il est responsable de la police municipale.",
+    "sous_theme": "collectivites",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 49,
+    "question": "Une personne, n'ayant pas d'accès à internet, veut s'inscrire sur les listes électorales pour pouvoir voter aux prochaines élections politiques. Où peut-elle s'inscrire ?",
+    "bonne_reponse": "À la mairie de son domicile.",
+    "distracteurs": [
+      "Au tribunal judiciaire.",
+      "Au commissariat de police.",
+      "À l'école la plus proche."
+    ],
+    "explication": "On peut s'inscrire en ligne, mais aussi en allant à la mairie ou en envoyant un courrier à la mairie de sa commune.",
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 50,
+    "question": "À quel âge peut-on devenir électeur ?",
+    "bonne_reponse": "À 18 ans.",
+    "distracteurs": [
+      "À 16 ans.",
+      "À 21 ans.",
+      "À 25 ans."
+    ],
+    "explication": "En France, on devient électeur à 18 ans, l'âge de la majorité. C'est le cas depuis 1974.",
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 51,
+    "question": "En France, est-ce obligatoire de voter ?",
+    "bonne_reponse": "Non, voter est un droit mais pas une obligation.",
+    "distracteurs": [
+      "Oui, sinon on paie une amende.",
+      "Oui, sinon on perd sa nationalité.",
+      "Oui, mais seulement pour l'élection présidentielle."
+    ],
+    "explication": "Voter est un droit et un devoir civique, mais personne n'est puni s'il ne vote pas. Seuls certains élus qui élisent les sénateurs ont l'obligation de voter.",
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 52,
+    "question": "A-t-on le droit de ne pas respecter une loi ?",
+    "bonne_reponse": "Non, chacun doit respecter la loi.",
+    "distracteurs": [
+      "Oui, si on n'est pas d'accord avec elle.",
+      "Oui, si on ne connaît pas cette loi.",
+      "Oui, si on n'a pas la nationalité française."
+    ],
+    "explication": "La loi s'applique à tous. Le principe « nul n'est censé ignorer la loi » signifie qu'on ne peut pas dire qu'on ne la connaissait pas pour éviter une sanction.",
+    "sous_theme": "constitution",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 53,
+    "question": "Comment sont désignés les députés ?",
+    "bonne_reponse": "Ils sont élus par les citoyens aux élections législatives.",
+    "distracteurs": [
+      "Ils sont nommés par le Président de la République.",
+      "Ils sont élus par les sénateurs.",
+      "Ils sont choisis par les maires du département."
+    ],
+    "explication": "Les députés sont élus au suffrage universel direct, c'est-à-dire directement par les électeurs, lors des élections législatives.",
+    "sous_theme": "parlement",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 54,
+    "question": "Qui vote les lois ?",
+    "bonne_reponse": "Le Parlement.",
+    "distracteurs": [
+      "Le Président de la République.",
+      "Le Premier ministre.",
+      "Le Conseil constitutionnel."
+    ],
+    "explication": "Le Parlement, c'est-à-dire l'Assemblée nationale et le Sénat, discute et vote les lois. Le Président les promulgue ensuite.",
+    "sous_theme": "parlement",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 55,
+    "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "bonne_reponse": "Les pouvoirs exécutif, législatif et judiciaire.",
+    "distracteurs": [
+      "Les pouvoirs militaire, religieux et économique.",
+      "Les pouvoirs national, régional et municipal.",
+      "Les pouvoirs médiatique, financier et politique."
+    ],
+    "explication": "Le pouvoir législatif fait les lois, le pouvoir exécutif les applique et le pouvoir judiciaire juge. Les séparer protège les libertés.",
+    "sous_theme": "constitution",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 56,
+    "question": "Qu'est-ce que l'État de droit ?",
+    "bonne_reponse": "Un système où tout le monde, y compris l'État, doit respecter le droit.",
+    "distracteurs": [
+      "Un système où le chef de l'État peut changer les lois seul.",
+      "Un système où seuls les citoyens doivent respecter la loi.",
+      "Un système où la police décide des peines sans juge."
+    ],
+    "explication": "Dans un État de droit, les autorités publiques doivent elles aussi respecter les lois. C'est le contraire de l'arbitraire et de la dictature.",
+    "sous_theme": "constitution",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 57,
+    "question": "Quelles sont les durées du mandat du conseil municipal et du maire ?",
+    "bonne_reponse": "6 ans.",
+    "distracteurs": [
+      "4 ans.",
+      "5 ans.",
+      "7 ans."
+    ],
+    "explication": "Les conseillers municipaux sont élus pour 6 ans. Le maire, élu par le conseil municipal, a donc lui aussi un mandat de 6 ans.",
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 58,
+    "question": "Qui est élu lors des élections législatives ?",
+    "bonne_reponse": "Les députés.",
+    "distracteurs": [
+      "Les sénateurs.",
+      "Les maires.",
+      "Les conseillers régionaux."
+    ],
+    "explication": "Les élections législatives servent à élire les 577 députés de l'Assemblée nationale.",
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 59,
+    "question": "Quelle est la durée du mandat du Président de la République française ?",
+    "bonne_reponse": "5 ans.",
+    "distracteurs": [
+      "4 ans.",
+      "6 ans.",
+      "7 ans."
+    ],
+    "explication": "Depuis 2002, le Président est élu pour 5 ans : c'est le quinquennat. Avant, le mandat durait 7 ans.",
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 60,
+    "question": "Quelle est la durée du mandat des députés ?",
+    "bonne_reponse": "5 ans.",
+    "distracteurs": [
+      "4 ans.",
+      "6 ans.",
+      "7 ans."
+    ],
+    "explication": "Les députés sont élus pour 5 ans, sauf si le Président dissout l'Assemblée nationale avant la fin du mandat.",
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 61,
+    "question": "Quelle est la durée du mandat des sénateurs ?",
+    "bonne_reponse": "6 ans.",
+    "distracteurs": [
+      "3 ans.",
+      "5 ans.",
+      "9 ans."
+    ],
+    "explication": "Les sénateurs sont élus pour 6 ans. La moitié du Sénat est renouvelée tous les 3 ans.",
+    "sous_theme": "elections",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 62,
+    "question": "Qui dirige l'action du gouvernement ?",
+    "bonne_reponse": "Le Premier ministre.",
+    "distracteurs": [
+      "Le président du Sénat.",
+      "Le président de l'Assemblée nationale.",
+      "Le président du Conseil constitutionnel."
+    ],
+    "explication": "L'article 21 de la Constitution dit que le Premier ministre dirige l'action du Gouvernement.",
+    "sous_theme": "executif",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 63,
+    "question": "En France, est-ce possible d'adhérer à un parti politique ?",
+    "bonne_reponse": "Oui, c'est une liberté garantie par la Constitution.",
+    "distracteurs": [
+      "Non, les partis politiques sont interdits.",
+      "Oui, mais seulement avec l'accord du préfet.",
+      "Oui, mais seulement à partir de 30 ans."
+    ],
+    "explication": "La Constitution dit que les partis politiques se forment et exercent leur activité librement. Chacun peut adhérer au parti de son choix.",
+    "sous_theme": "constitution",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 64,
+    "question": "Qui sanctionne l'auteur d'un vol ?",
+    "bonne_reponse": "Le juge, dans un tribunal.",
+    "distracteurs": [
+      "Le maire de la commune.",
+      "La victime elle-même.",
+      "Le préfet du département."
+    ],
+    "explication": "Seule la justice peut punir l'auteur d'une infraction. La police enquête, mais c'est un juge qui décide de la peine.",
+    "sous_theme": "justice",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 65,
+    "question": "Qui gère les collèges publics ?",
+    "bonne_reponse": "Le département.",
+    "distracteurs": [
+      "La commune.",
+      "La région.",
+      "L'Union européenne."
+    ],
+    "explication": "Le département construit et entretient les collèges publics. La commune s'occupe des écoles et la région des lycées.",
+    "sous_theme": "collectivites",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 66,
+    "question": "Qui gère les écoles primaires et maternelles publiques ?",
+    "bonne_reponse": "La commune.",
+    "distracteurs": [
+      "Le département.",
+      "La région.",
+      "Le préfet."
+    ],
+    "explication": "La commune construit et entretient les écoles maternelles et élémentaires publiques. L'État paie les enseignants.",
+    "sous_theme": "collectivites",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 67,
+    "question": "Comment sont désignés les maires ?",
+    "bonne_reponse": "Ils sont élus par le conseil municipal.",
+    "distracteurs": [
+      "Ils sont nommés par le préfet.",
+      "Ils sont nommés par le Président de la République.",
+      "Ils sont désignés par le député de la circonscription."
+    ],
+    "explication": "Les habitants élisent les conseillers municipaux. Puis les conseillers municipaux élisent le maire parmi eux.",
+    "sous_theme": "collectivites",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 68,
+    "question": "Quelle collectivité territoriale est responsable des transports régionaux ?",
+    "bonne_reponse": "La région.",
+    "distracteurs": [
+      "La commune.",
+      "Le département.",
+      "L'Union européenne."
+    ],
+    "explication": "La région organise les transports régionaux, comme les trains régionaux et les cars entre les villes. Elle gère aussi les lycées.",
+    "sous_theme": "collectivites",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 69,
+    "question": "Quelle est l'une des voies possibles pour modifier la Constitution ?",
+    "bonne_reponse": "Par référendum, c'est-à-dire par un vote des citoyens.",
+    "distracteurs": [
+      "Par un décret du Premier ministre.",
+      "Par une décision du Conseil constitutionnel.",
+      "Par un arrêté du préfet."
+    ],
+    "explication": "Une révision de la Constitution est votée par le Parlement, puis approuvée par référendum ou par le Congrès, qui réunit les députés et les sénateurs à Versailles.",
+    "sous_theme": "constitution",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 70,
+    "question": "Qui assure l'intérim du président de la République en cas de décès ?",
+    "bonne_reponse": "Le président du Sénat.",
+    "distracteurs": [
+      "Le Premier ministre.",
+      "Le président de l'Assemblée nationale.",
+      "Le ministre de l'Intérieur."
+    ],
+    "explication": "Si le Président meurt ou démissionne, le président du Sénat le remplace provisoirement jusqu'à une nouvelle élection.",
+    "sous_theme": "executif",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 71,
+    "question": "Quel est le rôle du Conseil constitutionnel ?",
+    "bonne_reponse": "Vérifier que les lois respectent la Constitution.",
+    "distracteurs": [
+      "Voter les lois avec le Parlement.",
+      "Juger les crimes les plus graves.",
+      "Conseiller le Président sur la politique étrangère."
+    ],
+    "explication": "Le Conseil constitutionnel contrôle que les lois sont conformes à la Constitution. Il veille aussi à la régularité des élections nationales.",
+    "sous_theme": "constitution",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 72,
+    "question": "Quelle condition est obligatoire pour se présenter à l'élection présidentielle ?",
+    "bonne_reponse": "Avoir recueilli 500 parrainages d'élus.",
+    "distracteurs": [
+      "Être membre d'un parti politique.",
+      "Avoir déjà été élu député.",
+      "Avoir au moins 40 ans."
+    ],
+    "explication": "Chaque candidat doit présenter au moins 500 signatures d'élus, comme des maires ou des parlementaires. Il doit aussi être français et majeur.",
+    "sous_theme": "elections",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 73,
+    "question": "Combien y a-t-il de départements en France ?",
+    "bonne_reponse": "101.",
+    "distracteurs": [
+      "90.",
+      "110.",
+      "120."
+    ],
+    "explication": "La France compte 101 départements : 96 en métropole et 5 en outre-mer, qui sont la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte.",
+    "sous_theme": "collectivites",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 74,
+    "question": "Comment est organisé le découpage administratif de la France ?",
+    "bonne_reponse": "En régions, départements et communes.",
+    "distracteurs": [
+      "En États, provinces et villes.",
+      "En cantons, comtés et villages.",
+      "En provinces, districts et quartiers."
+    ],
+    "explication": "Les trois grands niveaux de collectivités territoriales sont la région, le département et la commune.",
+    "sous_theme": "collectivites",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 75,
+    "question": "Qui représente l'État dans un département ?",
+    "bonne_reponse": "Le préfet.",
+    "distracteurs": [
+      "Le maire.",
+      "Le président du conseil départemental.",
+      "Le député."
+    ],
+    "explication": "Le préfet est nommé par le Gouvernement. Il représente l'État dans le département. Le président du conseil départemental, lui, dirige le département en tant que collectivité.",
+    "sous_theme": "collectivites",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 76,
+    "question": "Quel est le rôle du Président de la République ?",
+    "bonne_reponse": "Il est le chef de l'État et le garant de la Constitution.",
+    "distracteurs": [
+      "Il vote les lois avec les sénateurs.",
+      "Il juge les crimes les plus graves.",
+      "Il gère le budget de chaque commune."
+    ],
+    "explication": "Le Président veille au respect de la Constitution. Il nomme le Premier ministre, préside le Conseil des ministres, promulgue les lois et il est le chef des armées.",
+    "sous_theme": "executif",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 77,
+    "question": "Quel est le rôle du Premier ministre ?",
+    "bonne_reponse": "Il dirige l'action du Gouvernement.",
+    "distracteurs": [
+      "Il préside le Sénat.",
+      "Il nomme le Président de la République.",
+      "Il dirige les tribunaux."
+    ],
+    "explication": "Le Premier ministre dirige le Gouvernement et assure l'exécution des lois. Le Gouvernement est responsable devant l'Assemblée nationale.",
+    "sous_theme": "executif",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 78,
+    "question": "Quel est le rôle du Défenseur des droits ?",
+    "bonne_reponse": "Défendre les droits et libertés et lutter contre les discriminations.",
+    "distracteurs": [
+      "Défendre les accusés au tribunal comme un avocat.",
+      "Voter les lois sur les droits de l'homme.",
+      "Contrôler les comptes des communes."
+    ],
+    "explication": "Le Défenseur des droits est une autorité indépendante. On peut le saisir gratuitement en cas de problème avec une administration, de discrimination ou d'atteinte aux droits d'un enfant.",
+    "sous_theme": "justice",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 79,
+    "question": "En quelle année la citoyenneté européenne a-t-elle été créée ?",
+    "bonne_reponse": "En 1992, avec le traité de Maastricht.",
+    "distracteurs": [
+      "En 1957, avec le traité de Rome.",
+      "En 1979, avec la première élection du Parlement européen.",
+      "En 2002, avec l'arrivée de l'euro."
+    ],
+    "explication": "La citoyenneté européenne a été créée par le traité de Maastricht, signé en 1992 et entré en vigueur en 1993. Tout citoyen d'un pays membre est aussi citoyen européen.",
+    "sous_theme": "europe",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": "Traité signé en 1992, entré en vigueur le 1er novembre 1993 ; aucun distracteur ne propose 1993 pour éviter l'ambiguïté."
+  },
+  {
+    "src_id": 80,
+    "question": "Quel est le dernier Etat à avoir intégré l'Union Européenne en 2013 ?",
+    "bonne_reponse": "La Croatie.",
+    "distracteurs": [
+      "La Roumanie.",
+      "La Bulgarie.",
+      "La Pologne."
+    ],
+    "explication": "La Croatie est entrée dans l'Union européenne le 1er juillet 2013. La Roumanie et la Bulgarie sont entrées en 2007, la Pologne en 2004.",
+    "sous_theme": "europe",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 81,
+    "question": "Qui a composé l'hymne de l'Union européenne ?",
+    "bonne_reponse": "Ludwig van Beethoven.",
+    "distracteurs": [
+      "Wolfgang Amadeus Mozart.",
+      "Jean-Sébastien Bach.",
+      "Giuseppe Verdi."
+    ],
+    "explication": "L'hymne européen vient de la Neuvième symphonie de Beethoven. Il s'appelle l'Ode à la joie.",
+    "sous_theme": "europe",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 82,
+    "question": "Quand est célébrée la journée de l'Europe ?",
+    "bonne_reponse": "Le 9 mai.",
+    "distracteurs": [
+      "Le 1er mai.",
+      "Le 8 mai.",
+      "Le 14 juillet."
+    ],
+    "explication": "Le 9 mai rappelle la déclaration de Robert Schuman du 9 mai 1950, qui a lancé la construction européenne.",
+    "sous_theme": "europe",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 83,
+    "question": "Où est le siège de la Banque centrale européenne ?",
+    "bonne_reponse": "À Francfort.",
+    "distracteurs": [
+      "À Bruxelles.",
+      "À Paris.",
+      "À Rome."
+    ],
+    "explication": "La Banque centrale européenne est à Francfort, en Allemagne. Elle gère l'euro.",
+    "sous_theme": "europe",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 84,
+    "question": "Où est le siège de la Commission européenne ?",
+    "bonne_reponse": "À Bruxelles.",
+    "distracteurs": [
+      "À Strasbourg.",
+      "À Genève.",
+      "À Rome."
+    ],
+    "explication": "La Commission européenne siège à Bruxelles, en Belgique. Elle propose les lois européennes et veille à leur application.",
+    "sous_theme": "europe",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 85,
+    "question": "Qui siège au Parlement européen ?",
+    "bonne_reponse": "Des députés européens élus par les citoyens des pays membres.",
+    "distracteurs": [
+      "Les chefs d'État et de gouvernement des pays membres.",
+      "Des ministres nommés par chaque pays.",
+      "Des juges choisis par la Commission européenne."
+    ],
+    "explication": "Le Parlement européen est composé de députés européens élus directement par les citoyens de l'Union européenne, tous les 5 ans.",
+    "sous_theme": "europe",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 86,
+    "question": "Les citoyens de l'Union européenne peuvent-ils voter aux élections locales dans un autre Etat de l'Union ?",
+    "bonne_reponse": "Oui, aux élections municipales et européennes.",
+    "distracteurs": [
+      "Non, seuls les nationaux peuvent voter.",
+      "Oui, à toutes les élections, même présidentielles.",
+      "Oui, mais seulement après dix ans de résidence."
+    ],
+    "explication": "Un citoyen européen qui habite dans un autre pays de l'Union peut y voter aux élections municipales et européennes. Il ne vote pas aux élections nationales de ce pays.",
+    "sous_theme": "europe",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 87,
+    "question": "Combien d'États font partie de l'Union européenne au 1er janvier 2025 ?",
+    "bonne_reponse": "27.",
+    "distracteurs": [
+      "25.",
+      "28.",
+      "30."
+    ],
+    "explication": "L'Union européenne compte 27 pays membres depuis le départ du Royaume-Uni en 2020.",
+    "sous_theme": "europe",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 88,
+    "question": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+    "bonne_reponse": "En 1992.",
+    "distracteurs": [
+      "En 1957.",
+      "En 1986.",
+      "En 2002."
+    ],
+    "explication": "Le traité de Maastricht a été signé le 7 février 1992. Il a créé l'Union européenne et préparé l'euro.",
+    "sous_theme": "europe",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 89,
+    "question": "Quel traité concerne la construction de l'Union européenne ?",
+    "bonne_reponse": "Le traité de Maastricht.",
+    "distracteurs": [
+      "Le traité de Versailles.",
+      "Le traité de Westphalie.",
+      "Le traité de Francfort."
+    ],
+    "explication": "Le traité de Maastricht, signé en 1992, a créé l'Union européenne. Avant lui, le traité de Rome de 1957 avait créé la Communauté économique européenne.",
+    "sous_theme": "europe",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 90,
+    "question": "Quel État a quitté l'Union Européenne en 2020 ?",
+    "bonne_reponse": "Le Royaume-Uni.",
+    "distracteurs": [
+      "La Grèce.",
+      "Le Danemark.",
+      "L'Irlande."
+    ],
+    "explication": "Après un référendum en 2016, le Royaume-Uni a quitté l'Union européenne le 31 janvier 2020. On appelle cela le Brexit.",
+    "sous_theme": "europe",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 91,
+    "question": "Quel est l'hymne de l'Union Européenne ?",
+    "bonne_reponse": "L'Ode à la joie.",
+    "distracteurs": [
+      "La Marseillaise.",
+      "L'Internationale.",
+      "Le Beau Danube bleu."
+    ],
+    "explication": "L'hymne européen est l'Ode à la joie, extraite de la Neuvième symphonie de Beethoven. La Marseillaise est l'hymne de la France.",
+    "sous_theme": "europe",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 92,
+    "question": "De quoi est composé le drapeau européen ?",
+    "bonne_reponse": "Un cercle de 12 étoiles dorées sur fond bleu.",
+    "distracteurs": [
+      "27 étoiles blanches sur fond bleu.",
+      "12 étoiles bleues sur fond jaune.",
+      "Une croix jaune sur fond bleu."
+    ],
+    "explication": "Le drapeau européen a toujours 12 étoiles, quel que soit le nombre de pays. Le chiffre 12 et le cercle sont des symboles d'unité et de perfection.",
+    "sous_theme": "europe",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 93,
+    "question": "Qui élit les députés européens ?",
+    "bonne_reponse": "Les citoyens des pays membres.",
+    "distracteurs": [
+      "Les députés nationaux de chaque pays.",
+      "Les chefs d'État des pays membres.",
+      "La Commission européenne."
+    ],
+    "explication": "Les députés européens sont élus au suffrage universel direct par les citoyens de l'Union, tous les 5 ans.",
+    "sous_theme": "europe",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 94,
+    "question": "Où est le siège du Parlement européen ?",
+    "bonne_reponse": "À Strasbourg.",
+    "distracteurs": [
+      "À Paris.",
+      "À Genève.",
+      "À Francfort."
+    ],
+    "explication": "Le siège officiel du Parlement européen est à Strasbourg, en France. Les grandes sessions de vote s'y déroulent.",
+    "sous_theme": "europe",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  }
+]

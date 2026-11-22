@@ -1,0 +1,1247 @@
+[
+  {
+    "src_id": 132,
+    "question": "Parmi ces textes, lequel a été adopté sous Napoléon Ier ?",
+    "bonne_reponse": "Le Code civil",
+    "distracteurs": [
+      "La Déclaration des droits de l'homme et du citoyen",
+      "La Constitution de la Ve République",
+      "L'édit de Nantes"
+    ],
+    "explication": "Le Code civil est adopté en 1804 sous Napoléon Bonaparte. Il organise encore aujourd'hui les règles de la vie civile : famille, propriété, contrats.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 133,
+    "question": "Qui a été président de la Ve République ?",
+    "bonne_reponse": "Charles de Gaulle",
+    "distracteurs": [
+      "Napoléon III",
+      "Adolphe Thiers",
+      "Vincent Auriol"
+    ],
+    "explication": "Charles de Gaulle est le premier président de la Ve République, de 1959 à 1969. Les autres ont dirigé la France à d'autres époques.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 134,
+    "question": "Quel est l'objectif des lois scolaires de la IIIe République ?",
+    "bonne_reponse": "Rendre l'école publique gratuite, laïque et obligatoire",
+    "distracteurs": [
+      "Rendre l'enseignement religieux obligatoire à l'école",
+      "Réserver l'école publique aux enfants des villes",
+      "Créer le baccalauréat pour tous les élèves"
+    ],
+    "explication": "Les lois de Jules Ferry de 1881 et 1882 rendent l'école primaire publique gratuite, laïque et obligatoire pour les filles et les garçons.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 135,
+    "question": "Que signifie la date du 14 juillet pour les Français ?",
+    "bonne_reponse": "La fête nationale : la prise de la Bastille et la fête de la Fédération",
+    "distracteurs": [
+      "La fin de la Première Guerre mondiale",
+      "La naissance de la Ve République",
+      "L'abolition de l'esclavage"
+    ],
+    "explication": "Le 14 juillet est la fête nationale. Il rappelle la prise de la Bastille le 14 juillet 1789 et la fête de la Fédération, fête de l'unité nationale, le 14 juillet 1790.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 136,
+    "question": "Pourquoi l'année 1958 est importante pour la France ?",
+    "bonne_reponse": "Elle marque la naissance de la Ve République",
+    "distracteurs": [
+      "Elle marque la fin de la Seconde Guerre mondiale",
+      "Elle marque l'arrivée de l'euro en France",
+      "Elle marque la fin de la monarchie"
+    ],
+    "explication": "La Constitution de la Ve République est adoptée par référendum le 28 septembre 1958 et promulguée le 4 octobre 1958. C'est toujours notre Constitution.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 137,
+    "question": "Lequel de ces pays est un pays fondateur de l'Union Européenne ?",
+    "bonne_reponse": "L'Italie",
+    "distracteurs": [
+      "L'Espagne",
+      "Le Royaume-Uni",
+      "La Pologne"
+    ],
+    "explication": "Les six pays fondateurs sont la France, l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. L'Espagne et la Pologne sont entrées plus tard ; le Royaume-Uni est sorti en 2020.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 138,
+    "question": "Simone Veil est une figure importante de l'histoire française. Elle a notamment :",
+    "bonne_reponse": "Fait voter la loi autorisant l'avortement en France",
+    "distracteurs": [
+      "Fait voter l'abolition de la peine de mort",
+      "Obtenu le droit de vote des femmes",
+      "Créé la Sécurité sociale"
+    ],
+    "explication": "Ministre de la Santé, Simone Veil fait voter en 1975 la loi sur l'interruption volontaire de grossesse (IVG). Rescapée d'Auschwitz, elle repose au Panthéon.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 139,
+    "question": "Dans quelle région est située une partie des plages du débarquement ayant permis d'engager la libération de la France ?",
+    "bonne_reponse": "La Normandie",
+    "distracteurs": [
+      "La Bretagne",
+      "Les Hauts-de-France",
+      "La Nouvelle-Aquitaine"
+    ],
+    "explication": "Le 6 juin 1944, les Alliés débarquent sur les plages de Normandie. C'est le début de la libération de la France.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 140,
+    "question": "Dans quelle ville les rois de France étaient-ils couronnés ?",
+    "bonne_reponse": "Reims",
+    "distracteurs": [
+      "Versailles",
+      "Lyon",
+      "Bordeaux"
+    ],
+    "explication": "La plupart des rois de France ont été sacrés dans la cathédrale de Reims, en souvenir du baptême de Clovis dans cette ville.",
+    "sous_theme": "histoire_ancienne",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 141,
+    "question": "Quel roi de France a été guillotiné pendant la Révolution française ?",
+    "bonne_reponse": "Louis XVI",
+    "distracteurs": [
+      "Louis XIV",
+      "Louis XV",
+      "Louis XVIII"
+    ],
+    "explication": "Louis XVI est jugé par la Convention et guillotiné à Paris le 21 janvier 1793.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 142,
+    "question": "En quelle année a débuté la Révolution française ?",
+    "bonne_reponse": "1789",
+    "distracteurs": [
+      "1769",
+      "1799",
+      "1815"
+    ],
+    "explication": "La Révolution française commence en 1789. La prise de la Bastille a lieu le 14 juillet 1789.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 143,
+    "question": "En quelle année Napoléon Ier est-il devenu empereur ?",
+    "bonne_reponse": "1804",
+    "distracteurs": [
+      "1799",
+      "1789",
+      "1815"
+    ],
+    "explication": "Napoléon Bonaparte se fait sacrer empereur des Français le 2 décembre 1804 à Notre-Dame de Paris. En 1799, il était devenu Premier consul.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 144,
+    "question": "Lequel de ces personnages a un lien avec la République française ?",
+    "bonne_reponse": "Marianne, le symbole de la République",
+    "distracteurs": [
+      "Louis XIV, le Roi Soleil",
+      "Charlemagne, l'empereur",
+      "Clovis, le premier roi des Francs"
+    ],
+    "explication": "Marianne est la figure féminine qui représente la République française. On voit son buste dans les mairies et son visage sur les timbres.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 145,
+    "question": "De quand date l'appel à la résistance du général de Gaulle ?",
+    "bonne_reponse": "18 juin 1940",
+    "distracteurs": [
+      "6 juin 1944",
+      "14 juillet 1940",
+      "25 août 1944"
+    ],
+    "explication": "Le 18 juin 1940, depuis Londres, à la radio BBC, le général de Gaulle appelle les Français à continuer le combat contre l'Allemagne nazie.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 146,
+    "question": "Qu'est-ce que la Shoah ?",
+    "bonne_reponse": "Le génocide des Juifs d'Europe par les nazis pendant la Seconde Guerre mondiale",
+    "distracteurs": [
+      "La guerre entre la France et la Prusse en 1870",
+      "Le bombardement atomique d'Hiroshima en 1945",
+      "La guerre d'indépendance de l'Algérie"
+    ],
+    "explication": "La Shoah est l'extermination d'environ six millions de Juifs par le régime nazi. En France, l'État de Vichy a participé aux déportations.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 147,
+    "question": "Quel pays a été une colonie française ?",
+    "bonne_reponse": "L'Algérie",
+    "distracteurs": [
+      "Le Kenya",
+      "L'Argentine",
+      "Le Japon"
+    ],
+    "explication": "L'Algérie a été une colonie française de 1830 à son indépendance en 1962. Le Kenya était une colonie britannique ; l'Argentine et le Japon n'ont jamais été colonisés par la France.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 148,
+    "question": "Qui a rendu l'école gratuite, laïque et obligatoire ?",
+    "bonne_reponse": "Jules Ferry",
+    "distracteurs": [
+      "Victor Hugo",
+      "Jean Jaurès",
+      "Napoléon Ier"
+    ],
+    "explication": "Jules Ferry, ministre de l'Instruction publique, fait voter en 1881 et 1882 les lois sur l'école gratuite, laïque et obligatoire.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 149,
+    "question": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+    "bonne_reponse": "1962",
+    "distracteurs": [
+      "1958",
+      "1945",
+      "1981"
+    ],
+    "explication": "Depuis la réforme de 1962, voulue par le général de Gaulle et approuvée par référendum, le président est élu directement par les citoyens. La première élection de ce type a eu lieu en 1965.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 150,
+    "question": "En quelle année l'Union européenne a-t-elle été fondée?",
+    "bonne_reponse": "1992",
+    "distracteurs": [
+      "1951",
+      "1957",
+      "2002"
+    ],
+    "explication": "L'Union européenne est créée par le traité de Maastricht, signé en 1992. Le traité entre en vigueur le 1er novembre 1993.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": "La réponse suggérée « 1992 » correspond à la signature du traité de Maastricht (7 février 1992) ; l'Union européenne n'existe juridiquement qu'à partir de son entrée en vigueur, le 1er novembre 1993. Réponse conservée (attendue par l'examen), explication complétée ; 1993 n'est pas utilisé comme distracteur. [Validé le 22/11/2026.]"
+  },
+  {
+    "src_id": 151,
+    "question": "Quand a eu lieu la Seconde guerre mondiale ?",
+    "bonne_reponse": "1939-1945",
+    "distracteurs": [
+      "1914-1918",
+      "1870-1871",
+      "1954-1962"
+    ],
+    "explication": "La Seconde Guerre mondiale commence en 1939 et se termine en 1945. Elle est la guerre la plus meurtrière de l'histoire.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 152,
+    "question": "Quand a eu lieu la Première guerre mondiale ?",
+    "bonne_reponse": "1914-1918",
+    "distracteurs": [
+      "1939-1945",
+      "1870-1871",
+      "1904-1908"
+    ],
+    "explication": "La Première Guerre mondiale, appelée aussi la Grande Guerre, dure de 1914 à 1918. Elle se termine par l'armistice du 11 novembre 1918.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 153,
+    "question": "Sous quel président a été abolie la peine de mort en France ?",
+    "bonne_reponse": "François Mitterrand",
+    "distracteurs": [
+      "Charles de Gaulle",
+      "Valéry Giscard d'Estaing",
+      "Jacques Chirac"
+    ],
+    "explication": "La peine de mort est abolie en 1981, sous la présidence de François Mitterrand, grâce à la loi défendue par le ministre de la Justice Robert Badinter.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 154,
+    "question": "Que célèbre-t-on le 8 mai ?",
+    "bonne_reponse": "La fin de la Seconde Guerre mondiale en Europe",
+    "distracteurs": [
+      "La fin de la Première Guerre mondiale",
+      "La prise de la Bastille",
+      "La fête du Travail"
+    ],
+    "explication": "Le 8 mai 1945, l'Allemagne nazie capitule. Ce jour férié célèbre la victoire des Alliés en Europe.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 155,
+    "question": "Quelle est la première étape de la construction européenne en 1951 ?",
+    "bonne_reponse": "La création de la Communauté européenne du charbon et de l'acier (CECA)",
+    "distracteurs": [
+      "L'adoption de l'euro comme monnaie commune",
+      "La signature du traité de Maastricht",
+      "La création de l'espace Schengen"
+    ],
+    "explication": "En 1951, six pays dont la France et l'Allemagne mettent en commun le charbon et l'acier. Le but est de rendre la guerre impossible entre eux.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 156,
+    "question": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+    "bonne_reponse": "Jean Moulin",
+    "distracteurs": [
+      "Philippe Pétain",
+      "Pierre Laval",
+      "Louis Pasteur"
+    ],
+    "explication": "Jean Moulin a unifié les mouvements de la Résistance intérieure à la demande du général de Gaulle. Arrêté en 1943, il est mort sous la torture.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 157,
+    "question": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
+    "bonne_reponse": "L'armistice de la Première Guerre mondiale, en 1918",
+    "distracteurs": [
+      "La fin de la Seconde Guerre mondiale, en 1945",
+      "La libération de Paris, en 1944",
+      "L'abolition de l'esclavage, en 1848"
+    ],
+    "explication": "Le 11 novembre 1918, l'armistice met fin aux combats de la Première Guerre mondiale. Ce jour-là, on rend hommage aux soldats morts pour la France.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 158,
+    "question": "Depuis quand l'esclavage a-t-il été aboli en France ?",
+    "bonne_reponse": "1848",
+    "distracteurs": [
+      "1789",
+      "1871",
+      "1905"
+    ],
+    "explication": "L'esclavage est aboli définitivement dans les colonies françaises par le décret du 27 avril 1848. Une première abolition, en 1794, avait été annulée par Napoléon en 1802.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 159,
+    "question": "Qui a aboli l'esclavage en France ?",
+    "bonne_reponse": "Victor Schœlcher",
+    "distracteurs": [
+      "Jules Ferry",
+      "Jean Jaurès",
+      "Napoléon Bonaparte"
+    ],
+    "explication": "Victor Schœlcher a préparé le décret d'abolition de l'esclavage de 1848. Napoléon, au contraire, avait rétabli l'esclavage en 1802.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 160,
+    "question": "Depuis quelle année l'école publique est-elle gratuite ?",
+    "bonne_reponse": "1881",
+    "distracteurs": [
+      "1789",
+      "1905",
+      "1946"
+    ],
+    "explication": "La loi du 16 juin 1881 rend l'école primaire publique gratuite. La loi de 1882 la rend ensuite obligatoire et laïque.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 161,
+    "question": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+    "bonne_reponse": "Elles ont obtenu le droit de vote et le droit d'être élues",
+    "distracteurs": [
+      "Elles ont obtenu le droit d'ouvrir un compte bancaire seules",
+      "Elles ont obtenu le droit à l'interruption volontaire de grossesse",
+      "Elles ont obtenu le droit de travailler sans l'accord du mari"
+    ],
+    "explication": "Une ordonnance du 21 avril 1944 donne aux femmes le droit de voter et d'être élues. Elles votent pour la première fois en 1945.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 162,
+    "question": "Quelle organisation a été créée en 1945 après la Seconde Guerre mondiale ?",
+    "bonne_reponse": "L'Organisation des Nations unies (ONU)",
+    "distracteurs": [
+      "L'Union européenne (UE)",
+      "L'Organisation du traité de l'Atlantique Nord (OTAN)",
+      "La Société des Nations (SDN)"
+    ],
+    "explication": "L'ONU est créée en 1945 pour maintenir la paix dans le monde. La France est l'un des cinq membres permanents de son Conseil de sécurité.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 163,
+    "question": "En quelle année l'euro est-il devenu la monnaie officielle de la France ?",
+    "bonne_reponse": "2002",
+    "distracteurs": [
+      "1981",
+      "1992",
+      "2010"
+    ],
+    "explication": "Les pièces et billets en euros circulent en France depuis le 1er janvier 2002. Ils ont remplacé le franc.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 164,
+    "question": "Lors de la seconde guerre mondiale, à quelle date la ville de Paris a-t-elle été libérée ?",
+    "bonne_reponse": "Le 25 août 1944",
+    "distracteurs": [
+      "Le 6 juin 1944",
+      "Le 8 mai 1945",
+      "Le 14 juillet 1944"
+    ],
+    "explication": "Paris est libéré le 25 août 1944 par la Résistance, la 2e division blindée du général Leclerc et les Alliés.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 165,
+    "question": "Quel était le principal port français impliqué dans la traite négrière au XVIIIe siècle ?",
+    "bonne_reponse": "Nantes",
+    "distracteurs": [
+      "Marseille",
+      "Lille",
+      "Strasbourg"
+    ],
+    "explication": "Au XVIIIe siècle, Nantes est le premier port français de la traite négrière. Un mémorial de l'abolition de l'esclavage s'y trouve aujourd'hui.",
+    "sous_theme": "histoire_ancienne",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 166,
+    "question": "Quel célèbre philosophe des Lumières a dénoncé l'esclavage ?",
+    "bonne_reponse": "Montesquieu",
+    "distracteurs": [
+      "René Descartes",
+      "Blaise Pascal",
+      "Auguste Comte"
+    ],
+    "explication": "Dans De l'esprit des lois, en 1748, Montesquieu critique l'esclavage avec ironie. Descartes et Pascal vivaient au XVIIe siècle, avant les Lumières, et Comte au XIXe siècle.",
+    "sous_theme": "histoire_ancienne",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 167,
+    "question": "Quelle oeuvre a été écrite par Victor Hugo ?",
+    "bonne_reponse": "Les Misérables",
+    "distracteurs": [
+      "Le Rouge et le Noir",
+      "Madame Bovary",
+      "Germinal"
+    ],
+    "explication": "Victor Hugo a écrit Les Misérables et Notre-Dame de Paris. Le Rouge et le Noir est de Stendhal, Madame Bovary de Flaubert et Germinal de Zola.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 168,
+    "question": "Quel peintre est français ?",
+    "bonne_reponse": "Claude Monet",
+    "distracteurs": [
+      "Vincent van Gogh",
+      "Rembrandt",
+      "Francisco de Goya"
+    ],
+    "explication": "Claude Monet est un peintre français, chef de file de l'impressionnisme. Van Gogh était néerlandais, Rembrandt néerlandais et Goya espagnol.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 169,
+    "question": "Quel plat est une spécialité de la cuisine française ?",
+    "bonne_reponse": "Le pot-au-feu",
+    "distracteurs": [
+      "La paella",
+      "Le goulasch",
+      "La moussaka"
+    ],
+    "explication": "Le pot-au-feu, la blanquette de veau et le bœuf bourguignon sont des plats traditionnels français. La paella est espagnole, le goulasch hongrois et la moussaka grecque.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 170,
+    "question": "Qui était Marie Curie ?",
+    "bonne_reponse": "Une physicienne et chimiste, pionnière de la radioactivité et double prix Nobel",
+    "distracteurs": [
+      "Une femme politique qui a fait voter la loi sur l'IVG",
+      "Une chanteuse française célèbre des années 1950",
+      "Une reine de France du XVIe siècle"
+    ],
+    "explication": "Née en Pologne, Marie Curie a travaillé en France. Elle a reçu deux prix Nobel, en physique en 1903 et en chimie en 1911. Elle repose au Panthéon.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 171,
+    "question": "Qui a peint 'La liberté guidant le peuple' ?",
+    "bonne_reponse": "Eugène Delacroix",
+    "distracteurs": [
+      "Claude Monet",
+      "Jacques-Louis David",
+      "Auguste Renoir"
+    ],
+    "explication": "Eugène Delacroix a peint La Liberté guidant le peuple en 1830. Le tableau, exposé au Louvre, montre la révolution de juillet 1830.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 172,
+    "question": "Dans quel grand musée parisien est exposée la Joconde ?",
+    "bonne_reponse": "Le musée du Louvre",
+    "distracteurs": [
+      "Le musée d'Orsay",
+      "Le Centre Pompidou",
+      "Le musée Rodin"
+    ],
+    "explication": "La Joconde, peinte par Léonard de Vinci, est exposée au musée du Louvre, le musée le plus visité du monde.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 173,
+    "question": "Quel château célèbre se trouve près de Paris et symbolise le pouvoir royal de Louis XIV ?",
+    "bonne_reponse": "Le château de Versailles",
+    "distracteurs": [
+      "Le château de Chambord",
+      "Le château de Chenonceau",
+      "Le château du Haut-Kœnigsbourg"
+    ],
+    "explication": "Louis XIV fait du château de Versailles, près de Paris, le siège de son pouvoir. Chambord et Chenonceau sont dans la vallée de la Loire, le Haut-Kœnigsbourg en Alsace.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 174,
+    "question": "Où peut-on voir des peintures préhistoriques en France ?",
+    "bonne_reponse": "Dans la grotte de Lascaux",
+    "distracteurs": [
+      "Dans les catacombes de Paris",
+      "Au Mont-Saint-Michel",
+      "Au château de Versailles"
+    ],
+    "explication": "La grotte de Lascaux, en Dordogne, contient des peintures d'animaux réalisées il y a environ 18 000 ans.",
+    "sous_theme": "histoire_ancienne",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 175,
+    "question": "Quel peintre célèbre a peint les Nymphéas ?",
+    "bonne_reponse": "Claude Monet",
+    "distracteurs": [
+      "Paul Cézanne",
+      "Auguste Renoir",
+      "Eugène Delacroix"
+    ],
+    "explication": "Claude Monet a peint la série des Nymphéas dans son jardin de Giverny. On peut les voir au musée de l'Orangerie, à Paris.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 176,
+    "question": "Pendant quelles journées peut-on visiter gratuitement des lieux culturels en France ?",
+    "bonne_reponse": "Les Journées européennes du patrimoine",
+    "distracteurs": [
+      "Les jours de soldes d'été",
+      "Le week-end de Pâques",
+      "La semaine de Noël"
+    ],
+    "explication": "Chaque année en septembre, pendant les Journées européennes du patrimoine, de nombreux monuments et lieux publics ouvrent gratuitement leurs portes.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 177,
+    "question": "Que symbolise le 1er mai ?",
+    "bonne_reponse": "La fête du Travail",
+    "distracteurs": [
+      "La fête nationale",
+      "L'armistice de 1918",
+      "La fête de la musique"
+    ],
+    "explication": "Le 1er mai est la fête du Travail. C'est un jour férié et chômé : on célèbre les droits des travailleurs.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 178,
+    "question": "Qui était Monsieur Rouget de Lisle ?",
+    "bonne_reponse": "Le compositeur de La Marseillaise",
+    "distracteurs": [
+      "Le premier président de la Ve République",
+      "L'auteur du Code civil",
+      "Le peintre de La Liberté guidant le peuple"
+    ],
+    "explication": "Rouget de Lisle a composé La Marseillaise en 1792 à Strasbourg. C'est devenu l'hymne national de la France.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 179,
+    "question": "À quelle occasion a été construite la Tour Eiffel ?",
+    "bonne_reponse": "Pour l'Exposition universelle de 1889",
+    "distracteurs": [
+      "Pour les Jeux olympiques de 1924",
+      "Pour fêter la fin de la Première Guerre mondiale",
+      "Pour le couronnement de Napoléon III"
+    ],
+    "explication": "Gustave Eiffel construit la tour pour l'Exposition universelle de 1889, qui célèbre aussi le centenaire de la Révolution française.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 180,
+    "question": "Quelle chaîne de montagne est située entre la France et l'Espagne ?",
+    "bonne_reponse": "Les Pyrénées",
+    "distracteurs": [
+      "Les Alpes",
+      "Les Vosges",
+      "Le Jura"
+    ],
+    "explication": "Les Pyrénées forment la frontière entre la France et l'Espagne, de l'océan Atlantique à la mer Méditerranée.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 181,
+    "question": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
+    "bonne_reponse": "Les Alpes",
+    "distracteurs": [
+      "Les Pyrénées",
+      "Les Vosges",
+      "Le Massif central"
+    ],
+    "explication": "Les Alpes séparent la France de l'Italie et de la Suisse. On y trouve le mont Blanc, le plus haut sommet de France.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 182,
+    "question": "Qui était Molière ?",
+    "bonne_reponse": "Un auteur de théâtre et comédien français du XVIIe siècle",
+    "distracteurs": [
+      "Un peintre impressionniste du XIXe siècle",
+      "Un roi de France du XVIIe siècle",
+      "Un général de la Révolution française"
+    ],
+    "explication": "Molière a écrit des comédies célèbres comme Le Malade imaginaire et L'Avare. On appelle le français « la langue de Molière ».",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 183,
+    "question": "Qui était Charles Baudelaire ?",
+    "bonne_reponse": "Un poète français du XIXe siècle",
+    "distracteurs": [
+      "Un sculpteur français du XIXe siècle",
+      "Un général de la Révolution française",
+      "Un peintre de la Renaissance"
+    ],
+    "explication": "Charles Baudelaire est un grand poète. Son recueil le plus connu s'appelle Les Fleurs du mal, publié en 1857.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 184,
+    "question": "Qui était George Sand ?",
+    "bonne_reponse": "Une écrivaine et romancière française du XIXe siècle",
+    "distracteurs": [
+      "Une reine de France du XVIe siècle",
+      "Une résistante de la Seconde Guerre mondiale",
+      "Une physicienne double prix Nobel"
+    ],
+    "explication": "George Sand est le nom de plume d'Aurore Dupin. Elle a écrit de nombreux romans, comme La Mare au diable.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 185,
+    "question": "Qui était Simone de Beauvoir ?",
+    "bonne_reponse": "Une philosophe, romancière et féministe française",
+    "distracteurs": [
+      "Une physicienne double prix Nobel",
+      "Une ministre qui a fait voter la loi sur l'IVG",
+      "Une chanteuse populaire des années 1960"
+    ],
+    "explication": "Simone de Beauvoir a écrit Le Deuxième Sexe en 1949, un livre important pour les droits des femmes.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 186,
+    "question": "Qui était Albert Camus ?",
+    "bonne_reponse": "Un écrivain et philosophe français, prix Nobel de littérature",
+    "distracteurs": [
+      "Un président de la IVe République",
+      "Un peintre impressionniste français",
+      "Un général de la Première Guerre mondiale"
+    ],
+    "explication": "Albert Camus, né en Algérie, a écrit L'Étranger et La Peste. Il reçoit le prix Nobel de littérature en 1957.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 187,
+    "question": "Qui était Marguerite Yourcenar ?",
+    "bonne_reponse": "La première femme élue à l'Académie française",
+    "distracteurs": [
+      "La première femme élue présidente de la République",
+      "La première femme nommée Première ministre",
+      "La première femme à recevoir un prix Nobel"
+    ],
+    "explication": "Marguerite Yourcenar, écrivaine, autrice des Mémoires d'Hadrien, est en 1980 la première femme élue à l'Académie française.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 188,
+    "question": "Qui était Paul Cézanne ?",
+    "bonne_reponse": "Un peintre français, considéré comme le père de la peinture moderne",
+    "distracteurs": [
+      "Un sculpteur français, auteur du Penseur",
+      "Un compositeur français de musique classique",
+      "Un écrivain français, auteur des Misérables"
+    ],
+    "explication": "Paul Cézanne, peintre post-impressionniste d'Aix-en-Provence, a beaucoup peint la montagne Sainte-Victoire. Il a influencé Picasso et les peintres modernes.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 189,
+    "question": "Qui était Auguste Rodin ?",
+    "bonne_reponse": "Un sculpteur français",
+    "distracteurs": [
+      "Un peintre impressionniste français",
+      "Un compositeur français",
+      "Un écrivain français"
+    ],
+    "explication": "Auguste Rodin est un grand sculpteur. Ses œuvres les plus connues sont Le Penseur et Le Baiser.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 190,
+    "question": "Qui était un célèbre compositeur français ?",
+    "bonne_reponse": "Claude Debussy",
+    "distracteurs": [
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Giuseppe Verdi"
+    ],
+    "explication": "Claude Debussy est un compositeur français, auteur de Clair de lune. Mozart était autrichien, Beethoven allemand et Verdi italien.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 191,
+    "question": "Qui était Auguste Renoir ?",
+    "bonne_reponse": "Un peintre impressionniste français",
+    "distracteurs": [
+      "Un sculpteur français",
+      "Un compositeur français",
+      "Un poète français"
+    ],
+    "explication": "Auguste Renoir est un peintre impressionniste. Il est connu pour Le Bal du moulin de la Galette.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 192,
+    "question": "Quel musée est situé à Paris ?",
+    "bonne_reponse": "Le musée du Louvre",
+    "distracteurs": [
+      "Le musée du Prado",
+      "Le British Museum",
+      "Le musée de l'Ermitage"
+    ],
+    "explication": "Le Louvre, le musée d'Orsay et le Centre Pompidou sont à Paris. Le Prado est à Madrid, le British Museum à Londres et l'Ermitage à Saint-Pétersbourg.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 193,
+    "question": "Quel monument historique se trouve sur une île en Normandie ?",
+    "bonne_reponse": "Le Mont-Saint-Michel",
+    "distracteurs": [
+      "Le château de Chambord",
+      "La cathédrale de Chartres",
+      "Le pont du Gard"
+    ],
+    "explication": "Le Mont-Saint-Michel est une abbaye construite sur un îlot rocheux, en Normandie. Il est inscrit au patrimoine mondial de l'Unesco.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 194,
+    "question": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+    "bonne_reponse": "Lyon",
+    "distracteurs": [
+      "Quimper",
+      "Mende",
+      "Guéret"
+    ],
+    "explication": "Lyon est la troisième ville de France. Les grandes métropoles sont notamment Paris, Marseille, Lyon, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux et Lille.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 195,
+    "question": "Quelle île fait partie des Antilles françaises ?",
+    "bonne_reponse": "La Martinique",
+    "distracteurs": [
+      "La Réunion",
+      "La Corse",
+      "Mayotte"
+    ],
+    "explication": "Les Antilles françaises, dans la mer des Caraïbes, comprennent la Martinique, la Guadeloupe, Saint-Martin et Saint-Barthélemy. La Réunion et Mayotte sont dans l'océan Indien.",
+    "sous_theme": "outre_mer",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 196,
+    "question": "Quelle île est française ?",
+    "bonne_reponse": "La Corse",
+    "distracteurs": [
+      "La Sardaigne",
+      "La Sicile",
+      "Malte"
+    ],
+    "explication": "La Corse est une île française de la mer Méditerranée. La Sardaigne et la Sicile sont italiennes ; Malte est un pays indépendant.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 197,
+    "question": "Quelle est la plus haute montagne de France ?",
+    "bonne_reponse": "Le mont Blanc",
+    "distracteurs": [
+      "Le mont Ventoux",
+      "Le puy de Dôme",
+      "Le Vignemale"
+    ],
+    "explication": "Le mont Blanc, dans les Alpes, mesure environ 4 800 mètres. C'est le plus haut sommet de France et d'Europe occidentale.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 198,
+    "question": "Quelle île française est située dans l'océan indien ?",
+    "bonne_reponse": "La Réunion",
+    "distracteurs": [
+      "La Martinique",
+      "La Guadeloupe",
+      "La Nouvelle-Calédonie"
+    ],
+    "explication": "La Réunion se trouve dans l'océan Indien, à l'est de Madagascar. Mayotte est aussi une île française de l'océan Indien.",
+    "sous_theme": "outre_mer",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 199,
+    "question": "Quel département français a une frontière avec le Brésil ?",
+    "bonne_reponse": "La Guyane",
+    "distracteurs": [
+      "La Martinique",
+      "La Guadeloupe",
+      "La Réunion"
+    ],
+    "explication": "La Guyane se trouve en Amérique du Sud. Elle a une frontière avec le Brésil et avec le Suriname.",
+    "sous_theme": "outre_mer",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 200,
+    "question": "De quelle ville française décolle la fusée Ariane ?",
+    "bonne_reponse": "Kourou",
+    "distracteurs": [
+      "Cayenne",
+      "Toulouse",
+      "Brest"
+    ],
+    "explication": "Les fusées Ariane décollent du Centre spatial guyanais, à Kourou, en Guyane. Ce site est proche de l'équateur, ce qui facilite les lancements.",
+    "sous_theme": "outre_mer",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 201,
+    "question": "Quelle mer ou océan borde la France métropolitaine ?",
+    "bonne_reponse": "La mer Méditerranée",
+    "distracteurs": [
+      "La mer Baltique",
+      "La mer Noire",
+      "La mer Rouge"
+    ],
+    "explication": "La France métropolitaine est bordée par la mer Méditerranée, l'océan Atlantique, la Manche et la mer du Nord.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 202,
+    "question": "Quelle mer se situe entre la France et l'Angleterre ?",
+    "bonne_reponse": "La Manche",
+    "distracteurs": [
+      "La mer Méditerranée",
+      "La mer Baltique",
+      "La mer d'Irlande"
+    ],
+    "explication": "La Manche sépare la France de l'Angleterre. Le tunnel sous la Manche relie les deux pays depuis 1994.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 203,
+    "question": "Quelle île est un département d'outre-mer français ?",
+    "bonne_reponse": "La Guadeloupe",
+    "distracteurs": [
+      "La Corse",
+      "Tahiti",
+      "La Nouvelle-Calédonie"
+    ],
+    "explication": "Les départements d'outre-mer sont la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte. Tahiti et la Nouvelle-Calédonie ont un autre statut ; la Corse est en métropole.",
+    "sous_theme": "outre_mer",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 204,
+    "question": "Qu'est-ce que la France d'outre-mer ?",
+    "bonne_reponse": "Les territoires français situés en dehors de la France métropolitaine",
+    "distracteurs": [
+      "Les anciennes colonies devenues des pays indépendants",
+      "Les pays étrangers où l'on parle le français",
+      "Les régions françaises situées au bord de la mer"
+    ],
+    "explication": "La France d'outre-mer regroupe des territoires français en Amérique, dans l'océan Indien, dans le Pacifique et en Antarctique, comme la Guadeloupe ou La Réunion.",
+    "sous_theme": "outre_mer",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 205,
+    "question": "Quelle est la population approximative de la France en 2025 ?",
+    "bonne_reponse": "Environ 68 millions d'habitants",
+    "distracteurs": [
+      "Environ 50 millions d'habitants",
+      "Environ 85 millions d'habitants",
+      "Environ 120 millions d'habitants"
+    ],
+    "explication": "Selon l'Insee, la France compte environ 68,6 millions d'habitants au début de l'année 2025, outre-mer compris.",
+    "sous_theme": "geographie",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 206,
+    "question": "Quel est le principal port maritime de France ?",
+    "bonne_reponse": "Le port de Marseille-Fos",
+    "distracteurs": [
+      "Le port de Brest",
+      "Le port de Bayonne",
+      "Le port de La Rochelle"
+    ],
+    "explication": "Marseille-Fos, sur la Méditerranée, est le premier port de France. Le port du Havre, sur la Manche, est l'autre très grand port maritime français.",
+    "sous_theme": "geographie",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 207,
+    "question": "Combien y a-t-il de régions en France métropolitaine ?",
+    "bonne_reponse": "13",
+    "distracteurs": [
+      "22",
+      "18",
+      "10"
+    ],
+    "explication": "Depuis 2016, la France métropolitaine compte 13 régions, Corse comprise. Avec les 5 régions d'outre-mer, cela fait 18 régions en tout. Avant 2016, la métropole en avait 22.",
+    "sous_theme": "geographie",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 208,
+    "question": "Quelle île française se trouve au sud-est du continent africain ?",
+    "bonne_reponse": "La Réunion",
+    "distracteurs": [
+      "La Martinique",
+      "La Corse",
+      "La Nouvelle-Calédonie"
+    ],
+    "explication": "La Réunion est située dans l'océan Indien, au sud-est de l'Afrique, près de Madagascar. Mayotte se trouve aussi dans cette zone.",
+    "sous_theme": "outre_mer",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 209,
+    "question": "Quel est le chef-lieu de la région Auvergne-Rhône-Alpes ?",
+    "bonne_reponse": "Lyon",
+    "distracteurs": [
+      "Grenoble",
+      "Clermont-Ferrand",
+      "Saint-Étienne"
+    ],
+    "explication": "Lyon est le chef-lieu de la région Auvergne-Rhône-Alpes, créée en 2016. Clermont-Ferrand était le chef-lieu de l'ancienne région Auvergne.",
+    "sous_theme": "geographie",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 210,
+    "question": "Quel est le chef-lieu de la région Bretagne ?",
+    "bonne_reponse": "Rennes",
+    "distracteurs": [
+      "Brest",
+      "Nantes",
+      "Quimper"
+    ],
+    "explication": "Rennes est le chef-lieu de la région Bretagne. Nantes est le chef-lieu de la région Pays de la Loire.",
+    "sous_theme": "geographie",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 211,
+    "question": "Quel est le chef-lieu de la région Provence-Alpes-Côte d'Azur ?",
+    "bonne_reponse": "Marseille",
+    "distracteurs": [
+      "Nice",
+      "Toulon",
+      "Avignon"
+    ],
+    "explication": "Marseille, deuxième ville de France, est le chef-lieu de la région Provence-Alpes-Côte d'Azur.",
+    "sous_theme": "geographie",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 212,
+    "question": "Quel est le 101ème département français depuis 2011 ?",
+    "bonne_reponse": "Mayotte",
+    "distracteurs": [
+      "La Réunion",
+      "La Guyane",
+      "La Martinique"
+    ],
+    "explication": "Mayotte est devenue le 101e département français le 31 mars 2011. La Réunion, la Guyane et la Martinique sont départements depuis 1946.",
+    "sous_theme": "outre_mer",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 213,
+    "question": "Quelle région française est réputée pour ses stations de ski ?",
+    "bonne_reponse": "Auvergne-Rhône-Alpes",
+    "distracteurs": [
+      "La Bretagne",
+      "La Normandie",
+      "Le Centre-Val de Loire"
+    ],
+    "explication": "La région Auvergne-Rhône-Alpes, avec les Alpes de Savoie et de Haute-Savoie, possède les plus grandes stations de ski de France.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 214,
+    "question": "Quel fleuve traverse Paris ?",
+    "bonne_reponse": "La Seine",
+    "distracteurs": [
+      "La Loire",
+      "Le Rhône",
+      "La Garonne"
+    ],
+    "explication": "La Seine traverse Paris avant de se jeter dans la Manche, au Havre.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "src_id": 178,
+    "question": "Quel mariage est reconnu par l'État ?",
+    "bonne_reponse": "Le mariage civil, célébré à la mairie.",
+    "distracteurs": [
+      "Le mariage religieux, célébré dans un lieu de culte.",
+      "Le mariage coutumier, célébré en famille.",
+      "Le mariage signé chez un avocat, sans cérémonie."
+    ],
+    "explication": "En France, seul le mariage civil, célébré par le maire ou un adjoint à la mairie, a une valeur légale. Une cérémonie religieuse est possible, mais seulement après le mariage civil.",
+    "sous_theme": "demarches",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 179,
+    "question": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
+    "bonne_reponse": "La mairie.",
+    "distracteurs": [
+      "La préfecture.",
+      "La Caisse d'allocations familiales.",
+      "Le conseil départemental."
+    ],
+    "explication": "Pour l'école maternelle et l'école élémentaire publiques, les parents inscrivent d'abord leur enfant à la mairie. Ensuite, le directeur de l'école fait l'admission.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 180,
+    "question": "En cas de divorce, qui exerce l'autorité parentale ?",
+    "bonne_reponse": "Les deux parents, sauf décision contraire du juge.",
+    "distracteurs": [
+      "Uniquement la mère, dans tous les cas.",
+      "Uniquement le parent qui a le plus de revenus.",
+      "Uniquement le parent qui a demandé le divorce."
+    ],
+    "explication": "Le divorce sépare les époux, mais pas les parents de leurs enfants. Les deux parents gardent l'autorité parentale, sauf si le juge décide autrement dans l'intérêt de l'enfant.",
+    "sous_theme": "demarches",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 181,
+    "question": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
+    "bonne_reponse": "L'aide juridictionnelle.",
+    "distracteurs": [
+      "L'allocation de rentrée scolaire.",
+      "La prime d'activité.",
+      "L'aide personnalisée au logement."
+    ],
+    "explication": "L'aide juridictionnelle permet aux personnes qui ont de faibles revenus d'avoir un avocat payé en totalité ou en partie par l'État.",
+    "sous_theme": "demarches",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 182,
+    "question": "Où faut-il déclarer la naissance d'un enfant ?",
+    "bonne_reponse": "À la mairie du lieu de naissance.",
+    "distracteurs": [
+      "À la préfecture du département.",
+      "Au commissariat de police.",
+      "À la Caisse d'allocations familiales."
+    ],
+    "explication": "La naissance se déclare au service de l'état civil de la mairie de la commune où l'enfant est né. La mairie établit ensuite l'acte de naissance.",
+    "sous_theme": "demarches",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 183,
+    "question": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
+    "bonne_reponse": "Avoir réussi l'examen du code de la route.",
+    "distracteurs": [
+      "Avoir au moins 21 ans.",
+      "Être de nationalité française.",
+      "Être déjà propriétaire d'une voiture assurée."
+    ],
+    "explication": "Pour passer l'examen pratique du permis B, il faut avoir réussi le code de la route et avoir au moins 17 ans. La nationalité française n'est pas exigée.",
+    "sous_theme": "vie_quotidienne",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Âge minimum de 17 ans pour le permis B depuis le 1er janvier 2024."
+  },
+  {
+    "src_id": 184,
+    "question": "Un bail locatif est valide s'il est :",
+    "bonne_reponse": "Écrit et signé par le propriétaire et le locataire.",
+    "distracteurs": [
+      "Signé seulement par le locataire.",
+      "Validé et tamponné par la mairie de la commune.",
+      "Déclaré au commissariat de police du quartier."
+    ],
+    "explication": "La loi demande que le bail soit écrit et signé par le propriétaire et le locataire. Le bail précise le loyer, les charges, le dépôt de garantie et la durée du contrat.",
+    "sous_theme": "logement",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "La loi du 6 juillet 1989 impose un bail écrit, mais selon la jurisprudence un bail verbal n'est pas nul pour autant : chaque partie peut exiger à tout moment un bail écrit. La formulation « valide s'il est écrit » est donc simplificatrice ; elle reste la réponse attendue. Le cours dit « la loi demande un bail écrit ». [Validé le 22/11/2026.]"
+  },
+  {
+    "src_id": 185,
+    "question": "Où peut-on déposer un lave-vaisselle cassé ?",
+    "bonne_reponse": "À la déchetterie de sa commune.",
+    "distracteurs": [
+      "Dans la poubelle des ordures ménagères.",
+      "Sur le trottoir devant son immeuble.",
+      "Dans le conteneur pour le verre."
+    ],
+    "explication": "Les appareils électriques usagés ne vont pas à la poubelle ni sur le trottoir. On les dépose à la déchetterie. Le magasin qui vend un appareil neuf doit aussi reprendre l'ancien.",
+    "sous_theme": "vie_quotidienne",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 186,
+    "question": "Quel numéro d'urgence permet d'appeler la police ?",
+    "bonne_reponse": "Le 17.",
+    "distracteurs": [
+      "Le 15.",
+      "Le 18.",
+      "Le 119."
+    ],
+    "explication": "Le 17 permet d'appeler Police secours. Le 15 appelle le SAMU, le 18 les pompiers et le 119 l'enfance en danger. Le 112 est aussi un numéro d'urgence valable partout en Europe.",
+    "sous_theme": "vie_quotidienne",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 187,
+    "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+    "bonne_reponse": "L'Assurance Maladie rembourse une partie des frais de santé.",
+    "distracteurs": [
+      "Seules les personnes de nationalité française peuvent voir un médecin.",
+      "L'hôpital soigne seulement les personnes qui ont un emploi.",
+      "Chaque patient paie toujours seul la totalité de ses soins."
+    ],
+    "explication": "Toute personne qui vit en France peut se faire soigner. L'Assurance Maladie rembourse une partie des frais, et une mutuelle peut compléter.",
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 188,
+    "question": "À qui est accessible la contraception ?",
+    "bonne_reponse": "À toute personne, y compris aux mineurs.",
+    "distracteurs": [
+      "Seulement aux personnes mariées.",
+      "Seulement aux femmes de plus de 25 ans.",
+      "Seulement avec l'accord des parents ou du conjoint."
+    ],
+    "explication": "Toute personne peut choisir librement d'utiliser une contraception, même si elle est mineure et sans l'accord de ses parents ou de son conjoint. Elle est prise en charge par l'Assurance Maladie.",
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 189,
+    "question": "Qu’est-ce que le principe de confidentialité dans le domaine de la santé ?",
+    "bonne_reponse": "Le secret médical sur les informations de santé du patient.",
+    "distracteurs": [
+      "L'obligation pour le patient de cacher sa maladie à sa famille.",
+      "Le droit du médecin de choisir ses patients.",
+      "L'obligation de dire ses maladies à son employeur."
+    ],
+    "explication": "C'est le secret médical : le médecin et tous les soignants ne doivent pas révéler les informations de santé d'un patient, même à sa famille ou à son employeur.",
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 190,
+    "question": "L'inscription à l'Assurance maladie est :",
+    "bonne_reponse": "Obligatoire pour toute personne qui réside en France de façon stable et régulière.",
+    "distracteurs": [
+      "Facultative pour les personnes de nationalité étrangère qui vivent en France.",
+      "Réservée aux personnes qui ont un contrat de travail à durée indéterminée.",
+      "Possible seulement après dix ans de résidence en France."
+    ],
+    "explication": "Toute personne qui travaille ou qui réside en France de façon stable et régulière doit être affiliée à l'Assurance Maladie. C'est la protection universelle maladie.",
+    "sous_theme": "sante",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 191,
+    "question": "Qui peut demander un congé parental d'éducation ?",
+    "bonne_reponse": "Le père ou la mère salarié, après une naissance ou une adoption.",
+    "distracteurs": [
+      "Seulement la mère, après une naissance ou une adoption.",
+      "Seulement le parent qui gagne le moins dans le couple.",
+      "Seulement les fonctionnaires de l'État."
+    ],
+    "explication": "Le congé parental d'éducation est ouvert au père comme à la mère, après une naissance ou une adoption. Les deux parents peuvent le prendre en même temps ou l'un après l'autre.",
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 192,
+    "question": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+    "bonne_reponse": "Les conflits entre un employeur et un salarié.",
+    "distracteurs": [
+      "Les conflits entre deux voisins.",
+      "Les conflits entre un locataire et son propriétaire.",
+      "Les conflits entre deux époux qui divorcent."
+    ],
+    "explication": "Le conseil de prud'hommes juge les litiges liés au contrat de travail : licenciement, salaire non payé, heures supplémentaires.",
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 193,
+    "question": "Travailler sans être déclaré est :",
+    "bonne_reponse": "Un délit appelé travail dissimulé.",
+    "distracteurs": [
+      "Une pratique autorisée pour les petits emplois.",
+      "Une simple erreur sans aucune sanction.",
+      "Un accord libre entre salarié et employeur."
+    ],
+    "explication": "Le travail « au noir » est un délit : l'employeur et parfois le travailleur peuvent être sanctionnés. Le salarié non déclaré n'a pas de protection sociale, ni de droits à la retraite ou au chômage.",
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 194,
+    "question": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
+    "bonne_reponse": "Il peut demander des heures supplémentaires, en respectant la loi.",
+    "distracteurs": [
+      "Il peut l'imposer sans payer ces heures en plus au salarié.",
+      "Il doit d'abord obtenir l'accord écrit de la mairie.",
+      "Il doit lui faire signer un deuxième contrat de travail."
+    ],
+    "explication": "Les heures supplémentaires sont encadrées par la loi : elles ont des limites et sont payées davantage, en général 25 % de plus pour les premières heures.",
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 195,
+    "question": "Quelle est la mission de France Travail ?",
+    "bonne_reponse": "Accompagner les demandeurs d'emploi et aider les entreprises à recruter.",
+    "distracteurs": [
+      "Délivrer les titres de séjour aux travailleurs étrangers qui arrivent.",
+      "Contrôler les impôts payés par les entreprises.",
+      "Verser les allocations familiales aux parents."
+    ],
+    "explication": "France Travail, anciennement Pôle emploi, aide les personnes à trouver un emploi ou une formation, verse les allocations chômage et aide les employeurs à recruter.",
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 196,
+    "question": "Dans une entreprise, le droit syndical permet :",
+    "bonne_reponse": "Aux salariés de se regrouper pour défendre leurs droits et intérêts professionnels.",
+    "distracteurs": [
+      "À l'employeur de choisir le syndicat de ses salariés.",
+      "Aux salariés de ne plus respecter leur contrat de travail quand ils le veulent.",
+      "Aux syndicats de fixer seuls le montant des salaires."
+    ],
+    "explication": "Le droit syndical permet de créer un syndicat ou d'y adhérer. Les syndicats défendent les intérêts des salariés et négocient avec l'employeur.",
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 197,
+    "question": "Dans une entreprise, le droit de grève autorise :",
+    "bonne_reponse": "L'arrêt collectif du travail pour des revendications professionnelles.",
+    "distracteurs": [
+      "Le départ en vacances sans demander l'accord de l'employeur.",
+      "La destruction du matériel de l'entreprise pour protester.",
+      "L'occupation du bureau du directeur pour l'empêcher de travailler."
+    ],
+    "explication": "La grève est un droit garanti par la Constitution. C'est un arrêt de travail collectif et organisé pour des demandes professionnelles. Les jours de grève ne sont pas payés.",
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 198,
+    "question": "Quelles sont les conditions pour toucher les allocations chômage ?",
+    "bonne_reponse": "Avoir assez travaillé et avoir perdu son emploi sans l'avoir choisi.",
+    "distracteurs": [
+      "Avoir démissionné pour prendre une année de repos.",
+      "Avoir la nationalité française depuis au moins cinq années complètes.",
+      "Avoir des enfants à charge et habiter dans un logement social."
+    ],
+    "explication": "Pour toucher l'allocation chômage, il faut avoir travaillé une durée minimale, avoir perdu son emploi de façon involontaire, être inscrit à France Travail et chercher un emploi.",
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Durée minimale d'activité (6 mois sur 24 mois en 2026) non citée dans la réponse pour éviter une valeur susceptible d'évoluer. Certaines démissions dites légitimes ouvrent aussi des droits : le distracteur vise une démission « pour prendre une année de repos », qui n'en ouvre pas."
+  },
+  {
+    "src_id": 199,
+    "question": "Qu'est-ce que l'école maternelle ?",
+    "bonne_reponse": "La première école, obligatoire dès 3 ans.",
+    "distracteurs": [
+      "L'école réservée aux enfants dont la mère ne travaille pas.",
+      "Une crèche payante pour les bébés de moins de 2 ans.",
+      "L'école qui prépare au baccalauréat après le collège."
+    ],
+    "explication": "L'école maternelle accueille les enfants de 3 à 6 ans, en petite, moyenne et grande section. Depuis 2019, l'instruction est obligatoire dès 3 ans.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 200,
+    "question": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+    "bonne_reponse": "Le diplôme national du brevet.",
+    "distracteurs": [
+      "Le baccalauréat.",
+      "Le certificat d'études primaires.",
+      "Le certificat d'aptitude professionnelle."
+    ],
+    "explication": "Le diplôme national du brevet, ou brevet des collèges, se passe en fin de troisième, vers 15 ans. Le baccalauréat se passe à la fin du lycée.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 201,
+    "question": "Les parents d'élève ont le droit de :",
+    "bonne_reponse": "Voter aux élections des représentants de parents d'élèves.",
+    "distracteurs": [
+      "Choisir les professeurs de leur enfant.",
+      "Modifier le programme scolaire de la classe de leur enfant.",
+      "Assister aux cours dans la classe quand ils le souhaitent."
+    ],
+    "explication": "Les parents sont membres de la communauté éducative. Ils peuvent voter aux élections de parents d'élèves, se présenter, rejoindre une association et rencontrer les enseignants.",
+    "sous_theme": "education",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 202,
+    "question": "Qui peut manger à la cantine scolaire ?",
+    "bonne_reponse": "Tous les enfants inscrits à l'école, sans discrimination.",
+    "distracteurs": [
+      "Seulement les enfants dont les deux parents travaillent.",
+      "Seulement les enfants de nationalité française.",
+      "Seulement les enfants qui habitent à côté de l'école."
+    ],
+    "explication": "Quand une commune organise une cantine, tous les enfants scolarisés ont le droit d'y être inscrits. La commune ne peut pas refuser un enfant à cause de la situation de sa famille.",
+    "sous_theme": "education",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 203,
+    "question": "À quel âge commence l'instruction obligatoire des enfants ?",
+    "bonne_reponse": "3 ans.",
+    "distracteurs": [
+      "2 ans.",
+      "5 ans.",
+      "6 ans."
+    ],
+    "explication": "Depuis la rentrée 2019, l'instruction est obligatoire dès 3 ans. Avant, elle commençait à 6 ans.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 204,
+    "question": "Quel est l'âge de la majorité ?",
+    "bonne_reponse": "18 ans.",
+    "distracteurs": [
+      "16 ans.",
+      "20 ans.",
+      "21 ans."
+    ],
+    "explication": "À 18 ans, une personne devient majeure : elle peut voter si elle est française, signer un contrat seule et elle est pleinement responsable de ses actes.",
+    "sous_theme": "demarches",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 205,
+    "question": "À l'école, il est interdit aux parents de :",
+    "bonne_reponse": "Refuser un enseignement du programme pour des raisons religieuses.",
+    "distracteurs": [
+      "Prendre rendez-vous avec l'enseignant pour parler de leur enfant.",
+      "Voter aux élections des parents d'élèves.",
+      "Demander à consulter le cahier et les notes de leur enfant."
+    ],
+    "explication": "Les programmes sont les mêmes pour tous les élèves. Les parents ne peuvent pas refuser, pour des raisons religieuses, un cours comme le sport, la musique ou l'histoire.",
+    "sous_theme": "education",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 206,
+    "question": "Quel motif d'absence est accepté par l'école ?",
+    "bonne_reponse": "La maladie de l'enfant.",
+    "distracteurs": [
+      "Un départ en vacances plus tôt pour avoir un billet moins cher.",
+      "L'anniversaire d'un camarade de classe.",
+      "L'envie de rester à la maison ce jour-là."
+    ],
+    "explication": "La loi accepte quelques motifs d'absence : maladie de l'enfant, maladie contagieuse dans la famille, réunion de famille importante comme un mariage ou un enterrement, ou problème de transport.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 207,
+    "question": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+    "bonne_reponse": "6 mois de prison et 7 500 euros d'amende.",
+    "distracteurs": [
+      "Un simple avertissement, sans amende.",
+      "15 jours de prison et 150 euros d'amende.",
+      "10 ans de prison et 150 000 euros d'amende."
+    ],
+    "explication": "Ne pas inscrire son enfant à l'école ou dans une autre forme d'instruction, après une mise en demeure, est un délit. Les parents risquent jusqu'à 6 mois de prison et 7 500 euros d'amende.",
+    "sous_theme": "education",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": "Article 227-17-1 du Code pénal. L'article 227-17, plus sévère (2 ans, 30 000 euros), vise les parents qui compromettent gravement la santé ou l'éducation de l'enfant : il n'est pas utilisé comme distracteur."
+  },
+  {
+    "src_id": 208,
+    "question": "Quand ont lieu les vacances scolaires de Noël ?",
+    "bonne_reponse": "Fin décembre et début janvier.",
+    "distracteurs": [
+      "Pendant tout le mois de novembre.",
+      "Début février.",
+      "En juillet et en août."
+    ],
+    "explication": "Les vacances de Noël durent deux semaines, de la fin du mois de décembre au début du mois de janvier. Elles ont lieu en même temps dans toute la France métropolitaine.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 209,
+    "question": "À l'école, un enfant en situation de handicap :",
+    "bonne_reponse": "Peut avoir un emploi du temps aménagé pour suivre ses soins.",
+    "distracteurs": [
+      "Ne peut pas être inscrit dans une école ordinaire de son quartier.",
+      "Doit obligatoirement suivre les cours à la maison.",
+      "Peut être scolarisé seulement à partir de 10 ans."
+    ],
+    "explication": "L'école est inclusive : elle s'adapte pour accueillir les enfants en situation de handicap, avec des aménagements et parfois un accompagnant, appelé AESH.",
+    "sous_theme": "education",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  }
+]

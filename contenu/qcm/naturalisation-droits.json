@@ -1,0 +1,557 @@
+[
+  {
+    "src_id": 95,
+    "question": "À quoi sert le droit de grève ?",
+    "bonne_reponse": "À arrêter le travail ensemble pour défendre ses intérêts professionnels.",
+    "distracteurs": [
+      "À permettre à l'employeur de fermer l'entreprise sans payer les salariés.",
+      "À obliger les salariés à travailler pendant les jours fériés.",
+      "À permettre aux salariés de quitter leur emploi sans prévenir personne."
+    ],
+    "explication": "La grève est un arrêt collectif et concerté du travail pour appuyer des revendications professionnelles. C'est un droit reconnu par la Constitution, dans le préambule de 1946.",
+    "sous_theme": "travail",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 96,
+    "question": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+    "bonne_reponse": "Au nom de l'ordre public et de la sécurité de tous.",
+    "distracteurs": [
+      "Au nom des intérêts du parti au pouvoir.",
+      "Au nom de la religion de la majorité.",
+      "Au nom des préférences personnelles du Président."
+    ],
+    "explication": "Une liberté peut être limitée par la loi seulement pour un motif d'intérêt général : l'ordre public, la sécurité, la santé ou les droits des autres.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 97,
+    "question": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'Homme et du Citoyen de 1789 ?",
+    "bonne_reponse": "« Les hommes naissent et demeurent libres et égaux en droits. »",
+    "distracteurs": [
+      "« L'union fait la force. »",
+      "« Je pense, donc je suis. »",
+      "« La France est une République indivisible, laïque, démocratique et sociale. »"
+    ],
+    "explication": "C'est le début de l'article 1er de la Déclaration de 1789. « L'union fait la force » est la devise de la Belgique, et la phrase sur la République vient de la Constitution de 1958.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 98,
+    "question": "L'article 4 de la Déclaration des droits de l'homme et du citoyen affirme que \"la liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui\". Qu'est-ce que cela signifie ?",
+    "bonne_reponse": "Que ma liberté s'arrête là où commence celle des autres.",
+    "distracteurs": [
+      "Que chacun peut faire tout ce qu'il veut, sans aucune limite.",
+      "Que seul l'État décide de ce que chacun a le droit de faire.",
+      "Que la liberté est réservée aux citoyens qui paient des impôts."
+    ],
+    "explication": "Chacun est libre, mais il ne doit pas nuire aux autres. Les limites de la liberté sont fixées par la loi.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 99,
+    "question": "Que dit l'article 1er de la Constitution française ?",
+    "bonne_reponse": "La France est une République indivisible, laïque, démocratique et sociale.",
+    "distracteurs": [
+      "La France est une monarchie constitutionnelle et catholique.",
+      "La France est un État fédéral composé de régions autonomes.",
+      "La France est une République religieuse, présidentielle et libérale."
+    ],
+    "explication": "L'article 1er de la Constitution de 1958 pose ces quatre caractères de la République. Il affirme aussi l'égalité de tous devant la loi.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 100,
+    "question": "Que garantit la liberté de la presse ?",
+    "bonne_reponse": "Que les médias peuvent informer le public librement, sans censure préalable de l'État.",
+    "distracteurs": [
+      "Que chaque article doit être validé par le gouvernement avant sa publication.",
+      "Que seuls les journaux de l'État ont le droit de publier des informations.",
+      "Que les journalistes peuvent publier des insultes sans jamais être punis."
+    ],
+    "explication": "La loi du 29 juillet 1881 garantit la liberté de la presse. Les journalistes publient sans autorisation, mais ils restent responsables devant la justice en cas de diffamation ou d'injure.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 101,
+    "question": "Que permet la liberté de circulation ?",
+    "bonne_reponse": "D'aller et venir librement sur tout le territoire national.",
+    "distracteurs": [
+      "De passer la frontière de n'importe quel pays sans papiers.",
+      "D'entrer chez n'importe qui sans son autorisation.",
+      "De conduire un véhicule sans permis de conduire."
+    ],
+    "explication": "La liberté d'aller et venir permet de se déplacer et de choisir son domicile sans autorisation. Elle doit respecter la loi et la propriété des autres.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 102,
+    "question": "Que signifie être citoyen d'un État ?",
+    "bonne_reponse": "Avoir la nationalité de cet État, avec des droits et des devoirs.",
+    "distracteurs": [
+      "Habiter dans cet État depuis au moins un an, sans condition.",
+      "Travailler pour l'administration de cet État depuis longtemps.",
+      "Être inscrit dans un parti politique reconnu par cet État."
+    ],
+    "explication": "Le citoyen a la nationalité du pays. Il a des droits, comme voter, et des devoirs, comme respecter la loi.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 103,
+    "question": "Que sont les droits fondamentaux ?",
+    "bonne_reponse": "Des droits essentiels garantis par la Constitution et les textes internationaux.",
+    "distracteurs": [
+      "Des avantages que le gouvernement peut retirer quand il le souhaite.",
+      "Des droits réservés aux personnes qui ont un emploi stable.",
+      "Des règles de politesse sans valeur juridique."
+    ],
+    "explication": "Les droits fondamentaux, comme la liberté, l'égalité ou la dignité, sont protégés par les textes les plus importants. L'État doit les respecter.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 104,
+    "question": "Quel droit protège une personne contre une arrestation arbitraire ?",
+    "bonne_reponse": "Le droit à la sûreté.",
+    "distracteurs": [
+      "Le droit de propriété.",
+      "Le droit de grève.",
+      "Le droit de vote."
+    ],
+    "explication": "La sûreté, prévue par la Déclaration de 1789, protège contre une arrestation ou une détention décidée sans base légale.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 105,
+    "question": "Quel est le texte fondateur établissant les droits et les devoirs de chaque citoyen ?",
+    "bonne_reponse": "La Déclaration des droits de l'homme et du citoyen de 1789.",
+    "distracteurs": [
+      "Le Code civil de Napoléon, adopté en 1804.",
+      "L'édit de Nantes signé par Henri IV en 1598.",
+      "Le traité de Versailles signé en 1919."
+    ],
+    "explication": "La Déclaration de 1789, rédigée pendant la Révolution, proclame les droits naturels de chacun. Elle fait encore partie de notre droit aujourd'hui.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 106,
+    "question": "Quel texte affirme que tous les hommes naissent libres et égaux en droits ?",
+    "bonne_reponse": "La Déclaration des droits de l'homme et du citoyen de 1789.",
+    "distracteurs": [
+      "Le Code civil de Napoléon, adopté en 1804.",
+      "L'édit de Nantes signé par Henri IV en 1598.",
+      "Le traité de Maastricht signé en 1992."
+    ],
+    "explication": "L'article 1er de la Déclaration de 1789 dit : « Les hommes naissent et demeurent libres et égaux en droits. »",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 107,
+    "question": "Quelle situation est une atteinte à la dignité humaine ?",
+    "bonne_reponse": "Être employé par une entreprise sans être rémunéré.",
+    "distracteurs": [
+      "Être contrôlé par un agent dans le train.",
+      "Payer un impôt sur ses revenus.",
+      "Attendre son tour dans une administration."
+    ],
+    "explication": "Faire travailler quelqu'un sans le payer, ou dans des conditions indignes, porte atteinte à sa dignité. La loi punit sévèrement ces situations.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 108,
+    "question": "Qu'est-ce que la liberté d'expression ?",
+    "bonne_reponse": "Le droit de communiquer librement ses idées et ses opinions, dans le respect de la loi.",
+    "distracteurs": [
+      "Le droit de dire n'importe quoi sur n'importe qui, sans aucune limite.",
+      "Le droit de parler seulement des sujets autorisés par le gouvernement.",
+      "Le droit réservé aux journalistes de donner leur avis en public."
+    ],
+    "explication": "L'article 11 de la Déclaration de 1789 protège la libre communication des pensées. Les abus, comme l'injure ou l'appel à la haine, sont punis par la loi.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 109,
+    "question": "Suite à une interpellation par la police, il est possible de :",
+    "bonne_reponse": "Être assisté par un avocat.",
+    "distracteurs": [
+      "Être libéré en donnant de l'argent aux policiers.",
+      "Choisir le policier qui mène l'interrogatoire.",
+      "Faire effacer son casier judiciaire."
+    ],
+    "explication": "Une personne en garde à vue peut demander un avocat, garder le silence, faire prévenir un proche et voir un médecin.",
+    "sous_theme": "justice_recours",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 110,
+    "question": "Tous les citoyens français ont-ils une religion ?",
+    "bonne_reponse": "Non, chacun est libre de croire ou de ne pas croire.",
+    "distracteurs": [
+      "Oui, tous les Français doivent être catholiques.",
+      "Oui, chaque citoyen doit déclarer sa religion à la mairie.",
+      "Non, toute pratique religieuse est interdite en France."
+    ],
+    "explication": "La liberté de conscience permet d'avoir une religion, d'en changer ou de ne pas en avoir. La République est laïque : elle ne reconnaît aucune religion officielle.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 111,
+    "question": "À quel âge est la majorité numérique en France ?",
+    "bonne_reponse": "15 ans",
+    "distracteurs": [
+      "12 ans",
+      "16 ans",
+      "21 ans"
+    ],
+    "explication": "La loi du 7 juillet 2023 fixe la majorité numérique à 15 ans : c’est l’âge à partir duquel un jeune peut s’inscrire seul sur un réseau social. Avant 15 ans, l’accord d’un parent est nécessaire.",
+    "sous_theme": "devoirs",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": "La loi du 7 juillet 2023 fixe bien la majorité numérique à 15 ans, mais son entrée en vigueur dépendait d'un décret et de la compatibilité avec le droit européen. D'autres textes sur l'interdiction des réseaux sociaux avant 15 ans ont été discutés depuis. Vérifier l'état exact du droit à la date de publication. [Validé le 22/11/2026.]"
+  },
+  {
+    "src_id": 112,
+    "question": "Dans lequel de ces endroits est-on autorisé à fumer ?",
+    "bonne_reponse": "Chez soi, dans son propre logement.",
+    "distracteurs": [
+      "Dans un restaurant.",
+      "Dans un bus.",
+      "Dans une salle de classe."
+    ],
+    "explication": "Il est interdit de fumer dans les lieux fermés et couverts accueillant du public, comme les restaurants, les transports ou les écoles. Chez soi, c'est autorisé.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Réponse suggérée « dans la rue » écartée au profit du domicile : depuis 2025, il est aussi interdit de fumer dans certains espaces extérieurs (plages, parcs, abribus, abords des écoles), donc « dans la rue » n'est plus vrai partout."
+  },
+  {
+    "src_id": 113,
+    "question": "En France, la conduite sans permis d'une moto est :",
+    "bonne_reponse": "Un délit puni d'une amende et d'une peine de prison.",
+    "distracteurs": [
+      "Une simple erreur sans aucune sanction.",
+      "Autorisée si l'on roule seulement en campagne.",
+      "Autorisée si l'on a plus de 25 ans."
+    ],
+    "explication": "Conduire sans permis est un délit. La peine peut aller jusqu'à un an de prison et 15 000 euros d'amende.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 114,
+    "question": "En quoi consiste le devoir de solidarité ?",
+    "bonne_reponse": "À contribuer au bien commun, par l'impôt, et à porter secours aux personnes en danger.",
+    "distracteurs": [
+      "À donner chaque mois une partie de son salaire à ses voisins.",
+      "À voter pour le même parti que la majorité des autres citoyens.",
+      "À héberger chez soi toute personne qui le demande, sans exception."
+    ],
+    "explication": "La solidarité nationale passe par l'impôt et les cotisations sociales, qui financent les services publics et la protection sociale. Elle oblige aussi à aider une personne en danger.",
+    "sous_theme": "devoirs",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 115,
+    "question": "Est-ce légal d'être marié à plusieurs personnes en même temps ?",
+    "bonne_reponse": "Non, la polygamie est interdite en France.",
+    "distracteurs": [
+      "Oui, si toutes les épouses sont d'accord.",
+      "Oui, avec l'accord du maire de la commune.",
+      "Oui, si le mari a des revenus suffisants."
+    ],
+    "explication": "En France, on ne peut pas se marier une seconde fois tant que le premier mariage n'est pas dissous. La bigamie est un délit.",
+    "sous_theme": "famille",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 116,
+    "question": "Est-ce obligatoire de déclarer ses impôts chaque année en France ?",
+    "bonne_reponse": "Oui, chaque foyer doit déclarer ses revenus tous les ans.",
+    "distracteurs": [
+      "Non, seulement les personnes qui ont un grand patrimoine.",
+      "Non, seulement une fois tous les cinq ans.",
+      "Non, seulement les personnes de nationalité française."
+    ],
+    "explication": "La déclaration de revenus est annuelle et obligatoire pour les résidents fiscaux, même si on ne paie pas d'impôt. Pour certains foyers, la déclaration automatique suffit si les informations sont exactes.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Depuis 2020, certains foyers bénéficient de la déclaration automatique : la déclaration reste obligatoire, mais elle est considérée comme faite si rien n'est à corriger."
+  },
+  {
+    "src_id": 117,
+    "question": "Est-il obligatoire de porter secours à une personne en danger ?",
+    "bonne_reponse": "Oui, c'est une obligation prévue par la loi.",
+    "distracteurs": [
+      "Non, c'est seulement un conseil de politesse.",
+      "Seulement si on est médecin ou pompier.",
+      "Seulement si la personne fait partie de sa famille."
+    ],
+    "explication": "Ne pas porter assistance à une personne en danger est un délit, quand on peut agir sans risque pour soi. Appeler les secours est déjà une aide.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 118,
+    "question": "Être juré d'assises est :",
+    "bonne_reponse": "Un devoir civique obligatoire.",
+    "distracteurs": [
+      "Un emploi rémunéré réservé aux avocats.",
+      "Une activité bénévole que l'on peut refuser librement.",
+      "Une fonction réservée aux policiers à la retraite."
+    ],
+    "explication": "Le juré est un citoyen tiré au sort qui juge les crimes avec des magistrats. On ne peut refuser que pour un motif grave.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 119,
+    "question": "La vente d'alcool en France est interdite aux personnes de moins de :",
+    "bonne_reponse": "18 ans",
+    "distracteurs": [
+      "16 ans",
+      "14 ans",
+      "21 ans"
+    ],
+    "explication": "La loi interdit de vendre ou d'offrir de l'alcool aux mineurs, c'est-à-dire aux personnes de moins de 18 ans.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 120,
+    "question": "Le non-respect du code de la route est :",
+    "bonne_reponse": "Une infraction punie par une amende ou un retrait de points.",
+    "distracteurs": [
+      "Un simple conseil sans conséquence.",
+      "Une faute punie seulement par une lettre d'excuse.",
+      "Un comportement autorisé la nuit."
+    ],
+    "explication": "Le code de la route est une loi. Ne pas le respecter est une contravention ou un délit, selon la gravité.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 121,
+    "question": "Lequel de ces crimes ou délits peut entrainer la privation des droits civils et politiques par un juge ?",
+    "bonne_reponse": "Une fraude électorale.",
+    "distracteurs": [
+      "Un stationnement interdit.",
+      "Un retard dans le paiement d'une facture.",
+      "Un oubli de déclarer son déménagement à la mairie."
+    ],
+    "explication": "Un juge peut retirer le droit de vote et d'être élu à une personne condamnée pour fraude électorale. Cette peine existe aussi pour d'autres infractions graves, comme le terrorisme ou la corruption.",
+    "sous_theme": "justice_recours",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 122,
+    "question": "Pour obtenir une carte d'identité, il faut :",
+    "bonne_reponse": "Être de nationalité française.",
+    "distracteurs": [
+      "Avoir un emploi en France.",
+      "Être propriétaire de son logement.",
+      "Habiter en France depuis au moins cinq ans."
+    ],
+    "explication": "La carte nationale d'identité est réservée aux Français. Un étranger prouve son identité avec son passeport et son titre de séjour.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 123,
+    "question": "Pour quel motif peut-on limiter la liberté d'expression ?",
+    "bonne_reponse": "Pour sanctionner les provocations à la haine ou à la violence.",
+    "distracteurs": [
+      "Pour interdire de critiquer le gouvernement.",
+      "Pour empêcher de parler une langue étrangère en public.",
+      "Pour interdire d'exprimer une opinion religieuse."
+    ],
+    "explication": "La liberté d'expression a des limites fixées par la loi : l'appel à la haine, le racisme, l'injure et la diffamation sont punis.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 124,
+    "question": "Que doit faire un citoyen s'il est appelé à être juré dans un procès d'assises ?",
+    "bonne_reponse": "Il est obligé de siéger, sauf motif grave reconnu valable.",
+    "distracteurs": [
+      "Il peut refuser sans donner de raison.",
+      "Il peut envoyer un membre de sa famille à sa place.",
+      "Il doit d'abord payer une somme pour participer."
+    ],
+    "explication": "Être juré est une obligation civique. Un juré qui refuse sans motif grave peut recevoir une amende allant jusqu'à 3 750 euros.",
+    "sous_theme": "devoirs",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 125,
+    "question": "Quel est l'âge de la majorité civile en France ?",
+    "bonne_reponse": "18 ans",
+    "distracteurs": [
+      "16 ans",
+      "20 ans",
+      "21 ans"
+    ],
+    "explication": "À 18 ans, on est majeur : on peut voter, signer un contrat et agir seul en justice.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 126,
+    "question": "Quel est l'un des devoirs principaux d'un citoyen français ?",
+    "bonne_reponse": "Respecter la loi et les droits des autres.",
+    "distracteurs": [
+      "Adhérer à un parti politique.",
+      "Pratiquer une religion.",
+      "Être propriétaire de son logement."
+    ],
+    "explication": "Respecter la loi est le premier devoir du citoyen. Il doit aussi payer l'impôt et participer à la défense du pays.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 127,
+    "question": "Quelle est l'infraction la plus grave ?",
+    "bonne_reponse": "Le crime.",
+    "distracteurs": [
+      "Le délit.",
+      "La contravention.",
+      "L'incivilité."
+    ],
+    "explication": "Il existe trois catégories d'infractions : la contravention, la moins grave, le délit, puis le crime, le plus grave. Les crimes sont jugés par la cour d'assises ou la cour criminelle.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 128,
+    "question": "Qu'est-ce que la citoyenneté numérique ?",
+    "bonne_reponse": "Faire un usage responsable, éthique et sûr des outils numériques.",
+    "distracteurs": [
+      "Avoir le droit de tout publier en ligne de façon anonyme.",
+      "Avoir un compte sur tous les réseaux sociaux.",
+      "Voter uniquement par internet aux élections."
+    ],
+    "explication": "Sur internet, la loi s'applique comme ailleurs. Le citoyen numérique respecte les autres, protège ses données et vérifie les informations.",
+    "sous_theme": "devoirs",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 129,
+    "question": "Qu'est-ce que le devoir de mémoire ?",
+    "bonne_reponse": "Le devoir moral de se souvenir des drames du passé.",
+    "distracteurs": [
+      "L'obligation d'apprendre par cœur la Constitution.",
+      "L'obligation de garder ses anciens papiers d'identité.",
+      "Le devoir de connaître la date de naissance de chaque président."
+    ],
+    "explication": "Le devoir de mémoire rappelle les victimes des guerres, de la Shoah ou de l'esclavage. Il aide à défendre la démocratie et les droits de l'homme.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 130,
+    "question": "Qui peut être appelé à faire partie d'un jury d'assises en France ?",
+    "bonne_reponse": "Des Français inscrits sur les listes électorales, tirés au sort.",
+    "distracteurs": [
+      "Uniquement des avocats choisis par le président du tribunal.",
+      "Des volontaires qui se présentent au tribunal.",
+      "Toute personne présente au tribunal le jour du procès."
+    ],
+    "explication": "Les jurés sont tirés au sort parmi les Français inscrits sur les listes électorales et âgés d'au moins 23 ans.",
+    "sous_theme": "devoirs",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 131,
+    "question": "Une personne est privée de ses droits civils et politiques pendant 5 ans suite à une condamnation. Parmi ces propositions laquelle est correcte ? Pendant 5 ans,...",
+    "bonne_reponse": "Elle ne peut plus voter ni se présenter aux élections.",
+    "distracteurs": [
+      "Elle ne peut plus se marier.",
+      "Elle perd automatiquement la nationalité française.",
+      "Elle ne peut plus travailler."
+    ],
+    "explication": "La privation des droits civiques retire notamment le droit de vote et le droit d'être élu. Elle ne retire pas le droit de se marier, ni de travailler.",
+    "sous_theme": "justice_recours",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  }
+]

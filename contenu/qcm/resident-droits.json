@@ -1,0 +1,572 @@
+[
+  {
+    "src_id": 91,
+    "question": "À quelle liberté la PMA fait-elle référence ?",
+    "bonne_reponse": "La liberté de fonder une famille.",
+    "distracteurs": [
+      "La liberté de la presse.",
+      "La liberté de circulation.",
+      "La liberté syndicale."
+    ],
+    "explication": "La procréation médicalement assistée aide à avoir un enfant. Depuis 2021, elle est ouverte aux couples de femmes et aux femmes seules.",
+    "sous_theme": "famille",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 92,
+    "question": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+    "bonne_reponse": "Au nom de l'ordre public et de la sécurité de tous.",
+    "distracteurs": [
+      "Au nom des intérêts d'un parti politique.",
+      "Au nom de la religion de la majorité.",
+      "Au nom des préférences personnelles du Premier ministre."
+    ],
+    "explication": "L'État peut limiter une liberté, par la loi, pour protéger l'ordre public, la sécurité, la santé ou les droits des autres.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 93,
+    "question": "Concernant le droit de se marier, quelle proposition est correcte ?",
+    "bonne_reponse": "Le mariage est ouvert à deux personnes majeures, de même sexe ou de sexe différent.",
+    "distracteurs": [
+      "Le mariage est réservé à un homme et une femme.",
+      "Le mariage doit obligatoirement être célébré dans un lieu religieux.",
+      "Le mariage est possible à 15 ans sans autorisation."
+    ],
+    "explication": "Depuis la loi de 2013, deux hommes ou deux femmes peuvent se marier. Le mariage civil est célébré à la mairie, entre deux personnes majeures et consentantes.",
+    "sous_theme": "famille",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 94,
+    "question": "Est-il toujours possible de divorcer ?",
+    "bonne_reponse": "Oui, le divorce est un droit encadré par la loi.",
+    "distracteurs": [
+      "Non, le divorce est interdit en France.",
+      "Oui, mais seulement pour le mari.",
+      "Non, seulement si l'autre époux est d'accord."
+    ],
+    "explication": "Chaque époux peut demander le divorce, même si l'autre refuse. La loi prévoit plusieurs procédures, par consentement mutuel ou devant le juge.",
+    "sous_theme": "famille",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 95,
+    "question": "La peine de mort est :",
+    "bonne_reponse": "Abolie depuis 1981.",
+    "distracteurs": [
+      "Appliquée pour les crimes de terrorisme.",
+      "Décidée par le Président de la République.",
+      "Encore possible pour les crimes de guerre."
+    ],
+    "explication": "La loi du 9 octobre 1981, défendue par Robert Badinter, a aboli la peine de mort. Depuis 2007, cette interdiction est inscrite dans la Constitution.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 96,
+    "question": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?",
+    "bonne_reponse": "« La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui. »",
+    "distracteurs": [
+      "« L'union fait la force. »",
+      "« Je pense, donc je suis. »",
+      "« La France est une République indivisible, laïque, démocratique et sociale. »"
+    ],
+    "explication": "Cette phrase est l'article 4 de la Déclaration de 1789. « L'union fait la force » est la devise de la Belgique, et la phrase sur la République vient de la Constitution de 1958.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 97,
+    "question": "Le recours à l'avortement est-il autorisé ?",
+    "bonne_reponse": "Oui, c'est une liberté garantie par la Constitution.",
+    "distracteurs": [
+      "Non, l'avortement est interdit en France.",
+      "Oui, mais seulement avec l'accord du conjoint.",
+      "Non, sauf si la femme a déjà trois enfants."
+    ],
+    "explication": "L'interruption volontaire de grossesse est légale depuis la loi Veil de 1975. Depuis 2024, la liberté d'y recourir est inscrite dans la Constitution.",
+    "sous_theme": "egalite_fh",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 98,
+    "question": "Que contient la Constitution ?",
+    "bonne_reponse": "Les règles d'organisation de l'État et les droits des citoyens.",
+    "distracteurs": [
+      "La liste des prix des produits fixés chaque année par l'État.",
+      "Les règles détaillées du code de la route.",
+      "Les noms et adresses de tous les maires de France."
+    ],
+    "explication": "La Constitution organise les pouvoirs : Président, Gouvernement, Parlement. Son préambule renvoie à la Déclaration de 1789 et protège nos droits.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 99,
+    "question": "Que garantit la liberté de la presse ?",
+    "bonne_reponse": "Le droit d'informer le public sans autorisation de l'État.",
+    "distracteurs": [
+      "L'obligation de faire relire chaque article par la police.",
+      "Le droit de publier des insultes sans être puni.",
+      "Le monopole de l'État sur toutes les informations."
+    ],
+    "explication": "La loi de 1881 protège la liberté de la presse. Les journalistes publient sans censure préalable, mais ils répondent devant la justice de la diffamation ou de l'injure.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 100,
+    "question": "Que prévoit la Charte de l'environnement ?",
+    "bonne_reponse": "Le droit de vivre dans un environnement sain.",
+    "distracteurs": [
+      "L'interdiction totale des voitures en ville.",
+      "L'obligation pour chaque famille de cultiver un jardin.",
+      "La suppression de toutes les usines en France."
+    ],
+    "explication": "La Charte de l'environnement de 2004 fait partie de la Constitution. Elle donne à chacun le droit à un environnement sain et le devoir de le protéger.",
+    "sous_theme": "devoirs",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 101,
+    "question": "Que signifie la dignité humaine ?",
+    "bonne_reponse": "Chaque être humain doit être respecté et jamais traité comme un objet.",
+    "distracteurs": [
+      "Le respect réservé aux personnes qui ont un diplôme ou un métier.",
+      "L'obligation de porter des vêtements élégants en public.",
+      "Le droit des personnes riches à être mieux traitées."
+    ],
+    "explication": "Toute personne a la même valeur, quelles que soient ses différences. La dignité interdit l'esclavage, la torture et les traitements dégradants.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 102,
+    "question": "Que signifie le droit de manifester ?",
+    "bonne_reponse": "Le droit de se rassembler dans la rue, sans violence, pour défendre une idée.",
+    "distracteurs": [
+      "Le droit de bloquer une route en cassant des vitrines pour se faire entendre.",
+      "Le droit d'entrer de force dans un bâtiment public pour protester.",
+      "Le droit réservé aux élus de défiler dans la rue."
+    ],
+    "explication": "Manifester est un moyen d'exprimer son opinion en groupe. Une manifestation sur la voie publique doit être déclarée à l'avance et rester pacifique.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 103,
+    "question": "Que signifie PMA ?",
+    "bonne_reponse": "Procréation médicalement assistée.",
+    "distracteurs": [
+      "Protection maternelle et alimentaire.",
+      "Prestation médicale d'adoption.",
+      "Prime mensuelle d'allocation."
+    ],
+    "explication": "La procréation médicalement assistée regroupe les techniques médicales qui aident à avoir un enfant.",
+    "sous_theme": "famille",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 104,
+    "question": "Quel texte est le plus difficile à modifier ?",
+    "bonne_reponse": "La Constitution.",
+    "distracteurs": [
+      "Un décret du Premier ministre.",
+      "Une loi ordinaire.",
+      "Un arrêté municipal."
+    ],
+    "explication": "La Constitution est le texte le plus élevé. Pour la modifier, il faut un référendum ou un vote du Parlement réuni en Congrès, à la majorité des trois cinquièmes.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 105,
+    "question": "Quelle liberté permet à une personne de croire en la religion de son choix ?",
+    "bonne_reponse": "La liberté de conscience.",
+    "distracteurs": [
+      "La liberté de la presse.",
+      "La liberté d'entreprendre.",
+      "La liberté de circulation."
+    ],
+    "explication": "La liberté de conscience permet de croire en la religion de son choix, d'en changer ou de ne pas avoir de religion.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 106,
+    "question": "Qu'est-ce que le droit de grève ?",
+    "bonne_reponse": "Le droit des salariés d'arrêter ensemble le travail pour défendre leurs intérêts.",
+    "distracteurs": [
+      "Le droit pour l'employeur de licencier un salarié sans aucun motif.",
+      "Le droit pour un salarié de ne plus venir travailler sans prévenir personne.",
+      "Le droit pour les clients de refuser de payer un service."
+    ],
+    "explication": "La grève est un droit reconnu par la Constitution. Elle consiste à arrêter le travail ensemble pour soutenir des revendications professionnelles.",
+    "sous_theme": "travail",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 107,
+    "question": "Qu'est-ce que la Constitution ?",
+    "bonne_reponse": "Le texte le plus important, qui organise les pouvoirs et nos droits.",
+    "distracteurs": [
+      "Un règlement intérieur applicable dans toutes les mairies.",
+      "Un traité signé entre la France et ses pays voisins.",
+      "Un livre d'histoire sur la Révolution."
+    ],
+    "explication": "La Constitution de la Cinquième République date de 1958. Elle est au-dessus des lois et définit le rôle du Président, du Gouvernement et du Parlement.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 108,
+    "question": "Qui peut demander à avorter ?",
+    "bonne_reponse": "Toute femme enceinte, majeure ou mineure, dans le délai légal.",
+    "distracteurs": [
+      "Seulement les femmes mariées, avec l'accord de leur mari.",
+      "Seulement les femmes de nationalité française et majeures.",
+      "Seulement les femmes majeures, avec l'accord du conjoint."
+    ],
+    "explication": "L'IVG est possible jusqu'à 14 semaines de grossesse. Une mineure peut y avoir accès sans l'accord de ses parents, si elle est accompagnée d'un adulte de son choix.",
+    "sous_theme": "egalite_fh",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 109,
+    "question": "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?",
+    "bonne_reponse": "Oui, si elle est inscrite sur les listes électorales.",
+    "distracteurs": [
+      "Non, seuls les hommes peuvent voter.",
+      "Oui, mais seulement aux élections municipales.",
+      "Oui, mais seulement avec l'accord de son mari."
+    ],
+    "explication": "Les femmes votent en France depuis 1944. Elles ont exactement les mêmes droits de vote que les hommes.",
+    "sous_theme": "egalite_fh",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 110,
+    "question": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
+    "bonne_reponse": "La loi s'applique sur internet comme dans la vie réelle.",
+    "distracteurs": [
+      "On peut tout écrire si l'on utilise un pseudonyme.",
+      "Les insultes en ligne ne sont jamais punies.",
+      "On peut publier la photo de n'importe qui sans son accord."
+    ],
+    "explication": "Sur les réseaux sociaux, chacun est responsable de ce qu'il écrit ou partage. Les insultes, le harcèlement et les messages de haine sont punis.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 111,
+    "question": "Jeter un mégot par terre est :",
+    "bonne_reponse": "Une infraction punie d'une amende.",
+    "distracteurs": [
+      "Un geste autorisé dans la rue.",
+      "Un geste autorisé si le mégot est éteint.",
+      "Une simple impolitesse sans sanction."
+    ],
+    "explication": "Jeter un mégot ou un déchet sur la voie publique est interdit. L'amende forfaitaire est de 135 euros.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 112,
+    "question": "L'État peut-il limiter les droits et libertés ?",
+    "bonne_reponse": "Oui, si la loi le prévoit pour un motif d'intérêt général.",
+    "distracteurs": [
+      "Non, jamais, les libertés n'ont aucune limite.",
+      "Oui, quand le Président le souhaite, sans justification.",
+      "Oui, mais seulement pour les étrangers."
+    ],
+    "explication": "Une liberté peut être limitée, par la loi, pour protéger la sécurité, la santé ou les droits des autres. Le juge contrôle que la limite reste nécessaire et proportionnée.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 113,
+    "question": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l’environnement ?",
+    "bonne_reponse": "Trier ses déchets et réduire sa consommation d'eau.",
+    "distracteurs": [
+      "Laisser le chauffage allumé fenêtres ouvertes.",
+      "Jeter ses piles usagées dans la poubelle ordinaire.",
+      "Laisser couler l'eau pendant qu'on se brosse les dents."
+    ],
+    "explication": "Trier ses déchets permet de les recycler. Économiser l'eau et l'énergie protège aussi l'environnement.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 114,
+    "question": "Quelle proposition constitue une obligation ?",
+    "bonne_reponse": "Payer ses impôts.",
+    "distracteurs": [
+      "Adhérer à un syndicat.",
+      "Pratiquer une religion.",
+      "Être membre d'une association."
+    ],
+    "explication": "Payer l'impôt est obligatoire : il finance les services publics comme l'école, l'hôpital ou la police. Adhérer à un syndicat ou à une association est un libre choix.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 115,
+    "question": "Pour quel motif peut-on limiter la liberté d'expression ?",
+    "bonne_reponse": "En cas de propos racistes, d'insultes ou d'appels à la haine.",
+    "distracteurs": [
+      "En cas de critique du gouvernement.",
+      "En cas d'opinion différente de celle de la majorité.",
+      "En cas de propos tenus dans une langue étrangère."
+    ],
+    "explication": "La loi punit le racisme, l'injure, la diffamation et l'appel à la haine. Critiquer le gouvernement reste un droit.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 116,
+    "question": "Pourquoi doit-on trier ses déchets ?",
+    "bonne_reponse": "Pour permettre le recyclage et moins polluer.",
+    "distracteurs": [
+      "Pour payer moins cher son loyer.",
+      "Pour remplir plus vite les poubelles.",
+      "Pour obtenir une carte de résident."
+    ],
+    "explication": "Le tri permet de réutiliser le papier, le verre ou le plastique. Il réduit la quantité de déchets et la pollution.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 117,
+    "question": "Que doit faire une victime de violences ?",
+    "bonne_reponse": "Porter plainte et demander de l'aide.",
+    "distracteurs": [
+      "Garder le silence pour éviter les problèmes.",
+      "Se venger elle-même de son agresseur.",
+      "Attendre que les violences s'arrêtent d'elles-mêmes."
+    ],
+    "explication": "Une victime peut porter plainte au commissariat ou à la gendarmerie et se faire aider. Pour les violences faites aux femmes, le numéro 3919 est gratuit et anonyme.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 118,
+    "question": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+    "bonne_reponse": "Les respecter.",
+    "distracteurs": [
+      "Les ignorer s'ils ne sont pas en uniforme.",
+      "Discuter jusqu'à ce qu'ils changent d'avis.",
+      "Partir en courant pour éviter le contrôle."
+    ],
+    "explication": "Il faut obéir aux ordres des forces de l'ordre et rester calme. Si l'on pense qu'un contrôle est abusif, on peut le contester ensuite, par exemple auprès du Défenseur des droits.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 119,
+    "question": "Quel est le rôle de la police ?",
+    "bonne_reponse": "Protéger la population et faire respecter la loi.",
+    "distracteurs": [
+      "Juger et condamner les auteurs d'infractions.",
+      "Voter les lois au nom des citoyens.",
+      "Collecter les impôts des habitants."
+    ],
+    "explication": "La police enquête et arrête les auteurs d'infractions. Mais ce sont les juges, et non les policiers, qui jugent et condamnent.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 120,
+    "question": "Quel est un exemple d’assistance à personne en danger ?",
+    "bonne_reponse": "Appeler les secours pour une personne qui fait un malaise.",
+    "distracteurs": [
+      "Filmer la scène avec son téléphone pour la publier sur internet.",
+      "Passer son chemin sans s'arrêter.",
+      "Attendre que quelqu'un d'autre intervienne."
+    ],
+    "explication": "Appeler le 15, le 18 ou le 112 est déjà une façon de porter assistance. Ne pas le faire peut être puni par la loi.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 121,
+    "question": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
+    "bonne_reponse": "La vaccination obligatoire des enfants.",
+    "distracteurs": [
+      "Le droit de choisir son métier.",
+      "La gratuité de l'école publique.",
+      "Le droit de se marier."
+    ],
+    "explication": "Certaines vaccinations sont obligatoires pour les enfants. La liberté individuelle est limitée ici pour protéger la santé de tous.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 122,
+    "question": "Quelle est l’attitude à avoir lorsque qu'on est témoin de violences ?",
+    "bonne_reponse": "Alerter la police, sans se mettre en danger.",
+    "distracteurs": [
+      "S'éloigner sans rien dire à personne.",
+      "Frapper l'agresseur pour se venger.",
+      "Filmer la scène sans prévenir personne."
+    ],
+    "explication": "Le témoin doit alerter la police, au 17, ou les secours, au 112. Il aide la victime s'il peut le faire sans risque pour lui.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 123,
+    "question": "Quelle est l'infraction la plus grave ?",
+    "bonne_reponse": "Le crime.",
+    "distracteurs": [
+      "Le délit.",
+      "La contravention.",
+      "L'incivilité."
+    ],
+    "explication": "Les infractions sont classées de la moins grave à la plus grave : contravention, délit, crime. Les crimes sont punis des peines les plus lourdes.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 124,
+    "question": "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?",
+    "bonne_reponse": "Respecter la loi française.",
+    "distracteurs": [
+      "Avoir la nationalité française.",
+      "Voter à l'élection présidentielle.",
+      "Faire la Journée défense et citoyenneté."
+    ],
+    "explication": "La loi française s'applique à toutes les personnes qui vivent en France. Le vote présidentiel et la Journée défense et citoyenneté concernent les Français.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 125,
+    "question": "Quelle proposition représente un exemple de crime ?",
+    "bonne_reponse": "Un meurtre.",
+    "distracteurs": [
+      "Un vol simple dans un magasin.",
+      "Un stationnement interdit.",
+      "Un tapage nocturne."
+    ],
+    "explication": "Le meurtre est un crime. Le vol simple est un délit, le stationnement interdit et le tapage nocturne sont des contraventions.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 126,
+    "question": "Quelle proposition représente un exemple de délit ?",
+    "bonne_reponse": "Un vol.",
+    "distracteurs": [
+      "Un meurtre.",
+      "Un viol.",
+      "Un stationnement gênant."
+    ],
+    "explication": "Le vol simple est un délit, jugé par le tribunal correctionnel. Le meurtre et le viol sont des crimes, le stationnement gênant une contravention.",
+    "sous_theme": "justice_recours",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 127,
+    "question": "Qui veille au maintien de l’ordre public ?",
+    "bonne_reponse": "La police et la gendarmerie.",
+    "distracteurs": [
+      "Les sapeurs-pompiers.",
+      "Les enseignants.",
+      "Les agents de La Poste."
+    ],
+    "explication": "La police nationale, surtout en ville, et la gendarmerie, surtout à la campagne, assurent la sécurité et l'ordre public.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 128,
+    "question": "S'agissant des déchets, quelle proposition est correcte ?",
+    "bonne_reponse": "Il faut trier ses déchets, et les jeter dans la nature est puni d'une amende.",
+    "distracteurs": [
+      "On peut jeter ses déchets dans la nature s'ils sont biodégradables.",
+      "Le tri des déchets est interdit dans les immeubles.",
+      "On peut déposer ses déchets sur le trottoir à n'importe quelle heure."
+    ],
+    "explication": "Le tri permet le recyclage. Abandonner des déchets dans la rue ou dans la nature est interdit et puni d'une amende.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  }
+]

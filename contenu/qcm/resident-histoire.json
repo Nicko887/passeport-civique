@@ -1,0 +1,737 @@
+[
+  {
+    "src_id": 129,
+    "question": "Quel était le surnom de Louis XIV ?",
+    "bonne_reponse": "Le Roi Soleil",
+    "distracteurs": [
+      "Le Bien-Aimé",
+      "Le Petit Caporal",
+      "Le Roi Chevalier"
+    ],
+    "explication": "Louis XIV a choisi le soleil comme emblème. Le Bien-Aimé désigne Louis XV, le Petit Caporal Napoléon et le Roi Chevalier François Ier.",
+    "sous_theme": "histoire_ancienne",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 130,
+    "question": "Quel roi de France a été exécuté pendant la Révolution française ?",
+    "bonne_reponse": "Louis XVI",
+    "distracteurs": [
+      "Louis XIV",
+      "Louis XV",
+      "Louis XVIII"
+    ],
+    "explication": "Louis XVI est jugé par la Convention et guillotiné à Paris le 21 janvier 1793.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 131,
+    "question": "En quelle année Napoléon Ier est-il devenu empereur ?",
+    "bonne_reponse": "1804",
+    "distracteurs": [
+      "1799",
+      "1789",
+      "1815"
+    ],
+    "explication": "Napoléon Bonaparte se fait sacrer empereur des Français le 2 décembre 1804 à Notre-Dame de Paris. En 1799, il était devenu Premier consul.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 132,
+    "question": "Lequel de ces personnages a un lien avec la République française ?",
+    "bonne_reponse": "Marianne, le symbole de la République",
+    "distracteurs": [
+      "Louis XIV, le Roi Soleil",
+      "Charlemagne, l'empereur",
+      "Clovis, le premier roi des Francs"
+    ],
+    "explication": "Marianne est la figure féminine qui représente la République française. On voit son buste dans les mairies et son visage sur les timbres.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 133,
+    "question": "De quand date l'appel à la résistance du général de Gaulle ?",
+    "bonne_reponse": "18 juin 1940",
+    "distracteurs": [
+      "6 juin 1944",
+      "14 juillet 1940",
+      "25 août 1944"
+    ],
+    "explication": "Le 18 juin 1940, depuis Londres, à la radio BBC, le général de Gaulle appelle les Français à continuer le combat contre l'Allemagne nazie.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 134,
+    "question": "Pourquoi la Shoah est-elle étudiée à l'école ?",
+    "bonne_reponse": "Pour ne pas oublier le génocide des Juifs et éviter que cela recommence",
+    "distracteurs": [
+      "Pour apprendre les grandes dates de la Révolution française",
+      "Pour préparer les élèves au service militaire",
+      "Pour étudier la géographie de l'Europe de l'Est"
+    ],
+    "explication": "La Shoah est le génocide des Juifs par les nazis. On l'étudie pour se souvenir des victimes et lutter contre l'antisémitisme, le racisme et la haine.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 135,
+    "question": "Quel pays a été colonisé par la France ?",
+    "bonne_reponse": "Le Sénégal",
+    "distracteurs": [
+      "Le Kenya",
+      "L'Argentine",
+      "Le Japon"
+    ],
+    "explication": "Le Sénégal a été une colonie française jusqu'à son indépendance en 1960. Le Kenya était une colonie britannique ; l'Argentine et le Japon n'ont jamais été colonisés par la France.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 136,
+    "question": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+    "bonne_reponse": "1962",
+    "distracteurs": [
+      "1958",
+      "1945",
+      "1981"
+    ],
+    "explication": "Depuis la réforme de 1962, voulue par le général de Gaulle et approuvée par référendum, le président est élu directement par les citoyens. La première élection de ce type a eu lieu en 1965.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 137,
+    "question": "Quelle est la première étape de la construction européenne en 1951 ?",
+    "bonne_reponse": "La création de la Communauté européenne du charbon et de l'acier (CECA)",
+    "distracteurs": [
+      "L'adoption de l'euro comme monnaie commune",
+      "La signature du traité de Maastricht",
+      "La création de l'espace Schengen"
+    ],
+    "explication": "En 1951, six pays dont la France et l'Allemagne mettent en commun le charbon et l'acier. Le but est de rendre la guerre impossible entre eux.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 138,
+    "question": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
+    "bonne_reponse": "François Mitterrand",
+    "distracteurs": [
+      "Charles de Gaulle",
+      "Valéry Giscard d'Estaing",
+      "Jacques Chirac"
+    ],
+    "explication": "La peine de mort est abolie en 1981, sous la présidence de François Mitterrand, grâce à la loi défendue par le ministre de la Justice Robert Badinter.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 139,
+    "question": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
+    "bonne_reponse": "La Première République",
+    "distracteurs": [
+      "Le Premier Empire",
+      "La Ve République",
+      "La Restauration"
+    ],
+    "explication": "Le 21 septembre 1792, la royauté est abolie et la Première République est proclamée. Le Premier Empire arrive en 1804.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 140,
+    "question": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+    "bonne_reponse": "Jean Moulin",
+    "distracteurs": [
+      "Philippe Pétain",
+      "Pierre Laval",
+      "Louis Pasteur"
+    ],
+    "explication": "Jean Moulin a unifié les mouvements de la Résistance intérieure à la demande du général de Gaulle. Arrêté en 1943, il est mort sous la torture.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 141,
+    "question": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+    "bonne_reponse": "Elles ont obtenu le droit de vote et le droit d'être élues",
+    "distracteurs": [
+      "Elles ont obtenu le droit d'ouvrir un compte bancaire seules",
+      "Elles ont obtenu le droit à l'interruption volontaire de grossesse",
+      "Elles ont obtenu le droit de travailler sans l'accord du mari"
+    ],
+    "explication": "Une ordonnance du 21 avril 1944 donne aux femmes le droit de voter et d'être élues. Elles votent pour la première fois en 1945.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 142,
+    "question": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
+    "bonne_reponse": "L'Organisation des Nations unies (ONU)",
+    "distracteurs": [
+      "L'Union européenne (UE)",
+      "L'Organisation du traité de l'Atlantique Nord (OTAN)",
+      "La Société des Nations (SDN)"
+    ],
+    "explication": "L'ONU est créée en 1945 pour maintenir la paix dans le monde. La France est l'un des cinq membres permanents de son Conseil de sécurité.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 143,
+    "question": "Quelle peine a été supprimée en 1981 ?",
+    "bonne_reponse": "La peine de mort",
+    "distracteurs": [
+      "La réclusion criminelle à perpétuité",
+      "Le travail d'intérêt général",
+      "L'amende"
+    ],
+    "explication": "La loi du 9 octobre 1981, défendue par Robert Badinter, abolit la peine de mort en France. Depuis 2007, cette abolition est inscrite dans la Constitution.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 144,
+    "question": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?",
+    "bonne_reponse": "2002",
+    "distracteurs": [
+      "1981",
+      "1992",
+      "2010"
+    ],
+    "explication": "Les pièces et billets en euros circulent en France depuis le 1er janvier 2002. Ils ont remplacé le franc.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 145,
+    "question": "En quelle année a commencé la Première Guerre mondiale ?",
+    "bonne_reponse": "1914",
+    "distracteurs": [
+      "1870",
+      "1912",
+      "1939"
+    ],
+    "explication": "La Première Guerre mondiale commence en août 1914 et se termine le 11 novembre 1918.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 146,
+    "question": "Où a eu lieu le débarquement en 1944 ?",
+    "bonne_reponse": "En Normandie",
+    "distracteurs": [
+      "En Bretagne",
+      "Au Pays basque",
+      "En Alsace"
+    ],
+    "explication": "Le 6 juin 1944, les Alliés débarquent sur les plages de Normandie pour libérer la France et l'Europe de l'occupation nazie.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 147,
+    "question": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
+    "bonne_reponse": "L'Afrique",
+    "distracteurs": [
+      "L'Amérique du Sud",
+      "L'Europe",
+      "L'Océanie"
+    ],
+    "explication": "Après 1945, la plupart des colonies françaises devenues indépendantes sont en Afrique, surtout vers 1960, et l'Algérie en 1962.",
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 148,
+    "question": "Que fête-t-on le 8 mai ?",
+    "bonne_reponse": "La fin de la Seconde Guerre mondiale en Europe",
+    "distracteurs": [
+      "La fin de la Première Guerre mondiale",
+      "La prise de la Bastille",
+      "La fête du Travail"
+    ],
+    "explication": "Le 8 mai 1945, l'Allemagne nazie capitule. Ce jour férié célèbre la victoire des Alliés en Europe.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 149,
+    "question": "Quelle mer ou océan borde la France métropolitaine ?",
+    "bonne_reponse": "L'océan Atlantique",
+    "distracteurs": [
+      "La mer Baltique",
+      "La mer Noire",
+      "L'océan Indien"
+    ],
+    "explication": "La France métropolitaine est bordée par l'océan Atlantique, la Manche, la mer du Nord et la mer Méditerranée. L'océan Indien borde seulement des territoires d'outre-mer.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 150,
+    "question": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
+    "bonne_reponse": "La Suisse",
+    "distracteurs": [
+      "Le Portugal",
+      "Les Pays-Bas",
+      "L'Autriche"
+    ],
+    "explication": "La France métropolitaine a des frontières terrestres avec la Belgique, le Luxembourg, l'Allemagne, la Suisse, l'Italie, Monaco, l'Espagne et Andorre.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 151,
+    "question": "Quelle ville française est un port maritime ?",
+    "bonne_reponse": "Marseille",
+    "distracteurs": [
+      "Lyon",
+      "Toulouse",
+      "Strasbourg"
+    ],
+    "explication": "Marseille est un grand port sur la mer Méditerranée. Le Havre, Dunkerque et Nantes-Saint-Nazaire sont aussi des ports maritimes.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 152,
+    "question": "Quelle mer se situe entre la France et l'Angleterre ?",
+    "bonne_reponse": "La Manche",
+    "distracteurs": [
+      "La mer Méditerranée",
+      "La mer Baltique",
+      "La mer d'Irlande"
+    ],
+    "explication": "La Manche sépare la France de l'Angleterre. Le tunnel sous la Manche relie les deux pays depuis 1994.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 153,
+    "question": "Qu'est ce que la France d'outre-mer ?",
+    "bonne_reponse": "Les territoires français situés en dehors de la France métropolitaine",
+    "distracteurs": [
+      "Les anciennes colonies devenues des pays indépendants",
+      "Les pays étrangers où l'on parle le français",
+      "Les régions françaises situées au bord de la mer"
+    ],
+    "explication": "La France d'outre-mer regroupe des territoires français en Amérique, dans l'océan Indien, dans le Pacifique et en Antarctique, comme la Guadeloupe ou La Réunion.",
+    "sous_theme": "outre_mer",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 154,
+    "question": "Quelle chaîne de montagnes est située entre la France et l’Espagne ?",
+    "bonne_reponse": "Les Pyrénées",
+    "distracteurs": [
+      "Les Alpes",
+      "Les Vosges",
+      "Le Jura"
+    ],
+    "explication": "Les Pyrénées forment la frontière entre la France et l'Espagne, de l'océan Atlantique à la mer Méditerranée.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 155,
+    "question": "Quelle île française se trouve dans l'océan Indien ?",
+    "bonne_reponse": "La Réunion",
+    "distracteurs": [
+      "La Martinique",
+      "La Guadeloupe",
+      "La Nouvelle-Calédonie"
+    ],
+    "explication": "La Réunion se trouve dans l'océan Indien, à l'est de Madagascar. Mayotte est aussi une île française de l'océan Indien.",
+    "sous_theme": "outre_mer",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 156,
+    "question": "Quelle est la population approximative de la France en 2025 ?",
+    "bonne_reponse": "Environ 68 millions d'habitants",
+    "distracteurs": [
+      "Environ 50 millions d'habitants",
+      "Environ 85 millions d'habitants",
+      "Environ 120 millions d'habitants"
+    ],
+    "explication": "Selon l'Insee, la France compte environ 68,6 millions d'habitants au début de l'année 2025, outre-mer compris.",
+    "sous_theme": "geographie",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 157,
+    "question": "Quel fleuve traverse Paris ?",
+    "bonne_reponse": "La Seine",
+    "distracteurs": [
+      "La Loire",
+      "Le Rhône",
+      "La Garonne"
+    ],
+    "explication": "La Seine traverse Paris avant de se jeter dans la Manche, au Havre.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 158,
+    "question": "Lequel de ces pays partage des frontières terrestres avec la France ?",
+    "bonne_reponse": "L'Espagne",
+    "distracteurs": [
+      "Le Portugal",
+      "L'Autriche",
+      "Le Danemark"
+    ],
+    "explication": "L'Espagne a une frontière avec la France le long des Pyrénées. La France a aussi des frontières terrestres en outre-mer, par exemple avec le Brésil grâce à la Guyane.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 159,
+    "question": "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
+    "bonne_reponse": "L'Allemagne",
+    "distracteurs": [
+      "L'Espagne",
+      "L'Italie",
+      "Andorre"
+    ],
+    "explication": "Au nord-est, la France touche la Belgique, le Luxembourg et l'Allemagne. L'Espagne et Andorre sont au sud, l'Italie au sud-est.",
+    "sous_theme": "geographie",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 160,
+    "question": "Où se trouvent les principales activités économiques en France ?",
+    "bonne_reponse": "Principalement dans les grandes métropoles et les zones industrielles",
+    "distracteurs": [
+      "Principalement dans les zones de montagne",
+      "Principalement dans les villages de campagne",
+      "Principalement dans les îles d'outre-mer"
+    ],
+    "explication": "Les entreprises et les emplois se concentrent dans les grandes agglomérations comme Paris, Lyon ou Marseille, et dans les zones industrielles.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 161,
+    "question": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
+    "bonne_reponse": "La France",
+    "distracteurs": [
+      "L'Allemagne",
+      "Le Royaume-Uni",
+      "Le Portugal"
+    ],
+    "explication": "La France est le pays le plus visité du monde. Elle accueille chaque année environ 100 millions de touristes étrangers.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 162,
+    "question": "Où habite la majorité des Français ?",
+    "bonne_reponse": "Dans les zones urbaines : les villes et leurs banlieues",
+    "distracteurs": [
+      "Dans les villages de campagne",
+      "Dans les zones de montagne",
+      "Dans les territoires d'outre-mer"
+    ],
+    "explication": "Environ 8 Français sur 10 vivent dans une ville ou dans sa banlieue, c'est-à-dire en zone urbaine.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 163,
+    "question": "Quelle région est la plus peuplée ?",
+    "bonne_reponse": "L'Île-de-France",
+    "distracteurs": [
+      "La Bretagne",
+      "La Normandie",
+      "La Corse"
+    ],
+    "explication": "L'Île-de-France, autour de Paris, compte environ 12 millions d'habitants, soit près d'un Français sur cinq.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 164,
+    "question": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+    "bonne_reponse": "Lyon",
+    "distracteurs": [
+      "Quimper",
+      "Mende",
+      "Guéret"
+    ],
+    "explication": "Lyon est la troisième ville de France. Les grandes métropoles sont notamment Paris, Marseille, Lyon, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux et Lille.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 165,
+    "question": "Lequel de ces départements de France est le plus touristique ?",
+    "bonne_reponse": "Paris",
+    "distracteurs": [
+      "La Creuse",
+      "La Lozère",
+      "L'Indre"
+    ],
+    "explication": "Paris est le département le plus touristique, avec ses monuments et ses musées. Les Alpes-Maritimes, le Var et la Savoie attirent aussi beaucoup de touristes.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 166,
+    "question": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
+    "bonne_reponse": "Les Journées européennes du patrimoine",
+    "distracteurs": [
+      "Les jours de soldes d'été",
+      "Le week-end de Pâques",
+      "La semaine de Noël"
+    ],
+    "explication": "Chaque année en septembre, pendant les Journées européennes du patrimoine, de nombreux monuments et lieux publics ouvrent gratuitement leurs portes.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 167,
+    "question": "Combien de personnes parlent français dans le monde ?",
+    "bonne_reponse": "Plus de 300 millions",
+    "distracteurs": [
+      "Environ 20 millions",
+      "Environ 70 millions",
+      "Plus d'un milliard"
+    ],
+    "explication": "Selon l'Organisation internationale de la Francophonie, environ 320 millions de personnes parlent français sur les cinq continents.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 168,
+    "question": "Qui était Marguerite Yourcenar ?",
+    "bonne_reponse": "La première femme élue à l'Académie française",
+    "distracteurs": [
+      "La première femme élue présidente de la République",
+      "La première femme nommée Première ministre",
+      "La première femme à recevoir un prix Nobel"
+    ],
+    "explication": "Marguerite Yourcenar, écrivaine, autrice des Mémoires d'Hadrien, est en 1980 la première femme élue à l'Académie française.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 169,
+    "question": "Quel peintre est français ?",
+    "bonne_reponse": "Claude Monet",
+    "distracteurs": [
+      "Vincent van Gogh",
+      "Rembrandt",
+      "Francisco de Goya"
+    ],
+    "explication": "Claude Monet est un peintre français, chef de file de l'impressionnisme. Van Gogh était néerlandais, Rembrandt néerlandais et Goya espagnol.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 170,
+    "question": "Quel musée est situé à Paris ?",
+    "bonne_reponse": "Le musée d'Orsay",
+    "distracteurs": [
+      "Le musée du Prado",
+      "Le British Museum",
+      "Le musée de l'Ermitage"
+    ],
+    "explication": "Le musée d'Orsay, le Louvre et le Centre Pompidou sont à Paris. Le Prado est à Madrid, le British Museum à Londres et l'Ermitage à Saint-Pétersbourg.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 171,
+    "question": "Qui était Auguste Rodin ?",
+    "bonne_reponse": "Un sculpteur français",
+    "distracteurs": [
+      "Un peintre impressionniste français",
+      "Un compositeur français",
+      "Un écrivain français"
+    ],
+    "explication": "Auguste Rodin est un grand sculpteur. Ses œuvres les plus connues sont Le Penseur et Le Baiser.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 172,
+    "question": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
+    "bonne_reponse": "Cinquième",
+    "distracteurs": [
+      "Première",
+      "Deuxième",
+      "Dixième"
+    ],
+    "explication": "Selon l'Organisation internationale de la Francophonie, le français est la cinquième langue la plus parlée au monde, après l'anglais, le chinois mandarin, l'hindi et l'espagnol.",
+    "sous_theme": "culture",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": "La réponse suggérée par la source est « Quatrième ». L'OIF (rapport La langue française dans le monde, 2022) classe le français 5e langue la plus parlée au monde ; il est parfois classé 4e selon d'autres critères (par exemple sur Internet). Réponse remplacée par « Cinquième » ; aucun distracteur ne vaut 4e ou 5e, il suffit de changer bonne_reponse si l'on veut suivre la source. [Validé le 22/11/2026.]"
+  },
+  {
+    "src_id": 173,
+    "question": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
+    "bonne_reponse": "La cathédrale Notre-Dame de Paris",
+    "distracteurs": [
+      "La cathédrale de Chartres",
+      "La cathédrale de Reims",
+      "La cathédrale de Strasbourg"
+    ],
+    "explication": "Le 15 avril 2019, un incendie détruit la toiture et la flèche de Notre-Dame de Paris. Restaurée, la cathédrale a rouvert en décembre 2024.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 174,
+    "question": "Qui était une écrivaine française célèbre ?",
+    "bonne_reponse": "George Sand",
+    "distracteurs": [
+      "Marie Curie",
+      "Édith Piaf",
+      "Jeanne d'Arc"
+    ],
+    "explication": "George Sand est une romancière du XIXe siècle. Marie Curie était une scientifique, Édith Piaf une chanteuse et Jeanne d'Arc une héroïne de la guerre de Cent Ans.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 175,
+    "question": "Qui était un célèbre musicien français ?",
+    "bonne_reponse": "Claude Debussy",
+    "distracteurs": [
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Giuseppe Verdi"
+    ],
+    "explication": "Claude Debussy, Maurice Ravel, Hector Berlioz et Georges Bizet sont des compositeurs français. Mozart était autrichien, Beethoven allemand et Verdi italien.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 176,
+    "question": "Qui était Auguste Renoir ?",
+    "bonne_reponse": "Un peintre",
+    "distracteurs": [
+      "Un sculpteur",
+      "Un compositeur",
+      "Un poète"
+    ],
+    "explication": "Auguste Renoir est un peintre impressionniste français, connu pour Le Bal du moulin de la Galette.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 177,
+    "question": "Quelle fête est française ?",
+    "bonne_reponse": "Le 14 juillet, la fête nationale",
+    "distracteurs": [
+      "Thanksgiving, la fête des récoltes américaine",
+      "Le 4 juillet, la fête de l'indépendance américaine",
+      "Le 12 octobre, la fête nationale espagnole"
+    ],
+    "explication": "Le 14 juillet est la fête nationale française. La fête du Travail le 1er mai et la fête de la musique le 21 juin sont aussi des fêtes célébrées en France.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  }
+]
