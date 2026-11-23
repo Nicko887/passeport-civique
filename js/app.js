@@ -961,11 +961,11 @@ function segments(cle, valeurs, actuelle) {
 }
 
 /** Ligne de réglage : pastille, titre, description, chevron ou contenu à droite. */
-function ligneReglage({ action, href, attrs = '', icone, couleur, titre, texte, danger }) {
+function ligneReglage({ action, href, attrs = '', icone, couleur, titre, texte, danger, externe }) {
   const contenu = `${pastille(icone, 'petite')}<span class="lt-texte"><strong>${titre}</strong>${texte ? `<small>${texte}</small>` : ''}</span><span class="chevron">${ic('chevron')}</span>`;
   const cls = `ligne-reglage ${danger ? 'danger' : ''}`;
   const style = ` style="--c:${couleur || 'var(--primaire)'}"`;
-  if (href) return `<a class="${cls}" href="${href}"${style}>${contenu}</a>`;
+  if (href) return `<a class="${cls}" href="${href}"${style}${externe ? ' target="_blank" rel="noopener noreferrer"' : ''}>${contenu}</a>`;
   if (action === 'importer') return `<label class="${cls}"${style}>${contenu}<input type="file" accept="application/json,.json" data-action-change="importer" hidden></label>`;
   return `<button class="${cls}" data-action="${action}" ${attrs}${style}>${contenu}</button>`;
 }
@@ -973,51 +973,56 @@ function ligneReglage({ action, href, attrs = '', icone, couleur, titre, texte, 
 function vueReglages() {
   const et = store.getEtat();
   const voix = audio.voixFrancaises();
+  const p = PARCOURS[et.parcours];
   afficher(`
     ${entete('Réglages')}
 
-    <h2 class="titre-section titre-reglage">Mon examen</h2>
-    <div class="pile-cartes choix-examen">
-      ${Object.values(PARCOURS).map((p) => `<button class="choix-radio ${et.parcours === p.id ? 'actif' : ''}" data-action="choisir-parcours" data-p="${p.id}" style="--c:${p.couleur}" aria-pressed="${et.parcours === p.id}">
-        ${pastille(p.icone, 'petite')}<span class="lt-texte"><strong>${p.titre}</strong><small>${p.sousTitre}</small></span>
-        <span class="radio" aria-hidden="true">${et.parcours === p.id ? ic('valide') : ''}</span></button>`).join('')}
+    <h2 class="titre-reglage">Mon examen</h2>
+    <div class="groupe-lignes">
+      ${Object.values(PARCOURS).map((x) => `<button class="ligne-reglage ligne-radio ${et.parcours === x.id ? 'actif' : ''}" data-action="choisir-parcours" data-p="${x.id}" style="--c:${x.couleur}" aria-pressed="${et.parcours === x.id}">
+        ${pastille(x.icone, 'petite')}<span class="lt-texte"><strong>${x.court}</strong><small>${x.resume}</small></span>
+        <span class="radio" aria-hidden="true">${et.parcours === x.id ? ic('valide') : ''}</span></button>`).join('')}
     </div>
-    <p class="petit">Chaque examen a sa propre progression.</p>
+    <p class="note-reglage">Chaque examen a sa propre progression.</p>
 
-    <h2 class="titre-section titre-reglage">Affichage</h2>
-    <div class="carte reglages-groupe">
-      <div class="reglage">
-        <p class="reglage-titre">${ic('texte', 'ic ic-texte')} Taille du texte</p>
+    <h2 class="titre-reglage">Affichage</h2>
+    <div class="groupe-lignes">
+      <div class="ligne-reglage ligne-controle" style="--c:var(--c-principes)">
+        ${pastille('texte', 'petite')}<span class="lt-texte"><strong>Taille du texte</strong></span>
         ${segments('taille', [['normal', '<span class="apercu-a a1">A</span>'], ['grand', '<span class="apercu-a a2">A</span>'], ['tres-grand', '<span class="apercu-a a3">A</span>']], et.prefs.taille)}
       </div>
-      <div class="reglage">
-        <p class="reglage-titre">${ic('soleil', 'ic ic-texte')} Apparence</p>
-        ${segments('theme', [['auto', 'Auto', 'auto'], ['clair', 'Clair', 'soleil'], ['sombre', 'Sombre', 'lune']], et.prefs.theme)}
+      <div class="ligne-reglage ligne-controle" style="--c:var(--c-institutions)">
+        ${pastille(et.prefs.theme === 'sombre' ? 'lune' : et.prefs.theme === 'clair' ? 'soleil' : 'auto', 'petite')}<span class="lt-texte"><strong>Apparence</strong></span>
+        ${segments('theme', [['auto', 'Auto'], ['clair', 'Clair'], ['sombre', 'Sombre']], et.prefs.theme)}
       </div>
     </div>
+    <p class="note-reglage">« Auto » suit le réglage de votre téléphone (clair le jour, sombre le soir).</p>
 
-    ${audio.audioDisponible ? `<h2 class="titre-section titre-reglage">Audio</h2>
-    <div class="carte reglages-groupe">
-      <div class="reglage">
-        <p class="reglage-titre">${ic('casque', 'ic ic-texte')} Vitesse de lecture</p>
+    ${audio.audioDisponible ? `<h2 class="titre-reglage">Audio</h2>
+    <div class="groupe-lignes">
+      <div class="ligne-reglage ligne-controle" style="--c:var(--c-histoire)">
+        ${pastille('casque', 'petite')}<span class="lt-texte"><strong>Vitesse</strong></span>
         ${segments('vitesse', [[0.8, 'Lente'], [1, 'Normale'], [1.2, 'Rapide']], Number(et.prefs.vitesse))}
       </div>
-      ${voix.length > 1 ? `<label class="reglage"><span class="reglage-titre">${ic('son', 'ic ic-texte')} Voix</span><select data-action-change="voix">${voix.map((v) => `<option ${v.name === et.prefs.voix ? 'selected' : ''}>${e(v.name)}</option>`).join('')}</select></label>` : ''}
-      <button class="bouton secondaire large" data-action="lire-texte" data-texte="Bonjour, voici un exemple de lecture.">${ic('son')} Tester la voix</button>
+      ${voix.length > 1 ? `<label class="ligne-reglage ligne-controle" style="--c:var(--c-droits)">${pastille('son', 'petite')}<span class="lt-texte"><strong>Voix</strong></span>
+        <select data-action-change="voix" aria-label="Voix de lecture">${voix.map((v) => `<option ${v.name === et.prefs.voix ? 'selected' : ''}>${e(v.name)}</option>`).join('')}</select></label>` : ''}
+      ${ligneReglage({ action: 'lire-texte', attrs: 'data-texte="Bonjour, voici un exemple de lecture."', icone: 'jouer', couleur: 'var(--c-droits)', titre: 'Tester la voix', texte: 'Écouter un court exemple' })}
     </div>` : ''}
 
-    <h2 class="titre-section titre-reglage">Ma progression</h2>
-    <div class="carte carte-info">${ic('bouclier')}<p>Votre progression reste <strong>sur cet appareil</strong>. Aucun compte, aucune donnée envoyée. Pour changer d’appareil, téléchargez le fichier puis importez-le.</p></div>
+    <h2 class="titre-reglage">Ma progression</h2>
     <div class="groupe-lignes">
       ${ligneReglage({ action: 'exporter', icone: 'telecharger', couleur: 'var(--c-droits)', titre: 'Télécharger ma progression', texte: 'Un fichier à garder ou à transférer' })}
       ${ligneReglage({ action: 'importer', icone: 'importer', couleur: 'var(--c-principes)', titre: 'Importer une progression', texte: 'Depuis un fichier téléchargé avant' })}
-      ${ligneReglage({ action: 'reinitialiser', icone: 'corbeille', couleur: 'var(--ko)', titre: 'Effacer la progression', texte: `Seulement pour l’examen « ${PARCOURS[et.parcours].titre} »`, danger: true })}
+      ${ligneReglage({ action: 'reinitialiser', icone: 'corbeille', couleur: 'var(--ko)', titre: 'Effacer la progression', texte: `Seulement pour « ${p.court} »`, danger: true })}
     </div>
+    <p class="note-reglage">${ic('bouclier', 'ic ic-texte')} Votre progression reste sur cet appareil : aucun compte, aucune donnée envoyée. Pour changer d’appareil, téléchargez le fichier puis importez-le.</p>
 
-    <h2 class="titre-section titre-reglage">Informations</h2>
+    <h2 class="titre-reglage">Informations</h2>
     <div class="groupe-lignes">
-      ${ligneReglage({ href: '#/a-propos', icone: 'info', couleur: 'var(--c-institutions)', titre: `À propos de ${APP_NAME}`, texte: 'Sources, vie privée, contribuer' })}
-    </div>`, 'aucun');
+      ${ligneReglage({ href: '#/a-propos', icone: 'info', couleur: 'var(--c-institutions)', titre: 'À propos', texte: 'Sources, vie privée, contribuer' })}
+      ${ligneReglage({ href: 'https://github.com/Nicko887/passeport-civique/issues', icone: 'attention', couleur: 'var(--attention)', titre: 'Signaler une erreur', texte: 'Sur GitHub (nouvel onglet)', externe: true })}
+    </div>
+    <p class="note-reglage centre">${APP_NAME} · gratuit, sans publicité, open source</p>`, 'aucun');
 }
 
 function vueAPropos() {

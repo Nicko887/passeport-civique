@@ -18,7 +18,7 @@ export const PARCOURS = {
     id: 'resident',
     titre: 'Carte de résident',
     court: 'Carte de résident',
-    resume: 'Première demande de carte de résident',
+    resume: 'Première demande de CR',
     sousTitre: 'Première carte de résident (CR)',
     icone: 'resident',
     couleur: 'var(--c-resident)',

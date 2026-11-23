@@ -1066,6 +1066,22 @@ main { max-width: 560px; padding-top: var(--haut); }
 .repli > summary .ic-tourne { transition: transform .15s ease; }
 .repli[open] > summary .ic-tourne { transform: rotate(90deg); }
 
+/* Réglages : groupes de lignes, comme les réglages d'un téléphone */
+h2.titre-reglage { font-size: .76rem; font-weight: 750; text-transform: uppercase; letter-spacing: .07em; color: var(--texte-2); margin: 22px 6px 8px; }
+.entete-page + h2.titre-reglage { margin-top: 6px; }
+.note-reglage { margin: 8px 6px 0; font-size: .8rem; line-height: 1.45; color: var(--texte-2); }
+.note-reglage .ic-texte { color: var(--c-principes); }
+.ligne-radio .radio { width: 24px; height: 24px; }
+.ligne-radio.actif { background: color-mix(in srgb, var(--c) 7%, var(--surface)); }
+.ligne-radio.actif .radio { background: var(--c); border-color: var(--c); color: var(--surface); }
+.ligne-controle { display: grid; grid-template-columns: auto 1fr; align-items: center; cursor: default; }
+.ligne-controle:hover, .ligne-controle:active { background: none; transform: none; }
+.ligne-controle .segments, .ligne-controle select { grid-column: 1 / -1; margin: 2px 0 0; }
+.ligne-controle .segments { flex-wrap: nowrap; gap: 4px; padding: 3px; border-radius: 12px; background: var(--surface-2); }
+.ligne-controle .segments button { min-height: 38px; padding: 4px 6px; border: 0; border-radius: 9px; background: transparent; font-size: .88rem; }
+.ligne-controle .segments button.actif { background: var(--surface); color: var(--texte); box-shadow: 0 1px 3px rgba(22, 32, 58, .15); }
+.ligne-controle select { min-height: 42px; }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 
