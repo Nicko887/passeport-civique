@@ -78,8 +78,11 @@ function majEnteteCompacte() {
   observateurBandeau.observe(hero);
 }
 
+// Typographie française : espace insécable avant « : ; ? ! » et autour des guillemets (évite les coupures de ligne).
+const insecables = (html) => html.replace(/ ([:;?!»])/g, ' $1').replace(/« /g, '« ');
+
 function afficher(html, actif = '') {
-  $app.innerHTML = html;
+  $app.innerHTML = insecables(html);
   majEnteteCompacte();
   $app.classList.remove('entree');
   if (animerEntree) {
@@ -842,15 +845,20 @@ async function vueProgres() {
   const b = bilan(qs);
   const pf = pointsFaibles(qs);
   const forts = pf.evalues.filter((r) => !pf.faibles.includes(r));
+  const p = PARCOURS[parcoursCourant()];
+  const serie = store.getEtat().activite.serie;
 
-  // Une partie : pastille du thème, titre, barre de réussite, pastille de score à droite.
+  // Une partie : pastille du thème, titre court, thème et nombre à revoir, score de réussite à droite.
   const niveau = (x) => (x === null || x === undefined ? '' : x >= 0.8 ? 'ok' : x >= 0.5 ? 'moyen' : 'ko');
-  const ligne = (r) => `<a class="ligne-pf" href="#/revision/${r.theme.id}/${r.stId}" style="--c:${r.theme.couleur}">
+  const ligne = (r) => `<a class="ligne-reglage ligne-partie" href="#/revision/${r.theme.id}/${r.stId}" style="--c:${r.theme.couleur}">
       ${pastille(r.theme.icone, 'petite')}
       <span class="lt-texte"><strong>${e(r.titre)}</strong>
-        <small>${r.theme.court}${r.aRevoir ? ` · <span class="a-revoir">${r.aRevoir} à revoir</span>` : ''} · ${r.maitrisees}/${r.total} maîtrisées</small></span>
-      ${r.reussite !== null ? `<span class="score-pf ${niveau(r.reussite)}">${pct(r.reussite)}</span>` : `<span class="chevron">${ic('chevron')}</span>`}
+        <small>${r.theme.court}${r.aRevoir ? ` · <span class="a-revoir">${r.aRevoir} à revoir</span>` : ''}</small></span>
+      ${r.reussite !== null ? `<span class="score-pf ${niveau(r.reussite)}" title="Bonnes réponses">${pct(r.reussite)}</span>` : `<span class="chevron">${ic('chevron')}</span>`}
     </a>`;
+  const groupe = (liste) => `<div class="groupe-lignes">${liste.map(ligne).join('')}</div>`;
+  const prioritaires = pf.faibles.slice(0, 5);
+  const autres = pf.faibles.slice(5);
 
   afficher(`
     <section>
@@ -859,13 +867,14 @@ async function vueProgres() {
           <div>
             <p class="hero-marque">${ic('cible', 'ic ic-texte')} Mes progrès</p>
             <h1>${b.vues === 0 ? 'Votre suivi personnalisé' : b.reussite >= 0.8 ? 'Vous êtes sur la bonne voie' : 'Continuez, ça avance'}</h1>
-            <p class="hero-texte">${b.vues === 0 ? 'L’application repère les parties où vous faites des erreurs.' : `<strong>${b.maitrisees}</strong> questions maîtrisées sur ${b.total}.`}</p>
+            <p class="hero-texte">${b.vues === 0 ? 'Répondez à quelques questions : l’application repère vos points faibles.' : `Progression globale : <strong>${pct(b.progression)}</strong>${b.maitrisees ? ` · ${b.maitrisees} questions maîtrisées` : ''}`}</p>
+            ${serie > 1 ? `<p class="serie">${ic('flamme', 'ic ic-texte')} ${serie} jours d’affilée</p>` : ''}
           </div>
-          ${anneau(b.progression, 104)}
+          ${anneau(b.progression, 96)}
         </div>
         ${b.vues ? `<div class="stats">
-          <div class="stat"><strong>${b.vues}</strong><small>questions vues</small></div>
-          <div class="stat"><strong>${b.reussite !== null ? pct(b.reussite) : '–'}</strong><small>de bonnes réponses</small></div>
+          <div class="stat"><strong>${b.vues}</strong><small>travaillées</small></div>
+          <div class="stat"><strong>${b.reussite !== null ? pct(b.reussite) : '–'}</strong><small>de réussite</small></div>
           <div class="stat"><strong>${b.aRevoir}</strong><small>à revoir</small></div>
         </div>` : ''}
       </div>
@@ -876,24 +885,31 @@ async function vueProgres() {
           : carteAction({ href: '#/entrainement/tout', icone: 'crayon', couleur: 'var(--c-droits)', titre: b.vues ? 'Continuer l’entraînement' : 'Faire une première série', texte: b.vues ? 'Aucune révision prévue aujourd’hui' : `${SERIE_ENTRAINEMENT} questions pour établir votre bilan` })}
       </div>
 
-      ${b.vues ? `<h2 class="titre-section">Par thème</h2>
+      ${b.vues === 0 ? `
+      <h2 class="titre-section">Comment ça marche</h2>
+      <ol class="carte etapes-pf">
+        <li>${pastille('crayon', 'petite')}<span><strong>Vous répondez</strong><small>à des séries de questions, à votre rythme.</small></span></li>
+        <li>${pastille('cible', 'petite')}<span><strong>L’application repère</strong><small>les parties où vous faites des erreurs.</small></span></li>
+        <li>${pastille('revoir', 'petite')}<span><strong>Vous révisez</strong><small>avec un rappel du cours et des questions ciblées.</small></span></li>
+      </ol>` : `
+      <h2 class="titre-section">Par thème</h2>
       <div class="carte score-themes">
         ${THEMES.map((t) => {
           const bt = bilan(qs.filter((q) => q.t === t.id));
           return `<a class="score-theme lien-bloc" href="#/theme/${t.id}" style="--c:${t.couleur}">
             ${pastille(t.icone, 'petite')}
-            <span class="st-texte"><span class="st-ligne"><strong>${t.court}</strong><span class="st-score">${bt.maitrisees}/${bt.total}</span></span>${barre(bt.progression, t.court)}</span>
+            <span class="st-texte"><span class="st-ligne"><strong>${t.court}</strong><span class="st-score">${pct(bt.progression)}</span></span>${barre(bt.progression, t.court)}</span>
           </a>`;
         }).join('')}
-      </div>` : ''}
+      </div>`}
 
-      ${pf.faibles.length ? `<h2 class="titre-section">À travailler en priorité</h2>
-        <p class="intro-page">Touchez une partie : un rappel du cours, puis des questions ciblées jusqu’à ce que ce soit acquis.</p>
-        <div class="liste-themes">${pf.faibles.map(ligne).join('')}</div>`
+      ${pf.faibles.length ? `<div class="titre-avec-aide"><h2 class="titre-section">À travailler en priorité</h2><small>Touchez une partie pour la réviser</small></div>
+        ${groupe(prioritaires)}
+        ${autres.length ? `<details class="repli"><summary>${ic('chevron', 'ic ic-texte ic-tourne')} Voir ${autres.length} autres parties</summary>${groupe(autres)}</details>` : ''}`
         : b.vues ? `<div class="carte carte-info ok">${ic('valide')}<p>Aucun point faible repéré pour l’instant. Continuez à explorer de nouvelles parties !</p></div>` : ''}
 
-      ${forts.length ? `<details class="repli"><summary>${ic('valide', 'ic ic-texte')} Points forts (${forts.length})</summary><div class="liste-themes">${forts.map(ligne).join('')}</div></details>` : ''}
-      ${pf.nonCommences.length && b.vues ? `<details class="repli"><summary>${ic('info', 'ic ic-texte')} Pas encore commencées (${pf.nonCommences.length})</summary><div class="liste-themes">${pf.nonCommences.map(ligne).join('')}</div></details>` : ''}
+      ${forts.length ? `<details class="repli"><summary>${ic('valide', 'ic ic-texte')} Points forts (${forts.length})</summary>${groupe(forts)}</details>` : ''}
+      ${pf.nonCommences.length && b.vues ? `<details class="repli"><summary>${ic('info', 'ic ic-texte')} Pas encore commencées (${pf.nonCommences.length})</summary>${groupe(pf.nonCommences)}</details>` : ''}
     </section>`, 'progres');
 }
 
