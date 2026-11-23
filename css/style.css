@@ -922,6 +922,136 @@ body { padding-bottom: calc(100px + env(safe-area-inset-bottom)); }
 .liste-propre li { margin-bottom: .6em; }
 .liste-propre li:last-child { margin-bottom: 0; }
 
+/* ===================================================================
+   Couche « application mobile » (mobile d'abord) : densité, toucher,
+   haut de l'écran (encoche), en-tête fixe, colonne de largeur téléphone.
+   Placée en dernier : elle ajuste les règles précédentes.
+   =================================================================== */
+
+:root { --haut: max(16px, env(safe-area-inset-top)); }
+
+/* Toucher : pas de rectangle gris, pas de délai, pas de sélection de texte sur les boutons */
+html { -webkit-tap-highlight-color: transparent; }
+body { overscroll-behavior-y: none; }
+a, button, label, summary, .option, .carte-action, .tuile, .ligne-theme, .ligne-pf, .ligne-reglage, .choix-radio {
+  touch-action: manipulation; -webkit-user-select: none; user-select: none;
+}
+
+/* Retour visuel immédiat à l'appui (comme une application) */
+.carte-action, .tuile, .ligne-theme, .ligne-pf, .ligne-reglage, .choix-radio, .option, .bouton, .nav-bas a, .piste, .sommaire a {
+  transition: transform .1s ease, background-color .15s ease, box-shadow .15s ease;
+}
+.carte-action:active, .tuile:active, .ligne-theme:active, .ligne-pf:active, .ligne-reglage:active,
+.choix-radio:active, .bouton:active, .nav-bas a:active { transform: scale(.97); }
+.option:not(:disabled):active { transform: scale(.98); background: var(--surface-2); }
+.ligne-reglage:active, .ligne-pf:active, .ligne-theme:active, .piste:active, .sommaire a:active { background: var(--surface-2); }
+
+/* Les effets de survol ne servent qu'à la souris : neutralisés sur écran tactile */
+@media (hover: none) {
+  .carte-action:hover { transform: none; box-shadow: 0 2px 4px rgba(22, 32, 58, .05), 0 10px 28px rgba(22, 32, 58, .10); }
+  .tuile:hover { transform: none; border-color: var(--bord); }
+  .bouton:hover { filter: none; }
+  .ligne-theme:hover, .ligne-pf:hover, .ligne-reglage:hover { background: var(--surface); }
+  .option:hover:not(:disabled) { border-color: var(--bord); }
+}
+
+/* Colonne de largeur téléphone, même sur ordinateur */
+main { max-width: 560px; padding-top: var(--haut); }
+.nav-bas { max-width: 528px; }
+
+/* Bandeau compact, qui passe sous la zone de l'heure sur iPhone */
+.hero {
+  margin: calc(-1 * var(--haut)) -16px 0;
+  padding: calc(env(safe-area-inset-top) + 20px) 20px 62px;
+  border-radius: 0 0 26px 26px;
+}
+@media (min-width: 592px) { .hero { margin: 0; border-radius: 26px; padding-top: 20px; } }
+.hero h1 { font-size: 1.6rem; line-height: 1.15; margin: 6px 0 6px; }
+.hero-texte { font-size: .95rem; line-height: 1.45; }
+.hero .anneau { width: 78px; height: 78px; }
+.hero .serie { margin-top: 8px; font-size: .82rem; }
+.hero .stats { margin-top: 14px; gap: 6px; }
+.hero .stat { padding: 8px 4px; border-radius: 14px; }
+.hero .stat strong { font-size: 1.12rem; }
+.hero-bienvenue { padding-bottom: 76px; }
+.hero-bienvenue h1 { font-size: 1.85rem; margin-top: 18px; }
+.hero-cours { padding-bottom: 66px; }
+.hero-cours h1 { font-size: 1.5rem; margin-top: 12px; }
+.hero-cours .hero-texte { margin-bottom: 12px; }
+.hero-resultat { padding-bottom: 64px; }
+.resultat-centre .anneau { width: 112px; height: 112px; }
+.resultat-centre h1 { font-size: 1.4rem; }
+.chevauche { margin-top: -44px; }
+.titre-sur-hero { font-size: 1rem; margin: 0 2px 10px; }
+
+/* Cartes et listes plus denses : plus de contenu visible sans défiler */
+.titre-section { font-size: 1.05rem; margin: 22px 2px 10px; }
+.carte-action { gap: 12px; padding: 13px 14px 13px 18px; border-radius: 18px; }
+.carte-action::before { width: 5px; }
+.pastille { width: 44px; height: 44px; border-radius: 13px; }
+.pastille .ic { width: 22px; height: 22px; }
+.pastille.petite { width: 38px; height: 38px; border-radius: 11px; }
+.pastille.petite .ic { width: 20px; height: 20px; }
+.rond-action { width: 42px; height: 42px; }
+.rond-action .ic { width: 20px; height: 20px; }
+.ca-texte strong { font-size: 1.02rem; line-height: 1.3; }
+.ca-texte small { font-size: .84rem; line-height: 1.35; }
+.ca-meta { font-size: .82rem; }
+.tuile { min-height: 0; padding: 14px; gap: 4px; }
+.tuile .pastille { margin-bottom: 4px; }
+.tuile strong { font-size: .98rem; }
+.tuile small { font-size: .82rem; }
+.ligne-theme, .ligne-pf, .ligne-reglage, .choix-radio { padding: 12px; gap: 12px; }
+.ligne-theme strong, .ligne-pf strong, .ligne-reglage strong, .choix-radio strong { font-size: .98rem; }
+.lt-texte small { font-size: .82rem; }
+.intro-page { font-size: .95rem; }
+.carte { padding: 16px; border-radius: 18px; }
+
+/* Cartes d'examen de l'accueil : une ligne par examen */
+.carte-parcours .ca-texte strong { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.badge-choisi { margin: 0; padding: 1px 8px; font-size: .7rem; }
+
+/* En-tête fixe des pages intérieures (titre et bouton retour toujours visibles) */
+.entete-page, .quiz-tete {
+  position: sticky; top: 0; z-index: 35;
+  margin: calc(-1 * var(--haut)) -16px 12px;
+  padding: calc(env(safe-area-inset-top) + 10px) 16px 10px;
+  background: color-mix(in srgb, var(--fond) 88%, transparent);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+}
+.entete-page h1 { font-size: 1.2rem; }
+.retour { width: 40px; height: 40px; }
+
+/* Questions : question et réponses un peu plus compactes */
+.carte-question { padding: 16px 16px 12px; }
+.quiz-question { font-size: 1.15rem; line-height: 1.35; }
+.option { min-height: 56px; padding: 10px 12px; gap: 12px; font-size: .98rem; }
+.lettre { width: 32px; height: 32px; border-radius: 10px; }
+
+/* Carte de l'examen choisi */
+.carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
+
+/* Barre de titre compacte : glisse depuis le haut quand le bandeau n'est plus visible */
+.entete-compacte {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 45;
+  max-width: 560px; margin: 0 auto;
+  display: flex; align-items: center; gap: 10px;
+  padding: calc(env(safe-area-inset-top) + 8px) 16px 8px;
+  background: color-mix(in srgb, var(--fond) 90%, transparent);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--bord);
+  transform: translateY(-110%); opacity: 0; pointer-events: none;
+  transition: transform .2s ease, opacity .2s ease;
+}
+.entete-compacte.visible { transform: none; opacity: 1; pointer-events: auto; }
+.entete-compacte strong { flex: 1; min-width: 0; font-size: 1.02rem; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.entete-compacte .retour { width: 36px; height: 36px; }
+body.sans-nav .entete-compacte { display: none; }
+
+/* Transition douce à chaque changement d'écran */
+main.entree > * { animation: entree-ecran .22s ease-out both; }
+@keyframes entree-ecran { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }

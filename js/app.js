@@ -56,8 +56,37 @@ function ligneTheme({ href, action, attrs = '', icone, titre, barreVal, sousText
     : `<a class="ligne-theme" href="${href}"${style}>${contenu}</a>`;
 }
 
+// La transition d'entrée ne joue qu'au changement d'écran (pas à chaque réponse d'un quiz).
+let animerEntree = true;
+
+/** Barre de titre compacte : apparaît en haut quand le bandeau de l'écran sort de la vue (comme une application). */
+let observateurBandeau = null;
+function majEnteteCompacte() {
+  const hero = $app.querySelector('.hero[data-titre]');
+  let barreTitre = document.getElementById('entete-compacte');
+  observateurBandeau?.disconnect();
+  if (!hero) { barreTitre?.remove(); return; }
+  if (!barreTitre) {
+    barreTitre = document.createElement('div');
+    barreTitre.id = 'entete-compacte';
+    barreTitre.className = 'entete-compacte';
+    document.body.appendChild(barreTitre);
+  }
+  barreTitre.innerHTML = `${hero.dataset.retour ? `<a class="retour" href="${e(hero.dataset.retour)}" aria-label="Retour">${ic('retour')}</a>` : ''}<strong>${e(hero.dataset.titre)}</strong>`;
+  barreTitre.classList.remove('visible');
+  observateurBandeau = new IntersectionObserver(([entree]) => barreTitre.classList.toggle('visible', !entree.isIntersecting), { rootMargin: '-64px 0px 0px 0px' });
+  observateurBandeau.observe(hero);
+}
+
 function afficher(html, actif = '') {
   $app.innerHTML = html;
+  majEnteteCompacte();
+  $app.classList.remove('entree');
+  if (animerEntree) {
+    void $app.offsetWidth; // relance l'animation
+    $app.classList.add('entree');
+    animerEntree = false;
+  }
   document.querySelectorAll('.nav-bas a').forEach((a) => a.classList.toggle('actif', a.dataset.nav === actif));
   document.body.classList.toggle('sans-nav', actif === 'aucun');
   window.scrollTo(0, 0);
@@ -126,12 +155,12 @@ async function vueAccueil() {
 
   afficher(`
     <section class="accueil">
-      <div class="hero">
+      <div class="hero" data-titre="${APP_NAME}">
         <div class="hero-ligne">
           <div>
             <p class="hero-marque"><span class="logo-marque petit-logo">${ic('valide')}</span>${APP_NAME}</p>
             <h1>${b.vues === 0 ? 'Préparez votre examen' : 'Bon retour !'}</h1>
-            <p class="hero-texte">${b.vues === 0 ? 'Choisissez votre examen, puis commencez par un cours ou une série de questions.' : `${e(p.court)} : vous maîtrisez <strong>${b.maitrisees}</strong> questions sur ${b.total}.`}</p>
+            <p class="hero-texte">${b.vues === 0 ? 'Choisissez votre examen et commencez quand vous voulez.' : `${e(p.court)} : vous maîtrisez <strong>${b.maitrisees}</strong> questions sur ${b.total}.`}</p>
             ${serie > 1 ? `<p class="serie">${ic('flamme', 'ic ic-texte')} ${serie} jours d’affilée</p>` : ''}
           </div>
           ${anneau(b.progression, 96)}
@@ -144,13 +173,13 @@ async function vueAccueil() {
           ${parcours.map((x) => x.id === p.id
             ? `<a class="carte-action carte-parcours actif" href="#/entrainement/tout" style="--c:${x.couleur}">
                 ${pastille(x.icone)}
-                <span class="ca-texte"><span class="badge-choisi">${ic('valide', 'ic ic-texte')} Examen choisi</span><strong>${x.titre}</strong><small>${x.sousTitre}</small>
-                  <span class="ca-meta">${x.total} questions · ${pct(x.part)} maîtrisé</span></span>
+                <span class="ca-texte"><strong>${x.court}</strong><small class="choisi">${ic('valide', 'ic ic-texte')} Examen choisi</small>
+                  <span class="ca-meta">${x.total} questions · ${pct(x.part)} acquis</span></span>
                 <span class="rond-action" aria-label="S’entraîner">${ic('jouer')}</span></a>`
             : `<button class="carte-action carte-parcours" data-action="choisir-parcours" data-p="${x.id}" style="--c:${x.couleur}">
                 ${pastille(x.icone)}
-                <span class="ca-texte"><strong>${x.titre}</strong><small>${x.sousTitre}</small>
-                  <span class="ca-meta">${x.total} questions${x.part ? ` · ${pct(x.part)} maîtrisé` : ''} · Choisir</span></span>
+                <span class="ca-texte"><strong>${x.court}</strong><small>${x.resume}</small>
+                  <span class="ca-meta">${x.total} questions${x.part ? ` · ${pct(x.part)} acquis` : ''}</span></span>
                 <span class="rond-action rond-discret">${ic('chevron')}</span></button>`).join('')}
         </div>
       </div>
@@ -263,7 +292,7 @@ async function vueCours(themeId, sectionId) {
 
   afficher(`
     <div class="barre-lecture" aria-hidden="true"><span id="progression-lecture"></span></div>
-    <div class="hero hero-cours" style="--c:${t.couleur}">
+    <div class="hero hero-cours" data-titre="${e(c.titre || t.titre)}" data-retour="#/cours" style="--c:${t.couleur}">
       <div class="hero-haut">
         <a class="retour retour-hero" href="#/cours" aria-label="Retour à la liste des cours">${ic('retour')}</a>
         <span class="hero-marque">${ic(t.icone, 'ic ic-texte')} Cours · thème ${iTheme + 1} sur ${THEMES.length}</span>
@@ -620,7 +649,7 @@ async function vueChoixExamen() {
 
   afficher(`
     <section>
-      <div class="hero">
+      <div class="hero" data-titre="Examen blanc">
         <p class="hero-marque">${ic('chrono', 'ic ic-texte')} Examen blanc · ${e(p.court)}</p>
         <h1>Comme le jour de l’examen</h1>
         <p class="hero-texte">${complets.length ? `Meilleur score : <strong>${meilleur}/${EXAMEN.nbQuestions}</strong>${meilleur >= EXAMEN.seuil ? ' · seuil atteint' : ` · encore ${EXAMEN.seuil - meilleur} pour le seuil`}` : 'Entraînez-vous dans les conditions réelles, chronomètre compris.'}</p>
@@ -770,7 +799,7 @@ async function vueProgres() {
 
   afficher(`
     <section>
-      <div class="hero">
+      <div class="hero" data-titre="Mes progrès">
         <div class="hero-ligne">
           <div>
             <p class="hero-marque">${ic('cible', 'ic ic-texte')} Mes progrès</p>
@@ -824,7 +853,7 @@ async function vueRevision(themeId, stId) {
   const etape = b.maitrise >= 0.8 ? 3 : b.vues ? 2 : 1;
   const etapes = [['cours', 'Relire'], ['crayon', 'S’entraîner'], ['valide', 'Maîtriser']];
   afficher(`
-    <div class="hero hero-cours" style="--c:${t.couleur}">
+    <div class="hero hero-cours" data-titre="${e(titre)}" data-retour="#/progres" style="--c:${t.couleur}">
       <div class="hero-haut">
         <a class="retour retour-hero" href="#/progres" aria-label="Retour à mes progrès">${ic('retour')}</a>
         <span class="hero-marque">${ic(t.icone, 'ic ic-texte')} Révision guidée · ${t.court}</span>
@@ -954,6 +983,7 @@ function naviguer(h) {
 }
 
 async function routeur() {
+  animerEntree = true;
   const h = location.hash.replace(/^#\/?/, '');
   const [r, a, b] = h.split('/');
 
