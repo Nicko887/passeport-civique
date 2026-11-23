@@ -399,34 +399,54 @@ function vueQuestion() {
   const t = themeById(q.t);
   const examen = s.mode === 'examen';
   const choisie = s.reponses[s.i];
+  const nbRepondues = s.reponses.filter((r) => r !== undefined).length;
+  const avance = examen ? nbRepondues / s.questions.length : (s.i + (s.verrou ? 1 : 0)) / s.questions.length;
   afficher(`
     <div class="quiz" style="--c:${t.couleur}">
       <header class="quiz-tete">
         <button class="retour" data-action="quitter" aria-label="Quitter">${ic('fermer')}</button>
-        <div class="quiz-avance">${barre((s.i + (examen ? 0 : s.verrou ? 1 : 0)) / s.questions.length, 'Avancement')}<small>Question ${s.i + 1} sur ${s.questions.length}</small></div>
-        ${examen ? `<div class="chrono" id="chrono" aria-live="off">--:--</div>` : ''}
+        <div class="quiz-avance">
+          <div class="quiz-avance-texte"><strong>Question ${s.i + 1}</strong><small> sur ${s.questions.length}</small></div>
+          ${barre(avance, 'Avancement')}
+        </div>
+        ${examen ? `<div class="chrono" aria-live="off">${ic('chrono', 'ic ic-texte')}<span id="chrono">--:--</span></div>` : ''}
       </header>
-      <p class="quiz-theme">${ic(t.icone, 'ic ic-texte')} ${t.court}${q.s ? ` <span class="badge-situation">${ic('boussole', 'ic ic-texte')} Mise en situation</span>` : ''}</p>
-      <h1 class="quiz-question">${e(q.q)}</h1>
-      ${audio.audioDisponible ? `<button class="lien-audio" data-action="lire-question">${ic('son', 'ic ic-texte')} Écouter la question</button>` : ''}
+
+      <div class="carte carte-question">
+        <div class="quiz-etiquettes">
+          <span class="etiquette">${ic(t.icone, 'ic ic-texte')} ${t.court}</span>
+          ${q.s ? `<span class="etiquette etiquette-situation">${ic('boussole', 'ic ic-texte')} Mise en situation</span>` : ''}
+        </div>
+        <h1 class="quiz-question">${e(q.q)}</h1>
+        ${audio.audioDisponible ? `<button class="lien-audio" data-action="lire-question">${ic('son', 'ic ic-texte')} Écouter la question</button>` : ''}
+      </div>
+
       <div class="options" role="group" aria-label="Réponses possibles">
         ${q.options.map((o, k) => {
           let cls = '';
+          let etat = '';
           if (examen) cls = choisie === k ? 'choisie' : '';
-          else if (s.verrou) cls = k === q.bonne ? 'juste' : choisie === k ? 'fausse' : 'eteinte';
+          else if (s.verrou) {
+            cls = k === q.bonne ? 'juste' : choisie === k ? 'fausse' : 'eteinte';
+            if (k === q.bonne) etat = `<span class="etat-option">${ic('valide')}<span class="visuellement-cache">(bonne réponse)</span></span>`;
+            else if (choisie === k) etat = `<span class="etat-option">${ic('fermer')}<span class="visuellement-cache">(votre réponse)</span></span>`;
+          }
           return `<button class="option ${cls}" data-action="repondre" data-k="${k}" ${!examen && s.verrou ? 'disabled' : ''}>
-            <span class="lettre">${'ABCD'[k]}</span><span>${e(o)}</span></button>`;
+            <span class="lettre">${'ABCD'[k]}</span><span class="option-texte">${e(o)}</span>${etat}</button>`;
         }).join('')}
       </div>
+
       <div id="retour-q">${!examen && s.verrou ? blocCorrection(q, choisie) : ''}</div>
-      <div class="quiz-pied">
+
+      ${examen ? `<details class="carte grille-exam"><summary>${ic('des', 'ic ic-texte')} Vue d’ensemble : ${nbRepondues}/${s.questions.length} répondues</summary>
+        <div class="grille-num">${s.questions.map((_, k) => `<button data-action="aller" data-k="${k}" class="${s.reponses[k] !== undefined ? 'faite' : ''} ${k === s.i ? 'courante' : ''}" aria-label="Question ${k + 1}${s.reponses[k] !== undefined ? ', répondue' : ''}">${k + 1}</button>`).join('')}</div></details>` : ''}
+
+      ${examen || s.verrou ? `<div class="quiz-pied">
         ${examen ? `
           <button class="bouton secondaire" data-action="prec" ${s.i === 0 ? 'disabled' : ''}>${ic('retour')} Précédente</button>
-          ${s.i < s.questions.length - 1 ? `<button class="bouton" data-action="suiv">Suivante ${ic('chevron')}</button>` : `<button class="bouton" data-action="terminer">Terminer l’examen</button>`}
-        ` : s.verrou ? `<button class="bouton large" data-action="suiv" id="btn-suiv">${s.i < s.questions.length - 1 ? `Question suivante ${ic('chevron')}` : 'Voir mon résultat'}</button>` : ''}
-      </div>
-      ${examen ? `<details class="grille-exam"><summary>Vue d’ensemble (${s.reponses.filter((r) => r !== undefined).length}/${s.questions.length} répondues)</summary>
-        <div class="grille-num">${s.questions.map((_, k) => `<button data-action="aller" data-k="${k}" class="${s.reponses[k] !== undefined ? 'faite' : ''} ${k === s.i ? 'courante' : ''}">${k + 1}</button>`).join('')}</div></details>` : ''}
+          ${s.i < s.questions.length - 1 ? `<button class="bouton" data-action="suiv">Suivante ${ic('chevron')}</button>` : `<button class="bouton bouton-ok" data-action="terminer">${ic('valide')} Terminer</button>`}
+        ` : `<button class="bouton large" data-action="suiv" id="btn-suiv">${s.i < s.questions.length - 1 ? `Question suivante ${ic('chevron')}` : `Voir mon résultat ${ic('chevron')}`}</button>`}
+      </div>` : ''}
     </div>`, 'aucun');
   if (examen) majChrono();
 }
@@ -434,19 +454,24 @@ function vueQuestion() {
 function blocCorrection(q, choisie) {
   const ok = choisie === q.bonne;
   return `<div class="correction ${ok ? 'ok' : 'ko'}" role="status">
-    <p class="verdict">${ok ? `${ic('valide')} Bonne réponse !` : `${ic('fermer')} Pas tout à fait.`}</p>
-    ${ok ? '' : `<p>La bonne réponse : <strong>${e(q.a)}</strong></p>`}
-    ${q.e ? `<p class="explication">${ic('ampoule', 'ic ic-texte')} ${e(q.e)}</p>` : ''}
-    <a class="lien-cours" href="#/cours/${q.t}/${q.st}">${ic('cours', 'ic ic-texte')} Revoir le cours sur ce point</a>
-    ${blocLiens(q)}
+    <div class="correction-tete">
+      <span class="rond-etat">${ic(ok ? 'valide' : 'fermer')}</span>
+      <span><strong>${ok ? 'Bonne réponse !' : 'Pas tout à fait'}</strong><small>${ok ? 'Bravo, continuez comme ça.' : 'Pas de souci : cette question reviendra dans vos révisions.'}</small></span>
+    </div>
+    ${ok ? '' : `<div class="bonne-reponse"><small>La bonne réponse</small><strong>${ic('valide', 'ic ic-texte')} ${e(q.a)}</strong></div>`}
+    ${q.e ? `<div class="explication"><p class="explication-titre">${ic('ampoule', 'ic ic-texte')} Explication</p><p>${e(q.e)}</p></div>` : ''}
+    ${blocLiens(q, true)}
   </div>`;
 }
 
-/** Liens « Pour aller plus loin » d'une question, vers des sites sûrs uniquement. */
-function blocLiens(q) {
+/** Liens sous une correction : retour au cours et sites sûrs « pour aller plus loin ». */
+function blocLiens(q, avecCours = false) {
   const liens = (q.l || []).filter((l) => lienSur(l.url));
-  if (!liens.length) return '';
-  return `<p class="liens-externes">Pour aller plus loin : ${liens.map((l) => lienExterne(l.url, l.titre)).join(' · ')}</p>`;
+  if (!liens.length && !avecCours) return '';
+  return `<div class="correction-liens">
+    ${avecCours ? `<a class="puce-lien" href="#/cours/${q.t}/${q.st}">${ic('cours', 'ic ic-texte')} Revoir le cours</a>` : ''}
+    ${liens.map((l) => lienExterne(l.url, l.titre)).join('')}
+  </div>`;
 }
 
 function repondre(k) {
@@ -476,24 +501,65 @@ function suivante() {
   vueQuestion();
 }
 
+/** Bandeau de résultat : anneau, titre et chiffres clés. */
+function heroResultat({ reussi, sur, retour, score, total, titre, texte, stats }) {
+  return `
+    <div class="hero hero-resultat ${reussi ? 'reussi' : ''}">
+      <div class="hero-haut">
+        <a class="retour retour-hero" href="${retour}" aria-label="Fermer">${ic('fermer')}</a>
+        <span class="hero-marque">${sur}</span>
+      </div>
+      <div class="resultat-centre">
+        ${anneau(score / total, 140, `${score}/${total}`)}
+        ${reussi !== undefined ? `<span class="badge-resultat">${ic(reussi ? 'valide' : 'cible', 'ic ic-texte')} ${reussi ? 'Réussi' : 'Pas encore réussi'}</span>` : ''}
+        <h1>${titre}</h1>
+        <p class="hero-texte">${texte}</p>
+      </div>
+      <div class="stats">${stats.map(([n, l]) => `<div class="stat"><strong>${n}</strong><small>${l}</small></div>`).join('')}</div>
+    </div>`;
+}
+
+/** Carte de correction d'une question (résultats d'entraînement et d'examen). */
+function carteCorrection(q, k, reponse) {
+  const ok = reponse === q.bonne;
+  const t = themeById(q.t);
+  return `<article class="carte-corr ${ok ? 'ok' : 'ko'}" style="--c:${t.couleur}">
+    <div class="corr-tete">
+      <span class="etat-mini">${ic(ok ? 'valide' : 'fermer')}</span>
+      <span class="corr-num">Question ${k + 1}</span>
+      <span class="corr-theme">${ic(t.icone, 'ic ic-texte')} ${t.court}</span>
+    </div>
+    <p class="cq">${e(q.q)}</p>
+    ${ok ? '' : `<p class="votre-rep">${ic('fermer', 'ic ic-texte')} <span><small>Votre réponse</small>${reponse === undefined ? '<em>aucune réponse</em>' : e(q.options[reponse])}</span></p>`}
+    <p class="bonne-rep">${ic('valide', 'ic ic-texte')} <span>${ok ? '' : '<small>Bonne réponse</small>'}${e(q.a)}</span></p>
+    ${!ok && q.e ? `<details class="corr-explication"><summary>${ic('ampoule', 'ic ic-texte')} Voir l’explication</summary><p>${e(q.e)}</p>${blocLiens(q, true)}</details>` : ''}
+  </article>`;
+}
+
 function vueResultatEntrainement() {
   const s = session;
   const bonnes = s.questions.filter((q, k) => s.reponses[k] === q.bonne).length;
-  const ratees = s.questions.filter((q, k) => s.reponses[k] !== q.bonne);
-  const ratio = bonnes / s.questions.length;
+  const total = s.questions.length;
+  const ratio = bonnes / total;
   const retour = s.retour || '#/entrainement';
   session = null;
+  const ratees = s.questions.map((q, k) => [q, k]).filter(([q, k]) => s.reponses[k] !== q.bonne);
   afficher(`
     <section class="resultat">
-      ${anneau(ratio, 150, `${bonnes}/${s.questions.length}`)}
-      <h1>${ratio === 1 ? 'Parfait !' : ratio >= 0.8 ? 'Très bien !' : ratio >= 0.5 ? 'C’est un bon début' : 'Continuez, vous progressez'}</h1>
-      <p>${ratees.length ? 'Les questions ratées reviendront dans vos révisions pour bien les retenir.' : 'Toutes les réponses sont justes.'}</p>
-      ${ratees.length ? `<div class="carte"><h2>À retenir</h2><ul class="liste-retenir">${ratees.map((q) => `<li><strong>${e(q.q)}</strong><br>${ic('chevron', 'ic ic-texte')} ${e(q.a)}</li>`).join('')}</ul></div>` : ''}
-      <div class="pile-boutons">
-        <button class="bouton" data-action="rejouer">${ic('revoir')} Nouvelle série</button>
-        <a class="bouton secondaire" href="#/progres">${ic('cible')} Voir mes points faibles</a>
-        <a class="bouton secondaire" href="${retour}">Retour</a>
+      ${heroResultat({
+        reussi: ratio >= 0.8 ? true : undefined, sur: `${ic('crayon', 'ic ic-texte')} ${s.titre ? e(s.titre) : 'Série terminée'}`, retour,
+        score: bonnes, total,
+        titre: ratio === 1 ? 'Parfait !' : ratio >= 0.8 ? 'Très bien !' : ratio >= 0.5 ? 'C’est un bon début' : 'Continuez, vous progressez',
+        texte: ratees.length ? 'Les questions ratées reviendront dans vos révisions pour bien les retenir.' : 'Toutes les réponses sont justes.',
+        stats: [[bonnes, 'bonnes réponses'], [total - bonnes, total - bonnes > 1 ? 'erreurs' : 'erreur'], [`${Math.round(ratio * 100)} %`, 'de réussite']],
+      })}
+      <div class="chevauche pile-cartes">
+        ${carteAction({ action: 'rejouer', icone: 'revoir', couleur: 'var(--c-droits)', titre: 'Nouvelle série', texte: `${SERIE_ENTRAINEMENT} autres questions adaptées à votre niveau` })}
+        ${carteAction({ href: '#/progres', icone: 'cible', couleur: 'var(--c-societe)', titre: 'Voir mes points faibles', texte: 'Les parties à travailler en priorité', bouton: 'chevron' })}
       </div>
+      ${ratees.length ? `<h2 class="titre-section">À retenir (${ratees.length})</h2>
+        <div class="liste-corrections">${ratees.map(([q, k]) => carteCorrection(q, k, s.reponses[k])).join('')}</div>` : ''}
+      <a class="lien-discret" href="${retour}">${ic('retour', 'ic ic-texte')} Retour</a>
     </section>`, 'aucun');
   dernierLancement.retour = retour;
 }
@@ -555,7 +621,7 @@ function majChrono() {
   const el = document.getElementById('chrono');
   if (el) {
     el.textContent = `${String(Math.floor(reste / 60)).padStart(2, '0')}:${String(reste % 60).padStart(2, '0')}`;
-    el.classList.toggle('urgent', reste < 300);
+    el.parentElement?.classList.toggle('urgent', reste < 300);
   }
   if (reste === 0) { toast('Temps écoulé !'); terminerExamen(); }
 }
@@ -568,6 +634,7 @@ function terminerExamen() {
   const score = s.questions.filter((q, k) => s.reponses[k] === q.bonne).length;
   const total = s.questions.length;
   const reussi = s.type === 'complet' ? score >= EXAMEN.seuil : score / total >= 0.8;
+  const dureeMin = Math.max(1, Math.round((Date.now() - s.debut) / 60000));
   store.enregistrerExamen({ type: s.type, score, total, reussi, duree: Math.round((Date.now() - s.debut) / 1000) });
   session = null;
 
@@ -575,27 +642,37 @@ function terminerExamen() {
     const idx = s.questions.map((q, k) => (q.t === t.id ? k : -1)).filter((k) => k >= 0);
     return { t, n: idx.length, ok: idx.filter((k) => s.reponses[k] === s.questions[k].bonne).length };
   }).filter((x) => x.n);
+  const nbErreurs = total - score;
+  const seuil = s.type === 'complet' ? EXAMEN.seuil : Math.ceil(total * 0.8);
 
   afficher(`
     <section class="resultat">
-      ${anneau(score / total, 160, `${score}/${total}`)}
-      <h1>${reussi ? 'Examen réussi !' : 'Pas encore… mais vous progressez'}</h1>
-      <p>${s.type === 'complet' ? `Il fallait ${EXAMEN.seuil} bonnes réponses sur ${EXAMEN.nbQuestions}.` : 'Objectif : 80 % de bonnes réponses.'} Durée : ${Math.round((Date.now() - s.debut) / 60000)} min.</p>
-      ${parTheme.length > 1 ? `<div class="carte"><h2>Par thème</h2>${parTheme.map((x) => `
-        <div class="score-theme" style="--c:${x.t.couleur}"><span>${ic(x.t.icone, 'ic ic-texte')} ${x.t.court}</span><strong>${x.ok}/${x.n}</strong>${barre(x.ok / x.n, x.t.court)}</div>`).join('')}</div>` : ''}
-      <div class="pile-boutons">
-        <a class="bouton" href="#/progres">${ic('cible')} Travailler mes points faibles</a>
-        <button class="bouton secondaire" data-action="examen" data-type="${s.type}">${ic('revoir')} Repasser un examen</button>
+      ${heroResultat({
+        reussi, retour: '#/examen',
+        sur: `${ic('chrono', 'ic ic-texte')} ${s.type === 'complet' ? 'Examen blanc complet' : `Examen du module ${e(themeById(s.type)?.court || '')}`}`,
+        score, total,
+        titre: reussi ? 'Examen réussi !' : 'Pas encore… mais vous progressez',
+        texte: reussi ? `Vous avez dépassé le seuil de ${seuil} bonnes réponses.` : `Il fallait ${seuil} bonnes réponses sur ${total}. Encore ${Math.max(0, seuil - score)} pour réussir.`,
+        stats: [[score, 'bonnes réponses'], [nbErreurs, nbErreurs > 1 ? 'erreurs' : 'erreur'], [`${dureeMin} min`, 'de durée']],
+      })}
+      <div class="chevauche pile-cartes">
+        ${carteAction({ href: '#/progres', icone: 'cible', couleur: 'var(--c-societe)', titre: 'Travailler mes points faibles', texte: 'Un rappel du cours, puis des questions ciblées', bouton: 'chevron' })}
+        ${carteAction({ action: 'examen', attrs: `data-type="${s.type}"`, icone: 'revoir', couleur: 'var(--c-principes)', titre: 'Repasser un examen', texte: 'Avec de nouvelles questions' })}
       </div>
+      ${parTheme.length > 1 ? `<h2 class="titre-section">Résultat par thème</h2>
+        <div class="carte score-themes">${parTheme.map((x) => `
+          <div class="score-theme" style="--c:${x.t.couleur}">
+            ${pastille(x.t.icone, 'petite')}
+            <span class="st-texte"><span class="st-ligne"><strong>${x.t.court}</strong><span class="st-score ${x.ok / x.n >= 0.8 ? 'ok' : 'ko'}">${x.ok}/${x.n}</span></span>${barre(x.ok / x.n, x.t.court)}</span>
+          </div>`).join('')}</div>` : ''}
       <h2 class="titre-section">Correction</h2>
-      <ol class="correction-liste">
-        ${s.questions.map((q, k) => {
-          const ok = s.reponses[k] === q.bonne;
-          return `<li class="${ok ? 'ok' : 'ko'}"><p class="cq">${ic(ok ? 'valide' : 'fermer', 'ic ic-texte')} ${e(q.q)}</p>
-            ${ok ? '' : `<p>Votre réponse : ${s.reponses[k] === undefined ? '<em>aucune</em>' : e(q.options[s.reponses[k]])}</p>`}
-            <p>Bonne réponse : <strong>${e(q.a)}</strong></p>${!ok && q.e ? `<p class="explication">${ic('ampoule', 'ic ic-texte')} ${e(q.e)}</p>` : ''}${!ok ? blocLiens(q) : ''}</li>`;
-        }).join('')}
-      </ol>
+      ${nbErreurs ? `<div class="segments filtre-correction" role="group" aria-label="Filtrer la correction">
+        <button data-action="filtre-correction" data-f="ko" class="actif">Mes erreurs (${nbErreurs})</button>
+        <button data-action="filtre-correction" data-f="tout">Toutes (${total})</button>
+      </div>` : ''}
+      <div class="liste-corrections ${nbErreurs ? 'que-erreurs' : ''}" id="liste-corrections">
+        ${s.questions.map((q, k) => carteCorrection(q, k, s.reponses[k])).join('')}
+      </div>
     </section>`, 'aucun');
 }
 
@@ -786,6 +863,10 @@ document.addEventListener('click', async (ev) => {
       else naviguer('#/');
       break;
     case 'repondre': repondre(Number(d.k)); break;
+    case 'filtre-correction':
+      document.getElementById('liste-corrections')?.classList.toggle('que-erreurs', d.f === 'ko');
+      el.parentElement.querySelectorAll('button').forEach((b) => b.classList.toggle('actif', b === el));
+      break;
     case 'suiv': suivante(); break;
     case 'prec': session.i = Math.max(0, session.i - 1); vueQuestion(); break;
     case 'aller': session.i = Number(d.k); vueQuestion(); break;
