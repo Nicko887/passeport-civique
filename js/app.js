@@ -921,36 +921,65 @@ async function vueRevision(themeId, stId) {
   const b = bilan(qs);
   const md = await chargerCours(themeId);
   const section = md ? lireCours(md).sections.find((s) => s.id === stId) : null;
-  const etape = b.maitrise >= 0.8 ? 3 : b.vues ? 2 : 1;
-  const etapes = [['cours', 'Relire'], ['crayon', 'S’entraîner'], ['valide', 'Maîtriser']];
+  // Étape en cours : 1 relire (rien fait), 2 s'entraîner, 3 maîtrisée (80 % des questions)
+  const etape = b.maitrise >= 0.8 ? 4 : b.vues ? 2 : 1;
+  const entrainer = (libelle, cls = 'bouton') => `<button class="${cls}" data-action="entrainer-partie" data-theme="${themeId}" data-st="${stId}">${ic('jouer')} ${libelle}</button>`;
+  const etapes = [
+    {
+      titre: 'Relire le cours',
+      texte: section ? 'Les points essentiels de cette partie, en quelques minutes.' : 'Relisez le cours de ce thème.',
+      action: section ? `<button class="bouton" data-action="voir-rappel">${ic('cours')} Lire le rappel</button>${entrainer('Je connais déjà', 'bouton secondaire')}` : '',
+    },
+    {
+      titre: 'S’entraîner',
+      texte: `${b.total} questions sur cette partie${b.vues ? ` · ${b.vues} déjà travaillée${b.vues > 1 ? 's' : ''}` : ''}.`,
+      action: entrainer(b.vues ? 'Continuer' : 'Commencer'),
+    },
+    {
+      titre: 'Maîtriser',
+      texte: etape === 4 ? 'Partie maîtrisée : bravo ! Revenez de temps en temps pour ne pas oublier.' : `Objectif : 80 % des questions maîtrisées. Aujourd’hui : ${pct(b.maitrise)}.`,
+      action: etape === 4 ? entrainer('S’entraîner encore', 'bouton secondaire') : '',
+    },
+  ];
+  const stats = [
+    [`${b.maitrisees}/${b.total}`, 'maîtrisées'],
+    [b.reussite !== null ? pct(b.reussite) : '–', 'bonnes réponses'],
+    [String(b.aRevoir), 'à revoir'],
+  ];
   afficher(`
-    <div class="hero hero-cours" data-titre="${e(titre)}" data-retour="#/progres" style="--c:${t.couleur}">
+    <div class="hero hero-cours hero-revision" data-titre="${e(titre)}" data-retour="#/progres" style="--c:${t.couleur}">
       <div class="hero-haut">
         <a class="retour retour-hero" href="#/progres" aria-label="Retour à mes progrès">${ic('retour')}</a>
-        <span class="hero-marque">${ic(t.icone, 'ic ic-texte')} Révision guidée · ${t.court}</span>
+        <span class="hero-marque">Révision guidée</span>
       </div>
+      <span class="puce-hero">${ic(t.icone, 'ic ic-texte')} ${t.court}</span>
       <h1>${e(titre)}</h1>
-      <p class="hero-texte"><strong>${b.maitrisees}/${b.total}</strong> questions maîtrisées${b.reussite !== null ? ` · ${pct(b.reussite)} de bonnes réponses` : ''}</p>
+      <div class="stats-hero">${stats.map(([v, l]) => `<div><strong>${v}</strong><span>${l}</span></div>`).join('')}</div>
       <div class="barre-hero">${barre(b.progression, titre)}</div>
     </div>
 
     <section class="chevauche" style="--c:${t.couleur}">
-      <ol class="carte etapes" aria-label="Étapes de la révision">
-        ${etapes.map(([icone, nom], i) => `<li class="etape ${i + 1 < etape ? 'faite' : i + 1 === etape ? 'active' : ''}">
-          <span>${i + 1 < etape ? ic('valide') : ic(icone)}</span>${nom}</li>`).join('')}
+      <ol class="carte etapes-rev" aria-label="Étapes de la révision">
+        ${etapes.map((x, i) => {
+          const etat = i + 1 < etape ? 'faite' : i + 1 === etape ? 'active' : '';
+          return `<li class="${etat}" ${etat === 'active' ? 'aria-current="step"' : ''}>
+            <span class="rond-etape">${etat === 'faite' ? ic('valide') : i + 1}</span>
+            <div class="etape-texte"><strong>${x.titre}</strong><small>${x.texte}</small>
+              ${etat === 'active' || (etape === 4 && i === 2) ? `<div class="etape-actions">${x.action}</div>` : ''}</div>
+          </li>`;
+        }).join('')}
       </ol>
+    </section>
 
-      ${carteAction({ action: 'entrainer-partie', attrs: `data-theme="${themeId}" data-st="${stId}"`, icone: 'crayon', couleur: t.couleur, titre: 'S’entraîner sur cette partie', meta: `${b.total} questions ciblées` })}
-
-      ${section ? `<details class="carte rappel" ${b.vues ? '' : 'open'}>
-        <summary><span class="pastille petite">${ic('cours')}</span><span class="lt-texte"><strong>Rappel du cours</strong><small>${b.vues ? 'Touchez pour relire' : 'À lire avant de commencer'}</small></span><span class="chevron">${ic('chevron')}</span></summary>
-        <div class="cours">${section.html}</div>
-        <div class="actions-section">
-          ${audio.audioDisponible ? `<button class="bouton secondaire" data-action="lire-texte" data-texte="${e(section.titre + '. ' + section.texte)}">${ic('casque')} Écouter</button>` : ''}
-          <a class="bouton secondaire" href="#/cours/${themeId}/${stId}">${ic('cours')} Tout le cours</a>
-        </div>
-      </details>` : ''}
-    </section>`, 'progres');
+    ${section ? `<h2 class="titre-reglage" id="rappel">${ic('cours', 'ic ic-texte')} Rappel du cours</h2>
+    <article class="carte rappel-cours" style="--c:${t.couleur}">
+      <div class="cours">${section.html}</div>
+      <div class="actions-section">
+        ${audio.audioDisponible ? `<button class="bouton secondaire" data-action="lire-texte" data-texte="${e(section.titre + '. ' + section.texte)}">${ic('casque')} Écouter</button>` : ''}
+        <a class="bouton secondaire" href="#/cours/${themeId}/${stId}">${ic('cours')} Tout le cours</a>
+      </div>
+    </article>
+    <div class="fin-rappel">${entrainer('S’entraîner sur cette partie', 'bouton large')}</div>` : ''}`, 'progres');
 }
 
 // ----- Réglages et à propos -----
@@ -1180,6 +1209,9 @@ document.addEventListener('click', async (ev) => {
       break;
     case 'rejouer': if (dernierLancement.fn) { history.replaceState(null, '', '#/session'); await dernierLancement.fn(); } break;
     case 'examen': history.replaceState(null, '', '#/session'); session = null; await demarrerExamen(d.type); break;
+    case 'voir-rappel':
+      document.getElementById('rappel')?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+      break;
     case 'entrainer-partie': {
       const t = themeById(d.theme);
       const retour = location.hash;
