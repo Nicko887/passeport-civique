@@ -7,13 +7,15 @@ export const PARCOURS = {
     id: 'naturalisation',
     titre: 'Naturalisation',
     sousTitre: 'Devenir Français ou Française',
-    icone: '🗳️',
+    icone: 'naturalisation',
+    couleur: 'var(--c-naturalisation)',
   },
   resident: {
     id: 'resident',
     titre: 'Carte de résident',
     sousTitre: 'Carte de résident ou pluriannuelle',
-    icone: '🪪',
+    icone: 'resident',
+    couleur: 'var(--c-resident)',
   },
 };
 
@@ -22,7 +24,7 @@ export const THEMES = [
     id: 'principes',
     titre: 'Principes et valeurs de la République',
     court: 'Principes et valeurs',
-    icone: '⚖️',
+    icone: 'principes',
     couleur: 'var(--c-principes)',
     sousThemes: {
       symboles: 'Les symboles de la République',
@@ -37,7 +39,7 @@ export const THEMES = [
     id: 'institutions',
     titre: 'Système institutionnel et politique',
     court: 'Institutions',
-    icone: '🏛️',
+    icone: 'institutions',
     couleur: 'var(--c-institutions)',
     sousThemes: {
       constitution: 'La Constitution et la Ve République',
@@ -53,7 +55,7 @@ export const THEMES = [
     id: 'droits',
     titre: 'Droits et devoirs',
     court: 'Droits et devoirs',
-    icone: '📜',
+    icone: 'droits',
     couleur: 'var(--c-droits)',
     sousThemes: {
       droits_fondamentaux: 'Les droits fondamentaux',
@@ -68,7 +70,7 @@ export const THEMES = [
     id: 'histoire',
     titre: 'Histoire, géographie et culture',
     court: 'Histoire et culture',
-    icone: '🗺️',
+    icone: 'histoire',
     couleur: 'var(--c-histoire)',
     sousThemes: {
       histoire_ancienne: 'De la Gaule à 1789',
@@ -84,7 +86,7 @@ export const THEMES = [
     id: 'societe',
     titre: 'Vivre dans la société française',
     court: 'Vie en société',
-    icone: '🏘️',
+    icone: 'societe',
     couleur: 'var(--c-societe)',
     sousThemes: {
       sante: 'La santé',

@@ -4,6 +4,7 @@ import * as store from './store.js';
 import { chargerQuestions, chargerCours, preparer, choisirSerie, tirerExamen, tirerModule, bilan, pointsFaibles, melanger } from './data.js';
 import { lireCours, echapper, lienExterne } from './markdown.js';
 import * as audio from './audio.js';
+import { ic, pastille } from './icones.js';
 
 const $app = document.getElementById('app');
 const e = echapper;
@@ -28,7 +29,31 @@ function anneau(valeur, taille = 120, texte) {
 }
 
 function entete(titre, retour = '#/') {
-  return `<header class="entete-page"><a class="retour" href="${retour}" aria-label="Retour">←</a><h1>${titre}</h1></header>`;
+  return `<header class="entete-page"><a class="retour" href="${retour}" aria-label="Retour">${ic('retour')}</a><h1>${titre}</h1></header>`;
+}
+
+/** Grande carte d'action : bande de couleur, pastille, textes et bouton rond. */
+function carteAction({ href, action, attrs = '', icone, titre, texte, meta, couleur, bouton = 'jouer' }) {
+  const contenu = `
+    ${pastille(icone)}
+    <span class="ca-texte"><strong>${titre}</strong>${texte ? `<small>${texte}</small>` : ''}${meta ? `<span class="ca-meta">${meta}</span>` : ''}</span>
+    <span class="rond-action">${ic(bouton)}</span>`;
+  const style = couleur ? ` style="--c:${couleur}"` : '';
+  return action
+    ? `<button class="carte-action" data-action="${action}" ${attrs}${style}>${contenu}</button>`
+    : `<a class="carte-action" href="${href}"${style}>${contenu}</a>`;
+}
+
+/** Ligne de thème ou de partie : pastille, titre, barre de progression, chevron. */
+function ligneTheme({ href, action, attrs = '', icone, titre, barreVal, sousTexte, couleur }) {
+  const contenu = `
+    ${icone ? pastille(icone, 'petite') : ''}
+    <span class="lt-texte"><strong>${titre}</strong>${barreVal !== undefined ? barre(barreVal, titre) : ''}${sousTexte ? `<small>${sousTexte}</small>` : ''}</span>
+    <span class="chevron">${ic('chevron')}</span>`;
+  const style = couleur ? ` style="--c:${couleur}"` : '';
+  return action
+    ? `<button class="ligne-theme" data-action="${action}" ${attrs}${style}>${contenu}</button>`
+    : `<a class="ligne-theme" href="${href}"${style}>${contenu}</a>`;
 }
 
 function afficher(html, actif = '') {
@@ -56,19 +81,22 @@ const questions = () => chargerQuestions(parcoursCourant());
 function vueBienvenue() {
   afficher(`
     <section class="bienvenue">
-      <div class="logo-grand" aria-hidden="true">✓</div>
-      <h1>${APP_NAME}</h1>
-      <p class="accroche">Préparez l’examen civique gratuitement, à votre rythme, sans inscription.</p>
-      <h2>Quel examen préparez-vous ?</h2>
-      <div class="choix-parcours">
-        ${Object.values(PARCOURS).map((p) => `
-          <button class="carte-choix" data-action="choisir-parcours" data-p="${p.id}">
-            <span class="emoji" aria-hidden="true">${p.icone}</span>
-            <strong>${p.titre}</strong><small>${p.sousTitre}</small>
-          </button>`).join('')}
+      <div class="hero hero-bienvenue">
+        <div class="hero-marque"><span class="logo-marque">${ic('valide')}</span>${APP_NAME}</div>
+        <h1>Préparez votre examen civique</h1>
+        <p class="hero-texte">Gratuit, à votre rythme, sans inscription. Cours, QCM corrigés et examens blancs.</p>
       </div>
-      <p class="petit">Vous pourrez changer à tout moment dans les réglages.</p>
-      <p class="petit avertissement">Outil indépendant et gratuit, non officiel : il n’est pas édité par l’État. <a href="#/a-propos">En savoir plus</a></p>
+      <div class="chevauche">
+        <h2 class="titre-sur-hero">Quel examen préparez-vous ?</h2>
+        <div class="pile-cartes">
+          ${Object.values(PARCOURS).map((p) => carteAction({
+            action: 'choisir-parcours', attrs: `data-p="${p.id}"`, icone: p.icone, couleur: p.couleur,
+            titre: p.titre, texte: p.sousTitre, meta: `${EXAMEN.nbQuestions} questions · ${EXAMEN.dureeMinutes} min`,
+          })).join('')}
+        </div>
+        <p class="petit centre">Vous pourrez changer à tout moment dans les réglages.</p>
+        <p class="petit centre avertissement">${ic('info', 'ic ic-texte')} Outil indépendant et gratuit, non officiel : il n’est pas édité par l’État. <a href="#/a-propos">En savoir plus</a></p>
+      </div>
     </section>`, 'aucun');
 }
 
@@ -81,53 +109,50 @@ async function vueAccueil() {
   const dernier = examens[examens.length - 1];
   const serie = store.getEtat().activite.serie;
 
+  const outils = [
+    ['#/cours', 'cours', 'Cours', '5 thèmes à lire ou écouter', 'var(--c-histoire)'],
+    ['#/entrainement', 'crayon', 'S’entraîner', 'QCM avec corrections', 'var(--c-droits)'],
+    ['#/progres', 'cible', 'Points faibles', pf.faibles.length ? pf.faibles.length + ' partie' + (pf.faibles.length > 1 ? 's' : '') + ' à travailler' : 'Votre suivi personnalisé', 'var(--c-societe)'],
+    ['#/ecouter', 'casque', 'Écouter', 'Les cours en audio', 'var(--c-institutions)'],
+  ];
+
   afficher(`
     <section class="accueil">
-      <div class="bandeau">
-        <div>
-          <p class="sur-titre">${p.icone} ${p.titre}</p>
-          <h1>Bonjour 👋</h1>
-          <p>${b.vues === 0 ? 'Commencez par un cours ou une première série de questions.' : `Vous maîtrisez <strong>${b.maitrisees}</strong> questions sur ${b.total}.`}</p>
-          ${serie > 1 ? `<p class="serie">🔥 ${serie} jours d’affilée</p>` : ''}
+      <div class="hero">
+        <div class="hero-ligne">
+          <div>
+            <p class="hero-marque">${ic(p.icone, 'ic ic-texte')} ${p.titre}</p>
+            <h1>${b.vues === 0 ? 'Préparez votre examen' : 'Bon retour !'}</h1>
+            <p class="hero-texte">${b.vues === 0 ? 'Commencez par un cours ou une première série de questions.' : `Vous maîtrisez <strong>${b.maitrisees}</strong> questions sur ${b.total}.`}</p>
+            ${serie > 1 ? `<p class="serie">${ic('flamme', 'ic ic-texte')} ${serie} jours d’affilée</p>` : ''}
+          </div>
+          ${anneau(b.progression, 104)}
         </div>
-        ${anneau(b.progression, 110)}
       </div>
 
-      ${b.aRevoir > 0 ? `
-      <a class="action-principale" href="#/revision">
-        <span class="emoji" aria-hidden="true">🔁</span>
-        <span><strong>Mes révisions du jour</strong><small>${b.aRevoir} question${b.aRevoir > 1 ? 's' : ''} à revoir</small></span><span aria-hidden="true">→</span>
-      </a>` : `
-      <a class="action-principale" href="#/entrainement/tout">
-        <span class="emoji" aria-hidden="true">▶️</span>
-        <span><strong>${b.vues === 0 ? 'Commencer' : 'Continuer'} l’entraînement</strong><small>Série de ${SERIE_ENTRAINEMENT} questions adaptées à votre niveau</small></span><span aria-hidden="true">→</span>
-      </a>`}
-
-      <div class="grille-tuiles">
-        <a class="tuile" href="#/cours"><span class="emoji" aria-hidden="true">📘</span><strong>Cours</strong><small>5 thèmes à lire ou écouter</small></a>
-        <a class="tuile" href="#/entrainement"><span class="emoji" aria-hidden="true">✏️</span><strong>S’entraîner</strong><small>QCM avec corrections</small></a>
-        <a class="tuile" href="#/examen"><span class="emoji" aria-hidden="true">⏱️</span><strong>Examen blanc</strong><small>${EXAMEN.nbQuestions} questions, ${EXAMEN.dureeMinutes} min</small></a>
-        <a class="tuile" href="#/progres"><span class="emoji" aria-hidden="true">🎯</span><strong>Points faibles</strong><small>${pf.faibles.length ? pf.faibles.length + ' partie' + (pf.faibles.length > 1 ? 's' : '') + ' à travailler' : 'Votre suivi personnalisé'}</small></a>
-        <a class="tuile" href="#/ecouter"><span class="emoji" aria-hidden="true">🎧</span><strong>Écouter</strong><small>Les cours en audio</small></a>
-        <a class="tuile" href="#/reglages"><span class="emoji" aria-hidden="true">⚙️</span><strong>Réglages</strong><small>Texte, voix, sauvegarde</small></a>
+      <div class="chevauche pile-cartes">
+        ${b.aRevoir > 0
+          ? carteAction({ href: '#/revision', icone: 'revoir', couleur: 'var(--c-histoire)', titre: 'Mes révisions du jour', texte: `${b.aRevoir} question${b.aRevoir > 1 ? 's' : ''} à revoir pour bien les retenir` })
+          : carteAction({ href: '#/entrainement/tout', icone: 'crayon', couleur: 'var(--c-droits)', titre: `${b.vues === 0 ? 'Commencer' : 'Continuer'} l’entraînement`, texte: `Série de ${SERIE_ENTRAINEMENT} questions adaptées à votre niveau` })}
+        ${carteAction({ href: '#/examen', icone: 'chrono', couleur: 'var(--c-principes)', titre: 'Examen blanc', texte: 'Comme le jour de l’examen', meta: `${EXAMEN.nbQuestions} questions · ${EXAMEN.dureeMinutes} min` })}
       </div>
 
       ${dernier ? `
-      <div class="carte">
-        <h2>Dernier examen blanc</h2>
-        <p class="resultat-ligne ${dernier.reussi ? 'ok' : 'ko'}">${dernier.reussi ? '✅ Réussi' : '❌ Pas encore'} : <strong>${dernier.score}/${dernier.total}</strong> ${dernier.type === 'complet' ? '' : '(module ' + e(themeById(dernier.type)?.court || '') + ')'}</p>
-      </div>` : ''}
+      <p class="carte carte-dernier resultat-ligne ${dernier.reussi ? 'ok' : 'ko'}">${ic(dernier.reussi ? 'valide' : 'fermer', 'ic ic-texte')} Dernier examen blanc : <strong>${dernier.score}/${dernier.total}</strong>${dernier.reussi ? ', réussi' : ', pas encore'} ${dernier.type === 'complet' ? '' : '(module ' + e(themeById(dernier.type)?.court || '') + ')'}</p>` : ''}
+
+      <h2 class="titre-section">Outils de préparation</h2>
+      <div class="grille-tuiles">
+        ${outils.map(([href, icone, titre, texte, c]) => `<a class="tuile" href="${href}" style="--c:${c}">${pastille(icone)}<strong>${titre}</strong><small>${texte}</small></a>`).join('')}
+      </div>
 
       <h2 class="titre-section">Vos thèmes</h2>
       <div class="liste-themes">
         ${THEMES.map((t) => {
           const bt = bilan(qs.filter((q) => q.t === t.id));
-          return `<a class="ligne-theme" href="#/theme/${t.id}" style="--c:${t.couleur}">
-            <span class="emoji" aria-hidden="true">${t.icone}</span>
-            <span class="lt-texte"><strong>${t.court}</strong>${barre(bt.progression, t.court)}<small>${bt.maitrisees}/${bt.total} maîtrisées</small></span>
-            <span aria-hidden="true">›</span></a>`;
+          return ligneTheme({ href: `#/theme/${t.id}`, icone: t.icone, couleur: t.couleur, titre: t.court, barreVal: bt.progression, sousTexte: `${bt.maitrisees}/${bt.total} maîtrisées` });
         }).join('')}
       </div>
+      <a class="lien-discret" href="#/reglages">${ic('reglages', 'ic ic-texte')} Réglages : texte, voix, sauvegarde</a>
     </section>`, 'accueil');
 }
 
@@ -138,26 +163,24 @@ async function vueTheme(themeId) {
   const b = bilan(qs);
   const nbSit = qs.filter((q) => q.s).length;
   afficher(`
-    ${entete(t.icone + ' ' + t.court)}
+    ${entete(t.court)}
     <section style="--c:${t.couleur}">
       <div class="bandeau bandeau-theme">
-        <div><p class="sur-titre">Thème</p><h2>${t.titre}</h2><p>${b.total} questions · ${b.maitrisees} maîtrisées</p></div>
+        <div><p class="sur-titre">${ic(t.icone, 'ic ic-texte')} Thème</p><h2>${t.titre}</h2><p>${b.total} questions · ${b.maitrisees} maîtrisées</p></div>
         ${anneau(b.progression, 96)}
       </div>
-      <div class="pile-boutons">
-        <a class="bouton" href="#/cours/${t.id}">📘 Lire le cours</a>
-        <a class="bouton" href="#/entrainement/${t.id}">✏️ S’entraîner sur ce thème</a>
-        ${nbSit ? `<a class="bouton" href="#/entrainement/situations/${t.id}">🧭 Mises en situation (${nbSit})</a>` : ''}
-        <a class="bouton secondaire" href="#/examen/${t.id}">⏱️ Examen du module</a>
+      <div class="pile-cartes">
+        ${carteAction({ href: `#/cours/${t.id}`, icone: 'cours', couleur: t.couleur, titre: 'Lire le cours', texte: 'Les points essentiels, à lire ou à écouter', bouton: 'chevron' })}
+        ${carteAction({ href: `#/entrainement/${t.id}`, icone: 'crayon', couleur: t.couleur, titre: 'S’entraîner sur ce thème', texte: `${SERIE_ENTRAINEMENT} questions avec corrections` })}
+        ${nbSit ? carteAction({ href: `#/entrainement/situations/${t.id}`, icone: 'boussole', couleur: t.couleur, titre: 'Mises en situation', texte: `${nbSit} cas concrets de la vie quotidienne` }) : ''}
+        ${carteAction({ href: `#/examen/${t.id}`, icone: 'chrono', couleur: t.couleur, titre: 'Examen du module', texte: `${EXAMEN_MODULE.nbQuestions} questions, au rythme de l’examen` })}
       </div>
       <h2 class="titre-section">Parties du thème</h2>
       <div class="liste-themes">
         ${Object.entries(t.sousThemes).map(([id, titre]) => {
           const bs = bilan(qs.filter((q) => q.st === id));
           if (!bs.total) return '';
-          return `<a class="ligne-theme" href="#/revision/${t.id}/${id}">
-            <span class="lt-texte"><strong>${titre}</strong>${barre(bs.progression, titre)}
-            <small>${bs.total} questions${bs.reussite !== null ? ' · ' + pct(bs.reussite) + ' de bonnes réponses' : ''}</small></span><span aria-hidden="true">›</span></a>`;
+          return ligneTheme({ href: `#/revision/${t.id}/${id}`, titre, barreVal: bs.progression, sousTexte: `${bs.total} questions${bs.reussite !== null ? ' · ' + pct(bs.reussite) + ' de bonnes réponses' : ''}` });
         }).join('')}
       </div>
     </section>`, 'accueil');
@@ -174,9 +197,9 @@ async function vueListeCours() {
       ${THEMES.map((t) => {
         const bt = bilan(qs.filter((q) => q.t === t.id));
         return `<a class="ligne-theme" href="#/cours/${t.id}" style="--c:${t.couleur}">
-          <span class="emoji" aria-hidden="true">${t.icone}</span>
+          ${pastille(t.icone, 'petite')}
           <span class="lt-texte"><strong>${t.titre}</strong>${barre(bt.progression, t.court)}<small>${Object.keys(t.sousThemes).length} parties</small></span>
-          <span aria-hidden="true">›</span></a>`;
+          <span class="chevron">${ic('chevron')}</span></a>`;
       }).join('')}
     </div>`, 'cours');
 }
@@ -196,7 +219,7 @@ async function vueCours(themeId, sectionId) {
     <article class="cours" style="--c:${t.couleur}">
       <h2 class="titre-cours">${e(c.titre || t.titre)}</h2>
       ${c.intro.html}
-      ${audio.audioDisponible ? `<button class="bouton" data-action="ecouter-cours" data-theme="${t.id}">🎧 Écouter tout le cours</button>` : ''}
+      ${audio.audioDisponible ? `<button class="bouton" data-action="ecouter-cours" data-theme="${t.id}">${ic('casque')} Écouter tout le cours</button>` : ''}
       <nav class="sommaire" aria-label="Sommaire">
         ${c.sections.map((s) => `<a href="#/cours/${t.id}/${s.id}">${e(s.titre)}</a>`).join('')}
       </nav>
@@ -205,8 +228,8 @@ async function vueCours(themeId, sectionId) {
           <h2>${e(s.titre)}</h2>
           ${s.html}
           ${s.id !== 'sources' ? `<div class="actions-section">
-            ${audio.audioDisponible ? `<button class="bouton petit secondaire" data-action="ecouter-cours" data-theme="${t.id}" data-index="${pistes.findIndex((p) => p.id === s.id)}">🎧 Écouter</button>` : ''}
-            <a class="bouton petit" href="#/revision/${t.id}/${s.id}">✏️ S’entraîner sur cette partie</a>
+            ${audio.audioDisponible ? `<button class="bouton petit secondaire" data-action="ecouter-cours" data-theme="${t.id}" data-index="${pistes.findIndex((p) => p.id === s.id)}">${ic('casque')} Écouter</button>` : ''}
+            <a class="bouton petit" href="#/revision/${t.id}/${s.id}">${ic('crayon')} S’entraîner sur cette partie</a>
           </div>` : ''}
         </section>`).join('')}
     </article>`, 'cours');
@@ -235,9 +258,9 @@ async function vueEcouter() {
     <div id="lecteur"></div>
     ${blocs.map(({ t, pistes }) => `
       <div class="carte bloc-ecoute" style="--c:${t.couleur}">
-        <div class="bloc-ecoute-tete"><h2>${t.icone} ${t.court}</h2>
-          ${pistes.length ? `<button class="bouton petit" data-action="ecouter-cours" data-theme="${t.id}">▶ Tout écouter</button>` : '<small>Bientôt disponible</small>'}</div>
-        <ol class="pistes">${pistes.map((p, i) => `<li><button class="piste" data-action="ecouter-cours" data-theme="${t.id}" data-index="${i}">▶ ${e(p.titre)}</button></li>`).join('')}</ol>
+        <div class="bloc-ecoute-tete"><h2>${ic(t.icone, 'ic ic-texte')} ${t.court}</h2>
+          ${pistes.length ? `<button class="bouton petit" data-action="ecouter-cours" data-theme="${t.id}">${ic('jouer')} Tout écouter</button>` : '<small>Bientôt disponible</small>'}</div>
+        <ol class="pistes">${pistes.map((p, i) => `<li><button class="piste" data-action="ecouter-cours" data-theme="${t.id}" data-index="${i}">${ic('jouer', 'ic ic-texte')} ${e(p.titre)}</button></li>`).join('')}</ol>
       </div>`).join('')}`, 'ecouter');
   majLecteur(audio.etatAudio());
 }
@@ -255,10 +278,10 @@ function majLecteur(s) {
   el.innerHTML = `
     <div class="lecteur-info"><small>${e(s.piste?.theme || 'Lecture')}</small><strong>${e(s.piste?.titre || '')}</strong>${barre(s.progression, 'Avancement')}</div>
     <div class="lecteur-boutons">
-      <button data-action="audio-prec" aria-label="Précédent">⏮</button>
-      <button data-action="audio-pause" class="lecteur-play" aria-label="${s.statut === 'lecture' ? 'Pause' : 'Lecture'}">${s.statut === 'lecture' ? '⏸' : '▶'}</button>
-      <button data-action="audio-suiv" aria-label="Suivant">⏭</button>
-      <button data-action="audio-stop" aria-label="Arrêter">✕</button>
+      <button data-action="audio-prec" aria-label="Précédent">${ic('retour')}</button>
+      <button data-action="audio-pause" class="lecteur-play" aria-label="${s.statut === 'lecture' ? 'Pause' : 'Lecture'}">${s.statut === 'lecture' ? '<span class="pause" aria-hidden="true"></span>' : ic('jouer')}</button>
+      <button data-action="audio-suiv" aria-label="Suivant">${ic('chevron')}</button>
+      <button data-action="audio-stop" aria-label="Arrêter">${ic('fermer')}</button>
     </div>`;
 }
 
@@ -276,15 +299,16 @@ async function vueChoixEntrainement() {
   afficher(`
     ${entete('S’entraîner')}
     <p class="intro-page">Répondez aux questions et découvrez tout de suite la correction. Les questions que vous ratez reviendront plus tard pour être bien retenues.</p>
-    <a class="action-principale" href="#/entrainement/tout"><span class="emoji" aria-hidden="true">🎲</span><span><strong>Tous les thèmes</strong><small>${SERIE_ENTRAINEMENT} questions choisies pour vous</small></span><span aria-hidden="true">→</span></a>
-    ${sit.length ? `<a class="action-principale secondaire" href="#/entrainement/situations"><span class="emoji" aria-hidden="true">🧭</span><span><strong>Mises en situation</strong><small>Des cas concrets de la vie quotidienne · ${NB_SITUATIONS} questions sur ${EXAMEN.nbQuestions} à l’examen</small></span><span aria-hidden="true">→</span></a>` : ''}
+    <div class="pile-cartes">${carteAction({ href: '#/entrainement/tout', icone: 'des', couleur: 'var(--c-droits)', titre: 'Tous les thèmes', texte: `${SERIE_ENTRAINEMENT} questions choisies pour vous` })}
+    ${sit.length ? carteAction({ href: '#/entrainement/situations', icone: 'boussole', couleur: 'var(--c-histoire)', titre: 'Mises en situation', texte: 'Des cas concrets de la vie quotidienne', meta: `${NB_SITUATIONS} questions sur ${EXAMEN.nbQuestions} à l’examen` }) : ''}</div>
+    <h2 class="titre-section">Par thème</h2>
     <div class="liste-themes">
       ${THEMES.map((t) => {
         const bt = bilan(qs.filter((q) => q.t === t.id));
         return `<a class="ligne-theme" href="#/entrainement/${t.id}" style="--c:${t.couleur}">
-          <span class="emoji" aria-hidden="true">${t.icone}</span>
+          ${pastille(t.icone, 'petite')}
           <span class="lt-texte"><strong>${t.court}</strong>${barre(bt.progression, t.court)}<small>${bt.total} questions · ${bt.vues} déjà vues</small></span>
-          <span aria-hidden="true">›</span></a>`;
+          <span class="chevron">${ic('chevron')}</span></a>`;
       }).join('')}
     </div>`, 'entrainement');
 }
@@ -308,7 +332,7 @@ async function demarrerRevisionDuJour() {
   const qs = await questions();
   const dues = qs.filter((q) => store.estARevoir(q.id));
   const serie = melanger(dues).slice(0, 15).map(preparer);
-  if (!serie.length) { toast('Aucune révision prévue aujourd’hui 🎉'); return naviguer('#/'); }
+  if (!serie.length) { toast('Aucune révision prévue aujourd’hui'); return naviguer('#/'); }
   session = { mode: 'entrainement', titre: 'Révisions du jour', retour: '#/', questions: serie, i: 0, reponses: [], verrou: false };
   vueQuestion();
 }
@@ -322,13 +346,13 @@ function vueQuestion() {
   afficher(`
     <div class="quiz" style="--c:${t.couleur}">
       <header class="quiz-tete">
-        <button class="retour" data-action="quitter" aria-label="Quitter">✕</button>
+        <button class="retour" data-action="quitter" aria-label="Quitter">${ic('fermer')}</button>
         <div class="quiz-avance">${barre((s.i + (examen ? 0 : s.verrou ? 1 : 0)) / s.questions.length, 'Avancement')}<small>Question ${s.i + 1} sur ${s.questions.length}</small></div>
         ${examen ? `<div class="chrono" id="chrono" aria-live="off">--:--</div>` : ''}
       </header>
-      <p class="quiz-theme">${t.icone} ${t.court}${q.s ? ' · <span class="badge-situation">🧭 Mise en situation</span>' : ''}</p>
+      <p class="quiz-theme">${ic(t.icone, 'ic ic-texte')} ${t.court}${q.s ? ` <span class="badge-situation">${ic('boussole', 'ic ic-texte')} Mise en situation</span>` : ''}</p>
       <h1 class="quiz-question">${e(q.q)}</h1>
-      ${audio.audioDisponible ? `<button class="lien-audio" data-action="lire-question">🔊 Écouter la question</button>` : ''}
+      ${audio.audioDisponible ? `<button class="lien-audio" data-action="lire-question">${ic('son', 'ic ic-texte')} Écouter la question</button>` : ''}
       <div class="options" role="group" aria-label="Réponses possibles">
         ${q.options.map((o, k) => {
           let cls = '';
@@ -341,9 +365,9 @@ function vueQuestion() {
       <div id="retour-q">${!examen && s.verrou ? blocCorrection(q, choisie) : ''}</div>
       <div class="quiz-pied">
         ${examen ? `
-          <button class="bouton secondaire" data-action="prec" ${s.i === 0 ? 'disabled' : ''}>← Précédente</button>
-          ${s.i < s.questions.length - 1 ? `<button class="bouton" data-action="suiv">Suivante →</button>` : `<button class="bouton" data-action="terminer">Terminer l’examen</button>`}
-        ` : s.verrou ? `<button class="bouton large" data-action="suiv" id="btn-suiv">${s.i < s.questions.length - 1 ? 'Question suivante →' : 'Voir mon résultat'}</button>` : ''}
+          <button class="bouton secondaire" data-action="prec" ${s.i === 0 ? 'disabled' : ''}>${ic('retour')} Précédente</button>
+          ${s.i < s.questions.length - 1 ? `<button class="bouton" data-action="suiv">Suivante ${ic('chevron')}</button>` : `<button class="bouton" data-action="terminer">Terminer l’examen</button>`}
+        ` : s.verrou ? `<button class="bouton large" data-action="suiv" id="btn-suiv">${s.i < s.questions.length - 1 ? `Question suivante ${ic('chevron')}` : 'Voir mon résultat'}</button>` : ''}
       </div>
       ${examen ? `<details class="grille-exam"><summary>Vue d’ensemble (${s.reponses.filter((r) => r !== undefined).length}/${s.questions.length} répondues)</summary>
         <div class="grille-num">${s.questions.map((_, k) => `<button data-action="aller" data-k="${k}" class="${s.reponses[k] !== undefined ? 'faite' : ''} ${k === s.i ? 'courante' : ''}">${k + 1}</button>`).join('')}</div></details>` : ''}
@@ -354,10 +378,10 @@ function vueQuestion() {
 function blocCorrection(q, choisie) {
   const ok = choisie === q.bonne;
   return `<div class="correction ${ok ? 'ok' : 'ko'}" role="status">
-    <p class="verdict">${ok ? '✅ Bonne réponse !' : '❌ Pas tout à fait.'}</p>
+    <p class="verdict">${ok ? `${ic('valide')} Bonne réponse !` : `${ic('fermer')} Pas tout à fait.`}</p>
     ${ok ? '' : `<p>La bonne réponse : <strong>${e(q.a)}</strong></p>`}
-    ${q.e ? `<p class="explication">💡 ${e(q.e)}</p>` : ''}
-    <a class="lien-cours" href="#/cours/${q.t}/${q.st}">📘 Revoir le cours sur ce point</a>
+    ${q.e ? `<p class="explication">${ic('ampoule', 'ic ic-texte')} ${e(q.e)}</p>` : ''}
+    <a class="lien-cours" href="#/cours/${q.t}/${q.st}">${ic('cours', 'ic ic-texte')} Revoir le cours sur ce point</a>
     ${blocLiens(q)}
   </div>`;
 }
@@ -366,7 +390,7 @@ function blocCorrection(q, choisie) {
 function blocLiens(q) {
   const liens = (q.l || []).filter((l) => lienSur(l.url));
   if (!liens.length) return '';
-  return `<p class="liens-externes">🔗 Pour aller plus loin : ${liens.map((l) => lienExterne(l.url, l.titre)).join(' · ')}</p>`;
+  return `<p class="liens-externes">Pour aller plus loin : ${liens.map((l) => lienExterne(l.url, l.titre)).join(' · ')}</p>`;
 }
 
 function repondre(k) {
@@ -406,12 +430,12 @@ function vueResultatEntrainement() {
   afficher(`
     <section class="resultat">
       ${anneau(ratio, 150, `${bonnes}/${s.questions.length}`)}
-      <h1>${ratio === 1 ? 'Parfait ! 🎉' : ratio >= 0.8 ? 'Très bien ! 👏' : ratio >= 0.5 ? 'C’est un bon début 💪' : 'Continuez, vous progressez 🌱'}</h1>
+      <h1>${ratio === 1 ? 'Parfait !' : ratio >= 0.8 ? 'Très bien !' : ratio >= 0.5 ? 'C’est un bon début' : 'Continuez, vous progressez'}</h1>
       <p>${ratees.length ? 'Les questions ratées reviendront dans vos révisions pour bien les retenir.' : 'Toutes les réponses sont justes.'}</p>
-      ${ratees.length ? `<div class="carte"><h2>À retenir</h2><ul class="liste-retenir">${ratees.map((q) => `<li><strong>${e(q.q)}</strong><br>→ ${e(q.a)}</li>`).join('')}</ul></div>` : ''}
+      ${ratees.length ? `<div class="carte"><h2>À retenir</h2><ul class="liste-retenir">${ratees.map((q) => `<li><strong>${e(q.q)}</strong><br>${ic('chevron', 'ic ic-texte')} ${e(q.a)}</li>`).join('')}</ul></div>` : ''}
       <div class="pile-boutons">
-        <button class="bouton" data-action="rejouer">🔁 Nouvelle série</button>
-        <a class="bouton secondaire" href="#/progres">🎯 Voir mes points faibles</a>
+        <button class="bouton" data-action="rejouer">${ic('revoir')} Nouvelle série</button>
+        <a class="bouton secondaire" href="#/progres">${ic('cible')} Voir mes points faibles</a>
         <a class="bouton secondaire" href="${retour}">Retour</a>
       </div>
     </section>`, 'aucun');
@@ -435,13 +459,13 @@ async function vueChoixExamen() {
         <li>La correction s’affiche à la fin</li>
       </ul>
     </div>
-    <button class="action-principale" data-action="examen" data-type="complet"><span class="emoji" aria-hidden="true">⏱️</span><span><strong>Lancer l’examen complet</strong><small>${EXAMEN.nbQuestions} questions · ${EXAMEN.dureeMinutes} minutes</small></span><span aria-hidden="true">→</span></button>
+    ${carteAction({ action: 'examen', attrs: 'data-type="complet"', icone: 'chrono', couleur: 'var(--c-principes)', titre: 'Lancer l’examen complet', texte: 'Comme le jour de l’examen', meta: `${EXAMEN.nbQuestions} questions · ${EXAMEN.dureeMinutes} minutes` })}
     <h2 class="titre-section">Examen par module</h2>
     <p class="intro-page">${EXAMEN_MODULE.nbQuestions} questions sur un seul thème, au même rythme que l’examen.</p>
     <div class="liste-themes">
       ${THEMES.map((t) => `<button class="ligne-theme" data-action="examen" data-type="${t.id}" style="--c:${t.couleur}">
-        <span class="emoji" aria-hidden="true">${t.icone}</span><span class="lt-texte"><strong>${t.court}</strong>
-        <small>${dernierScore(ex, t.id)}</small></span><span aria-hidden="true">›</span></button>`).join('')}
+        ${pastille(t.icone, 'petite')}<span class="lt-texte"><strong>${t.court}</strong>
+        <small>${dernierScore(ex, t.id)}</small></span><span class="chevron">${ic('chevron')}</span></button>`).join('')}
     </div>
     ${ex.length ? `<h2 class="titre-section">Historique</h2><div class="carte"><ol class="historique">${ex.slice(-8).reverse().map((r) => `
       <li><span>${new Date(r.date).toLocaleDateString('fr-FR')} · ${r.type === 'complet' ? 'Examen complet' : e(themeById(r.type)?.court || '')}</span>
@@ -499,21 +523,21 @@ function terminerExamen() {
   afficher(`
     <section class="resultat">
       ${anneau(score / total, 160, `${score}/${total}`)}
-      <h1>${reussi ? 'Examen réussi ! 🎉' : 'Pas encore… mais vous progressez 💪'}</h1>
+      <h1>${reussi ? 'Examen réussi !' : 'Pas encore… mais vous progressez'}</h1>
       <p>${s.type === 'complet' ? `Il fallait ${EXAMEN.seuil} bonnes réponses sur ${EXAMEN.nbQuestions}.` : 'Objectif : 80 % de bonnes réponses.'} Durée : ${Math.round((Date.now() - s.debut) / 60000)} min.</p>
       ${parTheme.length > 1 ? `<div class="carte"><h2>Par thème</h2>${parTheme.map((x) => `
-        <div class="score-theme" style="--c:${x.t.couleur}"><span>${x.t.icone} ${x.t.court}</span><strong>${x.ok}/${x.n}</strong>${barre(x.ok / x.n, x.t.court)}</div>`).join('')}</div>` : ''}
+        <div class="score-theme" style="--c:${x.t.couleur}"><span>${ic(x.t.icone, 'ic ic-texte')} ${x.t.court}</span><strong>${x.ok}/${x.n}</strong>${barre(x.ok / x.n, x.t.court)}</div>`).join('')}</div>` : ''}
       <div class="pile-boutons">
-        <a class="bouton" href="#/progres">🎯 Travailler mes points faibles</a>
-        <button class="bouton secondaire" data-action="examen" data-type="${s.type}">🔁 Repasser un examen</button>
+        <a class="bouton" href="#/progres">${ic('cible')} Travailler mes points faibles</a>
+        <button class="bouton secondaire" data-action="examen" data-type="${s.type}">${ic('revoir')} Repasser un examen</button>
       </div>
       <h2 class="titre-section">Correction</h2>
       <ol class="correction-liste">
         ${s.questions.map((q, k) => {
           const ok = s.reponses[k] === q.bonne;
-          return `<li class="${ok ? 'ok' : 'ko'}"><p class="cq">${ok ? '✅' : '❌'} ${e(q.q)}</p>
+          return `<li class="${ok ? 'ok' : 'ko'}"><p class="cq">${ic(ok ? 'valide' : 'fermer', 'ic ic-texte')} ${e(q.q)}</p>
             ${ok ? '' : `<p>Votre réponse : ${s.reponses[k] === undefined ? '<em>aucune</em>' : e(q.options[s.reponses[k]])}</p>`}
-            <p>Bonne réponse : <strong>${e(q.a)}</strong></p>${!ok && q.e ? `<p class="explication">💡 ${e(q.e)}</p>` : ''}${!ok ? blocLiens(q) : ''}</li>`;
+            <p>Bonne réponse : <strong>${e(q.a)}</strong></p>${!ok && q.e ? `<p class="explication">${ic('ampoule', 'ic ic-texte')} ${e(q.e)}</p>` : ''}${!ok ? blocLiens(q) : ''}</li>`;
         }).join('')}
       </ol>
     </section>`, 'aucun');
@@ -527,10 +551,10 @@ async function vueProgres() {
   const pf = pointsFaibles(qs);
   const forts = pf.evalues.filter((r) => !pf.faibles.includes(r));
   const ligne = (r) => `<a class="ligne-theme" href="#/revision/${r.theme.id}/${r.stId}" style="--c:${r.theme.couleur}">
-      <span class="emoji" aria-hidden="true">${r.theme.icone}</span>
+      ${pastille(r.theme.icone, 'petite')}
       <span class="lt-texte"><strong>${e(r.titre)}</strong>${barre(r.reussite ?? 0, r.titre)}
       <small>${r.reussite !== null ? pct(r.reussite) + ' de bonnes réponses' : ''}${r.aRevoir ? ' · ' + r.aRevoir + ' à revoir' : ''} · ${r.maitrisees}/${r.total} maîtrisées</small></span>
-      <span aria-hidden="true">›</span></a>`;
+      <span class="chevron">${ic('chevron')}</span></a>`;
   afficher(`
     ${entete('Mes points faibles')}
     <div class="bandeau">
@@ -538,11 +562,11 @@ async function vueProgres() {
       ${b.reussite !== null ? `<p>${pct(b.reussite)} de bonnes réponses</p>` : ''}</div>
       ${anneau(b.progression, 100)}
     </div>
-    ${b.aRevoir ? `<a class="action-principale" href="#/revision"><span class="emoji" aria-hidden="true">🔁</span><span><strong>Révisions du jour</strong><small>${b.aRevoir} question${b.aRevoir > 1 ? 's' : ''} à revoir maintenant</small></span><span aria-hidden="true">→</span></a>` : ''}
-    ${b.vues === 0 ? `<div class="carte vide"><p>🎯 Ici, l’application repère automatiquement les parties où vous faites des erreurs.</p><p>Faites une première série de questions pour voir votre bilan.</p><a class="bouton" href="#/entrainement/tout">Commencer</a></div>` : ''}
+    ${b.aRevoir ? `${carteAction({ href: '#/revision', icone: 'revoir', couleur: 'var(--c-histoire)', titre: 'Révisions du jour', texte: `${b.aRevoir} question${b.aRevoir > 1 ? 's' : ''} à revoir maintenant` })}` : ''}
+    ${b.vues === 0 ? `<div class="carte vide"><p>Ici, l’application repère automatiquement les parties où vous faites des erreurs.</p><p>Faites une première série de questions pour voir votre bilan.</p><a class="bouton" href="#/entrainement/tout">Commencer</a></div>` : ''}
     ${pf.faibles.length ? `<h2 class="titre-section">À travailler en priorité</h2>
       <p class="intro-page">Touchez une partie : un rappel du cours, puis des questions ciblées jusqu’à ce que ce soit acquis.</p>
-      <div class="liste-themes">${pf.faibles.map(ligne).join('')}</div>` : b.vues ? `<div class="carte"><p>👏 Aucun point faible repéré pour l’instant. Continuez à explorer de nouvelles parties !</p></div>` : ''}
+      <div class="liste-themes">${pf.faibles.map(ligne).join('')}</div>` : b.vues ? `<div class="carte"><p>Aucun point faible repéré pour l’instant. Continuez à explorer de nouvelles parties !</p></div>` : ''}
     ${forts.length ? `<h2 class="titre-section">Points forts</h2><div class="liste-themes">${forts.map(ligne).join('')}</div>` : ''}
     ${pf.nonCommences.length && b.vues ? `<h2 class="titre-section">Pas encore commencées</h2><div class="liste-themes">${pf.nonCommences.map(ligne).join('')}</div>` : ''}`, 'progres');
 }
@@ -564,9 +588,9 @@ async function vueRevision(themeId, stId) {
         <div class="etape ${b.maitrise >= 0.8 ? 'faite' : ''}"><span>3</span>Maîtriser</div>
       </div>
       <div class="carte"><p><strong>${b.maitrisees}/${b.total}</strong> questions maîtrisées dans cette partie.</p>${barre(b.progression, titre)}</div>
-      ${section ? `<details class="carte rappel" ${b.vues ? '' : 'open'}><summary>📘 Rappel du cours</summary><div class="cours">${section.html}</div>
-        ${audio.audioDisponible ? `<button class="bouton petit secondaire" data-action="lire-texte" data-texte="${e(section.titre + '. ' + section.texte)}">🎧 Écouter ce rappel</button>` : ''}</details>` : ''}
-      <button class="bouton large" data-action="entrainer-partie" data-theme="${themeId}" data-st="${stId}">✏️ S’entraîner sur cette partie</button>
+      ${section ? `<details class="carte rappel" ${b.vues ? '' : 'open'}><summary>${ic('cours', 'ic ic-texte')} Rappel du cours</summary><div class="cours">${section.html}</div>
+        ${audio.audioDisponible ? `<button class="bouton petit secondaire" data-action="lire-texte" data-texte="${e(section.titre + '. ' + section.texte)}">${ic('casque')} Écouter ce rappel</button>` : ''}</details>` : ''}
+      <button class="bouton large" data-action="entrainer-partie" data-theme="${themeId}" data-st="${stId}">${ic('crayon')} S’entraîner sur cette partie</button>
     </section>`, 'progres');
 }
 
@@ -579,7 +603,7 @@ function vueReglages() {
     ${entete('Réglages')}
     <div class="carte">
       <h2>Mon examen</h2>
-      <div class="segments">${Object.values(PARCOURS).map((p) => `<button data-action="choisir-parcours" data-p="${p.id}" class="${et.parcours === p.id ? 'actif' : ''}">${p.icone} ${p.titre}</button>`).join('')}</div>
+      <div class="segments">${Object.values(PARCOURS).map((p) => `<button data-action="choisir-parcours" data-p="${p.id}" class="${et.parcours === p.id ? 'actif' : ''}">${ic(p.icone, 'ic ic-texte')} ${p.titre}</button>`).join('')}</div>
       <p class="petit">Chaque examen a sa propre progression.</p>
     </div>
     <div class="carte">
@@ -594,14 +618,14 @@ function vueReglages() {
       <label class="champ">Vitesse de lecture
         <div class="segments">${[[0.8, 'Lente'], [1, 'Normale'], [1.2, 'Rapide']].map(([v, l]) => `<button data-action="pref" data-cle="vitesse" data-v="${v}" class="${Number(et.prefs.vitesse) === v ? 'actif' : ''}">${l}</button>`).join('')}</div></label>
       ${voix.length > 1 ? `<label class="champ">Voix<select data-action-change="voix">${voix.map((v) => `<option ${v.name === et.prefs.voix ? 'selected' : ''}>${e(v.name)}</option>`).join('')}</select></label>` : ''}
-      <button class="bouton petit secondaire" data-action="lire-texte" data-texte="Bonjour, voici un exemple de lecture.">🔊 Tester la voix</button>
+      <button class="bouton petit secondaire" data-action="lire-texte" data-texte="Bonjour, voici un exemple de lecture.">${ic('son')} Tester la voix</button>
     </div>` : ''}
     <div class="carte">
       <h2>Ma progression</h2>
       <p class="petit">Votre progression est enregistrée sur cet appareil uniquement. Aucun compte, aucune donnée envoyée. Pour la transférer sur un autre appareil, téléchargez le fichier puis importez-le.</p>
       <div class="pile-boutons">
-        <button class="bouton secondaire" data-action="exporter">⬇️ Télécharger ma progression</button>
-        <label class="bouton secondaire">⬆️ Importer une progression<input type="file" accept="application/json,.json" data-action-change="importer" hidden></label>
+        <button class="bouton secondaire" data-action="exporter">${ic('telecharger')} Télécharger ma progression</button>
+        <label class="bouton secondaire">${ic('importer')} Importer une progression<input type="file" accept="application/json,.json" data-action-change="importer" hidden></label>
         <button class="bouton danger" data-action="reinitialiser">Effacer la progression de cet examen</button>
       </div>
     </div>
@@ -772,7 +796,7 @@ document.addEventListener('change', async (ev) => {
     try {
       store.importer(await el.files[0].text());
       appliquerPrefs();
-      toast('Progression importée ✅');
+      toast('Progression importée');
       vueReglages();
     } catch {
       toast('Ce fichier n’est pas reconnu');
@@ -789,6 +813,7 @@ document.addEventListener('keydown', (ev) => {
 });
 
 window.addEventListener('hashchange', routeur);
+document.querySelectorAll('.nav-bas [data-icone]').forEach((el) => { el.innerHTML = ic(el.dataset.icone); });
 appliquerPrefs();
 routeur();
 
