@@ -1028,6 +1028,22 @@ main { max-width: 560px; padding-top: var(--haut); }
 .option { min-height: 56px; padding: 10px 12px; gap: 12px; font-size: .98rem; }
 .lettre { width: 32px; height: 32px; border-radius: 10px; }
 
+/* S'entraîner : repères en trois colonnes et thèmes en tuiles */
+.reperes { list-style: none; margin: 16px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.reperes li {
+  display: grid; justify-items: center; gap: 6px; padding: 10px 6px; text-align: center;
+  background: var(--surface); border: 1px solid var(--bord); border-radius: 16px;
+  font-size: .76rem; font-weight: 650; line-height: 1.3; color: var(--texte-2);
+}
+.reperes li:nth-child(1) { --c: var(--ok); }
+.reperes li:nth-child(2) { --c: var(--c-histoire); }
+.reperes li:nth-child(3) { --c: var(--c-droits); }
+.grille-themes { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.tuile-theme { gap: 6px; }
+.tuile-theme .pastille { margin-bottom: 2px; }
+.tuile-theme .barre { width: 100%; margin: 2px 0 0; height: 6px; }
+.tuile-theme small { font-weight: 600; }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 

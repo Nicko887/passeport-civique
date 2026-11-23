@@ -407,21 +407,50 @@ async function lancerEcoute(themeId, index) {
 async function vueChoixEntrainement() {
   const qs = await questions();
   const sit = qs.filter((q) => q.s);
+  const b = bilan(qs);
+  const p = PARCOURS[parcoursCourant()];
   afficher(`
-    ${entete('S’entraîner')}
-    <p class="intro-page">Répondez aux questions et découvrez tout de suite la correction. Les questions que vous ratez reviendront plus tard pour être bien retenues.</p>
-    <div class="pile-cartes">${carteAction({ href: '#/entrainement/tout', icone: 'des', couleur: 'var(--c-droits)', titre: 'Tous les thèmes', texte: `${SERIE_ENTRAINEMENT} questions choisies pour vous` })}
-    ${sit.length ? carteAction({ href: '#/entrainement/situations', icone: 'boussole', couleur: 'var(--c-histoire)', titre: 'Mises en situation', texte: 'Des cas concrets de la vie quotidienne', meta: `${NB_SITUATIONS} questions sur ${EXAMEN.nbQuestions} à l’examen` }) : ''}</div>
-    <h2 class="titre-section">Par thème</h2>
-    <div class="liste-themes">
-      ${THEMES.map((t) => {
-        const bt = bilan(qs.filter((q) => q.t === t.id));
-        return `<a class="ligne-theme" href="#/entrainement/${t.id}" style="--c:${t.couleur}">
-          ${pastille(t.icone, 'petite')}
-          <span class="lt-texte"><strong>${t.court}</strong>${barre(bt.progression, t.court)}<small>${bt.total} questions · ${bt.vues} déjà vues</small></span>
-          <span class="chevron">${ic('chevron')}</span></a>`;
-      }).join('')}
-    </div>`, 'entrainement');
+    <section>
+      <div class="hero" data-titre="S’entraîner">
+        <p class="hero-marque">${ic('crayon', 'ic ic-texte')} S’entraîner · ${e(p.court)}</p>
+        <h1>Entraînez-vous à votre rythme</h1>
+        <p class="hero-texte">${b.vues ? `Déjà <strong>${b.vues}</strong> questions travaillées sur ${b.total}.` : `${b.total} questions pour préparer votre examen.`}</p>
+        <div class="stats">
+          ${b.vues
+            ? `<div class="stat"><strong>${b.vues}</strong><small>vues</small></div>
+               <div class="stat"><strong>${b.reussite !== null ? pct(b.reussite) : '–'}</strong><small>de réussite</small></div>
+               <div class="stat"><strong>${b.aRevoir}</strong><small>à revoir</small></div>`
+            : `<div class="stat"><strong>${b.total}</strong><small>questions</small></div>
+               <div class="stat"><strong>${THEMES.length}</strong><small>thèmes</small></div>
+               <div class="stat"><strong>${sit.length}</strong><small>situations</small></div>`}
+        </div>
+      </div>
+
+      <div class="chevauche pile-cartes">
+        ${b.aRevoir ? carteAction({ href: '#/revision', icone: 'revoir', couleur: 'var(--c-histoire)', titre: 'Révisions du jour', texte: `${b.aRevoir} question${b.aRevoir > 1 ? 's' : ''} à revoir maintenant` }) : ''}
+        ${carteAction({ href: '#/entrainement/tout', icone: 'des', couleur: 'var(--c-droits)', titre: 'Série adaptée', texte: `${SERIE_ENTRAINEMENT} questions choisies selon votre niveau` })}
+        ${sit.length ? carteAction({ href: '#/entrainement/situations', icone: 'boussole', couleur: 'var(--c-societe)', titre: 'Mises en situation', texte: 'Des cas concrets de la vie quotidienne', meta: `${NB_SITUATIONS} sur ${EXAMEN.nbQuestions} à l’examen` }) : ''}
+      </div>
+
+      <ul class="reperes" aria-label="Comment fonctionne l’entraînement">
+        <li>${pastille('valide', 'petite')}<span>Correction tout de suite</span></li>
+        <li>${pastille('revoir', 'petite')}<span>Les erreurs reviennent plus tard</span></li>
+        <li>${pastille('cible', 'petite')}<span>Questions adaptées à votre niveau</span></li>
+      </ul>
+
+      <h2 class="titre-section">Par thème</h2>
+      <div class="grille-themes">
+        ${THEMES.map((t) => {
+          const bt = bilan(qs.filter((q) => q.t === t.id));
+          return `<a class="tuile tuile-theme" href="#/entrainement/${t.id}" style="--c:${t.couleur}">
+            ${pastille(t.icone, 'petite')}
+            <strong>${t.court}</strong>
+            ${barre(bt.progression, t.court)}
+            <small>${bt.vues ? `${bt.vues}/${bt.total} vues` : `${bt.total} questions`}</small>
+          </a>`;
+        }).join('')}
+      </div>
+    </section>`, 'entrainement');
 }
 
 async function demarrerEntrainement(themeId, stId, titre, retour) {
