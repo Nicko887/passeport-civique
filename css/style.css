@@ -788,6 +788,44 @@ body { padding-bottom: calc(100px + env(safe-area-inset-bottom)); }
 .corr-explication p { margin: 8px 0 0; }
 .corr-explication .correction-liens { padding: 10px 0 0; }
 
+/* ===== Examen blanc ===== */
+
+.regles { display: grid; gap: 8px; margin-top: 14px; }
+.regles p { margin: 0; display: flex; gap: 10px; align-items: flex-start; font-size: .95rem; }
+.regles .ic { color: var(--c-principes); margin-top: .2em; }
+
+.grille-modules { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+@media (min-width: 560px) { .grille-modules { grid-template-columns: repeat(3, 1fr); } }
+.tuile-module { min-height: 0; cursor: pointer; font: inherit; text-align: left; justify-items: start; }
+.tuile-module .score-pf { min-width: 0; padding: 3px 10px; font-size: .85rem; margin-top: 4px; }
+
+/* Petit graphique : une seule couleur, ligne de seuil, valeur sur la dernière barre */
+.evolution { padding: 18px 16px 12px; }
+.evo-zone {
+  position: relative; height: 150px; display: flex; align-items: flex-end; gap: 2px;
+  padding-top: 22px; border-bottom: 1px solid var(--bord);
+}
+.evo-col { position: relative; flex: 1; height: 100%; display: flex; align-items: flex-end; justify-content: center; outline: none; }
+.evo-barre {
+  position: relative; width: min(28px, 70%); min-height: 4px;
+  background: var(--c-principes); border-radius: 4px 4px 0 0;
+}
+.evo-col:hover .evo-barre, .evo-col:focus-visible .evo-barre { filter: brightness(1.15); }
+.evo-valeur { position: absolute; top: 4px; left: 0; right: 0; text-align: center; font-weight: 800; font-size: .78rem; color: var(--surface); }
+.evo-bulle {
+  display: none; position: absolute; bottom: calc(100% + 26px); left: 50%; transform: translateX(-50%); z-index: 2;
+  white-space: nowrap; padding: 6px 10px; border-radius: 10px; font-size: .8rem;
+  background: var(--texte); color: var(--fond); box-shadow: 0 6px 16px rgba(0, 0, 0, .2);
+}
+.evo-col:hover .evo-bulle, .evo-col:focus-visible .evo-bulle { display: block; }
+.evo-seuil { position: absolute; left: 0; right: 0; height: 0; border-top: 2px dashed var(--texte-2); z-index: 1; pointer-events: none; }
+.evo-seuil span { position: absolute; left: 0; bottom: 4px; font-size: .75rem; font-weight: 700; color: var(--texte-2); background: var(--surface); padding: 0 4px; border-radius: 4px; }
+.evo-legende { display: flex; justify-content: space-between; margin-top: 8px; font-size: .8rem; color: var(--texte-2); }
+.evo-legende strong { color: var(--texte); }
+
+.ligne-historique { cursor: default; }
+.ligne-historique:hover { background: none; }
+
 /* ===== Points faibles et révision guidée ===== */
 
 .ligne-pf {

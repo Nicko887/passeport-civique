@@ -595,29 +595,78 @@ const dernierLancement = { fn: null, retour: '' };
 // ----- Examen blanc -----
 
 async function vueChoixExamen() {
-  const ex = store.getEtat().examens[parcoursCourant()];
+  const p = PARCOURS[parcoursCourant()];
+  const ex = store.getEtat().examens[p.id];
+  const complets = ex.filter((r) => r.type === 'complet');
+  const meilleur = complets.reduce((m, r) => Math.max(m, r.score), 0);
+  const derniers = complets.slice(-8);
+  const fmtDate = (d) => new Date(d).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
+
+  // Évolution des examens complets : une seule couleur, ligne de seuil, valeur affichée sur la dernière barre.
+  const graphique = derniers.length >= 2 ? `
+    <h2 class="titre-section">Mes examens complets</h2>
+    <div class="carte evolution">
+      <div class="evo-zone" role="img" aria-label="Scores des ${derniers.length} derniers examens complets, sur ${EXAMEN.nbQuestions}. Seuil de réussite : ${EXAMEN.seuil}.">
+        <span class="evo-seuil" style="bottom:${(EXAMEN.seuil / EXAMEN.nbQuestions) * 100}%"><span>${EXAMEN.seuil} pour réussir</span></span>
+        ${derniers.map((r, k) => `<span class="evo-col" tabindex="0" title="${fmtDate(r.date)} : ${r.score}/${r.total}">
+          <span class="evo-barre" style="height:${(r.score / r.total) * 100}%">
+            ${k === derniers.length - 1 ? `<span class="evo-valeur">${r.score}</span>` : ''}
+            <span class="evo-bulle">${fmtDate(r.date)} · <strong>${r.score}/${r.total}</strong></span>
+          </span></span>`).join('')}
+      </div>
+      <div class="evo-legende"><span>${fmtDate(derniers[0].date)}</span><span>Dernier : <strong>${derniers[derniers.length - 1].score}/${EXAMEN.nbQuestions}</strong></span></div>
+      <ul class="visuellement-cache">${derniers.map((r) => `<li>${fmtDate(r.date)} : ${r.score} sur ${r.total}${r.score >= EXAMEN.seuil ? ', réussi' : ''}</li>`).join('')}</ul>
+    </div>` : '';
+
   afficher(`
-    ${entete('Examen blanc')}
-    <div class="carte info-exam">
-      <h2>Comme le jour de l’examen</h2>
-      <ul>
-        <li><strong>${EXAMEN.nbQuestions} questions</strong> sur les 5 thèmes, dont <strong>${NB_SITUATIONS} mises en situation</strong></li>
-        <li><strong>${EXAMEN.dureeMinutes} minutes</strong> maximum</li>
-        <li>Il faut <strong>${EXAMEN.seuil} bonnes réponses</strong> (80 %) pour réussir</li>
-        <li>La correction s’affiche à la fin</li>
-      </ul>
-    </div>
-    ${carteAction({ action: 'examen', attrs: 'data-type="complet"', icone: 'chrono', couleur: 'var(--c-principes)', titre: 'Lancer l’examen complet', texte: 'Comme le jour de l’examen', meta: `${EXAMEN.nbQuestions} questions · ${EXAMEN.dureeMinutes} minutes` })}
-    <h2 class="titre-section">Examen par module</h2>
-    <p class="intro-page">${EXAMEN_MODULE.nbQuestions} questions sur un seul thème, au même rythme que l’examen.</p>
-    <div class="liste-themes">
-      ${THEMES.map((t) => `<button class="ligne-theme" data-action="examen" data-type="${t.id}" style="--c:${t.couleur}">
-        ${pastille(t.icone, 'petite')}<span class="lt-texte"><strong>${t.court}</strong>
-        <small>${dernierScore(ex, t.id)}</small></span><span class="chevron">${ic('chevron')}</span></button>`).join('')}
-    </div>
-    ${ex.length ? `<h2 class="titre-section">Historique</h2><div class="carte"><ol class="historique">${ex.slice(-8).reverse().map((r) => `
-      <li><span>${new Date(r.date).toLocaleDateString('fr-FR')} · ${r.type === 'complet' ? 'Examen complet' : e(themeById(r.type)?.court || '')}</span>
-      <strong class="${r.reussi ? 'ok' : 'ko'}">${r.score}/${r.total}</strong></li>`).join('')}</ol></div>` : ''}`, 'examen');
+    <section>
+      <div class="hero">
+        <p class="hero-marque">${ic('chrono', 'ic ic-texte')} Examen blanc · ${e(p.court)}</p>
+        <h1>Comme le jour de l’examen</h1>
+        <p class="hero-texte">${complets.length ? `Meilleur score : <strong>${meilleur}/${EXAMEN.nbQuestions}</strong>${meilleur >= EXAMEN.seuil ? ' · seuil atteint' : ` · encore ${EXAMEN.seuil - meilleur} pour le seuil`}` : 'Entraînez-vous dans les conditions réelles, chronomètre compris.'}</p>
+        <div class="stats">
+          <div class="stat"><strong>${EXAMEN.nbQuestions}</strong><small>questions</small></div>
+          <div class="stat"><strong>${EXAMEN.dureeMinutes} min</strong><small>au maximum</small></div>
+          <div class="stat"><strong>${EXAMEN.seuil}</strong><small>pour réussir</small></div>
+        </div>
+      </div>
+
+      <div class="chevauche pile-cartes">
+        ${carteAction({ action: 'examen', attrs: 'data-type="complet"', icone: 'chrono', couleur: 'var(--c-principes)', titre: 'Lancer l’examen complet', texte: `Les 5 thèmes, dont ${NB_SITUATIONS} mises en situation`, meta: `${EXAMEN.nbQuestions} questions · ${EXAMEN.dureeMinutes} minutes` })}
+      </div>
+
+      <div class="carte regles">
+        <p>${ic('retour', 'ic ic-texte')} Vous pouvez revenir aux questions précédentes et changer vos réponses.</p>
+        <p>${ic('valide', 'ic ic-texte')} La correction complète s’affiche à la fin.</p>
+        <p>${ic('chrono', 'ic ic-texte')} À la fin du temps, l’examen se termine tout seul.</p>
+      </div>
+
+      ${graphique}
+
+      <h2 class="titre-section">Examen par module</h2>
+      <p class="intro-page">${EXAMEN_MODULE.nbQuestions} questions sur un seul thème, au même rythme que l’examen.</p>
+      <div class="grille-modules">
+        ${THEMES.map((t) => {
+          const r = [...ex].reverse().find((x) => x.type === t.id);
+          return `<button class="tuile tuile-module" data-action="examen" data-type="${t.id}" style="--c:${t.couleur}">
+            ${pastille(t.icone, 'petite')}<strong>${t.court}</strong>
+            ${r ? `<span class="score-pf ${r.score / r.total >= 0.8 ? 'ok' : r.score / r.total >= 0.5 ? 'moyen' : 'ko'}">${r.score}/${r.total}</span>` : '<small>Pas encore passé</small>'}
+          </button>`;
+        }).join('')}
+      </div>
+
+      ${ex.length ? `<h2 class="titre-section">Historique</h2>
+      <div class="groupe-lignes historique-examens">
+        ${ex.slice(-8).reverse().map((r) => {
+          const t = r.type === 'complet' ? null : themeById(r.type);
+          return `<div class="ligne-reglage ligne-historique" style="--c:${t ? t.couleur : 'var(--c-principes)'}">
+            ${pastille(t ? t.icone : 'chrono', 'petite')}
+            <span class="lt-texte"><strong>${t ? e(t.court) : 'Examen complet'}</strong><small>${new Date(r.date).toLocaleDateString('fr-FR')} · ${r.reussi ? 'réussi' : 'pas encore réussi'}</small></span>
+            <span class="score-pf ${r.reussi ? 'ok' : 'ko'}">${r.score}/${r.total}</span>
+          </div>`;
+        }).join('')}
+      </div>` : ''}
+    </section>`, 'examen');
 }
 
 function dernierScore(ex, type) {
