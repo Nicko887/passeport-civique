@@ -43,7 +43,7 @@ Application web **gratuite, open source, sans inscription** pour préparer l'exa
 - histoire 8 (périodes et personnages 3, territoires et géographie 3, patrimoine 2) ;
 - société 4 (s'installer 1, soins 1, travail 1, autorité parentale et école 1).
 
-`EXAMEN.situations` dans `config.js` ; `tirerExamen` et `tirerModule` dans `data.js` respectent cette proportion. L'article 2 fixe le seuil de 80 % pour la mention naturalisation ; le seuil des autres mentions n'a pas été vérifié (l'appli applique 32/40 partout).
+`EXAMEN.situations` dans `config.js` ; `tirerExamen` et `tirerModule` dans `data.js` respectent cette proportion. **Seuil vérifié le 23/11/2026 : 32/40 pour toutes les mentions.** Naturalisation : arrêté du 10 octobre 2025, art. 2 (80 %). Carte pluriannuelle et carte de résident : dépliant officiel du ministère de l'Intérieur (https://www.immigration.interieur.gouv.fr/sites/dgef/files/medias/documents/2026-06/Flyer_A5_Examen_civique_Sejour_nov2025_Accessible.pdf) : « 32 bonnes réponses minimum pour réussir l'examen ». Le même dépliant indique des « niveaux de difficulté différents » selon le titre (CSP ou CR), sans détail.
 
 ## État au 23/11/2026
 

@@ -100,6 +100,8 @@ export const THEMES = [
 export const themeById = (id) => THEMES.find((t) => t.id === id);
 
 // Format officiel : 40 questions, 45 minutes, 32 bonnes réponses (80 %) pour réussir.
+// Seuil : arrêté du 10 octobre 2025, art. 2 (naturalisation) ; dépliant du ministère de l'Intérieur
+// « Examen civique – séjour » (nov. 2025) : « 32 bonnes réponses minimum » pour la carte pluriannuelle et la carte de résident.
 // Répartition par thème selon l'article 3 de l'arrêté du 10 octobre 2025 (Légifrance, JORFTEXT000052381620),
 // identique pour toutes les mentions. Les 12 mises en situation sont comprises dans les totaux des thèmes.
 export const EXAMEN = {
