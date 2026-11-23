@@ -1044,6 +1044,11 @@ main { max-width: 560px; padding-top: var(--haut); }
 .tuile-theme .barre { width: 100%; margin: 2px 0 0; height: 6px; }
 .tuile-theme small { font-weight: 600; }
 
+/* Liste des cours : lignes compactes avec progression */
+.ligne-cours .lt-texte { gap: 2px; }
+.ligne-cours strong { line-height: 1.3; }
+.ligne-cours .barre { height: 5px; margin: 6px 0 0; }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 
