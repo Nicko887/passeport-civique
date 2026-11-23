@@ -33,10 +33,10 @@ function entete(titre, retour = '#/') {
 }
 
 /** Grande carte d'action : bande de couleur, pastille, textes et bouton rond. */
-function carteAction({ href, action, attrs = '', icone, titre, texte, meta, couleur, bouton = 'jouer' }) {
+function carteAction({ href, action, attrs = '', icone, titre, texte, meta, couleur, bouton = 'jouer', barreVal }) {
   const contenu = `
     ${pastille(icone)}
-    <span class="ca-texte"><strong>${titre}</strong>${texte ? `<small>${texte}</small>` : ''}${meta ? `<span class="ca-meta">${meta}</span>` : ''}</span>
+    <span class="ca-texte"><strong>${titre}</strong>${texte ? `<small>${texte}</small>` : ''}${meta ? `<span class="ca-meta">${meta}</span>` : ''}${barreVal !== undefined ? barre(barreVal, titre) : ''}</span>
     <span class="rond-action">${ic(bouton)}</span>`;
   const style = couleur ? ` style="--c:${couleur}"` : '';
   return action
@@ -188,20 +188,37 @@ async function vueTheme(themeId) {
 
 // ----- Cours -----
 
+// Durée de lecture estimée : environ 130 mots par minute pour un lecteur de niveau A2/B1.
+const MOTS_PAR_MINUTE = 130;
+const compterMots = (texte) => (texte.match(/\S+/g) || []).length;
+function dureeLecture(c) {
+  const mots = compterMots(c.intro.texte) + c.sections.filter((s) => s.id !== 'sources').reduce((n, s) => n + compterMots(s.texte), 0);
+  return Math.max(1, Math.round(mots / MOTS_PAR_MINUTE));
+}
+
 async function vueListeCours() {
   const qs = await questions();
+  const cours = await Promise.all(THEMES.map(async (t) => {
+    const md = await chargerCours(t.id);
+    return md ? lireCours(md) : null;
+  }));
   afficher(`
     ${entete('Cours')}
-    <p class="intro-page">Chaque cours correspond à un thème de l’examen. Vous pouvez le lire ou l’écouter.</p>
-    <div class="liste-themes">
-      ${THEMES.map((t) => {
+    <p class="intro-page">Un cours par thème de l’examen, en français simple. Lisez-les ou écoutez-les comme un podcast.</p>
+    <div class="pile-cartes">
+      ${THEMES.map((t, i) => {
+        const c = cours[i];
         const bt = bilan(qs.filter((q) => q.t === t.id));
-        return `<a class="ligne-theme" href="#/cours/${t.id}" style="--c:${t.couleur}">
-          ${pastille(t.icone, 'petite')}
-          <span class="lt-texte"><strong>${t.titre}</strong>${barre(bt.progression, t.court)}<small>${Object.keys(t.sousThemes).length} parties</small></span>
-          <span class="chevron">${ic('chevron')}</span></a>`;
+        const parties = c ? c.sections.filter((s) => s.id !== 'sources').length : 0;
+        return carteAction({
+          href: `#/cours/${t.id}`, icone: t.icone, couleur: t.couleur, titre: t.titre, bouton: 'chevron',
+          meta: c ? `${parties} parties · ${dureeLecture(c)} min` : 'Bientôt disponible',
+          barreVal: bt.progression,
+        });
       }).join('')}
-    </div>`, 'cours');
+    </div>
+    ${audio.audioDisponible ? `<h2 class="titre-section">Plutôt écouter ?</h2>
+    ${carteAction({ href: '#/ecouter', icone: 'casque', couleur: 'var(--c-institutions)', titre: 'Écouter les cours', texte: 'Comme un podcast : dans les transports, en cuisinant…' })}` : ''}`, 'cours');
 }
 
 async function vueCours(themeId, sectionId) {
@@ -213,28 +230,64 @@ async function vueCours(themeId, sectionId) {
     return;
   }
   const c = lireCours(md);
-  const pistes = c.sections.filter((s) => s.id !== 'sources').map((s) => ({ titre: s.titre, texte: s.texte, id: s.id }));
+  const parties = c.sections.filter((s) => s.id !== 'sources');
+  const sources = c.sections.find((s) => s.id === 'sources');
+  const iTheme = THEMES.findIndex((x) => x.id === t.id);
+  const suivant = THEMES[(iTheme + 1) % THEMES.length];
+
   afficher(`
-    ${entete(t.icone + ' ' + t.court, '#/cours')}
-    <article class="cours" style="--c:${t.couleur}">
-      <h2 class="titre-cours">${e(c.titre || t.titre)}</h2>
-      ${c.intro.html}
-      ${audio.audioDisponible ? `<button class="bouton" data-action="ecouter-cours" data-theme="${t.id}">${ic('casque')} Écouter tout le cours</button>` : ''}
-      <nav class="sommaire" aria-label="Sommaire">
-        ${c.sections.map((s) => `<a href="#/cours/${t.id}/${s.id}">${e(s.titre)}</a>`).join('')}
+    <div class="barre-lecture" aria-hidden="true"><span id="progression-lecture"></span></div>
+    <div class="hero hero-cours" style="--c:${t.couleur}">
+      <div class="hero-haut">
+        <a class="retour retour-hero" href="#/cours" aria-label="Retour à la liste des cours">${ic('retour')}</a>
+        <span class="hero-marque">${ic(t.icone, 'ic ic-texte')} Cours · thème ${iTheme + 1} sur ${THEMES.length}</span>
+      </div>
+      <h1>${e(c.titre || t.titre)}</h1>
+      <p class="hero-texte">${parties.length} parties · ${dureeLecture(c)} min de lecture</p>
+      ${audio.audioDisponible ? `<button class="bouton bouton-clair" data-action="ecouter-cours" data-theme="${t.id}">${ic('casque')} Écouter tout le cours</button>` : ''}
+    </div>
+
+    <article class="cours chevauche" style="--c:${t.couleur}">
+      <div class="carte intro-cours">${c.intro.html}</div>
+
+      <nav class="carte sommaire" aria-label="Sommaire du cours">
+        <h2>Sommaire</h2>
+        <ol>
+          ${parties.map((s, i) => `<li><a href="#/cours/${t.id}/${s.id}"><span class="num">${i + 1}</span><span class="sommaire-titre">${e(s.titre)}</span>${ic('chevron')}</a></li>`).join('')}
+        </ol>
       </nav>
-      ${c.sections.map((s, i) => `
-        <section class="section-cours" id="sec-${s.id}">
-          <h2>${e(s.titre)}</h2>
+
+      ${parties.map((s, i) => `
+        <section class="carte section-cours" id="sec-${s.id}" aria-labelledby="titre-${s.id}">
+          <p class="section-num"><span class="num">${i + 1}</span> Partie ${i + 1} sur ${parties.length}</p>
+          <h2 id="titre-${s.id}">${e(s.titre)}</h2>
           ${s.html}
-          ${s.id !== 'sources' ? `<div class="actions-section">
-            ${audio.audioDisponible ? `<button class="bouton petit secondaire" data-action="ecouter-cours" data-theme="${t.id}" data-index="${pistes.findIndex((p) => p.id === s.id)}">${ic('casque')} Écouter</button>` : ''}
-            <a class="bouton petit" href="#/revision/${t.id}/${s.id}">${ic('crayon')} S’entraîner sur cette partie</a>
-          </div>` : ''}
+          <div class="actions-section">
+            ${audio.audioDisponible ? `<button class="bouton secondaire" data-action="ecouter-cours" data-theme="${t.id}" data-index="${i}">${ic('casque')} Écouter</button>` : ''}
+            <a class="bouton" href="#/revision/${t.id}/${s.id}">${ic('crayon')} S’entraîner</a>
+          </div>
         </section>`).join('')}
+
+      ${sources ? `<details class="carte sources-cours"><summary>${ic('droits', 'ic ic-texte')} Sources de ce cours</summary>${sources.html}</details>` : ''}
+
+      <h2 class="titre-section">Et ensuite ?</h2>
+      <div class="pile-cartes">
+        ${carteAction({ href: `#/entrainement/${t.id}`, icone: 'crayon', couleur: t.couleur, titre: 'Vérifier ce que j’ai retenu', texte: `${SERIE_ENTRAINEMENT} questions sur ce thème` })}
+        ${carteAction({ href: `#/cours/${suivant.id}`, icone: suivant.icone, couleur: suivant.couleur, titre: `Cours suivant : ${suivant.court}`, texte: suivant.titre, bouton: 'chevron' })}
+      </div>
     </article>`, 'cours');
+  majProgressionLecture();
   if (sectionId) document.getElementById('sec-' + sectionId)?.scrollIntoView({ block: 'start' });
 }
+
+/** Barre fine en haut de l'écran : avancement de la lecture du cours. */
+function majProgressionLecture() {
+  const el = document.getElementById('progression-lecture');
+  if (!el) return;
+  const max = document.documentElement.scrollHeight - window.innerHeight;
+  el.style.width = `${max > 0 ? Math.min(100, (window.scrollY / max) * 100) : 0}%`;
+}
+window.addEventListener('scroll', majProgressionLecture, { passive: true });
 
 // ----- Écoute (podcast) -----
 
@@ -253,14 +306,17 @@ async function vueEcouter() {
   const blocs = [];
   for (const t of THEMES) blocs.push({ t, pistes: await pistesTheme(t.id) });
   afficher(`
-    ${entete('Écouter les cours')}
+    ${entete('Écouter les cours', '#/cours')}
     <p class="intro-page">Écoutez les cours comme un podcast : dans les transports, en cuisinant… Choisissez un thème ou une partie.</p>
     <div id="lecteur"></div>
     ${blocs.map(({ t, pistes }) => `
       <div class="carte bloc-ecoute" style="--c:${t.couleur}">
-        <div class="bloc-ecoute-tete"><h2>${ic(t.icone, 'ic ic-texte')} ${t.court}</h2>
-          ${pistes.length ? `<button class="bouton petit" data-action="ecouter-cours" data-theme="${t.id}">${ic('jouer')} Tout écouter</button>` : '<small>Bientôt disponible</small>'}</div>
-        <ol class="pistes">${pistes.map((p, i) => `<li><button class="piste" data-action="ecouter-cours" data-theme="${t.id}" data-index="${i}">${ic('jouer', 'ic ic-texte')} ${e(p.titre)}</button></li>`).join('')}</ol>
+        <div class="bloc-ecoute-tete">
+          ${pastille(t.icone, 'petite')}
+          <span class="lt-texte"><strong>${t.court}</strong><small>${pistes.length ? `${pistes.length} parties` : 'Bientôt disponible'}</small></span>
+          ${pistes.length ? `<button class="rond-action" data-action="ecouter-cours" data-theme="${t.id}" aria-label="Écouter tout le cours ${e(t.court)}">${ic('jouer')}</button>` : ''}
+        </div>
+        <ol class="pistes">${pistes.map((p, i) => `<li><button class="piste" data-action="ecouter-cours" data-theme="${t.id}" data-index="${i}"><span class="num">${i + 1}</span><span class="piste-titre">${e(p.titre)}</span>${ic('jouer', 'ic ic-piste')}</button></li>`).join('')}</ol>
       </div>`).join('')}`, 'ecouter');
   majLecteur(audio.etatAudio());
 }

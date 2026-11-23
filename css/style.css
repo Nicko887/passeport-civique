@@ -540,6 +540,96 @@ body { padding-bottom: calc(100px + env(safe-area-inset-bottom)); }
 .nav-bas a .ic { width: 24px; height: 24px; }
 .lecteur { bottom: calc(96px + env(safe-area-inset-bottom)); }
 
+/* ===== Écrans de cours ===== */
+
+.carte-action .barre { margin: 8px 0 0; height: 6px; }
+
+/* Barre de progression de lecture, en haut de l'écran */
+.barre-lecture { position: fixed; top: 0; left: 0; right: 0; height: 4px; z-index: 60; background: transparent; }
+.barre-lecture span { display: block; height: 100%; width: 0; background: var(--c-histoire); border-radius: 0 4px 4px 0; transition: width .1s linear; }
+
+/* Bandeau du cours, à la couleur du thème (assez foncé pour le texte blanc, en clair comme en sombre) */
+.hero-cours {
+  padding-bottom: 84px;
+  background:
+    radial-gradient(circle at 92% 8%, rgba(255, 255, 255, .14) 0 70px, transparent 71px),
+    radial-gradient(circle at 108% 85%, rgba(255, 255, 255, .08) 0 120px, transparent 121px),
+    linear-gradient(155deg, color-mix(in srgb, var(--c) 55%, #0b1230) 0%, color-mix(in srgb, var(--c) 82%, #0b1230) 100%);
+}
+.hero-haut { display: flex; align-items: center; gap: 12px; }
+.retour-hero { background: rgba(255, 255, 255, .16); border-color: rgba(255, 255, 255, .25); color: #fff; }
+.hero-cours h1 { font-size: 1.85rem; margin-top: 18px; }
+.hero-cours .hero-texte { margin-bottom: 16px; }
+.bouton-clair { background: #fff; color: #172a6e; }
+.bouton-clair:hover { filter: brightness(.96); }
+
+/* Contenu du cours : cartes successives */
+.cours .carte { padding: 20px; }
+.intro-cours p:last-child { margin: 0; }
+.cours p, .cours li { font-size: 1.02rem; line-height: 1.65; }
+.cours h3 {
+  margin: 1.4em 0 .5em; font-size: 1.08rem; font-weight: 750;
+  padding-left: 12px; border-left: 4px solid var(--c);
+}
+.cours ul { padding-left: 1.3em; }
+.cours li::marker { color: var(--c); }
+.cours strong { font-weight: 700; }
+.cours a.lien-externe { color: var(--primaire); text-decoration-color: color-mix(in srgb, var(--primaire) 45%, transparent); }
+
+.num {
+  flex: none; display: inline-grid; place-items: center;
+  width: 30px; height: 30px; border-radius: 10px;
+  background: color-mix(in srgb, var(--c, var(--primaire)) 14%, var(--surface));
+  color: var(--c, var(--primaire)); font-weight: 800; font-size: .9rem;
+}
+
+/* Sommaire numéroté */
+.sommaire { display: block; margin: 0 0 14px; }
+.sommaire h2 { font-size: 1.1rem; margin-bottom: 8px; }
+.sommaire ol { list-style: none; margin: 0; padding: 0; }
+.sommaire li + li { border-top: 1px solid var(--bord); }
+.sommaire a {
+  display: flex; align-items: center; gap: 12px; padding: 11px 2px;
+  border: 0; border-radius: 0; background: none; font-size: 1rem;
+  color: var(--texte); text-decoration: none;
+}
+.sommaire a:hover .sommaire-titre { color: var(--c); }
+.sommaire-titre { flex: 1; font-weight: 600; line-height: 1.35; }
+.sommaire a > .ic { width: 18px; height: 18px; color: var(--texte-2); }
+
+/* Parties du cours */
+.section-cours { border-top: 0; padding-top: 20px; scroll-margin-top: 16px; }
+.section-num { display: flex; align-items: center; gap: 10px; margin: 0 0 10px; font-size: .85rem; font-weight: 700; color: var(--texte-2); text-transform: uppercase; letter-spacing: .04em; }
+.section-cours > h2 { font-size: 1.35rem; font-weight: 800; margin: 0 0 .6em; }
+.cours h2 { margin-top: 0; }
+.actions-section { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 20px 0 0; padding-top: 16px; border-top: 1px solid var(--bord); }
+.actions-section .bouton { min-height: 48px; }
+.actions-section .bouton:only-child { grid-column: 1 / -1; }
+
+/* Encadré « À retenir » */
+.a-retenir {
+  position: relative; margin: 18px 0; padding: 14px 16px 14px 18px;
+  border: 1px solid color-mix(in srgb, var(--c) 30%, var(--bord)); border-left: 5px solid var(--c);
+  border-radius: 14px; background: color-mix(in srgb, var(--c) 9%, var(--surface));
+}
+.a-retenir-titre { display: flex; align-items: center; gap: 6px; margin: 0 0 6px !important; font-weight: 800; color: var(--c); font-size: .95rem; text-transform: uppercase; letter-spacing: .04em; }
+
+/* Sources repliées */
+.sources-cours summary { cursor: pointer; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+.sources-cours ul { margin-top: 12px; }
+.sources-cours li { font-size: .9rem; }
+
+/* Écouter : blocs par thème, pistes numérotées */
+.bloc-ecoute { border-left: 1px solid var(--bord); padding: 16px; }
+.bloc-ecoute-tete { display: flex; align-items: center; gap: 12px; flex-wrap: nowrap; }
+.bloc-ecoute-tete .rond-action { border: 0; cursor: pointer; }
+.pistes { margin: 12px 0 0; }
+.piste { gap: 12px; padding: 10px 2px; font-size: .98rem; color: var(--texte); }
+.piste:last-child { border-bottom: 0; }
+.piste-titre { flex: 1; }
+.ic-piste { width: 18px; height: 18px; color: var(--c); }
+.pistes li:last-child .piste { border-bottom: 0; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }

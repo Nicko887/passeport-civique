@@ -2,6 +2,7 @@
 // Retourne { titre, intro, sections: [{ id, titre, html, texte }] }.
 // Liens : [texte](https://…), seulement vers les sites de SITES_SURS (sinon le texte seul est affiché).
 import { lienSur } from './config.js';
+import { ic } from './icones.js';
 
 export const echapper = (s) =>
   String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -50,7 +51,12 @@ function blocsEnHtml(lignes) {
   };
   const fermerEncadre = () => {
     if (encadre) {
-      html += `<aside class="a-retenir">${encadre.map((l) => `<p>${enLigne(l)}</p>`).join('')}</aside>`;
+      // « > **À retenir :** … » devient un encadré avec une étiquette.
+      const RE_ETIQUETTE = /^\*\*À retenir\s*:\*\*\s*/;
+      const avecEtiquette = RE_ETIQUETTE.test(encadre[0]);
+      const majuscule = (t) => t.charAt(0).toLocaleUpperCase('fr') + t.slice(1);
+      const lignes = avecEtiquette ? [majuscule(encadre[0].replace(RE_ETIQUETTE, '')), ...encadre.slice(1)] : encadre;
+      html += `<aside class="a-retenir">${avecEtiquette ? `<p class="a-retenir-titre">${ic('ampoule', 'ic ic-texte')} À retenir</p>` : ''}${lignes.filter((l) => l.trim()).map((l) => `<p>${enLigne(l)}</p>`).join('')}</aside>`;
       texte.push(...encadre.map(sansMarques));
       encadre = null;
     }
