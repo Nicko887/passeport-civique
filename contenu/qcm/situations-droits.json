@@ -135,17 +135,17 @@
   },
   {
     "src_id": 58,
-    "question": "Un père qui a un fils et une fille dit que seul son fils héritera de sa maison. Que dit la loi ?",
-    "bonne_reponse": "Les enfants héritent de la même façon, filles et garçons",
+    "question": "Un homme veuf meurt sans testament. Il laisse un fils et une fille. Comment l'héritage est-il partagé ?",
+    "bonne_reponse": "À parts égales entre le fils et la fille",
     "distracteurs": [
-      "Le fils aîné hérite toujours de la maison",
-      "Les filles reçoivent la moitié de la part des garçons",
-      "Le père choisit librement, sans aucune règle"
+      "Le fils reçoit la plus grande part",
+      "Le fils aîné reçoit la maison",
+      "La fille reçoit la moitié de la part du fils"
     ],
-    "explication": "En France, les enfants héritent sans distinction de sexe. La loi protège une part minimale pour chaque enfant (la réserve héréditaire) : un parent ne peut pas déshériter totalement l'un de ses enfants.",
+    "explication": "Sans testament, les enfants héritent à parts égales, sans distinction de sexe ni d'âge. Même avec un testament, chaque enfant garde une part minimale protégée : la réserve héréditaire.",
     "sous_theme": "famille",
     "difficulte": 2,
-    "source": "Code civil, art. 735 et 913",
+    "source": "Code civil, art. 735, 912 et 913",
     "a_verifier": false,
     "note": ""
   },
@@ -226,7 +226,7 @@
   },
   {
     "src_id": 63,
-    "question": "Vous découvrez qu'un collègue homme gagne plus que vous pour exactement le même travail. Que dit la loi ?",
+    "question": "Un collègue homme, avec la même expérience que vous, gagne plus pour le même travail. Que dit la loi ?",
     "bonne_reponse": "L'employeur doit payer le même salaire pour le même travail",
     "distracteurs": [
       "L'employeur peut payer les hommes plus s'il le veut",
@@ -240,7 +240,7 @@
     ],
     "sous_theme": "egalite_fh",
     "difficulte": 1,
-    "source": "Code du travail, art. L3221-2",
+    "source": "Code du travail, art. L3221-2 et L3221-4",
     "a_verifier": false,
     "note": ""
   },
@@ -265,7 +265,7 @@
   },
   {
     "src_id": 65,
-    "question": "Dans la rue, un homme suit une femme et lui fait des remarques sexuelles insistantes. Que dit la loi ?",
+    "question": "Dans la rue, un inconnu fait à une femme une remarque sexuelle humiliante. Que dit la loi ?",
     "bonne_reponse": "C'est un outrage sexiste, puni d'une amende",
     "distracteurs": [
       "C'est permis tant qu'il ne la touche pas",
@@ -312,7 +312,7 @@
     ],
     "explication": "Chacun des époux peut demander le divorce, même si l'autre n'est pas d'accord. C'est le juge aux affaires familiales qui prononce alors le divorce.",
     "liens": [
-      {"titre": "Le divorce par consentement mutuel (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10567"}
+      {"titre": "Le divorce devant le juge (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35837"}
     ],
     "sous_theme": "egalite_fh",
     "difficulte": 1,
@@ -361,16 +361,16 @@
   {
     "src_id": 70,
     "question": "Un employeur vous propose de travailler « au noir », sans contrat ni déclaration. Que faut-il savoir ?",
-    "bonne_reponse": "C'est illégal et vous n'êtes pas protégé",
+    "bonne_reponse": "C'est illégal et vous perdez des droits",
     "distracteurs": [
       "C'est légal si vous êtes d'accord tous les deux",
       "C'est légal pour un travail de moins de 6 mois",
       "C'est légal si le salaire est payé en espèces"
     ],
-    "explication": "Le travail non déclaré (travail dissimulé) est interdit. Le salarié n'est pas protégé : pas de cotisations pour la retraite, pas d'assurance chômage, pas de protection en cas d'accident du travail.",
+    "explication": "Le travail non déclaré (travail dissimulé) est interdit. Vous risquez de perdre des droits : pas de cotisations pour la retraite ni pour le chômage, et il est difficile de prouver votre travail. Vous pouvez demander de l'aide à l'inspection du travail ou aux prud'hommes.",
     "sous_theme": "travail",
     "difficulte": 1,
-    "source": "Code du travail, art. L8221-1",
+    "source": "Code du travail, art. L8221-1 et L8223-1",
     "a_verifier": false,
     "note": ""
   },
@@ -383,7 +383,7 @@
       "Oui, si vous avez signé un contrat qui prévoit ce salaire",
       "Oui, pendant les deux premières années"
     ],
-    "explication": "Le SMIC (salaire minimum interprofessionnel de croissance) est le salaire horaire minimum en France. Un salarié majeur ne peut pas être payé moins, quelle que soit sa nationalité.",
+    "explication": "Le SMIC est le salaire horaire minimum en France. Un adulte ne peut pas être payé moins, quelle que soit sa nationalité. Seuls certains contrats pour les jeunes (apprentissage, par exemple) font exception.",
     "liens": [
       {"titre": "Le Smic (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300"}
     ],
@@ -442,7 +442,7 @@
     ],
     "explication": "En cas d'accident du travail, le salarié doit informer son employeur dans la journée ou au plus tard dans les 24 heures. L'employeur doit ensuite le déclarer à la CPAM. Le salarié est alors mieux protégé.",
     "liens": [
-      {"titre": "L'accident du travail (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F178"}
+      {"titre": "Accident du travail : les démarches (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F171"}
     ],
     "sous_theme": "travail",
     "difficulte": 2,
@@ -586,7 +586,7 @@
     "bonne_reponse": "Demander son retrait : c'est votre droit à l'image",
     "distracteurs": [
       "Rien : une photo publiée appartient à tout le monde",
-      "Rien, si la photo est jolie",
+      "Rien, si cette personne est un ami ou un parent",
       "Payer le site internet pour qu'il la supprime"
     ],
     "explication": "Chacun a droit au respect de sa vie privée et de son image. Vous pouvez demander le retrait de la photo à la personne et au site. Sinon, vous pouvez saisir la justice.",
@@ -608,10 +608,10 @@
       "Oui, s'il a gardé une clé",
       "Oui, une fois par mois pour vérifier"
     ],
-    "explication": "Le domicile est protégé par la loi, même pour un locataire. Le propriétaire ne peut pas entrer sans votre accord. La violation de domicile est un délit.",
+    "explication": "Le domicile est protégé par la loi, même pour un locataire. Le propriétaire doit vous laisser profiter du logement en paix : il ne peut pas entrer sans votre accord.",
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
-    "source": "Code pénal, art. 226-4",
+    "source": "Loi n° 89-462 du 6 juillet 1989, art. 6 ; Code civil, art. 1719",
     "a_verifier": false,
     "note": ""
   },
@@ -640,9 +640,9 @@
     "question": "Vous pensez qu'un policier a eu un comportement abusif envers vous. À qui pouvez-vous vous adresser ?",
     "bonne_reponse": "Au Défenseur des droits",
     "distracteurs": [
-      "Au maire de votre commune",
+      "Au conseil de prud'hommes",
       "À votre employeur",
-      "À votre banque"
+      "À la caisse d'allocations familiales (CAF)"
     ],
     "explication": "Le Défenseur des droits contrôle le respect de la déontologie par les forces de sécurité (police, gendarmerie, etc.). Vous pouvez aussi porter plainte ou faire un signalement à l'inspection de la police (IGPN) ou de la gendarmerie (IGGN).",
     "liens": [
@@ -659,9 +659,9 @@
     "question": "Vous êtes témoin d'un accident de la route. Une personne est blessée. Que faites-vous ?",
     "bonne_reponse": "J'appelle les secours (15, 18 ou 112)",
     "distracteurs": [
-      "Je pars : ce n'est pas mon problème",
-      "Je déplace tout de suite le blessé chez moi",
-      "Je prends seulement une photo pour les réseaux sociaux"
+      "J'attends qu'un autre témoin appelle les secours",
+      "Je déplace vite le blessé sur le trottoir",
+      "Je pars si je ne connais pas la victime"
     ],
     "explication": "Il faut alerter les secours : le 15 (SAMU), le 18 (pompiers) ou le 112 (numéro d'urgence européen). Ne pas aider une personne en danger, alors qu'on peut le faire sans risque, est un délit.",
     "liens": [
@@ -676,7 +676,7 @@
   },
   {
     "src_id": 87,
-    "question": "Vous recevez une lettre : vous êtes tiré au sort pour être juré à la cour d'assises. Que devez-vous faire ?",
+    "question": "Vous êtes devenu Français. Vous recevez une lettre : vous êtes tiré au sort pour être juré à la cour d'assises. Que devez-vous faire ?",
     "bonne_reponse": "Y participer, sauf motif grave accepté par la justice",
     "distracteurs": [
       "Refuser librement, sans donner de raison",
@@ -686,7 +686,7 @@
     "explication": "Être juré est un devoir citoyen pour les Français. Un juré absent sans motif valable peut recevoir une amende de 3 750 €.",
     "liens": [
       {"titre": "Juré d'assises (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1540"},
-      {"titre": "Peut-on refuser d'être juré ? (justice.fr)", "url": "https://www.justice.fr/fiche/jure-assises"}
+      {"titre": "Juré d'assises (justice.fr)", "url": "https://www.justice.fr/fiche/jure-assises"}
     ],
     "sous_theme": "devoirs",
     "difficulte": 2,
@@ -722,7 +722,7 @@
       "Non, c'est seulement conseillé",
       "Oui, mais seulement si vous avez des enfants"
     ],
-    "explication": "Le locataire d'un logement vide doit s'assurer contre les risques locatifs (incendie, dégât des eaux, explosion) et en donner la preuve au propriétaire chaque année.",
+    "explication": "Le locataire doit s'assurer contre les risques locatifs (incendie, dégât des eaux, explosion). Il donne l'attestation au propriétaire à la remise des clés, puis chaque année s'il la demande.",
     "liens": [
       {"titre": "L'assurance habitation du locataire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31300"}
     ],
@@ -773,10 +773,10 @@
       "Garder l'argent et jeter le portefeuille",
       "Le donner à une association caritative"
     ],
-    "explication": "Un objet perdu appartient toujours à son propriétaire. Il faut le rapporter au service des objets trouvés (souvent à la mairie) ou au commissariat. Garder un objet trouvé peut être puni.",
+    "explication": "Un objet perdu appartient encore à son propriétaire. Il faut le rapporter au service des objets trouvés (souvent à la mairie) ou au commissariat. Garder l'argent peut être puni comme un vol.",
     "sous_theme": "devoirs",
     "difficulte": 1,
-    "source": "service-public.fr : objets trouvés",
+    "source": "Code civil, art. 2276 ; Code pénal, art. 311-1",
     "a_verifier": false,
     "note": ""
   },
@@ -786,7 +786,7 @@
     "bonne_reponse": "Je porte plainte au commissariat ou à la gendarmerie",
     "distracteurs": [
       "J'écris au maire pour qu'il retrouve mon téléphone",
-      "Je vais au tribunal pour demander un jugement",
+      "J'attends que la police me contacte",
       "Je vais à la préfecture pour faire une déclaration"
     ],
     "explication": "Une victime d'infraction peut porter plainte dans n'importe quel commissariat ou gendarmerie. On peut faire une pré-plainte en ligne pour gagner du temps. Le dépôt de plainte est gratuit.",
@@ -806,7 +806,7 @@
     "distracteurs": [
       "Le revenu de solidarité active (RSA)",
       "L'allocation de rentrée scolaire",
-      "Un prêt à la banque de France"
+      "Un prêt à la Banque de France"
     ],
     "explication": "L'aide juridictionnelle permet aux personnes qui ont de faibles revenus de faire payer par l'État tout ou partie des frais de justice et d'avocat.",
     "liens": [
@@ -824,7 +824,7 @@
     "bonne_reponse": "Dans un point-justice",
     "distracteurs": [
       "À la cour d'assises",
-      "Au bureau de vote",
+      "À l'agence immobilière de votre propriétaire",
       "À la Cour des comptes"
     ],
     "explication": "Les points-justice (dont les maisons de justice et du droit) offrent des informations et des conseils juridiques gratuits et confidentiels, avec des avocats, des juristes ou des associations.",
@@ -839,7 +839,7 @@
   },
   {
     "src_id": 96,
-    "question": "Vous avez un conflit avec votre employeur au sujet de votre salaire. Quel tribunal pouvez-vous saisir ?",
+    "question": "Vous êtes salarié d'une entreprise privée. Vous avez un conflit avec votre employeur au sujet de votre salaire. Quel tribunal pouvez-vous saisir ?",
     "bonne_reponse": "Le conseil de prud'hommes",
     "distracteurs": [
       "Le tribunal administratif",
@@ -865,7 +865,7 @@
       "Saisir le conseil de prud'hommes",
       "Demander au maire d'annuler la décision"
     ],
-    "explication": "On peut contester une décision de l'administration : par un recours auprès de l'administration elle-même, puis devant le tribunal administratif. Les délais sont courts : lisez bien la lettre de refus, qui les indique.",
+    "explication": "On peut contester une décision de l'administration devant le tribunal administratif. On peut aussi écrire d'abord à la préfecture, mais attention : cela ne prolonge pas toujours le délai. Les délais sont courts : lisez bien la lettre de refus.",
     "sous_theme": "justice_recours",
     "difficulte": 2,
     "source": "Code de justice administrative, art. R421-1 ; CESEDA",
@@ -917,10 +917,10 @@
     "bonne_reponse": "La CAF ou la MSA",
     "distracteurs": [
       "Personne : il faut attendre qu'il recommence à payer",
-      "L'école de vos enfants",
+      "Le tribunal de commerce",
       "Le conseil de prud'hommes"
     ],
-    "explication": "L'Agence de recouvrement et d'intermédiation des pensions alimentaires (ARIPA), gérée par la CAF et la MSA, peut récupérer les pensions impayées et verser en attendant une allocation de soutien familial. Ne pas payer une pension est aussi un délit (abandon de famille).",
+    "explication": "L'Agence de recouvrement et d'intermédiation des pensions alimentaires (ARIPA), gérée par la CAF et la MSA, peut récupérer les pensions impayées et, si vous élevez seul(e) vos enfants, vous verser en attendant une allocation de soutien familial. Ne pas payer une pension est aussi un délit (abandon de famille).",
     "sous_theme": "famille",
     "difficulte": 3,
     "source": "Code de la sécurité sociale, art. L582-1 ; Code pénal, art. 227-3",

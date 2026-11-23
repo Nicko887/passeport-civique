@@ -27,7 +27,7 @@
       "Vous devez être reçu dans un bureau séparé",
       "Vous devez revenir avec une autre personne"
     ],
-    "explication": "La neutralité s'impose aux agents publics, pas aux usagers. Un usager peut porter un signe religieux dans un service public. Seul le fait de cacher entièrement son visage est interdit dans l'espace public.",
+    "explication": "La neutralité s'impose aux agents publics, pas aux usagers. Un usager peut porter un signe religieux dans un service public. En revanche, il est interdit de cacher entièrement son visage dans l'espace public.",
     "liens": [
       {"titre": "La laïcité (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"}
     ],
@@ -39,15 +39,16 @@
   },
   {
     "src_id": 3,
-    "question": "Votre fille va au collège public. Elle veut porter un grand voile religieux en classe. Est-ce possible ?",
+    "question": "Votre fille va au collège public. Elle veut porter un voile religieux en classe. Est-ce possible ?",
     "bonne_reponse": "Non, c'est interdit au collège public",
     "distracteurs": [
       "Oui, avec un mot des parents",
       "Oui, la liberté religieuse s'applique partout de la même façon",
       "Non, sauf si d'autres élèves portent aussi un voile"
     ],
-    "explication": "Depuis la loi du 15 mars 2004, les élèves des écoles, collèges et lycées publics ne peuvent pas porter de signes ou de tenues qui montrent clairement une appartenance religieuse (grand voile, kippa, grande croix…).",
+    "explication": "Depuis la loi du 15 mars 2004, les élèves des écoles, collèges et lycées publics ne peuvent pas porter de signes ou de tenues qui montrent clairement une appartenance religieuse (voile, kippa, grande croix…).",
     "liens": [
+      {"titre": "Circulaire du 18 mai 2004 (legifrance.gouv.fr)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000252465"},
       {"titre": "La laïcité à l'école (conseil-etat.fr)", "url": "https://www.conseil-etat.fr/publications-colloques/rapports-d-activite/bilan-d-activite-2023/la-laicite-un-fondement-du-vivre-ensemble"}
     ],
     "sous_theme": "laicite",
@@ -94,18 +95,21 @@
   {
     "src_id": 6,
     "question": "Dans un hôpital public, un patient refuse d'être soigné par un médecin parce que ce médecin est une femme. Que dit la règle ?",
-    "bonne_reponse": "Il ne peut pas refuser un médecin à cause de son sexe",
+    "bonne_reponse": "Il ne peut pas exiger un autre médecin à cause de son sexe",
     "distracteurs": [
       "L'hôpital doit toujours lui trouver un médecin homme",
       "Le patient peut choisir le médecin s'il paie un supplément",
-      "Le patient doit d'abord demander l'accord du directeur"
+      "Il peut l'exiger s'il écrit une lettre au directeur"
     ],
     "explication": "Selon la Charte de la laïcité dans les services publics, les usagers ne peuvent pas refuser un agent public à cause de son sexe ou de sa religion, ni exiger une adaptation du service public.",
     "sous_theme": "laicite",
     "difficulte": 2,
     "source": "Charte de la laïcité dans les services publics",
     "a_verifier": false,
-    "note": ""
+    "note": "",
+    "liens": [
+      {"titre": "Laïcité et neutralité (fonction-publique.gouv.fr)", "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique"}
+    ]
   },
   {
     "src_id": 7,
@@ -170,7 +174,7 @@
     "bonne_reponse": "Non : la République ne salarie et ne subventionne aucun culte",
     "distracteurs": [
       "Oui, si la religion est pratiquée par beaucoup d'habitants",
-      "Oui, mais seulement pour les religions les plus anciennes",
+      "Oui, si le responsable religieux habite dans la commune",
       "Oui, si le préfet donne son accord"
     ],
     "explication": "La loi de 1905 sépare les Églises et l'État : l'État et les communes ne paient pas les responsables religieux et ne financent pas les cultes. Il existe un régime particulier en Alsace-Moselle.",
@@ -190,7 +194,7 @@
     "distracteurs": [
       "Chacun peut suivre les règles de sa religion à la place de la loi",
       "Les règles religieuses passent avant la loi dans la vie de famille",
-      "La loi ne s'applique qu'aux personnes sans religion"
+      "Chaque religion peut avoir ses propres tribunaux"
     ],
     "explication": "La liberté religieuse existe, mais dans le respect de la loi. Personne ne peut invoquer sa religion pour ne pas respecter les règles communes.",
     "liens": [
@@ -213,7 +217,7 @@
     ],
     "explication": "Les élèves ne peuvent pas refuser un enseignement ou une activité obligatoire pour des raisons religieuses. Seule une raison médicale, avec un certificat, peut justifier une dispense de sport.",
     "liens": [
-      {"titre": "La laïcité à l'école (conseil-etat.fr)", "url": "https://www.conseil-etat.fr/publications-colloques/rapports-d-activite/bilan-d-activite-2023/la-laicite-un-fondement-du-vivre-ensemble"}
+      {"titre": "Circulaire du 18 mai 2004 (legifrance.gouv.fr)", "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000252465"}
     ],
     "sous_theme": "laicite",
     "difficulte": 2,
@@ -228,7 +232,7 @@
     "distracteurs": [
       "Oui, si c'est pour des raisons religieuses",
       "Oui, mais seulement dans son quartier",
-      "Non, sauf pour les personnes de nationalité étrangère"
+      "Oui, avec une autorisation de la mairie"
     ],
     "explication": "Depuis la loi du 11 octobre 2010, personne ne peut porter dans l'espace public une tenue qui cache le visage. Il y a des exceptions : raisons de santé, travail, sport, fêtes ou manifestations traditionnelles. L'amende peut aller jusqu'à 150 €.",
     "liens": [
@@ -361,8 +365,8 @@
     "bonne_reponse": "Porter plainte, car une injure raciste est un délit",
     "distracteurs": [
       "Rien : les insultes dans la rue ne sont jamais punies",
-      "Répondre par une insulte, c'est votre droit",
-      "Seulement en parler à votre employeur"
+      "Rien, sauf si la personne vous frappe",
+      "Seulement demander des excuses à la personne"
     ],
     "explication": "Une injure publique à cause de l'origine, de la religion ou de la couleur de peau est un délit. Vous pouvez porter plainte au commissariat ou à la gendarmerie.",
     "liens": [
@@ -435,13 +439,13 @@
   {
     "src_id": 24,
     "question": "Vous voulez créer une association pour aider les familles de votre quartier. Que faut-il faire ?",
-    "bonne_reponse": "C'est libre, puis on la déclare en préfecture",
+    "bonne_reponse": "C'est libre ; on peut la déclarer en préfecture",
     "distracteurs": [
       "Il faut d'abord l'autorisation du maire et du préfet",
       "Il faut être de nationalité française",
       "Il faut au moins dix membres et un avocat"
     ],
-    "explication": "La liberté d'association est garantie par la loi de 1901. Deux personnes suffisent pour créer une association. Pour qu'elle ait une existence juridique (compte bancaire, subventions), on la déclare au greffe des associations de la préfecture, ou en ligne.",
+    "explication": "La liberté d'association est garantie par la loi de 1901. Deux personnes suffisent pour créer une association (sept en Alsace-Moselle). Pour qu'elle ait une existence juridique (compte bancaire, subventions), on la déclare au greffe des associations de la préfecture, ou en ligne.",
     "liens": [
       {"titre": "Créer une association (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1119"},
       {"titre": "La loi de 1901 (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/24087-la-loi-du-1er-juillet-1901-relative-au-contrat-dassociation"}
@@ -454,14 +458,14 @@
   },
   {
     "src_id": 25,
-    "question": "Sur internet, vous écrivez que votre voisin est un voleur, sans aucune preuve. Que risquez-vous ?",
+    "question": "Sur internet, vous écrivez que votre voisin a volé votre vélo, sans aucune preuve. Que risquez-vous ?",
     "bonne_reponse": "Une condamnation pour diffamation",
     "distracteurs": [
       "Rien : internet est libre",
       "Rien, si vous effacez le message après un jour",
       "Seulement une suppression de votre compte"
     ],
-    "explication": "Accuser publiquement une personne d'un fait qui porte atteinte à son honneur, sans pouvoir le prouver, est une diffamation. C'est puni par la loi, aussi sur internet.",
+    "explication": "Accuser publiquement une personne d'un fait qui porte atteinte à son honneur, sans pouvoir le prouver, est une diffamation. C'est puni par la loi, aussi sur internet. La diffamation publique peut être punie d'une amende de 12 000 €.",
     "liens": [
       {"titre": "Diffamation (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32079"}
     ],
@@ -492,14 +496,14 @@
   },
   {
     "src_id": 27,
-    "question": "Vous pratiquez votre religion. Où pouvez-vous le faire ?",
-    "bonne_reponse": "Librement, dans le respect de l'ordre public",
+    "question": "Vous êtes croyant. Pouvez-vous pratiquer votre religion en France ?",
+    "bonne_reponse": "Oui, librement, dans le respect de l'ordre public",
     "distracteurs": [
-      "Seulement chez vous, jamais dans un lieu de culte",
-      "Seulement si votre religion est reconnue par l'État",
-      "Seulement avec une autorisation de la mairie"
+      "Oui, mais seulement chez vous ou dans votre famille",
+      "Oui, si votre religion est reconnue officiellement par l'État",
+      "Oui, avec une autorisation écrite de la mairie"
     ],
-    "explication": "La République garantit le libre exercice des cultes. Elle ne reconnaît aucune religion en particulier : toutes sont libres, dans les limites fixées par la loi pour protéger l'ordre public.",
+    "explication": "La République garantit le libre exercice des cultes. Elle ne reconnaît aucune religion en particulier (sauf un régime particulier en Alsace-Moselle) : toutes sont libres, dans les limites fixées par la loi pour protéger l'ordre public.",
     "liens": [
       {"titre": "La liberté religieuse (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/23873-quest-ce-que-la-liberte-religieuse"}
     ],
@@ -518,7 +522,7 @@
       "La perte automatique de sa nationalité française",
       "Une simple remarque du maire"
     ],
-    "explication": "Outrager publiquement l'hymne national ou le drapeau tricolore lors d'une manifestation organisée ou réglementée par les autorités publiques est un délit puni de 7 500 € d'amende.",
+    "explication": "Outrager publiquement l'hymne national ou le drapeau tricolore lors d'une manifestation organisée ou réglementée par les autorités publiques est un délit puni de 7 500 € d'amende. Si l'outrage est commis en groupe, la peine peut aller jusqu'à 6 mois de prison.",
     "liens": [
       {"titre": "La Marseillaise (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"}
     ],
@@ -530,7 +534,7 @@
   },
   {
     "src_id": 29,
-    "question": "Votre enfant demande pourquoi on ne travaille pas le 14 juillet. Que lui répondez-vous ?",
+    "question": "Votre enfant demande pourquoi le 14 juillet est un jour férié. Que lui répondez-vous ?",
     "bonne_reponse": "C'est la fête nationale française",
     "distracteurs": [
       "C'est le jour de l'élection du Président",
@@ -625,10 +629,10 @@
   },
   {
     "src_id": 34,
-    "question": "Le jour de l'élection, votre mari veut entrer dans l'isoloir avec vous pour voir votre vote. A-t-il le droit ?",
+    "question": "Le jour de l'élection, un membre de votre famille veut entrer dans l'isoloir avec vous pour voir votre vote. A-t-il le droit ?",
     "bonne_reponse": "Non, le vote est personnel et secret",
     "distracteurs": [
-      "Oui, un couple marié peut voter ensemble",
+      "Oui, la famille peut voter ensemble",
       "Oui, si vous êtes d'accord tous les deux",
       "Oui, si c'est votre premier vote"
     ],
@@ -683,7 +687,7 @@
       "Demander sa carte d'électeur",
       "Passer un examen de citoyenneté"
     ],
-    "explication": "Tout jeune Français doit se faire recenser à la mairie (ou en ligne) dans les 3 mois après ses 16 ans. Il est ensuite convoqué à la Journée défense et citoyenneté (JDC). Avant 18 ans, l'attestation de recensement est demandée pour certains examens, comme le baccalauréat. Ensuite, il faut le certificat de la JDC, aussi pour le permis de conduire.",
+    "explication": "Tout jeune Français doit se faire recenser à la mairie (ou en ligne) dans les 3 mois après ses 16 ans. Il est ensuite convoqué à la Journée défense et citoyenneté (JDC). Avant 18 ans, l'attestation de recensement est demandée pour certains examens, comme le baccalauréat. Le certificat de la JDC est ensuite demandé jusqu'à 25 ans, notamment pour le permis de conduire.",
     "liens": [
       {"titre": "Recensement citoyen (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F870"},
       {"titre": "Journée défense et citoyenneté (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F871"}
@@ -750,7 +754,7 @@
   },
   {
     "src_id": 41,
-    "question": "Une association de votre quartier distribue des repas, sans demander la religion ni l'origine des personnes. Quelle valeur de la République cela illustre-t-il ?",
+    "question": "Une association de votre quartier distribue gratuitement des repas aux personnes dans le besoin. Quelle valeur de la République cela illustre-t-il ?",
     "bonne_reponse": "La fraternité",
     "distracteurs": [
       "La laïcité",
@@ -786,7 +790,7 @@
   {
     "src_id": 43,
     "question": "Un ami vous dit que les personnes riches ont plus de droits devant la justice. Que dit la République ?",
-    "bonne_reponse": "Tous les citoyens sont égaux devant la loi",
+    "bonne_reponse": "Tout le monde est égal devant la loi",
     "distracteurs": [
       "Les personnes riches ont des tribunaux spéciaux",
       "La loi est différente selon le niveau de revenus",
