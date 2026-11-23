@@ -110,24 +110,37 @@ const questions = () => chargerQuestions(parcoursCourant());
 
 // ---------- Écrans ----------
 
-function vueBienvenue() {
+async function vueBienvenue() {
+  const pour = { csp: 'Pour une première carte de séjour pluriannuelle', resident: 'Pour une première carte de résident', naturalisation: 'Pour devenir Français ou Française' };
+  const nombres = await Promise.all(Object.values(PARCOURS).map((x) => chargerQuestions(x.id).then((l) => l.length).catch(() => 0)));
+  const atouts = [['cours', 'Des cours simples, à lire ou à écouter'], ['crayon', 'Des QCM corrigés et expliqués'], ['chrono', 'Des examens blancs chronométrés']];
   afficher(`
     <section class="bienvenue">
       <div class="hero hero-bienvenue">
         <div class="hero-marque"><span class="logo-marque">${ic('valide')}</span>${APP_NAME}</div>
         <h1>Préparez votre examen civique</h1>
-        <p class="hero-texte">Gratuit, à votre rythme, sans inscription. Cours, QCM corrigés et examens blancs.</p>
+        <ul class="atouts">${atouts.map(([i, t]) => `<li><span>${ic(i)}</span>${t}</li>`).join('')}</ul>
       </div>
       <div class="chevauche">
-        <h2 class="titre-sur-hero">Quel examen préparez-vous ?</h2>
-        <div class="pile-cartes">
-          ${Object.values(PARCOURS).map((p) => carteAction({
-            action: 'choisir-parcours', attrs: `data-p="${p.id}"`, icone: p.icone, couleur: p.couleur,
-            titre: p.titre, texte: p.sousTitre, meta: `${EXAMEN.nbQuestions} questions · ${EXAMEN.dureeMinutes} min`,
-          })).join('')}
+        <div class="carte choix-examen">
+          <h2>Quel examen préparez-vous ?</h2>
+          <p>Choisissez selon le titre que vous demandez.</p>
+          <div class="pile-choix">
+            ${Object.values(PARCOURS).map((p, i) => `<button class="choix-parcours" data-action="choisir-parcours" data-p="${p.id}" style="--c:${p.couleur}">
+              ${pastille(p.icone)}
+              <span class="lt-texte"><strong>${p.court}</strong><small>${pour[p.id] || p.sousTitre}</small>${nombres[i] ? `<span class="ca-meta">${nombres[i]} questions</span>` : ''}</span>
+              <span class="chevron">${ic('chevron')}</span>
+            </button>`).join('')}
+          </div>
+          <p class="note-choix">Vous pourrez changer à tout moment dans les réglages.</p>
         </div>
-        <p class="petit centre">Vous pourrez changer à tout moment dans les réglages.</p>
-        <p class="petit centre avertissement">${ic('info', 'ic ic-texte')} Outil indépendant et gratuit, non officiel : il n’est pas édité par l’État. <a href="#/a-propos">En savoir plus</a></p>
+
+        <ul class="reperes reperes-apropos">
+          <li>${pastille('valide', 'petite')}<span>Gratuit, sans publicité</span></li>
+          <li>${pastille('bouclier', 'petite')}<span>Sans compte ni inscription</span></li>
+          <li>${pastille('telecharger', 'petite')}<span>Marche aussi sans internet</span></li>
+        </ul>
+        <p class="petit centre avertissement">${ic('info', 'ic ic-texte')} Outil indépendant, non officiel : il n’est pas édité par l’État. <a href="#/a-propos">En savoir plus</a></p>
       </div>
     </section>`, 'aucun');
 }

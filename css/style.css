@@ -1132,6 +1132,30 @@ h2.titre-reglage { font-size: .76rem; font-weight: 750; text-transform: uppercas
 .rappel-cours .actions-section { margin-top: 16px; }
 .fin-rappel { margin-top: 14px; }
 
+/* Bienvenue : atouts dans le bandeau, choix de l'examen dans une grande carte */
+.hero-bienvenue h1 { font-size: 1.7rem; margin-top: 16px; }
+.atouts { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 8px; }
+.atouts li { display: flex; align-items: center; gap: 12px; font-size: .95rem; font-weight: 600; line-height: 1.3; }
+.atouts li span { flex: none; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 11px; background: rgba(255, 255, 255, .16); }
+.atouts .ic { width: 19px; height: 19px; }
+.choix-examen { padding: 20px 14px 14px; }
+.choix-examen h2 { margin: 0 4px 2px; font-size: 1.2rem; }
+.choix-examen > p { margin: 0 4px 14px; font-size: .9rem; color: var(--texte-2); }
+.pile-choix { display: grid; gap: 10px; }
+.choix-parcours {
+  display: flex; align-items: center; gap: 12px; width: 100%; margin: 0; padding: 14px 12px; text-align: left; cursor: pointer;
+  font: inherit; color: var(--texte); background: color-mix(in srgb, var(--c) 6%, var(--surface));
+  border: 1.5px solid color-mix(in srgb, var(--c) 28%, var(--bord)); border-radius: 18px;
+  transition: transform .12s ease, border-color .12s ease;
+}
+.choix-parcours:hover { border-color: var(--c); }
+.choix-parcours:active { transform: scale(.98); }
+.choix-parcours strong { font-size: 1.08rem; line-height: 1.25; }
+.choix-parcours small { line-height: 1.35; }
+.choix-parcours .chevron { color: var(--c); }
+.note-choix { margin: 12px 4px 0; font-size: .8rem; color: var(--texte-2); text-align: center; }
+.choix-examen + .reperes { margin-top: 14px; }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 
