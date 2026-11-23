@@ -1,6 +1,6 @@
 # Passeport Civique
 
-Application web **gratuite, open source, sans inscription** pour préparer l'examen civique français (obligatoire depuis 2026) : parcours **naturalisation** (258 questions) et **carte de résident** (209 questions).
+Application web **gratuite, open source, sans inscription** pour préparer l'examen civique français (obligatoire depuis 2026) : trois parcours, un par mention de l'examen : **carte de séjour pluriannuelle** (CSP, 190 questions), **carte de résident** (CR, 209 questions) et **naturalisation** (258 questions). Chaque mention a sa propre liste officielle (formation-civique.interieur.gouv.fr) ; les listes CSP et CR n'ont qu'une trentaine de questions en commun.
 
 ## Principes du projet
 
@@ -20,10 +20,13 @@ Application web **gratuite, open source, sans inscription** pour préparer l'exa
   - `js/data.js` : sélection des questions et calcul des points faibles ;
   - `js/app.js` : écrans et navigation par `#/` ;
   - `js/audio.js` : lecture vocale par speechSynthesis ;
-  - `js/markdown.js` : lecture des cours.
+  - `js/markdown.js` : lecture des cours (liens, encadrés « À retenir ») ;
+  - `js/icones.js` : icônes au trait en SVG, dessinées pour le projet (`ic(nom)`, `pastille(nom)`) ; **pas d'émojis dans l'interface**.
+- **Design (refonte du 23/11/2026) :** bandeau dégradé `.hero` + cartes qui le chevauchent (`.chevauche`) ; composants de `app.js` : `carteAction` (bande de couleur, pastille, bouton rond), `ligneTheme`, `heroResultat`, `carteCorrection`, `ligneReglage`. Couleurs des thèmes et des parcours dans `:root` (`--c-*`), avec mode sombre. Pas de drapeau ni d'imitation de l'identité visuelle de l'État. Captures de contrôle : Chrome sans interface en 390 × 844.
 - **Contenu modifiable :**
   - `contenu/qcm/<parcours>-<theme>.json` : bonne réponse, 3 distracteurs, explication, sous-thème, `a_verifier` ;
-  - `contenu/qcm/situations-<theme>.json` : mises en situation, **communes aux deux parcours** (identifiants `sit-<n>`, champ `s: 1` dans `data/`), avec un champ `source` (texte de loi). Numérotation : principes 1 à 50, droits 51 à 100 ;
+  - `contenu/qcm/csp-<theme>.json` : parcours CSP ; chaque question garde `reponses_suggerees` (source) et `construire.py` vérifie que la bonne réponse en fait partie et qu'aucune mauvaise réponse n'en fait partie ;
+  - `contenu/qcm/situations-<theme>.json` : mises en situation, **communes aux trois parcours** (identifiants `sit-<n>`, champ `s: 1` dans `data/`), avec un champ `source` (texte de loi). Numérotation : principes 1 à 50, droits 51 à 100 ;
   - `contenu/cours/<theme>.md` : cours en Markdown restreint ; les sections `## Titre {#id_sous_theme}` doivent avoir les mêmes identifiants que les sous-thèmes de `config.js`.
 - **Liens externes** (vers des sites sûrs uniquement, liste `SITES_SURS` dans `config.js` **et** dans `construire.py`) :
   - dans les cours : `[texte](https://…)` ; un lien vers un site non autorisé s'affiche comme du texte simple ;

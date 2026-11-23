@@ -1,5 +1,5 @@
 // Application principale : navigation et écrans.
-import { APP_NAME, PARCOURS, THEMES, themeById, EXAMEN, EXAMEN_MODULE, SERIE_ENTRAINEMENT, NB_SITUATIONS, lienSur } from './config.js';
+import { APP_NAME, PARCOURS, THEMES, themeById, EXAMEN, EXAMEN_MODULE, SERIE_ENTRAINEMENT, NB_SITUATIONS, BOITE_MAITRISE, lienSur } from './config.js';
 import * as store from './store.js';
 import { chargerQuestions, chargerCours, preparer, choisirSerie, tirerExamen, tirerModule, bilan, pointsFaibles, melanger } from './data.js';
 import { lireCours, echapper, lienExterne } from './markdown.js';
@@ -116,21 +116,47 @@ async function vueAccueil() {
     ['#/ecouter', 'casque', 'Écouter', 'Les cours en audio', 'var(--c-institutions)'],
   ];
 
+  // Les trois examens, avec le nombre de questions et la part maîtrisée de chacun.
+  const parcours = await Promise.all(Object.values(PARCOURS).map(async (x) => {
+    const liste = x.id === p.id ? qs : await chargerQuestions(x.id).catch(() => []);
+    const prog = store.getEtat().progress[x.id] || {};
+    const maitrisees = Object.values(prog).filter((s) => s.box >= BOITE_MAITRISE).length;
+    return { ...x, total: liste.length, part: liste.length ? maitrisees / liste.length : 0 };
+  }));
+
   afficher(`
     <section class="accueil">
       <div class="hero">
         <div class="hero-ligne">
           <div>
-            <p class="hero-marque">${ic(p.icone, 'ic ic-texte')} ${p.titre}</p>
+            <p class="hero-marque"><span class="logo-marque petit-logo">${ic('valide')}</span>${APP_NAME}</p>
             <h1>${b.vues === 0 ? 'Préparez votre examen' : 'Bon retour !'}</h1>
-            <p class="hero-texte">${b.vues === 0 ? 'Commencez par un cours ou une première série de questions.' : `Vous maîtrisez <strong>${b.maitrisees}</strong> questions sur ${b.total}.`}</p>
+            <p class="hero-texte">${b.vues === 0 ? 'Choisissez votre examen, puis commencez par un cours ou une série de questions.' : `${e(p.court)} : vous maîtrisez <strong>${b.maitrisees}</strong> questions sur ${b.total}.`}</p>
             ${serie > 1 ? `<p class="serie">${ic('flamme', 'ic ic-texte')} ${serie} jours d’affilée</p>` : ''}
           </div>
-          ${anneau(b.progression, 104)}
+          ${anneau(b.progression, 96)}
         </div>
       </div>
 
-      <div class="chevauche pile-cartes">
+      <div class="chevauche">
+        <h2 class="titre-sur-hero">Mon examen</h2>
+        <div class="pile-cartes" role="group" aria-label="Choisir l’examen à préparer">
+          ${parcours.map((x) => x.id === p.id
+            ? `<a class="carte-action carte-parcours actif" href="#/entrainement/tout" style="--c:${x.couleur}">
+                ${pastille(x.icone)}
+                <span class="ca-texte"><span class="badge-choisi">${ic('valide', 'ic ic-texte')} Examen choisi</span><strong>${x.titre}</strong><small>${x.sousTitre}</small>
+                  <span class="ca-meta">${x.total} questions · ${pct(x.part)} maîtrisé</span></span>
+                <span class="rond-action" aria-label="S’entraîner">${ic('jouer')}</span></a>`
+            : `<button class="carte-action carte-parcours" data-action="choisir-parcours" data-p="${x.id}" style="--c:${x.couleur}">
+                ${pastille(x.icone)}
+                <span class="ca-texte"><strong>${x.titre}</strong><small>${x.sousTitre}</small>
+                  <span class="ca-meta">${x.total} questions${x.part ? ` · ${pct(x.part)} maîtrisé` : ''} · Choisir</span></span>
+                <span class="rond-action rond-discret">${ic('chevron')}</span></button>`).join('')}
+        </div>
+      </div>
+
+      <h2 class="titre-section">Continuer</h2>
+      <div class="pile-cartes">
         ${b.aRevoir > 0
           ? carteAction({ href: '#/revision', icone: 'revoir', couleur: 'var(--c-histoire)', titre: 'Mes révisions du jour', texte: `${b.aRevoir} question${b.aRevoir > 1 ? 's' : ''} à revoir pour bien les retenir` })
           : carteAction({ href: '#/entrainement/tout', icone: 'crayon', couleur: 'var(--c-droits)', titre: `${b.vues === 0 ? 'Commencer' : 'Continuer'} l’entraînement`, texte: `Série de ${SERIE_ENTRAINEMENT} questions adaptées à votre niveau` })}
@@ -946,7 +972,10 @@ document.addEventListener('click', async (ev) => {
     case 'choisir-parcours':
       store.setParcours(d.p);
       if (location.hash.includes('reglages')) { toast('Examen choisi : ' + PARCOURS[d.p].titre); vueReglages(); }
-      else naviguer('#/');
+      else {
+        if (location.hash === '#/' || location.hash === '') toast('Examen choisi : ' + PARCOURS[d.p].titre);
+        naviguer('#/');
+      }
       break;
     case 'repondre': repondre(Number(d.k)); break;
     case 'filtre-correction':

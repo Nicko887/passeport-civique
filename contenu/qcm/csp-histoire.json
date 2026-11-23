@@ -1,0 +1,1150 @@
+[
+  {
+    "src_id": 114,
+    "question": "En quelle année a débuté la Révolution française ?",
+    "reponses_suggerees": [
+      "1789"
+    ],
+    "bonne_reponse": "1789",
+    "distracteurs": [
+      "1769",
+      "1799",
+      "1815"
+    ],
+    "explication": "La Révolution française commence en 1789 : les états généraux se réunissent en mai, puis la prise de la Bastille a lieu le 14 juillet 1789.",
+    "sous_theme": "revolution_empire",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #142",
+    "liens": [
+      {
+        "titre": "La fin de la monarchie absolue, 1789-1792 (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792/"
+      }
+    ]
+  },
+  {
+    "src_id": 115,
+    "question": "Qui était Napoléon Ier ?",
+    "reponses_suggerees": [
+      "Un empereur français très célèbre.",
+      "Un empereur de la France.",
+      "Un chef militaire devenu empereur."
+    ],
+    "bonne_reponse": "Un chef militaire devenu empereur.",
+    "distracteurs": [
+      "Un roi de France guillotiné en 1793.",
+      "Un résistant devenu président.",
+      "Un philosophe du siècle des Lumières."
+    ],
+    "explication": "Napoléon Bonaparte (1769-1821) est un général. Il prend le pouvoir en 1799, puis devient empereur des Français en 1804 sous le nom de Napoléon Ier. Il fait adopter le Code civil en 1804.",
+    "liens": [
+      {
+        "titre": "Le Premier Empire (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815/"
+      }
+    ],
+    "sous_theme": "revolution_empire",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 116,
+    "question": "Lequel de ces personnages historiques est français ?",
+    "reponses_suggerees": [
+      "Victor Hugo.",
+      "Jeanne d'Arc.",
+      "Charles de Gaulle.",
+      "Napoléon Bonaparte.",
+      "Molière.",
+      "Louis XIV (le Roi Soleil)."
+    ],
+    "bonne_reponse": "Jeanne d'Arc",
+    "distracteurs": [
+      "Christophe Colomb",
+      "Jules César",
+      "Isaac Newton"
+    ],
+    "explication": "Jeanne d'Arc (vers 1412-1431) est une héroïne française de la guerre de Cent Ans. Christophe Colomb était né à Gênes (Italie), Jules César était romain et Isaac Newton anglais.",
+    "sous_theme": "histoire_ancienne",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 117,
+    "question": "Dans quelle République est-on aujourd'hui ?",
+    "reponses_suggerees": [
+      "La Cinquième République"
+    ],
+    "bonne_reponse": "La Cinquième République",
+    "distracteurs": [
+      "La Quatrième République",
+      "La Troisième République",
+      "La Sixième République"
+    ],
+    "explication": "Depuis 1958, la France vit sous la Ve République (Cinquième République). Sa Constitution date du 4 octobre 1958. Il n'y a jamais eu de Sixième République.",
+    "liens": [
+      {
+        "titre": "La Ve République (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/"
+      }
+    ],
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 118,
+    "question": "Qu'est-ce que la Shoah ?",
+    "reponses_suggerees": [
+      "Le génocide des Juifs.",
+      "L'extermination des Juifs pendant la guerre."
+    ],
+    "bonne_reponse": "Le génocide des Juifs.",
+    "distracteurs": [
+      "La guerre d'Algérie.",
+      "Le débarquement en Normandie.",
+      "Le bombardement d'Hiroshima."
+    ],
+    "explication": "La Shoah est le génocide d'environ six millions de Juifs d'Europe par l'Allemagne nazie, pendant la Seconde Guerre mondiale. En France, environ 76 000 Juifs ont été déportés ; le régime de Vichy a participé à leur arrestation.",
+    "liens": [
+      {
+        "titre": "La Shoah (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-shoah/"
+      }
+    ],
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 119,
+    "question": "Quel pays ou région du monde a été colonisé par la France ?",
+    "reponses_suggerees": [
+      "L'Algérie.",
+      "Madagascar.",
+      "L'Indochine (aujourd'hui le Vietnam, le Laos et le Cambodge).",
+      "Le Sénégal."
+    ],
+    "bonne_reponse": "Madagascar",
+    "distracteurs": [
+      "Le Kenya",
+      "Le Brésil",
+      "L'Australie"
+    ],
+    "explication": "Madagascar devient une colonie française en 1896 et retrouve son indépendance le 26 juin 1960. L'Algérie, le Sénégal et l'Indochine ont aussi été colonisés par la France. Le Kenya et l'Australie ont été colonisés par le Royaume-Uni, le Brésil par le Portugal.",
+    "liens": [
+      {
+        "titre": "La décolonisation (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation/"
+      }
+    ],
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 120,
+    "question": "Qui a rendu l’école gratuite, laïque et obligatoire ?",
+    "reponses_suggerees": [
+      "Jules Ferry"
+    ],
+    "bonne_reponse": "Jules Ferry",
+    "distracteurs": [
+      "Victor Hugo",
+      "Jean Jaurès",
+      "Napoléon Ier"
+    ],
+    "explication": "Jules Ferry, ministre de l'Instruction publique, fait voter en 1881 et 1882 les lois sur l'école primaire gratuite, laïque et obligatoire.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #148",
+    "liens": [
+      {
+        "titre": "La IIIe République (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-troisieme-republique-1870-1940/"
+      }
+    ]
+  },
+  {
+    "src_id": 121,
+    "question": "Quand a eu lieu la Seconde Guerre mondiale ?",
+    "reponses_suggerees": [
+      "1939-1945"
+    ],
+    "bonne_reponse": "1939-1945",
+    "distracteurs": [
+      "1914-1918",
+      "1870-1871",
+      "1954-1962"
+    ],
+    "explication": "La Seconde Guerre mondiale commence le 1er septembre 1939, quand l'Allemagne envahit la Pologne. Elle se termine en 1945. C'est la guerre la plus meurtrière de l'histoire.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #151",
+    "liens": [
+      {
+        "titre": "La Seconde Guerre mondiale : le contexte (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1939-1945-le-contexte/"
+      }
+    ]
+  },
+  {
+    "src_id": 122,
+    "question": "Quand a eu lieu la Première Guerre mondiale ?",
+    "reponses_suggerees": [
+      "1914-1918"
+    ],
+    "bonne_reponse": "1914-1918",
+    "distracteurs": [
+      "1939-1945",
+      "1870-1871",
+      "1904-1908"
+    ],
+    "explication": "La Première Guerre mondiale, appelée aussi la Grande Guerre, dure de 1914 à 1918. Elle se termine par l'armistice du 11 novembre 1918. Environ 1,4 million de soldats français sont morts.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #152",
+    "liens": [
+      {
+        "titre": "La Première Guerre mondiale (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1/"
+      }
+    ]
+  },
+  {
+    "src_id": 123,
+    "question": "En quelle année a été créée la Communauté Économique Européenne (CEE) ?",
+    "reponses_suggerees": [
+      "1957"
+    ],
+    "bonne_reponse": "1957",
+    "distracteurs": [
+      "1951",
+      "1969",
+      "1992"
+    ],
+    "explication": "La Communauté économique européenne (CEE) est créée par le traité de Rome, signé le 25 mars 1957 par six pays, dont la France. En 1951, ces pays avaient créé la CECA (charbon et acier) ; en 1992, le traité de Maastricht crée l'Union européenne.",
+    "liens": [
+      {
+        "titre": "La construction européenne (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/"
+      }
+    ],
+    "sous_theme": "histoire_recente",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 124,
+    "question": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
+    "reponses_suggerees": [
+      "L'armistice de la Première Guerre mondiale.",
+      "La fin de la Première Guerre mondiale (1918)."
+    ],
+    "bonne_reponse": "L'armistice de la Première Guerre mondiale.",
+    "distracteurs": [
+      "La victoire de la Seconde Guerre mondiale.",
+      "Le début de la Première Guerre mondiale.",
+      "La victoire de la France à la bataille de Verdun."
+    ],
+    "explication": "Le 11 novembre 1918, l'armistice met fin aux combats de la Première Guerre mondiale. Ce jour férié rend hommage à tous les morts pour la France. Le 8 mai rappelle la victoire de 1945.",
+    "liens": [
+      {
+        "titre": "La Première Guerre mondiale (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1/"
+      },
+      {
+        "titre": "Les jours fériés (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/patrimoine-francais-les-jours-feries/"
+      }
+    ],
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 125,
+    "question": "Qui a été le premier Président élu sous la Ve République ?",
+    "reponses_suggerees": [
+      "Charles de Gaulle.",
+      "Le général de Gaulle."
+    ],
+    "bonne_reponse": "Charles de Gaulle",
+    "distracteurs": [
+      "Georges Pompidou",
+      "Vincent Auriol",
+      "Jacques Chirac"
+    ],
+    "explication": "Charles de Gaulle est élu le 21 décembre 1958 et devient le premier président de la Ve République en janvier 1959. Georges Pompidou lui succède en 1969. Vincent Auriol était le premier président de la IVe République.",
+    "liens": [
+      {
+        "titre": "Les présidents de la République (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/les-presidents-de-la-republique"
+      }
+    ],
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 126,
+    "question": "En quelle année l'esclavage a-t-il été aboli définitivement en France ?",
+    "reponses_suggerees": [
+      "1848"
+    ],
+    "bonne_reponse": "1848",
+    "distracteurs": [
+      "1794",
+      "1871",
+      "1918"
+    ],
+    "explication": "L'esclavage est aboli définitivement par le décret du 27 avril 1848, préparé par Victor Schœlcher. Une première abolition, en 1794, avait été annulée par Napoléon Bonaparte en 1802.",
+    "liens": [
+      {
+        "titre": "L'abolition de l'esclavage, 1848 (assemblee-nationale.fr)",
+        "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/deuxieme-republique/l-abolition-de-l-esclavage"
+      }
+    ],
+    "sous_theme": "revolution_empire",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 127,
+    "question": "Depuis quelle année l'école publique est-elle gratuite ?",
+    "reponses_suggerees": [
+      "1881"
+    ],
+    "bonne_reponse": "1881",
+    "distracteurs": [
+      "1789",
+      "1905",
+      "1946"
+    ],
+    "explication": "La loi du 16 juin 1881, voulue par Jules Ferry, rend l'école primaire publique gratuite. La loi du 28 mars 1882 la rend ensuite obligatoire et laïque.",
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 3,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #160",
+    "liens": [
+      {
+        "titre": "La IIIe République (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-troisieme-republique-1870-1940/"
+      }
+    ]
+  },
+  {
+    "src_id": 128,
+    "question": "Combien y a-t-il eu de républiques en France ?",
+    "reponses_suggerees": [
+      "5"
+    ],
+    "bonne_reponse": "5",
+    "distracteurs": [
+      "3",
+      "4",
+      "6"
+    ],
+    "explication": "La France a connu cinq républiques : la Ire en 1792, la IIe en 1848, la IIIe en 1870, la IVe en 1946 et la Ve depuis 1958.",
+    "liens": [
+      {
+        "titre": "La Ve République (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/"
+      }
+    ],
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 129,
+    "question": "Qui était le roi de France au moment de la Révolution française ?",
+    "reponses_suggerees": [
+      "Louis XVI"
+    ],
+    "bonne_reponse": "Louis XVI",
+    "distracteurs": [
+      "Louis XIV",
+      "Louis XV",
+      "Henri IV"
+    ],
+    "explication": "Louis XVI est roi de France en 1789. La royauté est abolie en 1792 et Louis XVI est guillotiné le 21 janvier 1793. Louis XIV et Louis XV ont régné avant lui, Henri IV bien plus tôt.",
+    "liens": [
+      {
+        "titre": "Procès et exécution de Louis XVI (assemblee-nationale.fr)",
+        "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/proces-et-execution-de-louis-xvi"
+      },
+      {
+        "titre": "La fin de la monarchie absolue, 1789-1792 (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792/"
+      }
+    ],
+    "sous_theme": "revolution_empire",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 130,
+    "question": "Qui a fondé la Ve République ?",
+    "reponses_suggerees": [
+      "Charles de Gaulle.",
+      "Le général de Gaulle."
+    ],
+    "bonne_reponse": "Le général de Gaulle.",
+    "distracteurs": [
+      "Le général Leclerc.",
+      "Le président Georges Pompidou.",
+      "Le maréchal Pétain."
+    ],
+    "explication": "En 1958, le général Charles de Gaulle revient au pouvoir et fait adopter une nouvelle Constitution par référendum. Elle est promulguée le 4 octobre 1958 : c'est la naissance de la Ve République.",
+    "liens": [
+      {
+        "titre": "La Ve République (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/"
+      }
+    ],
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 131,
+    "question": "Que célèbre-t-on le 14 juillet ?",
+    "reponses_suggerees": [
+      "La Fête Nationale",
+      "La prise de la Bastille (14 juillet 1789).",
+      "La Fête de la Fédération (14 juillet 1790)."
+    ],
+    "bonne_reponse": "La Fête nationale",
+    "distracteurs": [
+      "La fête du Travail",
+      "Le jour de l'An",
+      "L'armistice de 1918"
+    ],
+    "explication": "Le 14 juillet est la fête nationale depuis 1880. Il rappelle la prise de la Bastille, le 14 juillet 1789, et la fête de la Fédération, le 14 juillet 1790. Un grand défilé militaire a lieu à Paris.",
+    "liens": [
+      {
+        "titre": "La fête nationale du 14 juillet (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+      }
+    ],
+    "sous_theme": "revolution_empire",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 132,
+    "question": "Quelle guerre a eu lieu entre 1914 et 1918 ?",
+    "reponses_suggerees": [
+      "La Première Guerre mondiale"
+    ],
+    "bonne_reponse": "La Première Guerre mondiale",
+    "distracteurs": [
+      "La Seconde Guerre mondiale",
+      "La guerre d'Algérie",
+      "La guerre de Cent Ans"
+    ],
+    "explication": "La Première Guerre mondiale, appelée aussi la Grande Guerre, dure de 1914 à 1918. La Seconde Guerre mondiale a lieu de 1939 à 1945 et la guerre d'Algérie de 1954 à 1962.",
+    "liens": [
+      {
+        "titre": "La Première Guerre mondiale (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1/"
+      }
+    ],
+    "sous_theme": "histoire_contemporaine",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 133,
+    "question": "Pourquoi l’année 1958 est importante pour la France ?",
+    "reponses_suggerees": [
+      "Le début de la 5e République.",
+      "La création de la Ve République."
+    ],
+    "bonne_reponse": "La création de la Ve République.",
+    "distracteurs": [
+      "Le premier vote des femmes.",
+      "L'indépendance de l'Algérie.",
+      "La création de l'euro."
+    ],
+    "explication": "En 1958, le général Charles de Gaulle fonde la Ve République. Sa Constitution, adoptée par référendum le 28 septembre 1958, est toujours en vigueur. Les femmes votent pour la première fois en 1945 et l'Algérie devient indépendante en 1962.",
+    "liens": [
+      {
+        "titre": "La Ve République (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/"
+      }
+    ],
+    "sous_theme": "histoire_recente",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 134,
+    "question": "Quel fleuve coule en France ?",
+    "reponses_suggerees": [
+      "La Loire.",
+      "La Seine.",
+      "Le Rhône.",
+      "La Garonne.",
+      "Le Rhin."
+    ],
+    "bonne_reponse": "La Seine",
+    "distracteurs": [
+      "Le Danube",
+      "Le Tage",
+      "La Tamise"
+    ],
+    "explication": "La Seine traverse Paris et se jette dans la Manche. Les autres grands fleuves français sont la Loire, la Garonne et le Rhône. Le Danube coule en Europe centrale, le Tage en Espagne et au Portugal, la Tamise en Angleterre.",
+    "liens": [
+      {
+        "titre": "Les fleuves français (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-fleuves-fran%C3%A7ais/"
+      }
+    ],
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 135,
+    "question": "Quelle ville est française ?",
+    "reponses_suggerees": [
+      "Paris",
+      "Marseille.",
+      "Lyon.",
+      "Bordeaux.",
+      "Toulouse.",
+      "Lille."
+    ],
+    "bonne_reponse": "Marseille",
+    "distracteurs": [
+      "Bruxelles",
+      "Genève",
+      "Montréal"
+    ],
+    "explication": "Marseille est la deuxième ville de France par sa population, après Paris. Bruxelles (Belgique), Genève (Suisse) et Montréal (Canada) sont des villes où l'on parle français, mais elles ne sont pas en France.",
+    "liens": [
+      {
+        "titre": "Aire urbaine et métropoles (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/"
+      }
+    ],
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 136,
+    "question": "Quel océan borde la côte ouest française ?",
+    "reponses_suggerees": [
+      "L'océan Atlantique"
+    ],
+    "bonne_reponse": "L'océan Atlantique",
+    "distracteurs": [
+      "L'océan Pacifique",
+      "L'océan Indien",
+      "L'océan Arctique"
+    ],
+    "explication": "L'océan Atlantique borde l'ouest de la France, de la Bretagne au Pays basque. Au nord, il y a la Manche ; au sud-est, la mer Méditerranée.",
+    "liens": [
+      {
+        "titre": "Les frontières de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+      }
+    ],
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 137,
+    "question": "Qu'est-ce que Paris ?",
+    "reponses_suggerees": [
+      "La capitale de la France"
+    ],
+    "bonne_reponse": "La capitale de la France",
+    "distracteurs": [
+      "Le plus grand port de France",
+      "Une ville du sud de la France",
+      "Une île française"
+    ],
+    "explication": "Paris est la capitale de la France. C'est là que siègent le président de la République, le Gouvernement et le Parlement. Le plus grand port de France est Marseille.",
+    "liens": [
+      {
+        "titre": "Aire urbaine et métropoles (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/"
+      }
+    ],
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 138,
+    "question": "Quelle est la capitale de la France ?",
+    "reponses_suggerees": [
+      "Paris"
+    ],
+    "bonne_reponse": "Paris",
+    "distracteurs": [
+      "Lyon",
+      "Marseille",
+      "Bordeaux"
+    ],
+    "explication": "Paris est la capitale de la France et sa plus grande ville. Lyon, Marseille et Bordeaux sont d'autres grandes villes françaises.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 139,
+    "question": "Sur quel continent se situe la France métropolitaine ?",
+    "reponses_suggerees": [
+      "L'Europe.",
+      "Le continent européen."
+    ],
+    "bonne_reponse": "L'Europe",
+    "distracteurs": [
+      "L'Afrique",
+      "L'Asie",
+      "L'Amérique"
+    ],
+    "explication": "La France métropolitaine est en Europe de l'Ouest. Certains territoires d'outre-mer sont sur d'autres continents : par exemple, la Guyane est en Amérique du Sud.",
+    "liens": [
+      {
+        "titre": "Le territoire de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"
+      }
+    ],
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 140,
+    "question": "Quelle île est un département d'outre-mer français ?",
+    "reponses_suggerees": [
+      "La Guadeloupe.",
+      "La Martinique.",
+      "La Réunion.",
+      "Mayotte."
+    ],
+    "bonne_reponse": "La Guadeloupe",
+    "distracteurs": [
+      "La Corse",
+      "Tahiti",
+      "La Nouvelle-Calédonie"
+    ],
+    "explication": "Les départements et régions d'outre-mer sont la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte. Tahiti (en Polynésie française) et la Nouvelle-Calédonie ont un autre statut ; la Corse est en métropole.",
+    "sous_theme": "outre_mer",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #203",
+    "liens": [
+      {
+        "titre": "Le territoire de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"
+      }
+    ]
+  },
+  {
+    "src_id": 141,
+    "question": "Combien y a-t-il de régions en France métropolitaine ?",
+    "reponses_suggerees": [
+      "13"
+    ],
+    "bonne_reponse": "13",
+    "distracteurs": [
+      "22",
+      "18",
+      "10"
+    ],
+    "explication": "Depuis 2016, la France métropolitaine compte 13 régions, Corse comprise. Avec les 5 régions d'outre-mer, cela fait 18 régions en tout. Avant 2016, la métropole en avait 22.",
+    "sous_theme": "geographie",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #207",
+    "liens": [
+      {
+        "titre": "Les régions françaises (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/"
+      },
+      {
+        "titre": "Le territoire de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"
+      }
+    ]
+  },
+  {
+    "src_id": 142,
+    "question": "Quelle ville est un grand port maritime ?",
+    "reponses_suggerees": [
+      "Le Havre.",
+      "Marseille.",
+      "Dunkerque.",
+      "Nantes-Saint-Nazaire."
+    ],
+    "bonne_reponse": "Le Havre",
+    "distracteurs": [
+      "Dijon",
+      "Limoges",
+      "Lyon"
+    ],
+    "explication": "Le Havre, en Normandie, est un grand port maritime sur la Manche. Marseille, Dunkerque et Nantes-Saint-Nazaire sont aussi de grands ports. Dijon, Limoges et Lyon ne sont pas au bord de la mer.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 143,
+    "question": "Quelle est la mer au sud de la France métropolitaine ?",
+    "reponses_suggerees": [
+      "La Mer Méditerranée"
+    ],
+    "bonne_reponse": "La mer Méditerranée",
+    "distracteurs": [
+      "La mer du Nord",
+      "La Manche",
+      "La mer Baltique"
+    ],
+    "explication": "La mer Méditerranée borde le sud de la France, de la frontière espagnole jusqu'à Nice. La mer du Nord et la Manche sont au nord ; la mer Baltique ne touche pas la France.",
+    "liens": [
+      {
+        "titre": "Les frontières de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+      }
+    ],
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 144,
+    "question": "Quelle ville est située au bord de la mer Méditerranée ?",
+    "reponses_suggerees": [
+      "Nice.",
+      "Marseille.",
+      "Cannes.",
+      "Toulon."
+    ],
+    "bonne_reponse": "Nice",
+    "distracteurs": [
+      "Brest",
+      "Bordeaux",
+      "Lille"
+    ],
+    "explication": "Nice, Marseille, Cannes et Toulon sont au bord de la mer Méditerranée. Brest est au bord de l'océan Atlantique, Bordeaux est sur la Garonne et Lille est dans le nord de la France.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 145,
+    "question": "Où se situe la Corse ?",
+    "reponses_suggerees": [
+      "En mer Méditerranée"
+    ],
+    "bonne_reponse": "En mer Méditerranée",
+    "distracteurs": [
+      "Dans l'océan Atlantique",
+      "En mer du Nord",
+      "Dans la Manche"
+    ],
+    "explication": "La Corse est une grande île française de la mer Méditerranée, au sud-est de la France continentale. Ses principales villes sont Ajaccio et Bastia.",
+    "liens": [
+      {
+        "titre": "Le territoire de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"
+      }
+    ],
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 146,
+    "question": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
+    "reponses_suggerees": [
+      "Les Alpes"
+    ],
+    "bonne_reponse": "Les Alpes",
+    "distracteurs": [
+      "Les Pyrénées",
+      "Les Vosges",
+      "Le Massif central"
+    ],
+    "explication": "Les Alpes séparent la France de l'Italie et d'une partie de la Suisse. On y trouve le mont Blanc, le plus haut sommet de France.",
+    "sous_theme": "geographie",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #181",
+    "liens": [
+      {
+        "titre": "Les frontières de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+      }
+    ]
+  },
+  {
+    "src_id": 147,
+    "question": "Qui était Molière ?",
+    "reponses_suggerees": [
+      "Un auteur de pièces de théâtre et un comédien.",
+      "Un écrivain de théâtre et un acteur."
+    ],
+    "bonne_reponse": "Un auteur de pièces de théâtre et un comédien.",
+    "distracteurs": [
+      "Un peintre et un sculpteur du roi.",
+      "Un général et un ministre de Louis XIV.",
+      "Un savant et un inventeur de machines."
+    ],
+    "explication": "Molière (1622-1673), de son vrai nom Jean-Baptiste Poquelin, a écrit et joué des comédies comme L'Avare et Le Malade imaginaire. On appelle le français « la langue de Molière ».",
+    "liens": [
+      {
+        "titre": "Molière et La Fontaine (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1/"
+      }
+    ],
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 148,
+    "question": "Qui était Charles Baudelaire ?",
+    "reponses_suggerees": [
+      "Un poète français célèbre.",
+      "Un écrivain"
+    ],
+    "bonne_reponse": "Un poète français célèbre.",
+    "distracteurs": [
+      "Un peintre français célèbre.",
+      "Un chanteur français célèbre.",
+      "Un roi de France célèbre."
+    ],
+    "explication": "Charles Baudelaire (1821-1867) est un grand poète français. Son recueil le plus connu, Les Fleurs du mal, est publié en 1857.",
+    "liens": [
+      {
+        "titre": "Les grands auteurs du XIXe siècle (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2/"
+      }
+    ],
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 149,
+    "question": "Qui était George Sand ?",
+    "reponses_suggerees": [
+      "Une écrivaine célèbre.",
+      "Une romancière (elle écrivait des romans)."
+    ],
+    "bonne_reponse": "Une écrivaine célèbre.",
+    "distracteurs": [
+      "Une reine de France.",
+      "Une chanteuse célèbre.",
+      "Une scientifique célèbre."
+    ],
+    "explication": "George Sand (1804-1876) est le nom de plume d'Aurore Dupin. Elle a écrit de nombreux romans, comme La Mare au diable.",
+    "liens": [
+      {
+        "titre": "Les grands auteurs du XIXe siècle (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2/"
+      }
+    ],
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 150,
+    "question": "Qui était Simone de Beauvoir ?",
+    "reponses_suggerees": [
+      "Une écrivaine et une philosophe célèbre.",
+      "Une grande écrivaine française."
+    ],
+    "bonne_reponse": "Une écrivaine et une philosophe célèbre.",
+    "distracteurs": [
+      "Une actrice et une chanteuse célèbre.",
+      "Une avocate et une ministre célèbre.",
+      "Une peintre et une sculptrice célèbre."
+    ],
+    "explication": "Simone de Beauvoir (1908-1986) est une écrivaine et philosophe française. Son livre Le Deuxième Sexe, publié en 1949, est important pour les droits des femmes.",
+    "liens": [
+      {
+        "titre": "Les grands auteurs du XXe siècle (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3/"
+      }
+    ],
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 151,
+    "question": "Qui était Albert Camus ?",
+    "reponses_suggerees": [
+      "Un écrivain.",
+      "Un écrivain et philosophe français"
+    ],
+    "bonne_reponse": "Un écrivain et philosophe français",
+    "distracteurs": [
+      "Un peintre et sculpteur français",
+      "Un chanteur et acteur français",
+      "Un général et ministre français"
+    ],
+    "explication": "Albert Camus (1913-1960), né en Algérie, a écrit L'Étranger et La Peste. Il reçoit le prix Nobel de littérature en 1957.",
+    "liens": [
+      {
+        "titre": "Les grands auteurs du XXe siècle (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3/"
+      }
+    ],
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 152,
+    "question": "Qui était Paul Cézanne ?",
+    "reponses_suggerees": [
+      "Un peintre"
+    ],
+    "bonne_reponse": "Un peintre",
+    "distracteurs": [
+      "Un poète",
+      "Un sculpteur",
+      "Un architecte"
+    ],
+    "explication": "Paul Cézanne (1839-1906) est un peintre né à Aix-en-Provence. Il a souvent peint la montagne Sainte-Victoire et il a beaucoup influencé la peinture moderne.",
+    "liens": [
+      {
+        "titre": "Les grands peintres français (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/"
+      }
+    ],
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 153,
+    "question": "Qui était Marc Chagall ?",
+    "reponses_suggerees": [
+      "Un peintre"
+    ],
+    "bonne_reponse": "Un peintre",
+    "distracteurs": [
+      "Un chanteur",
+      "Un médecin",
+      "Un acteur"
+    ],
+    "explication": "Marc Chagall (1887-1985) est un peintre né en Russie, dans l'actuelle Biélorussie, et devenu français en 1937. En 1964, il a peint le plafond de l'Opéra Garnier, à Paris.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 154,
+    "question": "Qui était Joséphine Baker ?",
+    "reponses_suggerees": [
+      "Une artiste et une résistante",
+      "Une chanteuse et une danseuse."
+    ],
+    "bonne_reponse": "Une artiste et une résistante",
+    "distracteurs": [
+      "Une écrivaine et une philosophe",
+      "Une scientifique et une ministre",
+      "Une avocate et une juge"
+    ],
+    "explication": "Joséphine Baker (1906-1975), née aux États-Unis, devient française en 1937. Chanteuse et danseuse célèbre, elle s'engage dans la Résistance pendant la Seconde Guerre mondiale. Elle entre au Panthéon en 2021.",
+    "sous_theme": "culture",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 155,
+    "question": "Qui était une chanteuse française célèbre ?",
+    "reponses_suggerees": [
+      "Édith Piaf.",
+      "Dalida.",
+      "Joséphine Baker."
+    ],
+    "bonne_reponse": "Édith Piaf",
+    "distracteurs": [
+      "Marie Curie",
+      "Simone Veil",
+      "Coco Chanel"
+    ],
+    "explication": "Édith Piaf (1915-1963) est une chanteuse française très célèbre, connue pour La Vie en rose. Marie Curie était une scientifique, Simone Veil une femme politique et Gabrielle « Coco » Chanel une créatrice de mode.",
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 156,
+    "question": "Qu'est-ce que le Louvre ?",
+    "reponses_suggerees": [
+      "Un grand musée d'art.",
+      "Un célèbre musée à Paris.",
+      "Le plus grand musée de France."
+    ],
+    "bonne_reponse": "Un célèbre musée à Paris.",
+    "distracteurs": [
+      "Une célèbre gare à Paris.",
+      "Un grand stade à Paris.",
+      "Une grande église à Paris."
+    ],
+    "explication": "Le Louvre est un ancien palais des rois de France, devenu un musée en 1793. C'est le musée le plus visité du monde ; on y voit la Joconde de Léonard de Vinci.",
+    "liens": [
+      {
+        "titre": "La Joconde, au Louvre (louvre.fr)",
+        "url": "https://collections.louvre.fr/ark:/53355/cl010062370"
+      }
+    ],
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 157,
+    "question": "Qui était Jean de la Fontaine ?",
+    "reponses_suggerees": [
+      "Un écrivain de fables.",
+      "Un écrivain français."
+    ],
+    "bonne_reponse": "Un écrivain de fables.",
+    "distracteurs": [
+      "Un chef de guerre.",
+      "Un peintre de paysages.",
+      "Un sculpteur de statues."
+    ],
+    "explication": "Jean de La Fontaine (1621-1695) a écrit les Fables : de petites histoires en vers avec des animaux, comme Le Corbeau et le Renard. Chaque fable se termine par une leçon, la morale.",
+    "liens": [
+      {
+        "titre": "Molière et La Fontaine (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1/"
+      }
+    ],
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 158,
+    "question": "Quel écrivain est français ?",
+    "reponses_suggerees": [
+      "Victor Hugo.",
+      "Molière.",
+      "Albert Camus.",
+      "Émile Zola."
+    ],
+    "bonne_reponse": "Victor Hugo",
+    "distracteurs": [
+      "Goethe",
+      "Cervantès",
+      "Léon Tolstoï"
+    ],
+    "explication": "Victor Hugo (1802-1885) est un grand écrivain français, auteur des Misérables. Johann Wolfgang von Goethe était allemand, Miguel de Cervantès espagnol et Léon Tolstoï russe.",
+    "liens": [
+      {
+        "titre": "Les grands auteurs du XIXe siècle (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2/"
+      }
+    ],
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 159,
+    "question": "Dans quelle ville se trouve la tour Eiffel ?",
+    "reponses_suggerees": [
+      "Paris"
+    ],
+    "bonne_reponse": "Paris",
+    "distracteurs": [
+      "Lyon",
+      "Lille",
+      "Nice"
+    ],
+    "explication": "La tour Eiffel est à Paris. Elle a été construite par l'entreprise de Gustave Eiffel pour l'Exposition universelle de 1889.",
+    "liens": [
+      {
+        "titre": "Gustave Eiffel, l'homme de fer (archives-nationales.culture.gouv.fr)",
+        "url": "https://www.archives-nationales.culture.gouv.fr/dossiers-thematiques/gustave-eiffel-lhomme-de-fer"
+      }
+    ],
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 160,
+    "question": "Quand célèbre-t-on Noël ?",
+    "reponses_suggerees": [
+      "Le 25 décembre"
+    ],
+    "bonne_reponse": "Le 25 décembre",
+    "distracteurs": [
+      "Le 1er janvier",
+      "Le 15 août",
+      "Le 1er novembre"
+    ],
+    "explication": "Noël est célébré le 25 décembre. C'est une fête chrétienne, devenue aussi une fête familiale, et un jour férié en France. Le 1er janvier est le jour de l'An.",
+    "liens": [
+      {
+        "titre": "Jours fériés (service-public.fr)",
+        "url": "https://www.service-public.fr/particuliers/vosdroits/F2405"
+      }
+    ],
+    "sous_theme": "culture",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  }
+]

@@ -400,9 +400,9 @@ body.sans-nav .lecteur { bottom: calc(12px + env(safe-area-inset-bottom)); }
 
 /* ===== Refonte visuelle : bandeau, cartes d'action, icônes au trait, navigation flottante ===== */
 
-:root { --c-naturalisation: #2446b8; --c-resident: #15803d; --rayon-grand: 22px; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --c-naturalisation: #7b97ff; --c-resident: #4ade80; } }
-:root[data-theme="dark"] { --c-naturalisation: #7b97ff; --c-resident: #4ade80; }
+:root { --c-csp: #b45309; --c-naturalisation: #2446b8; --c-resident: #15803d; --rayon-grand: 22px; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --c-csp: #fbbf24; --c-naturalisation: #7b97ff; --c-resident: #4ade80; } }
+:root[data-theme="dark"] { --c-csp: #fbbf24; --c-naturalisation: #7b97ff; --c-resident: #4ade80; }
 
 h1 { font-weight: 800; letter-spacing: -.015em; }
 h2, .titre-section { font-weight: 750; letter-spacing: -.01em; }
@@ -539,6 +539,21 @@ body { padding-bottom: calc(100px + env(safe-area-inset-bottom)); }
 .nav-bas a span { display: grid; place-items: center; filter: none; font-size: inherit; }
 .nav-bas a .ic { width: 24px; height: 24px; }
 .lecteur { bottom: calc(96px + env(safe-area-inset-bottom)); }
+
+/* Choix de l'examen sur l'accueil */
+.petit-logo { width: 28px; height: 28px; border-radius: 9px; }
+.petit-logo .ic { width: 17px; height: 17px; }
+.carte-parcours.actif {
+  border: 2px solid var(--c);
+  background: color-mix(in srgb, var(--c) 6%, var(--surface));
+}
+.badge-choisi {
+  justify-self: start; display: inline-flex; align-items: center; gap: 4px; margin-bottom: 4px;
+  padding: 2px 10px; border-radius: 99px; font-size: .75rem; font-weight: 800;
+  background: var(--c); color: var(--surface);
+}
+.carte-parcours:not(.actif) .ca-meta { color: var(--texte-2); font-weight: 650; }
+.rond-discret { background: var(--surface-2); color: var(--texte-2); box-shadow: none; }
 
 /* ===== Écrans de cours ===== */
 

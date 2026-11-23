@@ -1,0 +1,1142 @@
+[
+  {
+    "src_id": 38,
+    "question": "Qui nomme le Premier ministre ?",
+    "reponses_suggerees": [
+      "Le Président de la République"
+    ],
+    "bonne_reponse": "Le Président de la République.",
+    "distracteurs": [
+      "Les députés.",
+      "Les sénateurs.",
+      "Les citoyens, par une élection."
+    ],
+    "explication": "Selon l'article 8 de la Constitution, le Président de la République nomme le Premier ministre. Il nomme aussi les ministres, sur proposition du Premier ministre.",
+    "sous_theme": "executif",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de resident #50",
+    "liens": [
+      {
+        "titre": "Qui désigne le Premier ministre ? (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19459-qui-designe-le-premier-ministre"
+      }
+    ]
+  },
+  {
+    "src_id": 39,
+    "question": "Le Parlement est composé :",
+    "reponses_suggerees": [
+      "De l'Assemblée Nationale et du Sénat.",
+      "Des députés (à l'Assemblée) et des sénateurs (au Sénat)."
+    ],
+    "bonne_reponse": "De l'Assemblée nationale et du Sénat.",
+    "distracteurs": [
+      "De l'Assemblée nationale et du Conseil constitutionnel.",
+      "Du Président et des ministres.",
+      "Du Sénat et du Conseil d'État."
+    ],
+    "explication": "Le Parlement français a deux chambres : l'Assemblée nationale, avec les députés, et le Sénat, avec les sénateurs.",
+    "sous_theme": "parlement",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de resident #67",
+    "liens": [
+      {
+        "titre": "Le Parlement (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19485-comment-definir-le-parlement"
+      }
+    ]
+  },
+  {
+    "src_id": 40,
+    "question": "Qu'est-ce que le pouvoir exécutif ? Le pouvoir :",
+    "reponses_suggerees": [
+      "de définir la politique de la Nation et de mettre en œuvre les lois.",
+      "d'appliquer les lois."
+    ],
+    "bonne_reponse": "D'appliquer les lois.",
+    "distracteurs": [
+      "De voter les lois.",
+      "De juger les personnes.",
+      "De contrôler le travail des juges."
+    ],
+    "explication": "Le pouvoir exécutif appartient au Président de la République et au Gouvernement. Selon l'article 20 de la Constitution, le Gouvernement conduit la politique de la Nation, et selon l'article 21, le Premier ministre assure l'exécution des lois.",
+    "liens": [
+      {
+        "titre": "La séparation des pouvoirs (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/275008-quentend-par-separation-des-pouvoirs"
+      }
+    ],
+    "sous_theme": "constitution",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 41,
+    "question": "Les dirigeants sont élus par les citoyens dans :",
+    "reponses_suggerees": [
+      "Une République",
+      "Une démocratie"
+    ],
+    "bonne_reponse": "Une démocratie.",
+    "distracteurs": [
+      "Une monarchie absolue.",
+      "Une dictature.",
+      "Un régime militaire."
+    ],
+    "explication": "Dans une démocratie, le pouvoir appartient au peuple : les citoyens choisissent leurs dirigeants par des élections libres. L'article 2 de la Constitution dit que le principe de la République est le « gouvernement du peuple, par le peuple et pour le peuple ».",
+    "liens": [
+      {
+        "titre": "La Constitution de 1958 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      }
+    ],
+    "sous_theme": "constitution",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 42,
+    "question": "A-t-on le droit de ne pas respecter une loi ?",
+    "reponses_suggerees": [
+      "Non, le respect de la loi est un devoir de tous les citoyens.",
+      "Non, respecter la loi est une obligation pour tout le monde."
+    ],
+    "bonne_reponse": "Non, respecter la loi est une obligation pour tout le monde.",
+    "distracteurs": [
+      "Oui, si on n'est pas d'accord avec cette loi.",
+      "Oui, si on ne connaît pas cette loi.",
+      "Oui, si on est étranger et qu'on vient d'arriver."
+    ],
+    "explication": "Tout le monde doit respecter la loi, même si on n'est pas d'accord avec elle. Ne pas connaître la loi n'est pas une excuse. Pour faire changer une loi, on peut agir par des moyens légaux : voter, signer une pétition, participer à une manifestation déclarée.",
+    "liens": [
+      {
+        "titre": "L'État de droit (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/274962-quelles-sont-les-caracteristiques-dun-etat-de-droit"
+      }
+    ],
+    "sous_theme": "constitution",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 43,
+    "question": "Qui doit respecter la loi ?",
+    "reponses_suggerees": [
+      "Tout le monde (Français et étrangers).",
+      "Toutes les personnes qui habitent ou voyagent en France.",
+      "Tout le monde, même l'État et les élus."
+    ],
+    "bonne_reponse": "Tout le monde (Français et étrangers).",
+    "distracteurs": [
+      "Les Français, mais pas les étrangers.",
+      "Les citoyens, mais pas les élus.",
+      "Les habitants, sauf les responsables politiques."
+    ],
+    "explication": "En France, la loi s'applique à toutes les personnes présentes sur le territoire, françaises ou étrangères. Les élus et l'État doivent aussi la respecter : c'est le principe de l'État de droit.",
+    "liens": [
+      {
+        "titre": "L'État de droit (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/274962-quelles-sont-les-caracteristiques-dun-etat-de-droit"
+      }
+    ],
+    "sous_theme": "constitution",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 44,
+    "question": "Quel est le rôle de l'autorité judiciaire ?",
+    "reponses_suggerees": [
+      "Rendre la justice et punir les personnes qui font des choses interdites.",
+      "Juger les personnes qui ne respectent pas la loi.",
+      "Régler les conflits entre les personnes."
+    ],
+    "bonne_reponse": "Juger les personnes qui ne respectent pas la loi.",
+    "distracteurs": [
+      "Voter les lois et le budget de l'État.",
+      "Nommer le Premier ministre et les ministres.",
+      "Organiser les élections dans les communes."
+    ],
+    "explication": "L'autorité judiciaire, ce sont les juges et les tribunaux. Ils punissent les infractions et règlent les conflits entre les personnes. Selon l'article 66 de la Constitution, elle protège aussi la liberté individuelle.",
+    "liens": [
+      {
+        "titre": "La séparation des pouvoirs (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/275008-quentend-par-separation-des-pouvoirs"
+      }
+    ],
+    "sous_theme": "justice",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 45,
+    "question": "Quel pouvoir détient un juge ? Le pouvoir :",
+    "reponses_suggerees": [
+      "judiciaire."
+    ],
+    "bonne_reponse": "Judiciaire.",
+    "distracteurs": [
+      "Législatif.",
+      "Exécutif.",
+      "Religieux."
+    ],
+    "explication": "Le juge exerce le pouvoir judiciaire : il applique la loi pour juger les affaires. Le pouvoir législatif vote les lois et le pouvoir exécutif les applique. Selon l'article 64 de la Constitution, l'autorité judiciaire est indépendante.",
+    "liens": [
+      {
+        "titre": "La séparation des pouvoirs (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/275008-quentend-par-separation-des-pouvoirs"
+      }
+    ],
+    "sous_theme": "justice",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 46,
+    "question": "L'autorité judiciaire est exercée par :",
+    "reponses_suggerees": [
+      "Les juges et les magistrats.",
+      "Les juges qui travaillent dans les tribunaux."
+    ],
+    "bonne_reponse": "Les juges et les magistrats.",
+    "distracteurs": [
+      "Les députés et les sénateurs.",
+      "Les maires et les préfets.",
+      "Les policiers et les gendarmes."
+    ],
+    "explication": "Les magistrats sont les juges et les procureurs. Ils travaillent dans les tribunaux et les cours. Les policiers et les gendarmes aident la justice dans les enquêtes, mais ils ne jugent pas.",
+    "liens": [
+      {
+        "titre": "Les juridictions pénales (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2202"
+      }
+    ],
+    "sous_theme": "justice",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 47,
+    "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+    "reponses_suggerees": [
+      "Il peut perdre son poste et être jugé au tribunal.",
+      "Il peut être jugé et puni, comme tout le monde."
+    ],
+    "bonne_reponse": "Il peut être jugé et puni, comme tout le monde.",
+    "distracteurs": [
+      "Rien, car les ministres sont protégés par la loi.",
+      "Il ne peut pas être jugé tant qu'il est ministre.",
+      "Seul le Président peut décider de le punir."
+    ],
+    "explication": "Un ministre doit respecter la loi comme tous les citoyens. Pour un crime ou un délit commis dans ses fonctions, il est jugé par la Cour de justice de la République (article 68-1 de la Constitution). Pour les autres faits, il est jugé par les tribunaux ordinaires.",
+    "liens": [
+      {
+        "titre": "La Constitution de 1958 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      }
+    ],
+    "sous_theme": "justice",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 48,
+    "question": "Qui est élu lors des élections législatives ?",
+    "reponses_suggerees": [
+      "Les députés"
+    ],
+    "bonne_reponse": "Les députés.",
+    "distracteurs": [
+      "Les sénateurs.",
+      "Les maires.",
+      "Les conseillers régionaux."
+    ],
+    "explication": "Les élections législatives servent à élire les 577 députés de l'Assemblée nationale.",
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #58",
+    "liens": [
+      {
+        "titre": "Le Parlement (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19485-comment-definir-le-parlement"
+      }
+    ]
+  },
+  {
+    "src_id": 49,
+    "question": "Combien de députés composent l’Assemblée nationale ?",
+    "reponses_suggerees": [
+      "577"
+    ],
+    "bonne_reponse": "577.",
+    "distracteurs": [
+      "348.",
+      "500.",
+      "650."
+    ],
+    "explication": "L'Assemblée nationale compte 577 députés, élus pour 5 ans. Le Sénat compte 348 sénateurs.",
+    "sous_theme": "parlement",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Reprise de resident #57",
+    "liens": [
+      {
+        "titre": "Le Parlement (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19485-comment-definir-le-parlement"
+      }
+    ]
+  },
+  {
+    "src_id": 50,
+    "question": "Quand sont élus les sénateurs ?",
+    "reponses_suggerees": [
+      "Tous les 6 ans (chaque sénateur est élu pour 6 ans).",
+      "Tous les 3 ans (pour la moitié des sénateurs)."
+    ],
+    "bonne_reponse": "Tous les 6 ans (chaque sénateur est élu pour 6 ans).",
+    "distracteurs": [
+      "Tous les 5 ans (en même temps que les députés).",
+      "Tous les 4 ans (chaque sénateur est élu pour 4 ans).",
+      "Chaque année (pour un tiers des sénateurs)."
+    ],
+    "explication": "Chaque sénateur est élu pour 6 ans par des grands électeurs, surtout des élus locaux. Mais la moitié du Sénat est renouvelée tous les 3 ans : les dernières élections sénatoriales ont eu lieu en septembre 2026.",
+    "liens": [
+      {
+        "titre": "L'élection des sénateurs (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19586-lelection-des-senateurs-senatoriales"
+      }
+    ],
+    "sous_theme": "parlement",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 51,
+    "question": "Qui est élu lors des élections municipales ?",
+    "reponses_suggerees": [
+      "Les conseillers municipaux.",
+      "Le conseil municipal."
+    ],
+    "bonne_reponse": "Les conseillers municipaux.",
+    "distracteurs": [
+      "Les députés.",
+      "Les sénateurs.",
+      "Les conseillers régionaux."
+    ],
+    "explication": "Aux élections municipales, les électeurs élisent les conseillers municipaux. Ensuite, ces conseillers élisent le maire parmi eux.",
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #43",
+    "liens": [
+      {
+        "titre": "L'élection du maire (collectivites-locales.gouv.fr)",
+        "url": "https://www.collectivites-locales.gouv.fr/institutions/election-du-maire"
+      }
+    ]
+  },
+  {
+    "src_id": 52,
+    "question": "Qui est élu lors des élections présidentielles ?",
+    "reponses_suggerees": [
+      "Le Président de la République"
+    ],
+    "bonne_reponse": "Le Président de la République.",
+    "distracteurs": [
+      "Le Premier ministre.",
+      "Le président du Sénat.",
+      "Le président de l'Assemblée nationale."
+    ],
+    "explication": "Les électeurs élisent le Président de la République au suffrage universel direct, pour 5 ans. La dernière élection présidentielle a eu lieu en avril 2022 ; la prochaine est prévue en 2027.",
+    "liens": [
+      {
+        "titre": "Le Président dans la Constitution (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/le-president-dans-la-constitution"
+      }
+    ],
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 53,
+    "question": "À partir de quel âge a-t-on le droit de voter ?",
+    "reponses_suggerees": [
+      "18 ans"
+    ],
+    "bonne_reponse": "18 ans.",
+    "distracteurs": [
+      "16 ans.",
+      "21 ans.",
+      "25 ans."
+    ],
+    "explication": "En France, on peut voter à partir de 18 ans, l'âge de la majorité, depuis la loi du 5 juillet 1974. Avant, il fallait avoir 21 ans. Il faut aussi être français et inscrit sur les listes électorales.",
+    "liens": [
+      {
+        "titre": "S'inscrire sur les listes électorales (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1367"
+      }
+    ],
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 54,
+    "question": "Pour combien de temps est élu le président de la République française ?",
+    "reponses_suggerees": [
+      "5 ans"
+    ],
+    "bonne_reponse": "5 ans.",
+    "distracteurs": [
+      "4 ans.",
+      "6 ans.",
+      "7 ans."
+    ],
+    "explication": "Depuis le référendum du 24 septembre 2000, le Président est élu pour 5 ans : c'est le quinquennat. Avant, son mandat durait 7 ans. Selon l'article 6 de la Constitution, il ne peut pas faire plus de deux mandats de suite.",
+    "liens": [
+      {
+        "titre": "Le Président dans la Constitution (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/le-president-dans-la-constitution"
+      }
+    ],
+    "sous_theme": "executif",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 55,
+    "question": "Pour combien de temps sont élus les députés ?",
+    "reponses_suggerees": [
+      "5 ans"
+    ],
+    "bonne_reponse": "5 ans.",
+    "distracteurs": [
+      "4 ans.",
+      "6 ans.",
+      "7 ans."
+    ],
+    "explication": "Les 577 députés sont élus pour 5 ans au suffrage universel direct. Mais le Président de la République peut dissoudre l'Assemblée nationale : il y a alors de nouvelles élections plus tôt, comme en juin et juillet 2024.",
+    "liens": [
+      {
+        "titre": "Le Parlement (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19485-comment-definir-le-parlement"
+      }
+    ],
+    "sous_theme": "parlement",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 56,
+    "question": "Pour combien de temps sont élus les sénateurs ?",
+    "reponses_suggerees": [
+      "6 ans"
+    ],
+    "bonne_reponse": "6 ans.",
+    "distracteurs": [
+      "3 ans.",
+      "5 ans.",
+      "9 ans."
+    ],
+    "explication": "Les sénateurs sont élus pour 6 ans par des grands électeurs, surtout des élus locaux. La moitié du Sénat est renouvelée tous les 3 ans : la dernière fois, c'était en septembre 2026.",
+    "sous_theme": "parlement",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Reprise de resident #59",
+    "liens": [
+      {
+        "titre": "L'élection des sénateurs (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19586-lelection-des-senateurs-senatoriales"
+      }
+    ]
+  },
+  {
+    "src_id": 57,
+    "question": "Qui possède le pouvoir exécutif ?",
+    "reponses_suggerees": [
+      "Le gouvernement.",
+      "Le Président de la République et le gouvernement.",
+      "Le Président et ses ministres.",
+      "Le chef de l'État et le gouvernement."
+    ],
+    "bonne_reponse": "Le Président de la République et le gouvernement.",
+    "distracteurs": [
+      "Le Parlement et le Conseil constitutionnel.",
+      "Les juges et les tribunaux.",
+      "Les députés et les sénateurs."
+    ],
+    "explication": "Le pouvoir exécutif est partagé entre le Président de la République et le Gouvernement, dirigé par le Premier ministre. Ils appliquent les lois et conduisent la politique du pays.",
+    "liens": [
+      {
+        "titre": "Le rôle du Président (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/le-role-du-president"
+      }
+    ],
+    "sous_theme": "executif",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 58,
+    "question": "Quelle condition est nécessaire pour voter aux élections ?",
+    "reponses_suggerees": [
+      "Être français et avoir 18 ans ou plus.",
+      "Avoir la nationalité française et être majeur (18 ans).",
+      "Être inscrit sur les listes électorales.",
+      "Ne pas avoir perdu ses droits civiques."
+    ],
+    "bonne_reponse": "Être français et avoir 18 ans ou plus.",
+    "distracteurs": [
+      "Être né en France et avoir un emploi.",
+      "Être propriétaire de son logement.",
+      "Avoir plus de 21 ans et payer des impôts."
+    ],
+    "explication": "Pour voter, il faut avoir la nationalité française, au moins 18 ans et ses droits civiques, et être inscrit sur les listes électorales. Les citoyens des autres pays de l'Union européenne peuvent voter seulement aux élections municipales et européennes.",
+    "liens": [
+      {
+        "titre": "S'inscrire sur les listes électorales (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1367"
+      }
+    ],
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 59,
+    "question": "Qui peut voter aux élections en France ?",
+    "reponses_suggerees": [
+      "Les citoyens français de 18 ans et plus"
+    ],
+    "bonne_reponse": "Les citoyens français de 18 ans et plus.",
+    "distracteurs": [
+      "Tous les habitants, quelle que soit leur nationalité.",
+      "Les Français âgés de plus de 21 ans.",
+      "Les étrangers qui vivent en France depuis 10 ans."
+    ],
+    "explication": "Le droit de vote appartient aux citoyens français majeurs qui ont leurs droits civiques et sont inscrits sur les listes électorales. Les citoyens des autres pays de l'Union européenne peuvent voter seulement aux élections municipales et européennes. Les autres étrangers ne peuvent pas voter.",
+    "liens": [
+      {
+        "titre": "S'inscrire sur les listes électorales (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1367"
+      }
+    ],
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 60,
+    "question": "Que signifie « suffrage universel » ?",
+    "reponses_suggerees": [
+      "Tous les citoyens majeurs (hommes et femmes) peuvent voter.",
+      "Le droit de vote pour tous les citoyens de 18 ans et plus"
+    ],
+    "bonne_reponse": "Tous les citoyens majeurs (hommes et femmes) peuvent voter.",
+    "distracteurs": [
+      "Les citoyens qui paient des impôts peuvent voter.",
+      "Les élus choisissent le Président à la place des citoyens.",
+      "Le vote est obligatoire pour les citoyens."
+    ],
+    "explication": "Le suffrage universel veut dire que tous les citoyens majeurs ont le droit de voter, sans condition de richesse ou de sexe (article 3 de la Constitution). En France, il existe pour les hommes depuis 1848 et pour les femmes depuis 1944 : elles ont voté pour la première fois en 1945.",
+    "liens": [
+      {
+        "titre": "La Constitution de 1958 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      }
+    ],
+    "sous_theme": "elections",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 61,
+    "question": "Concernant les partis politiques, quelle proposition est correcte ?",
+    "reponses_suggerees": [
+      "Ils se forment et exercent leur activité librement.",
+      "Ils proposent des idées et des candidats pour les élections.",
+      "Ils présentent des candidats et des projets pour le pays."
+    ],
+    "bonne_reponse": "Ils se forment et exercent leur activité librement.",
+    "distracteurs": [
+      "Un seul parti a le droit d'exister en France.",
+      "Ils sont créés et dirigés par le Gouvernement.",
+      "Ils doivent être autorisés par le Président."
+    ],
+    "explication": "Selon l'article 4 de la Constitution, les partis politiques se forment et exercent leur activité librement. Ils présentent des candidats aux élections et doivent respecter la démocratie. Il existe de nombreux partis en France : c'est le pluralisme.",
+    "liens": [
+      {
+        "titre": "La Constitution de 1958 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      }
+    ],
+    "sous_theme": "constitution",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 62,
+    "question": "Quel est le rôle des députés ?",
+    "reponses_suggerees": [
+      "Ils votent les lois et surveillent le gouvernement.",
+      "Voter les lois et contrôler l'action du gouvernement."
+    ],
+    "bonne_reponse": "Voter les lois et contrôler l'action du gouvernement.",
+    "distracteurs": [
+      "Juger les personnes qui ne respectent pas la loi.",
+      "Nommer le Premier ministre et les ministres.",
+      "Diriger les communes et les départements."
+    ],
+    "explication": "Les députés siègent à l'Assemblée nationale. Avec les sénateurs, ils votent les lois et contrôlent l'action du Gouvernement (article 24 de la Constitution). Ils peuvent aussi renverser le Gouvernement en votant une motion de censure.",
+    "liens": [
+      {
+        "titre": "Les pouvoirs du Parlement (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19488-quels-sont-les-pouvoirs-du-parlement"
+      }
+    ],
+    "sous_theme": "parlement",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 63,
+    "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "reponses_suggerees": [
+      "Le pouvoir exécutif, le pouvoir législatif et le pouvoir judiciaire"
+    ],
+    "bonne_reponse": "Le pouvoir exécutif, le pouvoir législatif et le pouvoir judiciaire.",
+    "distracteurs": [
+      "Le pouvoir militaire, le pouvoir religieux et le pouvoir économique.",
+      "Le pouvoir national, le pouvoir régional et le pouvoir municipal.",
+      "Le pouvoir médiatique, le pouvoir financier et le pouvoir syndical."
+    ],
+    "explication": "Le pouvoir législatif vote les lois, le pouvoir exécutif les applique et le pouvoir judiciaire juge. Chaque pouvoir limite les autres : cela protège les libertés. Cette idée a été développée par le philosophe Montesquieu, au XVIIIe siècle.",
+    "liens": [
+      {
+        "titre": "La séparation des pouvoirs (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/275008-quentend-par-separation-des-pouvoirs"
+      }
+    ],
+    "sous_theme": "constitution",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 64,
+    "question": "Qui possède le pouvoir législatif ?",
+    "reponses_suggerees": [
+      "Le Parlement (Assemblée Nationale et Sénat)",
+      "Les députés et les sénateurs."
+    ],
+    "bonne_reponse": "Les députés et les sénateurs.",
+    "distracteurs": [
+      "Les juges et les avocats.",
+      "Les maires et les préfets.",
+      "Les membres du Conseil constitutionnel."
+    ],
+    "explication": "Le pouvoir législatif appartient au Parlement. Il est formé de l'Assemblée nationale, avec 577 députés, et du Sénat, avec 348 sénateurs. Ensemble, ils votent les lois.",
+    "liens": [
+      {
+        "titre": "Le Parlement (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19485-comment-definir-le-parlement"
+      }
+    ],
+    "sous_theme": "parlement",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 65,
+    "question": "Qui sanctionne l'auteur d'un vol ?",
+    "reponses_suggerees": [
+      "Le juge"
+    ],
+    "bonne_reponse": "Le juge.",
+    "distracteurs": [
+      "Le maire.",
+      "Le préfet.",
+      "La victime."
+    ],
+    "explication": "Seule la justice peut punir l'auteur d'une infraction. La police enquête, mais c'est un juge qui décide de la peine. Pour un vol, c'est en général le tribunal correctionnel.",
+    "liens": [
+      {
+        "titre": "Les juridictions pénales (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2202"
+      }
+    ],
+    "sous_theme": "justice",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 66,
+    "question": "Qui élit les députés ?",
+    "reponses_suggerees": [
+      "Les citoyens français"
+    ],
+    "bonne_reponse": "Les citoyens français.",
+    "distracteurs": [
+      "Les sénateurs.",
+      "Le Président de la République.",
+      "Les maires."
+    ],
+    "explication": "Les députés sont élus au suffrage universel direct par les électeurs français, lors des élections législatives. La France est divisée en 577 circonscriptions : chacune élit un député.",
+    "liens": [
+      {
+        "titre": "Le Parlement (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19485-comment-definir-le-parlement"
+      }
+    ],
+    "sous_theme": "elections",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 67,
+    "question": "Qui vote les lois ?",
+    "reponses_suggerees": [
+      "Le Parlement.",
+      "L'Assemblée nationale et le Sénat."
+    ],
+    "bonne_reponse": "Le Parlement.",
+    "distracteurs": [
+      "Le Président de la République.",
+      "Le Premier ministre.",
+      "Le Conseil constitutionnel."
+    ],
+    "explication": "Le Parlement, c'est-à-dire l'Assemblée nationale et le Sénat, discute et vote les lois. Le Président les promulgue ensuite.",
+    "sous_theme": "parlement",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #54",
+    "liens": [
+      {
+        "titre": "Les pouvoirs du Parlement (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19488-quels-sont-les-pouvoirs-du-parlement"
+      }
+    ]
+  },
+  {
+    "src_id": 68,
+    "question": "Qui réside au palais de l'Élysée ?",
+    "reponses_suggerees": [
+      "Le Président de la République"
+    ],
+    "bonne_reponse": "Le Président de la République.",
+    "distracteurs": [
+      "Le Premier ministre.",
+      "Le président du Sénat.",
+      "Le maire de Paris."
+    ],
+    "explication": "Le palais de l'Élysée, à Paris, est la résidence officielle du Président de la République. Le Premier ministre travaille à l'hôtel de Matignon. Le Sénat siège au palais du Luxembourg et l'Assemblée nationale au palais Bourbon.",
+    "liens": [
+      {
+        "titre": "Le rôle du Président (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/le-role-du-president"
+      }
+    ],
+    "sous_theme": "executif",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 69,
+    "question": "Combien y a-t-il de départements en France ?",
+    "reponses_suggerees": [
+      "101"
+    ],
+    "bonne_reponse": "101.",
+    "distracteurs": [
+      "90.",
+      "110.",
+      "120."
+    ],
+    "explication": "La France compte 101 départements : 96 en métropole et 5 en outre-mer, qui sont la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte.",
+    "sous_theme": "collectivites",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #73",
+    "liens": [
+      {
+        "titre": "Les collectivités locales en chiffres (collectivites-locales.gouv.fr)",
+        "url": "https://www.collectivites-locales.gouv.fr/les-collectivites-locales-en-chiffres-2025"
+      }
+    ]
+  },
+  {
+    "src_id": 70,
+    "question": "Qui représente l'État dans un département ?",
+    "reponses_suggerees": [
+      "Le Préfet"
+    ],
+    "bonne_reponse": "Le préfet.",
+    "distracteurs": [
+      "Le maire.",
+      "Le président du conseil départemental.",
+      "Le député."
+    ],
+    "explication": "Le préfet est nommé par le Président de la République, en Conseil des ministres. Il représente l'État dans le département. Le président du conseil départemental, lui, est un élu : il dirige le département en tant que collectivité.",
+    "sous_theme": "collectivites",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #75",
+    "liens": [
+      {
+        "titre": "Le rôle du préfet (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/20169-role-du-prefet-departement"
+      }
+    ]
+  },
+  {
+    "src_id": 71,
+    "question": "Qui dirige la commune ?",
+    "reponses_suggerees": [
+      "Le Maire.",
+      "Le maire et le conseil municipal."
+    ],
+    "bonne_reponse": "Le maire.",
+    "distracteurs": [
+      "Le préfet.",
+      "Le député.",
+      "Le président de la région."
+    ],
+    "explication": "Le maire dirige la commune avec le conseil municipal. Il exécute les décisions du conseil municipal.",
+    "sous_theme": "collectivites",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de resident #64",
+    "liens": [
+      {
+        "titre": "Les fonctions du maire (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19617-les-fonctions-dun-maire"
+      }
+    ]
+  },
+  {
+    "src_id": 72,
+    "question": "Est-ce que le Président de la République a tous les pouvoirs ?",
+    "reponses_suggerees": [
+      "Non, il partage le pouvoir avec le Gouvernement et le Parlement.",
+      "Non, le pouvoir est partagé."
+    ],
+    "bonne_reponse": "Non, le pouvoir est partagé.",
+    "distracteurs": [
+      "Oui, il peut faire les lois sans le Parlement.",
+      "Oui, il peut changer les juges quand il veut.",
+      "Oui, car il est élu directement par le peuple."
+    ],
+    "explication": "Le Président doit respecter la Constitution. Il partage le pouvoir avec le Gouvernement et le Parlement, et la justice est indépendante. La plupart de ses décisions doivent aussi être signées par le Premier ministre ou un ministre.",
+    "liens": [
+      {
+        "titre": "Le Président a-t-il tous les pouvoirs ? (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19415-le-president-de-la-republique-t-il-tous-les-pouvoirs"
+      }
+    ],
+    "sous_theme": "constitution",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 73,
+    "question": "Qui est le préfet ?",
+    "reponses_suggerees": [
+      "Le représentant de l'État dans un département ou une région.",
+      "La personne qui représente le gouvernement dans un département."
+    ],
+    "bonne_reponse": "Le représentant de l'État dans un département ou une région.",
+    "distracteurs": [
+      "L'élu qui dirige le conseil départemental ou le conseil régional.",
+      "Le chef de la police municipale dans une commune.",
+      "Un juge qui travaille au tribunal administratif."
+    ],
+    "explication": "Le préfet est nommé par le Président de la République, en Conseil des ministres. Il représente l'État et le Gouvernement, veille à l'ordre public et contrôle que les décisions des collectivités respectent la loi. Le président du conseil départemental, lui, est un élu.",
+    "liens": [
+      {
+        "titre": "Le rôle du préfet (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/20169-role-du-prefet-departement"
+      }
+    ],
+    "sous_theme": "collectivites",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 74,
+    "question": "Quel est le rôle du Parlement ?",
+    "reponses_suggerees": [
+      "Il discute et vote les lois.",
+      "Voter les lois."
+    ],
+    "bonne_reponse": "Il discute et vote les lois.",
+    "distracteurs": [
+      "Il nomme le Premier ministre.",
+      "Il juge les crimes et les délits.",
+      "Il dirige la police et l'armée."
+    ],
+    "explication": "Selon l'article 24 de la Constitution, le Parlement vote la loi, contrôle l'action du Gouvernement et évalue les politiques publiques. Il est formé de l'Assemblée nationale et du Sénat.",
+    "liens": [
+      {
+        "titre": "Les pouvoirs du Parlement (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19488-quels-sont-les-pouvoirs-du-parlement"
+      }
+    ],
+    "sous_theme": "parlement",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 75,
+    "question": "Quel est le régime politique de la France aujourd'hui ?",
+    "reponses_suggerees": [
+      "Une République.",
+      "Une République démocratique."
+    ],
+    "bonne_reponse": "Une République démocratique.",
+    "distracteurs": [
+      "Une monarchie constitutionnelle.",
+      "Un empire.",
+      "Un régime militaire."
+    ],
+    "explication": "Selon l'article 1er de la Constitution du 4 octobre 1958, la France est une République indivisible, laïque, démocratique et sociale.",
+    "sous_theme": "constitution",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de resident #65",
+    "liens": [
+      {
+        "titre": "La Constitution de 1958 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      }
+    ]
+  },
+  {
+    "src_id": 76,
+    "question": "Combien d'États font partie de l'Union européenne au 1er janvier 2025 ?",
+    "reponses_suggerees": [
+      "27"
+    ],
+    "bonne_reponse": "27.",
+    "distracteurs": [
+      "25.",
+      "28.",
+      "30."
+    ],
+    "explication": "L'Union européenne compte 27 pays membres depuis le départ du Royaume-Uni, le 31 janvier 2020. C'est toujours le cas aujourd'hui.",
+    "sous_theme": "europe",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #87",
+    "liens": [
+      {
+        "titre": "Les pays de l'Union européenne (europa.eu)",
+        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_fr"
+      }
+    ]
+  },
+  {
+    "src_id": 77,
+    "question": "Quel État n'est pas membre de l'Union européenne ?",
+    "reponses_suggerees": [
+      "La Suisse.",
+      "La Norvège.",
+      "Le Royaume-Uni.",
+      "L'Islande."
+    ],
+    "bonne_reponse": "La Suisse.",
+    "distracteurs": [
+      "La Belgique.",
+      "Le Portugal.",
+      "L'Autriche."
+    ],
+    "explication": "La Suisse n'est pas membre de l'Union européenne. La Norvège et l'Islande non plus. La Belgique, le Portugal et l'Autriche en font partie.",
+    "sous_theme": "europe",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Reprise de resident #86",
+    "liens": [
+      {
+        "titre": "Les pays de l'Union européenne (europa.eu)",
+        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_fr"
+      }
+    ]
+  },
+  {
+    "src_id": 78,
+    "question": "Pour voter aux élections européennes en France, il faut :",
+    "reponses_suggerees": [
+      "Avoir 18 ans et être citoyen d'un pays de l'Union européenne"
+    ],
+    "bonne_reponse": "Avoir 18 ans et être citoyen d'un pays de l'Union européenne.",
+    "distracteurs": [
+      "Avoir 18 ans et un titre de séjour valable depuis plus de 5 ans.",
+      "Avoir 21 ans et être de nationalité française.",
+      "Être né en Europe et habiter en France."
+    ],
+    "explication": "Aux élections européennes, en France, peuvent voter les Français majeurs et les citoyens majeurs des autres pays de l'Union européenne qui habitent en France. Il faut aussi être inscrit sur les listes électorales. Les étrangers qui ne sont pas européens ne peuvent pas voter.",
+    "liens": [
+      {
+        "titre": "Comment sont élus les députés européens ? (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/20338-comment-les-deputes-europeens-sont-ils-elus"
+      },
+      {
+        "titre": "S'inscrire sur les listes électorales (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1367"
+      }
+    ],
+    "sous_theme": "elections",
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 79,
+    "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
+    "reponses_suggerees": [
+      "Tous les 5 ans"
+    ],
+    "bonne_reponse": "Tous les 5 ans.",
+    "distracteurs": [
+      "Tous les 4 ans.",
+      "Tous les 6 ans.",
+      "Tous les 7 ans."
+    ],
+    "explication": "Les députés européens sont élus pour 5 ans. Les dernières élections ont eu lieu en juin 2024 : la France a élu 81 députés européens sur 720.",
+    "sous_theme": "elections",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Reprise de resident #88",
+    "liens": [
+      {
+        "titre": "Comment sont élus les députés européens ? (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/20338-comment-les-deputes-europeens-sont-ils-elus"
+      }
+    ]
+  },
+  {
+    "src_id": 80,
+    "question": "Quel pays est un pays fondateur de l'Union européenne ?",
+    "reponses_suggerees": [
+      "La France",
+      "L'Allemagne",
+      "L'Italie",
+      "La Belgique",
+      "Les Pays-Bas",
+      "Le Luxembourg"
+    ],
+    "bonne_reponse": "L'Italie.",
+    "distracteurs": [
+      "L'Espagne.",
+      "Le Royaume-Uni.",
+      "La Pologne."
+    ],
+    "explication": "Les six pays fondateurs sont la France, l'Allemagne de l'Ouest, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. Ils ont signé le traité de Paris en 1951, puis le traité de Rome en 1957. L'Espagne est entrée en 1986 et la Pologne en 2004.",
+    "sous_theme": "europe",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Reprise de resident #90",
+    "liens": [
+      {
+        "titre": "Histoire de l'Union européenne (europa.eu)",
+        "url": "https://european-union.europa.eu/principles-countries-history/history-eu_fr"
+      }
+    ]
+  },
+  {
+    "src_id": 81,
+    "question": "Quelle est la monnaie utilisée en France ?",
+    "reponses_suggerees": [
+      "L'euro"
+    ],
+    "bonne_reponse": "L'euro.",
+    "distracteurs": [
+      "Le franc.",
+      "Le dollar.",
+      "Le mark."
+    ],
+    "explication": "L'euro est la monnaie de la France et de plusieurs autres pays de l'Union européenne. Les pièces et les billets en euros sont utilisés depuis le 1er janvier 2002. Avant, la France utilisait le franc.",
+    "liens": [
+      {
+        "titre": "L'euro (europa.eu)",
+        "url": "https://european-union.europa.eu/institutions-law-budget/euro_fr"
+      }
+    ],
+    "sous_theme": "europe",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 82,
+    "question": "Qui élit les députés européens ?",
+    "reponses_suggerees": [
+      "Les citoyens de l'Union européenne."
+    ],
+    "bonne_reponse": "Les citoyens de l'Union européenne.",
+    "distracteurs": [
+      "Les chefs d'État des pays européens.",
+      "Les députés de l'Assemblée nationale.",
+      "La Commission européenne."
+    ],
+    "explication": "Les députés européens sont élus au suffrage universel direct, tous les 5 ans, par les citoyens des pays de l'Union européenne. Depuis les élections de juin 2024, le Parlement européen compte 720 députés, dont 81 élus en France.",
+    "liens": [
+      {
+        "titre": "Comment sont élus les députés européens ? (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/20338-comment-les-deputes-europeens-sont-ils-elus"
+      }
+    ],
+    "sous_theme": "europe",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 83,
+    "question": "Quand célèbre-t-on la journée de l'Europe ?",
+    "reponses_suggerees": [
+      "Le 9 mai"
+    ],
+    "bonne_reponse": "Le 9 mai.",
+    "distracteurs": [
+      "Le 1er mai.",
+      "Le 8 mai.",
+      "Le 14 juillet."
+    ],
+    "explication": "Le 9 mai rappelle la déclaration de Robert Schuman, ministre français des Affaires étrangères, le 9 mai 1950. Elle a lancé la construction européenne.",
+    "sous_theme": "europe",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": "Reprise de resident #87",
+    "liens": [
+      {
+        "titre": "La déclaration Schuman (europa.eu)",
+        "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59/schuman-declaration-may-1950_fr"
+      }
+    ]
+  }
+]

@@ -8,8 +8,8 @@ const etatInitial = () => ({
   version: 1,
   parcours: null,
   prefs: { taille: 'normal', theme: 'auto', vitesse: 1, voix: '' },
-  progress: { naturalisation: {}, resident: {} },
-  examens: { naturalisation: [], resident: [] },
+  progress: { csp: {}, naturalisation: {}, resident: {} },
+  examens: { csp: [], naturalisation: [], resident: [] },
   activite: { dernierJour: '', serie: 0 },
 });
 

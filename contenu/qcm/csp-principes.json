@@ -1,0 +1,934 @@
+[
+  {
+    "src_id": 1,
+    "question": "À quoi correspond la date du 14 juillet ?",
+    "reponses_suggerees": [
+      "La Fête Nationale française"
+    ],
+    "bonne_reponse": "La fête nationale française",
+    "distracteurs": [
+      "La fête du Travail",
+      "L'armistice de la Première Guerre mondiale",
+      "La signature de la Constitution"
+    ],
+    "explication": "Le 14 juillet est la fête nationale depuis la loi du 6 juillet 1880. Il rappelle la prise de la Bastille (14 juillet 1789) et la fête de la Fédération (14 juillet 1790). La fête du Travail est le 1er mai et l'armistice de 1918 le 11 novembre.",
+    "liens": [
+      {
+        "titre": "La fête nationale du 14 juillet (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 2,
+    "question": "Quel est l’un des symboles de la République française ?",
+    "reponses_suggerees": [
+      "La Marseillaise.",
+      "Le drapeau tricolore (bleu, blanc, rouge).",
+      "Marianne (le visage de la femme sur les timbres).",
+      "La devise \"Liberté, Égalité, Fraternité\".",
+      "Le 14 juillet (la fête nationale).",
+      "La langue française."
+    ],
+    "bonne_reponse": "La Marseillaise",
+    "distracteurs": [
+      "La tour Eiffel",
+      "La fleur de lys",
+      "Le château de Versailles"
+    ],
+    "explication": "La Marseillaise est l'hymne national. Elle est inscrite à l'article 2 de la Constitution, avec le drapeau, la devise et la langue française. La fleur de lys était le symbole des rois de France.",
+    "liens": [
+      {
+        "titre": "Les symboles de la République (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19564-quels-sont-les-symboles-et-les-emblemes-de-la-ve-republique"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 3,
+    "question": "Le principe d’égalité signifie que :",
+    "reponses_suggerees": [
+      "Tous les citoyens ont les mêmes droits.",
+      "La loi est la même pour tout le monde.",
+      "Les règles et les punitions sont les mêmes pour tous."
+    ],
+    "bonne_reponse": "La loi est la même pour tout le monde.",
+    "distracteurs": [
+      "Tout le monde gagne le même salaire.",
+      "Les droits dépendent de la richesse.",
+      "Les hommes ont plus de droits que les femmes."
+    ],
+    "explication": "La Déclaration des droits de l'homme et du citoyen de 1789 dit que la loi « doit être la même pour tous ». L'article 1er de la Constitution assure l'égalité de tous les citoyens devant la loi, sans distinction d'origine, de race ou de religion.",
+    "liens": [
+      {
+        "titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      }
+    ],
+    "sous_theme": "egalite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 4,
+    "question": "\"Liberté, Égalité, Fraternité\", c’est :",
+    "reponses_suggerees": [
+      "La devise de la France."
+    ],
+    "bonne_reponse": "La devise de la France.",
+    "distracteurs": [
+      "L'hymne de la France.",
+      "Le nom d'un parti politique.",
+      "Un symbole de l'Union européenne."
+    ],
+    "explication": "« Liberté, Égalité, Fraternité » est la devise de la République, inscrite à l'article 2 de la Constitution du 4 octobre 1958. L'hymne national est la Marseillaise, et la devise de l'Union européenne est « Unie dans la diversité ».",
+    "liens": [
+      {
+        "titre": "Liberté, Égalité, Fraternité (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/liberte-egalite-fraternite"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 5,
+    "question": "A-t-on le droit d'insulter publiquement quelqu’un parce qu’il est différent (handicap, apparence physique, sexe…) ?",
+    "reponses_suggerees": [
+      "Non, c'est interdit par la loi et puni par la justice."
+    ],
+    "bonne_reponse": "Non, c'est interdit par la loi et puni par la justice.",
+    "distracteurs": [
+      "Oui, c'est permis par la liberté d'expression.",
+      "Oui, si la personne n'est pas présente.",
+      "Non, sauf si c'est dit sur Internet."
+    ],
+    "explication": "L'injure publique est un délit prévu par la loi du 29 juillet 1881. Quand elle vise le sexe, le handicap, l'origine ou la religion d'une personne, elle est punie d'un an de prison et de 45 000 € d'amende. C'est la même règle sur Internet.",
+    "liens": [
+      {
+        "titre": "Injure (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32077"
+      }
+    ],
+    "sous_theme": "egalite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 6,
+    "question": "Certains métiers peuvent-ils être réservés aux hommes ?",
+    "reponses_suggerees": [
+      "Non, tous les métiers sont ouverts aux femmes comme aux hommes"
+    ],
+    "bonne_reponse": "Non, tous les métiers sont ouverts aux femmes comme aux hommes",
+    "distracteurs": [
+      "Oui, les métiers physiques sont réservés aux hommes",
+      "Oui, l'armée et la police sont réservées aux hommes",
+      "Oui, un employeur peut choisir de n'embaucher que des hommes pour un poste"
+    ],
+    "explication": "L'égalité entre les femmes et les hommes est un principe de la Constitution. Le Code du travail interdit de refuser un emploi à une personne à cause de son sexe. Les femmes peuvent par exemple être militaires, policières ou pompières.",
+    "liens": [
+      {
+        "titre": "Discrimination (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19448"
+      }
+    ],
+    "sous_theme": "egalite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 7,
+    "question": "De quand date la Constitution de la Ve République ?",
+    "reponses_suggerees": [
+      "1958"
+    ],
+    "bonne_reponse": "1958",
+    "distracteurs": [
+      "1946",
+      "1875",
+      "1789"
+    ],
+    "explication": "La Constitution de la Ve République date du 4 octobre 1958. Elle a été approuvée par les Français par référendum le 28 septembre 1958. La Constitution de 1946 était celle de la IVe République.",
+    "liens": [
+      {
+        "titre": "La Constitution de 1958 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      }
+    ],
+    "sous_theme": "valeurs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 8,
+    "question": "Le régime de la France est :",
+    "reponses_suggerees": [
+      "Une république.",
+      "Une démocratie.",
+      "Une république démocratique."
+    ],
+    "bonne_reponse": "Une République démocratique",
+    "distracteurs": [
+      "Une monarchie parlementaire",
+      "Une République fédérale",
+      "Une théocratie"
+    ],
+    "explication": "La France est une République : le chef de l'État est élu et non héréditaire. Elle est démocratique : le pouvoir vient du peuple, qui vote.",
+    "sous_theme": "valeurs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de resident #26",
+    "liens": [
+      {
+        "titre": "La Constitution de 1958 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      }
+    ]
+  },
+  {
+    "src_id": 9,
+    "question": "Lequel de ces symboles représente officiellement la République française ?",
+    "reponses_suggerees": [
+      "Le drapeau français",
+      "La Marseillaise, l'hymne national français",
+      "Marianne",
+      "La fête nationale du 14 juillet",
+      "La devise « Liberté, Égalité, Fraternité »",
+      "La langue française"
+    ],
+    "bonne_reponse": "Le drapeau français",
+    "distracteurs": [
+      "Le drapeau européen",
+      "L'Arc de triomphe",
+      "La couronne royale"
+    ],
+    "explication": "Le drapeau bleu, blanc, rouge est l'emblème national, selon l'article 2 de la Constitution. Le drapeau européen représente l'Union européenne, et non la République française.",
+    "liens": [
+      {
+        "titre": "Le drapeau français (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/le-drapeau-francais"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 10,
+    "question": "Où peut-on voir la devise de la République ?",
+    "reponses_suggerees": [
+      "Sur tous les bâtiments publics (mairies, écoles, palais de justice...)",
+      "Sur les mairies et les écoles publiques.",
+      "Sur les bâtiments de l'État."
+    ],
+    "bonne_reponse": "Sur les mairies et les écoles publiques.",
+    "distracteurs": [
+      "Sur les billets de banque en euros.",
+      "Sur les plaques d'immatriculation.",
+      "Sur la carte Vitale."
+    ],
+    "explication": "La devise « Liberté, Égalité, Fraternité » est inscrite sur la façade des mairies, des écoles publiques et de nombreux autres bâtiments publics. Elle rappelle les valeurs de la République à tous les citoyens.",
+    "liens": [
+      {
+        "titre": "Liberté, Égalité, Fraternité (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/liberte-egalite-fraternite"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 11,
+    "question": "Quels sont des symboles officiels de la République française ?",
+    "reponses_suggerees": [
+      "Le drapeau tricolore, Marianne, la Marseillaise.",
+      "Le drapeau, l'hymne et la devise.",
+      "Le drapeau bleu blanc rouge, Marianne et la Marseillaise."
+    ],
+    "bonne_reponse": "Le drapeau tricolore, Marianne, la Marseillaise.",
+    "distracteurs": [
+      "La fleur de lys, la couronne et le sceptre.",
+      "L'aigle, l'abeille et le Code civil.",
+      "Le château de Versailles, la tour Eiffel et le Louvre."
+    ],
+    "explication": "Le drapeau bleu, blanc, rouge et la Marseillaise sont inscrits à l'article 2 de la Constitution. Marianne représente la République : son buste est dans les mairies et son visage sur les timbres. La fleur de lys et la couronne étaient des symboles des rois.",
+    "liens": [
+      {
+        "titre": "Les symboles de la République (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/19564-quels-sont-les-symboles-et-les-emblemes-de-la-ve-republique"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 12,
+    "question": "Qu’est-ce que l’égalité ?",
+    "reponses_suggerees": [
+      "Avoir les mêmes droits et être protégé de la même façon par la loi.",
+      "Avoir les mêmes droits pour tous devant la loi.",
+      "La loi est la même pour tout le monde."
+    ],
+    "bonne_reponse": "Avoir les mêmes droits pour tous devant la loi.",
+    "distracteurs": [
+      "Avoir tous le même salaire et le même logement.",
+      "Donner plus de droits aux personnes riches.",
+      "Avoir des droits différents selon sa religion."
+    ],
+    "explication": "L'article 1er de la Déclaration des droits de l'homme et du citoyen de 1789 dit : « Les hommes naissent et demeurent libres et égaux en droits. » L'égalité ne veut pas dire que tout le monde a le même salaire, mais que la loi est la même pour tous.",
+    "liens": [
+      {
+        "titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      }
+    ],
+    "sous_theme": "egalite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 13,
+    "question": "Que signifie la liberté ?",
+    "reponses_suggerees": [
+      "Pouvoir faire ce que l'on veut si on respecte la loi et les autres.",
+      "Le droit de faire tout ce qui ne fait pas de mal aux autres.",
+      "Être libre de ses choix en respectant la loi."
+    ],
+    "bonne_reponse": "Être libre de ses choix en respectant la loi.",
+    "distracteurs": [
+      "Pouvoir faire tout ce que l'on veut, sans limite.",
+      "Pouvoir désobéir aux lois que l'on trouve injustes.",
+      "Faire ce que l'État décide pour nous."
+    ],
+    "explication": "Selon l'article 4 de la Déclaration des droits de l'homme et du citoyen de 1789, « la liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui ». Ses limites sont fixées par la loi.",
+    "liens": [
+      {
+        "titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      }
+    ],
+    "sous_theme": "libertes",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 14,
+    "question": "Que signifie le mot \"fraternité\" dans la devise française ?",
+    "reponses_suggerees": [
+      "La solidarité et l'aide entre les citoyens.",
+      "L'aide et la solidarité entre les personnes.",
+      "Vivre ensemble et s'aider."
+    ],
+    "bonne_reponse": "L'aide et la solidarité entre les personnes.",
+    "distracteurs": [
+      "L'obéissance de tous au chef de l'État.",
+      "L'union des personnes d'une même religion.",
+      "La priorité donnée à sa propre famille."
+    ],
+    "explication": "La fraternité, c'est le lien entre tous : s'entraider, être solidaires et vivre ensemble. Le 6 juillet 2018, le Conseil constitutionnel a reconnu la fraternité comme un principe constitutionnel : elle donne la liberté d'aider une autre personne dans un but humanitaire.",
+    "liens": [
+      {
+        "titre": "Liberté, Égalité, Fraternité (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/liberte-egalite-fraternite"
+      }
+    ],
+    "sous_theme": "valeurs",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 15,
+    "question": "Quel animal est un symbole de la France ?",
+    "reponses_suggerees": [
+      "Le coq"
+    ],
+    "bonne_reponse": "Le coq",
+    "distracteurs": [
+      "L'aigle",
+      "Le lion",
+      "L'ours"
+    ],
+    "explication": "Le coq gaulois est un symbole ancien de la France. Il n'est pas cité dans la Constitution, mais on le voit sur les maillots des équipes de France et sur certains monuments. L'aigle était l'emblème de Napoléon.",
+    "liens": [
+      {
+        "titre": "Le coq (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/le-coq"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 16,
+    "question": "Quel est l’un des rôles des associations ?",
+    "reponses_suggerees": [
+      "Aider les personnes ou partager un loisir.",
+      "Faire des activités ensemble (sport, culture) ou aider les autres."
+    ],
+    "bonne_reponse": "Aider les personnes ou partager un loisir.",
+    "distracteurs": [
+      "Voter les lois à la place du Parlement.",
+      "Partager les bénéfices entre ses membres.",
+      "Remplacer la police dans les quartiers."
+    ],
+    "explication": "Une association, créée selon la loi du 1er juillet 1901, réunit des personnes autour d'un projet commun : sport, culture, aide aux autres. Elle est à but non lucratif : elle ne partage pas ses bénéfices entre ses membres.",
+    "liens": [
+      {
+        "titre": "La loi de 1901 (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/24087-la-loi-du-1er-juillet-1901-relative-au-contrat-dassociation"
+      }
+    ],
+    "sous_theme": "citoyennete",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 17,
+    "question": "Quel est le nom de l'hymne national ?",
+    "reponses_suggerees": [
+      "La Marseillaise"
+    ],
+    "bonne_reponse": "La Marseillaise",
+    "distracteurs": [
+      "La Parisienne",
+      "Le Chant du départ",
+      "L'Internationale"
+    ],
+    "explication": "La Marseillaise est l'hymne national, inscrit à l'article 2 de la Constitution. Elle a été écrite par Claude-Joseph Rouget de Lisle en 1792 et déclarée chant national le 14 juillet 1795.",
+    "liens": [
+      {
+        "titre": "La Marseillaise (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 18,
+    "question": "Quel symbole de la République française est tricolore ?",
+    "reponses_suggerees": [
+      "Le drapeau"
+    ],
+    "bonne_reponse": "Le drapeau",
+    "distracteurs": [
+      "Marianne",
+      "Le coq",
+      "La Marseillaise"
+    ],
+    "explication": "« Tricolore » veut dire « de trois couleurs ». Le drapeau français est bleu, blanc et rouge. C'est l'emblème national, inscrit à l'article 2 de la Constitution.",
+    "liens": [
+      {
+        "titre": "Le drapeau français (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/le-drapeau-francais"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 19,
+    "question": "Quelle est la date de la fête nationale française ?",
+    "reponses_suggerees": [
+      "Le 14 juillet"
+    ],
+    "bonne_reponse": "Le 14 juillet",
+    "distracteurs": [
+      "Le 1er mai",
+      "Le 8 mai",
+      "Le 11 novembre"
+    ],
+    "explication": "Le 14 juillet est la fête nationale depuis la loi du 6 juillet 1880. Le 1er mai est la fête du Travail, le 8 mai rappelle la victoire de 1945 et le 11 novembre l'armistice de 1918.",
+    "liens": [
+      {
+        "titre": "La fête nationale du 14 juillet (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 20,
+    "question": "Quelle est la devise de la République française ?",
+    "reponses_suggerees": [
+      "Liberté, Égalité, Fraternité"
+    ],
+    "bonne_reponse": "Liberté, Égalité, Fraternité",
+    "distracteurs": [
+      "Travail, Famille, Patrie",
+      "Unie dans la diversité",
+      "Liberté, Justice, Solidarité"
+    ],
+    "explication": "La devise de la République est « Liberté, Égalité, Fraternité », inscrite à l'article 2 de la Constitution. « Travail, Famille, Patrie » était la devise du régime de Vichy (1940-1944), pendant la Seconde Guerre mondiale.",
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #18",
+    "liens": [
+      {
+        "titre": "Liberté, Égalité, Fraternité (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/liberte-egalite-fraternite"
+      }
+    ]
+  },
+  {
+    "src_id": 21,
+    "question": "Quelle est la langue officielle de la République française ?",
+    "reponses_suggerees": [
+      "Le français"
+    ],
+    "bonne_reponse": "Le français",
+    "distracteurs": [
+      "L'anglais",
+      "Le latin",
+      "L'espéranto"
+    ],
+    "explication": "L'article 2 de la Constitution dit : « La langue de la République est le français. » Les langues régionales, comme le breton ou l'occitan, font partie du patrimoine de la France (article 75-1), mais ce ne sont pas des langues officielles.",
+    "liens": [
+      {
+        "titre": "La Constitution de 1958 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 22,
+    "question": "Quelle est la place de la langue française dans la République ?",
+    "reponses_suggerees": [
+      "C'est la langue officielle de la France."
+    ],
+    "bonne_reponse": "C'est la langue officielle de la France.",
+    "distracteurs": [
+      "C'est une langue parmi d'autres, sans statut.",
+      "C'est une langue régionale, comme le breton.",
+      "Elle est obligatoire seulement à l'école."
+    ],
+    "explication": "Selon l'article 2 de la Constitution, « la langue de la République est le français ». La loi du 4 août 1994 (loi Toubon) en fait la langue de l'enseignement, du travail et des services publics.",
+    "liens": [
+      {
+        "titre": "La Constitution de 1958 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 23,
+    "question": "Quelle liberté permet à chacun d’exprimer ses idées ?",
+    "reponses_suggerees": [
+      "La liberté d'expression"
+    ],
+    "bonne_reponse": "La liberté d'expression",
+    "distracteurs": [
+      "La liberté de circulation",
+      "La liberté d'association",
+      "La liberté du commerce"
+    ],
+    "explication": "L'article 11 de la Déclaration des droits de l'homme et du citoyen de 1789 protège la libre communication des pensées et des opinions. Chacun peut parler, écrire et publier ses idées, dans les limites fixées par la loi.",
+    "liens": [
+      {
+        "titre": "La liberté d'expression (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/291568-quest-ce-que-la-liberte-dexpression"
+      }
+    ],
+    "sous_theme": "libertes",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 24,
+    "question": "La liberté d'expression :",
+    "reponses_suggerees": [
+      "Elle a des limites fixées par la loi.",
+      "Elle permet de s'exprimer, mais elle a des limites.",
+      "La loi la protège, mais elle a des limites.",
+      "On peut donner son avis, mais sans insulter les autres."
+    ],
+    "bonne_reponse": "Elle a des limites fixées par la loi.",
+    "distracteurs": [
+      "Elle permet de tout dire, sans aucune limite.",
+      "Elle est réservée aux journalistes.",
+      "Elle doit être autorisée par le préfet."
+    ],
+    "explication": "Chacun peut donner son avis librement, mais la Déclaration des droits de l'homme et du citoyen de 1789 (article 11) prévoit de répondre des abus. La loi interdit par exemple l'injure, la diffamation et l'appel à la haine.",
+    "liens": [
+      {
+        "titre": "La liberté d'expression (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/291568-quest-ce-que-la-liberte-dexpression"
+      }
+    ],
+    "sous_theme": "libertes",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 25,
+    "question": "Quelles sont les couleurs du drapeau français ?",
+    "reponses_suggerees": [
+      "Bleu, blanc, rouge"
+    ],
+    "bonne_reponse": "Bleu, blanc, rouge",
+    "distracteurs": [
+      "Bleu, blanc, vert",
+      "Rouge, blanc, vert",
+      "Bleu, jaune, rouge"
+    ],
+    "explication": "Le drapeau français a trois bandes verticales : bleu, blanc et rouge. L'article 2 de la Constitution dit : « L'emblème national est le drapeau tricolore, bleu, blanc, rouge. »",
+    "liens": [
+      {
+        "titre": "Le drapeau français (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/le-drapeau-francais"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 26,
+    "question": "Qu'est-ce que la Marseillaise ?",
+    "reponses_suggerees": [
+      "L'hymne national de la France"
+    ],
+    "bonne_reponse": "L'hymne national de la France",
+    "distracteurs": [
+      "La devise de la République",
+      "Le drapeau de la ville de Marseille",
+      "Une fête régionale du sud de la France"
+    ],
+    "explication": "La Marseillaise est l'hymne national. Claude-Joseph Rouget de Lisle l'a écrite en 1792 à Strasbourg. Elle s'appelle ainsi parce que des soldats volontaires venus de Marseille la chantaient en arrivant à Paris.",
+    "liens": [
+      {
+        "titre": "La Marseillaise (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 27,
+    "question": "Qu'est ce qui est traditionnellement organisé sur les Champs Élysées le 14 juillet pour célébrer la fête nationale ?",
+    "reponses_suggerees": [
+      "Un défilé militaire"
+    ],
+    "bonne_reponse": "Un défilé militaire",
+    "distracteurs": [
+      "Une course cycliste",
+      "Un marathon international",
+      "Un match de football"
+    ],
+    "explication": "Chaque 14 juillet, un défilé militaire a lieu sur les Champs-Élysées à Paris, devant le président de la République, chef des armées. Le soir, il y a des feux d'artifice et des bals dans toute la France.",
+    "liens": [
+      {
+        "titre": "La fête nationale du 14 juillet (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 28,
+    "question": "Qui est Marianne ?",
+    "reponses_suggerees": [
+      "Le symbole de la République française"
+    ],
+    "bonne_reponse": "Le symbole de la République française",
+    "distracteurs": [
+      "Une reine de France au Moyen Âge",
+      "La première femme présidente de la France",
+      "L'héroïne d'un roman de Victor Hugo"
+    ],
+    "explication": "Marianne est une femme coiffée d'un bonnet phrygien. Elle représente la République et ses valeurs. Son buste est dans les mairies et son visage est sur les timbres et les documents officiels.",
+    "liens": [
+      {
+        "titre": "Marianne (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/marianne"
+      }
+    ],
+    "sous_theme": "symboles",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 29,
+    "question": "Une personne peut-elle changer librement de religion ?",
+    "reponses_suggerees": [
+      "Oui, chacun est libre de choisir sa religion ou de n'en avoir aucune.",
+      "Oui, c'est la liberté de conscience.",
+      "Oui, la loi l'autorise."
+    ],
+    "bonne_reponse": "Oui, c'est la liberté de conscience.",
+    "distracteurs": [
+      "Non, c'est interdit par la loi.",
+      "Non, il faut l'autorisation d'un juge.",
+      "Oui, mais seulement avec l'accord du maire."
+    ],
+    "explication": "La liberté de conscience permet de croire, de ne pas croire ou de changer de religion. C'est un choix personnel : ni l'État, ni la famille ne peuvent l'interdire.",
+    "liens": [
+      {
+        "titre": "La liberté religieuse (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/23873-quest-ce-que-la-liberte-religieuse"
+      }
+    ],
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 30,
+    "question": "\"La France est une République indivisible, ..., démocratique et sociale\". Complétez cette phrase extraite de l'article 1er de la Constitution :",
+    "reponses_suggerees": [
+      "laïque"
+    ],
+    "bonne_reponse": "laïque",
+    "distracteurs": [
+      "fédérale",
+      "chrétienne",
+      "libérale"
+    ],
+    "explication": "L'article 1er de la Constitution du 4 octobre 1958 dit : « La France est une République indivisible, laïque, démocratique et sociale. » La France n'a pas de religion officielle et respecte toutes les croyances.",
+    "liens": [
+      {
+        "titre": "La Constitution de 1958 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      }
+    ],
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 31,
+    "question": "En quelle année la loi de séparation des Églises et de l'État a-t-elle été votée ?",
+    "reponses_suggerees": [
+      "1905"
+    ],
+    "bonne_reponse": "1905",
+    "distracteurs": [
+      "1789",
+      "1848",
+      "1958"
+    ],
+    "explication": "La loi de séparation des Églises et de l'État a été votée le 9 décembre 1905. C'est le texte fondateur de la laïcité en France.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #28",
+    "liens": [
+      {
+        "titre": "La loi du 9 décembre 1905 (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/271400-la-loi-du-9-decembre-1905-de-separation-des-eglises-et-de-letat"
+      }
+    ]
+  },
+  {
+    "src_id": 32,
+    "question": "Que permet le principe de laïcité ?",
+    "reponses_suggerees": [
+      "La liberté de choisir sa religion ou de ne pas avoir de religion.",
+      "La liberté de croire ou de ne pas croire.",
+      "De pratiquer librement sa religion en respectant les autres."
+    ],
+    "bonne_reponse": "La liberté de croire ou de ne pas croire.",
+    "distracteurs": [
+      "L'obligation de suivre la religion de l'État.",
+      "L'interdiction de pratiquer sa religion.",
+      "Le droit de ne pas respecter la loi pour sa foi."
+    ],
+    "explication": "La loi du 9 décembre 1905 dit que « la République assure la liberté de conscience » et garantit le libre exercice des cultes, dans le respect de l'ordre public. L'État n'a pas de religion et traite toutes les croyances de la même façon.",
+    "liens": [
+      {
+        "titre": "La laïcité (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"
+      }
+    ],
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 33,
+    "question": "Quel droit est garanti par la laïcité ?",
+    "reponses_suggerees": [
+      "La liberté de conscience.",
+      "La liberté de croire ou de ne pas croire.",
+      "Le droit de choisir sa religion librement."
+    ],
+    "bonne_reponse": "La liberté de conscience",
+    "distracteurs": [
+      "Le droit d'imposer sa religion aux autres",
+      "Le droit de désobéir à la loi pour sa religion",
+      "Le droit d'avoir une religion d'État"
+    ],
+    "explication": "La laïcité garantit à chacun la liberté de croire ou de ne pas croire. Elle ne permet pas de se placer au-dessus de la loi pour des raisons religieuses.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de resident #30",
+    "liens": [
+      {
+        "titre": "La laïcité (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"
+      }
+    ]
+  },
+  {
+    "src_id": 34,
+    "question": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+    "reponses_suggerees": [
+      "Pour protéger la liberté de conscience des élèves : ils peuvent penser librement, sans pression.",
+      "Pour que l'école soit neutre et accueille tous les élèves.",
+      "Pour que tous les enfants soient égaux, sans différence de religion."
+    ],
+    "bonne_reponse": "Pour que l'école soit neutre et accueille tous les élèves.",
+    "distracteurs": [
+      "Pour interdire aux élèves d'avoir une religion.",
+      "Pour enseigner une seule religion à tous les élèves.",
+      "Pour que les parents choisissent les cours selon leur religion."
+    ],
+    "explication": "L'école publique est laïque : les enseignants sont neutres et, depuis la loi du 15 mars 2004, les élèves ne peuvent pas porter de signes religieux ostensibles. Ainsi, tous les enfants sont accueillis de la même façon. Les élèves gardent le droit d'avoir une religion.",
+    "liens": [
+      {
+        "titre": "La laïcité à l'école (conseil-etat.fr)",
+        "url": "https://www.conseil-etat.fr/publications-colloques/rapports-d-activite/bilan-d-activite-2023/la-laicite-un-fondement-du-vivre-ensemble"
+      },
+      {
+        "titre": "La laïcité (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"
+      }
+    ],
+    "sous_theme": "laicite",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 35,
+    "question": "Qu'est-ce que la laïcité ?",
+    "reponses_suggerees": [
+      "La séparation de l'État et des religions.",
+      "La neutralité de l'État face aux religions."
+    ],
+    "bonne_reponse": "La séparation de l'État et des religions",
+    "distracteurs": [
+      "L'interdiction de toutes les religions",
+      "L'obligation de pratiquer une religion",
+      "Le choix d'une religion officielle"
+    ],
+    "explication": "La laïcité sépare l'État et les religions. Elle garantit la liberté de conscience et permet de vivre ensemble, quelles que soient les croyances.",
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #36",
+    "liens": [
+      {
+        "titre": "La laïcité (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"
+      }
+    ]
+  },
+  {
+    "src_id": 36,
+    "question": "Un enfant peut-il refuser d’aller à l’école pour une raison religieuse ?",
+    "reponses_suggerees": [
+      "Non, l'école est obligatoire pour tous.",
+      "Non, l'instruction (aller à l'école) est obligatoire pour tous les enfants, avec ou sans religion."
+    ],
+    "bonne_reponse": "Non, l'école est obligatoire pour tous.",
+    "distracteurs": [
+      "Oui, si les parents donnent leur accord.",
+      "Oui, la religion passe avant l'école.",
+      "Oui, si le directeur de l'école l'accepte."
+    ],
+    "explication": "L'instruction est obligatoire pour tous les enfants de 3 à 16 ans, français ou étrangers (Code de l'éducation). L'instruction en famille demande une autorisation. Une raison religieuse ne permet pas de ne pas aller à l'école.",
+    "liens": [
+      {
+        "titre": "Inscrire son enfant à l'école (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1865"
+      }
+    ],
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 37,
+    "question": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+    "reponses_suggerees": [
+      "Oui, chacun est libre d'avoir ou de ne pas avoir de religion.",
+      "Oui, c'est la liberté de conscience : on peut ne croire en aucune religion (être athée).",
+      "Oui, chacun est libre de choisir ses idées."
+    ],
+    "bonne_reponse": "Oui, chacun est libre d'avoir ou de ne pas avoir de religion.",
+    "distracteurs": [
+      "Non, chaque personne doit choisir une religion.",
+      "Non, sauf si sa famille l'accepte.",
+      "Oui, mais il doit le déclarer à la mairie."
+    ],
+    "explication": "La laïcité garantit la liberté de conscience : on peut croire, ne pas croire ou changer de religion. Être athée est un droit, et personne n'a à déclarer sa religion à l'administration.",
+    "liens": [
+      {
+        "titre": "La liberté religieuse (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/fiches/23873-quest-ce-que-la-liberte-religieuse"
+      }
+    ],
+    "sous_theme": "laicite",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  }
+]

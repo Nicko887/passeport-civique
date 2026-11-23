@@ -2,20 +2,32 @@
 
 export const APP_NAME = 'Passeport Civique';
 
+// Les trois mentions de l'examen civique (arrêté du 10 octobre 2025, art. 1), de la plus simple à la plus exigeante.
+// Chacune a sa propre liste officielle de questions de connaissance (formation-civique.interieur.gouv.fr).
 export const PARCOURS = {
-  naturalisation: {
-    id: 'naturalisation',
-    titre: 'Naturalisation',
-    sousTitre: 'Devenir Français ou Française',
-    icone: 'naturalisation',
-    couleur: 'var(--c-naturalisation)',
+  csp: {
+    id: 'csp',
+    titre: 'Carte de séjour pluriannuelle',
+    court: 'Carte pluriannuelle',
+    sousTitre: 'Première carte de séjour pluriannuelle (CSP)',
+    icone: 'sejour',
+    couleur: 'var(--c-csp)',
   },
   resident: {
     id: 'resident',
     titre: 'Carte de résident',
-    sousTitre: 'Carte de résident ou pluriannuelle',
+    court: 'Carte de résident',
+    sousTitre: 'Première carte de résident (CR)',
     icone: 'resident',
     couleur: 'var(--c-resident)',
+  },
+  naturalisation: {
+    id: 'naturalisation',
+    titre: 'Naturalisation',
+    court: 'Naturalisation',
+    sousTitre: 'Devenir Français ou Française',
+    icone: 'naturalisation',
+    couleur: 'var(--c-naturalisation)',
   },
 };
 

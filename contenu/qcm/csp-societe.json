@@ -1,0 +1,710 @@
+[
+  {
+    "src_id": 161,
+    "question": "Quel numéro d'urgence permet d'appeler le SAMU ?",
+    "reponses_suggerees": [
+      "Le 15"
+    ],
+    "bonne_reponse": "Le 15.",
+    "distracteurs": [
+      "Le 17.",
+      "Le 18.",
+      "Le 119."
+    ],
+    "explication": "Le 15 permet d'appeler le SAMU (service d'aide médicale urgente) pour une urgence médicale. Le 17 appelle la police, le 18 les pompiers et le 119 l'enfance en danger.",
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #223",
+    "liens": [
+      {
+        "titre": "Les numéros d'urgence (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+      }
+    ]
+  },
+  {
+    "src_id": 162,
+    "question": "Quel numéro d'urgence permet d'appeler les pompiers ?",
+    "reponses_suggerees": [
+      "Le 18"
+    ],
+    "bonne_reponse": "Le 18.",
+    "distracteurs": [
+      "Le 15.",
+      "Le 17.",
+      "Le 115."
+    ],
+    "explication": "Le 18 permet d'appeler les sapeurs-pompiers, par exemple en cas d'incendie, d'accident ou de personne blessée. Le 15 appelle le SAMU, le 17 la police et le 115 l'aide aux personnes sans abri.",
+    "liens": [
+      {
+        "titre": "Les numéros d'urgence (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+      }
+    ],
+    "sous_theme": "vie_quotidienne",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 163,
+    "question": "Après avoir obtenu le permis de conduire, que faut-il faire pour pouvoir conduire sa voiture ?",
+    "reponses_suggerees": [
+      "Prendre une assurance pour la voiture",
+      "Avoir la carte grise de la voiture.",
+      "Avoir un contrôle technique à jour."
+    ],
+    "bonne_reponse": "Prendre une assurance pour la voiture.",
+    "distracteurs": [
+      "Faire inscrire son permis à la mairie.",
+      "Repasser l'examen du code chaque année.",
+      "Demander une autorisation au commissariat."
+    ],
+    "explication": "En France, toute voiture qui circule doit être assurée. Il faut aussi avoir la carte grise (certificat d'immatriculation) et, si la voiture a plus de 4 ans, un contrôle technique à jour.",
+    "sous_theme": "vie_quotidienne",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 164,
+    "question": "À quelles conditions un mariage est-il reconnu juridiquement ?",
+    "reponses_suggerees": [
+      "La cérémonie doit avoir lieu à la mairie",
+      "Se marier officiellement à la mairie (devant le maire)."
+    ],
+    "bonne_reponse": "La cérémonie doit avoir lieu à la mairie.",
+    "distracteurs": [
+      "La cérémonie doit avoir lieu dans un lieu de culte.",
+      "Les époux doivent signer un contrat chez le notaire.",
+      "Les deux familles doivent donner leur accord."
+    ],
+    "explication": "En France, seul le mariage civil, célébré à la mairie par le maire ou un adjoint, a une valeur légale. Une cérémonie religieuse est possible, mais seulement après le mariage civil.",
+    "liens": [
+      {
+        "titre": "Le mariage en France (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"
+      }
+    ],
+    "sous_theme": "demarches",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 165,
+    "question": "Quand faut-il déclarer son enfant au service d'état civil de la mairie ?",
+    "reponses_suggerees": [
+      "Dans les 5 jours qui suivent sa naissance"
+    ],
+    "bonne_reponse": "Dans les 5 jours qui suivent sa naissance.",
+    "distracteurs": [
+      "Dans le mois qui suit sa naissance.",
+      "Dans les 3 mois qui suivent sa naissance.",
+      "Avant son premier anniversaire."
+    ],
+    "explication": "La naissance doit être déclarée à la mairie de la commune où l'enfant est né, dans les 5 jours qui suivent l'accouchement. La mairie établit ensuite l'acte de naissance.",
+    "liens": [
+      {
+        "titre": "Déclaration de naissance (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961"
+      }
+    ],
+    "sous_theme": "demarches",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 166,
+    "question": "Le travail non déclaré est :",
+    "reponses_suggerees": [
+      "Interdit et puni par la loi"
+    ],
+    "bonne_reponse": "Interdit et puni par la loi.",
+    "distracteurs": [
+      "Autorisé pour les petits emplois.",
+      "Autorisé si le salarié est d'accord.",
+      "Toléré pendant la période d'essai."
+    ],
+    "explication": "Le travail non déclaré, ou travail « au noir », est un délit. L'employeur risque de lourdes sanctions. Le salarié non déclaré n'a pas de protection sociale ni de droits à la retraite ou au chômage.",
+    "liens": [
+      {
+        "titre": "Les sanctions du travail illégal (entreprendre.service-public.gouv.fr)",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31490"
+      }
+    ],
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 167,
+    "question": "Que doit faire un employeur pour fixer un salaire ?",
+    "reponses_suggerees": [
+      "Respecter le salaire minimum (le SMIC)."
+    ],
+    "bonne_reponse": "Respecter le salaire minimum (le SMIC).",
+    "distracteurs": [
+      "Demander l'accord du maire de la commune.",
+      "Choisir librement, sans aucune limite.",
+      "Payer selon la nationalité du salarié."
+    ],
+    "explication": "Un employeur ne peut pas payer un salarié moins que le salaire minimum (SMIC). Le salaire ne peut pas dépendre de la nationalité, du sexe ou de l'origine du salarié.",
+    "liens": [
+      {
+        "titre": "Le SMIC (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300"
+      }
+    ],
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 168,
+    "question": "Qu'est-ce que le SMIC ?",
+    "reponses_suggerees": [
+      "Le salaire minimum légal.",
+      "Le salaire minimum autorisé par la loi.",
+      "Le Salaire Minimum Interprofessionnel de Croissance."
+    ],
+    "bonne_reponse": "Le salaire minimum légal.",
+    "distracteurs": [
+      "Une aide versée par la CAF.",
+      "Un impôt payé par les salariés.",
+      "Une allocation pour les chômeurs."
+    ],
+    "explication": "SMIC veut dire salaire minimum interprofessionnel de croissance. C'est le salaire le plus bas qu'un employeur peut payer à un salarié majeur. Il est revalorisé au moins une fois par an.",
+    "liens": [
+      {
+        "titre": "Le SMIC (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300"
+      }
+    ],
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 169,
+    "question": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
+    "reponses_suggerees": [
+      "S'inscrire à France Travail (ex Pôle emploi)"
+    ],
+    "bonne_reponse": "S'inscrire à France Travail (ex Pôle emploi).",
+    "distracteurs": [
+      "Demander une carte de travail à la mairie.",
+      "S'inscrire à la Caisse d'allocations familiales.",
+      "Envoyer son CV au maire de sa commune."
+    ],
+    "explication": "France Travail, anciennement Pôle emploi, aide les personnes qui cherchent un emploi. Après l'inscription, un conseiller accompagne la recherche et propose des offres ou des formations.",
+    "liens": [
+      {
+        "titre": "S'inscrire à France Travail (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636"
+      }
+    ],
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 170,
+    "question": "Quelle est la durée légale du temps de travail par semaine ?",
+    "reponses_suggerees": [
+      "35 heures"
+    ],
+    "bonne_reponse": "35 heures.",
+    "distracteurs": [
+      "39 heures.",
+      "40 heures.",
+      "48 heures."
+    ],
+    "explication": "La durée légale du travail à temps plein est de 35 heures par semaine. Au-delà, les heures sont des heures supplémentaires, mieux payées.",
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #239",
+    "liens": [
+      {
+        "titre": "La durée du travail (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1911"
+      }
+    ]
+  },
+  {
+    "src_id": 171,
+    "question": "Qui est aidé par France Travail ?",
+    "reponses_suggerees": [
+      "Les demandeurs d'emploi.",
+      "Les chômeurs (les demandeurs d'emploi).",
+      "Les personnes qui cherchent du travail."
+    ],
+    "bonne_reponse": "Les personnes qui cherchent du travail.",
+    "distracteurs": [
+      "Les personnes qui partent à la retraite.",
+      "Les familles qui ont des enfants.",
+      "Les personnes qui cherchent un logement."
+    ],
+    "explication": "France Travail accompagne les demandeurs d'emploi : offres d'emploi, formations, conseils. Il verse aussi les allocations chômage. Les allocations familiales sont versées par la Caisse d'allocations familiales (CAF).",
+    "liens": [
+      {
+        "titre": "S'inscrire à France Travail (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636"
+      }
+    ],
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 172,
+    "question": "Une personne étrangère en situation régulière peut créer son entreprise :",
+    "reponses_suggerees": [
+      "Oui, il n'est pas nécessaire d'être français.",
+      "Oui, si son titre de séjour l'autorise."
+    ],
+    "bonne_reponse": "Oui, si son titre de séjour l'autorise.",
+    "distracteurs": [
+      "Non, il faut avoir la nationalité française.",
+      "Non, il faut vivre en France depuis 10 ans.",
+      "Oui, mais avec un associé de nationalité française."
+    ],
+    "explication": "Une personne étrangère en situation régulière peut créer une entreprise en France. Selon les cas, son titre de séjour doit lui permettre d'exercer une activité commerciale ou indépendante.",
+    "liens": [
+      {
+        "titre": "Un étranger peut-il créer une entreprise ? (entreprendre.service-public.gouv.fr)",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F22494"
+      }
+    ],
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 173,
+    "question": "Une femme peut-elle créer son entreprise ?",
+    "reponses_suggerees": [
+      "Oui, librement"
+    ],
+    "bonne_reponse": "Oui, librement.",
+    "distracteurs": [
+      "Non.",
+      "Oui, avec l'accord de son mari.",
+      "Oui, si elle n'est pas mariée."
+    ],
+    "explication": "Les femmes et les hommes ont les mêmes droits. Une femme peut créer son entreprise seule, sans l'accord de son mari ou de sa famille. Depuis 1965, une femme mariée peut travailler sans l'autorisation de son mari.",
+    "sous_theme": "emploi_social",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 174,
+    "question": "À partir de quel âge un mineur peut-il travailler ?",
+    "reponses_suggerees": [
+      "À partir de 16 ans"
+    ],
+    "bonne_reponse": "À partir de 16 ans.",
+    "distracteurs": [
+      "À partir de 12 ans.",
+      "À partir de 18 ans.",
+      "À partir de 21 ans."
+    ],
+    "explication": "En règle générale, un jeune peut travailler à partir de 16 ans. Il existe des exceptions encadrées, par exemple un petit travail pendant les vacances scolaires dès 14 ans, avec l'accord des parents et de l'inspection du travail.",
+    "sous_theme": "emploi_social",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 175,
+    "question": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
+    "reponses_suggerees": [
+      "La Caisse primaire d'assurance maladie (CPAM).",
+      "La Sécurité Sociale.",
+      "L'Assurance Maladie"
+    ],
+    "bonne_reponse": "L'Assurance Maladie.",
+    "distracteurs": [
+      "La Caisse d'allocations familiales (CAF).",
+      "Le centre des finances publiques.",
+      "France Travail."
+    ],
+    "explication": "Les frais de santé sont remboursés par l'Assurance Maladie, par la caisse primaire d'assurance maladie (CPAM) de son département. Une mutuelle peut rembourser une partie du reste.",
+    "liens": [
+      {
+        "titre": "La carte Vitale et les remboursements (ameli.fr)",
+        "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale/carte-vitale"
+      }
+    ],
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 176,
+    "question": "Qu’est-ce qu’un numéro d’urgence ?",
+    "reponses_suggerees": [
+      "Un numéro à appeler en cas de danger ou quand on a besoin de secours très vite.",
+      "Un numéro de téléphone gratuit pour appeler les secours.",
+      "Un numéro pour appeler à l'aide très vite."
+    ],
+    "bonne_reponse": "Un numéro pour appeler à l'aide très vite.",
+    "distracteurs": [
+      "Un numéro pour prendre rendez-vous chez le médecin.",
+      "Un numéro payant pour parler à un service public.",
+      "Un numéro pour joindre sa mairie."
+    ],
+    "explication": "Les numéros d'urgence sont gratuits et répondent 24 heures sur 24. On les appelle quand une vie est en danger ou quand il faut des secours tout de suite : 15, 17, 18, 112, ou 114 par SMS.",
+    "liens": [
+      {
+        "titre": "Les numéros d'urgence (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+      }
+    ],
+    "sous_theme": "vie_quotidienne",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 177,
+    "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+    "reponses_suggerees": [
+      "Toute personne vivant en France peut consulter un médecin, aller à l'hôpital ou à la pharmacie.",
+      "Chacun a droit à la protection de la santé.",
+      "Tout le monde a le droit d'être soigné."
+    ],
+    "bonne_reponse": "Tout le monde a le droit d'être soigné.",
+    "distracteurs": [
+      "Seuls les Français peuvent consulter un médecin.",
+      "Il faut travailler pour être soigné.",
+      "Les soins à l'hôpital sont réservés aux assurés."
+    ],
+    "explication": "Toute personne qui vit en France peut se faire soigner : consulter un médecin, aller à l'hôpital ou à la pharmacie. Le droit à la protection de la santé est inscrit dans le préambule de la Constitution de 1946.",
+    "liens": [
+      {
+        "titre": "La protection universelle maladie (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34047"
+      }
+    ],
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 178,
+    "question": "En cas de problème de santé non urgent, à qui faut-il s’adresser en premier ?",
+    "reponses_suggerees": [
+      "Au médecin traitant.",
+      "Au médecin de famille."
+    ],
+    "bonne_reponse": "Au médecin traitant.",
+    "distracteurs": [
+      "Aux urgences.",
+      "Au médecin du travail.",
+      "À l'assistante sociale."
+    ],
+    "explication": "Pour un problème de santé non urgent, on consulte d'abord son médecin traitant. Il connaît le patient et l'envoie si besoin chez un spécialiste. Les urgences sont faites pour les situations graves.",
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 179,
+    "question": "Quel est le rôle du médecin traitant ?",
+    "reponses_suggerees": [
+      "Suivre la santé et envoyer voir un spécialiste.",
+      "Soigner les maladies courantes et envoyer voir un spécialiste.",
+      "Suivre le patient et l'envoyer chez un autre docteur si besoin."
+    ],
+    "bonne_reponse": "Suivre la santé et envoyer voir un spécialiste.",
+    "distracteurs": [
+      "Vendre les médicaments et rembourser les soins.",
+      "Remplacer le service des urgences la nuit.",
+      "Décider du montant des remboursements."
+    ],
+    "explication": "Le médecin traitant suit la santé du patient dans la durée et l'envoie vers un spécialiste si besoin. Déclarer un médecin traitant auprès de l'Assurance Maladie permet d'être mieux remboursé.",
+    "sous_theme": "sante",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 180,
+    "question": "Dans quelle situation faut-il aller aux urgences ?",
+    "reponses_suggerees": [
+      "Seulement pour un accident grave ou un danger de mort.",
+      "Pour un danger de mort ou une blessure grave.",
+      "En cas d'accident très grave."
+    ],
+    "bonne_reponse": "Pour un danger de mort ou une blessure grave.",
+    "distracteurs": [
+      "Pour renouveler une ordonnance.",
+      "Pour un rhume ou une petite fièvre.",
+      "Pour obtenir un certificat médical."
+    ],
+    "explication": "Les urgences de l'hôpital sont faites pour les situations graves : accident grave, forte douleur, danger de mort. En cas de doute, on appelle d'abord le 15. Pour un problème courant, on va chez son médecin traitant.",
+    "liens": [
+      {
+        "titre": "Les numéros d'urgence (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+      }
+    ],
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 181,
+    "question": "Quel est l’objectif des vaccinations obligatoires ?",
+    "reponses_suggerees": [
+      "Protéger la population contre des maladies graves.",
+      "Empêcher les maladies graves de passer d'une personne à une autre."
+    ],
+    "bonne_reponse": "Protéger la population contre des maladies graves.",
+    "distracteurs": [
+      "Remplacer les visites chez le médecin traitant.",
+      "Soigner les personnes déjà malades.",
+      "Vérifier l'état de santé des enfants à l'école."
+    ],
+    "explication": "Les vaccins protègent chaque personne et limitent la transmission des maladies graves dans la population. Plusieurs vaccins sont obligatoires pour les jeunes enfants : ils sont exigés pour entrer à la crèche ou à l'école.",
+    "sous_theme": "sante",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 182,
+    "question": "À quoi sert la carte Vitale ?",
+    "reponses_suggerees": [
+      "À prouver qu'on a des droits à l'Assurance Maladie (qu'on est assuré).",
+      "Pour se faire rembourser les frais de santé (médecin, pharmacie).",
+      "À être remboursé par la Sécurité sociale."
+    ],
+    "bonne_reponse": "À être remboursé par la Sécurité sociale.",
+    "distracteurs": [
+      "À payer ses impôts en ligne.",
+      "À prouver son identité à la préfecture.",
+      "À recevoir les allocations familiales."
+    ],
+    "explication": "La carte Vitale prouve que l'on est assuré à l'Assurance Maladie. Chez le médecin ou à la pharmacie, elle permet d'envoyer la feuille de soins par internet : le remboursement est plus rapide. Ce n'est pas une pièce d'identité.",
+    "liens": [
+      {
+        "titre": "La carte Vitale (ameli.fr)",
+        "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale/carte-vitale"
+      }
+    ],
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 183,
+    "question": "À quoi sert une mutuelle santé ?",
+    "reponses_suggerees": [
+      "À compléter les remboursements de la Sécurité sociale."
+    ],
+    "bonne_reponse": "À compléter les remboursements de la Sécurité sociale.",
+    "distracteurs": [
+      "À remplacer la carte Vitale chez le médecin.",
+      "À payer les cotisations de retraite.",
+      "À obtenir un rendez-vous plus rapide."
+    ],
+    "explication": "La mutuelle, ou complémentaire santé, paie tout ou une partie de ce que l'Assurance Maladie ne rembourse pas. Les employeurs privés doivent en proposer une à leurs salariés.",
+    "liens": [
+      {
+        "titre": "La complémentaire santé (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20314"
+      }
+    ],
+    "sous_theme": "sante",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 184,
+    "question": "Jusqu'à quel âge l'école est-elle obligatoire ?",
+    "reponses_suggerees": [
+      "16 ans"
+    ],
+    "bonne_reponse": "16 ans.",
+    "distracteurs": [
+      "12 ans.",
+      "14 ans.",
+      "15 ans."
+    ],
+    "explication": "L'instruction est obligatoire de 3 à 16 ans pour tous les enfants qui vivent en France. De 16 à 18 ans, les jeunes doivent ensuite être en formation, en apprentissage, en emploi ou en service civique.",
+    "liens": [
+      {
+        "titre": "L'instruction obligatoire (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"
+      }
+    ],
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 185,
+    "question": "L'autorité parentale prévoit l'obligation :",
+    "reponses_suggerees": [
+      "D'assurer l'éducation de son enfant.",
+      "De protéger, nourrir et éduquer son enfant.",
+      "D'éduquer et de protéger son enfant."
+    ],
+    "bonne_reponse": "De protéger, nourrir et éduquer son enfant.",
+    "distracteurs": [
+      "De choisir le métier de son enfant.",
+      "De choisir le futur époux de son enfant.",
+      "De faire travailler son enfant pour la famille."
+    ],
+    "explication": "L'autorité parentale est un ensemble de droits et de devoirs des parents jusqu'à la majorité de l'enfant. Ils doivent le protéger, veiller à sa santé, à sa sécurité et à son éducation, et respecter sa personne.",
+    "liens": [
+      {
+        "titre": "L'exercice de l'autorité parentale (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3132"
+      }
+    ],
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 186,
+    "question": "Pour qui l'école est-elle obligatoire ?",
+    "reponses_suggerees": [
+      "Pour tous les enfants.",
+      "Tous les enfants de 3 à 16 ans."
+    ],
+    "bonne_reponse": "Pour tous les enfants.",
+    "distracteurs": [
+      "Pour les enfants de nationalité française.",
+      "Pour les enfants dont les parents travaillent.",
+      "Pour les enfants qui ont un titre de séjour."
+    ],
+    "explication": "L'instruction est obligatoire de 3 à 16 ans pour tous les enfants qui vivent en France, français ou étrangers, quelle que soit la situation de leurs parents.",
+    "liens": [
+      {
+        "titre": "L'instruction obligatoire (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"
+      }
+    ],
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 187,
+    "question": "Quel diplôme obtient-on à la fin du lycée ?",
+    "reponses_suggerees": [
+      "Le Baccalauréat"
+    ],
+    "bonne_reponse": "Le baccalauréat.",
+    "distracteurs": [
+      "Le brevet des collèges.",
+      "La licence.",
+      "Le certificat d'études."
+    ],
+    "explication": "Le baccalauréat, ou « bac », se passe à la fin du lycée. Il permet de faire des études supérieures. Le brevet se passe à la fin du collège, et la licence à l'université.",
+    "liens": [
+      {
+        "titre": "Le brevet à la fin du collège (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10005"
+      }
+    ],
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 188,
+    "question": "Dans quels établissements scolaires vont les élèves après l'école élémentaire ?",
+    "reponses_suggerees": [
+      "Au collège"
+    ],
+    "bonne_reponse": "Au collège.",
+    "distracteurs": [
+      "Au lycée.",
+      "À l'école maternelle.",
+      "À l'université."
+    ],
+    "explication": "Après l'école élémentaire (du CP au CM2), les élèves vont au collège, de la sixième à la troisième, en général de 11 à 15 ans. Ensuite, ils peuvent aller au lycée.",
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 189,
+    "question": "Un enfant inscrit à l'école :",
+    "reponses_suggerees": [
+      "A le droit d'apprendre et d'étudier.",
+      "A le droit de recevoir une éducation.",
+      "Doit apprendre et étudier.",
+      "Doit aller en classe. Il peut être absent seulement pour une raison de santé ou de famille."
+    ],
+    "bonne_reponse": "A le droit de recevoir une éducation.",
+    "distracteurs": [
+      "Peut manquer l'école quand il le veut.",
+      "Doit payer ses cours chaque mois.",
+      "Peut refuser d'aller en cours de sport."
+    ],
+    "explication": "Tout enfant a droit à l'éducation, et l'école publique est gratuite. Un élève inscrit doit aussi venir en classe : une absence doit avoir un motif valable, comme une maladie.",
+    "liens": [
+      {
+        "titre": "Assiduité et absences scolaires (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1899"
+      }
+    ],
+    "sous_theme": "education",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 190,
+    "question": "Les enfants qui ne parlent pas français :",
+    "reponses_suggerees": [
+      "Sont accueillis à l'école comme les autres enfants et y apprennent le français.",
+      "Vont à l'école et reçoivent de l'aide pour apprendre.",
+      "Sont obligés d'aller à l'école avec des cours de français."
+    ],
+    "bonne_reponse": "Vont à l'école et reçoivent de l'aide pour apprendre.",
+    "distracteurs": [
+      "Doivent d'abord apprendre le français à la maison.",
+      "Vont dans une école réservée aux enfants étrangers.",
+      "Ne peuvent pas être inscrits à l'école publique."
+    ],
+    "explication": "Les enfants qui arrivent en France sans parler français vont à l'école comme les autres. Ils peuvent suivre des cours pour apprendre le français, par exemple dans une unité pédagogique pour élèves allophones arrivants (UPE2A).",
+    "liens": [
+      {
+        "titre": "École primaire pour un élève venant de l'étranger (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1866"
+      }
+    ],
+    "sous_theme": "education",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  }
+]

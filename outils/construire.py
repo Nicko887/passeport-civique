@@ -21,7 +21,7 @@ THEMES = {
                  "geographie", "outre_mer", "culture"],
     "societe": ["sante", "education", "logement", "emploi_social", "demarches", "vie_quotidienne"],
 }
-PARCOURS = {"naturalisation": "nat", "resident": "res"}
+PARCOURS = {"naturalisation": "nat", "resident": "res", "csp": "csp"}
 COURS = RACINE / "contenu" / "cours"
 
 # Sites sûrs autorisés pour les liens (même liste que SITES_SURS dans js/config.js).
@@ -77,6 +77,16 @@ def lire_fichier(fichier, theme, sous_themes, prefixe, situation, problemes, a_v
         if len(d) != 3 or len(set(d)) != 3 or a in d or not a:
             problemes.append(f"{ref} : réponses invalides")
             continue
+        # Fidélité à la source : la bonne réponse est l'une des réponses suggérées,
+        # et aucune mauvaise réponse n'en fait partie (elle serait juste).
+        suggerees = item.get("reponses_suggerees")
+        if suggerees:
+            n = lambda s: re.sub(r"\W+", " ", s.lower().replace("’", "'")).strip()
+            ns = {n(x) for x in suggerees}
+            if n(a) not in ns and not item.get("a_verifier"):
+                problemes.append(f"{ref} : la bonne réponse n'est pas une des réponses suggérées")
+            if any(n(x) in ns for x in d):
+                problemes.append(f"{ref} : une mauvaise réponse est une réponse suggérée (donc juste)")
         if situation and not item.get("explication", "").strip():
             problemes.append(f"{ref} : une mise en situation doit avoir une explication")
         st = item.get("sous_theme")

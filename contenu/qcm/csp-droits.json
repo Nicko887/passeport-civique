@@ -1,0 +1,662 @@
+[
+  {
+    "src_id": 84,
+    "question": "Comment s’appelle la Constitution actuelle de la France ?",
+    "reponses_suggerees": [
+      "La Constitution de la Ve République"
+    ],
+    "bonne_reponse": "La Constitution de la Ve République.",
+    "distracteurs": [
+      "La Constitution de la IVe République.",
+      "La Constitution de la IIIe République.",
+      "Le Code civil de Napoléon."
+    ],
+    "explication": "La Constitution actuelle a été adoptée le 4 octobre 1958. Elle a créé la Cinquième République (Ve République), voulue par le général de Gaulle, et a remplacé la Constitution de 1946 (IVe République).",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 85,
+    "question": "Quel texte de 1789 a fixé les libertés en France ?",
+    "reponses_suggerees": [
+      "La Déclaration des Droits de l'Homme et du Citoyen."
+    ],
+    "bonne_reponse": "La Déclaration des Droits de l'Homme et du Citoyen.",
+    "distracteurs": [
+      "Le Code civil des Français, voulu par Napoléon Bonaparte.",
+      "La Constitution de la Cinquième République.",
+      "Le préambule de la Constitution de 1946."
+    ],
+    "explication": "La Déclaration des droits de l'homme et du citoyen a été adoptée le 26 août 1789, au début de la Révolution française. Son article 1er dit : « Les hommes naissent et demeurent libres et égaux en droits. »",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 86,
+    "question": "Concernant les droits individuels, quelle proposition est correcte ?",
+    "reponses_suggerees": [
+      "Ils sont pour chaque personne et protégés par la loi.",
+      "Chaque personne a des droits protégés par la loi.",
+      "La loi protège les libertés de chaque individu."
+    ],
+    "bonne_reponse": "Chaque personne a des droits protégés par la loi.",
+    "distracteurs": [
+      "Seuls les citoyens français ont des droits.",
+      "Les droits dépendent de la religion de chacun.",
+      "Les droits sont accordés par le maire de la commune."
+    ],
+    "explication": "Les droits individuels appartiennent à chaque personne, française ou étrangère. La Déclaration de 1789 et la Constitution les protègent, et les juges les font respecter.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 87,
+    "question": "De quelle année date la Déclaration des droits de l’homme et du citoyen ?",
+    "reponses_suggerees": [
+      "1789"
+    ],
+    "bonne_reponse": "1789",
+    "distracteurs": [
+      "1804",
+      "1848",
+      "1958"
+    ],
+    "explication": "La Déclaration des droits de l'homme et du citoyen a été adoptée le 26 août 1789 par l'Assemblée nationale constituante, quelques semaines après la prise de la Bastille (14 juillet 1789).",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 88,
+    "question": "Lequel de ces droits est un droit fondamental ?",
+    "reponses_suggerees": [
+      "La liberté d'expression.",
+      "Le droit au respect de la vie privée.",
+      "La liberté d'aller et venir (circuler librement).",
+      "L'égalité devant la loi."
+    ],
+    "bonne_reponse": "Le droit au respect de la vie privée.",
+    "distracteurs": [
+      "Le droit de se faire justice soi-même.",
+      "Le droit de ne pas payer d'impôts.",
+      "Le droit de choisir ses voisins."
+    ],
+    "explication": "Le respect de la vie privée est un droit fondamental, protégé par l'article 9 du Code civil et par la Convention européenne des droits de l'homme. En revanche, personne ne peut se faire justice soi-même ni refuser de payer l'impôt.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 89,
+    "question": "Parmi ces textes, lequel garantit les droits et libertés en France ?",
+    "reponses_suggerees": [
+      "La Constitution.",
+      "La Déclaration des Droits de l'Homme et du Citoyen.",
+      "Le préambule de la Constitution de 1946.",
+      "La Charte de l'environnement.",
+      "La Convention européenne des droits de l'homme."
+    ],
+    "bonne_reponse": "La Constitution.",
+    "distracteurs": [
+      "Le Code de la route.",
+      "Un arrêté du préfet.",
+      "Le règlement de la mairie."
+    ],
+    "explication": "La Constitution du 4 octobre 1958 est le texte le plus élevé en France. Son préambule renvoie à la Déclaration de 1789, au préambule de 1946 et à la Charte de l'environnement : ensemble, ces textes garantissent nos droits et libertés.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 90,
+    "question": "Qu’est-ce que la liberté d’expression ?",
+    "reponses_suggerees": [
+      "Dire ou écrire ce que l'on pense, en respectant les autres et la loi.",
+      "Le droit de donner son opinion en respectant la loi.",
+      "S'exprimer librement sans insulter les autres."
+    ],
+    "bonne_reponse": "Le droit de donner son opinion en respectant la loi.",
+    "distracteurs": [
+      "Le droit de dire des insultes sans être puni.",
+      "Le droit de publier des informations privées sur ses voisins.",
+      "Le droit de parler seulement de sujets autorisés par l'État."
+    ],
+    "explication": "L'article 11 de la Déclaration de 1789 protège la libre communication des pensées et des opinions. Mais la loi punit les insultes, la diffamation, les menaces et les appels à la haine.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 91,
+    "question": "Quel droit permet à une personne de se défendre devant la justice ?",
+    "reponses_suggerees": [
+      "Le droit à la justice (le droit de se défendre).",
+      "Le droit de savoir pourquoi on est accusé et d'avoir un avocat.",
+      "Le droit à la défense avec l'aide d'un avocat."
+    ],
+    "bonne_reponse": "Le droit à la défense avec l'aide d'un avocat.",
+    "distracteurs": [
+      "Le droit de choisir lui-même son juge.",
+      "Le droit de refuser d'aller au tribunal.",
+      "Le droit de vote aux élections."
+    ],
+    "explication": "Toute personne accusée a le droit de se défendre et d'être assistée par un avocat. Si elle n'a pas assez de ressources, l'aide juridictionnelle peut payer tout ou partie des frais d'avocat.",
+    "liens": [
+      {"titre": "L'aide juridictionnelle (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18074"}
+    ],
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 92,
+    "question": "Quel est le texte fondateur établissant en France les droits et les devoirs de chaque citoyen ?",
+    "reponses_suggerees": [
+      "La Déclaration des Droits de l'Homme et du Citoyen"
+    ],
+    "bonne_reponse": "La Déclaration des Droits de l'Homme et du Citoyen.",
+    "distracteurs": [
+      "Le Code civil des Français, promulgué par Napoléon en 1804.",
+      "Le traité de Rome, qui a créé la Communauté économique européenne.",
+      "L'Édit de Nantes, signé par le roi Henri IV en 1598."
+    ],
+    "explication": "La Déclaration du 26 août 1789 proclame les droits de chaque être humain : liberté, propriété, sûreté et résistance à l'oppression. Son préambule rappelle aussi aux citoyens « leurs droits et leurs devoirs ». Elle fait toujours partie de notre Constitution.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 93,
+    "question": "Quel texte a été adopté pendant la Révolution française ?",
+    "reponses_suggerees": [
+      "La Déclaration des Droits de l'Homme et du Citoyen"
+    ],
+    "bonne_reponse": "La Déclaration des Droits de l'Homme et du Citoyen.",
+    "distracteurs": [
+      "La Constitution de la Cinquième République.",
+      "Le préambule de la Constitution de 1946.",
+      "La loi de 1905 sur la séparation des Églises et de l'État."
+    ],
+    "explication": "La Révolution française a commencé en 1789, et la Déclaration des droits de l'homme et du citoyen a été adoptée le 26 août 1789. La loi de séparation des Églises et de l'État date de 1905, et la Constitution actuelle de 1958.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 94,
+    "question": "Quelle liberté permet à une personne de ne pas avoir de religion ?",
+    "reponses_suggerees": [
+      "La liberté de conscience"
+    ],
+    "bonne_reponse": "La liberté de conscience.",
+    "distracteurs": [
+      "La liberté de la presse.",
+      "La liberté syndicale.",
+      "La liberté de réunion."
+    ],
+    "explication": "La liberté de conscience permet de croire en une religion, d'en changer ou de ne pas en avoir. Elle est protégée par l'article 10 de la Déclaration de 1789 et par la loi du 9 décembre 1905.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 95,
+    "question": "Une femme peut avorter :",
+    "reponses_suggerees": [
+      "Librement, en respectant les règles de la loi.",
+      "Librement, dans les délais fixés par la loi."
+    ],
+    "bonne_reponse": "Librement, dans les délais fixés par la loi.",
+    "distracteurs": [
+      "Avec l'accord écrit de son mari.",
+      "Avec l'autorisation du maire de sa commune.",
+      "Si un juge donne son autorisation."
+    ],
+    "explication": "L'interruption volontaire de grossesse (IVG) est possible jusqu'à la fin de la 14e semaine de grossesse. La femme décide elle-même : l'accord du conjoint n'est pas demandé. Depuis le 8 mars 2024, cette liberté est inscrite dans la Constitution.",
+    "liens": [
+      {"titre": "L'IVG (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1551"}
+    ],
+    "sous_theme": "egalite_fh",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 96,
+    "question": "Est-il toujours possible de divorcer ?",
+    "reponses_suggerees": [
+      "Oui, la loi autorise le divorce pour tous les couples mariés.",
+      "Oui, les époux peuvent divorcer devant un juge ou par accord entre eux (devant un notaire).",
+      "Oui, la loi permet aux couples mariés de divorcer pour se séparer."
+    ],
+    "bonne_reponse": "Oui, la loi autorise le divorce pour tous les couples mariés.",
+    "distracteurs": [
+      "Non, le divorce est interdit quand le couple a des enfants mineurs.",
+      "Oui, mais seulement si le mari est d'accord.",
+      "Non, il faut d'abord l'accord des deux familles."
+    ],
+    "explication": "Chaque époux peut demander le divorce, même si l'autre n'est pas d'accord. Le divorce peut se faire par consentement mutuel, avec un avocat pour chaque époux, ou devant le juge aux affaires familiales.",
+    "liens": [
+      {"titre": "Le divorce par consentement mutuel (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10567"}
+    ],
+    "sous_theme": "famille",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 97,
+    "question": "La peine de mort est :",
+    "reponses_suggerees": [
+      "Abolie en France depuis 1981.",
+      "Interdite et abolie depuis 1981."
+    ],
+    "bonne_reponse": "Abolie en France depuis 1981.",
+    "distracteurs": [
+      "Appliquée pour les crimes graves.",
+      "Décidée par le Président.",
+      "Possible en temps de guerre."
+    ],
+    "explication": "La loi du 9 octobre 1981, défendue par le ministre de la Justice Robert Badinter, a aboli la peine de mort. Depuis 2007, l'article 66-1 de la Constitution dit : « Nul ne peut être condamné à la peine de mort. »",
+    "liens": [
+      {"titre": "L'abolition de la peine de mort (justice.gouv.fr)", "url": "https://www.justice.gouv.fr/actualites/espace-presse/40e-anniversaire-labolition-peine-mort-france"}
+    ],
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 98,
+    "question": "Concernant les limites aux libertés individuelles, quelle proposition est correcte ?",
+    "reponses_suggerees": [
+      "La liberté consiste à pouvoir faire tout ce qui ne nuit pas aux autres.",
+      "La loi peut limiter les libertés pour protéger les autres citoyens.",
+      "Les libertés s'arrêtent pour protéger la sécurité et les droits des autres.",
+      "La loi fixe des limites pour permettre la vie en société."
+    ],
+    "bonne_reponse": "La liberté consiste à pouvoir faire tout ce qui ne nuit pas aux autres.",
+    "distracteurs": [
+      "La liberté consiste à pouvoir faire tout ce que l'on veut, sans exception.",
+      "Le maire peut supprimer une liberté quand il le souhaite, sans motif.",
+      "Les limites aux libertés dépendent de la religion de chaque personne."
+    ],
+    "explication": "C'est l'article 4 de la Déclaration de 1789. La liberté de chacun s'arrête quand elle porte atteinte aux droits des autres, et c'est la loi qui fixe ces limites.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 99,
+    "question": "Est-ce légal d'être marié à plusieurs personnes en même temps ?",
+    "reponses_suggerees": [
+      "Non, on peut être marié à une seule personne à la fois.",
+      "Non, c'est interdit par la loi.",
+      "Non, la polygamie est interdite en France."
+    ],
+    "bonne_reponse": "Non, la polygamie est interdite en France.",
+    "distracteurs": [
+      "Oui, si toutes les épouses sont d'accord.",
+      "Oui, avec l'accord du maire de la commune.",
+      "Oui, si le mari a des revenus suffisants."
+    ],
+    "explication": "En France, on ne peut pas se marier une seconde fois tant que le premier mariage n'est pas dissous. La bigamie est un délit.",
+    "sous_theme": "famille",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": "Reprise de naturalisation #115",
+    "liens": [
+      {
+        "titre": "Le mariage en France (service-public.gouv.fr)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"
+      }
+    ]
+  },
+  {
+    "src_id": 100,
+    "question": "Faut-il réduire ses déchets ?",
+    "reponses_suggerees": [
+      "Oui, pour protéger la nature et la planète.",
+      "Oui, pour protéger l'environnement.",
+      "Oui, pour limiter la pollution."
+    ],
+    "bonne_reponse": "Oui, pour protéger l'environnement.",
+    "distracteurs": [
+      "Non, les déchets ne posent aucun problème.",
+      "Non, c'est le rôle des entreprises.",
+      "Oui, mais c'est réservé aux habitants des villes."
+    ],
+    "explication": "Moins de déchets, c'est moins de pollution et moins de ressources gaspillées. La Charte de l'environnement de 2004 donne à chaque personne le devoir de participer à la protection de l'environnement.",
+    "liens": [
+      {"titre": "La Charte de l'environnement (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/charte-de-l-environnement-de-2004"}
+    ],
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 101,
+    "question": "Jeter une bouteille dans la rue est :",
+    "reponses_suggerees": [
+      "Une action interdite par la loi.",
+      "Une infraction punie par une amende.",
+      "Interdit et puni par la loi."
+    ],
+    "bonne_reponse": "Une infraction punie par une amende.",
+    "distracteurs": [
+      "Un geste autorisé si la bouteille est vide.",
+      "Une simple impolitesse sans sanction.",
+      "Un geste permis en ville."
+    ],
+    "explication": "Abandonner un déchet sur la voie publique, même une bouteille ou un mégot, est une infraction punie d'une amende. Il faut le jeter dans une poubelle ou le garder jusqu'à en trouver une.",
+    "liens": [
+      {"titre": "L'amende pour abandon de déchets (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31963"}
+    ],
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 102,
+    "question": "Pourquoi les libertés individuelles peuvent-elles être limitées ?",
+    "reponses_suggerees": [
+      "Pour respecter la liberté des autres et la sécurité.",
+      "Pour protéger la sécurité de tous les habitants.",
+      "Pour permettre la vie en société et la paix."
+    ],
+    "bonne_reponse": "Pour respecter la liberté des autres et la sécurité.",
+    "distracteurs": [
+      "Pour protéger les intérêts du parti au pouvoir.",
+      "Pour favoriser les citoyens les plus riches.",
+      "Pour imposer une seule religion à tous."
+    ],
+    "explication": "Selon l'article 4 de la Déclaration de 1789, la liberté consiste à faire tout ce qui ne nuit pas aux autres. La loi peut donc limiter une liberté pour protéger la sécurité, l'ordre public ou les droits des autres.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 103,
+    "question": "Que doit faire une personne en cas d’accident ?",
+    "reponses_suggerees": [
+      "Appeler les secours et aider si possible.",
+      "Appeler les pompiers ou le SAMU.",
+      "Protéger la zone et appeler les urgences au téléphone."
+    ],
+    "bonne_reponse": "Appeler les secours et aider si possible.",
+    "distracteurs": [
+      "Partir vite pour ne pas être témoin.",
+      "Attendre que la police arrive sans rien faire.",
+      "Publier une vidéo de l'accident sur internet."
+    ],
+    "explication": "Il faut protéger, alerter, puis secourir si on peut le faire sans danger : appeler le 15 (SAMU), le 18 (pompiers) ou le 112. Ne pas porter secours à une personne en danger est puni par la loi (article 223-6 du Code pénal).",
+    "liens": [
+      {"titre": "Les numéros d'urgence (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"},
+      {"titre": "La non-assistance à personne en danger (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34551"}
+    ],
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 104,
+    "question": "Que permet la citoyenneté française ?",
+    "reponses_suggerees": [
+      "De voter et d'être élu aux élections.",
+      "Le droit de voter pour choisir le Président ou les députés.",
+      "De participer aux élections nationales."
+    ],
+    "bonne_reponse": "De voter et d'être élu aux élections.",
+    "distracteurs": [
+      "De ne plus payer d'impôts en France.",
+      "D'être dispensé de respecter certaines lois.",
+      "D'obtenir un logement gratuit de l'État."
+    ],
+    "explication": "Les citoyens français majeurs, inscrits sur les listes électorales, peuvent voter et se présenter à toutes les élections. Les citoyens de l'Union européenne qui vivent en France votent aux élections municipales et européennes, mais pas aux élections nationales.",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 105,
+    "question": "Que risque une personne qui ne respecte pas la loi ?",
+    "reponses_suggerees": [
+      "Une amende ou une peine de prison.",
+      "Une sanction (une punition) donnée par un juge.",
+      "De payer une amende ou d'aller en prison."
+    ],
+    "bonne_reponse": "Une amende ou une peine de prison.",
+    "distracteurs": [
+      "Une lettre d'excuses à envoyer au maire.",
+      "Une simple remarque de son voisin.",
+      "Aucune sanction s'il ne connaissait pas la loi."
+    ],
+    "explication": "Selon la gravité de l'infraction, la personne risque une amende, une peine de prison ou une autre peine décidée par la justice. Ne pas connaître la loi n'est pas une excuse : la loi s'applique à tous.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 106,
+    "question": "Quel est le rôle de la gendarmerie ?",
+    "reponses_suggerees": [
+      "Maintenir l'ordre et assurer la sécurité de la population.",
+      "Protéger la population, surtout à la campagne.",
+      "Assurer la sécurité dans les petites villes et la campagne.",
+      "Faire respecter la loi à la campagne."
+    ],
+    "bonne_reponse": "Protéger la population, surtout à la campagne.",
+    "distracteurs": [
+      "Juger les personnes qui ne respectent pas la loi.",
+      "Collecter les impôts dans les villages.",
+      "Éteindre les incendies dans les forêts."
+    ],
+    "explication": "La gendarmerie nationale est une force militaire qui dépend du ministère de l'Intérieur. Elle assure la sécurité surtout à la campagne et dans les petites villes. Ce sont les juges, et non les gendarmes, qui jugent.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 107,
+    "question": "Quel est le rôle de la police ?",
+    "reponses_suggerees": [
+      "Maintenir l'ordre et assurer la sécurité de la population.",
+      "Protéger la population, surtout dans les villes.",
+      "Assurer la sécurité dans les villes.",
+      "Arrêter les personnes qui ne respectent pas la loi en ville."
+    ],
+    "bonne_reponse": "Assurer la sécurité dans les villes.",
+    "distracteurs": [
+      "Juger les personnes arrêtées dans les villes.",
+      "Voter les lois au nom des habitants.",
+      "Collecter les impôts dans les villes."
+    ],
+    "explication": "La police nationale dépend du ministère de l'Intérieur. Elle assure la sécurité surtout dans les villes ; la gendarmerie intervient surtout à la campagne. La police arrête les auteurs d'infractions, mais ce sont les juges qui les jugent.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 108,
+    "question": "Qu'est-ce qu'une infraction ?",
+    "reponses_suggerees": [
+      "Une action interdite par la loi.",
+      "Ne pas respecter la loi.",
+      "Un acte interdit et puni par la justice."
+    ],
+    "bonne_reponse": "Un acte interdit et puni par la justice.",
+    "distracteurs": [
+      "Une règle de politesse entre voisins.",
+      "Une décision prise par un juge.",
+      "Un document officiel de la mairie."
+    ],
+    "explication": "Une infraction est un comportement interdit par la loi et puni d'une peine. Il en existe trois sortes, de la moins grave à la plus grave : la contravention, le délit et le crime.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 109,
+    "question": "Comment peut-on réduire ses déchets ?",
+    "reponses_suggerees": [
+      "En triant ses déchets.",
+      "En mettant ses déchets alimentaires au compost.",
+      "En réparant les objets au lieu de les jeter."
+    ],
+    "bonne_reponse": "En mettant ses déchets alimentaires au compost.",
+    "distracteurs": [
+      "En achetant des produits avec beaucoup d'emballages.",
+      "En utilisant chaque jour de la vaisselle jetable.",
+      "En changeant de téléphone chaque année."
+    ],
+    "explication": "Le compost transforme les épluchures et les restes de repas en engrais. Depuis le 1er janvier 2024, chaque commune doit proposer une solution pour trier ces biodéchets. Réparer les objets et éviter les emballages réduit aussi les déchets.",
+    "sous_theme": "devoirs",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 110,
+    "question": "Déposer une machine à laver cassée sur le trottoir est :",
+    "reponses_suggerees": [
+      "Interdit, il faut l'emmener à la déchèterie.",
+      "Interdit par la loi.",
+      "Une infraction punie par une amende."
+    ],
+    "bonne_reponse": "Interdit, il faut l'emmener à la déchèterie.",
+    "distracteurs": [
+      "Autorisé si l'on prévient ses voisins.",
+      "Autorisé si la machine est encore en bon état.",
+      "Conseillé, pour qu'une autre personne la récupère."
+    ],
+    "explication": "Laisser un objet encombrant sur la voie publique est un dépôt sauvage, puni d'une amende. Il faut l'apporter à la déchèterie, le faire reprendre par le magasin lors d'un nouvel achat, ou utiliser la collecte des encombrants de sa commune, si elle existe.",
+    "liens": [
+      {"titre": "L'amende pour abandon de déchets (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31963"}
+    ],
+    "sous_theme": "devoirs",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 111,
+    "question": "En quoi consiste la traite des êtres humains ?",
+    "reponses_suggerees": [
+      "C'est utiliser une personne par la force pour gagner de l'argent.",
+      "Forcer une personne à travailler contre sa volonté.",
+      "Obliger quelqu'un à travailler avec de la violence."
+    ],
+    "bonne_reponse": "C'est utiliser une personne par la force pour gagner de l'argent.",
+    "distracteurs": [
+      "C'est vendre des produits fabriqués à l'étranger sans les déclarer.",
+      "C'est embaucher une personne étrangère avec un contrat de travail.",
+      "C'est louer un logement à une personne contre un loyer normal."
+    ],
+    "explication": "La traite des êtres humains consiste à recruter, transporter ou héberger une personne pour l'exploiter : travail forcé, prostitution forcée, esclavage ou mendicité forcée. Elle est punie de 7 ans de prison, et de peines plus lourdes dans les cas graves (article 225-4-1 du Code pénal).",
+    "sous_theme": "droits_fondamentaux",
+    "difficulte": 2,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 112,
+    "question": "Que doit faire une victime de violences ?",
+    "reponses_suggerees": [
+      "Porter plainte à la police ou à la gendarmerie.",
+      "Demander de l'aide à une association.",
+      "Appeler le 17 pour demander de l'aide à la police."
+    ],
+    "bonne_reponse": "Porter plainte à la police ou à la gendarmerie.",
+    "distracteurs": [
+      "Garder le silence pour éviter les ennuis.",
+      "Attendre que l'agresseur présente ses excuses.",
+      "Se venger elle-même de la personne violente."
+    ],
+    "explication": "Une victime peut porter plainte au commissariat ou à la gendarmerie. En urgence, elle appelle le 17 ou le 112. Pour les violences faites aux femmes, le 3919 est un numéro gratuit et anonyme.",
+    "liens": [
+      {"titre": "Porter plainte (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1435"},
+      {"titre": "Arrêtons les violences (arretonslesviolences.gouv.fr)", "url": "https://arretonslesviolences.gouv.fr/"}
+    ],
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  },
+  {
+    "src_id": 113,
+    "question": "Quelle est l'infraction la plus grave ?",
+    "reponses_suggerees": [
+      "Un crime (par exemple : tuer une personne).",
+      "Tuer une personne (meurtre).",
+      "L'assassinat."
+    ],
+    "bonne_reponse": "Un crime (par exemple : tuer une personne).",
+    "distracteurs": [
+      "Un délit (par exemple : un vol simple).",
+      "Une contravention (par exemple : un stationnement interdit).",
+      "Un délit (par exemple : conduire sans permis)."
+    ],
+    "explication": "Il existe trois sortes d'infractions : la contravention, le délit et le crime. Le crime, comme le meurtre ou le viol, est le plus grave : il est jugé par la cour d'assises ou par la cour criminelle départementale.",
+    "sous_theme": "justice_recours",
+    "difficulte": 1,
+    "a_verifier": false,
+    "note": ""
+  }
+]
