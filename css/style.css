@@ -773,6 +773,102 @@ body { padding-bottom: calc(100px + env(safe-area-inset-bottom)); }
 .corr-explication p { margin: 8px 0 0; }
 .corr-explication .correction-liens { padding: 10px 0 0; }
 
+/* ===== Points faibles et révision guidée ===== */
+
+.ligne-pf {
+  display: flex; align-items: center; gap: 12px; padding: 14px;
+  background: var(--surface); border: 1px solid var(--bord); border-radius: 18px;
+  color: var(--texte); text-decoration: none;
+}
+.ligne-pf:hover { background: var(--surface-2); }
+.ligne-pf strong { font-weight: 750; line-height: 1.3; }
+.a-revoir { color: var(--attention); font-weight: 700; }
+.score-pf { flex: none; min-width: 58px; text-align: center; padding: 6px 8px; border-radius: 12px; font-weight: 800; font-size: .95rem; }
+.score-pf.ok { background: var(--ok-doux); color: var(--ok); }
+.score-pf.moyen { background: color-mix(in srgb, var(--attention) 14%, var(--surface)); color: var(--attention); }
+.score-pf.ko { background: var(--ko-doux); color: var(--ko); }
+.lien-bloc { color: var(--texte); text-decoration: none; }
+.lien-bloc:hover strong { color: var(--c); }
+
+.carte-info { display: flex; align-items: flex-start; gap: 12px; }
+.carte-info > .ic { flex: none; color: var(--primaire); margin-top: 2px; }
+.carte-info p { margin: 0; }
+.carte-info.ok > .ic { color: var(--ok); }
+.carte-info.attention { background: color-mix(in srgb, var(--attention) 10%, var(--surface)); border-color: color-mix(in srgb, var(--attention) 35%, var(--bord)); }
+.carte-info.attention > .ic { color: var(--attention); }
+
+.repli { margin-top: 18px; }
+.repli > summary {
+  cursor: pointer; display: flex; align-items: center; gap: 8px; padding: 12px 16px;
+  border-radius: 16px; background: var(--surface); border: 1px solid var(--bord); font-weight: 700;
+}
+.repli[open] > summary { margin-bottom: 10px; }
+
+.barre-hero .barre { background: rgba(255, 255, 255, .25); height: 10px; margin: 12px 0 0; }
+.barre-hero .barre span { background: #fff; }
+
+.etapes { list-style: none; display: flex; gap: 0; padding: 16px 12px; margin: 0 0 14px; position: relative; }
+.etape { position: relative; flex: 1; display: grid; justify-items: center; gap: 6px; font-size: .82rem; font-weight: 700; color: var(--texte-2); text-align: center; }
+.etape span { position: relative; z-index: 1; display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; background: var(--surface-2); color: var(--texte-2); border: 3px solid var(--surface); }
+.etape span .ic { width: 20px; height: 20px; }
+.etape + .etape::before { content: ""; position: absolute; top: 21px; right: 50%; width: 100%; height: 3px; background: var(--surface-2); }
+.etape.faite + .etape::before, .etape.faite + .etape.active::before { background: var(--ok); }
+.etape.active { color: var(--texte); }
+.etape.active span { background: var(--c, var(--primaire)); color: var(--sur-primaire); box-shadow: 0 0 0 4px color-mix(in srgb, var(--c, var(--primaire)) 20%, transparent); }
+.etape.faite span { background: var(--ok); color: var(--surface); }
+
+.rappel { margin-top: 14px; padding: 0; overflow: hidden; }
+.rappel > summary { display: flex; align-items: center; gap: 12px; padding: 14px 16px; list-style: none; cursor: pointer; }
+.rappel > summary::-webkit-details-marker { display: none; }
+.rappel > summary .chevron { transition: transform .15s ease; }
+.rappel[open] > summary .chevron { transform: rotate(90deg); }
+.rappel > .cours { padding: 0 18px; border-top: 1px solid var(--bord); }
+.rappel > .actions-section { margin: 0 18px 18px; }
+
+/* ===== Réglages et à propos ===== */
+
+.titre-reglage { font-size: .82rem; text-transform: uppercase; letter-spacing: .06em; color: var(--texte-2); margin: 26px 4px 10px; }
+.choix-radio {
+  display: flex; align-items: center; gap: 12px; width: 100%; padding: 14px; text-align: left; cursor: pointer;
+  background: var(--surface); color: var(--texte); border: 2px solid var(--bord); border-radius: 18px;
+}
+.choix-radio.actif { border-color: var(--c); background: color-mix(in srgb, var(--c) 7%, var(--surface)); }
+.choix-radio strong { font-weight: 800; }
+.radio { flex: none; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--bord); }
+.choix-radio.actif .radio { background: var(--c); border-color: var(--c); color: var(--surface); }
+.radio .ic { width: 16px; height: 16px; stroke-width: 3; }
+
+.reglages-groupe { display: grid; gap: 18px; }
+.reglage { display: grid; gap: 8px; margin: 0; }
+.reglage-titre { display: flex; align-items: center; gap: 8px; margin: 0; font-weight: 700; }
+.reglage-titre .ic { color: var(--texte-2); }
+.reglage .segments { margin: 0; }
+.reglage select { margin: 0; }
+.apercu-a { font-weight: 800; line-height: 1; }
+.apercu-a.a1 { font-size: .9rem; }
+.apercu-a.a2 { font-size: 1.15rem; }
+.apercu-a.a3 { font-size: 1.45rem; }
+
+.groupe-lignes { display: grid; overflow: hidden; border: 1px solid var(--bord); border-radius: 18px; background: var(--surface); }
+.ligne-reglage {
+  display: flex; align-items: center; gap: 12px; width: 100%; padding: 14px; text-align: left; cursor: pointer;
+  background: none; border: 0; color: var(--texte); text-decoration: none; font: inherit;
+}
+.ligne-reglage + .ligne-reglage { border-top: 1px solid var(--bord); }
+.ligne-reglage:hover { background: var(--surface-2); }
+.ligne-reglage strong { font-weight: 700; }
+.ligne-reglage.danger strong { color: var(--ko); }
+
+.carte-marque { display: flex; align-items: center; gap: 14px; }
+.carte-marque h2 { margin: 0 0 4px; }
+.carte-marque p { margin: 0; }
+.logo-plein { flex: none; width: 56px; height: 56px; border-radius: 16px; background: linear-gradient(155deg, #172a6e, #3a64dc); color: #fff; }
+.logo-plein .ic { width: 30px; height: 30px; }
+.titre-section .ic-texte { color: var(--texte-2); }
+.liste-propre { margin: 0; padding-left: 1.1em; }
+.liste-propre li { margin-bottom: .6em; }
+.liste-propre li:last-child { margin-bottom: 0; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
