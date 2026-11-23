@@ -1025,30 +1025,56 @@ function vueReglages() {
     <p class="note-reglage centre">${APP_NAME} · gratuit, sans publicité, open source</p>`, 'aucun');
 }
 
+/** Ligne d'information, non cliquable. */
+function ligneInfo(icone, couleur, titre, texte) {
+  return `<div class="ligne-reglage ligne-info" style="--c:${couleur}">${pastille(icone, 'petite')}<span class="lt-texte"><strong>${titre}</strong>${texte ? `<small>${texte}</small>` : ''}</span></div>`;
+}
+
 function vueAPropos() {
+  const retour = parcoursCourant() ? '#/reglages' : '#/';
   afficher(`
-    ${entete('À propos', '#/reglages')}
-    <div class="carte carte-marque">
-      <span class="logo-marque logo-plein">${ic('valide')}</span>
-      <div><h2>${APP_NAME}</h2><p>Une application <strong>gratuite, sans publicité et open source</strong> pour préparer l’examen civique : naturalisation, carte de résident et carte pluriannuelle.</p></div>
+    <div class="hero hero-apropos" data-titre="À propos" data-retour="${retour}">
+      <div class="hero-haut">
+        <a class="retour retour-hero" href="${retour}" aria-label="Retour">${ic('retour')}</a>
+        <span class="hero-marque">À propos</span>
+      </div>
+      <div class="apropos-marque">
+        <span class="logo-marque logo-grand">${ic('valide')}</span>
+        <h1>${APP_NAME}</h1>
+        <p class="hero-texte">Pour préparer l’examen civique : carte pluriannuelle, carte de résident et naturalisation.</p>
+      </div>
     </div>
-    <div class="carte carte-info attention">${ic('attention')}<p>C’est un <strong>outil indépendant</strong> : il n’est pas édité par l’État ni par le ministère de l’Intérieur.</p></div>
 
-    <h2 class="titre-section">${ic('droits', 'ic ic-texte')} Sources</h2>
-    <div class="carte texte">
-      <ul class="liste-propre">
-        <li><strong>Questions</strong> : listes officielles publiées par le ministère de l’Intérieur.</li>
-        <li><strong>Réponses</strong> suggérées par <a href="https://leqcmcivique.fr" target="_blank" rel="noopener">leqcmcivique.fr</a>, publiées sur data.gouv.fr sous Licence Ouverte 2.0.</li>
-        <li><strong>Mauvaises réponses, explications, mises en situation et cours</strong> : rédigés pour ce projet. Il n’existe pas de liste officielle des mises en situation. Ces contenus peuvent contenir des erreurs : signalez-les !</li>
-        <li><strong>Format de l’examen</strong> : 40 questions, dont 12 mises en situation, 45 minutes, 32 bonnes réponses pour réussir (arrêté du 10 octobre 2025).</li>
+    <section class="chevauche">
+      <ul class="reperes reperes-apropos" aria-label="En bref">
+        <li>${pastille('valide', 'petite')}<span>Gratuit, sans publicité</span></li>
+        <li>${pastille('bouclier', 'petite')}<span>Sans compte ni inscription</span></li>
+        <li>${pastille('code', 'petite')}<span>Ouvert à tous (open source)</span></li>
       </ul>
+      <div class="carte carte-info attention">${ic('attention')}<p>C’est un <strong>outil indépendant</strong> : il n’est pas édité par l’État ni par le ministère de l’Intérieur.</p></div>
+    </section>
+
+    <h2 class="titre-reglage">Sources</h2>
+    <div class="groupe-lignes">
+      ${ligneReglage({ href: 'https://formation-civique.interieur.gouv.fr/', icone: 'institutions', couleur: 'var(--c-institutions)', titre: 'Questions officielles', texte: 'Site du ministère de l’Intérieur', externe: true })}
+      ${ligneReglage({ href: 'https://leqcmcivique.fr', icone: 'valide', couleur: 'var(--c-droits)', titre: 'Réponses suggérées par leqcmcivique.fr', texte: 'Publiées sur data.gouv.fr, Licence Ouverte 2.0', externe: true })}
+      ${ligneReglage({ href: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052381620', icone: 'chrono', couleur: 'var(--c-histoire)', titre: 'Format de l’examen', texte: '40 questions, dont 12 mises en situation · 45 minutes · 32 bonnes réponses pour réussir', externe: true })}
+    </div>
+    <p class="note-reglage">Les mauvaises réponses, les explications, les mises en situation et les cours sont rédigés pour ce projet, à partir de sources officielles. Il n’existe pas de liste officielle des mises en situation. Une erreur reste possible : signalez-la !</p>
+
+    <h2 class="titre-reglage">Vie privée</h2>
+    <div class="groupe-lignes">
+      ${ligneInfo('bouclier', 'var(--ok)', 'Aucun compte', 'Pas d’inscription, pas d’adresse e-mail')}
+      ${ligneInfo('valide', 'var(--ok)', 'Aucune donnée collectée', 'Pas de cookie publicitaire, pas de mesure d’audience')}
+      ${ligneInfo('accueil', 'var(--ok)', 'Tout reste sur votre appareil', 'Votre progression ne quitte pas votre téléphone')}
     </div>
 
-    <h2 class="titre-section">${ic('code', 'ic ic-texte')} Contribuer</h2>
-    <div class="carte texte"><p>Le code et le contenu sont ouverts. Vous pouvez signaler une erreur ou proposer une amélioration sur <a href="https://github.com/Nicko887/passeport-civique" target="_blank" rel="noopener">GitHub</a>.</p></div>
-
-    <h2 class="titre-section">${ic('bouclier', 'ic ic-texte')} Vie privée</h2>
-    <div class="carte texte"><p>Aucun compte, aucun cookie publicitaire, aucune donnée personnelle collectée. La progression reste sur votre appareil.</p></div>`, 'aucun');
+    <h2 class="titre-reglage">Contribuer</h2>
+    <div class="groupe-lignes">
+      ${ligneReglage({ href: 'https://github.com/Nicko887/passeport-civique/issues', icone: 'attention', couleur: 'var(--attention)', titre: 'Signaler une erreur', texte: 'Sur GitHub (nouvel onglet)', externe: true })}
+      ${ligneReglage({ href: 'https://github.com/Nicko887/passeport-civique', icone: 'code', couleur: 'var(--c-principes)', titre: 'Voir le code source', texte: 'Le code et le contenu sont ouverts', externe: true })}
+    </div>
+    <p class="note-reglage centre">${APP_NAME} · gratuit et open source</p>`, 'aucun');
 }
 
 // ---------- Navigation ----------

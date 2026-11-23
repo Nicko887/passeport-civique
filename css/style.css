@@ -1082,6 +1082,21 @@ h2.titre-reglage { font-size: .76rem; font-weight: 750; text-transform: uppercas
 .ligne-controle .segments button.actif { background: var(--surface); color: var(--texte); box-shadow: 0 1px 3px rgba(22, 32, 58, .15); }
 .ligne-controle select { min-height: 42px; }
 
+/* À propos : marque centrée dans le bandeau, repères et lignes d'information */
+.hero-apropos { padding-bottom: 74px; }
+.apropos-marque { display: grid; justify-items: center; text-align: center; margin-top: 14px; }
+.apropos-marque h1 { margin: 12px 0 6px; font-size: 1.7rem; }
+.apropos-marque .hero-texte { max-width: 22em; }
+.logo-grand { width: 64px; height: 64px; border-radius: 20px; box-shadow: 0 8px 24px rgba(8, 16, 48, .3); }
+.logo-grand .ic { width: 36px; height: 36px; }
+.reperes-apropos { margin: 0 0 12px; }
+.reperes-apropos li:nth-child(1) { --c: var(--ok); }
+.reperes-apropos li:nth-child(2) { --c: var(--c-principes); }
+.reperes-apropos li:nth-child(3) { --c: var(--c-droits); }
+.ligne-info { cursor: default; }
+.ligne-info:hover, .ligne-info:active { background: none; }
+.chevauche + h2.titre-reglage { margin-top: 20px; }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 
@@ -1100,7 +1115,6 @@ h2.titre-reglage { font-size: .76rem; font-weight: 750; text-transform: uppercas
 .entete-compacte.visible { transform: none; opacity: 1; pointer-events: auto; }
 .entete-compacte strong { flex: 1; min-width: 0; font-size: 1.02rem; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .entete-compacte .retour { width: 36px; height: 36px; }
-body.sans-nav .entete-compacte { display: none; }
 
 /* Transition douce à chaque changement d'écran */
 main.entree > * { animation: entree-ecran .22s ease-out both; }
