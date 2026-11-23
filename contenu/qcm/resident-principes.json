@@ -140,7 +140,7 @@
     "bonne_reponse": "Chacun est libre de pratiquer sa religion en respectant la loi",
     "distracteurs": [
       "Chacun doit déclarer sa religion à la mairie",
-      "Seule la religion catholique peut être pratiquée",
+      "Seule la religion catholique peut être pratiquée dans les lieux publics",
       "La religion doit être pratiquée en secret"
     ],
     "explication": "La France garantit la liberté de culte : chacun peut croire, ne pas croire ou pratiquer la religion de son choix, à condition de respecter l'ordre public et la loi.",
@@ -158,7 +158,7 @@
     "bonne_reponse": "Non, le sport fait partie du programme et l'école est mixte",
     "distracteurs": [
       "Oui, pour des raisons religieuses",
-      "Oui, avec un simple mot des parents",
+      "Oui, avec un simple mot des parents donné au professeur de sport",
       "Oui, si l'enfant est une fille"
     ],
     "explication": "L'éducation physique est obligatoire et l'école publique est mixte. Les parents ne peuvent pas refuser un cours du programme pour des raisons religieuses.",
@@ -192,7 +192,7 @@
     "distracteurs": [
       "Autorisée si la religion du mari le permet",
       "Autorisée avec l'accord des deux familles",
-      "Autorisée si le mariage a eu lieu à l'étranger"
+      "Autorisée si le mariage a eu lieu à l'étranger, selon la loi de ce pays"
     ],
     "explication": "La répudiation est contraire à l'égalité entre les femmes et les hommes. En France, un mariage ne peut prendre fin que par un divorce prononcé selon la loi.",
     "sous_theme": "egalite",
@@ -205,8 +205,8 @@
     "question": "Les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
     "bonne_reponse": "Ils financent les services publics, comme les écoles et les hôpitaux",
     "distracteurs": [
-      "Ils servent uniquement à payer le salaire des élus",
-      "Ils sont reversés aux grandes entreprises privées",
+      "Ils servent surtout à payer le salaire des élus",
+      "Ils sont reversés aux grandes entreprises privées et aux banques étrangères",
       "Ils financent seulement l'armée"
     ],
     "explication": "Les impôts payent les dépenses publiques : écoles, hôpitaux, police, routes. Ces services profitent à tous.",
@@ -238,7 +238,7 @@
     "question": "Que fait l’État pour lutter contre les discriminations ?",
     "bonne_reponse": "Il punit les discriminations et a créé le Défenseur des droits",
     "distracteurs": [
-      "Il laisse chaque employeur décider librement",
+      "Il laisse chaque employeur décider librement de ses règles d'embauche",
       "Il réserve certains emplois aux hommes",
       "Il ne fait rien, car c'est une affaire privée"
     ],
@@ -455,7 +455,7 @@
     "question": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
     "bonne_reponse": "Pour garantir la liberté de conscience et l'égalité des élèves",
     "distracteurs": [
-      "Pour enseigner une seule religion à tous les élèves",
+      "Pour enseigner une seule religion à tous les élèves, celle de la majorité",
       "Pour interdire aux élèves d'avoir une religion",
       "Pour séparer les élèves selon leur religion"
     ],
@@ -614,7 +614,7 @@
     "question": "Que garantit le principe de laïcité ?",
     "bonne_reponse": "La liberté de conscience et la séparation de l'État et des religions",
     "distracteurs": [
-      "La supériorité d'une religion sur les autres",
+      "La supériorité d'une religion sur les autres dans les écoles et les mairies",
       "L'interdiction de pratiquer une religion",
       "L'obligation d'être athée pour voter"
     ],

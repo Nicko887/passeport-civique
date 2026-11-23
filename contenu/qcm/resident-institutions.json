@@ -4,7 +4,7 @@
     "question": "Qu'est-ce que l'État de droit ?",
     "bonne_reponse": "Un système où tout le monde, y compris l'État, doit respecter le droit.",
     "distracteurs": [
-      "Un système où le Président peut décider seul des lois.",
+      "Un système où le Président peut faire les lois sans aucun vote des élus.",
       "Un système où seuls les étrangers doivent respecter la loi.",
       "Un système où la police juge les personnes sans tribunal."
     ],
@@ -78,7 +78,7 @@
     "distracteurs": [
       "Le pouvoir absolu du chef de l'État.",
       "L'impunité des responsables politiques.",
-      "Le droit pour l'État de ne pas respecter les lois."
+      "Le droit pour l'État de ne pas respecter les lois qu'il trouve injustes."
     ],
     "explication": "L'État de droit protège les libertés grâce à la séparation des pouvoirs et à une justice indépendante. Tout le monde est égal devant la loi.",
     "liens": [
@@ -220,7 +220,7 @@
     "question": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
     "bonne_reponse": "Pour éviter qu'une seule personne ait tout le pouvoir.",
     "distracteurs": [
-      "Pour donner plus de pouvoir au Président.",
+      "Pour donner plus de pouvoir au Président de la République.",
       "Pour que les juges fassent les lois.",
       "Pour réduire le nombre d'élections."
     ],
@@ -275,7 +275,7 @@
     "bonne_reponse": "Il peut être jugé et puni par la justice, comme tout le monde.",
     "distracteurs": [
       "Rien, les ministres sont au-dessus des lois.",
-      "Il est protégé jusqu'à la fin de sa vie.",
+      "Il ne peut pas être jugé tant qu'il fait partie du Gouvernement.",
       "Seul le Président peut décider de le punir."
     ],
     "explication": "Un ministre doit respecter la loi. Il peut perdre son poste et être jugé. Pour des crimes ou des délits commis dans ses fonctions, il est jugé par la Cour de justice de la République. Pour les autres faits, il est jugé par les tribunaux ordinaires.",
@@ -402,7 +402,7 @@
     "distracteurs": [
       "Être né en France et avoir un emploi.",
       "Être propriétaire de son logement.",
-      "Avoir plus de 21 ans et payer des impôts."
+      "Avoir plus de 21 ans et payer des impôts sur le revenu en France."
     ],
     "explication": "Pour voter, il faut avoir la nationalité française, au moins 18 ans, ses droits civiques et être inscrit sur les listes électorales.",
     "liens": [
@@ -562,7 +562,7 @@
     "question": "Quel est le rôle du Défenseur des droits ?",
     "bonne_reponse": "Protéger les droits et libertés et lutter contre les discriminations.",
     "distracteurs": [
-      "Défendre les accusés au tribunal comme un avocat.",
+      "Défendre gratuitement les accusés devant le tribunal, comme un avocat.",
       "Voter les lois sur les droits de l'homme.",
       "Contrôler les comptes des communes."
     ],
@@ -598,9 +598,9 @@
     "question": "Quel est le rôle principal du département ?",
     "bonne_reponse": "L'action sociale, les collèges et les routes départementales.",
     "distracteurs": [
-      "Les lycées et les trains régionaux.",
+      "Les lycées, les trains régionaux et les universités de la région.",
       "Le vote des lois nationales.",
-      "La célébration des mariages."
+      "La célébration des mariages et l'état civil des habitants."
     ],
     "explication": "Le département aide les personnes âgées, les personnes handicapées et les enfants en danger. Il finance le revenu de solidarité active (RSA), que la CAF ou la MSA verse. Il gère aussi les collèges et les routes départementales.",
     "liens": [
@@ -616,8 +616,8 @@
     "question": "Quel est le rôle principal des communes ?",
     "bonne_reponse": "Gérer les services de proximité, comme l'état civil et les écoles.",
     "distracteurs": [
-      "Gérer les lycées et les universités.",
-      "Organiser la défense nationale.",
+      "Gérer les lycées et les universités de la région.",
+      "Organiser la défense nationale et la sécurité des frontières du pays.",
       "Fixer le montant des retraites."
     ],
     "explication": "La commune s'occupe de la vie de tous les jours : état civil, écoles maternelles et élémentaires, permis de construire, propreté.",
@@ -869,7 +869,7 @@
     "bonne_reponse": "Être citoyen de l'Union européenne, majeur et inscrit sur les listes électorales.",
     "distracteurs": [
       "Être né dans un pays d'Europe.",
-      "Habiter en Europe depuis dix ans, quelle que soit sa nationalité.",
+      "Habiter dans l'Union européenne depuis au moins dix ans, quelle que soit sa nationalité.",
       "Parler au moins deux langues européennes."
     ],
     "explication": "Les citoyens français et les citoyens des autres pays de l'Union qui vivent en France peuvent voter aux européennes, s'ils ont 18 ans et sont inscrits. Les citoyens européens s'inscrivent sur une liste électorale complémentaire, à la mairie.",

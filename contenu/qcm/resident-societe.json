@@ -40,8 +40,8 @@
     "question": "En cas de divorce, qui exerce l'autorité parentale ?",
     "bonne_reponse": "Les deux parents, sauf décision contraire du juge.",
     "distracteurs": [
-      "Uniquement la mère, dans tous les cas.",
-      "Uniquement le parent qui a le plus de revenus.",
+      "La mère seule, quel que soit l'âge des enfants.",
+      "Le père, qui décide à la place de la mère.",
       "Uniquement le parent qui a demandé le divorce."
     ],
     "explication": "Le divorce sépare les époux, mais pas les parents de leurs enfants. Les deux parents gardent l'autorité parentale, sauf si le juge aux affaires familiales décide autrement dans l'intérêt de l'enfant.",
@@ -113,7 +113,7 @@
     "bonne_reponse": "Écrit et signé par le propriétaire et le locataire.",
     "distracteurs": [
       "Signé seulement par le locataire.",
-      "Validé et tamponné par la mairie de la commune.",
+      "Validé et tamponné par la mairie de la commune du logement.",
       "Déclaré au commissariat de police du quartier."
     ],
     "explication": "La loi demande que le bail soit écrit et signé par le propriétaire et le locataire. Le bail précise le loyer, les charges, le dépôt de garantie et la durée du contrat.",
@@ -167,8 +167,8 @@
     "bonne_reponse": "L'Assurance Maladie rembourse une partie des frais de santé.",
     "distracteurs": [
       "Seules les personnes de nationalité française peuvent voir un médecin.",
-      "L'hôpital soigne seulement les personnes qui ont un emploi.",
-      "Chaque patient paie toujours seul la totalité de ses soins."
+      "L'hôpital refuse de soigner les personnes qui n'ont pas d'emploi.",
+      "Le patient paie tous ses soins, sans remboursement."
     ],
     "explication": "Toute personne qui vit en France peut se faire soigner. L'Assurance Maladie rembourse une partie des frais, et une mutuelle peut compléter.",
     "liens": [
@@ -185,8 +185,8 @@
     "bonne_reponse": "À toute personne, y compris aux mineurs.",
     "distracteurs": [
       "Seulement aux personnes mariées.",
-      "Seulement aux femmes de plus de 25 ans.",
-      "Seulement avec l'accord des parents ou du conjoint."
+      "Aux femmes, à condition d'avoir plus de 25 ans.",
+      "Aux mineurs, à condition d'avoir l'accord des parents."
     ],
     "explication": "Toute personne peut choisir librement d'utiliser une contraception, même si elle est mineure et sans l'accord de ses parents ou de son conjoint. L'Assurance Maladie la rembourse en grande partie, à 100 % pour les moins de 26 ans.",
     "liens": [
@@ -221,7 +221,7 @@
     "question": "L'inscription à l'Assurance maladie est :",
     "bonne_reponse": "Obligatoire pour toute personne qui réside en France de façon stable et régulière.",
     "distracteurs": [
-      "Facultative pour les personnes de nationalité étrangère qui vivent en France.",
+      "Facultative pour les personnes de nationalité étrangère qui vivent et travaillent en France.",
       "Réservée aux personnes qui ont un contrat de travail à durée indéterminée.",
       "Possible seulement après dix ans de résidence en France."
     ],
@@ -240,8 +240,8 @@
     "bonne_reponse": "Le père ou la mère salarié, après une naissance ou une adoption.",
     "distracteurs": [
       "Seulement la mère, après une naissance ou une adoption.",
-      "Seulement le parent qui gagne le moins dans le couple.",
-      "Seulement les fonctionnaires de l'État."
+      "Le parent qui gagne le moins dans le couple, avec l'accord de l'employeur.",
+      "Les grands-parents de l'enfant, à la place des parents."
     ],
     "explication": "Le congé parental d'éducation est ouvert au père comme à la mère, après une naissance ou une adoption. Il faut avoir au moins 1 an d'ancienneté dans l'entreprise. Les deux parents peuvent le prendre en même temps ou l'un après l'autre.",
     "liens": [
@@ -293,8 +293,8 @@
     "question": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
     "bonne_reponse": "Il peut demander des heures supplémentaires, en respectant la loi.",
     "distracteurs": [
-      "Il peut l'imposer sans payer ces heures en plus au salarié.",
-      "Il doit d'abord obtenir l'accord écrit de la mairie.",
+      "Il peut l'imposer librement, sans payer ces heures en plus au salarié.",
+      "Il doit d'abord obtenir l'accord écrit de la mairie de la commune.",
       "Il doit lui faire signer un deuxième contrat de travail."
     ],
     "explication": "Les heures supplémentaires sont encadrées par la loi : elles ont des limites et sont payées davantage, en général 25 % de plus pour les 8 premières heures de la semaine.",
@@ -434,9 +434,9 @@
     "question": "Qui peut manger à la cantine scolaire ?",
     "bonne_reponse": "Tous les enfants inscrits à l'école, sans discrimination.",
     "distracteurs": [
-      "Seulement les enfants dont les deux parents travaillent.",
+      "Les enfants, à condition que les deux parents travaillent.",
       "Seulement les enfants de nationalité française.",
-      "Seulement les enfants qui habitent à côté de l'école."
+      "Les enfants, à condition d'habiter à côté de l'école."
     ],
     "explication": "Quand une commune organise une cantine, tous les enfants scolarisés ont le droit d'y être inscrits. La commune ne peut pas refuser un enfant à cause de la situation de sa famille.",
     "liens": [

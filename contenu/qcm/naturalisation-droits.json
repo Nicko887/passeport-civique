@@ -97,7 +97,7 @@
     "distracteurs": [
       "Que chaque article doit être validé par le gouvernement avant sa publication.",
       "Que seuls les journaux de l'État ont le droit de publier des informations.",
-      "Que les journalistes peuvent publier des insultes sans jamais être punis."
+      "Que les journalistes peuvent publier des insultes et des mensonges sans être punis par la justice."
     ],
     "explication": "La loi du 29 juillet 1881 sur la liberté de la presse garantit cette liberté. Les journalistes publient sans autorisation, mais ils restent responsables devant la justice en cas de diffamation ou d'injure.",
     "sous_theme": "droits_fondamentaux",
@@ -143,7 +143,7 @@
     "question": "Que sont les droits fondamentaux ?",
     "bonne_reponse": "Des droits essentiels garantis par la Constitution et les textes internationaux.",
     "distracteurs": [
-      "Des avantages que le gouvernement peut retirer quand il le souhaite.",
+      "Des avantages que le gouvernement peut retirer quand il le souhaite, par un simple décret.",
       "Des droits réservés aux personnes qui ont un emploi stable.",
       "Des règles de politesse sans valeur juridique."
     ],
@@ -180,7 +180,7 @@
     "question": "Quel est le texte fondateur établissant les droits et les devoirs de chaque citoyen ?",
     "bonne_reponse": "La Déclaration des droits de l'homme et du citoyen de 1789.",
     "distracteurs": [
-      "Le Code civil de Napoléon, adopté en 1804.",
+      "Le Code civil des Français, voulu par Napoléon et adopté en 1804.",
       "L'édit de Nantes signé par Henri IV en 1598.",
       "Le traité de Versailles signé en 1919."
     ],
@@ -200,7 +200,7 @@
     "distracteurs": [
       "Le Code civil de Napoléon, adopté en 1804.",
       "L'édit de Nantes signé par Henri IV en 1598.",
-      "Le traité de Maastricht signé en 1992."
+      "Le traité de Maastricht sur l'Union européenne, signé en 1992."
     ],
     "explication": "L'article 1er de la Déclaration de 1789 dit : « Les hommes naissent et demeurent libres et égaux en droits. »",
     "liens": [
@@ -218,7 +218,7 @@
     "distracteurs": [
       "Être contrôlé par un agent dans le train.",
       "Payer un impôt sur ses revenus.",
-      "Attendre son tour dans une administration."
+      "Attendre son tour au guichet d'une administration publique."
     ],
     "explication": "Faire travailler quelqu'un sans le payer, ou dans des conditions indignes, porte atteinte à sa dignité. La loi punit sévèrement ces situations.",
     "sous_theme": "droits_fondamentaux",
@@ -232,7 +232,7 @@
     "bonne_reponse": "Le droit de communiquer librement ses idées et ses opinions, dans le respect de la loi.",
     "distracteurs": [
       "Le droit de dire n'importe quoi sur n'importe qui, sans aucune limite.",
-      "Le droit de parler seulement des sujets autorisés par le gouvernement.",
+      "Le droit de parler des sujets autorisés à l'avance par le gouvernement et par les préfets.",
       "Le droit réservé aux journalistes de donner leur avis en public."
     ],
     "explication": "L'article 11 de la Déclaration de 1789 protège la libre communication des pensées. Les abus, comme l'injure ou l'appel à la haine, sont punis par la loi.",
@@ -304,7 +304,7 @@
     "bonne_reponse": "Chez soi, dans son propre logement.",
     "distracteurs": [
       "Dans un restaurant.",
-      "Dans un bus.",
+      "Dans un bus, si les fenêtres sont ouvertes.",
       "Dans une salle de classe."
     ],
     "explication": "Il est interdit de fumer dans les lieux fermés et couverts accueillant du public, comme les restaurants, les transports ou les écoles. Depuis le 1er juillet 2025, c'est aussi interdit dans certains lieux en plein air : plages, parcs, abribus, abords des écoles. Chez soi, c'est autorisé.",
@@ -341,7 +341,7 @@
     "distracteurs": [
       "À donner chaque mois une partie de son salaire à ses voisins.",
       "À voter pour le même parti que la majorité des autres citoyens.",
-      "À héberger chez soi toute personne qui le demande, sans exception."
+      "À héberger chez soi toute personne qui le demande, même sans la connaître, sans exception."
     ],
     "explication": "La solidarité nationale passe par l'impôt et les cotisations sociales, qui financent les services publics et la protection sociale. Elle oblige aussi à aider une personne en danger.",
     "liens": [
@@ -449,7 +449,7 @@
     "bonne_reponse": "Une infraction punie par une amende ou un retrait de points.",
     "distracteurs": [
       "Un simple conseil sans conséquence.",
-      "Une faute punie seulement par une lettre d'excuse.",
+      "Une faute punie par une simple lettre d'excuse envoyée à la mairie.",
       "Un comportement autorisé la nuit."
     ],
     "explication": "Le code de la route fait partie de la loi. Ne pas le respecter est une contravention ou un délit, selon la gravité.",
@@ -497,7 +497,7 @@
     "bonne_reponse": "Pour sanctionner les provocations à la haine ou à la violence.",
     "distracteurs": [
       "Pour interdire de critiquer le gouvernement.",
-      "Pour empêcher de parler une langue étrangère en public.",
+      "Pour empêcher de parler une langue étrangère dans les lieux publics.",
       "Pour interdire d'exprimer une opinion religieuse."
     ],
     "explication": "La liberté d'expression a des limites fixées par la loi : l'appel à la haine, le racisme, l'injure et la diffamation sont punis.",
@@ -515,7 +515,7 @@
     "bonne_reponse": "Il est obligé de siéger, sauf motif grave reconnu valable.",
     "distracteurs": [
       "Il peut refuser sans donner de raison.",
-      "Il peut envoyer un membre de sa famille à sa place.",
+      "Il peut envoyer à sa place un membre de sa famille qui a plus de 23 ans.",
       "Il doit d'abord payer une somme pour participer."
     ],
     "explication": "Être juré est une obligation civique. Un juré qui ne vient pas sans motif grave peut recevoir une amende de 3 750 euros.",
@@ -552,7 +552,7 @@
     "bonne_reponse": "Respecter la loi et les droits des autres.",
     "distracteurs": [
       "Adhérer à un parti politique.",
-      "Pratiquer une religion.",
+      "Pratiquer une religion reconnue par l'État.",
       "Être propriétaire de son logement."
     ],
     "explication": "Respecter la loi est le premier devoir du citoyen. Il doit aussi payer l'impôt et participer à la défense du pays.",
@@ -586,7 +586,7 @@
     "distracteurs": [
       "Avoir le droit de tout publier en ligne de façon anonyme.",
       "Avoir un compte sur tous les réseaux sociaux.",
-      "Voter uniquement par internet aux élections."
+      "Voter par internet aux élections, sans se déplacer au bureau de vote."
     ],
     "explication": "Sur internet, la loi s'applique comme ailleurs. Le citoyen numérique respecte les autres, protège ses données et vérifie les informations.",
     "sous_theme": "devoirs",

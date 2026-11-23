@@ -69,7 +69,7 @@ def verifier_cours(problemes):
 def lire_fichier(fichier, theme, sous_themes, prefixe, situation, problemes, a_verifier, longueurs):
     """Lit un fichier de questions et renvoie les questions au format de l'application."""
     questions = []
-    plus_longue = 0
+    plus_longue = plus_courte = 0
     for item in json.loads(fichier.read_text(encoding="utf-8")):
         ref = f"{fichier.name} #{item.get('src_id')}"
         d = [x.strip() for x in item.get("distracteurs", [])]
@@ -87,6 +87,8 @@ def lire_fichier(fichier, theme, sous_themes, prefixe, situation, problemes, a_v
             a_verifier.append(f"{ref} : {item.get('note', '')}")
         if len(a) > max(len(x) for x in d):
             plus_longue += 1
+        if len(a) < min(len(x) for x in d):
+            plus_courte += 1
         liens = verifier_liens_question(item, ref, problemes)
         questions.append({
             "id": f"{prefixe}-{item['src_id']}",
@@ -102,7 +104,7 @@ def lire_fichier(fichier, theme, sous_themes, prefixe, situation, problemes, a_v
             **({"v": 1} if item.get("a_verifier") else {}),
         })
     if questions:
-        longueurs[fichier.name] = plus_longue / len(questions)
+        longueurs[fichier.name] = (plus_longue / len(questions), plus_courte / len(questions))
     return questions
 
 
@@ -138,9 +140,10 @@ def construire():
         print(f"{parcours} : {len(questions)} questions, dont {nb_sit} mises en situation")
 
     verifier_cours(problemes)
-    print("\nPart des questions où la bonne réponse est la plus longue (objectif : 25 % ou moins) :")
-    for nom, part in sorted(longueurs.items()):
-        print(f" - {nom} : {round(part * 100)} %")
+    print("\nLongueur des réponses : part des questions où la bonne réponse est la plus longue / la plus courte")
+    print("(objectif : environ 25 % chacune, le hasard pour 4 réponses ; détail : python outils/longueurs.py <fichier>)")
+    for nom, (longue, courte) in sorted(longueurs.items()):
+        print(f" - {nom} : plus longue {round(longue * 100)} % · plus courte {round(courte * 100)} %")
 
     for p in problemes:
         print("PROBLÈME", p)

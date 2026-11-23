@@ -82,7 +82,7 @@
     "bonne_reponse": "Non, les grandes décisions se prennent à deux parents",
     "distracteurs": [
       "Oui, le père décide seul pour l'école",
-      "Oui, le parent qui paie la pension décide seul",
+      "Oui, le parent qui paie la pension alimentaire décide seul",
       "Oui, si l'enfant a plus de 6 ans"
     ],
     "explication": "En général, les deux parents exercent ensemble l'autorité parentale, même séparés. Les décisions importantes (école, santé, religion, déménagement loin) doivent être prises par les deux. En cas de désaccord, on peut saisir le juge aux affaires familiales.",
@@ -289,7 +289,7 @@
     "distracteurs": [
       "Son mari ou son compagnon",
       "Ses parents et le médecin ensemble",
-      "Un juge, après une enquête"
+      "Un juge, après une enquête auprès de la famille"
     ],
     "explication": "L'interruption volontaire de grossesse (IVG) est un droit, possible jusqu'à la fin de la 14e semaine de grossesse. Depuis le 8 mars 2024, la Constitution garantit la liberté de la femme d'y avoir recours.",
     "liens": [
@@ -327,7 +327,7 @@
     "distracteurs": [
       "Rien : seule la mère a droit à un congé",
       "Un seul jour de congé, non payé",
-      "Un congé seulement si vous êtes marié"
+      "Un congé si vous êtes marié avec la mère, sinon rien"
     ],
     "explication": "Le père, ou la personne qui vit en couple avec la mère, a droit à un congé de paternité et d'accueil de l'enfant. Il n'est pas nécessaire d'être marié.",
     "liens": [
@@ -380,7 +380,7 @@
     "bonne_reponse": "Non, le salaire ne peut pas être inférieur au SMIC",
     "distracteurs": [
       "Oui, si vous êtes de nationalité étrangère",
-      "Oui, si vous avez signé votre contrat",
+      "Oui, si vous avez signé un contrat qui prévoit ce salaire",
       "Oui, pendant les deux premières années"
     ],
     "explication": "Le SMIC (salaire minimum interprofessionnel de croissance) est le salaire horaire minimum en France. Un salarié majeur ne peut pas être payé moins, quelle que soit sa nationalité.",

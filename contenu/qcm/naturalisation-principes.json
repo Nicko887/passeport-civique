@@ -59,8 +59,8 @@
     "bonne_reponse": "Ils financent les services publics comme l'école, la santé et la sécurité",
     "distracteurs": [
       "Ils servent uniquement à payer le salaire du Président",
-      "Ils sont reversés aux grandes entreprises privées",
-      "Ils financent seulement les fêtes nationales"
+      "Ils sont reversés aux grandes entreprises privées et aux banques étrangères",
+      "Ils financent surtout les fêtes nationales, comme le 14 Juillet"
     ],
     "explication": "Les impôts payent les services publics utilisés par tous : écoles, hôpitaux, police, routes. Payer l'impôt est une forme de solidarité.",
     "sous_theme": "citoyennete",
@@ -93,7 +93,7 @@
     "bonne_reponse": "Libre, mais les messages de haine ou de violence sont interdits",
     "distracteurs": [
       "Totale : on peut tout écrire sans aucun risque",
-      "Interdite pour les personnes de nationalité étrangère",
+      "Interdite pour les personnes de nationalité étrangère qui vivent en France",
       "Réservée aux journalistes et aux élus"
     ],
     "explication": "La liberté d'expression existe aussi sur internet, mais elle a des limites : l'injure, la diffamation, l'appel à la haine ou à la violence sont punis par la loi.",
@@ -128,8 +128,8 @@
     "question": "Lequel de ces symboles représente la République française ?",
     "bonne_reponse": "Le drapeau bleu, blanc, rouge",
     "distracteurs": [
-      "La fleur de lys",
-      "L'aigle impérial",
+      "La fleur de lys dorée sur fond bleu",
+      "L'aigle impérial de Napoléon",
       "La couronne royale"
     ],
     "explication": "Le drapeau tricolore est l'emblème national prévu par l'article 2 de la Constitution. La fleur de lys et la couronne sont des symboles de la royauté, l'aigle est celui de l'Empire.",
@@ -401,7 +401,7 @@
     "distracteurs": [
       "Toutes les personnes doivent gagner le même salaire",
       "Toutes les personnes doivent avoir la même religion",
-      "Les personnes riches ont plus de droits devant la loi"
+      "Les personnes riches ou diplômées ont plus de droits devant la loi"
     ],
     "explication": "L'égalité signifie que la loi est la même pour tous, sans distinction d'origine, de religion ou de sexe. Cela ne veut pas dire que tout le monde a le même salaire.",
     "liens": [
@@ -437,7 +437,7 @@
     "distracteurs": [
       "L'État choisit une religion officielle pour tout le pays",
       "L'État interdit toutes les religions dans la rue",
-      "L'État paie les responsables de toutes les religions"
+      "L'État paie les responsables de toutes les religions avec l'argent des impôts"
     ],
     "explication": "La neutralité veut dire que l'État n'a pas de religion. Il ne favorise aucun culte et les services publics traitent tous les usagers de la même manière, quelle que soit leur croyance.",
     "liens": [
@@ -472,7 +472,7 @@
     "bonne_reponse": "La restauration d'une église classée monument historique",
     "distracteurs": [
       "Les cérémonies religieuses d'un culte",
-      "Les voyages de pèlerinage des fidèles",
+      "Les voyages de pèlerinage des fidèles vers les lieux saints",
       "La publicité pour une religion"
     ],
     "explication": "La République ne finance pas les cultes. Mais elle peut payer l'entretien ou la restauration de bâtiments religieux classés, car ils font partie du patrimoine de tous.",
@@ -525,7 +525,7 @@
     "question": "Que garantit le principe de laïcité ?",
     "bonne_reponse": "La neutralité de l'État et la liberté de conscience",
     "distracteurs": [
-      "La supériorité d'une religion sur les autres",
+      "La supériorité d'une religion sur les autres dans la vie publique",
       "L'interdiction de pratiquer une religion",
       "L'obligation d'être athée pour voter"
     ],
@@ -562,7 +562,7 @@
     "bonne_reponse": "Une petite croix ou une petite médaille discrète",
     "distracteurs": [
       "Un voile qui couvre les cheveux",
-      "Une grande croix portée sur les vêtements",
+      "Une grande croix portée bien visible sur les vêtements",
       "Une kippa portée pendant les cours"
     ],
     "explication": "Depuis la loi du 15 mars 2004, les élèves des écoles, collèges et lycées publics ne peuvent pas porter de signes religieux ostensibles, comme un voile, une kippa ou une grande croix. Les signes discrets restent autorisés.",
@@ -597,7 +597,7 @@
     "question": "Quel texte est considéré comme le texte fondateur de la laïcité ?",
     "bonne_reponse": "La loi de 1905 de séparation des Églises et de l'État",
     "distracteurs": [
-      "Le Concordat de 1801 signé avec le pape",
+      "Le Concordat de 1801 signé entre Napoléon et le pape Pie VII",
       "Le Code civil de 1804 de Napoléon",
       "La loi de 1901 sur les associations"
     ],
@@ -616,7 +616,7 @@
     "bonne_reponse": "Les services publics, comme l'école ou la mairie",
     "distracteurs": [
       "Les associations religieuses",
-      "Les entreprises privées",
+      "Les entreprises privées, comme les commerces ou les usines",
       "Les partis politiques"
     ],
     "explication": "L'État, les collectivités et tous les services publics doivent rester neutres en matière de religion. Les associations, les entreprises et les partis ne sont pas soumis à cette obligation de la même façon.",

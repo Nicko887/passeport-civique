@@ -6,7 +6,7 @@
     "distracteurs": [
       "Oui, si le signe religieux reste petit et discret",
       "Oui, si votre responsable vous donne son accord",
-      "Oui, mais seulement pendant les fêtes religieuses"
+      "Oui, pendant les fêtes religieuses"
     ],
     "explication": "Les agents des services publics doivent respecter la neutralité religieuse : ils ne peuvent pas montrer leur religion pendant leur travail, même avec un petit signe. C'est une règle de la laïcité.",
     "liens": [
@@ -42,7 +42,7 @@
     "question": "Votre fille va au collège public. Elle veut porter un grand voile religieux en classe. Est-ce possible ?",
     "bonne_reponse": "Non, c'est interdit au collège public",
     "distracteurs": [
-      "Oui, si les parents signent une autorisation écrite",
+      "Oui, avec un mot des parents",
       "Oui, la liberté religieuse s'applique partout de la même façon",
       "Non, sauf si d'autres élèves portent aussi un voile"
     ],
@@ -133,7 +133,7 @@
     "distracteurs": [
       "C'est interdit : le blasphème est puni par la loi",
       "C'est permis seulement si les responsables religieux sont d'accord",
-      "C'est interdit, sauf dans les journaux pour adultes"
+      "C'est interdit dans les journaux"
     ],
     "explication": "En France, le blasphème n'est pas un délit : on peut critiquer ou caricaturer une religion. En revanche, insulter ou appeler à la haine contre des personnes à cause de leur religion est puni par la loi.",
     "liens": [
@@ -419,7 +419,7 @@
     "bonne_reponse": "Oui, sans insulter ni diffamer personne",
     "distracteurs": [
       "Non, il est interdit de critiquer le chef de l'État",
-      "Non, seuls les journalistes peuvent le faire",
+      "Non, c'est réservé aux journalistes",
       "Oui, mais seulement pendant les campagnes électorales"
     ],
     "explication": "La liberté d'expression permet de critiquer les responsables politiques. Elle a des limites : l'injure, la diffamation et l'appel à la haine sont punis par la loi.",
@@ -457,7 +457,7 @@
     "question": "Sur internet, vous écrivez que votre voisin est un voleur, sans aucune preuve. Que risquez-vous ?",
     "bonne_reponse": "Une condamnation pour diffamation",
     "distracteurs": [
-      "Rien : sur internet, on peut tout écrire",
+      "Rien : internet est libre",
       "Rien, si vous effacez le message après un jour",
       "Seulement une suppression de votre compte"
     ],
@@ -478,7 +478,7 @@
     "distracteurs": [
       "C'est permis, grâce à la liberté d'expression",
       "C'est permis si le message est anonyme",
-      "C'est interdit seulement dans les journaux"
+      "C'est permis sur internet"
     ],
     "explication": "Provoquer à la haine ou à la violence contre des personnes à cause de leur religion, de leur origine ou de leur sexe est un délit, sur internet comme ailleurs. On peut le signaler sur la plateforme officielle PHAROS.",
     "liens": [
@@ -664,7 +664,7 @@
     "bonne_reponse": "Oui, pour garantir le secret du vote",
     "distracteurs": [
       "Non, on peut remplir son bulletin devant tout le monde",
-      "Non, l'isoloir est seulement pour les personnes âgées",
+      "Non, il est facultatif",
       "Oui, mais seulement pour l'élection présidentielle"
     ],
     "explication": "Le passage par l'isoloir est obligatoire. L'électeur y met son bulletin dans une enveloppe, sans être vu, puis il le dépose dans l'urne.",

@@ -5,7 +5,7 @@
     "bonne_reponse": "La liberté de fonder une famille.",
     "distracteurs": [
       "La liberté de la presse.",
-      "La liberté de circulation.",
+      "La liberté de circulation des personnes.",
       "La liberté syndicale."
     ],
     "explication": "La procréation médicalement assistée aide à avoir un enfant. Depuis la loi de bioéthique du 2 août 2021, elle est ouverte aux couples de femmes et aux femmes seules.",
@@ -41,7 +41,7 @@
     "bonne_reponse": "Le mariage est ouvert à deux personnes majeures, de même sexe ou de sexe différent.",
     "distracteurs": [
       "Le mariage est réservé à un homme et une femme.",
-      "Le mariage doit obligatoirement être célébré dans un lieu religieux.",
+      "Le mariage doit obligatoirement être célébré dans un lieu religieux, puis à la mairie.",
       "Le mariage est possible à 15 ans sans autorisation."
     ],
     "explication": "Depuis la loi de 2013, deux hommes ou deux femmes peuvent se marier. Le mariage civil est célébré à la mairie, entre deux personnes majeures et consentantes.",
@@ -60,7 +60,7 @@
     "distracteurs": [
       "Non, le divorce est interdit en France.",
       "Oui, mais seulement pour le mari.",
-      "Non, seulement si l'autre époux est d'accord."
+      "Non, il faut l'accord de l'autre époux."
     ],
     "explication": "Chaque époux peut demander le divorce, même si l'autre refuse. La loi prévoit plusieurs procédures, par consentement mutuel ou devant le juge.",
     "liens": [
@@ -113,7 +113,7 @@
     "bonne_reponse": "Oui, c'est une liberté garantie par la Constitution.",
     "distracteurs": [
       "Non, l'avortement est interdit en France.",
-      "Oui, mais seulement avec l'accord du conjoint.",
+      "Oui, mais avec l'accord écrit du conjoint ou de la famille.",
       "Non, sauf si la femme a déjà trois enfants."
     ],
     "explication": "L'interruption volontaire de grossesse est légale depuis la loi du 17 janvier 1975, défendue par Simone Veil, ministre de la Santé. Depuis le 8 mars 2024, la liberté d'y recourir est inscrite dans la Constitution.",
@@ -181,7 +181,7 @@
     "question": "Que signifie la dignité humaine ?",
     "bonne_reponse": "Chaque être humain doit être respecté et jamais traité comme un objet.",
     "distracteurs": [
-      "Le respect réservé aux personnes qui ont un diplôme ou un métier.",
+      "Le respect réservé aux personnes qui ont un diplôme ou un métier reconnu.",
       "L'obligation de porter des vêtements élégants en public.",
       "Le droit des personnes riches à être mieux traitées."
     ],
@@ -268,7 +268,7 @@
     "question": "Qu'est-ce que le droit de grève ?",
     "bonne_reponse": "Le droit des salariés d'arrêter ensemble le travail pour défendre leurs intérêts.",
     "distracteurs": [
-      "Le droit pour l'employeur de licencier un salarié sans aucun motif.",
+      "Le droit pour l'employeur de fermer l'entreprise et de licencier les salariés sans motif.",
       "Le droit pour un salarié de ne plus venir travailler sans prévenir personne.",
       "Le droit pour les clients de refuser de payer un service."
     ],
@@ -288,7 +288,7 @@
     "bonne_reponse": "Le texte le plus important, qui organise les pouvoirs et nos droits.",
     "distracteurs": [
       "Un règlement intérieur applicable dans toutes les mairies.",
-      "Un traité signé entre la France et ses pays voisins.",
+      "Un traité signé entre la France et ses pays voisins de l'Union européenne.",
       "Un livre d'histoire sur la Révolution."
     ],
     "explication": "La Constitution de la Cinquième République date de 1958. Elle est au-dessus des lois et définit le rôle du Président, du Gouvernement et du Parlement.",
@@ -324,8 +324,8 @@
     "bonne_reponse": "Oui, si elle est inscrite sur les listes électorales.",
     "distracteurs": [
       "Non, seuls les hommes peuvent voter.",
-      "Oui, mais seulement aux élections municipales.",
-      "Oui, mais seulement avec l'accord de son mari."
+      "Oui, mais pas à l'élection du Président de la République.",
+      "Oui, mais avec l'accord écrit de son mari ou de son père."
     ],
     "explication": "Les femmes ont obtenu le droit de vote en France en 1944 et ont voté pour la première fois en 1945. Elles ont exactement les mêmes droits de vote que les hommes.",
     "sous_theme": "egalite_fh",
@@ -423,7 +423,7 @@
     "bonne_reponse": "En cas de propos racistes, d'insultes ou d'appels à la haine.",
     "distracteurs": [
       "En cas de critique du gouvernement.",
-      "En cas d'opinion différente de celle de la majorité.",
+      "En cas d'opinion différente de celle de la majorité des électeurs.",
       "En cas de propos tenus dans une langue étrangère."
     ],
     "explication": "La loi punit le racisme, l'injure, la diffamation et l'appel à la haine. Critiquer le gouvernement reste un droit.",
@@ -440,7 +440,7 @@
     "question": "Pourquoi doit-on trier ses déchets ?",
     "bonne_reponse": "Pour permettre le recyclage et moins polluer.",
     "distracteurs": [
-      "Pour payer moins cher son loyer.",
+      "Pour payer moins cher son loyer et son électricité.",
       "Pour remplir plus vite les poubelles.",
       "Pour obtenir une carte de résident."
     ],
@@ -530,7 +530,7 @@
     "bonne_reponse": "La vaccination obligatoire des enfants.",
     "distracteurs": [
       "Le droit de choisir son métier.",
-      "La gratuité de l'école publique.",
+      "La gratuité de l'école publique pour tous les enfants.",
       "Le droit de se marier."
     ],
     "explication": "Certaines vaccinations sont obligatoires pour les enfants. La liberté individuelle est limitée ici pour protéger la santé de tous.",
@@ -546,7 +546,7 @@
     "distracteurs": [
       "S'éloigner sans rien dire à personne.",
       "Frapper l'agresseur pour se venger.",
-      "Filmer la scène sans prévenir personne."
+      "Filmer la scène pour la publier sur les réseaux sociaux."
     ],
     "explication": "Le témoin doit alerter la police, au 17, ou les secours, au 112. Il aide la victime s'il peut le faire sans risque pour lui.",
     "liens": [
@@ -640,7 +640,7 @@
     "distracteurs": [
       "On peut jeter ses déchets dans la nature s'ils sont biodégradables.",
       "Le tri des déchets est interdit dans les immeubles.",
-      "On peut déposer ses déchets sur le trottoir à n'importe quelle heure."
+      "On peut déposer ses déchets sur le trottoir à n'importe quelle heure du jour et de la nuit."
     ],
     "explication": "Le tri permet le recyclage. Abandonner des déchets dans la rue ou dans la nature est interdit et puni d'une amende.",
     "liens": [

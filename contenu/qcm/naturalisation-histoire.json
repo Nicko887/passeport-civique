@@ -59,9 +59,9 @@
     "question": "Que signifie la date du 14 juillet pour les Français ?",
     "bonne_reponse": "La fête nationale : la prise de la Bastille et la fête de la Fédération",
     "distracteurs": [
-      "La fin de la Première Guerre mondiale",
-      "La naissance de la Ve République",
-      "L'abolition de l'esclavage"
+      "La fin de la Première Guerre mondiale, le jour de l'armistice de 1918",
+      "La naissance de la Ve République et l'adoption de sa Constitution",
+      "L'abolition de l'esclavage dans les colonies françaises"
     ],
     "explication": "Le 14 juillet est la fête nationale depuis la loi du 6 juillet 1880. Il rappelle la prise de la Bastille, le 14 juillet 1789, et la fête de la Fédération, fête de l'unité nationale, le 14 juillet 1790.",
     "liens": [
@@ -114,7 +114,7 @@
     "question": "Simone Veil est une figure importante de l'histoire française. Elle a notamment :",
     "bonne_reponse": "Fait voter la loi autorisant l'avortement en France",
     "distracteurs": [
-      "Fait voter l'abolition de la peine de mort",
+      "Fait voter l'abolition de la peine de mort en France",
       "Obtenu le droit de vote des femmes",
       "Créé la Sécurité sociale"
     ],
@@ -259,9 +259,9 @@
     "question": "Qu'est-ce que la Shoah ?",
     "bonne_reponse": "Le génocide des Juifs d'Europe par les nazis pendant la Seconde Guerre mondiale",
     "distracteurs": [
-      "La guerre entre la France et la Prusse en 1870",
-      "Le bombardement atomique d'Hiroshima en 1945",
-      "La guerre d'indépendance de l'Algérie"
+      "La guerre entre la France et la Prusse en 1870, qui a fait tomber le Second Empire",
+      "Le bombardement atomique des villes d'Hiroshima et de Nagasaki en 1945",
+      "La guerre d'indépendance de l'Algérie, de 1954 à 1962"
     ],
     "explication": "La Shoah est l'extermination d'environ six millions de Juifs par le régime nazi. En France, environ 76 000 Juifs ont été déportés ; le régime de Vichy a participé à leur arrestation.",
     "liens": [
@@ -421,9 +421,9 @@
     "question": "Quelle est la première étape de la construction européenne en 1951 ?",
     "bonne_reponse": "La création de la Communauté européenne du charbon et de l'acier (CECA)",
     "distracteurs": [
-      "L'adoption de l'euro comme monnaie commune",
-      "La signature du traité de Maastricht",
-      "La création de l'espace Schengen"
+      "L'adoption de l'euro comme monnaie commune par plusieurs pays européens",
+      "La signature du traité de Maastricht, qui crée l'Union européenne",
+      "La création de l'espace Schengen, sans contrôle aux frontières intérieures"
     ],
     "explication": "Le 18 avril 1951, à Paris, six pays dont la France et l'Allemagne signent le traité qui crée la CECA. Ils mettent en commun le charbon et l'acier pour rendre la guerre impossible entre eux.",
     "liens": [
@@ -689,9 +689,9 @@
     "question": "Qui était Marie Curie ?",
     "bonne_reponse": "Une physicienne et chimiste, pionnière de la radioactivité et double prix Nobel",
     "distracteurs": [
-      "Une femme politique qui a fait voter la loi sur l'IVG",
-      "Une chanteuse française célèbre des années 1950",
-      "Une reine de France du XVIe siècle"
+      "Une femme politique, ministre de la Santé, qui a fait voter la loi sur l'IVG en 1975",
+      "Une chanteuse française célèbre des années 1950, connue dans le monde entier",
+      "Une reine de France du XVIe siècle, épouse du roi Henri II"
     ],
     "explication": "Née Maria Skłodowska en Pologne, Marie Curie a travaillé en France. Elle a reçu deux prix Nobel : physique en 1903, avec Pierre Curie et Henri Becquerel, puis chimie en 1911. Elle repose au Panthéon depuis 1995.",
     "liens": [
@@ -798,8 +798,8 @@
     "bonne_reponse": "Les Journées européennes du patrimoine",
     "distracteurs": [
       "Les jours de soldes d'été",
-      "Le week-end de Pâques",
-      "La semaine de Noël"
+      "Le week-end de Pâques, avec le lundi férié",
+      "La semaine de Noël et du jour de l'An"
     ],
     "explication": "Chaque année en septembre, pendant les Journées européennes du patrimoine, de nombreux monuments et lieux publics ouvrent leurs portes, souvent gratuitement.",
     "liens": [
@@ -906,7 +906,7 @@
     "question": "Qui était Molière ?",
     "bonne_reponse": "Un auteur de théâtre et comédien français du XVIIe siècle",
     "distracteurs": [
-      "Un peintre impressionniste du XIXe siècle",
+      "Un peintre impressionniste du XIXe siècle, ami de Claude Monet",
       "Un roi de France du XVIIe siècle",
       "Un général de la Révolution française"
     ],
@@ -978,9 +978,9 @@
     "question": "Qui était Albert Camus ?",
     "bonne_reponse": "Un écrivain et philosophe français, prix Nobel de littérature",
     "distracteurs": [
-      "Un président de la IVe République",
+      "Un président de la IVe République, élu par le Parlement",
       "Un peintre impressionniste français",
-      "Un général de la Première Guerre mondiale"
+      "Un général de la Première Guerre mondiale, chef des armées alliées"
     ],
     "explication": "Albert Camus (1913-1960), né en Algérie, a écrit L'Étranger et La Peste. Il reçoit le prix Nobel de littérature en 1957.",
     "liens": [
@@ -1015,8 +1015,8 @@
     "bonne_reponse": "Un peintre français, considéré comme le père de la peinture moderne",
     "distracteurs": [
       "Un sculpteur français, auteur du Penseur",
-      "Un compositeur français de musique classique",
-      "Un écrivain français, auteur des Misérables"
+      "Un compositeur français de musique classique et d'opéras",
+      "Un écrivain français, auteur des Misérables et de Notre-Dame de Paris"
     ],
     "explication": "Paul Cézanne (1839-1906), peintre post-impressionniste d'Aix-en-Provence, a beaucoup peint la montagne Sainte-Victoire. Il a influencé Pablo Picasso, Henri Matisse et les peintres modernes.",
     "liens": [
@@ -1299,9 +1299,9 @@
     "question": "Qu'est-ce que la France d'outre-mer ?",
     "bonne_reponse": "Les territoires français situés en dehors de la France métropolitaine",
     "distracteurs": [
-      "Les anciennes colonies devenues des pays indépendants",
+      "Les anciennes colonies françaises d'Afrique devenues des pays indépendants",
       "Les pays étrangers où l'on parle le français",
-      "Les régions françaises situées au bord de la mer"
+      "Les régions françaises de métropole situées au bord de la mer"
     ],
     "explication": "La France d'outre-mer regroupe des territoires français en Amérique, dans l'océan Indien, dans le Pacifique et en Antarctique : 5 départements et régions, comme la Guadeloupe ou La Réunion, et des collectivités, comme la Polynésie française.",
     "liens": [

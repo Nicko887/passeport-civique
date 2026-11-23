@@ -56,7 +56,7 @@ Application web **gratuite, open source, sans inscription** pour préparer l'exa
 
 1. ~~Les mises en situation~~ : **faites le 23/11/2026** (95 questions : 45 principes, 50 droits ; intégrées à l'examen blanc, à l'entraînement et aux écrans de thème). La bonne réponse est la plus longue dans 22 % des cas. Elles restent **à faire relire par l'utilisateur**.
 2. Plus tard, si l'utilisateur le demande :
-   - rééquilibrer la longueur des réponses des questions officielles : `construire.py` affiche la part par fichier (de 18 à 51 % ; objectif 25 %) ;
+   - ~~rééquilibrer la longueur des réponses~~ : **fait le 23/11/2026** (104 questions, distracteurs seulement). Bonne réponse la plus longue dans 16 à 22 % des questions selon le fichier, la plus courte dans 9 à 23 %. À surveiller avec `construire.py` et `outils/longueurs.py` quand on ajoute des questions ;
    - ajouter une aide en plusieurs langues ;
    - ajouter des comptes facultatifs ;
    - enregistrer de vrais podcasts ;

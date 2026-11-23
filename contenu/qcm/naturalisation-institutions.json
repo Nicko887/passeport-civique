@@ -23,7 +23,7 @@
     "bonne_reponse": "Un citoyen français majeur qui a obtenu 500 parrainages d'élus.",
     "distracteurs": [
       "Uniquement un député ou un sénateur en fonction.",
-      "Un membre d'un parti politique âgé d'au moins 40 ans.",
+      "Un membre d'un parti politique âgé d'au moins 40 ans et né en France.",
       "Toute personne qui vit en France depuis cinq ans."
     ],
     "explication": "Pour être candidat, il faut être français, avoir au moins 18 ans, être électeur et réunir 500 signatures d'élus, appelées parrainages. Ces élus doivent venir d'au moins 30 départements ou collectivités d'outre-mer différents.",
@@ -96,7 +96,7 @@
     "distracteurs": [
       "Être né en France et avoir un emploi.",
       "Être propriétaire de son logement.",
-      "Avoir plus de 21 ans et payer des impôts."
+      "Avoir plus de 21 ans et payer des impôts sur le revenu en France."
     ],
     "explication": "Pour voter à l'élection présidentielle, il faut avoir la nationalité française, au moins 18 ans, ses droits civiques et être inscrit sur les listes électorales.",
     "liens": [
@@ -112,8 +112,8 @@
     "question": "Quelle condition faut-il remplir pour être candidat aux élections municipales ?",
     "bonne_reponse": "Être français ou citoyen de l'Union européenne, et majeur.",
     "distracteurs": [
-      "Être membre d'un parti politique.",
-      "Avoir au moins 30 ans.",
+      "Être membre d'un parti politique et habiter la commune depuis dix ans.",
+      "Avoir au moins 30 ans et être né en France.",
       "Être né dans la commune."
     ],
     "explication": "Un candidat aux municipales doit avoir 18 ans et être français ou citoyen d'un autre pays de l'Union européenne. Il doit aussi avoir un lien avec la commune, comme y être électeur ou y payer des impôts locaux. Un citoyen européen peut être conseiller municipal, mais pas maire ni adjoint au maire.",
@@ -147,7 +147,7 @@
     "distracteurs": [
       "Il vote les lois avec les députés.",
       "Il nomme le préfet du département.",
-      "Il juge les délits commis dans la commune."
+      "Il juge lui-même les vols et les autres délits commis dans la commune."
     ],
     "explication": "Le maire est officier d'état civil : il célèbre les mariages. Il exécute les décisions du conseil municipal. Il est responsable de la sécurité et de la tranquillité dans la commune.",
     "liens": [
@@ -289,7 +289,7 @@
     "question": "Qu'est-ce que l'État de droit ?",
     "bonne_reponse": "Un système où tout le monde, y compris l'État, doit respecter le droit.",
     "distracteurs": [
-      "Un système où le chef de l'État peut changer les lois seul.",
+      "Un système où le chef de l'État peut changer les lois sans aucun vote des élus.",
       "Un système où seuls les citoyens doivent respecter la loi.",
       "Un système où la police décide des peines sans juge."
     ],
@@ -417,7 +417,7 @@
     "distracteurs": [
       "Non, les partis politiques sont interdits.",
       "Oui, mais seulement avec l'accord du préfet.",
-      "Oui, mais seulement à partir de 30 ans."
+      "Oui, mais à partir de 30 ans et avec une carte d'électeur."
     ],
     "explication": "L'article 4 de la Constitution dit que les partis politiques se forment et exercent leur activité librement. Chacun peut adhérer au parti de son choix.",
     "liens": [
@@ -521,7 +521,7 @@
     "bonne_reponse": "Par référendum, c'est-à-dire par un vote des citoyens.",
     "distracteurs": [
       "Par un décret du Premier ministre.",
-      "Par une décision du Conseil constitutionnel.",
+      "Par une décision du Conseil constitutionnel prise à l'unanimité.",
       "Par un arrêté du préfet."
     ],
     "explication": "Selon l'article 89 de la Constitution, le texte est d'abord voté dans les mêmes termes par l'Assemblée nationale et le Sénat. Il est ensuite approuvé par référendum, ou par le Congrès, qui réunit les députés et les sénateurs à Versailles. Le Congrès doit voter à la majorité des trois cinquièmes.",
@@ -648,7 +648,7 @@
     "distracteurs": [
       "Il vote les lois avec les sénateurs.",
       "Il juge les crimes les plus graves.",
-      "Il gère le budget de chaque commune."
+      "Il gère le budget de chaque commune et nomme tous les maires."
     ],
     "explication": "Le Président veille au respect de la Constitution (article 5). Il nomme le Premier ministre, préside le Conseil des ministres, promulgue les lois et il est le chef des armées.",
     "liens": [
@@ -682,7 +682,7 @@
     "question": "Quel est le rôle du Défenseur des droits ?",
     "bonne_reponse": "Défendre les droits et libertés et lutter contre les discriminations.",
     "distracteurs": [
-      "Défendre les accusés au tribunal comme un avocat.",
+      "Défendre gratuitement les accusés devant le tribunal, comme un avocat.",
       "Voter les lois sur les droits de l'homme.",
       "Contrôler les comptes des communes."
     ],
@@ -934,8 +934,8 @@
     "question": "De quoi est composé le drapeau européen ?",
     "bonne_reponse": "Un cercle de 12 étoiles dorées sur fond bleu.",
     "distracteurs": [
-      "27 étoiles blanches sur fond bleu.",
-      "12 étoiles bleues sur fond jaune.",
+      "Un cercle de 27 étoiles blanches sur fond bleu.",
+      "Un cercle de 12 étoiles bleues sur fond jaune.",
       "Une croix jaune sur fond bleu."
     ],
     "explication": "Le drapeau européen a toujours 12 étoiles, quel que soit le nombre de pays. Le cercle d'étoiles est un symbole d'unité, de solidarité et d'harmonie entre les peuples d'Europe.",

@@ -113,8 +113,8 @@
     "question": "Pourquoi la Shoah est-elle étudiée à l'école ?",
     "bonne_reponse": "Pour ne pas oublier le génocide des Juifs et éviter que cela recommence",
     "distracteurs": [
-      "Pour apprendre les grandes dates de la Révolution française",
-      "Pour préparer les élèves au service militaire",
+      "Pour apprendre les grandes dates de la Révolution française de 1789",
+      "Pour préparer les élèves au service militaire et à la défense du pays",
       "Pour étudier la géographie de l'Europe de l'Est"
     ],
     "explication": "La Shoah est le génocide d'environ six millions de Juifs par les nazis. En France, environ 76 000 Juifs ont été déportés. On l'étudie pour se souvenir des victimes et lutter contre l'antisémitisme, le racisme et la haine.",
@@ -176,9 +176,9 @@
     "question": "Quelle est la première étape de la construction européenne en 1951 ?",
     "bonne_reponse": "La création de la Communauté européenne du charbon et de l'acier (CECA)",
     "distracteurs": [
-      "L'adoption de l'euro comme monnaie commune",
-      "La signature du traité de Maastricht",
-      "La création de l'espace Schengen"
+      "L'adoption de l'euro comme monnaie commune par plusieurs pays européens",
+      "La signature du traité de Maastricht, qui crée l'Union européenne",
+      "La création de l'espace Schengen, sans contrôle aux frontières intérieures"
     ],
     "explication": "Le 18 avril 1951, à Paris, six pays dont la France et l'Allemagne signent le traité qui crée la CECA. Ils mettent en commun le charbon et l'acier pour rendre la guerre impossible entre eux.",
     "liens": [
@@ -506,9 +506,9 @@
     "question": "Qu'est ce que la France d'outre-mer ?",
     "bonne_reponse": "Les territoires français situés en dehors de la France métropolitaine",
     "distracteurs": [
-      "Les anciennes colonies devenues des pays indépendants",
+      "Les anciennes colonies françaises d'Afrique devenues des pays indépendants",
       "Les pays étrangers où l'on parle le français",
-      "Les régions françaises situées au bord de la mer"
+      "Les régions françaises de métropole situées au bord de la mer"
     ],
     "explication": "La France d'outre-mer regroupe des territoires français en Amérique, dans l'océan Indien, dans le Pacifique et en Antarctique : 5 départements et régions, comme la Guadeloupe ou La Réunion, et des collectivités, comme la Polynésie française.",
     "liens": [
@@ -653,8 +653,8 @@
     "question": "Où se trouvent les principales activités économiques en France ?",
     "bonne_reponse": "Principalement dans les grandes métropoles et les zones industrielles",
     "distracteurs": [
-      "Principalement dans les zones de montagne",
-      "Principalement dans les villages de campagne",
+      "Principalement dans les zones de montagne et les stations de ski",
+      "Principalement dans les villages de campagne et dans les zones agricoles",
       "Principalement dans les îles d'outre-mer"
     ],
     "explication": "Les entreprises et les emplois se concentrent dans les grandes agglomérations comme Paris, Lyon ou Marseille, et dans les zones industrielles.",
@@ -699,9 +699,9 @@
     "question": "Où habite la majorité des Français ?",
     "bonne_reponse": "Dans les zones urbaines : les villes et leurs banlieues",
     "distracteurs": [
-      "Dans les villages de campagne",
+      "Dans les villages de campagne, loin des grandes villes",
       "Dans les zones de montagne",
-      "Dans les territoires d'outre-mer"
+      "Dans les territoires d'outre-mer, comme La Réunion ou la Guadeloupe"
     ],
     "explication": "Environ 8 Français sur 10 (81 %) vivent dans une ville ou dans sa banlieue, c'est-à-dire en zone urbaine.",
     "liens": [
@@ -778,8 +778,8 @@
     "bonne_reponse": "Les Journées européennes du patrimoine",
     "distracteurs": [
       "Les jours de soldes d'été",
-      "Le week-end de Pâques",
-      "La semaine de Noël"
+      "Le week-end de Pâques, avec le lundi férié",
+      "La semaine de Noël et du jour de l'An"
     ],
     "explication": "Chaque année en septembre, pendant les Journées européennes du patrimoine, de nombreux monuments et lieux publics ouvrent leurs portes, souvent gratuitement.",
     "liens": [

@@ -95,8 +95,8 @@
     "bonne_reponse": "Toujours, dans les 5 jours suivant la naissance.",
     "distracteurs": [
       "Seulement si les parents sont mariés.",
-      "Seulement si l'enfant est né à la maison.",
-      "Seulement si un parent est de nationalité française."
+      "Lorsque l'enfant entre à l'école maternelle, vers 3 ans.",
+      "Si les parents le souhaitent, ce n'est pas obligatoire."
     ],
     "explication": "La déclaration de naissance est obligatoire pour tous les enfants nés en France, quelle que soit la situation des parents. Elle se fait dans les 5 jours qui suivent la naissance.",
     "liens": [
@@ -184,8 +184,8 @@
     "question": "En cas de divorce, qui exerce l'autorité parentale ?",
     "bonne_reponse": "Les deux parents, sauf décision contraire du juge.",
     "distracteurs": [
-      "Uniquement la mère, dans tous les cas.",
-      "Uniquement le parent qui a le plus de revenus.",
+      "La mère seule, quel que soit l'âge des enfants.",
+      "Le père, qui décide à la place de la mère.",
       "Uniquement le parent qui a demandé le divorce."
     ],
     "explication": "Le divorce sépare les époux, mais pas les parents de leurs enfants. Les deux parents gardent l'autorité parentale, sauf si le juge aux affaires familiales décide autrement dans l'intérêt de l'enfant.",
@@ -221,8 +221,8 @@
     "bonne_reponse": "L'un des époux ou les deux époux.",
     "distracteurs": [
       "Seulement le mari.",
-      "Seulement le maire de la commune.",
-      "Seulement les parents des époux."
+      "Le maire de la commune, à la demande de la famille.",
+      "Les parents des époux, au nom de la famille."
     ],
     "explication": "En France, le mari comme la femme peut demander le divorce, seul ou d'un commun accord. Les deux époux ont les mêmes droits.",
     "sous_theme": "demarches",
@@ -364,7 +364,7 @@
     "distracteurs": [
       "Non, c'est interdit sauf en cas de danger pour la vie.",
       "Oui, mais seulement pour les femmes mariées.",
-      "Oui, mais seulement avec l'accord du conjoint."
+      "Oui, mais avec l'accord écrit du conjoint."
     ],
     "explication": "L'interruption volontaire de grossesse (IVG) est légale en France jusqu'à la fin de la 14e semaine de grossesse. Depuis le 8 mars 2024, la liberté d'y recourir est inscrite dans la Constitution.",
     "liens": [
@@ -453,8 +453,8 @@
     "bonne_reponse": "Tout salarié, père ou mère, après une naissance ou une adoption.",
     "distracteurs": [
       "Seulement la mère, après une naissance ou une adoption.",
-      "Seulement le parent qui gagne le moins dans le couple.",
-      "Seulement les fonctionnaires de l'État."
+      "Le parent qui gagne le moins dans le couple, avec l'accord de l'employeur.",
+      "Les grands-parents de l'enfant, à la place des parents."
     ],
     "explication": "Le congé parental d'éducation est ouvert au père comme à la mère, après une naissance ou une adoption. Il faut avoir au moins 1 an d'ancienneté dans l'entreprise. Les deux parents peuvent le prendre en même temps ou l'un après l'autre.",
     "liens": [
@@ -540,8 +540,8 @@
     "bonne_reponse": "Tous les travailleurs, sans condition.",
     "distracteurs": [
       "Seulement les salariés de nationalité française.",
-      "Seulement les salariés en contrat à durée indéterminée.",
-      "Seulement les salariés qui ont plus de dix ans d'ancienneté."
+      "Les salariés qui ont l'autorisation écrite de leur employeur.",
+      "Les salariés, à condition d'avoir plus de dix ans d'ancienneté."
     ],
     "explication": "La liberté syndicale est garantie par le préambule de la Constitution de 1946. Tout salarié peut adhérer au syndicat de son choix, ou n'adhérer à aucun syndicat.",
     "liens": [
@@ -769,7 +769,7 @@
     "bonne_reponse": "Non, la loi interdit les violences physiques envers les enfants.",
     "distracteurs": [
       "Oui, si la punition reste légère et ne laisse pas de marque.",
-      "Oui, seulement à la maison, et jamais devant d'autres personnes.",
+      "Oui, mais à la maison, et pas devant d'autres personnes ou à l'école.",
       "Oui, si l'enfant a plus de 10 ans."
     ],
     "explication": "Depuis la loi du 10 juillet 2019, les violences éducatives ordinaires sont interdites : pas de gifle, de fessée ni d'humiliation. L'autorité parentale s'exerce sans violence physique ni psychologique.",
