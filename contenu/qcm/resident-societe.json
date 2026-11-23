@@ -9,6 +9,9 @@
       "Le mariage signé chez un avocat, sans cérémonie."
     ],
     "explication": "En France, seul le mariage civil, célébré par le maire ou un adjoint à la mairie, a une valeur légale. Une cérémonie religieuse est possible, mais seulement après le mariage civil.",
+    "liens": [
+      {"titre": "Le mariage en France (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"}
+    ],
     "sous_theme": "demarches",
     "difficulte": 1,
     "a_verifier": false,
@@ -23,7 +26,10 @@
       "La Caisse d'allocations familiales.",
       "Le conseil départemental."
     ],
-    "explication": "Pour l'école maternelle et l'école élémentaire publiques, les parents inscrivent d'abord leur enfant à la mairie. Ensuite, le directeur de l'école fait l'admission.",
+    "explication": "Pour l'école maternelle et l'école élémentaire publiques, les parents inscrivent d'abord leur enfant à la mairie, qui donne un certificat d'inscription. Ensuite, le directeur de l'école fait l'admission.",
+    "liens": [
+      {"titre": "Inscription à l'école maternelle (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1864"}
+    ],
     "sous_theme": "education",
     "difficulte": 1,
     "a_verifier": false,
@@ -38,7 +44,10 @@
       "Uniquement le parent qui a le plus de revenus.",
       "Uniquement le parent qui a demandé le divorce."
     ],
-    "explication": "Le divorce sépare les époux, mais pas les parents de leurs enfants. Les deux parents gardent l'autorité parentale, sauf si le juge décide autrement dans l'intérêt de l'enfant.",
+    "explication": "Le divorce sépare les époux, mais pas les parents de leurs enfants. Les deux parents gardent l'autorité parentale, sauf si le juge aux affaires familiales décide autrement dans l'intérêt de l'enfant.",
+    "liens": [
+      {"titre": "L'exercice de l'autorité parentale (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3132"}
+    ],
     "sous_theme": "demarches",
     "difficulte": 2,
     "a_verifier": false,
@@ -54,6 +63,9 @@
       "L'aide personnalisée au logement."
     ],
     "explication": "L'aide juridictionnelle permet aux personnes qui ont de faibles revenus d'avoir un avocat payé en totalité ou en partie par l'État.",
+    "liens": [
+      {"titre": "L'aide juridictionnelle (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18074"}
+    ],
     "sous_theme": "demarches",
     "difficulte": 2,
     "a_verifier": false,
@@ -69,6 +81,9 @@
       "À la Caisse d'allocations familiales."
     ],
     "explication": "La naissance se déclare au service de l'état civil de la mairie de la commune où l'enfant est né. La mairie établit ensuite l'acte de naissance.",
+    "liens": [
+      {"titre": "Déclaration de naissance (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961"}
+    ],
     "sous_theme": "demarches",
     "difficulte": 1,
     "a_verifier": false,
@@ -84,6 +99,9 @@
       "Être déjà propriétaire d'une voiture assurée."
     ],
     "explication": "Pour passer l'examen pratique du permis B, il faut avoir réussi le code de la route et avoir au moins 17 ans. La nationalité française n'est pas exigée.",
+    "liens": [
+      {"titre": "Le permis B (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2828"}
+    ],
     "sous_theme": "vie_quotidienne",
     "difficulte": 2,
     "a_verifier": false,
@@ -99,6 +117,9 @@
       "Déclaré au commissariat de police du quartier."
     ],
     "explication": "La loi demande que le bail soit écrit et signé par le propriétaire et le locataire. Le bail précise le loyer, les charges, le dépôt de garantie et la durée du contrat.",
+    "liens": [
+      {"titre": "Rédaction du bail d'habitation (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F920"}
+    ],
     "sous_theme": "logement",
     "difficulte": 2,
     "a_verifier": false,
@@ -113,7 +134,10 @@
       "Sur le trottoir devant son immeuble.",
       "Dans le conteneur pour le verre."
     ],
-    "explication": "Les appareils électriques usagés ne vont pas à la poubelle ni sur le trottoir. On les dépose à la déchetterie. Le magasin qui vend un appareil neuf doit aussi reprendre l'ancien.",
+    "explication": "Les appareils électriques usagés ne vont pas à la poubelle ni sur le trottoir. On les dépose à la déchetterie. Le magasin qui vend un appareil neuf doit aussi reprendre l'ancien gratuitement.",
+    "liens": [
+      {"titre": "Les déchets électriques et électroniques (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35212"}
+    ],
     "sous_theme": "vie_quotidienne",
     "difficulte": 1,
     "a_verifier": false,
@@ -128,7 +152,10 @@
       "Le 18.",
       "Le 119."
     ],
-    "explication": "Le 17 permet d'appeler Police secours. Le 15 appelle le SAMU, le 18 les pompiers et le 119 l'enfance en danger. Le 112 est aussi un numéro d'urgence valable partout en Europe.",
+    "explication": "Le 17 permet d'appeler Police secours : des policiers ou des gendarmes viennent sur place. Le 15 appelle le SAMU, le 18 les pompiers et le 119 l'enfance en danger. Le 112 est aussi un numéro d'urgence valable partout en Europe.",
+    "liens": [
+      {"titre": "Les numéros d'urgence (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"}
+    ],
     "sous_theme": "vie_quotidienne",
     "difficulte": 1,
     "a_verifier": false,
@@ -144,6 +171,9 @@
       "Chaque patient paie toujours seul la totalité de ses soins."
     ],
     "explication": "Toute personne qui vit en France peut se faire soigner. L'Assurance Maladie rembourse une partie des frais, et une mutuelle peut compléter.",
+    "liens": [
+      {"titre": "La protection universelle maladie (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34047"}
+    ],
     "sous_theme": "sante",
     "difficulte": 1,
     "a_verifier": false,
@@ -158,7 +188,11 @@
       "Seulement aux femmes de plus de 25 ans.",
       "Seulement avec l'accord des parents ou du conjoint."
     ],
-    "explication": "Toute personne peut choisir librement d'utiliser une contraception, même si elle est mineure et sans l'accord de ses parents ou de son conjoint. Elle est prise en charge par l'Assurance Maladie.",
+    "explication": "Toute personne peut choisir librement d'utiliser une contraception, même si elle est mineure et sans l'accord de ses parents ou de son conjoint. L'Assurance Maladie la rembourse en grande partie, à 100 % pour les moins de 26 ans.",
+    "liens": [
+      {"titre": "La contraception (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F707"},
+      {"titre": "Contraception et remboursements (ameli.fr)", "url": "https://www.ameli.fr/assure/remboursements/rembourse/contraception-ivg/contraception"}
+    ],
     "sous_theme": "sante",
     "difficulte": 1,
     "a_verifier": false,
@@ -174,6 +208,9 @@
       "L'obligation de dire ses maladies à son employeur."
     ],
     "explication": "C'est le secret médical : le médecin et tous les soignants ne doivent pas révéler les informations de santé d'un patient, même à sa famille ou à son employeur.",
+    "liens": [
+      {"titre": "Le secret médical (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34302"}
+    ],
     "sous_theme": "sante",
     "difficulte": 1,
     "a_verifier": false,
@@ -188,7 +225,10 @@
       "Réservée aux personnes qui ont un contrat de travail à durée indéterminée.",
       "Possible seulement après dix ans de résidence en France."
     ],
-    "explication": "Toute personne qui travaille ou qui réside en France de façon stable et régulière doit être affiliée à l'Assurance Maladie. C'est la protection universelle maladie.",
+    "explication": "Toute personne qui travaille ou qui réside en France de façon stable et régulière doit être affiliée à l'Assurance Maladie. C'est la protection universelle maladie (Puma).",
+    "liens": [
+      {"titre": "La protection universelle maladie (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34047"}
+    ],
     "sous_theme": "sante",
     "difficulte": 2,
     "a_verifier": false,
@@ -203,7 +243,10 @@
       "Seulement le parent qui gagne le moins dans le couple.",
       "Seulement les fonctionnaires de l'État."
     ],
-    "explication": "Le congé parental d'éducation est ouvert au père comme à la mère, après une naissance ou une adoption. Les deux parents peuvent le prendre en même temps ou l'un après l'autre.",
+    "explication": "Le congé parental d'éducation est ouvert au père comme à la mère, après une naissance ou une adoption. Il faut avoir au moins 1 an d'ancienneté dans l'entreprise. Les deux parents peuvent le prendre en même temps ou l'un après l'autre.",
+    "liens": [
+      {"titre": "Le congé parental d'éducation (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2280"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 2,
     "a_verifier": false,
@@ -219,6 +262,9 @@
       "Les conflits entre deux époux qui divorcent."
     ],
     "explication": "Le conseil de prud'hommes juge les litiges liés au contrat de travail : licenciement, salaire non payé, heures supplémentaires.",
+    "liens": [
+      {"titre": "Saisir le conseil de prud'hommes (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2360"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 2,
     "a_verifier": false,
@@ -234,6 +280,9 @@
       "Un accord libre entre salarié et employeur."
     ],
     "explication": "Le travail « au noir » est un délit : l'employeur et parfois le travailleur peuvent être sanctionnés. Le salarié non déclaré n'a pas de protection sociale, ni de droits à la retraite ou au chômage.",
+    "liens": [
+      {"titre": "Les sanctions du travail illégal (entreprendre.service-public.gouv.fr)", "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31490"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 1,
     "a_verifier": false,
@@ -248,7 +297,10 @@
       "Il doit d'abord obtenir l'accord écrit de la mairie.",
       "Il doit lui faire signer un deuxième contrat de travail."
     ],
-    "explication": "Les heures supplémentaires sont encadrées par la loi : elles ont des limites et sont payées davantage, en général 25 % de plus pour les premières heures.",
+    "explication": "Les heures supplémentaires sont encadrées par la loi : elles ont des limites et sont payées davantage, en général 25 % de plus pour les 8 premières heures de la semaine.",
+    "liens": [
+      {"titre": "Les heures supplémentaires (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 2,
     "a_verifier": false,
@@ -264,6 +316,9 @@
       "Verser les allocations familiales aux parents."
     ],
     "explication": "France Travail, anciennement Pôle emploi, aide les personnes à trouver un emploi ou une formation, verse les allocations chômage et aide les employeurs à recruter.",
+    "liens": [
+      {"titre": "S'inscrire à France Travail (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 1,
     "a_verifier": false,
@@ -279,6 +334,9 @@
       "Aux syndicats de fixer seuls le montant des salaires."
     ],
     "explication": "Le droit syndical permet de créer un syndicat ou d'y adhérer. Les syndicats défendent les intérêts des salariés et négocient avec l'employeur.",
+    "liens": [
+      {"titre": "Le syndicat dans l'entreprise (code.travail.gouv.fr)", "url": "https://code.travail.gouv.fr/fiche-service-public/syndicat-dans-lentreprise-quelles-sont-les-regles"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 2,
     "a_verifier": false,
@@ -293,7 +351,10 @@
       "La destruction du matériel de l'entreprise pour protester.",
       "L'occupation du bureau du directeur pour l'empêcher de travailler."
     ],
-    "explication": "La grève est un droit garanti par la Constitution. C'est un arrêt de travail collectif et organisé pour des demandes professionnelles. Les jours de grève ne sont pas payés.",
+    "explication": "La grève est un droit garanti par le préambule de la Constitution de 1946. C'est un arrêt de travail collectif et organisé pour des demandes professionnelles. Les jours de grève ne sont pas payés.",
+    "liens": [
+      {"titre": "Le droit de grève (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F117"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 2,
     "a_verifier": false,
@@ -309,6 +370,9 @@
       "Avoir des enfants à charge et habiter dans un logement social."
     ],
     "explication": "Pour toucher l'allocation chômage, il faut avoir travaillé une durée minimale, avoir perdu son emploi de façon involontaire, être inscrit à France Travail et chercher un emploi.",
+    "liens": [
+      {"titre": "L'allocation chômage (code.travail.gouv.fr)", "url": "https://code.travail.gouv.fr/fiche-service-public/allocation-chomage-daide-au-retour-a-lemploi-are-dun-salarie-du-prive"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 2,
     "a_verifier": false,
@@ -323,7 +387,10 @@
       "Une crèche payante pour les bébés de moins de 2 ans.",
       "L'école qui prépare au baccalauréat après le collège."
     ],
-    "explication": "L'école maternelle accueille les enfants de 3 à 6 ans, en petite, moyenne et grande section. Depuis 2019, l'instruction est obligatoire dès 3 ans.",
+    "explication": "L'école maternelle accueille les enfants de 3 à 6 ans, en petite, moyenne et grande section. Depuis 2019, l'instruction est obligatoire dès 3 ans. L'école maternelle publique est gratuite.",
+    "liens": [
+      {"titre": "Inscription à l'école maternelle (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1864"}
+    ],
     "sous_theme": "education",
     "difficulte": 1,
     "a_verifier": false,
@@ -339,6 +406,9 @@
       "Le certificat d'aptitude professionnelle."
     ],
     "explication": "Le diplôme national du brevet, ou brevet des collèges, se passe en fin de troisième, vers 15 ans. Le baccalauréat se passe à la fin du lycée.",
+    "liens": [
+      {"titre": "Le brevet à la fin du collège (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10005"}
+    ],
     "sous_theme": "education",
     "difficulte": 1,
     "a_verifier": false,
@@ -369,6 +439,9 @@
       "Seulement les enfants qui habitent à côté de l'école."
     ],
     "explication": "Quand une commune organise une cantine, tous les enfants scolarisés ont le droit d'y être inscrits. La commune ne peut pas refuser un enfant à cause de la situation de sa famille.",
+    "liens": [
+      {"titre": "La cantine à l'école primaire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F24570"}
+    ],
     "sous_theme": "education",
     "difficulte": 2,
     "a_verifier": false,
@@ -384,6 +457,9 @@
       "6 ans."
     ],
     "explication": "Depuis la rentrée 2019, l'instruction est obligatoire dès 3 ans. Avant, elle commençait à 6 ans.",
+    "liens": [
+      {"titre": "L'instruction obligatoire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"}
+    ],
     "sous_theme": "education",
     "difficulte": 1,
     "a_verifier": false,
@@ -429,6 +505,9 @@
       "L'envie de rester à la maison ce jour-là."
     ],
     "explication": "La loi accepte quelques motifs d'absence : maladie de l'enfant, maladie contagieuse dans la famille, réunion de famille importante comme un mariage ou un enterrement, ou problème de transport.",
+    "liens": [
+      {"titre": "Assiduité et absences scolaires (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1899"}
+    ],
     "sous_theme": "education",
     "difficulte": 1,
     "a_verifier": false,
@@ -444,6 +523,9 @@
       "10 ans de prison et 150 000 euros d'amende."
     ],
     "explication": "Ne pas inscrire son enfant à l'école ou dans une autre forme d'instruction, après une mise en demeure, est un délit. Les parents risquent jusqu'à 6 mois de prison et 7 500 euros d'amende.",
+    "liens": [
+      {"titre": "L'instruction obligatoire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"}
+    ],
     "sous_theme": "education",
     "difficulte": 3,
     "a_verifier": false,
@@ -459,6 +541,9 @@
       "En juillet et en août."
     ],
     "explication": "Les vacances de Noël durent deux semaines, de la fin du mois de décembre au début du mois de janvier. Elles ont lieu en même temps dans toute la France métropolitaine.",
+    "liens": [
+      {"titre": "Le calendrier des vacances scolaires (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31952"}
+    ],
     "sous_theme": "education",
     "difficulte": 1,
     "a_verifier": false,
@@ -473,7 +558,10 @@
       "Doit obligatoirement suivre les cours à la maison.",
       "Peut être scolarisé seulement à partir de 10 ans."
     ],
-    "explication": "L'école est inclusive : elle s'adapte pour accueillir les enfants en situation de handicap, avec des aménagements et parfois un accompagnant, appelé AESH.",
+    "explication": "L'école est inclusive : elle s'adapte pour accueillir les enfants en situation de handicap, avec des aménagements et parfois un accompagnant d'élèves en situation de handicap (AESH).",
+    "liens": [
+      {"titre": "Handicap : inscription à l'école primaire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14984"}
+    ],
     "sous_theme": "education",
     "difficulte": 2,
     "a_verifier": false,

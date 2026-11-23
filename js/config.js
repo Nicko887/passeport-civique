@@ -110,6 +110,26 @@ export const EXAMEN = {
   situations: { principes: 6, droits: 6 },
 };
 
+// Sites sûrs vers lesquels les cours et les questions peuvent renvoyer (sites publics ou institutionnels).
+// Même liste dans outils/construire.py. Un lien vers un autre site est affiché comme du texte simple.
+export const SITES_SURS = [
+  'gouv.fr', 'service-public.fr', 'vie-publique.fr', 'elysee.fr', 'assemblee-nationale.fr', 'senat.fr',
+  'conseil-constitutionnel.fr', 'conseil-etat.fr', 'cour-de-cassation.fr', 'defenseurdesdroits.fr', 'justice.fr',
+  'cnil.fr', 'ameli.fr', 'caf.fr', 'msa.fr', 'francetravail.fr', 'info-retraite.fr', 'europa.eu', 'insee.fr',
+  'bnf.fr', 'ina.fr', 'lumni.fr', 'histoire-image.org', 'monuments-nationaux.fr', 'chateauversailles.fr',
+  'louvre.fr', 'musee-orsay.fr', 'centrepompidou.fr', 'pantheonsorbonne.fr', 'unesco.org', 'ign.fr',
+  'meteofrance.com', 'onisep.fr', 'arretonslesviolences.gouv.fr',
+];
+
+export function lienSur(url) {
+  try {
+    const u = new URL(url);
+    return u.protocol === 'https:' && SITES_SURS.some((d) => u.hostname === d || u.hostname.endsWith('.' + d));
+  } catch {
+    return false;
+  }
+}
+
 export const NB_SITUATIONS = Object.values(EXAMEN.situations).reduce((a, b) => a + b, 0);
 
 // Examen par module : 10 questions, même rythme que l'examen réel.

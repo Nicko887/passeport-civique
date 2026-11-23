@@ -24,6 +24,9 @@
       "Le droit réservé aux journalistes de donner leur avis"
     ],
     "explication": "La liberté d'expression permet de donner son opinion et même de critiquer les institutions. Mais l'injure, la diffamation et l'appel à la haine sont punis par la loi.",
+    "liens": [
+      {"titre": "La liberté d'expression (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/291568-quest-ce-que-la-liberte-dexpression"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 1,
     "a_verifier": false,
@@ -39,6 +42,9 @@
       "Donner automatiquement la nationalité française"
     ],
     "explication": "Le titre de séjour prouve qu'un étranger a le droit de résider en France et, le plus souvent, d'y travailler. Il ne donne pas la nationalité française ni le droit de vote.",
+    "liens": [
+      {"titre": "Carte de résident (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2208"}
+    ],
     "sous_theme": "citoyennete",
     "difficulte": 1,
     "a_verifier": false,
@@ -68,7 +74,7 @@
       "Les comptes des célébrités sur les réseaux sociaux",
       "Les sites des partis politiques"
     ],
-    "explication": "Le logo de l'État, avec Marianne, le drapeau et la devise, figure sur les sites officiels, comme service-public.fr ou les sites qui se terminent par gouv.fr.",
+    "explication": "Le logo de l'État, avec Marianne, le drapeau et la devise, figure sur les sites officiels de l'État, comme service-public.gouv.fr (ancienne adresse : service-public.fr) ou les autres sites qui se terminent par gouv.fr.",
     "sous_theme": "symboles",
     "difficulte": 2,
     "a_verifier": false,
@@ -84,6 +90,9 @@
       "Patriotes"
     ],
     "explication": "Le refrain de la Marseillaise commence par « Aux armes, citoyens ! Formez vos bataillons ».",
+    "liens": [
+      {"titre": "La Marseillaise (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -98,7 +107,10 @@
       "La liberté est arrivée",
       "Le jour de la fête est venu"
     ],
-    "explication": "La Marseillaise commence par « Allons enfants de la patrie, le jour de gloire est arrivé ». C'est l'hymne national depuis 1879.",
+    "explication": "La Marseillaise commence par « Allons enfants de la patrie, le jour de gloire est arrivé ». Elle a été écrite par Claude-Joseph Rouget de Lisle en avril 1792. Elle devient chant national en 1795, puis hymne national en 1879.",
+    "liens": [
+      {"titre": "La Marseillaise (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -114,6 +126,9 @@
       "Refuser toute instruction à ses enfants"
     ],
     "explication": "La liberté individuelle permet à chacun de décider de sa vie, de ses croyances et de ses relations. Elle ne permet pas de priver les autres de leurs droits.",
+    "liens": [
+      {"titre": "La liberté religieuse (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/23873-quest-ce-que-la-liberte-religieuse"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 2,
     "a_verifier": false,
@@ -129,6 +144,9 @@
       "La religion doit être pratiquée en secret"
     ],
     "explication": "La France garantit la liberté de culte : chacun peut croire, ne pas croire ou pratiquer la religion de son choix, à condition de respecter l'ordre public et la loi.",
+    "liens": [
+      {"titre": "La liberté religieuse (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/23873-quest-ce-que-la-liberte-religieuse"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -159,6 +177,9 @@
       "Liberté, Justice, Solidarité"
     ],
     "explication": "La devise de la France est « Liberté, Égalité, Fraternité ». Elle est écrite dans la Constitution et sur le fronton des bâtiments publics.",
+    "liens": [
+      {"titre": "Liberté, Égalité, Fraternité (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/liberte-egalite-fraternite"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -203,7 +224,10 @@
       "Oui, si c'est pendant une manifestation",
       "Oui, si le drapeau appartient à la personne"
     ],
-    "explication": "Le drapeau tricolore est un symbole de la République et doit être respecté. L'outrager en public, par exemple en le brûlant, est puni d'une amende.",
+    "explication": "Le drapeau tricolore est un symbole de la République et doit être respecté. Le brûler dans un lieu public pour l'outrager est puni d'une amende jusqu'à 1 500 €, et jusqu'à 7 500 € pendant une manifestation organisée ou encadrée par les autorités publiques.",
+    "liens": [
+      {"titre": "Le drapeau français (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/le-drapeau-francais"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 2,
     "a_verifier": false,
@@ -219,6 +243,10 @@
       "Il ne fait rien, car c'est une affaire privée"
     ],
     "explication": "La loi punit les discriminations, par exemple liées à l'origine, au sexe ou au handicap. Le Défenseur des droits aide gratuitement les victimes.",
+    "liens": [
+      {"titre": "Le Défenseur des droits (defenseurdesdroits.fr)", "url": "https://www.defenseurdesdroits.fr"},
+      {"titre": "Discrimination (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19448"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 2,
     "a_verifier": false,
@@ -234,6 +262,9 @@
       "L'Union européenne"
     ],
     "explication": "Marianne est une figure de femme qui représente la République française et ses valeurs : la liberté, l'égalité et la fraternité.",
+    "liens": [
+      {"titre": "Marianne (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/marianne"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -249,6 +280,9 @@
       "Un droit réservé aux personnes de nationalité française"
     ],
     "explication": "Grâce à la loi du 1er juillet 1901, chacun peut créer ou rejoindre une association sportive, culturelle ou solidaire. Les étrangers ont aussi ce droit.",
+    "liens": [
+      {"titre": "La loi de 1901 (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/24087-la-loi-du-1er-juillet-1901-relative-au-contrat-dassociation"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 1,
     "a_verifier": false,
@@ -264,6 +298,9 @@
       "Pouvoir imposer ses idées aux autres"
     ],
     "explication": "C'est la définition de l'article 4 de la Déclaration des droits de l'homme et du citoyen de 1789. La liberté de chacun s'arrête là où elle nuit aux autres.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "valeurs",
     "difficulte": 1,
     "a_verifier": false,
@@ -278,7 +315,10 @@
       "La fête nationale française",
       "Une danse traditionnelle de Provence"
     ],
-    "explication": "La Marseillaise est l'hymne national. Elle a été écrite par Rouget de Lisle en 1792 et est citée à l'article 2 de la Constitution.",
+    "explication": "La Marseillaise est l'hymne national. Elle a été écrite par Claude-Joseph Rouget de Lisle en 1792. Elle est citée à l'article 2 de la Constitution.",
+    "liens": [
+      {"titre": "La Marseillaise (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -293,7 +333,10 @@
       "Sur les tickets de cinéma",
       "Sur les étiquettes des produits alimentaires"
     ],
-    "explication": "Marianne figure sur les timbres et sur le logo des ministères et des documents officiels. Les billets en euros sont communs à toute l'Europe et ne la montrent pas.",
+    "explication": "Marianne figure sur les timbres et sur le logo des ministères et des documents officiels. Les billets en euros sont communs à toute la zone euro et ne la montrent pas.",
+    "liens": [
+      {"titre": "Marianne (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/marianne"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -309,6 +352,9 @@
       "La loi l'autorise si l'employeur le décide"
     ],
     "explication": "Refuser d'embaucher une personne parce que c'est une femme est une discrimination punie par la loi. Les femmes et les hommes ont les mêmes droits au travail.",
+    "liens": [
+      {"titre": "Discrimination (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19448"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 1,
     "a_verifier": false,
@@ -324,6 +370,9 @@
       "Les personnes riches ont plus de droits devant la loi"
     ],
     "explication": "L'égalité signifie que tous les citoyens ont les mêmes droits et les mêmes devoirs, et que la loi s'applique à tous de la même façon.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "valeurs",
     "difficulte": 1,
     "a_verifier": false,
@@ -339,6 +388,9 @@
       "Le français est obligatoire seulement à l'école"
     ],
     "explication": "L'article 2 de la Constitution dit : « La langue de la République est le français. » C'est la langue de l'administration, de la justice et de l'école.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 2,
     "a_verifier": false,
@@ -354,6 +406,9 @@
       "La devise, la tour Eiffel et le drapeau tricolore"
     ],
     "explication": "Le drapeau, l'hymne, la devise, Marianne et le 14 Juillet sont des symboles de la République. La fleur de lys et la couronne rappellent la royauté, et la tour Eiffel est un monument.",
+    "liens": [
+      {"titre": "Les symboles de la République (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19564-quels-sont-les-symboles-et-les-emblemes-de-la-ve-republique"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 2,
     "a_verifier": false,
@@ -369,6 +424,9 @@
       "Oui, si la personne n'est pas française"
     ],
     "explication": "Insulter quelqu'un en public à cause de son handicap, de son apparence, de son sexe ou de son origine est une infraction. Cela porte atteinte à la dignité de la personne.",
+    "liens": [
+      {"titre": "Injure (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32077"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 1,
     "a_verifier": false,
@@ -384,6 +442,9 @@
       "Une théocratie"
     ],
     "explication": "La France est une République : le chef de l'État est élu et non héréditaire. Elle est démocratique : le pouvoir vient du peuple, qui vote.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "valeurs",
     "difficulte": 1,
     "a_verifier": false,
@@ -399,6 +460,9 @@
       "Pour séparer les élèves selon leur religion"
     ],
     "explication": "La laïcité protège les élèves de toute pression religieuse. Elle permet à tous d'apprendre ensemble, sans distinction de croyance.",
+    "liens": [
+      {"titre": "La laïcité à l'école (conseil-etat.fr)", "url": "https://www.conseil-etat.fr/publications-colloques/rapports-d-activite/bilan-d-activite-2023/la-laicite-un-fondement-du-vivre-ensemble"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "a_verifier": false,
@@ -414,6 +478,9 @@
       "1958"
     ],
     "explication": "La loi de séparation des Églises et de l'État a été votée le 9 décembre 1905. Elle est le fondement de la laïcité.",
+    "liens": [
+      {"titre": "La loi du 9 décembre 1905 (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/271400-la-loi-du-9-decembre-1905-de-separation-des-eglises-et-de-letat"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -429,6 +496,9 @@
       "Non, sauf avec l'accord de sa famille"
     ],
     "explication": "La laïcité garantit la liberté de conscience : chacun peut avoir une religion, en changer ou n'en avoir aucune.",
+    "liens": [
+      {"titre": "La liberté religieuse (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/23873-quest-ce-que-la-liberte-religieuse"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -444,6 +514,9 @@
       "Le droit d'avoir une religion d'État"
     ],
     "explication": "La laïcité garantit à chacun la liberté de croire ou de ne pas croire. Elle ne permet pas de se placer au-dessus de la loi pour des raisons religieuses.",
+    "liens": [
+      {"titre": "La laïcité (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -459,6 +532,9 @@
       "Les directeurs d'école"
     ],
     "explication": "Les enseignants et directeurs sont des agents publics et doivent être neutres. Les élèves ne peuvent pas porter de signe ostensible depuis 2004. Les parents, eux, sont des usagers.",
+    "liens": [
+      {"titre": "Laïcité et neutralité (fonction-publique.gouv.fr)", "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 3,
     "a_verifier": false,
@@ -474,6 +550,9 @@
       "L'État paie les responsables de toutes les religions"
     ],
     "explication": "La neutralité de l'État veut dire qu'il n'a pas de religion, qu'il ne favorise aucun culte et qu'il traite tous les citoyens de la même manière.",
+    "liens": [
+      {"titre": "La laïcité (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "a_verifier": false,
@@ -504,6 +583,9 @@
       "Uniquement les agents de sécurité"
     ],
     "explication": "Tous les agents publics doivent être neutres : ils ne montrent pas leur religion ni leurs opinions dans leur travail.",
+    "liens": [
+      {"titre": "Laïcité et neutralité (fonction-publique.gouv.fr)", "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -519,6 +601,9 @@
       "Oui, mais seulement dans les écoles"
     ],
     "explication": "Les agents publics doivent être neutres dans tous les services publics pour traiter chaque usager à égalité, sans montrer leurs croyances.",
+    "liens": [
+      {"titre": "Laïcité et neutralité (fonction-publique.gouv.fr)", "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -534,6 +619,9 @@
       "L'obligation d'être athée pour voter"
     ],
     "explication": "La laïcité garantit la liberté de croire ou de ne pas croire, le libre exercice des cultes et la séparation de l'État et des religions.",
+    "liens": [
+      {"titre": "La laïcité (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -549,6 +637,9 @@
       "Non, sauf avec l'autorisation d'un juge"
     ],
     "explication": "Toute personne est libre de changer de religion. C'est un droit fondamental garanti par la liberté de conscience.",
+    "liens": [
+      {"titre": "La liberté religieuse (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/23873-quest-ce-que-la-liberte-religieuse"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -564,6 +655,9 @@
       "Une règle qui oblige à cacher sa religion partout"
     ],
     "explication": "La laïcité est un principe essentiel de la République : l'État et les religions sont séparés, et chacun est libre de croire ou non.",
+    "liens": [
+      {"titre": "La laïcité (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -579,6 +673,9 @@
       "Porter une petite croix discrète"
     ],
     "explication": "À l'école publique, les élèves ne peuvent pas porter de signes religieux ostensibles, et ils ne peuvent pas refuser un cours du programme au nom de leur religion. Les signes discrets restent autorisés.",
+    "liens": [
+      {"titre": "La laïcité à l'école (conseil-etat.fr)", "url": "https://www.conseil-etat.fr/publications-colloques/rapports-d-activite/bilan-d-activite-2023/la-laicite-un-fondement-du-vivre-ensemble"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "a_verifier": false,
@@ -594,6 +691,9 @@
       "La France est une monarchie constitutionnelle, laïque et sociale"
     ],
     "explication": "L'article 1er de la Constitution du 4 octobre 1958 commence par : « La France est une République indivisible, laïque, démocratique et sociale. »",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "valeurs",
     "difficulte": 2,
     "a_verifier": false,

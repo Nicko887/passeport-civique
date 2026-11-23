@@ -1,11 +1,30 @@
 // Petit lecteur Markdown pour le format restreint des cours.
 // Retourne { titre, intro, sections: [{ id, titre, html, texte }] }.
+// Liens : [texte](https://…), seulement vers les sites de SITES_SURS (sinon le texte seul est affiché).
+import { lienSur } from './config.js';
 
 export const echapper = (s) =>
   String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
-const enLigne = (s) => echapper(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-const sansMarques = (s) => s.replace(/\*\*/g, '');
+const RE_LIEN = /\[([^\]]+)\]\((https:\/\/[^\s)]+)\)/g;
+
+/** Lien externe ouvert dans un nouvel onglet, avec une icône pour le signaler. */
+export const lienExterne = (url, texte) =>
+  `<a class="lien-externe" href="${echapper(url)}" target="_blank" rel="noopener noreferrer">${echapper(texte)}<span aria-hidden="true"> ↗</span><span class="visuellement-cache"> (nouvel onglet)</span></a>`;
+
+const enLigne = (s) => {
+  const morceaux = [];
+  let dernier = 0;
+  for (const m of s.matchAll(RE_LIEN)) {
+    morceaux.push(echapper(s.slice(dernier, m.index)));
+    morceaux.push(lienSur(m[2]) ? lienExterne(m[2], m[1]) : echapper(m[1]));
+    dernier = m.index + m[0].length;
+  }
+  morceaux.push(echapper(s.slice(dernier)));
+  return morceaux.join('').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+};
+// Texte lu à voix haute : sans les marques de mise en forme ni les adresses des liens.
+const sansMarques = (s) => s.replace(RE_LIEN, '$1').replace(/\*\*/g, '');
 
 function blocsEnHtml(lignes) {
   let html = '';

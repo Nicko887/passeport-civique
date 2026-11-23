@@ -8,7 +8,13 @@
       "Le Petit Caporal",
       "Le Roi Chevalier"
     ],
-    "explication": "Louis XIV a choisi le soleil comme emblème. Le Bien-Aimé désigne Louis XV, le Petit Caporal Napoléon et le Roi Chevalier François Ier.",
+    "explication": "Louis XIV, roi de 1643 à 1715, a choisi le soleil comme emblème. Le Bien-Aimé désigne Louis XV, le Petit Caporal Napoléon Bonaparte et le Roi Chevalier François Ier.",
+    "liens": [
+      {
+        "titre": "Versailles, le château du Roi-Soleil (chateauversailles.fr)",
+        "url": "https://www.chateauversailles.fr/decouvrir/les-ressources/versailles-chateau-roi-soleil"
+      }
+    ],
     "sous_theme": "histoire_ancienne",
     "difficulte": 1,
     "a_verifier": false,
@@ -23,7 +29,13 @@
       "Louis XV",
       "Louis XVIII"
     ],
-    "explication": "Louis XVI est jugé par la Convention et guillotiné à Paris le 21 janvier 1793.",
+    "explication": "Louis XVI est jugé par la Convention. Il est guillotiné à Paris le 21 janvier 1793, sur la place de la Révolution, aujourd'hui place de la Concorde.",
+    "liens": [
+      {
+        "titre": "Procès et exécution de Louis XVI (assemblee-nationale.fr)",
+        "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/proces-et-execution-de-louis-xvi"
+      }
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 1,
     "a_verifier": false,
@@ -38,7 +50,13 @@
       "1789",
       "1815"
     ],
-    "explication": "Napoléon Bonaparte se fait sacrer empereur des Français le 2 décembre 1804 à Notre-Dame de Paris. En 1799, il était devenu Premier consul.",
+    "explication": "Napoléon Bonaparte est proclamé empereur des Français le 18 mai 1804. Il est sacré à Notre-Dame de Paris le 2 décembre 1804. En 1799, il était devenu Premier consul.",
+    "liens": [
+      {
+        "titre": "Le Premier Empire (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815/"
+      }
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 2,
     "a_verifier": false,
@@ -53,7 +71,17 @@
       "Charlemagne, l'empereur",
       "Clovis, le premier roi des Francs"
     ],
-    "explication": "Marianne est la figure féminine qui représente la République française. On voit son buste dans les mairies et son visage sur les timbres.",
+    "explication": "Marianne, une femme coiffée d'un bonnet phrygien, représente la République française depuis 1792. On voit son buste dans les mairies et son visage sur les timbres.",
+    "liens": [
+      {
+        "titre": "Marianne (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/marianne"
+      },
+      {
+        "titre": "Marianne (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/marianne/"
+      }
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 1,
     "a_verifier": false,
@@ -68,7 +96,13 @@
       "14 juillet 1940",
       "25 août 1944"
     ],
-    "explication": "Le 18 juin 1940, depuis Londres, à la radio BBC, le général de Gaulle appelle les Français à continuer le combat contre l'Allemagne nazie.",
+    "explication": "Le 18 juin 1940, depuis Londres, à la radio BBC, le général Charles de Gaulle appelle les Français à continuer le combat contre l'Allemagne nazie.",
+    "liens": [
+      {
+        "titre": "La Résistance et la Libération (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration/"
+      }
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -83,7 +117,13 @@
       "Pour préparer les élèves au service militaire",
       "Pour étudier la géographie de l'Europe de l'Est"
     ],
-    "explication": "La Shoah est le génocide des Juifs par les nazis. On l'étudie pour se souvenir des victimes et lutter contre l'antisémitisme, le racisme et la haine.",
+    "explication": "La Shoah est le génocide d'environ six millions de Juifs par les nazis. En France, environ 76 000 Juifs ont été déportés. On l'étudie pour se souvenir des victimes et lutter contre l'antisémitisme, le racisme et la haine.",
+    "liens": [
+      {
+        "titre": "La Shoah (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-shoah/"
+      }
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -99,6 +139,12 @@
       "Le Japon"
     ],
     "explication": "Le Sénégal a été une colonie française jusqu'à son indépendance en 1960. Le Kenya était une colonie britannique ; l'Argentine et le Japon n'ont jamais été colonisés par la France.",
+    "liens": [
+      {
+        "titre": "La décolonisation (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation/"
+      }
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -113,7 +159,13 @@
       "1945",
       "1981"
     ],
-    "explication": "Depuis la réforme de 1962, voulue par le général de Gaulle et approuvée par référendum, le président est élu directement par les citoyens. La première élection de ce type a eu lieu en 1965.",
+    "explication": "Depuis la réforme voulue par Charles de Gaulle et approuvée par le référendum du 28 octobre 1962, le président est élu directement par les citoyens. La première élection de ce type a eu lieu en 1965.",
+    "liens": [
+      {
+        "titre": "La révision constitutionnelle de 1962 (conseil-constitutionnel.fr)",
+        "url": "https://www.conseil-constitutionnel.fr/les-revisions-constitutionnelles/loi-n-62-1292-du-6-novembre-1962"
+      }
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 2,
     "a_verifier": false,
@@ -128,7 +180,13 @@
       "La signature du traité de Maastricht",
       "La création de l'espace Schengen"
     ],
-    "explication": "En 1951, six pays dont la France et l'Allemagne mettent en commun le charbon et l'acier. Le but est de rendre la guerre impossible entre eux.",
+    "explication": "Le 18 avril 1951, à Paris, six pays dont la France et l'Allemagne signent le traité qui crée la CECA. Ils mettent en commun le charbon et l'acier pour rendre la guerre impossible entre eux.",
+    "liens": [
+      {
+        "titre": "La construction européenne (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/"
+      }
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 2,
     "a_verifier": false,
@@ -143,7 +201,13 @@
       "Valéry Giscard d'Estaing",
       "Jacques Chirac"
     ],
-    "explication": "La peine de mort est abolie en 1981, sous la présidence de François Mitterrand, grâce à la loi défendue par le ministre de la Justice Robert Badinter.",
+    "explication": "La peine de mort est abolie par la loi du 9 octobre 1981, sous la présidence de François Mitterrand. Cette loi est défendue par le ministre de la Justice, Robert Badinter.",
+    "liens": [
+      {
+        "titre": "Discours de Robert Badinter, 1981 (assemblee-nationale.fr)",
+        "url": "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/grands-discours-parlementaires/robert-badinter-17-septembre-1981"
+      }
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 2,
     "a_verifier": false,
@@ -158,7 +222,13 @@
       "La Ve République",
       "La Restauration"
     ],
-    "explication": "Le 21 septembre 1792, la royauté est abolie et la Première République est proclamée. Le Premier Empire arrive en 1804.",
+    "explication": "Le 21 septembre 1792, la royauté est abolie. La Première République commence le 22 septembre 1792. Le Premier Empire arrive en 1804.",
+    "liens": [
+      {
+        "titre": "La Première République (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-premiere-republique-1792-1804/"
+      }
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 2,
     "a_verifier": false,
@@ -173,7 +243,13 @@
       "Pierre Laval",
       "Louis Pasteur"
     ],
-    "explication": "Jean Moulin a unifié les mouvements de la Résistance intérieure à la demande du général de Gaulle. Arrêté en 1943, il est mort sous la torture.",
+    "explication": "Jean Moulin, envoyé par Charles de Gaulle, unifie les mouvements de la Résistance et crée le Conseil national de la Résistance en 1943. Arrêté le 21 juin 1943 et torturé, il meurt en juillet 1943. Philippe Pétain et Pierre Laval ont collaboré avec l'Allemagne nazie.",
+    "liens": [
+      {
+        "titre": "La Résistance et la Libération (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration/"
+      }
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -188,7 +264,13 @@
       "Elles ont obtenu le droit à l'interruption volontaire de grossesse",
       "Elles ont obtenu le droit de travailler sans l'accord du mari"
     ],
-    "explication": "Une ordonnance du 21 avril 1944 donne aux femmes le droit de voter et d'être élues. Elles votent pour la première fois en 1945.",
+    "explication": "L'ordonnance du 21 avril 1944, signée par Charles de Gaulle, donne aux femmes le droit de voter et d'être élues. Elles votent pour la première fois aux élections municipales d'avril 1945.",
+    "liens": [
+      {
+        "titre": "Le droit de vote des femmes (assemblee-nationale.fr)",
+        "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/deuxieme-guerre-mondiale/l-accession-des-femmes-au-droit-de-vote"
+      }
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -203,7 +285,13 @@
       "L'Organisation du traité de l'Atlantique Nord (OTAN)",
       "La Société des Nations (SDN)"
     ],
-    "explication": "L'ONU est créée en 1945 pour maintenir la paix dans le monde. La France est l'un des cinq membres permanents de son Conseil de sécurité.",
+    "explication": "L'ONU est créée en 1945 pour maintenir la paix : sa Charte est signée à San Francisco en juin 1945. La France est l'un des cinq membres permanents du Conseil de sécurité. La SDN date de 1919 et l'OTAN de 1949.",
+    "liens": [
+      {
+        "titre": "La naissance de l'ONU (vie-publique.fr)",
+        "url": "https://www.vie-publique.fr/video/276129-la-naissance-de-lonu"
+      }
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 1,
     "a_verifier": false,
@@ -218,7 +306,13 @@
       "Le travail d'intérêt général",
       "L'amende"
     ],
-    "explication": "La loi du 9 octobre 1981, défendue par Robert Badinter, abolit la peine de mort en France. Depuis 2007, cette abolition est inscrite dans la Constitution.",
+    "explication": "La loi du 9 octobre 1981, défendue par le ministre de la Justice Robert Badinter, abolit la peine de mort en France. Depuis 2007, cette abolition est inscrite dans la Constitution.",
+    "liens": [
+      {
+        "titre": "Discours de Robert Badinter, 1981 (assemblee-nationale.fr)",
+        "url": "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/grands-discours-parlementaires/robert-badinter-17-septembre-1981"
+      }
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 1,
     "a_verifier": false,
@@ -233,7 +327,13 @@
       "1992",
       "2010"
     ],
-    "explication": "Les pièces et billets en euros circulent en France depuis le 1er janvier 2002. Ils ont remplacé le franc.",
+    "explication": "Les pièces et billets en euros circulent en France depuis le 1er janvier 2002. Ils ont remplacé le franc. Avant, depuis 1999, l'euro servait seulement pour les paiements sans espèces.",
+    "liens": [
+      {
+        "titre": "Le passage à l'euro en 2002 (ecb.europa.eu)",
+        "url": "https://www.ecb.europa.eu/euro/changeover/2002/html/index.fr.html"
+      }
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 1,
     "a_verifier": false,
@@ -248,7 +348,13 @@
       "1912",
       "1939"
     ],
-    "explication": "La Première Guerre mondiale commence en août 1914 et se termine le 11 novembre 1918.",
+    "explication": "La Première Guerre mondiale commence à l'été 1914 : l'Allemagne déclare la guerre à la France le 3 août 1914. Les combats se terminent le 11 novembre 1918.",
+    "liens": [
+      {
+        "titre": "La Première Guerre mondiale (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1/"
+      }
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -263,7 +369,13 @@
       "Au Pays basque",
       "En Alsace"
     ],
-    "explication": "Le 6 juin 1944, les Alliés débarquent sur les plages de Normandie pour libérer la France et l'Europe de l'occupation nazie.",
+    "explication": "Le 6 juin 1944, les Alliés débarquent sur les plages de Normandie (opération Overlord) pour libérer la France et l'Europe de l'occupation nazie. Un second débarquement a lieu en Provence le 15 août 1944.",
+    "liens": [
+      {
+        "titre": "La Seconde Guerre mondiale (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1/"
+      }
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -278,7 +390,13 @@
       "L'Europe",
       "L'Océanie"
     ],
-    "explication": "Après 1945, la plupart des colonies françaises devenues indépendantes sont en Afrique, surtout vers 1960, et l'Algérie en 1962.",
+    "explication": "Après 1945, la plupart des colonies françaises devenues indépendantes sont en Afrique : beaucoup en 1960, puis l'Algérie en 1962. En Asie, la France quitte l'Indochine (Vietnam, Laos, Cambodge) en 1954.",
+    "liens": [
+      {
+        "titre": "La décolonisation (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation/"
+      }
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 1,
     "a_verifier": false,
@@ -293,7 +411,13 @@
       "La prise de la Bastille",
       "La fête du Travail"
     ],
-    "explication": "Le 8 mai 1945, l'Allemagne nazie capitule. Ce jour férié célèbre la victoire des Alliés en Europe.",
+    "explication": "Le 8 mai 1945, l'Allemagne nazie capitule sans condition. Ce jour férié célèbre la victoire des Alliés et la fin de la guerre en Europe.",
+    "liens": [
+      {
+        "titre": "La Seconde Guerre mondiale (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1/"
+      }
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -309,6 +433,12 @@
       "L'océan Indien"
     ],
     "explication": "La France métropolitaine est bordée par l'océan Atlantique, la Manche, la mer du Nord et la mer Méditerranée. L'océan Indien borde seulement des territoires d'outre-mer.",
+    "liens": [
+      {
+        "titre": "Les frontières de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -323,7 +453,13 @@
       "Les Pays-Bas",
       "L'Autriche"
     ],
-    "explication": "La France métropolitaine a des frontières terrestres avec la Belgique, le Luxembourg, l'Allemagne, la Suisse, l'Italie, Monaco, l'Espagne et Andorre.",
+    "explication": "La France métropolitaine a des frontières terrestres avec huit pays : la Belgique, le Luxembourg, l'Allemagne, la Suisse, l'Italie, Monaco, l'Espagne et Andorre.",
+    "liens": [
+      {
+        "titre": "Les frontières de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -338,7 +474,7 @@
       "Toulouse",
       "Strasbourg"
     ],
-    "explication": "Marseille est un grand port sur la mer Méditerranée. Le Havre, Dunkerque et Nantes-Saint-Nazaire sont aussi des ports maritimes.",
+    "explication": "Marseille est le premier port de France, sur la mer Méditerranée. Le Havre, Dunkerque et Nantes-Saint-Nazaire sont aussi de grands ports maritimes. Lyon, Toulouse et Strasbourg sont loin de la mer.",
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -354,6 +490,12 @@
       "La mer d'Irlande"
     ],
     "explication": "La Manche sépare la France de l'Angleterre. Le tunnel sous la Manche relie les deux pays depuis 1994.",
+    "liens": [
+      {
+        "titre": "Les frontières de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -368,7 +510,13 @@
       "Les pays étrangers où l'on parle le français",
       "Les régions françaises situées au bord de la mer"
     ],
-    "explication": "La France d'outre-mer regroupe des territoires français en Amérique, dans l'océan Indien, dans le Pacifique et en Antarctique, comme la Guadeloupe ou La Réunion.",
+    "explication": "La France d'outre-mer regroupe des territoires français en Amérique, dans l'océan Indien, dans le Pacifique et en Antarctique : 5 départements et régions, comme la Guadeloupe ou La Réunion, et des collectivités, comme la Polynésie française.",
+    "liens": [
+      {
+        "titre": "Le territoire de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"
+      }
+    ],
     "sous_theme": "outre_mer",
     "difficulte": 1,
     "a_verifier": false,
@@ -383,7 +531,13 @@
       "Les Vosges",
       "Le Jura"
     ],
-    "explication": "Les Pyrénées forment la frontière entre la France et l'Espagne, de l'océan Atlantique à la mer Méditerranée.",
+    "explication": "Les Pyrénées forment la frontière entre la France et l'Espagne, de l'océan Atlantique à la mer Méditerranée. Le petit pays d'Andorre se trouve aussi dans les Pyrénées.",
+    "liens": [
+      {
+        "titre": "Les frontières de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -398,7 +552,13 @@
       "La Guadeloupe",
       "La Nouvelle-Calédonie"
     ],
-    "explication": "La Réunion se trouve dans l'océan Indien, à l'est de Madagascar. Mayotte est aussi une île française de l'océan Indien.",
+    "explication": "La Réunion se trouve dans l'océan Indien, à l'est de Madagascar. Mayotte est aussi une île française de l'océan Indien. La Martinique et la Guadeloupe sont aux Antilles, la Nouvelle-Calédonie dans le Pacifique.",
+    "liens": [
+      {
+        "titre": "Le territoire de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"
+      }
+    ],
     "sous_theme": "outre_mer",
     "difficulte": 1,
     "a_verifier": false,
@@ -413,7 +573,13 @@
       "Environ 85 millions d'habitants",
       "Environ 120 millions d'habitants"
     ],
-    "explication": "Selon l'Insee, la France compte environ 68,6 millions d'habitants au début de l'année 2025, outre-mer compris.",
+    "explication": "Selon l'Insee, la France compte environ 68,6 millions d'habitants au 1er janvier 2025 : 66,4 millions en métropole et 2,3 millions dans les départements d'outre-mer.",
+    "liens": [
+      {
+        "titre": "La démographie française (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-demographie-francaise/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 2,
     "a_verifier": false,
@@ -428,7 +594,13 @@
       "Le Rhône",
       "La Garonne"
     ],
-    "explication": "La Seine traverse Paris avant de se jeter dans la Manche, au Havre.",
+    "explication": "La Seine traverse Paris avant de se jeter dans la Manche, entre Le Havre et Honfleur.",
+    "liens": [
+      {
+        "titre": "Les fleuves français (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-fleuves-fran%C3%A7ais/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -443,7 +615,13 @@
       "L'Autriche",
       "Le Danemark"
     ],
-    "explication": "L'Espagne a une frontière avec la France le long des Pyrénées. La France a aussi des frontières terrestres en outre-mer, par exemple avec le Brésil grâce à la Guyane.",
+    "explication": "L'Espagne a une frontière avec la France le long des Pyrénées. En outre-mer, la France a aussi des frontières avec le Brésil et le Suriname (Guyane) et avec les Pays-Bas (île de Saint-Martin).",
+    "liens": [
+      {
+        "titre": "Les frontières de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -459,6 +637,12 @@
       "Andorre"
     ],
     "explication": "Au nord-est, la France touche la Belgique, le Luxembourg et l'Allemagne. L'Espagne et Andorre sont au sud, l'Italie au sud-est.",
+    "liens": [
+      {
+        "titre": "Les frontières de la France (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 2,
     "a_verifier": false,
@@ -474,6 +658,16 @@
       "Principalement dans les îles d'outre-mer"
     ],
     "explication": "Les entreprises et les emplois se concentrent dans les grandes agglomérations comme Paris, Lyon ou Marseille, et dans les zones industrielles.",
+    "liens": [
+      {
+        "titre": "L'économie française (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/l-economie-francaise/"
+      },
+      {
+        "titre": "Aire urbaine et métropoles (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -489,6 +683,12 @@
       "Le Portugal"
     ],
     "explication": "La France est le pays le plus visité du monde. Elle accueille chaque année environ 100 millions de touristes étrangers.",
+    "liens": [
+      {
+        "titre": "Une puissance culturelle (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/une-puissance-culturelle/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -503,7 +703,13 @@
       "Dans les zones de montagne",
       "Dans les territoires d'outre-mer"
     ],
-    "explication": "Environ 8 Français sur 10 vivent dans une ville ou dans sa banlieue, c'est-à-dire en zone urbaine.",
+    "explication": "Environ 8 Français sur 10 (81 %) vivent dans une ville ou dans sa banlieue, c'est-à-dire en zone urbaine.",
+    "liens": [
+      {
+        "titre": "La démographie française (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-demographie-francaise/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -519,6 +725,12 @@
       "La Corse"
     ],
     "explication": "L'Île-de-France, autour de Paris, compte environ 12 millions d'habitants, soit près d'un Français sur cinq.",
+    "liens": [
+      {
+        "titre": "Les régions françaises (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -534,6 +746,12 @@
       "Guéret"
     ],
     "explication": "Lyon est la troisième ville de France. Les grandes métropoles sont notamment Paris, Marseille, Lyon, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux et Lille.",
+    "liens": [
+      {
+        "titre": "Aire urbaine et métropoles (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/"
+      }
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -563,7 +781,13 @@
       "Le week-end de Pâques",
       "La semaine de Noël"
     ],
-    "explication": "Chaque année en septembre, pendant les Journées européennes du patrimoine, de nombreux monuments et lieux publics ouvrent gratuitement leurs portes.",
+    "explication": "Chaque année en septembre, pendant les Journées européennes du patrimoine, de nombreux monuments et lieux publics ouvrent leurs portes, souvent gratuitement.",
+    "liens": [
+      {
+        "titre": "Journées européennes du patrimoine (culture.gouv.fr)",
+        "url": "https://www.culture.gouv.fr/evenements-nationaux/journees-europeennes-du-patrimoine"
+      }
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -578,7 +802,17 @@
       "Environ 70 millions",
       "Plus d'un milliard"
     ],
-    "explication": "Selon l'Organisation internationale de la Francophonie, environ 320 millions de personnes parlent français sur les cinq continents.",
+    "explication": "Selon le rapport 2026 de l'Organisation internationale de la Francophonie, environ 396 millions de personnes parlent français sur les cinq continents. Plus de 6 sur 10 vivent en Afrique.",
+    "liens": [
+      {
+        "titre": "Le français, 4e langue la plus parlée (diplomatie.gouv.fr)",
+        "url": "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/journee-internationale-de-la-francophonie-2026-le-francais-devient-la-4eme-langue-la-plus-parlee-au"
+      },
+      {
+        "titre": "La langue française dans le monde (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde/"
+      }
+    ],
     "sous_theme": "culture",
     "difficulte": 2,
     "a_verifier": false,
@@ -593,7 +827,13 @@
       "La première femme nommée Première ministre",
       "La première femme à recevoir un prix Nobel"
     ],
-    "explication": "Marguerite Yourcenar, écrivaine, autrice des Mémoires d'Hadrien, est en 1980 la première femme élue à l'Académie française.",
+    "explication": "Marguerite Yourcenar (1903-1987), écrivaine, autrice des Mémoires d'Hadrien, est en 1980 la première femme élue à l'Académie française.",
+    "liens": [
+      {
+        "titre": "Les grands auteurs du XXe siècle (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3/"
+      }
+    ],
     "sous_theme": "culture",
     "difficulte": 2,
     "a_verifier": false,
@@ -608,7 +848,13 @@
       "Rembrandt",
       "Francisco de Goya"
     ],
-    "explication": "Claude Monet est un peintre français, chef de file de l'impressionnisme. Van Gogh était néerlandais, Rembrandt néerlandais et Goya espagnol.",
+    "explication": "Claude Monet (1840-1926) est un peintre français, chef de file de l'impressionnisme. Vincent van Gogh et Rembrandt étaient néerlandais, Francisco de Goya espagnol.",
+    "liens": [
+      {
+        "titre": "Les grands peintres français (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/"
+      }
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -638,7 +884,13 @@
       "Un compositeur français",
       "Un écrivain français"
     ],
-    "explication": "Auguste Rodin est un grand sculpteur. Ses œuvres les plus connues sont Le Penseur et Le Baiser.",
+    "explication": "Auguste Rodin (1840-1917) est un grand sculpteur. Ses œuvres les plus connues sont Le Penseur, Le Baiser et La Porte de l'Enfer.",
+    "liens": [
+      {
+        "titre": "Les grands sculpteurs français (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-sculpteurs/"
+      }
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -647,17 +899,27 @@
   {
     "src_id": 172,
     "question": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
-    "bonne_reponse": "Cinquième",
+    "bonne_reponse": "Quatrième",
     "distracteurs": [
       "Première",
       "Deuxième",
       "Dixième"
     ],
-    "explication": "Selon l'Organisation internationale de la Francophonie, le français est la cinquième langue la plus parlée au monde, après l'anglais, le chinois mandarin, l'hindi et l'espagnol.",
+    "explication": "Selon le rapport de l'Organisation internationale de la Francophonie publié en mars 2026, le français est la 4e langue la plus parlée au monde, avec 396 millions de locuteurs, après l'anglais, le chinois mandarin et l'espagnol. Le rapport précédent (2022) le classait 5e.",
+    "liens": [
+      {
+        "titre": "Le français, 4e langue la plus parlée (diplomatie.gouv.fr)",
+        "url": "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/journee-internationale-de-la-francophonie-2026-le-francais-devient-la-4eme-langue-la-plus-parlee-au"
+      },
+      {
+        "titre": "La langue française dans le monde (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde/"
+      }
+    ],
     "sous_theme": "culture",
     "difficulte": 3,
     "a_verifier": false,
-    "note": "La réponse suggérée par la source est « Quatrième ». L'OIF (rapport La langue française dans le monde, 2022) classe le français 5e langue la plus parlée au monde ; il est parfois classé 4e selon d'autres critères (par exemple sur Internet). Réponse remplacée par « Cinquième » ; aucun distracteur ne vaut 4e ou 5e, il suffit de changer bonne_reponse si l'on veut suivre la source. [Validé le 22/11/2026.]"
+    "note": "Réponse passée de « Cinquième » à « Quatrième » le 23/11/2026 (rapport OIF « La langue française dans le monde 2026 » et fiche formation-civique.interieur.gouv.fr), validé par l'utilisatrice."
   },
   {
     "src_id": 173,
@@ -668,7 +930,13 @@
       "La cathédrale de Reims",
       "La cathédrale de Strasbourg"
     ],
-    "explication": "Le 15 avril 2019, un incendie détruit la toiture et la flèche de Notre-Dame de Paris. Restaurée, la cathédrale a rouvert en décembre 2024.",
+    "explication": "Le 15 avril 2019, un incendie détruit la toiture et la flèche de Notre-Dame de Paris. Restaurée, la cathédrale a rouvert le 7 décembre 2024.",
+    "liens": [
+      {
+        "titre": "Notre-Dame de Paris, les étapes d'une renaissance (culture.gouv.fr)",
+        "url": "https://www.culture.gouv.fr/actualites/special-notre-dame-de-paris-1-6-les-grandes-etapes-d-une-renaissance"
+      }
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -683,7 +951,13 @@
       "Édith Piaf",
       "Jeanne d'Arc"
     ],
-    "explication": "George Sand est une romancière du XIXe siècle. Marie Curie était une scientifique, Édith Piaf une chanteuse et Jeanne d'Arc une héroïne de la guerre de Cent Ans.",
+    "explication": "George Sand (1804-1876), de son vrai nom Aurore Dupin, est une romancière du XIXe siècle. Marie Curie était une scientifique, Édith Piaf une chanteuse et Jeanne d'Arc une héroïne de la guerre de Cent Ans.",
+    "liens": [
+      {
+        "titre": "Les grands auteurs du XIXe siècle (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2/"
+      }
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -698,7 +972,13 @@
       "Ludwig van Beethoven",
       "Giuseppe Verdi"
     ],
-    "explication": "Claude Debussy, Maurice Ravel, Hector Berlioz et Georges Bizet sont des compositeurs français. Mozart était autrichien, Beethoven allemand et Verdi italien.",
+    "explication": "Claude Debussy (1862-1918), Maurice Ravel, Hector Berlioz et Georges Bizet sont des compositeurs français. Wolfgang Amadeus Mozart était autrichien, Ludwig van Beethoven allemand et Giuseppe Verdi italien.",
+    "liens": [
+      {
+        "titre": "Les grands musiciens français (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-dans-univers-musique/"
+      }
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -713,7 +993,13 @@
       "Un compositeur",
       "Un poète"
     ],
-    "explication": "Auguste Renoir est un peintre impressionniste français, connu pour Le Bal du moulin de la Galette.",
+    "explication": "Auguste Renoir (1841-1919) est un peintre impressionniste français, connu pour le Bal du moulin de la Galette et Le Déjeuner des canotiers.",
+    "liens": [
+      {
+        "titre": "Les grands peintres français (interieur.gouv.fr)",
+        "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/"
+      }
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -728,7 +1014,13 @@
       "Le 4 juillet, la fête de l'indépendance américaine",
       "Le 12 octobre, la fête nationale espagnole"
     ],
-    "explication": "Le 14 juillet est la fête nationale française. La fête du Travail le 1er mai et la fête de la musique le 21 juin sont aussi des fêtes célébrées en France.",
+    "explication": "Le 14 juillet est la fête nationale française depuis 1880. La fête du Travail le 1er mai et la fête de la musique le 21 juin sont aussi des fêtes célébrées en France.",
+    "liens": [
+      {
+        "titre": "La fête nationale du 14 juillet (elysee.fr)",
+        "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+      }
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,

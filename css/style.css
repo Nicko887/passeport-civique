@@ -301,6 +301,12 @@ select { display: block; width: 100%; margin-top: 6px; min-height: 46px; padding
 .verdict { font-weight: 700; font-size: 1.1rem; }
 .explication { color: var(--texte); }
 .lien-cours { font-size: .9rem; }
+.lien-externe { text-decoration: underline; text-underline-offset: 2px; overflow-wrap: anywhere; }
+.liens-externes { font-size: .9rem; margin-top: .6em; }
+.visuellement-cache {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
 .quiz-pied { display: flex; gap: 10px; justify-content: space-between; }
 .quiz-pied .bouton { flex: 1; }
 @keyframes apparait { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }

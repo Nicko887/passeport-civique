@@ -7,7 +7,8 @@ Application web **gratuite, open source, sans inscription** pour préparer l'exa
 - **Le plus important pour l'utilisateur : la présentation et la facilité d'utilisation.** Public : adultes étrangers, souvent en français A2/B1.
 - **Aucun compte en V1.** La progression est stockée dans le navigateur (`localStorage`), avec un export et un import de fichier. Des comptes facultatifs (Supabase) pourront venir plus tard ; ils ne doivent jamais bloquer l'entrée.
 - **Outil indépendant, non officiel** : la mention apparaît sur l'écran d'accueil et dans « À propos ». Ne jamais imiter l'identité visuelle de l'État.
-- **Exactitude factuelle absolue.** Toute correction de contenu s'appuie sur une source officielle (service-public.fr, Légifrance, vie-publique.fr, ministère de l'Intérieur).
+- **Exactitude factuelle absolue.** Toute correction de contenu s'appuie sur une source officielle (service-public.gouv.fr, Légifrance, vie-publique.fr, ministère de l'Intérieur). Source très utile : les fiches officielles de l'examen sur https://formation-civique.interieur.gouv.fr/.
+- **Relecture complète du 23/11/2026** : 5 agents (un par thème) ont corrigé et précisé tout le contenu, avec les noms complets (« Claude-Joseph Rouget de Lisle »…), et ajouté environ 765 liens vérifiés.
 - **Pas de reprise de code ou de contenu sous GPL ni de dépôts sans licence** (par exemple open-formation-civique.fr, qui est sous GPL). L'utilisateur a choisi de **publier seul**, sans contacter ce projet pour l'instant.
 
 ## Technique
@@ -24,6 +25,10 @@ Application web **gratuite, open source, sans inscription** pour préparer l'exa
   - `contenu/qcm/<parcours>-<theme>.json` : bonne réponse, 3 distracteurs, explication, sous-thème, `a_verifier` ;
   - `contenu/qcm/situations-<theme>.json` : mises en situation, **communes aux deux parcours** (identifiants `sit-<n>`, champ `s: 1` dans `data/`), avec un champ `source` (texte de loi). Numérotation : principes 1 à 50, droits 51 à 100 ;
   - `contenu/cours/<theme>.md` : cours en Markdown restreint ; les sections `## Titre {#id_sous_theme}` doivent avoir les mêmes identifiants que les sous-thèmes de `config.js`.
+- **Liens externes** (vers des sites sûrs uniquement, liste `SITES_SURS` dans `config.js` **et** dans `construire.py`) :
+  - dans les cours : `[texte](https://…)` ; un lien vers un site non autorisé s'affiche comme du texte simple ;
+  - dans les questions : champ `"liens": [{"titre": "…", "url": "…"}]` (2 au maximum), affiché sous la correction ;
+  - `python outils/verifier_liens.py` vérifie que les liens répondent (à relancer de temps en temps). Légifrance refuse les robots (403) : ces liens sont à vérifier à la main.
 - **Après chaque modification du contenu :** lancer `python outils/construire.py`, qui produit `data/*.json` et vérifie le contenu. Avant chaque publication, incrémenter `VERSION` dans `sw.js`.
 - **Tester en local :** `python -m http.server 8000`.
 - **Thèmes (slugs) :** `principes`, `institutions`, `droits`, `histoire`, `societe`.
@@ -44,8 +49,8 @@ Application web **gratuite, open source, sans inscription** pour préparer l'exa
 
 - La V1 est terminée et testée dans Chrome sans interface (mobile, ordinateur, mode sombre) : aucune erreur.
 - Le premier commit est fait sur la branche `main`. Le remote est `https://github.com/Nicko887/passeport-civique.git`.
-- **Push réussi le 23/11/2026** (`main` suit `origin/main`). Reste à activer GitHub Pages (Settings > Pages > Deploy from a branch > main / root) ; le site sera à l'adresse https://nicko887.github.io/passeport-civique/.
-- Les 5 questions douteuses ont été validées par l'utilisateur (nat 111, nat 112, nat 150, res 172 = « Cinquième », res 184).
+- **En ligne depuis le 23/11/2026 :** https://nicko887.github.io/passeport-civique/ (GitHub Pages, branche `main` / racine). Un `git push` publie le site en 1 à 2 minutes ; penser à incrémenter `VERSION` dans `sw.js`. Le site en ligne a été testé dans Chrome sans interface, y compris hors ligne : aucune erreur.
+- Les 5 questions douteuses ont été validées par l'utilisateur (nat 111, nat 112, nat 150, res 172 = « Quatrième » depuis le 23/11/2026, rapport OIF 2026, res 184).
 
 ## Prochaines étapes, validées par l'utilisateur
 

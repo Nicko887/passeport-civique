@@ -8,7 +8,11 @@
       "À obliger les salariés à travailler pendant les jours fériés.",
       "À permettre aux salariés de quitter leur emploi sans prévenir personne."
     ],
-    "explication": "La grève est un arrêt collectif et concerté du travail pour appuyer des revendications professionnelles. C'est un droit reconnu par la Constitution, dans le préambule de 1946.",
+    "explication": "La grève est un arrêt collectif et concerté du travail pour appuyer des revendications professionnelles. C'est un droit reconnu par la Constitution, à l'alinéa 7 du préambule de 1946.",
+    "liens": [
+      {"titre": "Le droit de grève (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F117"},
+      {"titre": "Le préambule de 1946 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/preambule-de-la-constitution-du-27-octobre-1946"}
+    ],
     "sous_theme": "travail",
     "difficulte": 1,
     "a_verifier": false,
@@ -24,6 +28,9 @@
       "Au nom des préférences personnelles du Président."
     ],
     "explication": "Une liberté peut être limitée par la loi seulement pour un motif d'intérêt général : l'ordre public, la sécurité, la santé ou les droits des autres.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "a_verifier": false,
@@ -39,6 +46,9 @@
       "« La France est une République indivisible, laïque, démocratique et sociale. »"
     ],
     "explication": "C'est le début de l'article 1er de la Déclaration de 1789. « L'union fait la force » est la devise de la Belgique, et la phrase sur la République vient de la Constitution de 1958.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "a_verifier": false,
@@ -54,6 +64,9 @@
       "Que la liberté est réservée aux citoyens qui paient des impôts."
     ],
     "explication": "Chacun est libre, mais il ne doit pas nuire aux autres. Les limites de la liberté sont fixées par la loi.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -69,6 +82,9 @@
       "La France est une République religieuse, présidentielle et libérale."
     ],
     "explication": "L'article 1er de la Constitution de 1958 pose ces quatre caractères de la République. Il affirme aussi l'égalité de tous devant la loi.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -83,7 +99,7 @@
       "Que seuls les journaux de l'État ont le droit de publier des informations.",
       "Que les journalistes peuvent publier des insultes sans jamais être punis."
     ],
-    "explication": "La loi du 29 juillet 1881 garantit la liberté de la presse. Les journalistes publient sans autorisation, mais ils restent responsables devant la justice en cas de diffamation ou d'injure.",
+    "explication": "La loi du 29 juillet 1881 sur la liberté de la presse garantit cette liberté. Les journalistes publient sans autorisation, mais ils restent responsables devant la justice en cas de diffamation ou d'injure.",
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "a_verifier": false,
@@ -99,6 +115,9 @@
       "De conduire un véhicule sans permis de conduire."
     ],
     "explication": "La liberté d'aller et venir permet de se déplacer et de choisir son domicile sans autorisation. Elle doit respecter la loi et la propriété des autres.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -129,6 +148,10 @@
       "Des règles de politesse sans valeur juridique."
     ],
     "explication": "Les droits fondamentaux, comme la liberté, l'égalité ou la dignité, sont protégés par les textes les plus importants. L'État doit les respecter.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"},
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "a_verifier": false,
@@ -143,7 +166,10 @@
       "Le droit de grève.",
       "Le droit de vote."
     ],
-    "explication": "La sûreté, prévue par la Déclaration de 1789, protège contre une arrestation ou une détention décidée sans base légale.",
+    "explication": "La sûreté est un des droits cités à l'article 2 de la Déclaration de 1789. L'article 7 dit qu'on ne peut arrêter une personne que dans les cas prévus par la loi.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "a_verifier": false,
@@ -158,7 +184,10 @@
       "L'édit de Nantes signé par Henri IV en 1598.",
       "Le traité de Versailles signé en 1919."
     ],
-    "explication": "La Déclaration de 1789, rédigée pendant la Révolution, proclame les droits naturels de chacun. Elle fait encore partie de notre droit aujourd'hui.",
+    "explication": "La Déclaration du 26 août 1789, rédigée pendant la Révolution, proclame les droits naturels de chacun. Elle fait encore partie de notre droit aujourd'hui.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -174,6 +203,9 @@
       "Le traité de Maastricht signé en 1992."
     ],
     "explication": "L'article 1er de la Déclaration de 1789 dit : « Les hommes naissent et demeurent libres et égaux en droits. »",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -204,6 +236,9 @@
       "Le droit réservé aux journalistes de donner leur avis en public."
     ],
     "explication": "L'article 11 de la Déclaration de 1789 protège la libre communication des pensées. Les abus, comme l'injure ou l'appel à la haine, sont punis par la loi.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -218,7 +253,10 @@
       "Choisir le policier qui mène l'interrogatoire.",
       "Faire effacer son casier judiciaire."
     ],
-    "explication": "Une personne en garde à vue peut demander un avocat, garder le silence, faire prévenir un proche et voir un médecin.",
+    "explication": "Une personne en garde à vue peut demander un avocat, garder le silence, faire prévenir un proche, voir un médecin et avoir un interprète.",
+    "liens": [
+      {"titre": "La garde à vue (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14837"}
+    ],
     "sous_theme": "justice_recours",
     "difficulte": 2,
     "a_verifier": false,
@@ -234,6 +272,9 @@
       "Non, toute pratique religieuse est interdite en France."
     ],
     "explication": "La liberté de conscience permet d'avoir une religion, d'en changer ou de ne pas en avoir. La République est laïque : elle ne reconnaît aucune religion officielle.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -248,7 +289,10 @@
       "16 ans",
       "21 ans"
     ],
-    "explication": "La loi du 7 juillet 2023 fixe la majorité numérique à 15 ans : c’est l’âge à partir duquel un jeune peut s’inscrire seul sur un réseau social. Avant 15 ans, l’accord d’un parent est nécessaire.",
+    "explication": "La loi du 7 juillet 2023 fixe la majorité numérique à 15 ans : avant cet âge, un jeune doit avoir l'accord d'un parent pour s'inscrire sur un réseau social. Attention : cette loi attend encore un décret pour s'appliquer.",
+    "liens": [
+      {"titre": "La loi sur la majorité numérique (vie-publique.fr)", "url": "https://www.vie-publique.fr/loi/288274-majorite-numerique-15-ans-reseaux-sociaux-loi-7-juillet-2023"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 3,
     "a_verifier": false,
@@ -263,7 +307,10 @@
       "Dans un bus.",
       "Dans une salle de classe."
     ],
-    "explication": "Il est interdit de fumer dans les lieux fermés et couverts accueillant du public, comme les restaurants, les transports ou les écoles. Chez soi, c'est autorisé.",
+    "explication": "Il est interdit de fumer dans les lieux fermés et couverts accueillant du public, comme les restaurants, les transports ou les écoles. Depuis le 1er juillet 2025, c'est aussi interdit dans certains lieux en plein air : plages, parcs, abribus, abords des écoles. Chez soi, c'est autorisé.",
+    "liens": [
+      {"titre": "Où est-il interdit de fumer ? (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F160"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -279,6 +326,9 @@
       "Autorisée si l'on a plus de 25 ans."
     ],
     "explication": "Conduire sans permis est un délit. La peine peut aller jusqu'à un an de prison et 15 000 euros d'amende.",
+    "liens": [
+      {"titre": "La conduite sans permis (justice.fr)", "url": "https://www.justice.fr/fiche/amende-forfaitaire-cas-delit-conduite-permis"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -294,6 +344,9 @@
       "À héberger chez soi toute personne qui le demande, sans exception."
     ],
     "explication": "La solidarité nationale passe par l'impôt et les cotisations sociales, qui financent les services publics et la protection sociale. Elle oblige aussi à aider une personne en danger.",
+    "liens": [
+      {"titre": "La non-assistance à personne en danger (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34551"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 2,
     "a_verifier": false,
@@ -309,6 +362,9 @@
       "Oui, si le mari a des revenus suffisants."
     ],
     "explication": "En France, on ne peut pas se marier une seconde fois tant que le premier mariage n'est pas dissous. La bigamie est un délit.",
+    "liens": [
+      {"titre": "Le mariage en France (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"}
+    ],
     "sous_theme": "famille",
     "difficulte": 1,
     "a_verifier": false,
@@ -324,6 +380,9 @@
       "Non, seulement les personnes de nationalité française."
     ],
     "explication": "La déclaration de revenus est annuelle et obligatoire pour les résidents fiscaux, même si on ne paie pas d'impôt. Pour certains foyers, la déclaration automatique suffit si les informations sont exactes.",
+    "liens": [
+      {"titre": "La déclaration de revenus (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F358"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -338,7 +397,11 @@
       "Seulement si on est médecin ou pompier.",
       "Seulement si la personne fait partie de sa famille."
     ],
-    "explication": "Ne pas porter assistance à une personne en danger est un délit, quand on peut agir sans risque pour soi. Appeler les secours est déjà une aide.",
+    "explication": "Ne pas porter assistance à une personne en danger est un délit, quand on peut agir sans risque pour soi. La peine peut aller jusqu'à 5 ans de prison et 75 000 euros d'amende. Appeler les secours est déjà une aide.",
+    "liens": [
+      {"titre": "La non-assistance à personne en danger (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34551"},
+      {"titre": "Les numéros d'urgence (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -354,6 +417,9 @@
       "Une fonction réservée aux policiers à la retraite."
     ],
     "explication": "Le juré est un citoyen tiré au sort qui juge les crimes avec des magistrats. On ne peut refuser que pour un motif grave.",
+    "liens": [
+      {"titre": "Juré d'assises (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1540"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -369,6 +435,9 @@
       "21 ans"
     ],
     "explication": "La loi interdit de vendre ou d'offrir de l'alcool aux mineurs, c'est-à-dire aux personnes de moins de 18 ans.",
+    "liens": [
+      {"titre": "Ivresse et alcool (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20104"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -383,7 +452,7 @@
       "Une faute punie seulement par une lettre d'excuse.",
       "Un comportement autorisé la nuit."
     ],
-    "explication": "Le code de la route est une loi. Ne pas le respecter est une contravention ou un délit, selon la gravité.",
+    "explication": "Le code de la route fait partie de la loi. Ne pas le respecter est une contravention ou un délit, selon la gravité.",
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -398,7 +467,7 @@
       "Un retard dans le paiement d'une facture.",
       "Un oubli de déclarer son déménagement à la mairie."
     ],
-    "explication": "Un juge peut retirer le droit de vote et d'être élu à une personne condamnée pour fraude électorale. Cette peine existe aussi pour d'autres infractions graves, comme le terrorisme ou la corruption.",
+    "explication": "Un juge peut retirer le droit de vote et le droit d'être élu à une personne condamnée pour fraude électorale. Cette peine existe aussi pour d'autres infractions graves, comme le terrorisme ou la corruption.",
     "sous_theme": "justice_recours",
     "difficulte": 3,
     "a_verifier": false,
@@ -414,6 +483,9 @@
       "Habiter en France depuis au moins cinq ans."
     ],
     "explication": "La carte nationale d'identité est réservée aux Français. Un étranger prouve son identité avec son passeport et son titre de séjour.",
+    "liens": [
+      {"titre": "La carte d'identité (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1341"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -429,6 +501,9 @@
       "Pour interdire d'exprimer une opinion religieuse."
     ],
     "explication": "La liberté d'expression a des limites fixées par la loi : l'appel à la haine, le racisme, l'injure et la diffamation sont punis.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "a_verifier": false,
@@ -443,7 +518,11 @@
       "Il peut envoyer un membre de sa famille à sa place.",
       "Il doit d'abord payer une somme pour participer."
     ],
-    "explication": "Être juré est une obligation civique. Un juré qui refuse sans motif grave peut recevoir une amende allant jusqu'à 3 750 euros.",
+    "explication": "Être juré est une obligation civique. Un juré qui ne vient pas sans motif grave peut recevoir une amende de 3 750 euros.",
+    "liens": [
+      {"titre": "Juré d'assises (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1540"},
+      {"titre": "Peut-on refuser d'être juré ? (justice.fr)", "url": "https://www.justice.fr/fiche/jure-assises"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 2,
     "a_verifier": false,
@@ -459,6 +538,9 @@
       "21 ans"
     ],
     "explication": "À 18 ans, on est majeur : on peut voter, signer un contrat et agir seul en justice.",
+    "liens": [
+      {"titre": "Que peut faire un jeune avant 18 ans ? (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21829"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -474,6 +556,9 @@
       "Être propriétaire de son logement."
     ],
     "explication": "Respecter la loi est le premier devoir du citoyen. Il doit aussi payer l'impôt et participer à la défense du pays.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -488,7 +573,7 @@
       "La contravention.",
       "L'incivilité."
     ],
-    "explication": "Il existe trois catégories d'infractions : la contravention, la moins grave, le délit, puis le crime, le plus grave. Les crimes sont jugés par la cour d'assises ou la cour criminelle.",
+    "explication": "Il existe trois catégories d'infractions : la contravention, la moins grave, le délit, puis le crime, le plus grave. Les crimes sont jugés par la cour d'assises ou par la cour criminelle départementale.",
     "sous_theme": "justice_recours",
     "difficulte": 1,
     "a_verifier": false,
@@ -533,7 +618,10 @@
       "Des volontaires qui se présentent au tribunal.",
       "Toute personne présente au tribunal le jour du procès."
     ],
-    "explication": "Les jurés sont tirés au sort parmi les Français inscrits sur les listes électorales et âgés d'au moins 23 ans.",
+    "explication": "Les jurés sont tirés au sort parmi les Français inscrits sur les listes électorales, âgés d'au moins 23 ans et qui savent lire et écrire le français.",
+    "liens": [
+      {"titre": "Juré d'assises (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1540"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 2,
     "a_verifier": false,

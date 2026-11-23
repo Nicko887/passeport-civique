@@ -9,6 +9,9 @@
       "À la Caisse d'allocations familiales."
     ],
     "explication": "La naissance se déclare au service de l'état civil de la mairie de la commune où l'enfant est né. La mairie établit ensuite l'acte de naissance.",
+    "liens": [
+      {"titre": "Déclaration de naissance (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961"}
+    ],
     "sous_theme": "demarches",
     "difficulte": 1,
     "a_verifier": false,
@@ -24,6 +27,9 @@
       "Remplacer la chaudière par un autre modèle."
     ],
     "explication": "Le locataire peut faire des travaux de décoration sans autorisation. Pour les gros travaux qui transforment le logement, il doit avoir l'accord écrit du propriétaire.",
+    "liens": [
+      {"titre": "Les travaux du locataire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1874"}
+    ],
     "sous_theme": "logement",
     "difficulte": 2,
     "a_verifier": false,
@@ -39,6 +45,9 @@
       "Le mariage signé chez un avocat, sans cérémonie."
     ],
     "explication": "En France, seul le mariage civil, célébré par le maire ou un adjoint à la mairie, a une valeur légale. Une cérémonie religieuse est possible, mais seulement après le mariage civil.",
+    "liens": [
+      {"titre": "Le mariage en France (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"}
+    ],
     "sous_theme": "demarches",
     "difficulte": 1,
     "a_verifier": false,
@@ -54,6 +63,9 @@
       "Est réservé aux personnes âgées de plus de 70 ans."
     ],
     "explication": "Les places pour personnes handicapées sont réservées aux véhicules qui affichent la carte mobilité inclusion « stationnement ». Les autres conducteurs risquent une amende de 135 euros.",
+    "liens": [
+      {"titre": "Amende pour stationnement interdit (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34212"}
+    ],
     "sous_theme": "vie_quotidienne",
     "difficulte": 1,
     "a_verifier": false,
@@ -69,6 +81,9 @@
       "Porter plainte directement au commissariat de police."
     ],
     "explication": "Un appareil neuf est couvert par la garantie légale de conformité pendant 2 ans. Le vendeur doit alors le réparer ou le remplacer gratuitement.",
+    "liens": [
+      {"titre": "La garantie légale de conformité (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11094"}
+    ],
     "sous_theme": "vie_quotidienne",
     "difficulte": 2,
     "a_verifier": false,
@@ -84,6 +99,9 @@
       "Seulement si un parent est de nationalité française."
     ],
     "explication": "La déclaration de naissance est obligatoire pour tous les enfants nés en France, quelle que soit la situation des parents. Elle se fait dans les 5 jours qui suivent la naissance.",
+    "liens": [
+      {"titre": "Déclaration de naissance (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961"}
+    ],
     "sous_theme": "demarches",
     "difficulte": 1,
     "a_verifier": false,
@@ -99,6 +117,9 @@
       "Au moment de l'inscription à l'école."
     ],
     "explication": "La naissance doit être déclarée à la mairie dans les 5 jours. Le jour de la naissance n'est pas compté, et le délai est prolongé si le dernier jour tombe un week-end ou un jour férié.",
+    "liens": [
+      {"titre": "Déclaration de naissance (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961"}
+    ],
     "sous_theme": "demarches",
     "difficulte": 1,
     "a_verifier": false,
@@ -113,7 +134,10 @@
       "Le 18.",
       "Le 119."
     ],
-    "explication": "Le 17 permet d'appeler Police secours. Le 15 appelle le SAMU, le 18 les pompiers et le 119 l'enfance en danger. Le 112 est aussi un numéro d'urgence valable partout en Europe.",
+    "explication": "Le 17 permet d'appeler Police secours : des policiers ou des gendarmes viennent sur place. Le 15 appelle le SAMU, le 18 les pompiers et le 119 l'enfance en danger. Le 112 est aussi un numéro d'urgence valable partout en Europe.",
+    "liens": [
+      {"titre": "Les numéros d'urgence (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"}
+    ],
     "sous_theme": "vie_quotidienne",
     "difficulte": 1,
     "a_verifier": false,
@@ -128,7 +152,10 @@
       "Le 18.",
       "Le 119."
     ],
-    "explication": "Le 15 permet d'appeler le SAMU pour une urgence médicale. Le 17 appelle la police, le 18 les pompiers et le 119 l'enfance en danger.",
+    "explication": "Le 15 permet d'appeler le SAMU (service d'aide médicale urgente) pour une urgence médicale. Le 17 appelle la police, le 18 les pompiers et le 119 l'enfance en danger.",
+    "liens": [
+      {"titre": "Les numéros d'urgence (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"}
+    ],
     "sous_theme": "sante",
     "difficulte": 1,
     "a_verifier": false,
@@ -143,7 +170,10 @@
       "La Caisse d'allocations familiales.",
       "Le conseil départemental."
     ],
-    "explication": "Pour l'école maternelle et l'école élémentaire publiques, les parents inscrivent d'abord leur enfant à la mairie. Ensuite, le directeur de l'école fait l'admission.",
+    "explication": "Pour l'école maternelle et l'école élémentaire publiques, les parents inscrivent d'abord leur enfant à la mairie, qui donne un certificat d'inscription. Ensuite, le directeur de l'école fait l'admission.",
+    "liens": [
+      {"titre": "Inscription à l'école maternelle (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1864"}
+    ],
     "sous_theme": "education",
     "difficulte": 1,
     "a_verifier": false,
@@ -158,7 +188,10 @@
       "Uniquement le parent qui a le plus de revenus.",
       "Uniquement le parent qui a demandé le divorce."
     ],
-    "explication": "Le divorce sépare les époux, mais pas les parents de leurs enfants. Les deux parents gardent l'autorité parentale, sauf si le juge décide autrement dans l'intérêt de l'enfant.",
+    "explication": "Le divorce sépare les époux, mais pas les parents de leurs enfants. Les deux parents gardent l'autorité parentale, sauf si le juge aux affaires familiales décide autrement dans l'intérêt de l'enfant.",
+    "liens": [
+      {"titre": "L'exercice de l'autorité parentale (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3132"}
+    ],
     "sous_theme": "demarches",
     "difficulte": 2,
     "a_verifier": false,
@@ -174,6 +207,9 @@
       "L'aide personnalisée au logement."
     ],
     "explication": "L'aide juridictionnelle permet aux personnes qui ont de faibles revenus d'avoir un avocat payé en totalité ou en partie par l'État.",
+    "liens": [
+      {"titre": "L'aide juridictionnelle (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18074"}
+    ],
     "sous_theme": "demarches",
     "difficulte": 2,
     "a_verifier": false,
@@ -203,7 +239,10 @@
       "Le centre des finances publiques.",
       "Le centre communal d'action sociale."
     ],
-    "explication": "La Caisse primaire d'assurance maladie, ou Assurance Maladie, rembourse une partie des frais de santé : consultations, médicaments, examens.",
+    "explication": "La Caisse primaire d'assurance maladie (CPAM), ou Assurance Maladie, rembourse une partie des frais de santé : consultations, médicaments, examens.",
+    "liens": [
+      {"titre": "La carte Vitale et les remboursements (ameli.fr)", "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale/carte-vitale"}
+    ],
     "sous_theme": "sante",
     "difficulte": 1,
     "a_verifier": false,
@@ -218,7 +257,11 @@
       "Est réservée aux femmes de plus de 25 ans.",
       "Nécessite toujours l'accord des parents ou du conjoint."
     ],
-    "explication": "Toute personne peut choisir librement d'utiliser une contraception, même si elle est mineure et sans l'accord de ses parents ou de son conjoint. Elle est prise en charge par l'Assurance Maladie.",
+    "explication": "Toute personne peut choisir librement d'utiliser une contraception, même si elle est mineure et sans l'accord de ses parents ou de son conjoint. L'Assurance Maladie la rembourse en grande partie, à 100 % pour les moins de 26 ans.",
+    "liens": [
+      {"titre": "La contraception (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F707"},
+      {"titre": "Contraception et remboursements (ameli.fr)", "url": "https://www.ameli.fr/assure/remboursements/rembourse/contraception-ivg/contraception"}
+    ],
     "sous_theme": "sante",
     "difficulte": 1,
     "a_verifier": false,
@@ -234,6 +277,9 @@
       "Les informations médicales sont transmises à la mairie."
     ],
     "explication": "C'est le secret médical : le médecin et tous les soignants ne doivent pas révéler les informations de santé d'un patient, même à sa famille ou à son employeur.",
+    "liens": [
+      {"titre": "Le secret médical (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34302"}
+    ],
     "sous_theme": "sante",
     "difficulte": 1,
     "a_verifier": false,
@@ -248,7 +294,10 @@
       "À prouver son identité lors d'un passage à la frontière.",
       "À voter aux élections municipales."
     ],
-    "explication": "La carte Vitale prouve que vous êtes assuré. Chez le médecin ou à la pharmacie, elle permet d'envoyer la feuille de soins par internet et d'être remboursé plus rapidement.",
+    "explication": "La carte Vitale prouve que vous êtes assuré. Chez le médecin ou à la pharmacie, elle permet d'envoyer la feuille de soins par internet et d'être remboursé plus rapidement. Elle existe aussi en application sur téléphone.",
+    "liens": [
+      {"titre": "La carte Vitale (ameli.fr)", "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale/carte-vitale"}
+    ],
     "sous_theme": "sante",
     "difficulte": 1,
     "a_verifier": false,
@@ -264,6 +313,9 @@
       "À assurer sa voiture en cas d'accident."
     ],
     "explication": "L'Assurance Maladie ne rembourse qu'une partie des frais de santé. La mutuelle, ou complémentaire santé, paie tout ou partie du reste.",
+    "liens": [
+      {"titre": "La complémentaire santé (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20314"}
+    ],
     "sous_theme": "sante",
     "difficulte": 2,
     "a_verifier": false,
@@ -279,6 +331,9 @@
       "Le remboursement des soins en trois versements."
     ],
     "explication": "Avec le tiers payant, vous ne payez pas au médecin ou au pharmacien la part prise en charge : l'Assurance Maladie, et parfois la mutuelle, le paient directement.",
+    "liens": [
+      {"titre": "Le tiers payant (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F167"}
+    ],
     "sous_theme": "sante",
     "difficulte": 2,
     "a_verifier": false,
@@ -293,7 +348,10 @@
       "Réservée aux personnes qui ont un contrat de travail à durée indéterminée.",
       "Possible seulement après dix ans de résidence en France."
     ],
-    "explication": "Toute personne qui travaille ou qui réside en France de façon stable et régulière doit être affiliée à l'Assurance Maladie. C'est la protection universelle maladie.",
+    "explication": "Toute personne qui travaille ou qui réside en France de façon stable et régulière doit être affiliée à l'Assurance Maladie. C'est la protection universelle maladie (Puma).",
+    "liens": [
+      {"titre": "La protection universelle maladie (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34047"}
+    ],
     "sous_theme": "sante",
     "difficulte": 2,
     "a_verifier": false,
@@ -308,7 +366,10 @@
       "Oui, mais seulement pour les femmes mariées.",
       "Oui, mais seulement avec l'accord du conjoint."
     ],
-    "explication": "L'interruption volontaire de grossesse est légale en France jusqu'à 14 semaines de grossesse. Depuis 2024, la liberté d'y recourir est inscrite dans la Constitution.",
+    "explication": "L'interruption volontaire de grossesse (IVG) est légale en France jusqu'à la fin de la 14e semaine de grossesse. Depuis le 8 mars 2024, la liberté d'y recourir est inscrite dans la Constitution.",
+    "liens": [
+      {"titre": "L'interruption volontaire de grossesse (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1551"}
+    ],
     "sous_theme": "sante",
     "difficulte": 1,
     "a_verifier": false,
@@ -324,6 +385,9 @@
       "Un choix libre entre le salarié et l'employeur."
     ],
     "explication": "Le travail « au noir » est un délit : l'employeur et parfois le travailleur peuvent être sanctionnés. Le salarié non déclaré n'a pas de protection sociale, ni de droits à la retraite ou au chômage.",
+    "liens": [
+      {"titre": "Les sanctions du travail illégal (entreprendre.service-public.gouv.fr)", "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F31490"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 1,
     "a_verifier": false,
@@ -339,6 +403,9 @@
       "Un impôt payé par les entreprises."
     ],
     "explication": "SMIC veut dire salaire minimum interprofessionnel de croissance. Un employeur ne peut pas payer un salarié majeur moins que le SMIC.",
+    "liens": [
+      {"titre": "Le SMIC (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 1,
     "a_verifier": false,
@@ -353,7 +420,10 @@
       "S'inscrire à la Caisse d'allocations familiales.",
       "Ouvrir un compte à la Banque de France."
     ],
-    "explication": "France Travail, anciennement Pôle emploi, accompagne les personnes qui cherchent un emploi : offres, conseils, formations et, sous conditions, allocations chômage.",
+    "explication": "France Travail, anciennement Pôle emploi, accompagne les personnes qui cherchent un emploi : offres, conseils, formations et, sous conditions, allocations chômage. L'inscription se fait sur internet ou en agence.",
+    "liens": [
+      {"titre": "S'inscrire à France Travail (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 1,
     "a_verifier": false,
@@ -369,6 +439,9 @@
       "48 heures."
     ],
     "explication": "La durée légale du travail à temps plein est de 35 heures par semaine. Au-delà, les heures sont des heures supplémentaires, mieux payées.",
+    "liens": [
+      {"titre": "La durée du travail (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1911"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 1,
     "a_verifier": false,
@@ -383,11 +456,14 @@
       "Seulement le parent qui gagne le moins dans le couple.",
       "Seulement les fonctionnaires de l'État."
     ],
-    "explication": "Le congé parental d'éducation est ouvert au père comme à la mère, après une naissance ou une adoption. Les deux parents peuvent le prendre en même temps ou l'un après l'autre.",
+    "explication": "Le congé parental d'éducation est ouvert au père comme à la mère, après une naissance ou une adoption. Il faut avoir au moins 1 an d'ancienneté dans l'entreprise. Les deux parents peuvent le prendre en même temps ou l'un après l'autre.",
+    "liens": [
+      {"titre": "Le congé parental d'éducation (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2280"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 2,
     "a_verifier": false,
-    "note": ""
+    "note": "La condition d'un an d'ancienneté (service-public.gouv.fr F2280) est précisée dans l'explication ; « tout salarié » reste la réponse attendue."
   },
   {
     "src_id": 241,
@@ -399,6 +475,9 @@
       "Oui, mais seulement après vingt ans de résidence."
     ],
     "explication": "Il n'est pas nécessaire d'être français pour créer une entreprise. La personne étrangère doit être en situation régulière, avec un titre de séjour qui permet cette activité.",
+    "liens": [
+      {"titre": "Un étranger peut-il créer une entreprise ? (entreprendre.service-public.gouv.fr)", "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F22494"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 2,
     "a_verifier": false,
@@ -429,6 +508,9 @@
       "Les statuts de l'association des salariés."
     ],
     "explication": "Le Code du travail fixe les règles générales. Les conventions collectives les complètent pour chaque secteur, et le règlement intérieur précise la discipline dans l'entreprise.",
+    "liens": [
+      {"titre": "Le Code du travail numérique (code.travail.gouv.fr)", "url": "https://code.travail.gouv.fr/"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 2,
     "a_verifier": false,
@@ -444,6 +526,9 @@
       "Les conflits entre deux époux qui divorcent."
     ],
     "explication": "Le conseil de prud'hommes juge les litiges liés au contrat de travail : licenciement, salaire non payé, heures supplémentaires.",
+    "liens": [
+      {"titre": "Saisir le conseil de prud'hommes (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2360"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 2,
     "a_verifier": false,
@@ -458,7 +543,10 @@
       "Seulement les salariés en contrat à durée indéterminée.",
       "Seulement les salariés qui ont plus de dix ans d'ancienneté."
     ],
-    "explication": "La liberté syndicale est garantie par la Constitution. Tout salarié peut adhérer au syndicat de son choix, ou n'adhérer à aucun syndicat.",
+    "explication": "La liberté syndicale est garantie par le préambule de la Constitution de 1946. Tout salarié peut adhérer au syndicat de son choix, ou n'adhérer à aucun syndicat.",
+    "liens": [
+      {"titre": "Le syndicat dans l'entreprise (code.travail.gouv.fr)", "url": "https://code.travail.gouv.fr/fiche-service-public/syndicat-dans-lentreprise-quelles-sont-les-regles"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 1,
     "a_verifier": false,
@@ -474,6 +562,9 @@
       "Oui, si l'employeur lui verse une indemnité."
     ],
     "explication": "Licencier une femme parce qu'elle est enceinte est une discrimination interdite. Pendant le congé maternité, la salariée est protégée contre le licenciement.",
+    "liens": [
+      {"titre": "Licenciement d'une salariée enceinte (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2873"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 1,
     "a_verifier": false,
@@ -489,6 +580,9 @@
       "5 ans à 18 ans."
     ],
     "explication": "Depuis 2019, l'instruction est obligatoire pour tous les enfants de 3 à 16 ans, qu'ils soient français ou étrangers. Ensuite, les jeunes de 16 à 18 ans ont une obligation de formation.",
+    "liens": [
+      {"titre": "L'instruction obligatoire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"}
+    ],
     "sous_theme": "education",
     "difficulte": 1,
     "a_verifier": false,
@@ -504,6 +598,9 @@
       "10 ans de prison et 150 000 euros d'amende."
     ],
     "explication": "Ne pas inscrire son enfant à l'école ou dans une autre forme d'instruction, après une mise en demeure, est un délit. Les parents risquent jusqu'à 6 mois de prison et 7 500 euros d'amende.",
+    "liens": [
+      {"titre": "L'instruction obligatoire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"}
+    ],
     "sous_theme": "education",
     "difficulte": 3,
     "a_verifier": false,
@@ -519,6 +616,9 @@
       "Le droit des enseignants de punir les élèves."
     ],
     "explication": "L'autorité parentale appartient au père et à la mère. Elle sert à protéger l'enfant, à assurer sa santé, sa sécurité et son éducation, jusqu'à sa majorité.",
+    "liens": [
+      {"titre": "L'exercice de l'autorité parentale (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3132"}
+    ],
     "sous_theme": "education",
     "difficulte": 2,
     "a_verifier": false,
@@ -534,6 +634,9 @@
       "L'envie de rester à la maison ce jour-là."
     ],
     "explication": "La loi accepte quelques motifs d'absence : maladie de l'enfant, maladie contagieuse dans la famille, réunion de famille importante comme un mariage ou un enterrement, ou problème de transport.",
+    "liens": [
+      {"titre": "Assiduité et absences scolaires (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1899"}
+    ],
     "sous_theme": "education",
     "difficulte": 1,
     "a_verifier": false,
@@ -549,6 +652,9 @@
       "Jusqu'à 15 ans."
     ],
     "explication": "L'instruction est obligatoire jusqu'à 16 ans. Entre 16 et 18 ans, le jeune doit continuer à se former : lycée, apprentissage, emploi ou service civique.",
+    "liens": [
+      {"titre": "L'instruction obligatoire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"}
+    ],
     "sous_theme": "education",
     "difficulte": 1,
     "a_verifier": false,
@@ -564,6 +670,9 @@
       "À 6 ans."
     ],
     "explication": "Depuis la rentrée 2019, l'instruction est obligatoire dès 3 ans. Avant, elle commençait à 6 ans.",
+    "liens": [
+      {"titre": "L'instruction obligatoire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"}
+    ],
     "sous_theme": "education",
     "difficulte": 1,
     "a_verifier": false,
@@ -609,6 +718,9 @@
       "Ils sont dispensés d'école jusqu'à ce qu'ils parlent français."
     ],
     "explication": "Tous les enfants ont le droit d'aller à l'école. Les élèves qui arrivent sans parler français sont inscrits dans une classe ordinaire et reçoivent des cours de français adaptés.",
+    "liens": [
+      {"titre": "École primaire pour un élève venant de l'étranger (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1866"}
+    ],
     "sous_theme": "education",
     "difficulte": 2,
     "a_verifier": false,
@@ -623,7 +735,10 @@
       "Ils doivent obligatoirement suivre les cours à la maison.",
       "Ils sont scolarisés seulement à partir de 10 ans."
     ],
-    "explication": "L'école est inclusive : elle s'adapte pour accueillir les enfants en situation de handicap, avec des aménagements et parfois un accompagnant, appelé AESH.",
+    "explication": "L'école est inclusive : elle s'adapte pour accueillir les enfants en situation de handicap, avec des aménagements et parfois un accompagnant d'élèves en situation de handicap (AESH).",
+    "liens": [
+      {"titre": "Handicap : inscription à l'école primaire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14984"}
+    ],
     "sous_theme": "education",
     "difficulte": 2,
     "a_verifier": false,
@@ -638,11 +753,15 @@
       "3 mois.",
       "6 mois."
     ],
-    "explication": "Depuis le 1er juillet 2021, le congé de paternité et d'accueil de l'enfant dure 28 jours, dont 7 jours obligatoires. Avant, il durait 11 jours.",
+    "explication": "Depuis le 1er juillet 2021, le congé de paternité et d'accueil de l'enfant dure 28 jours, dont 7 jours obligatoires. Avant, il durait 11 jours. Depuis le 1er juillet 2026, chaque parent peut aussi prendre un congé supplémentaire de naissance d'1 ou 2 mois.",
+    "liens": [
+      {"titre": "Le congé de paternité (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3156"},
+      {"titre": "Le congé supplémentaire de naissance (code.travail.gouv.fr)", "url": "https://code.travail.gouv.fr/actualite/conge-de-naissance-supplementaire-ce-qui-change-au-1er-juillet-2026"}
+    ],
     "sous_theme": "emploi_social",
     "difficulte": 2,
     "a_verifier": false,
-    "note": "Durée de 28 jours (25 jours + 3 jours de congé de naissance). La loi de financement de la sécurité sociale pour 2026 a créé un congé de naissance supplémentaire : cela ne change pas la réponse à la question posée, mais le cours n'en parle pas."
+    "note": "Durée de 28 jours (25 jours calendaires + 3 jours de congé de naissance), source service-public.gouv.fr F3156. Le congé supplémentaire de naissance (LFSS 2026, accessible depuis le 1er juillet 2026, enfants nés ou adoptés depuis le 1er janvier 2026) s'ajoute au congé de paternité : il ne change pas la réponse."
   },
   {
     "src_id": 258,
@@ -653,7 +772,10 @@
       "Oui, seulement à la maison, et jamais devant d'autres personnes.",
       "Oui, si l'enfant a plus de 10 ans."
     ],
-    "explication": "Depuis 2019, la loi interdit les violences éducatives ordinaires : pas de gifle, de fessée ni d'humiliation. L'autorité parentale s'exerce sans violence physique ni psychologique.",
+    "explication": "Depuis la loi du 10 juillet 2019, les violences éducatives ordinaires sont interdites : pas de gifle, de fessée ni d'humiliation. L'autorité parentale s'exerce sans violence physique ni psychologique.",
+    "liens": [
+      {"titre": "L'exercice de l'autorité parentale (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3132"}
+    ],
     "sous_theme": "education",
     "difficulte": 1,
     "a_verifier": false,

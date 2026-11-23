@@ -8,7 +8,11 @@
       "La Constitution de la Ve République",
       "L'édit de Nantes"
     ],
-    "explication": "Le Code civil est adopté en 1804 sous Napoléon Bonaparte. Il organise encore aujourd'hui les règles de la vie civile : famille, propriété, contrats.",
+    "explication": "Le Code civil est promulgué le 21 mars 1804. Napoléon Bonaparte dirige alors la France ; il devient l'empereur Napoléon Ier deux mois plus tard. Ce code organise encore aujourd'hui la vie civile : famille, propriété, contrats.",
+    "liens": [
+      {"titre": "Le Premier Empire (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815/"},
+      {"titre": "Le Code civil des Français (francearchives.gouv.fr)", "url": "https://francearchives.gouv.fr/pages_histoire/40101"}
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 2,
     "a_verifier": false,
@@ -23,7 +27,10 @@
       "Adolphe Thiers",
       "Vincent Auriol"
     ],
-    "explication": "Charles de Gaulle est le premier président de la Ve République, de 1959 à 1969. Les autres ont dirigé la France à d'autres époques.",
+    "explication": "Charles de Gaulle est le premier président de la Ve République, de 1959 à 1969. Napoléon III a dirigé le Second Empire. Adolphe Thiers et Vincent Auriol ont été présidents sous la IIIe et la IVe République.",
+    "liens": [
+      {"titre": "Les présidents de la République (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/les-presidents-de-la-republique"}
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 1,
     "a_verifier": false,
@@ -38,7 +45,10 @@
       "Réserver l'école publique aux enfants des villes",
       "Créer le baccalauréat pour tous les élèves"
     ],
-    "explication": "Les lois de Jules Ferry de 1881 et 1882 rendent l'école primaire publique gratuite, laïque et obligatoire pour les filles et les garçons.",
+    "explication": "Les lois de Jules Ferry rendent l'école primaire publique gratuite (loi du 16 juin 1881), puis obligatoire et laïque (loi du 28 mars 1882), pour les filles et les garçons de 6 à 13 ans.",
+    "liens": [
+      {"titre": "La IIIe République (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-troisieme-republique-1870-1940/"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -53,7 +63,10 @@
       "La naissance de la Ve République",
       "L'abolition de l'esclavage"
     ],
-    "explication": "Le 14 juillet est la fête nationale. Il rappelle la prise de la Bastille le 14 juillet 1789 et la fête de la Fédération, fête de l'unité nationale, le 14 juillet 1790.",
+    "explication": "Le 14 juillet est la fête nationale depuis la loi du 6 juillet 1880. Il rappelle la prise de la Bastille, le 14 juillet 1789, et la fête de la Fédération, fête de l'unité nationale, le 14 juillet 1790.",
+    "liens": [
+      {"titre": "La fête nationale du 14 juillet (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"}
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 1,
     "a_verifier": false,
@@ -69,6 +82,10 @@
       "Elle marque la fin de la monarchie"
     ],
     "explication": "La Constitution de la Ve République est adoptée par référendum le 28 septembre 1958 et promulguée le 4 octobre 1958. C'est toujours notre Constitution.",
+    "liens": [
+      {"titre": "La Ve République (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/"},
+      {"titre": "La Constitution (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite"}
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 1,
     "a_verifier": false,
@@ -84,6 +101,9 @@
       "La Pologne"
     ],
     "explication": "Les six pays fondateurs sont la France, l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. L'Espagne et la Pologne sont entrées plus tard ; le Royaume-Uni est sorti en 2020.",
+    "liens": [
+      {"titre": "La construction européenne (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/"}
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 2,
     "a_verifier": false,
@@ -98,7 +118,11 @@
       "Obtenu le droit de vote des femmes",
       "Créé la Sécurité sociale"
     ],
-    "explication": "Ministre de la Santé, Simone Veil fait voter en 1975 la loi sur l'interruption volontaire de grossesse (IVG). Rescapée d'Auschwitz, elle repose au Panthéon.",
+    "explication": "Ministre de la Santé, Simone Veil fait voter la loi du 17 janvier 1975 sur l'interruption volontaire de grossesse (IVG). Rescapée d'Auschwitz, elle repose au Panthéon depuis 2018.",
+    "liens": [
+      {"titre": "La loi du 17 janvier 1975 (assemblee-nationale.fr)", "url": "https://www2.assemblee-nationale.fr/14/evenements/2015/anniversaire-loi-veil/la-loi-du-17-janvier-1975"},
+      {"titre": "Le droit à l'avortement (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-le-droit-a-l-avortement/"}
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 1,
     "a_verifier": false,
@@ -113,7 +137,10 @@
       "Les Hauts-de-France",
       "La Nouvelle-Aquitaine"
     ],
-    "explication": "Le 6 juin 1944, les Alliés débarquent sur les plages de Normandie. C'est le début de la libération de la France.",
+    "explication": "Le 6 juin 1944, les Alliés débarquent sur les plages de Normandie : c'est l'opération Overlord. C'est le début de la libération de la France.",
+    "liens": [
+      {"titre": "La Seconde Guerre mondiale (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1/"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -128,7 +155,10 @@
       "Lyon",
       "Bordeaux"
     ],
-    "explication": "La plupart des rois de France ont été sacrés dans la cathédrale de Reims, en souvenir du baptême de Clovis dans cette ville.",
+    "explication": "Clovis, roi des Francs, est baptisé à Reims à la fin du Ve siècle. En souvenir, la plupart des rois de France sont sacrés dans la cathédrale de Reims, jusqu'à Charles X en 1825.",
+    "liens": [
+      {"titre": "Comment étaient sacrés les rois de France ? (monuments-nationaux.fr)", "url": "https://www.monuments-nationaux.fr/magazine/dossiers-thematiques/un-peu-d-histoire/comment-etaient-sacres-les-rois-de-france"}
+    ],
     "sous_theme": "histoire_ancienne",
     "difficulte": 2,
     "a_verifier": false,
@@ -143,7 +173,10 @@
       "Louis XV",
       "Louis XVIII"
     ],
-    "explication": "Louis XVI est jugé par la Convention et guillotiné à Paris le 21 janvier 1793.",
+    "explication": "Louis XVI est jugé par la Convention. Il est guillotiné à Paris le 21 janvier 1793, sur la place de la Révolution, aujourd'hui place de la Concorde.",
+    "liens": [
+      {"titre": "Procès et exécution de Louis XVI (assemblee-nationale.fr)", "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/proces-et-execution-de-louis-xvi"}
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 1,
     "a_verifier": false,
@@ -158,7 +191,10 @@
       "1799",
       "1815"
     ],
-    "explication": "La Révolution française commence en 1789. La prise de la Bastille a lieu le 14 juillet 1789.",
+    "explication": "La Révolution française commence en 1789 : les états généraux se réunissent en mai, puis la prise de la Bastille a lieu le 14 juillet 1789.",
+    "liens": [
+      {"titre": "La fin de la monarchie absolue, 1789-1792 (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792/"}
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 1,
     "a_verifier": false,
@@ -173,7 +209,10 @@
       "1789",
       "1815"
     ],
-    "explication": "Napoléon Bonaparte se fait sacrer empereur des Français le 2 décembre 1804 à Notre-Dame de Paris. En 1799, il était devenu Premier consul.",
+    "explication": "Napoléon Bonaparte est proclamé empereur des Français le 18 mai 1804. Il est sacré à Notre-Dame de Paris le 2 décembre 1804. En 1799, il était devenu Premier consul.",
+    "liens": [
+      {"titre": "Le Premier Empire (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815/"}
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 2,
     "a_verifier": false,
@@ -188,7 +227,11 @@
       "Charlemagne, l'empereur",
       "Clovis, le premier roi des Francs"
     ],
-    "explication": "Marianne est la figure féminine qui représente la République française. On voit son buste dans les mairies et son visage sur les timbres.",
+    "explication": "Marianne, une femme coiffée d'un bonnet phrygien, représente la République française depuis 1792. On voit son buste dans les mairies et son visage sur les timbres.",
+    "liens": [
+      {"titre": "Marianne (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/marianne"},
+      {"titre": "Marianne (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/marianne/"}
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 1,
     "a_verifier": false,
@@ -203,7 +246,9 @@
       "14 juillet 1940",
       "25 août 1944"
     ],
-    "explication": "Le 18 juin 1940, depuis Londres, à la radio BBC, le général de Gaulle appelle les Français à continuer le combat contre l'Allemagne nazie.",
+    "explication": "Le 18 juin 1940, depuis Londres, à la radio BBC, le général Charles de Gaulle appelle les Français à continuer le combat contre l'Allemagne nazie.",
+    "liens": [
+      {"titre": "La Résistance et la Libération (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration/"}    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -218,7 +263,10 @@
       "Le bombardement atomique d'Hiroshima en 1945",
       "La guerre d'indépendance de l'Algérie"
     ],
-    "explication": "La Shoah est l'extermination d'environ six millions de Juifs par le régime nazi. En France, l'État de Vichy a participé aux déportations.",
+    "explication": "La Shoah est l'extermination d'environ six millions de Juifs par le régime nazi. En France, environ 76 000 Juifs ont été déportés ; le régime de Vichy a participé à leur arrestation.",
+    "liens": [
+      {"titre": "La Shoah (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-shoah/"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -233,7 +281,10 @@
       "L'Argentine",
       "Le Japon"
     ],
-    "explication": "L'Algérie a été une colonie française de 1830 à son indépendance en 1962. Le Kenya était une colonie britannique ; l'Argentine et le Japon n'ont jamais été colonisés par la France.",
+    "explication": "La France conquiert l'Algérie à partir de 1830. L'Algérie devient indépendante en 1962, après une guerre. Le Kenya était une colonie britannique ; l'Argentine et le Japon n'ont jamais été colonisés par la France.",
+    "liens": [
+      {"titre": "La décolonisation (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation/"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -248,7 +299,10 @@
       "Jean Jaurès",
       "Napoléon Ier"
     ],
-    "explication": "Jules Ferry, ministre de l'Instruction publique, fait voter en 1881 et 1882 les lois sur l'école gratuite, laïque et obligatoire.",
+    "explication": "Jules Ferry, ministre de l'Instruction publique, fait voter en 1881 et 1882 les lois sur l'école primaire gratuite, laïque et obligatoire.",
+    "liens": [
+      {"titre": "La IIIe République (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-troisieme-republique-1870-1940/"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -263,7 +317,10 @@
       "1945",
       "1981"
     ],
-    "explication": "Depuis la réforme de 1962, voulue par le général de Gaulle et approuvée par référendum, le président est élu directement par les citoyens. La première élection de ce type a eu lieu en 1965.",
+    "explication": "Depuis la réforme voulue par Charles de Gaulle et approuvée par le référendum du 28 octobre 1962, le président est élu directement par les citoyens. La première élection de ce type a eu lieu en 1965.",
+    "liens": [
+      {"titre": "La révision constitutionnelle de 1962 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/les-revisions-constitutionnelles/loi-n-62-1292-du-6-novembre-1962"}
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 2,
     "a_verifier": false,
@@ -278,7 +335,10 @@
       "1957",
       "2002"
     ],
-    "explication": "L'Union européenne est créée par le traité de Maastricht, signé en 1992. Le traité entre en vigueur le 1er novembre 1993.",
+    "explication": "L'Union européenne est créée par le traité de Maastricht, signé le 7 février 1992. Le traité entre en vigueur le 1er novembre 1993.",
+    "liens": [
+      {"titre": "Le traité de Maastricht (ecb.europa.eu)", "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/maastricht_treaty.fr.html"}
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 3,
     "a_verifier": false,
@@ -293,7 +353,10 @@
       "1870-1871",
       "1954-1962"
     ],
-    "explication": "La Seconde Guerre mondiale commence en 1939 et se termine en 1945. Elle est la guerre la plus meurtrière de l'histoire.",
+    "explication": "La Seconde Guerre mondiale commence le 1er septembre 1939, quand l'Allemagne envahit la Pologne. Elle se termine en 1945. C'est la guerre la plus meurtrière de l'histoire.",
+    "liens": [
+      {"titre": "La Seconde Guerre mondiale : le contexte (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1939-1945-le-contexte/"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -308,7 +371,10 @@
       "1870-1871",
       "1904-1908"
     ],
-    "explication": "La Première Guerre mondiale, appelée aussi la Grande Guerre, dure de 1914 à 1918. Elle se termine par l'armistice du 11 novembre 1918.",
+    "explication": "La Première Guerre mondiale, appelée aussi la Grande Guerre, dure de 1914 à 1918. Elle se termine par l'armistice du 11 novembre 1918. Environ 1,4 million de soldats français sont morts.",
+    "liens": [
+      {"titre": "La Première Guerre mondiale (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1/"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -323,7 +389,10 @@
       "Valéry Giscard d'Estaing",
       "Jacques Chirac"
     ],
-    "explication": "La peine de mort est abolie en 1981, sous la présidence de François Mitterrand, grâce à la loi défendue par le ministre de la Justice Robert Badinter.",
+    "explication": "La peine de mort est abolie par la loi du 9 octobre 1981, sous la présidence de François Mitterrand. Cette loi est défendue par le ministre de la Justice, Robert Badinter.",
+    "liens": [
+      {"titre": "Discours de Robert Badinter, 1981 (assemblee-nationale.fr)", "url": "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/grands-discours-parlementaires/robert-badinter-17-septembre-1981"}
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 2,
     "a_verifier": false,
@@ -338,7 +407,10 @@
       "La prise de la Bastille",
       "La fête du Travail"
     ],
-    "explication": "Le 8 mai 1945, l'Allemagne nazie capitule. Ce jour férié célèbre la victoire des Alliés en Europe.",
+    "explication": "Le 8 mai 1945, l'Allemagne nazie capitule sans condition. Ce jour férié célèbre la victoire des Alliés et la fin de la guerre en Europe.",
+    "liens": [
+      {"titre": "La Seconde Guerre mondiale (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1/"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -353,7 +425,10 @@
       "La signature du traité de Maastricht",
       "La création de l'espace Schengen"
     ],
-    "explication": "En 1951, six pays dont la France et l'Allemagne mettent en commun le charbon et l'acier. Le but est de rendre la guerre impossible entre eux.",
+    "explication": "Le 18 avril 1951, à Paris, six pays dont la France et l'Allemagne signent le traité qui crée la CECA. Ils mettent en commun le charbon et l'acier pour rendre la guerre impossible entre eux.",
+    "liens": [
+      {"titre": "La construction européenne (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/"}
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 2,
     "a_verifier": false,
@@ -368,7 +443,10 @@
       "Pierre Laval",
       "Louis Pasteur"
     ],
-    "explication": "Jean Moulin a unifié les mouvements de la Résistance intérieure à la demande du général de Gaulle. Arrêté en 1943, il est mort sous la torture.",
+    "explication": "Jean Moulin, envoyé par Charles de Gaulle, unifie les mouvements de la Résistance et crée le Conseil national de la Résistance en 1943. Arrêté le 21 juin 1943 et torturé, il meurt en juillet 1943. Philippe Pétain et Pierre Laval ont collaboré avec l'Allemagne nazie.",
+    "liens": [
+      {"titre": "La Résistance et la Libération (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration/"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -383,7 +461,10 @@
       "La libération de Paris, en 1944",
       "L'abolition de l'esclavage, en 1848"
     ],
-    "explication": "Le 11 novembre 1918, l'armistice met fin aux combats de la Première Guerre mondiale. Ce jour-là, on rend hommage aux soldats morts pour la France.",
+    "explication": "Le 11 novembre 1918, l'armistice signé à Rethondes met fin aux combats de la Première Guerre mondiale. Ce jour-là, on rend hommage à tous les morts pour la France.",
+    "liens": [
+      {"titre": "La Première Guerre mondiale (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1/"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -398,7 +479,10 @@
       "1871",
       "1905"
     ],
-    "explication": "L'esclavage est aboli définitivement dans les colonies françaises par le décret du 27 avril 1848. Une première abolition, en 1794, avait été annulée par Napoléon en 1802.",
+    "explication": "L'esclavage est aboli définitivement dans les colonies françaises par le décret du 27 avril 1848. Une première abolition, le 4 février 1794, avait été annulée par Napoléon Bonaparte en 1802.",
+    "liens": [
+      {"titre": "L'abolition de l'esclavage, 1848 (assemblee-nationale.fr)", "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/deuxieme-republique/l-abolition-de-l-esclavage"}
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 2,
     "a_verifier": false,
@@ -413,7 +497,11 @@
       "Jean Jaurès",
       "Napoléon Bonaparte"
     ],
-    "explication": "Victor Schœlcher a préparé le décret d'abolition de l'esclavage de 1848. Napoléon, au contraire, avait rétabli l'esclavage en 1802.",
+    "explication": "Victor Schœlcher, sous-secrétaire d'État aux Colonies, a préparé le décret du 27 avril 1848 qui abolit l'esclavage. Napoléon Bonaparte, au contraire, l'avait rétabli en 1802.",
+    "liens": [
+      {"titre": "L'abolition de l'esclavage, 1848 (assemblee-nationale.fr)", "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/deuxieme-republique/l-abolition-de-l-esclavage"},
+      {"titre": "La IIe République (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-deuxieme-republique-1848-1851/"}
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 2,
     "a_verifier": false,
@@ -428,7 +516,10 @@
       "1905",
       "1946"
     ],
-    "explication": "La loi du 16 juin 1881 rend l'école primaire publique gratuite. La loi de 1882 la rend ensuite obligatoire et laïque.",
+    "explication": "La loi du 16 juin 1881, voulue par Jules Ferry, rend l'école primaire publique gratuite. La loi du 28 mars 1882 la rend ensuite obligatoire et laïque.",
+    "liens": [
+      {"titre": "La IIIe République (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-troisieme-republique-1870-1940/"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 3,
     "a_verifier": false,
@@ -443,7 +534,10 @@
       "Elles ont obtenu le droit à l'interruption volontaire de grossesse",
       "Elles ont obtenu le droit de travailler sans l'accord du mari"
     ],
-    "explication": "Une ordonnance du 21 avril 1944 donne aux femmes le droit de voter et d'être élues. Elles votent pour la première fois en 1945.",
+    "explication": "L'ordonnance du 21 avril 1944, signée par Charles de Gaulle, donne aux femmes le droit de voter et d'être élues. Elles votent pour la première fois aux élections municipales d'avril 1945.",
+    "liens": [
+      {"titre": "Le droit de vote des femmes (assemblee-nationale.fr)", "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/deuxieme-guerre-mondiale/l-accession-des-femmes-au-droit-de-vote"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 1,
     "a_verifier": false,
@@ -458,7 +552,10 @@
       "L'Organisation du traité de l'Atlantique Nord (OTAN)",
       "La Société des Nations (SDN)"
     ],
-    "explication": "L'ONU est créée en 1945 pour maintenir la paix dans le monde. La France est l'un des cinq membres permanents de son Conseil de sécurité.",
+    "explication": "L'ONU est créée en 1945 pour maintenir la paix : sa Charte est signée à San Francisco en juin 1945. La France est l'un des cinq membres permanents du Conseil de sécurité. La SDN date de 1919 et l'OTAN de 1949.",
+    "liens": [
+      {"titre": "La naissance de l'ONU (vie-publique.fr)", "url": "https://www.vie-publique.fr/video/276129-la-naissance-de-lonu"}
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 1,
     "a_verifier": false,
@@ -473,7 +570,10 @@
       "1992",
       "2010"
     ],
-    "explication": "Les pièces et billets en euros circulent en France depuis le 1er janvier 2002. Ils ont remplacé le franc.",
+    "explication": "Les pièces et billets en euros circulent en France depuis le 1er janvier 2002. Ils ont remplacé le franc. Avant, depuis 1999, l'euro servait seulement pour les paiements sans espèces.",
+    "liens": [
+      {"titre": "Le passage à l'euro en 2002 (ecb.europa.eu)", "url": "https://www.ecb.europa.eu/euro/changeover/2002/html/index.fr.html"}
+    ],
     "sous_theme": "histoire_recente",
     "difficulte": 1,
     "a_verifier": false,
@@ -488,7 +588,10 @@
       "Le 8 mai 1945",
       "Le 14 juillet 1944"
     ],
-    "explication": "Paris est libéré le 25 août 1944 par la Résistance, la 2e division blindée du général Leclerc et les Alliés.",
+    "explication": "Paris est libéré le 25 août 1944 par la Résistance, la 2e division blindée du général Philippe Leclerc de Hauteclocque et l'armée américaine.",
+    "liens": [
+      {"titre": "La Résistance et la Libération (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration/"}
+    ],
     "sous_theme": "histoire_contemporaine",
     "difficulte": 2,
     "a_verifier": false,
@@ -503,7 +606,10 @@
       "Lille",
       "Strasbourg"
     ],
-    "explication": "Au XVIIIe siècle, Nantes est le premier port français de la traite négrière. Un mémorial de l'abolition de l'esclavage s'y trouve aujourd'hui.",
+    "explication": "Au XVIIIe siècle, Nantes est le premier port français de la traite négrière : plus de 4 expéditions françaises sur 10 en partent. Le Mémorial de l'abolition de l'esclavage y a ouvert en 2012.",
+    "liens": [
+      {"titre": "Musées et lieux de mémoire (dilcrah.gouv.fr)", "url": "https://www.dilcrah.gouv.fr/priorites/musees-et-lieux-de-memoire"}
+    ],
     "sous_theme": "histoire_ancienne",
     "difficulte": 2,
     "a_verifier": false,
@@ -518,7 +624,7 @@
       "Blaise Pascal",
       "Auguste Comte"
     ],
-    "explication": "Dans De l'esprit des lois, en 1748, Montesquieu critique l'esclavage avec ironie. Descartes et Pascal vivaient au XVIIe siècle, avant les Lumières, et Comte au XIXe siècle.",
+    "explication": "Dans De l'esprit des lois, en 1748, Montesquieu (de son vrai nom Charles Louis de Secondat) critique l'esclavage avec ironie. René Descartes et Blaise Pascal vivaient au XVIIe siècle, avant les Lumières, et Auguste Comte au XIXe siècle.",
     "sous_theme": "histoire_ancienne",
     "difficulte": 2,
     "a_verifier": false,
@@ -533,7 +639,10 @@
       "Madame Bovary",
       "Germinal"
     ],
-    "explication": "Victor Hugo a écrit Les Misérables et Notre-Dame de Paris. Le Rouge et le Noir est de Stendhal, Madame Bovary de Flaubert et Germinal de Zola.",
+    "explication": "Victor Hugo (1802-1885) a écrit Les Misérables et Notre-Dame de Paris. Le Rouge et le Noir est de Stendhal, Madame Bovary de Gustave Flaubert et Germinal d'Émile Zola.",
+    "liens": [
+      {"titre": "Les grands auteurs du XIXe siècle (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -548,7 +657,10 @@
       "Rembrandt",
       "Francisco de Goya"
     ],
-    "explication": "Claude Monet est un peintre français, chef de file de l'impressionnisme. Van Gogh était néerlandais, Rembrandt néerlandais et Goya espagnol.",
+    "explication": "Claude Monet (1840-1926) est un peintre français, chef de file de l'impressionnisme. Vincent van Gogh et Rembrandt étaient néerlandais, Francisco de Goya espagnol.",
+    "liens": [
+      {"titre": "Les grands peintres français (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -564,6 +676,9 @@
       "La moussaka"
     ],
     "explication": "Le pot-au-feu, la blanquette de veau et le bœuf bourguignon sont des plats traditionnels français. La paella est espagnole, le goulasch hongrois et la moussaka grecque.",
+    "liens": [
+      {"titre": "Sites emblématiques et gastronomie (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -578,7 +693,10 @@
       "Une chanteuse française célèbre des années 1950",
       "Une reine de France du XVIe siècle"
     ],
-    "explication": "Née en Pologne, Marie Curie a travaillé en France. Elle a reçu deux prix Nobel, en physique en 1903 et en chimie en 1911. Elle repose au Panthéon.",
+    "explication": "Née Maria Skłodowska en Pologne, Marie Curie a travaillé en France. Elle a reçu deux prix Nobel : physique en 1903, avec Pierre Curie et Henri Becquerel, puis chimie en 1911. Elle repose au Panthéon depuis 1995.",
+    "liens": [
+      {"titre": "Marie Curie au Panthéon (monuments-nationaux.fr)", "url": "https://www.monuments-nationaux.fr/magazine/dossiers-thematiques/grands-personnages/marie-curie-une-scientifique-d-exception-au-pantheon"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -593,7 +711,10 @@
       "Jacques-Louis David",
       "Auguste Renoir"
     ],
-    "explication": "Eugène Delacroix a peint La Liberté guidant le peuple en 1830. Le tableau, exposé au Louvre, montre la révolution de juillet 1830.",
+    "explication": "Eugène Delacroix (1798-1863) a peint La Liberté guidant le peuple à la fin de 1830. Le tableau, exposé au Louvre, montre les « Trois Glorieuses », la révolution des 27, 28 et 29 juillet 1830.",
+    "liens": [
+      {"titre": "La Liberté guidant le peuple (louvre.fr)", "url": "https://collections.louvre.fr/ark:/53355/cl010065872"}
+    ],
     "sous_theme": "culture",
     "difficulte": 2,
     "a_verifier": false,
@@ -608,7 +729,10 @@
       "Le Centre Pompidou",
       "Le musée Rodin"
     ],
-    "explication": "La Joconde, peinte par Léonard de Vinci, est exposée au musée du Louvre, le musée le plus visité du monde.",
+    "explication": "La Joconde, peinte par Léonard de Vinci entre 1503 et 1519, est exposée au musée du Louvre, le musée le plus visité du monde.",
+    "liens": [
+      {"titre": "La Joconde (louvre.fr)", "url": "https://collections.louvre.fr/ark:/53355/cl010062370"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -623,7 +747,10 @@
       "Le château de Chenonceau",
       "Le château du Haut-Kœnigsbourg"
     ],
-    "explication": "Louis XIV fait du château de Versailles, près de Paris, le siège de son pouvoir. Chambord et Chenonceau sont dans la vallée de la Loire, le Haut-Kœnigsbourg en Alsace.",
+    "explication": "En 1682, Louis XIV installe la cour et le gouvernement au château de Versailles, près de Paris. Chambord et Chenonceau sont dans la vallée de la Loire, le Haut-Kœnigsbourg en Alsace.",
+    "liens": [
+      {"titre": "Versailles, le château du Roi-Soleil (chateauversailles.fr)", "url": "https://www.chateauversailles.fr/decouvrir/les-ressources/versailles-chateau-roi-soleil"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -638,7 +765,10 @@
       "Au Mont-Saint-Michel",
       "Au château de Versailles"
     ],
-    "explication": "La grotte de Lascaux, en Dordogne, contient des peintures d'animaux réalisées il y a environ 18 000 ans.",
+    "explication": "La grotte de Lascaux, en Dordogne, contient des peintures d'animaux réalisées il y a environ 20 000 ans. La grotte est fermée ; on visite une copie.",
+    "liens": [
+      {"titre": "Grottes ornées de la vallée de la Vézère (unesco.org)", "url": "https://whc.unesco.org/fr/list/85/"}
+    ],
     "sous_theme": "histoire_ancienne",
     "difficulte": 1,
     "a_verifier": false,
@@ -653,7 +783,10 @@
       "Auguste Renoir",
       "Eugène Delacroix"
     ],
-    "explication": "Claude Monet a peint la série des Nymphéas dans son jardin de Giverny. On peut les voir au musée de l'Orangerie, à Paris.",
+    "explication": "Claude Monet a peint la série des Nymphéas d'après le bassin de son jardin, à Giverny. Les grands panneaux des Nymphéas sont au musée de l'Orangerie, à Paris.",
+    "liens": [
+      {"titre": "Les grands peintres français (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 2,
     "a_verifier": false,
@@ -668,7 +801,10 @@
       "Le week-end de Pâques",
       "La semaine de Noël"
     ],
-    "explication": "Chaque année en septembre, pendant les Journées européennes du patrimoine, de nombreux monuments et lieux publics ouvrent gratuitement leurs portes.",
+    "explication": "Chaque année en septembre, pendant les Journées européennes du patrimoine, de nombreux monuments et lieux publics ouvrent leurs portes, souvent gratuitement.",
+    "liens": [
+      {"titre": "Journées européennes du patrimoine (culture.gouv.fr)", "url": "https://www.culture.gouv.fr/evenements-nationaux/journees-europeennes-du-patrimoine"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -683,7 +819,11 @@
       "L'armistice de 1918",
       "La fête de la musique"
     ],
-    "explication": "Le 1er mai est la fête du Travail. C'est un jour férié et chômé : on célèbre les droits des travailleurs.",
+    "explication": "Le 1er mai est la fête du Travail : on célèbre les droits des travailleurs. C'est le seul jour férié où tous les salariés doivent en principe ne pas travailler.",
+    "liens": [
+      {"titre": "Jours fériés (service-public.fr)", "url": "https://www.service-public.fr/particuliers/vosdroits/F2405"},
+      {"titre": "Les jours fériés (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/patrimoine-francais-les-jours-feries/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -698,7 +838,10 @@
       "L'auteur du Code civil",
       "Le peintre de La Liberté guidant le peuple"
     ],
-    "explication": "Rouget de Lisle a composé La Marseillaise en 1792 à Strasbourg. C'est devenu l'hymne national de la France.",
+    "explication": "Claude-Joseph Rouget de Lisle, officier, a écrit les paroles et la musique de La Marseillaise à Strasbourg, en avril 1792. Ce chant est l'hymne national de la France.",
+    "liens": [
+      {"titre": "La Marseillaise de Rouget de Lisle (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"}
+    ],
     "sous_theme": "revolution_empire",
     "difficulte": 1,
     "a_verifier": false,
@@ -713,7 +856,10 @@
       "Pour fêter la fin de la Première Guerre mondiale",
       "Pour le couronnement de Napoléon III"
     ],
-    "explication": "Gustave Eiffel construit la tour pour l'Exposition universelle de 1889, qui célèbre aussi le centenaire de la Révolution française.",
+    "explication": "L'entreprise de Gustave Eiffel construit la tour pour l'Exposition universelle de 1889, qui célèbre le centenaire de la Révolution française. La tour est terminée le 31 mars 1889.",
+    "liens": [
+      {"titre": "Gustave Eiffel, l'homme de fer (archives-nationales.culture.gouv.fr)", "url": "https://www.archives-nationales.culture.gouv.fr/dossiers-thematiques/gustave-eiffel-lhomme-de-fer"}
+    ],
     "sous_theme": "culture",
     "difficulte": 2,
     "a_verifier": false,
@@ -728,7 +874,10 @@
       "Les Vosges",
       "Le Jura"
     ],
-    "explication": "Les Pyrénées forment la frontière entre la France et l'Espagne, de l'océan Atlantique à la mer Méditerranée.",
+    "explication": "Les Pyrénées forment la frontière entre la France et l'Espagne, de l'océan Atlantique à la mer Méditerranée. Le petit pays d'Andorre se trouve aussi dans les Pyrénées.",
+    "liens": [
+      {"titre": "Les frontières de la France (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -743,7 +892,10 @@
       "Les Vosges",
       "Le Massif central"
     ],
-    "explication": "Les Alpes séparent la France de l'Italie et de la Suisse. On y trouve le mont Blanc, le plus haut sommet de France.",
+    "explication": "Les Alpes séparent la France de l'Italie et d'une partie de la Suisse. On y trouve le mont Blanc, le plus haut sommet de France.",
+    "liens": [
+      {"titre": "Les frontières de la France (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -758,7 +910,10 @@
       "Un roi de France du XVIIe siècle",
       "Un général de la Révolution française"
     ],
-    "explication": "Molière a écrit des comédies célèbres comme Le Malade imaginaire et L'Avare. On appelle le français « la langue de Molière ».",
+    "explication": "Jean-Baptiste Poquelin, dit Molière (1622-1673), a écrit des comédies célèbres comme Le Malade imaginaire, L'Avare et Tartuffe. On appelle le français « la langue de Molière ».",
+    "liens": [
+      {"titre": "Molière et La Fontaine (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -773,7 +928,10 @@
       "Un général de la Révolution française",
       "Un peintre de la Renaissance"
     ],
-    "explication": "Charles Baudelaire est un grand poète. Son recueil le plus connu s'appelle Les Fleurs du mal, publié en 1857.",
+    "explication": "Charles Baudelaire (1821-1867) est un grand poète. Son recueil le plus connu s'appelle Les Fleurs du mal, publié en 1857.",
+    "liens": [
+      {"titre": "Les grands auteurs du XIXe siècle (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 2,
     "a_verifier": false,
@@ -788,7 +946,10 @@
       "Une résistante de la Seconde Guerre mondiale",
       "Une physicienne double prix Nobel"
     ],
-    "explication": "George Sand est le nom de plume d'Aurore Dupin. Elle a écrit de nombreux romans, comme La Mare au diable.",
+    "explication": "George Sand (1804-1876) est le nom de plume d'Aurore Dupin. Elle a écrit de nombreux romans, comme La Mare au diable et Indiana.",
+    "liens": [
+      {"titre": "Les grands auteurs du XIXe siècle (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 2,
     "a_verifier": false,
@@ -803,7 +964,10 @@
       "Une ministre qui a fait voter la loi sur l'IVG",
       "Une chanteuse populaire des années 1960"
     ],
-    "explication": "Simone de Beauvoir a écrit Le Deuxième Sexe en 1949, un livre important pour les droits des femmes.",
+    "explication": "Simone de Beauvoir (1908-1986) a écrit Le Deuxième Sexe en 1949, un livre important pour les droits des femmes.",
+    "liens": [
+      {"titre": "Les grands auteurs du XXe siècle (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 2,
     "a_verifier": false,
@@ -818,7 +982,10 @@
       "Un peintre impressionniste français",
       "Un général de la Première Guerre mondiale"
     ],
-    "explication": "Albert Camus, né en Algérie, a écrit L'Étranger et La Peste. Il reçoit le prix Nobel de littérature en 1957.",
+    "explication": "Albert Camus (1913-1960), né en Algérie, a écrit L'Étranger et La Peste. Il reçoit le prix Nobel de littérature en 1957.",
+    "liens": [
+      {"titre": "Les grands auteurs du XXe siècle (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 2,
     "a_verifier": false,
@@ -833,7 +1000,10 @@
       "La première femme nommée Première ministre",
       "La première femme à recevoir un prix Nobel"
     ],
-    "explication": "Marguerite Yourcenar, écrivaine, autrice des Mémoires d'Hadrien, est en 1980 la première femme élue à l'Académie française.",
+    "explication": "Marguerite Yourcenar (1903-1987), écrivaine, autrice des Mémoires d'Hadrien, est en 1980 la première femme élue à l'Académie française.",
+    "liens": [
+      {"titre": "Les grands auteurs du XXe siècle (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 2,
     "a_verifier": false,
@@ -848,7 +1018,10 @@
       "Un compositeur français de musique classique",
       "Un écrivain français, auteur des Misérables"
     ],
-    "explication": "Paul Cézanne, peintre post-impressionniste d'Aix-en-Provence, a beaucoup peint la montagne Sainte-Victoire. Il a influencé Picasso et les peintres modernes.",
+    "explication": "Paul Cézanne (1839-1906), peintre post-impressionniste d'Aix-en-Provence, a beaucoup peint la montagne Sainte-Victoire. Il a influencé Pablo Picasso, Henri Matisse et les peintres modernes.",
+    "liens": [
+      {"titre": "Les grands peintres français (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 2,
     "a_verifier": false,
@@ -863,7 +1036,10 @@
       "Un compositeur français",
       "Un écrivain français"
     ],
-    "explication": "Auguste Rodin est un grand sculpteur. Ses œuvres les plus connues sont Le Penseur et Le Baiser.",
+    "explication": "Auguste Rodin (1840-1917) est un grand sculpteur. Ses œuvres les plus connues sont Le Penseur, Le Baiser et La Porte de l'Enfer.",
+    "liens": [
+      {"titre": "Les grands sculpteurs français (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-sculpteurs/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -878,7 +1054,10 @@
       "Ludwig van Beethoven",
       "Giuseppe Verdi"
     ],
-    "explication": "Claude Debussy est un compositeur français, auteur de Clair de lune. Mozart était autrichien, Beethoven allemand et Verdi italien.",
+    "explication": "Claude Debussy (1862-1918) est un compositeur français, auteur de Clair de lune et de La Mer. Wolfgang Amadeus Mozart était autrichien, Ludwig van Beethoven allemand et Giuseppe Verdi italien.",
+    "liens": [
+      {"titre": "Les grands musiciens français (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-dans-univers-musique/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -893,7 +1072,10 @@
       "Un compositeur français",
       "Un poète français"
     ],
-    "explication": "Auguste Renoir est un peintre impressionniste. Il est connu pour Le Bal du moulin de la Galette.",
+    "explication": "Auguste Renoir (1841-1919) est un peintre impressionniste. Il est connu pour le Bal du moulin de la Galette et Le Déjeuner des canotiers.",
+    "liens": [
+      {"titre": "Les grands peintres français (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -909,6 +1091,9 @@
       "Le musée de l'Ermitage"
     ],
     "explication": "Le Louvre, le musée d'Orsay et le Centre Pompidou sont à Paris. Le Prado est à Madrid, le British Museum à Londres et l'Ermitage à Saint-Pétersbourg.",
+    "liens": [
+      {"titre": "La Joconde, au Louvre (louvre.fr)", "url": "https://collections.louvre.fr/ark:/53355/cl010062370"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -923,7 +1108,10 @@
       "La cathédrale de Chartres",
       "Le pont du Gard"
     ],
-    "explication": "Le Mont-Saint-Michel est une abbaye construite sur un îlot rocheux, en Normandie. Il est inscrit au patrimoine mondial de l'Unesco.",
+    "explication": "Le Mont-Saint-Michel est une abbaye construite sur un îlot rocheux, en Normandie. Il est inscrit au patrimoine mondial de l'Unesco depuis 1979.",
+    "liens": [
+      {"titre": "Mont-Saint-Michel et sa baie (unesco.org)", "url": "https://whc.unesco.org/fr/list/80/"}
+    ],
     "sous_theme": "culture",
     "difficulte": 1,
     "a_verifier": false,
@@ -939,6 +1127,9 @@
       "Guéret"
     ],
     "explication": "Lyon est la troisième ville de France. Les grandes métropoles sont notamment Paris, Marseille, Lyon, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux et Lille.",
+    "liens": [
+      {"titre": "Aire urbaine et métropoles (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -953,7 +1144,10 @@
       "La Corse",
       "Mayotte"
     ],
-    "explication": "Les Antilles françaises, dans la mer des Caraïbes, comprennent la Martinique, la Guadeloupe, Saint-Martin et Saint-Barthélemy. La Réunion et Mayotte sont dans l'océan Indien.",
+    "explication": "Les Antilles françaises, dans la mer des Caraïbes, comprennent la Martinique, la Guadeloupe, Saint-Martin et Saint-Barthélemy. La Réunion et Mayotte sont dans l'océan Indien ; la Corse est en Méditerranée.",
+    "liens": [
+      {"titre": "Le territoire de la France (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"}
+    ],
     "sous_theme": "outre_mer",
     "difficulte": 1,
     "a_verifier": false,
@@ -969,6 +1163,9 @@
       "Malte"
     ],
     "explication": "La Corse est une île française de la mer Méditerranée. La Sardaigne et la Sicile sont italiennes ; Malte est un pays indépendant.",
+    "liens": [
+      {"titre": "Le territoire de la France (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -998,7 +1195,10 @@
       "La Guadeloupe",
       "La Nouvelle-Calédonie"
     ],
-    "explication": "La Réunion se trouve dans l'océan Indien, à l'est de Madagascar. Mayotte est aussi une île française de l'océan Indien.",
+    "explication": "La Réunion se trouve dans l'océan Indien, à l'est de Madagascar. Mayotte est aussi une île française de l'océan Indien. La Martinique et la Guadeloupe sont aux Antilles, la Nouvelle-Calédonie dans le Pacifique.",
+    "liens": [
+      {"titre": "Le territoire de la France (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"}
+    ],
     "sous_theme": "outre_mer",
     "difficulte": 1,
     "a_verifier": false,
@@ -1014,6 +1214,9 @@
       "La Réunion"
     ],
     "explication": "La Guyane se trouve en Amérique du Sud. Elle a une frontière avec le Brésil et avec le Suriname.",
+    "liens": [
+      {"titre": "La Guyane (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-guyane/"}
+    ],
     "sous_theme": "outre_mer",
     "difficulte": 1,
     "a_verifier": false,
@@ -1028,7 +1231,10 @@
       "Toulouse",
       "Brest"
     ],
-    "explication": "Les fusées Ariane décollent du Centre spatial guyanais, à Kourou, en Guyane. Ce site est proche de l'équateur, ce qui facilite les lancements.",
+    "explication": "Les fusées Ariane décollent du Centre spatial guyanais, à Kourou, sur la côte atlantique de la Guyane. Ce site est proche de l'équateur, ce qui facilite les lancements.",
+    "liens": [
+      {"titre": "La Guyane (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-guyane/"}
+    ],
     "sous_theme": "outre_mer",
     "difficulte": 2,
     "a_verifier": false,
@@ -1044,6 +1250,9 @@
       "La mer Rouge"
     ],
     "explication": "La France métropolitaine est bordée par la mer Méditerranée, l'océan Atlantique, la Manche et la mer du Nord.",
+    "liens": [
+      {"titre": "Les frontières de la France (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -1059,6 +1268,9 @@
       "La mer d'Irlande"
     ],
     "explication": "La Manche sépare la France de l'Angleterre. Le tunnel sous la Manche relie les deux pays depuis 1994.",
+    "liens": [
+      {"titre": "Les frontières de la France (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -1073,7 +1285,10 @@
       "Tahiti",
       "La Nouvelle-Calédonie"
     ],
-    "explication": "Les départements d'outre-mer sont la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte. Tahiti et la Nouvelle-Calédonie ont un autre statut ; la Corse est en métropole.",
+    "explication": "Les départements et régions d'outre-mer sont la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte. Tahiti (en Polynésie française) et la Nouvelle-Calédonie ont un autre statut ; la Corse est en métropole.",
+    "liens": [
+      {"titre": "Le territoire de la France (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"}
+    ],
     "sous_theme": "outre_mer",
     "difficulte": 2,
     "a_verifier": false,
@@ -1088,7 +1303,10 @@
       "Les pays étrangers où l'on parle le français",
       "Les régions françaises situées au bord de la mer"
     ],
-    "explication": "La France d'outre-mer regroupe des territoires français en Amérique, dans l'océan Indien, dans le Pacifique et en Antarctique, comme la Guadeloupe ou La Réunion.",
+    "explication": "La France d'outre-mer regroupe des territoires français en Amérique, dans l'océan Indien, dans le Pacifique et en Antarctique : 5 départements et régions, comme la Guadeloupe ou La Réunion, et des collectivités, comme la Polynésie française.",
+    "liens": [
+      {"titre": "Le territoire de la France (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"}
+    ],
     "sous_theme": "outre_mer",
     "difficulte": 1,
     "a_verifier": false,
@@ -1103,7 +1321,10 @@
       "Environ 85 millions d'habitants",
       "Environ 120 millions d'habitants"
     ],
-    "explication": "Selon l'Insee, la France compte environ 68,6 millions d'habitants au début de l'année 2025, outre-mer compris.",
+    "explication": "Selon l'Insee, la France compte environ 68,6 millions d'habitants au 1er janvier 2025 : 66,4 millions en métropole et 2,3 millions dans les départements d'outre-mer.",
+    "liens": [
+      {"titre": "La démographie française (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-demographie-francaise/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 2,
     "a_verifier": false,
@@ -1134,6 +1355,10 @@
       "10"
     ],
     "explication": "Depuis 2016, la France métropolitaine compte 13 régions, Corse comprise. Avec les 5 régions d'outre-mer, cela fait 18 régions en tout. Avant 2016, la métropole en avait 22.",
+    "liens": [
+      {"titre": "Les régions françaises (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/"},
+      {"titre": "Le territoire de la France (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 2,
     "a_verifier": false,
@@ -1149,6 +1374,9 @@
       "La Nouvelle-Calédonie"
     ],
     "explication": "La Réunion est située dans l'océan Indien, au sud-est de l'Afrique, près de Madagascar. Mayotte se trouve aussi dans cette zone.",
+    "liens": [
+      {"titre": "Le territoire de la France (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"}
+    ],
     "sous_theme": "outre_mer",
     "difficulte": 1,
     "a_verifier": false,
@@ -1164,6 +1392,9 @@
       "Saint-Étienne"
     ],
     "explication": "Lyon est le chef-lieu de la région Auvergne-Rhône-Alpes, créée en 2016. Clermont-Ferrand était le chef-lieu de l'ancienne région Auvergne.",
+    "liens": [
+      {"titre": "Les régions françaises (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 2,
     "a_verifier": false,
@@ -1179,6 +1410,9 @@
       "Quimper"
     ],
     "explication": "Rennes est le chef-lieu de la région Bretagne. Nantes est le chef-lieu de la région Pays de la Loire.",
+    "liens": [
+      {"titre": "Les régions françaises (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 2,
     "a_verifier": false,
@@ -1194,6 +1428,9 @@
       "Avignon"
     ],
     "explication": "Marseille, deuxième ville de France, est le chef-lieu de la région Provence-Alpes-Côte d'Azur.",
+    "liens": [
+      {"titre": "Les régions françaises (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 2,
     "a_verifier": false,
@@ -1208,7 +1445,10 @@
       "La Guyane",
       "La Martinique"
     ],
-    "explication": "Mayotte est devenue le 101e département français le 31 mars 2011. La Réunion, la Guyane et la Martinique sont départements depuis 1946.",
+    "explication": "Après un référendum en 2009, Mayotte est devenue le 101e département français le 31 mars 2011. La Réunion, la Guyane et la Martinique sont départements depuis 1946.",
+    "liens": [
+      {"titre": "Le territoire de la France (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"}
+    ],
     "sous_theme": "outre_mer",
     "difficulte": 2,
     "a_verifier": false,
@@ -1224,6 +1464,9 @@
       "Le Centre-Val de Loire"
     ],
     "explication": "La région Auvergne-Rhône-Alpes, avec les Alpes de Savoie et de Haute-Savoie, possède les plus grandes stations de ski de France.",
+    "liens": [
+      {"titre": "Les régions françaises (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,
@@ -1238,7 +1481,10 @@
       "Le Rhône",
       "La Garonne"
     ],
-    "explication": "La Seine traverse Paris avant de se jeter dans la Manche, au Havre.",
+    "explication": "La Seine traverse Paris avant de se jeter dans la Manche, entre Le Havre et Honfleur.",
+    "liens": [
+      {"titre": "Les fleuves français (interieur.gouv.fr)", "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-fleuves-fran%C3%A7ais/"}
+    ],
     "sous_theme": "geographie",
     "difficulte": 1,
     "a_verifier": false,

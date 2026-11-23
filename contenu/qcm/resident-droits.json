@@ -8,7 +8,10 @@
       "La liberté de circulation.",
       "La liberté syndicale."
     ],
-    "explication": "La procréation médicalement assistée aide à avoir un enfant. Depuis 2021, elle est ouverte aux couples de femmes et aux femmes seules.",
+    "explication": "La procréation médicalement assistée aide à avoir un enfant. Depuis la loi de bioéthique du 2 août 2021, elle est ouverte aux couples de femmes et aux femmes seules.",
+    "liens": [
+      {"titre": "La PMA (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31462"}
+    ],
     "sous_theme": "famille",
     "difficulte": 2,
     "a_verifier": false,
@@ -24,6 +27,9 @@
       "Au nom des préférences personnelles du Premier ministre."
     ],
     "explication": "L'État peut limiter une liberté, par la loi, pour protéger l'ordre public, la sécurité, la santé ou les droits des autres.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "a_verifier": false,
@@ -39,6 +45,9 @@
       "Le mariage est possible à 15 ans sans autorisation."
     ],
     "explication": "Depuis la loi de 2013, deux hommes ou deux femmes peuvent se marier. Le mariage civil est célébré à la mairie, entre deux personnes majeures et consentantes.",
+    "liens": [
+      {"titre": "Le mariage en France (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"}
+    ],
     "sous_theme": "famille",
     "difficulte": 1,
     "a_verifier": false,
@@ -54,6 +63,9 @@
       "Non, seulement si l'autre époux est d'accord."
     ],
     "explication": "Chaque époux peut demander le divorce, même si l'autre refuse. La loi prévoit plusieurs procédures, par consentement mutuel ou devant le juge.",
+    "liens": [
+      {"titre": "Le divorce par consentement mutuel (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10567"}
+    ],
     "sous_theme": "famille",
     "difficulte": 1,
     "a_verifier": false,
@@ -69,6 +81,9 @@
       "Encore possible pour les crimes de guerre."
     ],
     "explication": "La loi du 9 octobre 1981, défendue par Robert Badinter, a aboli la peine de mort. Depuis 2007, cette interdiction est inscrite dans la Constitution.",
+    "liens": [
+      {"titre": "L'abolition de la peine de mort (justice.gouv.fr)", "url": "https://www.justice.gouv.fr/actualites/espace-presse/40e-anniversaire-labolition-peine-mort-france"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -84,6 +99,9 @@
       "« La France est une République indivisible, laïque, démocratique et sociale. »"
     ],
     "explication": "Cette phrase est l'article 4 de la Déclaration de 1789. « L'union fait la force » est la devise de la Belgique, et la phrase sur la République vient de la Constitution de 1958.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "a_verifier": false,
@@ -98,7 +116,10 @@
       "Oui, mais seulement avec l'accord du conjoint.",
       "Non, sauf si la femme a déjà trois enfants."
     ],
-    "explication": "L'interruption volontaire de grossesse est légale depuis la loi Veil de 1975. Depuis 2024, la liberté d'y recourir est inscrite dans la Constitution.",
+    "explication": "L'interruption volontaire de grossesse est légale depuis la loi du 17 janvier 1975, défendue par Simone Veil, ministre de la Santé. Depuis le 8 mars 2024, la liberté d'y recourir est inscrite dans la Constitution.",
+    "liens": [
+      {"titre": "L'IVG (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1551"}
+    ],
     "sous_theme": "egalite_fh",
     "difficulte": 1,
     "a_verifier": false,
@@ -114,6 +135,9 @@
       "Les noms et adresses de tous les maires de France."
     ],
     "explication": "La Constitution organise les pouvoirs : Président, Gouvernement, Parlement. Son préambule renvoie à la Déclaration de 1789 et protège nos droits.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -128,7 +152,7 @@
       "Le droit de publier des insultes sans être puni.",
       "Le monopole de l'État sur toutes les informations."
     ],
-    "explication": "La loi de 1881 protège la liberté de la presse. Les journalistes publient sans censure préalable, mais ils répondent devant la justice de la diffamation ou de l'injure.",
+    "explication": "La loi du 29 juillet 1881 protège la liberté de la presse. Les journalistes publient sans censure préalable, mais ils répondent devant la justice de la diffamation ou de l'injure.",
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "a_verifier": false,
@@ -143,7 +167,10 @@
       "L'obligation pour chaque famille de cultiver un jardin.",
       "La suppression de toutes les usines en France."
     ],
-    "explication": "La Charte de l'environnement de 2004 fait partie de la Constitution. Elle donne à chacun le droit à un environnement sain et le devoir de le protéger.",
+    "explication": "La Charte de l'environnement de 2004 fait partie de la Constitution depuis 2005. Elle donne à chacun le droit à un environnement sain et le devoir de le protéger.",
+    "liens": [
+      {"titre": "La Charte de l'environnement (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/charte-de-l-environnement-de-2004"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 2,
     "a_verifier": false,
@@ -159,6 +186,9 @@
       "Le droit des personnes riches à être mieux traitées."
     ],
     "explication": "Toute personne a la même valeur, quelles que soient ses différences. La dignité interdit l'esclavage, la torture et les traitements dégradants.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -174,6 +204,9 @@
       "Le droit réservé aux élus de défiler dans la rue."
     ],
     "explication": "Manifester est un moyen d'exprimer son opinion en groupe. Une manifestation sur la voie publique doit être déclarée à l'avance et rester pacifique.",
+    "liens": [
+      {"titre": "Organiser une manifestation (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21899"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -204,6 +237,9 @@
       "Un arrêté municipal."
     ],
     "explication": "La Constitution est le texte le plus élevé. Pour la modifier, il faut un référendum ou un vote du Parlement réuni en Congrès, à la majorité des trois cinquièmes.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "a_verifier": false,
@@ -219,6 +255,9 @@
       "La liberté de circulation."
     ],
     "explication": "La liberté de conscience permet de croire en la religion de son choix, d'en changer ou de ne pas avoir de religion.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -234,6 +273,10 @@
       "Le droit pour les clients de refuser de payer un service."
     ],
     "explication": "La grève est un droit reconnu par la Constitution. Elle consiste à arrêter le travail ensemble pour soutenir des revendications professionnelles.",
+    "liens": [
+      {"titre": "Le droit de grève (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F117"},
+      {"titre": "Le préambule de 1946 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/preambule-de-la-constitution-du-27-octobre-1946"}
+    ],
     "sous_theme": "travail",
     "difficulte": 1,
     "a_verifier": false,
@@ -249,6 +292,9 @@
       "Un livre d'histoire sur la Révolution."
     ],
     "explication": "La Constitution de la Cinquième République date de 1958. Elle est au-dessus des lois et définit le rôle du Président, du Gouvernement et du Parlement.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "a_verifier": false,
@@ -263,7 +309,10 @@
       "Seulement les femmes de nationalité française et majeures.",
       "Seulement les femmes majeures, avec l'accord du conjoint."
     ],
-    "explication": "L'IVG est possible jusqu'à 14 semaines de grossesse. Une mineure peut y avoir accès sans l'accord de ses parents, si elle est accompagnée d'un adulte de son choix.",
+    "explication": "L'IVG est possible jusqu'à la fin de la 14e semaine de grossesse. Une mineure peut y avoir accès sans l'accord de ses parents, si elle est accompagnée d'un adulte de son choix.",
+    "liens": [
+      {"titre": "L'IVG (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1551"}
+    ],
     "sous_theme": "egalite_fh",
     "difficulte": 2,
     "a_verifier": false,
@@ -278,7 +327,7 @@
       "Oui, mais seulement aux élections municipales.",
       "Oui, mais seulement avec l'accord de son mari."
     ],
-    "explication": "Les femmes votent en France depuis 1944. Elles ont exactement les mêmes droits de vote que les hommes.",
+    "explication": "Les femmes ont obtenu le droit de vote en France en 1944 et ont voté pour la première fois en 1945. Elles ont exactement les mêmes droits de vote que les hommes.",
     "sous_theme": "egalite_fh",
     "difficulte": 1,
     "a_verifier": false,
@@ -308,7 +357,10 @@
       "Un geste autorisé si le mégot est éteint.",
       "Une simple impolitesse sans sanction."
     ],
-    "explication": "Jeter un mégot ou un déchet sur la voie publique est interdit. L'amende forfaitaire est de 135 euros.",
+    "explication": "Jeter un mégot ou un déchet sur la voie publique est interdit et puni d'une amende. Les règles ont été durcies en juin 2026.",
+    "liens": [
+      {"titre": "L'amende pour abandon de déchets (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31963"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -324,6 +376,9 @@
       "Oui, mais seulement pour les étrangers."
     ],
     "explication": "Une liberté peut être limitée, par la loi, pour protéger la sécurité, la santé ou les droits des autres. Le juge contrôle que la limite reste nécessaire et proportionnée.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "a_verifier": false,
@@ -339,6 +394,9 @@
       "Laisser couler l'eau pendant qu'on se brosse les dents."
     ],
     "explication": "Trier ses déchets permet de les recycler. Économiser l'eau et l'énergie protège aussi l'environnement.",
+    "liens": [
+      {"titre": "La Charte de l'environnement (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/charte-de-l-environnement-de-2004"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -369,6 +427,9 @@
       "En cas de propos tenus dans une langue étrangère."
     ],
     "explication": "La loi punit le racisme, l'injure, la diffamation et l'appel à la haine. Critiquer le gouvernement reste un droit.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "a_verifier": false,
@@ -384,6 +445,9 @@
       "Pour obtenir une carte de résident."
     ],
     "explication": "Le tri permet de réutiliser le papier, le verre ou le plastique. Il réduit la quantité de déchets et la pollution.",
+    "liens": [
+      {"titre": "L'amende pour abandon de déchets (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31963"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -399,6 +463,10 @@
       "Attendre que les violences s'arrêtent d'elles-mêmes."
     ],
     "explication": "Une victime peut porter plainte au commissariat ou à la gendarmerie et se faire aider. Pour les violences faites aux femmes, le numéro 3919 est gratuit et anonyme.",
+    "liens": [
+      {"titre": "Porter plainte (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1435"},
+      {"titre": "Arrêtons les violences (arretonslesviolences.gouv.fr)", "url": "https://arretonslesviolences.gouv.fr/"}
+    ],
     "sous_theme": "justice_recours",
     "difficulte": 1,
     "a_verifier": false,
@@ -414,6 +482,9 @@
       "Partir en courant pour éviter le contrôle."
     ],
     "explication": "Il faut obéir aux ordres des forces de l'ordre et rester calme. Si l'on pense qu'un contrôle est abusif, on peut le contester ensuite, par exemple auprès du Défenseur des droits.",
+    "liens": [
+      {"titre": "Le Défenseur des droits (defenseurdesdroits.fr)", "url": "https://www.defenseurdesdroits.fr/"}
+    ],
     "sous_theme": "justice_recours",
     "difficulte": 1,
     "a_verifier": false,
@@ -444,6 +515,10 @@
       "Attendre que quelqu'un d'autre intervienne."
     ],
     "explication": "Appeler le 15, le 18 ou le 112 est déjà une façon de porter assistance. Ne pas le faire peut être puni par la loi.",
+    "liens": [
+      {"titre": "La non-assistance à personne en danger (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34551"},
+      {"titre": "Les numéros d'urgence (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,
@@ -474,6 +549,10 @@
       "Filmer la scène sans prévenir personne."
     ],
     "explication": "Le témoin doit alerter la police, au 17, ou les secours, au 112. Il aide la victime s'il peut le faire sans risque pour lui.",
+    "liens": [
+      {"titre": "Les numéros d'urgence (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"},
+      {"titre": "La non-assistance à personne en danger (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34551"}
+    ],
     "sous_theme": "justice_recours",
     "difficulte": 1,
     "a_verifier": false,
@@ -564,6 +643,9 @@
       "On peut déposer ses déchets sur le trottoir à n'importe quelle heure."
     ],
     "explication": "Le tri permet le recyclage. Abandonner des déchets dans la rue ou dans la nature est interdit et puni d'une amende.",
+    "liens": [
+      {"titre": "L'amende pour abandon de déchets (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31963"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "a_verifier": false,

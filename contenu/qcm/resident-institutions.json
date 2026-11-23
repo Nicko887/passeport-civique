@@ -9,6 +9,9 @@
       "Un système où la police juge les personnes sans tribunal."
     ],
     "explication": "Dans un État de droit, la loi s'applique à tous, même aux dirigeants. Les droits fondamentaux sont protégés par des juges indépendants.",
+    "liens": [
+      {"titre": "L'État de droit (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/274962-quelles-sont-les-caracteristiques-dun-etat-de-droit"}
+    ],
     "sous_theme": "constitution",
     "difficulte": 2,
     "a_verifier": false,
@@ -23,7 +26,10 @@
       "Il est jugé tout de suite par le tribunal de sa commune.",
       "Il peut annuler lui-même les poursuites par un décret."
     ],
-    "explication": "Pendant son mandat, le Président ne peut pas être poursuivi pour ces faits. Les poursuites reprennent après la fin du mandat. Le Parlement peut aussi le destituer en cas de faute très grave.",
+    "explication": "Selon l'article 67 de la Constitution, le Président ne peut pas être poursuivi pendant son mandat. Les poursuites peuvent reprendre un mois après la fin du mandat. Selon l'article 68, le Parlement peut aussi le destituer en cas de faute très grave.",
+    "liens": [
+      {"titre": "Le Président dans la Constitution (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/le-president-dans-la-constitution"}
+    ],
     "sous_theme": "executif",
     "difficulte": 3,
     "a_verifier": false,
@@ -38,7 +44,10 @@
       "La volonté du Gouvernement.",
       "La volonté des juges."
     ],
-    "explication": "L'article 6 de la Déclaration des droits de l'homme et du citoyen de 1789 dit : « La loi est l'expression de la volonté générale. »",
+    "explication": "L'article 6 de la Déclaration des droits de l'homme et du citoyen du 26 août 1789 dit : « La loi est l'expression de la volonté générale. »",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "constitution",
     "difficulte": 2,
     "a_verifier": false,
@@ -53,7 +62,10 @@
       "5 ans.",
       "7 ans."
     ],
-    "explication": "Les conseillers municipaux sont élus pour 6 ans. Le maire, élu par le conseil municipal, a donc aussi un mandat de 6 ans.",
+    "explication": "Les conseillers municipaux sont élus pour 6 ans. Le maire, élu par le conseil municipal, a donc aussi un mandat de 6 ans. Les dernières élections municipales ont eu lieu en mars 2026.",
+    "liens": [
+      {"titre": "L'élection du maire (collectivites-locales.gouv.fr)", "url": "https://www.collectivites-locales.gouv.fr/institutions/election-du-maire"}
+    ],
     "sous_theme": "elections",
     "difficulte": 1,
     "a_verifier": false,
@@ -69,6 +81,9 @@
       "Le droit pour l'État de ne pas respecter les lois."
     ],
     "explication": "L'État de droit protège les libertés grâce à la séparation des pouvoirs et à une justice indépendante. Tout le monde est égal devant la loi.",
+    "liens": [
+      {"titre": "L'État de droit (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/274962-quelles-sont-les-caracteristiques-dun-etat-de-droit"}
+    ],
     "sous_theme": "constitution",
     "difficulte": 2,
     "a_verifier": false,
@@ -83,7 +98,10 @@
       "Oui, un membre de la famille peut voter sans formalité.",
       "Non, c'est toujours interdit."
     ],
-    "explication": "Un électeur absent peut donner une procuration à un autre électeur. Il faut faire une démarche officielle à l'avance, en ligne ou au commissariat, à la gendarmerie ou au tribunal.",
+    "explication": "Un électeur absent peut donner une procuration à un autre électeur. Il faut faire une démarche officielle à l'avance : en ligne sur maprocuration.gouv.fr, ou au commissariat, à la gendarmerie ou au tribunal judiciaire. Une personne ne peut avoir qu'une seule procuration faite en France.",
+    "liens": [
+      {"titre": "Le vote par procuration (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1604"}
+    ],
     "sous_theme": "elections",
     "difficulte": 1,
     "a_verifier": false,
@@ -98,7 +116,10 @@
       "Oui, sinon on perd son titre de séjour.",
       "Oui, mais seulement pour les élections municipales."
     ],
-    "explication": "Voter est un droit et un devoir civique, mais personne n'est puni s'il ne vote pas.",
+    "explication": "Voter est un droit et un devoir civique, mais personne n'est puni s'il ne vote pas. Seuls les grands électeurs qui élisent les sénateurs doivent voter.",
+    "liens": [
+      {"titre": "L'élection des sénateurs (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19586-lelection-des-senateurs-senatoriales"}
+    ],
     "sous_theme": "elections",
     "difficulte": 1,
     "a_verifier": false,
@@ -113,7 +134,10 @@
       "Oui, s'il déclare l'état d'urgence.",
       "Oui, il peut prolonger son mandat de deux ans."
     ],
-    "explication": "Le mandat du Président dure 5 ans. Pour rester, il doit gagner une nouvelle élection. Il ne peut pas faire plus de deux mandats de suite.",
+    "explication": "Le mandat du Président dure 5 ans. Pour rester, il doit gagner une nouvelle élection. Selon l'article 6 de la Constitution, il ne peut pas faire plus de deux mandats de suite.",
+    "liens": [
+      {"titre": "Le Président dans la Constitution (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/le-president-dans-la-constitution"}
+    ],
     "sous_theme": "executif",
     "difficulte": 1,
     "a_verifier": false,
@@ -129,6 +153,9 @@
       "Le président du Conseil constitutionnel."
     ],
     "explication": "L'article 21 de la Constitution dit que le Premier ministre dirige l'action du Gouvernement.",
+    "liens": [
+      {"titre": "Le rôle du Premier ministre (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19460-quel-est-le-role-du-premier-ministre-au-sein-du-gouvernement"}
+    ],
     "sous_theme": "executif",
     "difficulte": 1,
     "a_verifier": false,
@@ -143,7 +170,10 @@
       "Les sénateurs.",
       "Les citoyens, par une élection."
     ],
-    "explication": "Le Président de la République nomme le Premier ministre. Il nomme aussi les ministres, sur proposition du Premier ministre.",
+    "explication": "Selon l'article 8 de la Constitution, le Président de la République nomme le Premier ministre. Il nomme aussi les ministres, sur proposition du Premier ministre.",
+    "liens": [
+      {"titre": "Qui désigne le Premier ministre ? (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19459-qui-designe-le-premier-ministre"}
+    ],
     "sous_theme": "executif",
     "difficulte": 1,
     "a_verifier": false,
@@ -158,7 +188,10 @@
       "Une confédération de régions indépendantes.",
       "Un royaume divisé en provinces."
     ],
-    "explication": "La France est un État unitaire : les mêmes lois s'appliquent partout. Elle est décentralisée : les communes, départements et régions ont leurs propres compétences.",
+    "explication": "La France est un État unitaire : les mêmes lois s'appliquent partout. L'article 1er de la Constitution dit aussi que son organisation est décentralisée : les communes, départements et régions ont leurs propres élus et compétences.",
+    "liens": [
+      {"titre": "Les collectivités locales en chiffres (collectivites-locales.gouv.fr)", "url": "https://www.collectivites-locales.gouv.fr/les-collectivites-locales-en-chiffres-2025"}
+    ],
     "sous_theme": "collectivites",
     "difficulte": 2,
     "a_verifier": false,
@@ -174,6 +207,9 @@
       "De commander l'armée."
     ],
     "explication": "Le pouvoir législatif appartient au Parlement. Il discute et vote les lois. Il contrôle aussi l'action du Gouvernement.",
+    "liens": [
+      {"titre": "Les pouvoirs du Parlement (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19488-quels-sont-les-pouvoirs-du-parlement"}
+    ],
     "sous_theme": "constitution",
     "difficulte": 1,
     "a_verifier": false,
@@ -188,7 +224,10 @@
       "Pour que les juges fassent les lois.",
       "Pour réduire le nombre d'élections."
     ],
-    "explication": "Quand les pouvoirs sont séparés, chacun limite les autres. Cela empêche les abus et protège les libertés des citoyens.",
+    "explication": "Quand les pouvoirs sont séparés, chacun limite les autres. Cela empêche les abus et protège les libertés des citoyens. En France, cette idée a été développée par le philosophe Montesquieu, au XVIIIe siècle.",
+    "liens": [
+      {"titre": "La séparation des pouvoirs (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/275008-quentend-par-separation-des-pouvoirs"}
+    ],
     "sous_theme": "constitution",
     "difficulte": 1,
     "a_verifier": false,
@@ -203,7 +242,10 @@
       "La victime elle-même.",
       "Le préfet du département."
     ],
-    "explication": "Seule la justice peut punir l'auteur d'une infraction. La police enquête, mais c'est un juge qui décide de la peine.",
+    "explication": "Seule la justice peut punir l'auteur d'une infraction. La police enquête, mais c'est un juge qui décide de la peine. Pour un vol, c'est en général le tribunal correctionnel.",
+    "liens": [
+      {"titre": "Les juridictions pénales (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2202"}
+    ],
     "sous_theme": "justice",
     "difficulte": 1,
     "a_verifier": false,
@@ -218,7 +260,10 @@
       "Juger les personnes qui ne respectent pas la loi.",
       "Vérifier que les lois respectent la Constitution."
     ],
-    "explication": "Selon l'article 20 de la Constitution, le Gouvernement détermine et conduit la politique de la Nation. Il applique les lois et dirige l'administration.",
+    "explication": "Selon l'article 20 de la Constitution, le Gouvernement détermine et conduit la politique de la Nation. Il applique les lois et dispose de l'administration.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "executif",
     "difficulte": 2,
     "a_verifier": false,
@@ -233,7 +278,10 @@
       "Il est protégé jusqu'à la fin de sa vie.",
       "Seul le Président peut décider de le punir."
     ],
-    "explication": "Un ministre doit respecter la loi. Il peut perdre son poste et être jugé. Pour des fautes commises dans ses fonctions, il est jugé par la Cour de justice de la République.",
+    "explication": "Un ministre doit respecter la loi. Il peut perdre son poste et être jugé. Pour des crimes ou des délits commis dans ses fonctions, il est jugé par la Cour de justice de la République. Pour les autres faits, il est jugé par les tribunaux ordinaires.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "justice",
     "difficulte": 2,
     "a_verifier": false,
@@ -248,7 +296,10 @@
       "500.",
       "650."
     ],
-    "explication": "L'Assemblée nationale compte 577 députés. Le Sénat compte 348 sénateurs.",
+    "explication": "L'Assemblée nationale compte 577 députés, élus pour 5 ans. Le Sénat compte 348 sénateurs.",
+    "liens": [
+      {"titre": "Le Parlement (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19485-comment-definir-le-parlement"}
+    ],
     "sous_theme": "parlement",
     "difficulte": 2,
     "a_verifier": false,
@@ -263,7 +314,10 @@
       "Seulement les propriétaires d'un logement.",
       "Les Français âgés de plus de 21 ans."
     ],
-    "explication": "Pour voter, il faut être français, avoir 18 ans et être inscrit sur les listes électorales. Les citoyens européens peuvent seulement voter aux élections municipales et européennes.",
+    "explication": "Pour voter, il faut être français, avoir 18 ans, avoir ses droits civiques et être inscrit sur les listes électorales. Les citoyens des autres pays de l'Union européenne peuvent seulement voter aux élections municipales et européennes.",
+    "liens": [
+      {"titre": "S'inscrire sur les listes électorales (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1367"}
+    ],
     "sous_theme": "elections",
     "difficulte": 1,
     "a_verifier": false,
@@ -278,7 +332,10 @@
       "5 ans.",
       "9 ans."
     ],
-    "explication": "Les sénateurs sont élus pour 6 ans. La moitié du Sénat est renouvelée tous les 3 ans.",
+    "explication": "Les sénateurs sont élus pour 6 ans par des grands électeurs, surtout des élus locaux. La moitié du Sénat est renouvelée tous les 3 ans : la dernière fois, c'était en septembre 2026.",
+    "liens": [
+      {"titre": "L'élection des sénateurs (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19586-lelection-des-senateurs-senatoriales"}
+    ],
     "sous_theme": "parlement",
     "difficulte": 2,
     "a_verifier": false,
@@ -294,6 +351,9 @@
       "Les pouvoirs médiatique, financier et politique."
     ],
     "explication": "Le pouvoir législatif fait les lois, le pouvoir exécutif les applique et le pouvoir judiciaire juge.",
+    "liens": [
+      {"titre": "La séparation des pouvoirs (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/275008-quentend-par-separation-des-pouvoirs"}
+    ],
     "sous_theme": "constitution",
     "difficulte": 1,
     "a_verifier": false,
@@ -308,7 +368,10 @@
       "Oui, il peut changer les juges quand il veut.",
       "Oui, depuis qu'il est élu par le peuple."
     ],
-    "explication": "Le Président doit respecter la Constitution. Il partage le pouvoir avec le Gouvernement, le Parlement et la justice.",
+    "explication": "Le Président doit respecter la Constitution. Il partage le pouvoir avec le Gouvernement, le Parlement et la justice. La plupart de ses décisions doivent aussi être signées par le Premier ministre ou un ministre.",
+    "liens": [
+      {"titre": "Le Président a-t-il tous les pouvoirs ? (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19415-le-president-de-la-republique-t-il-tous-les-pouvoirs"}
+    ],
     "sous_theme": "constitution",
     "difficulte": 1,
     "a_verifier": false,
@@ -323,7 +386,10 @@
       "Le président du conseil régional.",
       "Un juge du tribunal administratif."
     ],
-    "explication": "Le préfet est nommé par le Gouvernement. Il représente l'État, veille à l'ordre public et contrôle que les décisions des collectivités respectent la loi.",
+    "explication": "Le préfet est nommé par le Président de la République, en Conseil des ministres. Il représente l'État, veille à l'ordre public et contrôle que les décisions des collectivités respectent la loi.",
+    "liens": [
+      {"titre": "Le rôle du préfet (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/20169-role-du-prefet-departement"}
+    ],
     "sous_theme": "collectivites",
     "difficulte": 1,
     "a_verifier": false,
@@ -339,6 +405,9 @@
       "Avoir plus de 21 ans et payer des impôts."
     ],
     "explication": "Pour voter, il faut avoir la nationalité française, au moins 18 ans, ses droits civiques et être inscrit sur les listes électorales.",
+    "liens": [
+      {"titre": "S'inscrire sur les listes électorales (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1367"}
+    ],
     "sous_theme": "elections",
     "difficulte": 1,
     "a_verifier": false,
@@ -354,6 +423,9 @@
       "Le président de la région."
     ],
     "explication": "Le maire dirige la commune avec le conseil municipal. Il exécute les décisions du conseil municipal.",
+    "liens": [
+      {"titre": "Les fonctions du maire (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19617-les-fonctions-dun-maire"}
+    ],
     "sous_theme": "collectivites",
     "difficulte": 1,
     "a_verifier": false,
@@ -368,7 +440,10 @@
       "Un empire.",
       "Un régime militaire."
     ],
-    "explication": "Selon l'article 1er de la Constitution, la France est une République indivisible, laïque, démocratique et sociale.",
+    "explication": "Selon l'article 1er de la Constitution du 4 octobre 1958, la France est une République indivisible, laïque, démocratique et sociale.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "constitution",
     "difficulte": 1,
     "a_verifier": false,
@@ -384,6 +459,9 @@
       "Le siège de l'Assemblée nationale."
     ],
     "explication": "L'Hôtel de Matignon, à Paris, est le lieu de travail et la résidence du Premier ministre. Le Président travaille au palais de l'Élysée.",
+    "liens": [
+      {"titre": "Le rôle du Premier ministre (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19460-quel-est-le-role-du-premier-ministre-au-sein-du-gouvernement"}
+    ],
     "sous_theme": "executif",
     "difficulte": 2,
     "a_verifier": false,
@@ -399,6 +477,9 @@
       "Du Sénat et du Conseil d'État."
     ],
     "explication": "Le Parlement français a deux chambres : l'Assemblée nationale, avec les députés, et le Sénat, avec les sénateurs.",
+    "liens": [
+      {"titre": "Le Parlement (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19485-comment-definir-le-parlement"}
+    ],
     "sous_theme": "parlement",
     "difficulte": 1,
     "a_verifier": false,
@@ -413,7 +494,10 @@
       "Il dirige les tribunaux et juge les crimes.",
       "Il gère le budget des communes."
     ],
-    "explication": "Le Président veille au respect de la Constitution, nomme le Premier ministre, promulgue les lois et commande les forces armées.",
+    "explication": "Le Président veille au respect de la Constitution, nomme le Premier ministre, promulgue les lois et commande les forces armées (article 15 de la Constitution).",
+    "liens": [
+      {"titre": "Le rôle du Président (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/le-role-du-president"}
+    ],
     "sous_theme": "executif",
     "difficulte": 1,
     "a_verifier": false,
@@ -428,7 +512,10 @@
       "Nommer le Président de la République.",
       "Juger les ministres."
     ],
-    "explication": "Le Premier ministre dirige le Gouvernement et assure l'exécution des lois. Il est responsable devant l'Assemblée nationale.",
+    "explication": "Le Premier ministre dirige le Gouvernement et assure l'exécution des lois. Le Gouvernement est responsable devant l'Assemblée nationale.",
+    "liens": [
+      {"titre": "Le rôle du Premier ministre (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19460-quel-est-le-role-du-premier-ministre-au-sein-du-gouvernement"}
+    ],
     "sous_theme": "executif",
     "difficulte": 1,
     "a_verifier": false,
@@ -444,6 +531,9 @@
       "Le ministre de l'Intérieur."
     ],
     "explication": "Le Premier ministre est le chef du Gouvernement. Le Président de la République, lui, est le chef de l'État.",
+    "liens": [
+      {"titre": "Le rôle du Premier ministre (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19460-quel-est-le-role-du-premier-ministre-au-sein-du-gouvernement"}
+    ],
     "sous_theme": "executif",
     "difficulte": 1,
     "a_verifier": false,
@@ -458,7 +548,10 @@
       "27.",
       "50."
     ],
-    "explication": "La France compte 18 régions : 13 en métropole et 5 en outre-mer. Avant 2016, il y en avait 27.",
+    "explication": "La France compte 18 régions : 13 en métropole et 5 en outre-mer. Avant la réforme du 1er janvier 2016, il y en avait 27.",
+    "liens": [
+      {"titre": "Les collectivités locales en chiffres (collectivites-locales.gouv.fr)", "url": "https://www.collectivites-locales.gouv.fr/les-collectivites-locales-en-chiffres-2025"}
+    ],
     "sous_theme": "collectivites",
     "difficulte": 2,
     "a_verifier": false,
@@ -473,7 +566,10 @@
       "Voter les lois sur les droits de l'homme.",
       "Contrôler les comptes des communes."
     ],
-    "explication": "Le Défenseur des droits est une autorité indépendante. On peut le saisir gratuitement en cas de problème avec une administration ou de discrimination.",
+    "explication": "Le Défenseur des droits est une autorité indépendante, créée en 2011. On peut le saisir gratuitement en cas de problème avec une administration, de discrimination, d'atteinte aux droits d'un enfant ou de manquement d'un policier ou d'un gendarme.",
+    "liens": [
+      {"titre": "Le Défenseur des droits (defenseurdesdroits.fr)", "url": "https://www.defenseurdesdroits.fr/"}
+    ],
     "sous_theme": "justice",
     "difficulte": 2,
     "a_verifier": false,
@@ -488,7 +584,10 @@
       "Depuis 1995.",
       "Depuis 2008."
     ],
-    "explication": "Les pièces et les billets en euros sont utilisés en France depuis le 1er janvier 2002. L'euro existait déjà pour les banques depuis 1999.",
+    "explication": "Les pièces et les billets en euros sont utilisés en France depuis le 1er janvier 2002. L'euro existait déjà depuis le 1er janvier 1999, mais seulement pour les paiements sans espèces, comme les virements.",
+    "liens": [
+      {"titre": "L'euro (europa.eu)", "url": "https://european-union.europa.eu/institutions-law-budget/euro_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 1,
     "a_verifier": false,
@@ -503,7 +602,10 @@
       "Le vote des lois nationales.",
       "La célébration des mariages."
     ],
-    "explication": "Le département aide les personnes âgées, les personnes handicapées et les enfants en danger, et verse le revenu de solidarité active. Il gère aussi les collèges.",
+    "explication": "Le département aide les personnes âgées, les personnes handicapées et les enfants en danger. Il finance le revenu de solidarité active (RSA), que la CAF ou la MSA verse. Il gère aussi les collèges et les routes départementales.",
+    "liens": [
+      {"titre": "Écoles, collèges, lycées : qui fait quoi ? (vie-publique.fr)", "url": "https://www.vie-publique.fr/eclairage/288272-decentralisation-dans-leducation-quelle-repartition-des-competences"}
+    ],
     "sous_theme": "collectivites",
     "difficulte": 2,
     "a_verifier": false,
@@ -519,6 +621,9 @@
       "Fixer le montant des retraites."
     ],
     "explication": "La commune s'occupe de la vie de tous les jours : état civil, écoles maternelles et élémentaires, permis de construire, propreté.",
+    "liens": [
+      {"titre": "Les fonctions du maire (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19617-les-fonctions-dun-maire"}
+    ],
     "sous_theme": "collectivites",
     "difficulte": 1,
     "a_verifier": false,
@@ -533,7 +638,10 @@
       "Environ 10 000.",
       "Environ 100 000."
     ],
-    "explication": "La France compte environ 35 000 communes. C'est l'un des pays d'Europe qui en a le plus.",
+    "explication": "La France compte environ 35 000 communes (34 935 au 1er janvier 2024). C'est l'un des pays d'Europe qui en a le plus.",
+    "liens": [
+      {"titre": "Les collectivités locales en chiffres (collectivites-locales.gouv.fr)", "url": "https://www.collectivites-locales.gouv.fr/les-collectivites-locales-en-chiffres-2025"}
+    ],
     "sous_theme": "collectivites",
     "difficulte": 2,
     "a_verifier": false,
@@ -548,7 +656,10 @@
       "Le traité de Westphalie.",
       "Le traité de Francfort."
     ],
-    "explication": "Le traité de Maastricht, signé en 1992, a créé l'Union européenne.",
+    "explication": "Le traité de Maastricht, signé le 7 février 1992, a créé l'Union européenne. Avant lui, le traité de Rome de 1957 avait créé la Communauté économique européenne.",
+    "liens": [
+      {"titre": "Histoire de l'Union européenne (europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/history-eu_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 2,
     "a_verifier": false,
@@ -563,7 +674,10 @@
       "Le Danemark.",
       "L'Irlande."
     ],
-    "explication": "Après un référendum en 2016, le Royaume-Uni a quitté l'Union européenne le 31 janvier 2020. On appelle cela le Brexit.",
+    "explication": "Après un référendum le 23 juin 2016, le Royaume-Uni a quitté l'Union européenne le 31 janvier 2020. On appelle cela le Brexit.",
+    "liens": [
+      {"titre": "Les pays de l'Union européenne (europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 1,
     "a_verifier": false,
@@ -578,7 +692,10 @@
       "L'union fait la force.",
       "Paix, Travail, Progrès."
     ],
-    "explication": "La devise de l'Union européenne est « Unie dans la diversité ». « Liberté, Égalité, Fraternité » est la devise de la France.",
+    "explication": "La devise de l'Union européenne est « Unie dans la diversité ». Elle est utilisée depuis 2000. « Liberté, Égalité, Fraternité » est la devise de la France.",
+    "liens": [
+      {"titre": "Les symboles de l'Union européenne (europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/symbols_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 2,
     "a_verifier": false,
@@ -593,7 +710,10 @@
       "L'Internationale.",
       "Le Beau Danube bleu."
     ],
-    "explication": "L'hymne européen est l'Ode à la joie, extraite de la Neuvième symphonie de Beethoven.",
+    "explication": "L'hymne européen est l'Ode à la joie, extraite de la Neuvième symphonie de Ludwig van Beethoven. Il est joué sans paroles.",
+    "liens": [
+      {"titre": "Les symboles de l'Union européenne (europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/symbols_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 1,
     "a_verifier": false,
@@ -608,7 +728,10 @@
       "De 12 étoiles bleues sur fond jaune.",
       "D'une croix jaune sur fond bleu."
     ],
-    "explication": "Le drapeau européen a toujours 12 étoiles, quel que soit le nombre de pays membres.",
+    "explication": "Le drapeau européen a toujours 12 étoiles, quel que soit le nombre de pays membres. Le cercle d'étoiles est un symbole d'unité, de solidarité et d'harmonie entre les peuples d'Europe.",
+    "liens": [
+      {"titre": "Les symboles de l'Union européenne (europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/symbols_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 1,
     "a_verifier": false,
@@ -623,7 +746,10 @@
       "Vert.",
       "Blanc."
     ],
-    "explication": "Le drapeau européen a un fond bleu avec un cercle de 12 étoiles jaunes.",
+    "explication": "Le drapeau européen a un fond bleu avec un cercle de 12 étoiles dorées.",
+    "liens": [
+      {"titre": "Les symboles de l'Union européenne (europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/symbols_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 1,
     "a_verifier": false,
@@ -638,7 +764,10 @@
       "En 1986.",
       "En 2002."
     ],
-    "explication": "Le traité de Maastricht a été signé le 7 février 1992. Il a créé l'Union européenne.",
+    "explication": "Le traité de Maastricht a été signé le 7 février 1992 et il est entré en vigueur le 1er novembre 1993. Il a créé l'Union européenne.",
+    "liens": [
+      {"titre": "Histoire de l'Union européenne (europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/history-eu_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 2,
     "a_verifier": false,
@@ -653,7 +782,10 @@
       "À Genève.",
       "À Francfort."
     ],
-    "explication": "Le siège officiel du Parlement européen est à Strasbourg, en France.",
+    "explication": "Le siège officiel du Parlement européen est à Strasbourg, en France. Les grandes sessions de vote s'y déroulent. Il travaille aussi à Bruxelles et à Luxembourg.",
+    "liens": [
+      {"titre": "Le Parlement européen (europa.eu)", "url": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/european-parliament_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 2,
     "a_verifier": false,
@@ -668,7 +800,10 @@
       "À Genève.",
       "À Rome."
     ],
-    "explication": "La Commission européenne siège à Bruxelles, en Belgique.",
+    "explication": "La Commission européenne siège à Bruxelles, en Belgique. Elle propose les lois européennes et veille à leur application.",
+    "liens": [
+      {"titre": "La Commission européenne (europa.eu)", "url": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/european-commission_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 2,
     "a_verifier": false,
@@ -684,6 +819,9 @@
       "L'Autriche."
     ],
     "explication": "La Suisse n'est pas membre de l'Union européenne. La Norvège et l'Islande non plus. La Belgique, le Portugal et l'Autriche en font partie.",
+    "liens": [
+      {"titre": "Les pays de l'Union européenne (europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 2,
     "a_verifier": false,
@@ -698,7 +836,10 @@
       "Le 8 mai.",
       "Le 14 juillet."
     ],
-    "explication": "Le 9 mai rappelle la déclaration de Robert Schuman du 9 mai 1950, qui a lancé la construction européenne.",
+    "explication": "Le 9 mai rappelle la déclaration de Robert Schuman, ministre français des Affaires étrangères, le 9 mai 1950. Elle a lancé la construction européenne.",
+    "liens": [
+      {"titre": "La déclaration Schuman (europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59/schuman-declaration-may-1950_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 2,
     "a_verifier": false,
@@ -713,7 +854,10 @@
       "Tous les 6 ans.",
       "Tous les 7 ans."
     ],
-    "explication": "Les députés européens sont élus pour 5 ans. Les dernières élections ont eu lieu en 2024.",
+    "explication": "Les députés européens sont élus pour 5 ans. Les dernières élections ont eu lieu en juin 2024 : la France a élu 81 députés européens sur 720.",
+    "liens": [
+      {"titre": "Comment sont élus les députés européens ? (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/20338-comment-les-deputes-europeens-sont-ils-elus"}
+    ],
     "sous_theme": "elections",
     "difficulte": 2,
     "a_verifier": false,
@@ -728,7 +872,10 @@
       "Habiter en Europe depuis dix ans, quelle que soit sa nationalité.",
       "Parler au moins deux langues européennes."
     ],
-    "explication": "Les citoyens français et les citoyens des autres pays de l'Union qui vivent en France peuvent voter aux européennes, s'ils ont 18 ans et sont inscrits.",
+    "explication": "Les citoyens français et les citoyens des autres pays de l'Union qui vivent en France peuvent voter aux européennes, s'ils ont 18 ans et sont inscrits. Les citoyens européens s'inscrivent sur une liste électorale complémentaire, à la mairie.",
+    "liens": [
+      {"titre": "S'inscrire sur les listes électorales (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1367"}
+    ],
     "sous_theme": "europe",
     "difficulte": 2,
     "a_verifier": false,
@@ -743,7 +890,10 @@
       "Le Royaume-Uni.",
       "La Pologne."
     ],
-    "explication": "Les six pays fondateurs de la construction européenne, en 1957, sont la France, l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg.",
+    "explication": "Les six pays fondateurs sont la France, l'Allemagne de l'Ouest, l'Italie, la Belgique, les Pays-Bas et le Luxembourg. Ils ont signé le traité de Paris en 1951, puis le traité de Rome en 1957. L'Espagne est entrée en 1986 et la Pologne en 2004.",
+    "liens": [
+      {"titre": "Histoire de l'Union européenne (europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/history-eu_fr"}
+    ],
     "sous_theme": "europe",
     "difficulte": 2,
     "a_verifier": false,

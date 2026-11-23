@@ -9,6 +9,9 @@
       "Oui, mais seulement pendant les fêtes religieuses"
     ],
     "explication": "Les agents des services publics doivent respecter la neutralité religieuse : ils ne peuvent pas montrer leur religion pendant leur travail, même avec un petit signe. C'est une règle de la laïcité.",
+    "liens": [
+      {"titre": "Laïcité et neutralité (fonction-publique.gouv.fr)", "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "source": "Code général de la fonction publique, art. L121-2",
@@ -25,6 +28,9 @@
       "Vous devez revenir avec une autre personne"
     ],
     "explication": "La neutralité s'impose aux agents publics, pas aux usagers. Un usager peut porter un signe religieux dans un service public. Seul le fait de cacher entièrement son visage est interdit dans l'espace public.",
+    "liens": [
+      {"titre": "La laïcité (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "source": "Charte de la laïcité dans les services publics",
@@ -41,6 +47,9 @@
       "Non, sauf si d'autres élèves portent aussi un voile"
     ],
     "explication": "Depuis la loi du 15 mars 2004, les élèves des écoles, collèges et lycées publics ne peuvent pas porter de signes ou de tenues qui montrent clairement une appartenance religieuse (grand voile, kippa, grande croix…).",
+    "liens": [
+      {"titre": "La laïcité à l'école (conseil-etat.fr)", "url": "https://www.conseil-etat.fr/publications-colloques/rapports-d-activite/bilan-d-activite-2023/la-laicite-un-fondement-du-vivre-ensemble"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "source": "Code de l'éducation, art. L141-5-1 (loi du 15 mars 2004)",
@@ -72,7 +81,10 @@
       "L'enfant doit manger le plat servi, comme tous les autres",
       "L'enfant n'a plus le droit d'aller à la cantine"
     ],
-    "explication": "La cantine scolaire est un service facultatif. La commune peut proposer des repas de remplacement, mais aucune loi ne l'oblige à le faire. Le Conseil d'État l'a rappelé en 2020.",
+    "explication": "La cantine scolaire est un service facultatif. La commune peut proposer des repas de remplacement, mais aucune loi ne l'oblige à le faire. Le Conseil d'État l'a rappelé le 11 décembre 2020.",
+    "liens": [
+      {"titre": "Les menus de substitution (conseil-etat.fr)", "url": "https://www.conseil-etat.fr/actualites/les-menus-de-substitution-dans-les-cantines-scolaires-qui-ne-sont-qu-une-simple-faculte-pour-les-collectivites-territoriales-ne-sont-pas-contrair"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 3,
     "source": "Conseil d'État, 11 décembre 2020, Commune de Chalon-sur-Saône",
@@ -105,6 +117,9 @@
       "Il faut faire une déclaration officielle à la mairie"
     ],
     "explication": "La laïcité garantit la liberté de conscience : chacun peut croire, ne pas croire ou changer de religion. Personne ne peut obliger quelqu'un à garder une religion.",
+    "liens": [
+      {"titre": "La liberté religieuse (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/23873-quest-ce-que-la-liberte-religieuse"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "source": "Loi du 9 décembre 1905, art. 1 ; Déclaration de 1789, art. 10",
@@ -121,6 +136,9 @@
       "C'est interdit, sauf dans les journaux pour adultes"
     ],
     "explication": "En France, le blasphème n'est pas un délit : on peut critiquer ou caricaturer une religion. En revanche, insulter ou appeler à la haine contre des personnes à cause de leur religion est puni par la loi.",
+    "liens": [
+      {"titre": "La liberté d'expression (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/291568-quest-ce-que-la-liberte-dexpression"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "source": "Loi du 29 juillet 1881 sur la liberté de la presse",
@@ -137,6 +155,9 @@
       "Faire enregistrer la cérémonie chez un notaire"
     ],
     "explication": "En France, seul le mariage civil, célébré à la mairie, a une valeur légale. Un responsable religieux n'a pas le droit de célébrer un mariage religieux si le mariage civil n'a pas eu lieu avant.",
+    "liens": [
+      {"titre": "Mariage en France (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "source": "Code pénal, art. 433-21",
@@ -153,6 +174,9 @@
       "Oui, si le préfet donne son accord"
     ],
     "explication": "La loi de 1905 sépare les Églises et l'État : l'État et les communes ne paient pas les responsables religieux et ne financent pas les cultes. Il existe un régime particulier en Alsace-Moselle.",
+    "liens": [
+      {"titre": "La loi du 9 décembre 1905 (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/271400-la-loi-du-9-decembre-1905-de-separation-des-eglises-et-de-letat"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "source": "Loi du 9 décembre 1905, art. 2",
@@ -169,6 +193,9 @@
       "La loi ne s'applique qu'aux personnes sans religion"
     ],
     "explication": "La liberté religieuse existe, mais dans le respect de la loi. Personne ne peut invoquer sa religion pour ne pas respecter les règles communes.",
+    "liens": [
+      {"titre": "La laïcité (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "source": "Constitution du 4 octobre 1958, art. 1 ; loi du 24 août 2021",
@@ -185,6 +212,9 @@
       "L'école doit organiser un cours séparé pour lui"
     ],
     "explication": "Les élèves ne peuvent pas refuser un enseignement ou une activité obligatoire pour des raisons religieuses. Seule une raison médicale, avec un certificat, peut justifier une dispense de sport.",
+    "liens": [
+      {"titre": "La laïcité à l'école (conseil-etat.fr)", "url": "https://www.conseil-etat.fr/publications-colloques/rapports-d-activite/bilan-d-activite-2023/la-laicite-un-fondement-du-vivre-ensemble"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "source": "Circulaire du 18 mai 2004 relative à l'application de la loi du 15 mars 2004",
@@ -200,7 +230,10 @@
       "Oui, mais seulement dans son quartier",
       "Non, sauf pour les personnes de nationalité étrangère"
     ],
-    "explication": "Depuis la loi du 11 octobre 2010, personne ne peut porter dans l'espace public une tenue qui cache le visage. Il y a des exceptions : raisons de santé, travail, fêtes ou manifestations traditionnelles.",
+    "explication": "Depuis la loi du 11 octobre 2010, personne ne peut porter dans l'espace public une tenue qui cache le visage. Il y a des exceptions : raisons de santé, travail, sport, fêtes ou manifestations traditionnelles. L'amende peut aller jusqu'à 150 €.",
+    "liens": [
+      {"titre": "La loi du 11 octobre 2010 (vie-publique.fr)", "url": "https://www.vie-publique.fr/loi/20596-burqua-niqab-interdiction-dissimulation-du-visage-espace-public"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 2,
     "source": "Loi n° 2010-1192 du 11 octobre 2010",
@@ -217,6 +250,10 @@
       "Demander au maire de choisir un autre locataire"
     ],
     "explication": "Refuser un logement à cause de l'origine est une discrimination punie par la loi. Le Défenseur des droits peut vous aider gratuitement. Vous pouvez aussi porter plainte.",
+    "liens": [
+      {"titre": "Le Défenseur des droits (defenseurdesdroits.fr)", "url": "https://www.defenseurdesdroits.fr"},
+      {"titre": "Discrimination (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19448"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 1,
     "source": "Code pénal, art. 225-1 et 225-2",
@@ -233,6 +270,9 @@
       "Une règle normale si la salle est pleine"
     ],
     "explication": "Refuser l'accès à un lieu ou à un service à cause de l'origine, de la couleur de peau ou de la religion est une discrimination. C'est un délit puni d'amende et de prison.",
+    "liens": [
+      {"titre": "Discrimination (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19448"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 1,
     "source": "Code pénal, art. 225-1 et 225-2",
@@ -248,7 +288,10 @@
       "Oui, si d'autres clients ont peur des chiens",
       "Non, sauf si le chien n'a pas de muselière"
     ],
-    "explication": "Les chiens guides d'aveugle et les chiens d'assistance doivent être acceptés dans les transports, les magasins, les restaurants et les lieux ouverts au public. Le refus est puni d'une amende.",
+    "explication": "Les chiens guides d'aveugle et les chiens d'assistance doivent être acceptés dans les transports, les magasins, les restaurants et les lieux ouverts au public. Le refus est puni d'une amende jusqu'à 450 €.",
+    "liens": [
+      {"titre": "Chiens d'aveugle dans les magasins (justice.fr)", "url": "https://www.justice.fr/fiche/chiens-aveugle-admis-magasins"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 2,
     "source": "Loi n° 87-588 du 30 juillet 1987, art. 88",
@@ -265,6 +308,9 @@
       "Non, sauf si vous êtes de nationalité étrangère"
     ],
     "explication": "Un professionnel de santé ne peut pas refuser de soigner une personne parce qu'elle bénéficie de la complémentaire santé solidaire ou de l'aide médicale de l'État. Vous pouvez le signaler à votre caisse d'assurance maladie ou au Défenseur des droits.",
+    "liens": [
+      {"titre": "Le Défenseur des droits (defenseurdesdroits.fr)", "url": "https://www.defenseurdesdroits.fr"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 3,
     "source": "Code de la santé publique, art. L1110-3",
@@ -281,6 +327,9 @@
       "Inscrire l'enfant seulement s'il parle déjà français"
     ],
     "explication": "En France, l'instruction est obligatoire pour tous les enfants de 3 à 16 ans, quelle que soit leur nationalité ou la situation de leurs parents. La mairie ne peut pas refuser l'inscription pour cette raison.",
+    "liens": [
+      {"titre": "Inscrire son enfant à l'école (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1865"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 2,
     "source": "Code de l'éducation, art. L111-1 et L131-1",
@@ -297,6 +346,9 @@
       "Non, ils peuvent seulement vivre ensemble"
     ],
     "explication": "Depuis la loi du 17 mai 2013, deux personnes de même sexe peuvent se marier en France. Elles ont les mêmes droits que les autres couples mariés.",
+    "liens": [
+      {"titre": "Mariage en France (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 1,
     "source": "Loi n° 2013-404 du 17 mai 2013",
@@ -313,6 +365,9 @@
       "Seulement en parler à votre employeur"
     ],
     "explication": "Une injure publique à cause de l'origine, de la religion ou de la couleur de peau est un délit. Vous pouvez porter plainte au commissariat ou à la gendarmerie.",
+    "liens": [
+      {"titre": "Injure (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32077"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 1,
     "source": "Loi du 29 juillet 1881, art. 33",
@@ -329,6 +384,9 @@
       "Accepter, mais seulement pour les postes à responsabilité"
     ],
     "explication": "Choisir un salarié selon son origine est une discrimination interdite. L'entreprise qui le demande et l'agence qui l'accepte peuvent être toutes les deux punies.",
+    "liens": [
+      {"titre": "Discrimination (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19448"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 2,
     "source": "Code pénal, art. 225-2 ; Code du travail, art. L1132-1",
@@ -344,7 +402,11 @@
       "Demander l'autorisation au ministre de l'Intérieur",
       "Payer une taxe pour utiliser la voie publique"
     ],
-    "explication": "La liberté de manifester est protégée. Une manifestation sur la voie publique doit être déclarée à la mairie (ou à la préfecture de police à Paris) au moins 3 jours francs avant.",
+    "explication": "La liberté de manifester est protégée. Une manifestation sur la voie publique doit être déclarée entre 15 et 3 jours francs avant. On la déclare à la mairie, ou à la préfecture dans les villes où la police est nationale (à Paris, à la préfecture de police).",
+    "liens": [
+      {"titre": "Déclarer une manifestation (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21899"},
+      {"titre": "La liberté de manifestation (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/23886-en-quoi-consiste-la-liberte-de-manifestation"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 2,
     "source": "Code de la sécurité intérieure, art. L211-1 et L211-2",
@@ -361,6 +423,9 @@
       "Oui, mais seulement pendant les campagnes électorales"
     ],
     "explication": "La liberté d'expression permet de critiquer les responsables politiques. Elle a des limites : l'injure, la diffamation et l'appel à la haine sont punis par la loi.",
+    "liens": [
+      {"titre": "La liberté d'expression (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/291568-quest-ce-que-la-liberte-dexpression"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 1,
     "source": "Déclaration de 1789, art. 11 ; loi du 29 juillet 1881",
@@ -376,7 +441,11 @@
       "Il faut être de nationalité française",
       "Il faut au moins dix membres et un avocat"
     ],
-    "explication": "La liberté d'association est garantie par la loi de 1901. Deux personnes suffisent pour créer une association. Pour qu'elle ait une existence juridique (compte bancaire, subventions), on la déclare en préfecture ou en ligne.",
+    "explication": "La liberté d'association est garantie par la loi de 1901. Deux personnes suffisent pour créer une association. Pour qu'elle ait une existence juridique (compte bancaire, subventions), on la déclare au greffe des associations de la préfecture, ou en ligne.",
+    "liens": [
+      {"titre": "Créer une association (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1119"},
+      {"titre": "La loi de 1901 (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/24087-la-loi-du-1er-juillet-1901-relative-au-contrat-dassociation"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 2,
     "source": "Loi du 1er juillet 1901 relative au contrat d'association",
@@ -393,6 +462,9 @@
       "Seulement une suppression de votre compte"
     ],
     "explication": "Accuser publiquement une personne d'un fait qui porte atteinte à son honneur, sans pouvoir le prouver, est une diffamation. C'est puni par la loi, aussi sur internet.",
+    "liens": [
+      {"titre": "Diffamation (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32079"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 2,
     "source": "Loi du 29 juillet 1881, art. 29 et 32",
@@ -409,6 +481,9 @@
       "C'est interdit seulement dans les journaux"
     ],
     "explication": "Provoquer à la haine ou à la violence contre des personnes à cause de leur religion, de leur origine ou de leur sexe est un délit, sur internet comme ailleurs. On peut le signaler sur la plateforme officielle PHAROS.",
+    "liens": [
+      {"titre": "Signaler un contenu illicite : PHAROS (internet-signalement.gouv.fr)", "url": "https://www.internet-signalement.gouv.fr"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 1,
     "source": "Loi du 29 juillet 1881, art. 24",
@@ -425,6 +500,9 @@
       "Seulement avec une autorisation de la mairie"
     ],
     "explication": "La République garantit le libre exercice des cultes. Elle ne reconnaît aucune religion en particulier : toutes sont libres, dans les limites fixées par la loi pour protéger l'ordre public.",
+    "liens": [
+      {"titre": "La liberté religieuse (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/23873-quest-ce-que-la-liberte-religieuse"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 1,
     "source": "Loi du 9 décembre 1905, art. 1 et 2",
@@ -440,7 +518,10 @@
       "La perte automatique de sa nationalité française",
       "Une simple remarque du maire"
     ],
-    "explication": "Outrager publiquement l'hymne national ou le drapeau tricolore lors d'une manifestation organisée par les autorités publiques est un délit puni de 7 500 € d'amende.",
+    "explication": "Outrager publiquement l'hymne national ou le drapeau tricolore lors d'une manifestation organisée ou réglementée par les autorités publiques est un délit puni de 7 500 € d'amende.",
+    "liens": [
+      {"titre": "La Marseillaise (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 2,
     "source": "Code pénal, art. 433-5-1",
@@ -457,6 +538,9 @@
       "C'est la fête de l'Union européenne"
     ],
     "explication": "Le 14 juillet est la fête nationale. Il rappelle la prise de la Bastille (14 juillet 1789) et la fête de la Fédération (14 juillet 1790). La fin de la Seconde Guerre mondiale en Europe est fêtée le 8 mai.",
+    "liens": [
+      {"titre": "La fête nationale du 14 juillet (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "source": "Loi du 6 juillet 1880",
@@ -473,6 +557,9 @@
       "L'épouse du premier Président de la République"
     ],
     "explication": "Marianne est une figure symbolique de la République française. Elle porte souvent un bonnet phrygien, symbole de liberté. Son buste est présent dans beaucoup de mairies.",
+    "liens": [
+      {"titre": "Marianne (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/marianne"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "source": "elysee.fr : les symboles de la République",
@@ -489,6 +576,9 @@
       "Liberté, Sécurité, Solidarité"
     ],
     "explication": "« Liberté, Égalité, Fraternité » est la devise de la République, inscrite dans la Constitution. On la voit sur les mairies et les écoles publiques. « Travail, Famille, Patrie » était la devise du régime de Vichy (1940-1944).",
+    "liens": [
+      {"titre": "Liberté, Égalité, Fraternité (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/liberte-egalite-fraternite"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "source": "Constitution du 4 octobre 1958, art. 2",
@@ -505,6 +595,9 @@
       "Oui, s'il est inscrit dans une association locale"
     ],
     "explication": "Aux élections municipales, peuvent voter les Français et les citoyens des autres pays de l'Union européenne qui vivent en France. Les autres étrangers ne peuvent pas voter, même avec une carte de résident.",
+    "liens": [
+      {"titre": "Vote d'un citoyen européen en France (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34852"}
+    ],
     "sous_theme": "citoyennete",
     "difficulte": 2,
     "source": "Constitution, art. 88-3 ; Code électoral, art. LO227-1",
@@ -521,6 +614,9 @@
       "À aucune élection en France"
     ],
     "explication": "Les citoyens de l'Union européenne qui vivent en France peuvent voter aux élections municipales et européennes, s'ils sont inscrits sur les listes électorales complémentaires. Ils ne votent pas à la présidentielle ni aux législatives.",
+    "liens": [
+      {"titre": "Vote d'un citoyen européen en France (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34852"}
+    ],
     "sous_theme": "citoyennete",
     "difficulte": 2,
     "source": "Constitution, art. 88-3 ; service-public.fr : vote des citoyens européens",
@@ -552,7 +648,10 @@
       "En votant par SMS",
       "En votant le lendemain à la mairie"
     ],
-    "explication": "Si vous ne pouvez pas aller voter, vous pouvez désigner un autre électeur qui votera pour vous : c'est la procuration. On la fait au commissariat, à la gendarmerie, ou en ligne sur maprocuration.gouv.fr puis avec une vérification d'identité.",
+    "explication": "Si vous ne pouvez pas aller voter, vous pouvez désigner un autre électeur qui votera pour vous : c'est la procuration. On la demande en ligne sur maprocuration.gouv.fr, puis on vérifie son identité au commissariat ou à la gendarmerie. Avec l'identité numérique France Identité, tout peut se faire en ligne.",
+    "liens": [
+      {"titre": "Vote par procuration (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1604"}
+    ],
     "sous_theme": "citoyennete",
     "difficulte": 1,
     "source": "Code électoral, art. L71 et suivants",
@@ -584,7 +683,11 @@
       "Demander sa carte d'électeur",
       "Passer un examen de citoyenneté"
     ],
-    "explication": "Tout jeune Français doit se faire recenser à la mairie (ou en ligne) dans les 3 mois après ses 16 ans. Il est ensuite convoqué à la Journée défense et citoyenneté (JDC). L'attestation est demandée pour certains examens, comme le permis de conduire ou le baccalauréat.",
+    "explication": "Tout jeune Français doit se faire recenser à la mairie (ou en ligne) dans les 3 mois après ses 16 ans. Il est ensuite convoqué à la Journée défense et citoyenneté (JDC). Avant 18 ans, l'attestation de recensement est demandée pour certains examens, comme le baccalauréat. Ensuite, il faut le certificat de la JDC, aussi pour le permis de conduire.",
+    "liens": [
+      {"titre": "Recensement citoyen (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F870"},
+      {"titre": "Journée défense et citoyenneté (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F871"}
+    ],
     "sous_theme": "citoyennete",
     "difficulte": 2,
     "source": "Code du service national, art. L113-1",
@@ -601,6 +704,9 @@
       "Un stage en entreprise non payé"
     ],
     "explication": "Le service civique permet aux jeunes de 16 à 25 ans (30 ans pour les jeunes en situation de handicap) de faire une mission d'intérêt général de 6 à 12 mois, avec une indemnité. C'est une forme d'engagement citoyen.",
+    "liens": [
+      {"titre": "Service civique (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13278"}
+    ],
     "sous_theme": "citoyennete",
     "difficulte": 2,
     "source": "Code du service national, art. L120-1",
@@ -617,6 +723,9 @@
       "Le 3949, le numéro de France Travail"
     ],
     "explication": "Le 115 (Samu social) est gratuit et répond jour et nuit pour aider les personnes sans abri. Si la personne est inconsciente ou en danger immédiat, appelez le 15 ou le 112. Aider les autres, c'est la fraternité.",
+    "liens": [
+      {"titre": "Numéros d'urgence (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"}
+    ],
     "sous_theme": "valeurs",
     "difficulte": 2,
     "source": "service-public.fr : numéros d'urgence",
@@ -649,6 +758,9 @@
       "L'indivisibilité"
     ],
     "explication": "La fraternité, c'est la solidarité et l'entraide entre tous, sans distinction. Elle fait partie de la devise « Liberté, Égalité, Fraternité ».",
+    "liens": [
+      {"titre": "Liberté, Égalité, Fraternité (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/liberte-egalite-fraternite"}
+    ],
     "sous_theme": "valeurs",
     "difficulte": 1,
     "source": "Constitution du 4 octobre 1958, art. 2",
@@ -681,6 +793,9 @@
       "Seuls les Français de naissance sont égaux devant la loi"
     ],
     "explication": "L'article 1er de la Constitution dit que la République « assure l'égalité devant la loi de tous les citoyens sans distinction d'origine, de race ou de religion ». Les personnes qui ont peu d'argent peuvent obtenir l'aide juridictionnelle pour payer un avocat.",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "valeurs",
     "difficulte": 1,
     "source": "Constitution du 4 octobre 1958, art. 1",
@@ -713,6 +828,9 @@
       "Oui, si elle parle aussi des autres religions"
     ],
     "explication": "Les enseignants de l'école publique sont des agents publics. Ils doivent respecter la neutralité religieuse et ne peuvent pas faire de propagande pour une religion ou une opinion. Ils peuvent enseigner le fait religieux de manière objective, dans le cadre des programmes.",
+    "liens": [
+      {"titre": "Laïcité et neutralité (fonction-publique.gouv.fr)", "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "source": "Code général de la fonction publique, art. L121-2 ; Charte de la laïcité à l'École",

@@ -8,7 +8,10 @@
       "La liberté est arrivée",
       "Le jour de la fête est venu"
     ],
-    "explication": "La Marseillaise commence par « Allons enfants de la patrie, le jour de gloire est arrivé ». Elle a été écrite par Rouget de Lisle en 1792 et c'est l'hymne national.",
+    "explication": "La Marseillaise commence par « Allons enfants de la patrie, le jour de gloire est arrivé ». Elle a été écrite par Claude-Joseph Rouget de Lisle à Strasbourg, en avril 1792. C'est l'hymne national.",
+    "liens": [
+      {"titre": "La Marseillaise (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -24,6 +27,9 @@
       "Des questions sur son origine et celle de ses parents"
     ],
     "explication": "Un employeur peut seulement poser des questions liées au poste : compétences, diplômes, expérience. Interroger un candidat sur sa religion, sa famille ou son origine est une discrimination interdite.",
+    "liens": [
+      {"titre": "Discrimination (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19448"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 2,
     "a_verifier": false,
@@ -39,6 +45,9 @@
       "Obligatoire uniquement pour les propriétaires"
     ],
     "explication": "Chaque année, toute personne qui a des revenus en France doit les déclarer, même si elle ne paie finalement pas d'impôt.",
+    "liens": [
+      {"titre": "Déclaration de revenus (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F358"}
+    ],
     "sous_theme": "citoyennete",
     "difficulte": 2,
     "a_verifier": false,
@@ -69,6 +78,10 @@
       "Une obligation pour chaque habitant d'une commune"
     ],
     "explication": "La loi du 1er juillet 1901 permet à toute personne, française ou étrangère, de créer une association ou d'en devenir membre. Une simple déclaration suffit, aucune autorisation n'est demandée.",
+    "liens": [
+      {"titre": "La loi de 1901 (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/24087-la-loi-du-1er-juillet-1901-relative-au-contrat-dassociation"},
+      {"titre": "Créer une association (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1119"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 2,
     "a_verifier": false,
@@ -84,6 +97,9 @@
       "Réservée aux journalistes et aux élus"
     ],
     "explication": "La liberté d'expression existe aussi sur internet, mais elle a des limites : l'injure, la diffamation, l'appel à la haine ou à la violence sont punis par la loi.",
+    "liens": [
+      {"titre": "La liberté d'expression (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/291568-quest-ce-que-la-liberte-dexpression"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 1,
     "a_verifier": false,
@@ -99,6 +115,9 @@
       "Geneviève"
     ],
     "explication": "Marianne est une figure de femme qui représente la République française. On voit son buste dans les mairies et son visage sur les timbres.",
+    "liens": [
+      {"titre": "Marianne (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/marianne"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -114,6 +133,9 @@
       "La couronne royale"
     ],
     "explication": "Le drapeau tricolore est l'emblème national prévu par l'article 2 de la Constitution. La fleur de lys et la couronne sont des symboles de la royauté, l'aigle est celui de l'Empire.",
+    "liens": [
+      {"titre": "Le drapeau français (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/le-drapeau-francais"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -128,7 +150,10 @@
       "Sur les plaques d'immatriculation des voitures",
       "Sur les panneaux de signalisation routière"
     ],
-    "explication": "La devise « Liberté, Égalité, Fraternité » est inscrite sur le fronton des bâtiments publics : mairies, écoles, tribunaux. On la trouve aussi sur certaines pièces de monnaie françaises.",
+    "explication": "Depuis le 14 juillet 1880, la devise « Liberté, Égalité, Fraternité » est inscrite sur le fronton des bâtiments publics : mairies, écoles, tribunaux. On la trouve aussi sur les pièces françaises de 1 et 2 euros.",
+    "liens": [
+      {"titre": "Liberté, Égalité, Fraternité (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/liberte-egalite-fraternite"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -143,7 +168,10 @@
       "La Marseillaise, la couronne royale et le 14 Juillet",
       "La devise, la tour Eiffel et le drapeau tricolore"
     ],
-    "explication": "La Constitution cite le drapeau, l'hymne et la devise. Marianne et le 14 Juillet sont aussi des symboles de la République. La fleur de lys, la couronne et la tour Eiffel n'en font pas partie.",
+    "explication": "L'article 2 de la Constitution cite la langue française, le drapeau, l'hymne et la devise. Marianne et le 14 Juillet sont aussi des symboles de la République. La fleur de lys, la couronne et la tour Eiffel n'en font pas partie.",
+    "liens": [
+      {"titre": "Les symboles de la République (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/19564-quels-sont-les-symboles-et-les-emblemes-de-la-ve-republique"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 2,
     "a_verifier": false,
@@ -158,7 +186,10 @@
       "Oui, si c'est pendant une manifestation",
       "Oui, si le drapeau appartient à la personne"
     ],
-    "explication": "Outrager le drapeau tricolore en public, par exemple le brûler ou le détruire, est puni d'une amende, et d'une peine plus lourde pendant une manifestation.",
+    "explication": "Brûler ou détruire le drapeau tricolore dans un lieu public, pour l'outrager, est puni d'une amende jusqu'à 1 500 €. Pendant une manifestation organisée ou encadrée par les autorités publiques, c'est un délit puni de 7 500 € d'amende.",
+    "liens": [
+      {"titre": "Le drapeau français (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/le-drapeau-francais"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 2,
     "a_verifier": false,
@@ -173,7 +204,10 @@
       "En 1905",
       "En 1968"
     ],
-    "explication": "La Sécurité sociale a été créée en 1945, à la fin de la Seconde Guerre mondiale. Elle protège chacun face à la maladie, la vieillesse ou les accidents : c'est un exemple de fraternité et de République sociale.",
+    "explication": "La Sécurité sociale a été créée par les ordonnances des 4 et 19 octobre 1945, à la fin de la Seconde Guerre mondiale. Elle protège chacun face à la maladie, la vieillesse ou les accidents : c'est un exemple de fraternité et de République sociale.",
+    "liens": [
+      {"titre": "Les ordonnances de 1945 (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/24137-fondation-securite-sociale-ordonnances-1945-regime-unique"}
+    ],
     "sous_theme": "valeurs",
     "difficulte": 2,
     "a_verifier": false,
@@ -188,7 +222,10 @@
       "La naissance de l'empereur Napoléon Bonaparte",
       "La signature de la Constitution de la Ve République"
     ],
-    "explication": "Le 14 Juillet rappelle la prise de la Bastille le 14 juillet 1789 et la fête de la Fédération le 14 juillet 1790, qui a célébré l'unité de la Nation.",
+    "explication": "Le 14 Juillet rappelle la prise de la Bastille le 14 juillet 1789 et la fête de la Fédération le 14 juillet 1790, qui a célébré l'unité de la Nation. C'est la fête nationale depuis la loi du 6 juillet 1880.",
+    "liens": [
+      {"titre": "La fête nationale du 14 juillet (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 2,
     "a_verifier": false,
@@ -204,6 +241,9 @@
       "Un chapeau haut de forme"
     ],
     "explication": "Marianne porte un bonnet phrygien, souvent rouge. Pendant la Révolution, ce bonnet était un symbole de liberté.",
+    "liens": [
+      {"titre": "Marianne (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/marianne"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -219,6 +259,9 @@
       "L'obligation de partager la même religion"
     ],
     "explication": "La fraternité, c'est voir l'autre comme un semblable et l'aider, malgré les différences. Penser librement correspond à la liberté, et les mêmes droits correspondent à l'égalité.",
+    "liens": [
+      {"titre": "Liberté, Égalité, Fraternité (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/liberte-egalite-fraternite"}
+    ],
     "sous_theme": "valeurs",
     "difficulte": 1,
     "a_verifier": false,
@@ -234,6 +277,9 @@
       "La fleur de lys"
     ],
     "explication": "Le coq est un symbole très populaire de la France, surtout dans le sport. Il n'est pas cité dans la Constitution, mais il figure sur le maillot de l'équipe de France.",
+    "liens": [
+      {"titre": "Le coq (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/le-coq"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -249,6 +295,9 @@
       "Ensemble, plus forts"
     ],
     "explication": "La devise de l'Union européenne est « Unie dans la diversité ». « Liberté, Égalité, Fraternité » est la devise de la République française.",
+    "liens": [
+      {"titre": "Devise de l'UE (europa.eu)", "url": "https://european-union.europa.eu/principles-countries-history/symbols/eu-motto_fr"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 2,
     "a_verifier": false,
@@ -263,7 +312,10 @@
       "Unie dans la diversité",
       "Liberté, Justice, Solidarité"
     ],
-    "explication": "La devise de la République est « Liberté, Égalité, Fraternité », inscrite à l'article 2 de la Constitution. « Travail, Famille, Patrie » était la devise du régime de Vichy pendant la Seconde Guerre mondiale.",
+    "explication": "La devise de la République est « Liberté, Égalité, Fraternité », inscrite à l'article 2 de la Constitution. « Travail, Famille, Patrie » était la devise du régime de Vichy (1940-1944), pendant la Seconde Guerre mondiale.",
+    "liens": [
+      {"titre": "Liberté, Égalité, Fraternité (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/liberte-egalite-fraternite"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -279,6 +331,9 @@
       "Un droit réservé aux personnes de nationalité française"
     ],
     "explication": "Une association réunit des personnes autour d'un projet commun, sans chercher à faire des bénéfices à partager. Elle est régie par la loi du 1er juillet 1901 et ouverte aux Français comme aux étrangers.",
+    "liens": [
+      {"titre": "La loi de 1901 (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/24087-la-loi-du-1er-juillet-1901-relative-au-contrat-dassociation"}
+    ],
     "sous_theme": "libertes",
     "difficulte": 1,
     "a_verifier": false,
@@ -294,6 +349,9 @@
       "Un droit réservé aux personnes qui ont un travail"
     ],
     "explication": "Selon l'article 4 de la Déclaration des droits de l'homme et du citoyen de 1789, la liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui. Ses limites sont fixées par la loi.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "valeurs",
     "difficulte": 1,
     "a_verifier": false,
@@ -308,7 +366,10 @@
       "Indivisible, chrétienne, démocratique et sociale",
       "Indivisible, laïque, monarchique et libérale"
     ],
-    "explication": "L'article 1er de la Constitution de 1958 dit : « La France est une République indivisible, laïque, démocratique et sociale. »",
+    "explication": "L'article 1er de la Constitution du 4 octobre 1958 dit : « La France est une République indivisible, laïque, démocratique et sociale. »",
+    "liens": [
+      {"titre": "La Constitution de 1958 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"}
+    ],
     "sous_theme": "valeurs",
     "difficulte": 2,
     "a_verifier": false,
@@ -323,7 +384,11 @@
       "Sur les tickets de cinéma",
       "Sur les étiquettes des produits alimentaires"
     ],
-    "explication": "Le visage de Marianne figure sur les timbres, sur les pièces de 1, 2 et 5 centimes d'euro françaises et sur le logo des documents de l'administration. Les billets en euros sont communs à toute l'Europe et ne la montrent pas.",
+    "explication": "Le visage de Marianne figure sur les timbres, sur les pièces de 1, 2 et 5 centimes d'euro françaises et sur le logo des documents de l'administration. Les billets en euros sont communs à toute la zone euro et ne la montrent pas.",
+    "liens": [
+      {"titre": "Marianne (elysee.fr)", "url": "https://www.elysee.fr/la-presidence/marianne"},
+      {"titre": "Les pièces françaises (europa.eu)", "url": "https://www.ecb.europa.eu/euro/coins/html/fr.fr.html"}
+    ],
     "sous_theme": "symboles",
     "difficulte": 1,
     "a_verifier": false,
@@ -339,6 +404,9 @@
       "Les personnes riches ont plus de droits devant la loi"
     ],
     "explication": "L'égalité signifie que la loi est la même pour tous, sans distinction d'origine, de religion ou de sexe. Cela ne veut pas dire que tout le monde a le même salaire.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "valeurs",
     "difficulte": 1,
     "a_verifier": false,
@@ -354,6 +422,9 @@
       "Non, sauf avec l'autorisation d'un juge"
     ],
     "explication": "En France, chacun est libre de croire, de ne pas croire ou de changer de religion. Personne n'a besoin d'une autorisation pour cela.",
+    "liens": [
+      {"titre": "La liberté religieuse (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/23873-quest-ce-que-la-liberte-religieuse"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -369,6 +440,9 @@
       "L'État paie les responsables de toutes les religions"
     ],
     "explication": "La neutralité veut dire que l'État n'a pas de religion. Il ne favorise aucun culte et les services publics traitent tous les usagers de la même manière, quelle que soit leur croyance.",
+    "liens": [
+      {"titre": "La laïcité (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "a_verifier": false,
@@ -384,6 +458,9 @@
       "Passer l'examen du permis de conduire"
     ],
     "explication": "À la mairie, on peut se marier civilement, déclarer une naissance ou s'inscrire sur les listes électorales. Le mariage religieux se fait dans un lieu de culte, et seulement après le mariage civil.",
+    "liens": [
+      {"titre": "Mariage en France (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -399,6 +476,9 @@
       "La publicité pour une religion"
     ],
     "explication": "La République ne finance pas les cultes. Mais elle peut payer l'entretien ou la restauration de bâtiments religieux classés, car ils font partie du patrimoine de tous.",
+    "liens": [
+      {"titre": "L'État et les cultes (vie-publique.fr)", "url": "https://www.vie-publique.fr/eclairage/20205-laicite-le-regime-de-separation-entre-letat-et-les-cultes"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 3,
     "a_verifier": false,
@@ -414,6 +494,9 @@
       "1958"
     ],
     "explication": "La loi de séparation des Églises et de l'État a été votée le 9 décembre 1905. C'est le texte fondateur de la laïcité en France.",
+    "liens": [
+      {"titre": "La loi du 9 décembre 1905 (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/271400-la-loi-du-9-decembre-1905-de-separation-des-eglises-et-de-letat"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -428,7 +511,10 @@
       "Elle interdit toutes les religions en France",
       "Elle oblige chacun à déclarer sa religion"
     ],
-    "explication": "La loi de 1905 garantit la liberté de conscience et le libre exercice des cultes. Elle précise que la République ne reconnaît, ne salarie et ne subventionne aucun culte.",
+    "explication": "La loi de 1905 garantit la liberté de conscience et le libre exercice des cultes. Elle précise que « la République ne reconnaît, ne salarie ni ne subventionne aucun culte ».",
+    "liens": [
+      {"titre": "La loi du 9 décembre 1905 (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/271400-la-loi-du-9-decembre-1905-de-separation-des-eglises-et-de-letat"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -444,6 +530,9 @@
       "L'obligation d'être athée pour voter"
     ],
     "explication": "La laïcité protège la liberté de chacun de croire ou de ne pas croire. L'État reste neutre et ne privilégie aucune religion.",
+    "liens": [
+      {"titre": "La laïcité (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -458,7 +547,10 @@
       "Le 8 mai",
       "Le 11 novembre"
     ],
-    "explication": "Le 9 décembre est la journée de la laïcité. Cette date rappelle le vote de la loi de séparation des Églises et de l'État, le 9 décembre 1905.",
+    "explication": "Le 9 décembre est la journée de la laïcité. Cette date rappelle la loi de séparation des Églises et de l'État du 9 décembre 1905.",
+    "liens": [
+      {"titre": "La loi du 9 décembre 1905 (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/271400-la-loi-du-9-decembre-1905-de-separation-des-eglises-et-de-letat"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "a_verifier": false,
@@ -473,7 +565,10 @@
       "Une grande croix portée sur les vêtements",
       "Une kippa portée pendant les cours"
     ],
-    "explication": "Depuis la loi du 15 mars 2004, les élèves des écoles, collèges et lycées publics ne peuvent pas porter de signes religieux ostensibles. Les signes discrets restent autorisés.",
+    "explication": "Depuis la loi du 15 mars 2004, les élèves des écoles, collèges et lycées publics ne peuvent pas porter de signes religieux ostensibles, comme un voile, une kippa ou une grande croix. Les signes discrets restent autorisés.",
+    "liens": [
+      {"titre": "La laïcité à l'école (conseil-etat.fr)", "url": "https://www.conseil-etat.fr/publications-colloques/rapports-d-activite/bilan-d-activite-2023/la-laicite-un-fondement-du-vivre-ensemble"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "a_verifier": false,
@@ -489,6 +584,9 @@
       "La misogynie"
     ],
     "explication": "L'antisémitisme désigne la haine ou les préjugés contre les Juifs. La xénophobie vise les étrangers, l'homophobie les personnes homosexuelles et la misogynie les femmes.",
+    "liens": [
+      {"titre": "Lutte contre le racisme et l'antisémitisme (dilcrah.gouv.fr)", "url": "https://www.dilcrah.gouv.fr"}
+    ],
     "sous_theme": "egalite",
     "difficulte": 1,
     "a_verifier": false,
@@ -504,6 +602,9 @@
       "La loi de 1901 sur les associations"
     ],
     "explication": "La loi du 9 décembre 1905 est le texte fondateur de la laïcité. Elle a mis fin au Concordat de 1801, qui organisait les liens entre l'État et l'Église catholique.",
+    "liens": [
+      {"titre": "La loi du 9 décembre 1905 (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/271400-la-loi-du-9-decembre-1905-de-separation-des-eglises-et-de-letat"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "a_verifier": false,
@@ -519,6 +620,9 @@
       "Les partis politiques"
     ],
     "explication": "L'État, les collectivités et tous les services publics doivent rester neutres en matière de religion. Les associations, les entreprises et les partis ne sont pas soumis à cette obligation de la même façon.",
+    "liens": [
+      {"titre": "Laïcité et neutralité (fonction-publique.gouv.fr)", "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -534,6 +638,9 @@
       "Le choix d'une religion officielle"
     ],
     "explication": "La laïcité sépare l'État et les religions. Elle garantit la liberté de conscience et permet de vivre ensemble, quelles que soient les croyances.",
+    "liens": [
+      {"titre": "La laïcité (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,
@@ -564,6 +671,9 @@
       "Les visiteurs et les patients des hôpitaux"
     ],
     "explication": "Les agents publics, par exemple les fonctionnaires, doivent être neutres : ils ne montrent pas leur religion au travail. Les usagers, eux, restent libres de porter un signe religieux.",
+    "liens": [
+      {"titre": "Laïcité et neutralité (fonction-publique.gouv.fr)", "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 2,
     "a_verifier": false,
@@ -579,6 +689,9 @@
       "Elle est pratiquante"
     ],
     "explication": "Une personne athée ne croit en aucun dieu. Le mot « laïque » ne décrit pas une croyance : il désigne la neutralité de l'État vis-à-vis des religions.",
+    "liens": [
+      {"titre": "La liberté religieuse (vie-publique.fr)", "url": "https://www.vie-publique.fr/fiches/23873-quest-ce-que-la-liberte-religieuse"}
+    ],
     "sous_theme": "laicite",
     "difficulte": 1,
     "a_verifier": false,

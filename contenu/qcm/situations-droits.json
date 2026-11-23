@@ -8,10 +8,13 @@
       "C'est permis si le mariage a lieu à l'étranger",
       "C'est permis si la fille signe un papier"
     ],
-    "explication": "En France, on ne peut se marier qu'à partir de 18 ans et avec son libre consentement. Forcer quelqu'un à se marier est puni par la loi. On peut demander de l'aide au 3919 ou à la police.",
+    "explication": "En France, on se marie en principe à partir de 18 ans, et toujours avec son libre consentement. Un mariage forcé peut être annulé, et les violences ou menaces pour forcer quelqu'un à se marier sont punies. On peut demander de l'aide au 3919 ou à la police.",
+    "liens": [
+      {"titre": "Le mariage forcé (arretonslesviolences.gouv.fr)", "url": "https://arretonslesviolences.gouv.fr/besoin-d-aide/mariage-precoce-ou-force"}
+    ],
     "sous_theme": "famille",
     "difficulte": 1,
-    "source": "Code civil, art. 144 et 146 ; Code pénal, art. 222-14-4",
+    "source": "Code civil, art. 144, 146 et 180",
     "a_verifier": false,
     "note": ""
   },
@@ -25,6 +28,9 @@
       "Oui, si les deux mariages ont lieu à la mairie"
     ],
     "explication": "On ne peut pas se marier une deuxième fois tant que le premier mariage n'est pas dissous (divorce ou décès). La bigamie est un délit. Un étranger polygame ne peut pas obtenir de carte de résident.",
+    "liens": [
+      {"titre": "Le mariage en France (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"}
+    ],
     "sous_theme": "famille",
     "difficulte": 1,
     "source": "Code civil, art. 147 ; Code pénal, art. 433-20",
@@ -41,6 +47,10 @@
       "J'envoie un courrier à la mairie"
     ],
     "explication": "Les violences dans le couple sont des délits graves. En cas de danger, appelez le 17 (police) ou le 112. Le 3919 est un numéro gratuit et anonyme pour écouter et conseiller les victimes. Ne rien faire peut être puni (non-assistance à personne en danger).",
+    "liens": [
+      {"titre": "Arrêtons les violences (arretonslesviolences.gouv.fr)", "url": "https://arretonslesviolences.gouv.fr/"},
+      {"titre": "Les numéros d'urgence (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"}
+    ],
     "sous_theme": "famille",
     "difficulte": 1,
     "source": "Code pénal, art. 222-13 et 223-6",
@@ -57,6 +67,9 @@
       "C'est permis jusqu'aux 10 ans de l'enfant"
     ],
     "explication": "Depuis la loi du 10 juillet 2019, le Code civil dit que l'autorité parentale s'exerce « sans violences physiques ou psychologiques ». Les punitions avec des coups, même légers, sont interdites.",
+    "liens": [
+      {"titre": "L'autorité parentale (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3132"}
+    ],
     "sous_theme": "famille",
     "difficulte": 2,
     "source": "Code civil, art. 371-1",
@@ -73,6 +86,9 @@
       "Oui, si l'enfant a plus de 6 ans"
     ],
     "explication": "En général, les deux parents exercent ensemble l'autorité parentale, même séparés. Les décisions importantes (école, santé, religion, déménagement loin) doivent être prises par les deux. En cas de désaccord, on peut saisir le juge aux affaires familiales.",
+    "liens": [
+      {"titre": "L'autorité parentale (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3132"}
+    ],
     "sous_theme": "famille",
     "difficulte": 2,
     "source": "Code civil, art. 372 et 373-2",
@@ -89,6 +105,9 @@
       "C'est permis si un médecin le fait"
     ],
     "explication": "L'excision est une mutilation interdite. Sur une enfant de moins de 15 ans, c'est un crime puni de 15 ans de réclusion, et de 20 ans si l'auteur est un parent. La loi française s'applique même si l'acte a lieu à l'étranger, quand la victime mineure vit habituellement en France.",
+    "liens": [
+      {"titre": "Les mutilations sexuelles (arretonslesviolences.gouv.fr)", "url": "https://arretonslesviolences.gouv.fr/besoin-d-aide/mutilations-sexuelles"}
+    ],
     "sous_theme": "famille",
     "difficulte": 2,
     "source": "Code pénal, art. 222-9, 222-10 et 222-16-2",
@@ -104,7 +123,10 @@
       "Il peut aller à l'école seulement s'il parle français",
       "Il doit attendre d'être propre pour être inscrit"
     ],
-    "explication": "Depuis 2019, l'instruction est obligatoire de 3 à 16 ans pour tous les enfants qui vivent en France. La plupart des enfants vont à l'école maternelle dès 3 ans.",
+    "explication": "Depuis la rentrée 2019, l'instruction est obligatoire de 3 à 16 ans pour tous les enfants qui vivent en France, français ou étrangers. La plupart des enfants vont à l'école maternelle dès 3 ans.",
+    "liens": [
+      {"titre": "L'instruction obligatoire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"}
+    ],
     "sous_theme": "famille",
     "difficulte": 1,
     "source": "Code de l'éducation, art. L131-1",
@@ -137,6 +159,9 @@
       "Aucune : l'hôpital fait tout automatiquement"
     ],
     "explication": "La naissance doit être déclarée à la mairie du lieu de naissance dans les 5 jours qui suivent l'accouchement. Parfois, une mairie annexe se trouve dans la maternité.",
+    "liens": [
+      {"titre": "La déclaration de naissance (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961"}
+    ],
     "sous_theme": "famille",
     "difficulte": 2,
     "source": "Code civil, art. 55",
@@ -153,6 +178,10 @@
       "Le 3646, l'Assurance maladie"
     ],
     "explication": "Le 119 est gratuit, anonyme et ouvert jour et nuit. Il reçoit les appels des enfants et des adultes inquiets pour un enfant. En cas de danger immédiat, appelez le 17 ou le 112.",
+    "liens": [
+      {"titre": "Le 119, Allô enfance en danger (allo119.gouv.fr)", "url": "https://www.allo119.gouv.fr/"},
+      {"titre": "Signaler un enfant en danger (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F781"}
+    ],
     "sous_theme": "famille",
     "difficulte": 1,
     "source": "Code de l'action sociale et des familles, art. L226-6",
@@ -168,7 +197,11 @@
       "Pour calculer le prix de la crèche",
       "C'est une demande facultative, sans règle"
     ],
-    "explication": "Pour les enfants nés depuis 2018, 11 vaccins sont obligatoires. Ils sont nécessaires pour entrer en crèche, à l'école ou dans toute collectivité d'enfants.",
+    "explication": "Pour les enfants nés depuis 2018, 11 vaccins sont obligatoires. Depuis le 1er janvier 2025, les vaccins contre les méningocoques B et ACWY sont aussi obligatoires pour les nourrissons. Ces vaccins sont nécessaires pour entrer en crèche, à l'école ou dans toute collectivité d'enfants.",
+    "liens": [
+      {"titre": "Les vaccins obligatoires du nourrisson (ameli.fr)", "url": "https://www.ameli.fr/assure/sante/themes/vaccination/vaccins-obligatoires"},
+      {"titre": "Le calendrier des vaccinations (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F724"}
+    ],
     "sous_theme": "famille",
     "difficulte": 2,
     "source": "Code de la santé publique, art. L3111-2",
@@ -201,6 +234,10 @@
       "La loi impose l'égalité seulement dans la fonction publique"
     ],
     "explication": "L'égalité de rémunération entre les femmes et les hommes est obligatoire : à travail égal, salaire égal. Vous pouvez en parler aux représentants du personnel, à l'inspection du travail ou au Défenseur des droits.",
+    "liens": [
+      {"titre": "La discrimination (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19448"},
+      {"titre": "Le Défenseur des droits (defenseurdesdroits.fr)", "url": "https://www.defenseurdesdroits.fr/"}
+    ],
     "sous_theme": "egalite_fh",
     "difficulte": 1,
     "source": "Code du travail, art. L3221-2",
@@ -217,6 +254,9 @@
       "Une faute seulement si vous êtes mariée"
     ],
     "explication": "Le harcèlement sexuel est un délit. La victime peut porter plainte, prévenir son employeur, l'inspection du travail ou le Défenseur des droits. L'employeur doit protéger ses salariés.",
+    "liens": [
+      {"titre": "Le harcèlement sexuel (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1043"}
+    ],
     "sous_theme": "egalite_fh",
     "difficulte": 1,
     "source": "Code pénal, art. 222-33 ; Code du travail, art. L1153-1",
@@ -232,7 +272,10 @@
       "C'est seulement de la drague, sans conséquence",
       "C'est interdit seulement la nuit"
     ],
-    "explication": "Depuis 2018, la loi punit l'outrage sexiste : des propos ou comportements à connotation sexuelle ou sexiste qui humilient ou intimident une personne. La victime ou les témoins peuvent appeler le 17.",
+    "explication": "La loi punit l'outrage sexiste et sexuel : des propos ou comportements à connotation sexuelle ou sexiste qui humilient ou intimident une personne. L'amende peut aller jusqu'à 1 500 euros, et plus dans les cas graves. La victime ou les témoins peuvent appeler le 17.",
+    "liens": [
+      {"titre": "L'outrage sexiste ou sexuel (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34550"}
+    ],
     "sous_theme": "egalite_fh",
     "difficulte": 2,
     "source": "Code pénal, art. R625-8-3 et 222-33-1-1",
@@ -248,7 +291,10 @@
       "Ses parents et le médecin ensemble",
       "Un juge, après une enquête"
     ],
-    "explication": "L'interruption volontaire de grossesse (IVG) est un droit, possible jusqu'à la fin de la 14e semaine de grossesse. Depuis 2024, la Constitution garantit la liberté de la femme d'y avoir recours.",
+    "explication": "L'interruption volontaire de grossesse (IVG) est un droit, possible jusqu'à la fin de la 14e semaine de grossesse. Depuis le 8 mars 2024, la Constitution garantit la liberté de la femme d'y avoir recours.",
+    "liens": [
+      {"titre": "L'IVG (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1551"}
+    ],
     "sous_theme": "egalite_fh",
     "difficulte": 2,
     "source": "Constitution, art. 34 ; Code de la santé publique, art. L2212-1",
@@ -265,6 +311,9 @@
       "Oui, mais seulement après 20 ans de mariage"
     ],
     "explication": "Chacun des époux peut demander le divorce, même si l'autre n'est pas d'accord. C'est le juge aux affaires familiales qui prononce alors le divorce.",
+    "liens": [
+      {"titre": "Le divorce par consentement mutuel (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10567"}
+    ],
     "sous_theme": "egalite_fh",
     "difficulte": 1,
     "source": "Code civil, art. 229",
@@ -281,6 +330,9 @@
       "Un congé seulement si vous êtes marié"
     ],
     "explication": "Le père, ou la personne qui vit en couple avec la mère, a droit à un congé de paternité et d'accueil de l'enfant. Il n'est pas nécessaire d'être marié.",
+    "liens": [
+      {"titre": "Le congé de paternité (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3156"}
+    ],
     "sous_theme": "egalite_fh",
     "difficulte": 2,
     "source": "Code du travail, art. L1225-35",
@@ -297,6 +349,9 @@
       "C'est permis si elle ne l'a pas dit tout de suite"
     ],
     "explication": "Un employeur ne peut pas refuser d'embaucher, licencier ou muter une femme à cause de sa grossesse. Une candidate n'a pas à dire qu'elle est enceinte.",
+    "liens": [
+      {"titre": "La discrimination (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19448"}
+    ],
     "sous_theme": "egalite_fh",
     "difficulte": 1,
     "source": "Code du travail, art. L1225-1 et L1225-2",
@@ -329,6 +384,9 @@
       "Oui, pendant les deux premières années"
     ],
     "explication": "Le SMIC (salaire minimum interprofessionnel de croissance) est le salaire horaire minimum en France. Un salarié majeur ne peut pas être payé moins, quelle que soit sa nationalité.",
+    "liens": [
+      {"titre": "Le Smic (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300"}
+    ],
     "sous_theme": "travail",
     "difficulte": 1,
     "source": "Code du travail, art. L3231-2",
@@ -345,6 +403,9 @@
       "Vous payer quand même pour les heures de grève"
     ],
     "explication": "Le droit de grève est garanti par la Constitution. L'employeur peut retenir le salaire des heures non travaillées, mais il ne peut pas sanctionner ou licencier un salarié parce qu'il a fait grève (sauf faute lourde).",
+    "liens": [
+      {"titre": "Le droit de grève (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F117"}
+    ],
     "sous_theme": "travail",
     "difficulte": 2,
     "source": "Préambule de 1946, alinéa 7 ; Code du travail, art. L2511-1",
@@ -361,6 +422,9 @@
       "Aucune la première année"
     ],
     "explication": "Chaque mois de travail donne droit à 2,5 jours ouvrables de congés payés, soit 30 jours ouvrables (5 semaines) pour une année complète.",
+    "liens": [
+      {"titre": "Les congés payés (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2258"}
+    ],
     "sous_theme": "travail",
     "difficulte": 1,
     "source": "Code du travail, art. L3141-3",
@@ -377,6 +441,9 @@
       "Rien, si la blessure n'est pas grave"
     ],
     "explication": "En cas d'accident du travail, le salarié doit informer son employeur dans la journée ou au plus tard dans les 24 heures. L'employeur doit ensuite le déclarer à la CPAM. Le salarié est alors mieux protégé.",
+    "liens": [
+      {"titre": "L'accident du travail (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F178"}
+    ],
     "sous_theme": "travail",
     "difficulte": 2,
     "source": "Code de la sécurité sociale, art. R441-2",
@@ -393,6 +460,9 @@
       "Oui, il suffit d'en donner un par an"
     ],
     "explication": "Le bulletin de paie (fiche de paie) est obligatoire. Il prouve votre travail et vos droits (retraite, chômage). Gardez-le toute votre vie.",
+    "liens": [
+      {"titre": "La fiche de paie (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F559"}
+    ],
     "sous_theme": "travail",
     "difficulte": 1,
     "source": "Code du travail, art. L3243-2",
@@ -409,6 +479,9 @@
       "C'est possible seulement après 5 ans dans l'entreprise"
     ],
     "explication": "La liberté syndicale est garantie par la Constitution. L'employeur ne peut pas tenir compte de l'appartenance à un syndicat pour embaucher, payer, promouvoir ou licencier.",
+    "liens": [
+      {"titre": "Le préambule de 1946 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/preambule-de-la-constitution-du-27-octobre-1946"}
+    ],
     "sous_theme": "travail",
     "difficulte": 1,
     "source": "Préambule de 1946, alinéa 6 ; Code du travail, art. L2141-5",
@@ -425,6 +498,9 @@
       "Le contrat est écrit seulement si le salarié le demande"
     ],
     "explication": "Le CDD doit être écrit et remis au salarié dans les 2 jours ouvrables après l'embauche. Sans écrit, il peut être considéré comme un CDI (contrat à durée indéterminée).",
+    "liens": [
+      {"titre": "Le contrat à durée déterminée (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36"}
+    ],
     "sous_theme": "travail",
     "difficulte": 3,
     "source": "Code du travail, art. L1242-12 et L1242-13",
@@ -441,6 +517,9 @@
       "L'envoyer à la préfecture dans le mois"
     ],
     "explication": "L'avis d'arrêt de travail doit être envoyé dans les 48 heures : les volets 1 et 2 à la caisse d'assurance maladie (CPAM), le volet 3 à l'employeur. Souvent, le médecin envoie lui-même les volets à la CPAM en ligne.",
+    "liens": [
+      {"titre": "L'arrêt maladie (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3053"}
+    ],
     "sous_theme": "travail",
     "difficulte": 2,
     "source": "Code de la sécurité sociale, art. R321-2",
@@ -473,6 +552,9 @@
       "Aucun droit avant le jugement"
     ],
     "explication": "En garde à vue, vous avez notamment le droit d'être assisté par un avocat, de garder le silence, d'être examiné par un médecin, de faire prévenir un proche et d'avoir un interprète si vous ne comprenez pas le français.",
+    "liens": [
+      {"titre": "La garde à vue (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14837"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "source": "Code de procédure pénale, art. 63-1",
@@ -489,6 +571,9 @@
       "Comme coupable s'il ne peut pas prouver son innocence"
     ],
     "explication": "C'est la présomption d'innocence : toute personne est considérée comme innocente tant que sa culpabilité n'a pas été prouvée et jugée par un tribunal.",
+    "liens": [
+      {"titre": "La Déclaration de 1789 (conseil-constitutionnel.fr)", "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 1,
     "source": "Déclaration de 1789, art. 9 ; Code civil, art. 9-1",
@@ -505,6 +590,9 @@
       "Payer le site internet pour qu'il la supprime"
     ],
     "explication": "Chacun a droit au respect de sa vie privée et de son image. Vous pouvez demander le retrait de la photo à la personne et au site. Sinon, vous pouvez saisir la justice.",
+    "liens": [
+      {"titre": "Le droit à l'image (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32103"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "source": "Code civil, art. 9 ; Code pénal, art. 226-1",
@@ -537,6 +625,10 @@
       "Il peut garder vos affaires jusqu'au paiement"
     ],
     "explication": "Pendant la trêve hivernale, du 1er novembre au 31 mars, les expulsions locatives sont suspendues (sauf exceptions). Une expulsion ne peut se faire qu'avec une décision de justice. Le propriétaire ne peut jamais expulser lui-même son locataire.",
+    "liens": [
+      {"titre": "La trêve hivernale (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34736"},
+      {"titre": "Loyers impayés et expulsion (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31272"}
+    ],
     "sous_theme": "droits_fondamentaux",
     "difficulte": 2,
     "source": "Code des procédures civiles d'exécution, art. L412-6",
@@ -553,6 +645,9 @@
       "À votre banque"
     ],
     "explication": "Le Défenseur des droits contrôle le respect de la déontologie par les forces de sécurité (police, gendarmerie, etc.). Vous pouvez aussi porter plainte ou faire un signalement à l'inspection de la police (IGPN) ou de la gendarmerie (IGGN).",
+    "liens": [
+      {"titre": "Le Défenseur des droits (defenseurdesdroits.fr)", "url": "https://www.defenseurdesdroits.fr/"}
+    ],
     "sous_theme": "justice_recours",
     "difficulte": 2,
     "source": "Loi organique n° 2011-333 du 29 mars 2011, art. 4",
@@ -569,6 +664,10 @@
       "Je prends seulement une photo pour les réseaux sociaux"
     ],
     "explication": "Il faut alerter les secours : le 15 (SAMU), le 18 (pompiers) ou le 112 (numéro d'urgence européen). Ne pas aider une personne en danger, alors qu'on peut le faire sans risque, est un délit.",
+    "liens": [
+      {"titre": "Les numéros d'urgence (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"},
+      {"titre": "La non-assistance à personne en danger (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34551"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 1,
     "source": "Code pénal, art. 223-6",
@@ -585,6 +684,10 @@
       "Payer une taxe pour ne pas y aller"
     ],
     "explication": "Être juré est un devoir citoyen pour les Français. Un juré absent sans motif valable peut recevoir une amende de 3 750 €.",
+    "liens": [
+      {"titre": "Juré d'assises (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1540"},
+      {"titre": "Peut-on refuser d'être juré ? (justice.fr)", "url": "https://www.justice.fr/fiche/jure-assises"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 2,
     "source": "Code de procédure pénale, art. 288",
@@ -601,6 +704,9 @@
       "Non, seulement si vous êtes propriétaire"
     ],
     "explication": "Toute personne qui a son domicile fiscal en France doit déclarer ses revenus chaque année. La déclaration est souvent utile pour obtenir des aides (logement, prestations sociales).",
+    "liens": [
+      {"titre": "La déclaration de revenus (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F358"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 2,
     "source": "Code général des impôts, art. 170",
@@ -617,6 +723,9 @@
       "Oui, mais seulement si vous avez des enfants"
     ],
     "explication": "Le locataire d'un logement vide doit s'assurer contre les risques locatifs (incendie, dégât des eaux, explosion) et en donner la preuve au propriétaire chaque année.",
+    "liens": [
+      {"titre": "L'assurance habitation du locataire (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31300"}
+    ],
     "sous_theme": "devoirs",
     "difficulte": 2,
     "source": "Loi n° 89-462 du 6 juillet 1989, art. 7",
@@ -681,6 +790,9 @@
       "Je vais à la préfecture pour faire une déclaration"
     ],
     "explication": "Une victime d'infraction peut porter plainte dans n'importe quel commissariat ou gendarmerie. On peut faire une pré-plainte en ligne pour gagner du temps. Le dépôt de plainte est gratuit.",
+    "liens": [
+      {"titre": "Porter plainte (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1435"}
+    ],
     "sous_theme": "justice_recours",
     "difficulte": 1,
     "source": "Code de procédure pénale, art. 15-3",
@@ -697,6 +809,9 @@
       "Un prêt à la banque de France"
     ],
     "explication": "L'aide juridictionnelle permet aux personnes qui ont de faibles revenus de faire payer par l'État tout ou partie des frais de justice et d'avocat.",
+    "liens": [
+      {"titre": "L'aide juridictionnelle (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18074"}
+    ],
     "sous_theme": "justice_recours",
     "difficulte": 1,
     "source": "Loi n° 91-647 du 10 juillet 1991",
@@ -713,6 +828,9 @@
       "À la Cour des comptes"
     ],
     "explication": "Les points-justice (dont les maisons de justice et du droit) offrent des informations et des conseils juridiques gratuits et confidentiels, avec des avocats, des juristes ou des associations.",
+    "liens": [
+      {"titre": "Consulter un avocat gratuitement (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20706"}
+    ],
     "sous_theme": "justice_recours",
     "difficulte": 2,
     "source": "justice.fr : points-justice",
@@ -729,6 +847,9 @@
       "Le Conseil constitutionnel"
     ],
     "explication": "Le conseil de prud'hommes règle les conflits entre un salarié et son employeur (salaire, licenciement, contrat de travail). Il cherche d'abord une conciliation.",
+    "liens": [
+      {"titre": "Saisir les prud'hommes (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2360"}
+    ],
     "sous_theme": "justice_recours",
     "difficulte": 1,
     "source": "Code du travail, art. L1411-1",
@@ -756,11 +877,14 @@
     "question": "Vous avez un désaccord avec votre voisin à propos d'une haie. Vous voulez éviter un procès. Qui peut vous aider gratuitement ?",
     "bonne_reponse": "Un conciliateur de justice",
     "distracteurs": [
-      "Un huissier, qui décide à la place du juge",
+      "Un commissaire de justice, qui décide à la place du juge",
       "Le préfet de votre département",
       "Le procureur de la République"
     ],
     "explication": "Le conciliateur de justice est un bénévole qui aide gratuitement à trouver un accord amiable dans les petits conflits (voisinage, consommation, location). On le trouve souvent à la mairie ou au tribunal.",
+    "liens": [
+      {"titre": "Le conciliateur de justice (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1736"}
+    ],
     "sous_theme": "justice_recours",
     "difficulte": 2,
     "source": "Décret n° 78-381 du 20 mars 1978",
@@ -777,6 +901,10 @@
       "La Cour des comptes"
     ],
     "explication": "Le Défenseur des droits est une autorité indépendante. Il aide gratuitement les victimes de discriminations, en ligne, par téléphone (3928) ou auprès de ses délégués présents dans chaque département.",
+    "liens": [
+      {"titre": "Le Défenseur des droits (defenseurdesdroits.fr)", "url": "https://www.defenseurdesdroits.fr/"},
+      {"titre": "La discrimination (service-public.gouv.fr)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19448"}
+    ],
     "sous_theme": "justice_recours",
     "difficulte": 1,
     "source": "Constitution, art. 71-1",

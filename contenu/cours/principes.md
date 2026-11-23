@@ -4,46 +4,46 @@ La France est une République. Elle repose sur des valeurs communes, inscrites d
 
 ## Les symboles de la République {#symboles}
 
-L'article 2 de la Constitution du 4 octobre 1958 cite plusieurs symboles officiels : la langue, le drapeau, l'hymne et la devise. Marianne et le 14 Juillet sont aussi des symboles de la République.
+L'article 2 de la [Constitution du 4 octobre 1958](https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur) cite plusieurs [symboles officiels](https://www.vie-publique.fr/fiches/19564-quels-sont-les-symboles-et-les-emblemes-de-la-ve-republique) : la langue, le drapeau, l'hymne et la devise. Marianne et le 14 Juillet sont aussi des symboles de la République.
 
 ### Le drapeau tricolore
 
-Le drapeau français est **bleu, blanc, rouge**. On l'appelle le drapeau tricolore. C'est l'emblème national.
+Le drapeau français est **bleu, blanc, rouge**. On l'appelle le [drapeau tricolore](https://www.elysee.fr/la-presidence/le-drapeau-francais). C'est l'emblème national.
 
-Le drapeau doit être respecté. **Brûler ou détruire le drapeau en public est interdit** et puni d'une amende. La peine est plus lourde si cela se passe pendant une manifestation.
+Le drapeau doit être respecté. **Brûler ou détruire le drapeau dans un lieu public, pour l'outrager, est interdit.** C'est puni d'une amende jusqu'à 1 500 €. Pendant une manifestation organisée ou encadrée par les autorités publiques, c'est un délit puni de 7 500 € d'amende.
 
 ### La Marseillaise
 
-La Marseillaise est **l'hymne national**. Elle a été écrite par Rouget de Lisle en 1792. Voici son début :
+La Marseillaise est **l'hymne national**. Elle a été [écrite par Claude-Joseph Rouget de Lisle](https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle) à Strasbourg, en avril 1792. Rouget de Lisle était alors officier dans l'armée. La Marseillaise devient chant national en 1795, puis hymne national en 1879. Voici son début :
 
 - « Allons enfants de la patrie, **le jour de gloire est arrivé** ! »
 - Le refrain commence par : « Aux armes, **citoyens** ! Formez vos bataillons ! »
 
 ### La devise
 
-La devise de la République est **« Liberté, Égalité, Fraternité »**. On la voit sur la façade des mairies, des écoles et des tribunaux. On la trouve aussi sur certaines pièces de monnaie françaises.
+La devise de la République est **[« Liberté, Égalité, Fraternité »](https://www.elysee.fr/la-presidence/liberte-egalite-fraternite)**. Depuis le 14 juillet 1880, on la voit sur la façade des mairies, des écoles et des tribunaux. On la trouve aussi sur les pièces françaises de 1 et 2 euros.
 
 Attention à ne pas confondre :
 
-- « Unie dans la diversité » est la devise de **l'Union européenne** ;
-- « Travail, Famille, Patrie » était la devise du **régime de Vichy**, pendant la Seconde Guerre mondiale. Ce n'est pas une devise de la République.
+- « Unie dans la diversité » est la [devise de **l'Union européenne**](https://european-union.europa.eu/principles-countries-history/symbols/eu-motto_fr) ;
+- « Travail, Famille, Patrie » était la devise du **régime de Vichy** (1940-1944), pendant la Seconde Guerre mondiale. Ce n'est pas une devise de la République.
 
 ### Marianne
 
-Marianne est une figure de femme qui **représente la République française** et ses valeurs. Elle porte un **bonnet phrygien**, souvent rouge. Pendant la Révolution, ce bonnet était un symbole de liberté.
+[Marianne](https://www.elysee.fr/la-presidence/marianne) est une figure de femme qui **représente la République française** et ses valeurs. Elle porte un **bonnet phrygien**, souvent rouge. Pendant la Révolution, ce bonnet était un symbole de liberté.
 
 On voit Marianne :
 
 - en buste, dans les mairies ;
 - sur les **timbres-poste** ;
-- sur les pièces de 1, 2 et 5 centimes d'euro françaises ;
-- sur le logo de l'État, présent sur les documents officiels et sur les sites internet de l'État, comme service-public.fr.
+- sur les [pièces de 1, 2 et 5 centimes d'euro françaises](https://www.ecb.europa.eu/euro/coins/html/fr.fr.html) ;
+- sur le logo de l'État, présent sur les documents officiels et sur les sites internet de l'État, comme [service-public.gouv.fr](https://www.service-public.gouv.fr).
 
-Les billets en euros sont communs à toute l'Europe. Ils ne montrent pas Marianne.
+Les billets en euros sont communs à toute la zone euro. Ils ne montrent pas Marianne.
 
 ### Le 14 Juillet
 
-Le 14 Juillet est la **fête nationale**. Il rappelle deux événements :
+Le 14 Juillet est la **[fête nationale](https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet)** depuis la loi du 6 juillet 1880. Il rappelle deux événements :
 
 - la **prise de la Bastille**, le 14 juillet 1789, au début de la Révolution ;
 - la **fête de la Fédération**, le 14 juillet 1790, qui a célébré l'unité de la Nation.
@@ -54,7 +54,7 @@ La Constitution dit : « La langue de la République est le français. » C'est 
 
 ### Le coq gaulois
 
-Le coq est un symbole très connu de la France, surtout dans le sport. On le voit sur le maillot de l'équipe de France de football. Mais il n'est pas cité dans la Constitution.
+Le [coq](https://www.elysee.fr/la-presidence/le-coq) est un symbole très connu de la France, surtout dans le sport. On le voit sur le maillot de l'équipe de France de football. Mais il n'est pas cité dans la Constitution.
 
 Les symboles de la royauté, comme la fleur de lys ou la couronne, ne sont pas des symboles de la République.
 
@@ -64,7 +64,7 @@ Les symboles de la royauté, comme la fleur de lys ou la couronne, ne sont pas d
 
 ### Une République indivisible, laïque, démocratique et sociale
 
-L'article 1er de la Constitution dit : **« La France est une République indivisible, laïque, démocratique et sociale. »**
+L'article 1er de la [Constitution](https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur) dit : **« La France est une République indivisible, laïque, démocratique et sociale. »**
 
 - **Indivisible** : la France forme un seul pays, avec les mêmes lois pour tous. Ce n'est pas un État fédéral.
 - **Laïque** : l'État est séparé des religions.
@@ -75,7 +75,7 @@ Le régime de la France est donc une **République démocratique**. Ce n'est ni 
 
 ### La liberté
 
-Selon l'article 4 de la Déclaration de 1789, **la liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui**. La liberté n'est donc pas sans limite. C'est la loi qui fixe ces limites.
+Selon l'article 4 de la [Déclaration des droits de l'homme et du citoyen de 1789](https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789), **la liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui**. La liberté n'est donc pas sans limite. C'est la loi qui fixe ces limites.
 
 ### L'égalité
 
@@ -85,7 +85,7 @@ L'égalité signifie que **tous les citoyens ont les mêmes droits et les mêmes
 
 La fraternité, c'est **la solidarité et l'entraide** entre les citoyens. C'est voir l'autre comme un semblable, malgré les différences.
 
-La **Sécurité sociale**, créée en **1945**, est un bon exemple de fraternité. Elle protège chacun face à la maladie, à la vieillesse ou aux accidents.
+La **Sécurité sociale**, créée par les [ordonnances des 4 et 19 octobre **1945**](https://www.vie-publique.fr/fiches/24137-fondation-securite-sociale-ordonnances-1945-regime-unique), est un bon exemple de fraternité. Elle protège chacun face à la maladie, à la vieillesse ou aux accidents.
 
 > **À retenir :** la France est une République indivisible, laïque, démocratique et sociale. La liberté, c'est faire tout ce qui ne nuit pas aux autres. L'égalité, ce sont les mêmes droits et devoirs pour tous. La fraternité, c'est la solidarité.
 
@@ -93,19 +93,19 @@ La **Sécurité sociale**, créée en **1945**, est un bon exemple de fraternit�
 
 ### La loi de 1905
 
-La laïcité est un principe essentiel de la République. Son texte fondateur est la **loi du 9 décembre 1905** de séparation des Églises et de l'État. Cette loi :
+La laïcité est un principe essentiel de la République. Son texte fondateur est la **[loi du 9 décembre 1905](https://www.vie-publique.fr/fiches/271400-la-loi-du-9-decembre-1905-de-separation-des-eglises-et-de-letat)** concernant la séparation des Églises et de l'État. Cette loi :
 
 - garantit la **liberté de conscience** ;
 - garantit le **libre exercice des cultes**, dans le respect de l'ordre public ;
-- dit que la République **ne reconnaît, ne salarie et ne subventionne aucun culte**.
+- dit que « la République **ne reconnaît, ne salarie ni ne subventionne aucun culte** ».
 
-Cette loi a mis fin au Concordat de 1801, qui organisait les liens entre l'État et l'Église catholique. Les départements d'Alsace et de Moselle gardent cependant un régime particulier.
+Cette loi a mis fin au [Concordat de 1801](https://www.vie-publique.fr/eclairage/20205-laicite-le-regime-de-separation-entre-letat-et-les-cultes), qui organisait les liens entre l'État et l'Église catholique. Les départements d'Alsace et de Moselle gardent cependant un régime particulier.
 
 Chaque année, le **9 décembre** est la **journée de la laïcité**.
 
 ### La liberté de conscience
 
-Grâce à la laïcité, chaque personne est libre :
+Grâce à la [laïcité](https://www.vie-publique.fr/fiches/276820-quelle-est-la-definition-de-la-laicite), chaque personne est [libre](https://www.vie-publique.fr/fiches/23873-quest-ce-que-la-liberte-religieuse) :
 
 - de croire en une religion ;
 - de **ne pas croire** : une personne qui ne croit en aucun dieu est **athée** ;
@@ -119,7 +119,7 @@ Attention : le mot « laïque » ne décrit pas une croyance personnelle. Il dé
 
 L'État **n'a pas de religion**. Il ne favorise aucun culte et traite tous les citoyens de la même manière.
 
-Cette neutralité s'impose à l'État, aux collectivités et à tous les services publics : mairies, préfectures, écoles, hôpitaux. **Les agents publics doivent être neutres** : ils ne montrent pas leur religion dans leur travail, pour traiter chaque usager à égalité.
+Cette neutralité s'impose à l'État, aux collectivités et à tous les services publics : mairies, préfectures, écoles, hôpitaux. **Les [agents publics](https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique) doivent être neutres** : ils ne montrent pas leur religion dans leur travail, pour traiter chaque usager à égalité.
 
 Les **usagers**, eux, restent libres. Dans une mairie, un usager peut porter un signe religieux, en respectant les règles du service. Il peut se marier civilement, déclarer une naissance ou s'inscrire sur les listes électorales. En revanche, un mariage religieux ou un baptême ne se font pas à la mairie.
 
@@ -132,7 +132,7 @@ L'État ne paie pas les cultes. Mais il peut financer **l'entretien ou la restau
 L'école publique est laïque. La laïcité protège la **liberté de conscience des élèves** et leur égalité. Elle les protège de toute pression religieuse.
 
 - Les **enseignants** et le personnel sont des agents publics : ils doivent être neutres.
-- Les **élèves** ne peuvent pas porter de signes religieux ostensibles, depuis la loi du 15 mars 2004. Les signes **discrets**, comme une petite croix ou une petite médaille, sont autorisés.
+- Les **élèves** ne peuvent pas porter de [signes religieux ostensibles](https://www.conseil-etat.fr/publications-colloques/rapports-d-activite/bilan-d-activite-2023/la-laicite-un-fondement-du-vivre-ensemble), comme un voile, une kippa ou une grande croix, depuis la loi du 15 mars 2004. Les signes **discrets**, comme une petite croix ou une petite médaille, sont autorisés.
 - Les **parents d'élèves** sont des usagers. Ils peuvent porter un signe religieux visible, par exemple quand ils accompagnent ou viennent chercher leurs enfants.
 
 La **charte de la laïcité à l'école**, affichée dans les écoles publiques depuis 2013, explique ces règles aux élèves. Elle rappelle aussi qu'un élève ne peut pas refuser un cours du programme au nom de sa religion.
@@ -143,19 +143,19 @@ La **charte de la laïcité à l'école**, affichée dans les écoles publiques 
 
 ### La liberté d'expression
 
-Chacun a le droit d'exprimer ses idées et ses opinions, et même de critiquer les institutions. Cette liberté existe aussi sur internet et sur les réseaux sociaux.
+Chacun a le [droit d'exprimer ses idées](https://www.vie-publique.fr/fiches/291568-quest-ce-que-la-liberte-dexpression) et ses opinions, et même de critiquer les institutions. Cette liberté existe aussi sur internet et sur les réseaux sociaux.
 
 Mais elle a des limites fixées par la loi. Sont interdits :
 
-- les **insultes** ;
-- les **fausses accusations** qui nuisent à une personne, appelées diffamation ;
+- les **insultes**, appelées [injures](https://www.service-public.gouv.fr/particuliers/vosdroits/F32077) ;
+- les **fausses accusations** qui nuisent à une personne, appelées [diffamation](https://www.service-public.gouv.fr/particuliers/vosdroits/F32079) ;
 - les **messages qui appellent à la haine ou à la violence**.
 
 ### La liberté d'association
 
-La liberté d'association est le droit de **créer une association ou d'en devenir membre**. Elle est encadrée par la **loi du 1er juillet 1901**. Une association réunit des personnes autour d'un projet commun, sportif, culturel ou solidaire, sans chercher à partager des bénéfices.
+La liberté d'association est le droit de **créer une association ou d'en devenir membre**. Elle est encadrée par la **[loi du 1er juillet 1901](https://www.vie-publique.fr/fiches/24087-la-loi-du-1er-juillet-1901-relative-au-contrat-dassociation)** relative au contrat d'association. Une association réunit des personnes autour d'un projet commun, sportif, culturel ou solidaire, sans chercher à partager des bénéfices.
 
-Pour créer une association, une simple déclaration suffit. Les étrangers ont aussi ce droit.
+Pour créer une association, il faut au moins deux personnes. Aucune autorisation n'est demandée : une simple [déclaration](https://www.service-public.gouv.fr/particuliers/vosdroits/F1119) suffit. Les étrangers ont aussi ce droit.
 
 ### La liberté de circulation
 
@@ -171,19 +171,19 @@ Chaque personne peut décider de son mode de vie, de ses relations, de ses proje
 
 ### Le refus des discriminations
 
-Une discrimination, c'est traiter une personne moins bien qu'une autre à cause de son origine, de son sexe, de sa religion, de son handicap ou de son apparence. **La loi punit les discriminations.**
+Une discrimination, c'est traiter une personne moins bien qu'une autre à cause de son origine, de son sexe, de sa religion, de son handicap ou de son apparence. **La loi punit les [discriminations](https://www.service-public.gouv.fr/particuliers/vosdroits/F19448).**
 
 L'État agit de plusieurs façons :
 
 - il vote des lois qui interdisent les discriminations ;
 - il punit les auteurs ;
-- il a créé le **Défenseur des droits**, qui aide gratuitement les victimes.
+- il a créé le **[Défenseur des droits](https://www.defenseurdesdroits.fr)**, qui aide gratuitement les victimes.
 
 Insulter publiquement une personne parce qu'elle est différente est **interdit et puni par la loi**.
 
 ### Le racisme et l'antisémitisme
 
-Le racisme est le rejet d'une personne à cause de son origine. **L'antisémitisme** désigne la haine ou les préjugés **contre les Juifs**. L'homophobie vise les personnes homosexuelles. Ces comportements sont contraires aux valeurs de la République.
+Le racisme est le rejet d'une personne à cause de son origine. **L'antisémitisme** désigne la haine ou les préjugés **contre les Juifs**. L'homophobie vise les personnes homosexuelles. Ces comportements sont contraires aux valeurs de la République. Une délégation interministérielle, la [DILCRAH](https://www.dilcrah.gouv.fr), coordonne la lutte contre le racisme, l'antisémitisme et la haine anti-LGBT.
 
 ### Au travail
 
@@ -207,30 +207,30 @@ Les femmes et les hommes ont **les mêmes droits**.
 Être citoyen, c'est participer à la vie collective. Par exemple :
 
 - **voter** aux élections, pour les personnes qui en ont le droit ;
-- **s'engager dans une association**, de quartier ou humanitaire ;
+- **s'engager dans une association**, de quartier ou humanitaire, ou faire un [service civique](https://www.service-public.gouv.fr/particuliers/vosdroits/F13278) ;
 - organiser une collecte pour une cause solidaire.
 
 ### Payer ses impôts
 
-**Déclarer ses revenus est une obligation** pour tous les contribuables, même pour ceux qui ne paient finalement pas d'impôt.
+**[Déclarer ses revenus](https://www.service-public.gouv.fr/particuliers/vosdroits/F358) est une obligation** pour tous les contribuables, même pour ceux qui ne paient finalement pas d'impôt.
 
 Les impôts **financent les services publics** : l'école, la santé, la sécurité, les routes. Ces services profitent à tous. Payer l'impôt est une forme de solidarité.
 
 ### Le titre de séjour
 
-Le titre de séjour permet à un étranger de **vivre légalement en France**. Il permet aussi, le plus souvent, d'y travailler. Il ne donne pas la nationalité française ni le droit de voter aux élections nationales.
+Le titre de séjour, comme la [carte de résident](https://www.service-public.gouv.fr/particuliers/vosdroits/F2208), permet à un étranger de **vivre légalement en France**. Il permet aussi, le plus souvent, d'y travailler. Il ne donne pas la nationalité française ni le droit de voter aux élections nationales.
 
 > **À retenir :** participer, c'est voter, s'engager dans une association ou aider les autres. Déclarer ses revenus est obligatoire et les impôts financent les services publics.
 
 ## Sources {#sources}
 
-- Constitution du 4 octobre 1958, articles 1 et 2.
-- Déclaration des droits de l'homme et du citoyen du 26 août 1789.
-- Loi du 1er juillet 1901 relative au contrat d'association.
-- Loi du 9 décembre 1905 concernant la séparation des Églises et de l'État.
-- Loi du 15 mars 2004 encadrant le port de signes religieux dans les écoles, collèges et lycées publics.
-- Charte de la laïcité à l'école, ministère de l'Éducation nationale, 2013.
-- Code pénal, article 433-5-1, sur l'outrage au drapeau.
-- Site officiel service-public.fr.
-- Site officiel elysee.fr, rubrique sur les symboles de la République.
+- [Constitution du 4 octobre 1958](https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur), articles 1 et 2.
+- [Déclaration des droits de l'homme et du citoyen du 26 août 1789](https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789).
+- [Loi du 1er juillet 1901 relative au contrat d'association](https://www.vie-publique.fr/fiches/24087-la-loi-du-1er-juillet-1901-relative-au-contrat-dassociation).
+- [Loi du 9 décembre 1905 concernant la séparation des Églises et de l'État](https://www.vie-publique.fr/fiches/271400-la-loi-du-9-decembre-1905-de-separation-des-eglises-et-de-letat).
+- Loi n° 2004-228 du 15 mars 2004 encadrant, en application du principe de laïcité, le port de signes ou de tenues manifestant une appartenance religieuse dans les écoles, collèges et lycées publics.
+- Charte de la laïcité à l'École, ministère de l'Éducation nationale, 2013.
+- Code pénal, article 433-5-1 (outrage au drapeau ou à l'hymne) et article R645-15 (destruction ou utilisation dégradante du drapeau).
+- Site officiel [service-public.gouv.fr](https://www.service-public.gouv.fr).
+- Site officiel elysee.fr, rubrique sur les [symboles de la République](https://www.elysee.fr/la-presidence/les-symboles-de-la-republique-francaise-expliques-pour-les-enfants).
 - Liste officielle des questions de l'examen civique, ministère de l'Intérieur.

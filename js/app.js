@@ -1,8 +1,8 @@
 // Application principale : navigation et écrans.
-import { APP_NAME, PARCOURS, THEMES, themeById, EXAMEN, EXAMEN_MODULE, SERIE_ENTRAINEMENT, NB_SITUATIONS } from './config.js';
+import { APP_NAME, PARCOURS, THEMES, themeById, EXAMEN, EXAMEN_MODULE, SERIE_ENTRAINEMENT, NB_SITUATIONS, lienSur } from './config.js';
 import * as store from './store.js';
 import { chargerQuestions, chargerCours, preparer, choisirSerie, tirerExamen, tirerModule, bilan, pointsFaibles, melanger } from './data.js';
-import { lireCours, echapper } from './markdown.js';
+import { lireCours, echapper, lienExterne } from './markdown.js';
 import * as audio from './audio.js';
 
 const $app = document.getElementById('app');
@@ -358,7 +358,15 @@ function blocCorrection(q, choisie) {
     ${ok ? '' : `<p>La bonne réponse : <strong>${e(q.a)}</strong></p>`}
     ${q.e ? `<p class="explication">💡 ${e(q.e)}</p>` : ''}
     <a class="lien-cours" href="#/cours/${q.t}/${q.st}">📘 Revoir le cours sur ce point</a>
+    ${blocLiens(q)}
   </div>`;
+}
+
+/** Liens « Pour aller plus loin » d'une question, vers des sites sûrs uniquement. */
+function blocLiens(q) {
+  const liens = (q.l || []).filter((l) => lienSur(l.url));
+  if (!liens.length) return '';
+  return `<p class="liens-externes">🔗 Pour aller plus loin : ${liens.map((l) => lienExterne(l.url, l.titre)).join(' · ')}</p>`;
 }
 
 function repondre(k) {
@@ -505,7 +513,7 @@ function terminerExamen() {
           const ok = s.reponses[k] === q.bonne;
           return `<li class="${ok ? 'ok' : 'ko'}"><p class="cq">${ok ? '✅' : '❌'} ${e(q.q)}</p>
             ${ok ? '' : `<p>Votre réponse : ${s.reponses[k] === undefined ? '<em>aucune</em>' : e(q.options[s.reponses[k]])}</p>`}
-            <p>Bonne réponse : <strong>${e(q.a)}</strong></p>${!ok && q.e ? `<p class="explication">💡 ${e(q.e)}</p>` : ''}</li>`;
+            <p>Bonne réponse : <strong>${e(q.a)}</strong></p>${!ok && q.e ? `<p class="explication">💡 ${e(q.e)}</p>` : ''}${!ok ? blocLiens(q) : ''}</li>`;
         }).join('')}
       </ol>
     </section>`, 'aucun');
