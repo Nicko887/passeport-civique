@@ -1370,6 +1370,12 @@ body.sans-nav { padding-bottom: 24px; }
 .bienvenue .choix-parcours { background: var(--surface); box-shadow: var(--ombre); }
 .bienvenue .note-choix { margin-top: 12px; }
 
+/* Écouter : carte principale et thèmes regroupés dans une seule liste */
+.vedette-ecoute { width: 100%; text-align: left; font: inherit; cursor: pointer; }
+.pile-ecoute { gap: 0; overflow: hidden; border: 1px solid var(--bord); border-radius: 18px; background: var(--surface); }
+.pile-ecoute .bloc-ecoute { border: 0; border-radius: 0; box-shadow: none; }
+.pile-ecoute .bloc-ecoute + .bloc-ecoute { border-top: 1px solid var(--bord); }
+
 /* Réglages : zone sensible séparée */
 .groupe-danger { border-color: color-mix(in srgb, var(--ko) 35%, var(--bord)); }
 .hero + h2.titre-reglage { margin-top: 20px; }

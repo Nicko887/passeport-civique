@@ -454,9 +454,12 @@ async function vueEcouter() {
       </div>
     </div>
 
-    <section class="chevauche">
-      ${carteAction({ action: 'ecouter-tout', icone: 'casque', couleur: 'var(--c-institutions)', titre: 'Tout écouter', texte: 'Les cinq thèmes à la suite, du début', meta: `${toutes.length} parties` })}
-    </section>
+    <h2 class="titre-section">Écouter d’un trait</h2>
+    <button class="carte-vedette vedette-ecoute" data-action="ecouter-tout">
+      <span class="vedette-haut">${pastille('casque')}<strong>Les 5 thèmes à la suite</strong></span>
+      <span class="vedette-texte">${toutes.length} parties, du début à la fin. Vous pouvez mettre en pause à tout moment.</span>
+      <span class="bouton large">${ic('jouer')} Tout écouter</span>
+    </button>
 
     <h2 class="titre-reglage">Choisir un thème</h2>
     <div class="pile-ecoute">
