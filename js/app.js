@@ -242,9 +242,9 @@ async function vueTheme(themeId) {
   const niveau = (x) => (x >= 0.8 ? 'ok' : x >= 0.5 ? 'moyen' : 'ko');
   const parties = Object.entries(t.sousThemes).map(([id, titre]) => ({ id, titre, b: bilan(qs.filter((q) => q.st === id)) })).filter((x) => x.b.total);
   const raccourcis = [
-    { href: `#/cours/${t.id}`, icone: 'cours', titre: 'Le cours', texte: 'À lire ou écouter' },
-    nbSit ? { href: `#/entrainement/situations/${t.id}`, icone: 'boussole', titre: 'Situations', texte: `${nbSit} cas concrets` } : null,
-    { href: `#/examen/${t.id}`, icone: 'chrono', titre: 'Examen', texte: `${EXAMEN_MODULE.nbQuestions} questions` },
+    { href: `#/cours/${t.id}`, icone: 'cours', titre: 'Lire le cours', texte: 'Les points essentiels, à lire ou à écouter' },
+    nbSit ? { href: `#/entrainement/situations/${t.id}`, icone: 'boussole', titre: 'Mises en situation', texte: `${nbSit} cas concrets de la vie quotidienne` } : null,
+    { href: `#/examen/${t.id}`, icone: 'chrono', titre: 'Examen du module', texte: `${EXAMEN_MODULE.nbQuestions} questions, au rythme de l’examen` },
   ].filter(Boolean);
   afficher(`
     <div class="hero hero-cours hero-revision" data-titre="${e(t.court)}" data-retour="#/" style="--c:${t.couleur}">
@@ -268,8 +268,8 @@ async function vueTheme(themeId) {
         <span class="vedette-texte">Une série de ${SERIE_ENTRAINEMENT} questions corrigées, adaptées à votre niveau.</span>
         <span class="bouton large">${b.vues ? 'Continuer' : 'Commencer'} ${ic('chevron')}</span>
       </a>
-      <div class="raccourcis-theme">
-        ${raccourcis.map((r) => `<a class="tuile tuile-raccourci" href="${r.href}">${pastille(r.icone, 'petite')}<strong>${r.titre}</strong><small>${r.texte}</small></a>`).join('')}
+      <div class="groupe-lignes">
+        ${raccourcis.map((r) => ligneReglage({ href: r.href, icone: r.icone, couleur: t.couleur, titre: r.titre, texte: r.texte })).join('')}
       </div>
     </section>
 
@@ -278,7 +278,7 @@ async function vueTheme(themeId) {
       ${parties.map((x, k) => `<a class="ligne-reglage ligne-partie" href="#/revision/${t.id}/${x.id}">
         <span class="num-partie">${k + 1}</span>
         <span class="lt-texte"><strong>${e(x.titre)}</strong>
-          <small>${x.b.total} questions · ${x.b.maitrisees} maîtrisée${x.b.maitrisees > 1 ? 's' : ''}</small>${barre(x.b.progression, x.titre)}</span>
+          <small>${x.b.total} questions${x.b.maitrisees ? ` · ${x.b.maitrisees} maîtrisée${x.b.maitrisees > 1 ? 's' : ''}` : ''}</small>${barre(x.b.progression, x.titre)}</span>
         ${x.b.reussite !== null ? `<span class="score-pf ${niveau(x.b.reussite)}" title="Bonnes réponses">${pct(x.b.reussite)}</span>` : `<span class="chevron">${ic('chevron')}</span>`}
       </a>`).join('')}
     </div>

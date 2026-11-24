@@ -1,6 +1,6 @@
 // Service worker : l'application fonctionne hors ligne après la première visite.
 // Incrémentez VERSION à chaque publication pour mettre à jour les fichiers en cache.
-const VERSION = 'passeport-civique-v33';
+const VERSION = 'passeport-civique-v34';
 
 const FICHIERS = [
   './',
