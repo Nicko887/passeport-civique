@@ -1154,8 +1154,14 @@ function ligneReglage({ action, href, attrs = '', icone, couleur, titre, texte, 
   return `<button class="${cls}" data-action="${action}" ${attrs}${style}>${contenu}</button>`;
 }
 
-function vueReglages() {
+async function vueReglages() {
+  // Après un réglage, on reste au même endroit de la page (sinon, retour en haut à chaque appui).
+  const resterAuMemeEndroit = location.hash.includes('reglages') && document.querySelector('.ligne-radio') ? scrollY : 0;
+  const nombres = Object.fromEntries(await Promise.all(Object.keys(PARCOURS).map((id) => chargerQuestions(id).then((l) => [id, l.length]).catch(() => [id, 0]))));
   const et = store.getEtat();
+  const sauvegarde = et.prefs.derniereSauvegarde
+    ? `Dernière sauvegarde : ${new Date(et.prefs.derniereSauvegarde).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}`
+    : 'Jamais sauvegardée : pensez-y de temps en temps';
   const voix = audio.voixFrancaises();
   const p = PARCOURS[et.parcours];
   afficher(`
@@ -1171,7 +1177,7 @@ function vueReglages() {
     <h2 class="titre-reglage">Mon examen</h2>
     <div class="groupe-lignes">
       ${Object.values(PARCOURS).map((x) => `<button class="ligne-reglage ligne-radio ${et.parcours === x.id ? 'actif' : ''}" data-action="choisir-parcours" data-p="${x.id}" style="--c:${x.couleur}" aria-pressed="${et.parcours === x.id}">
-        ${pastille(x.icone, 'petite')}<span class="lt-texte"><strong>${x.court}</strong><small>${x.resume}</small></span>
+        ${pastille(x.icone, 'petite')}<span class="lt-texte"><strong>${x.court}</strong><small>${x.resume}${nombres[x.id] ? `<span class="sans-coupure"> · ${nombres[x.id]}&nbsp;questions</span>` : ''}</small></span>
         <span class="radio" aria-hidden="true">${et.parcours === x.id ? ic('valide') : ''}</span></button>`).join('')}
     </div>
     <p class="note-reglage">Chaque examen a sa propre progression.</p>
@@ -1202,7 +1208,7 @@ function vueReglages() {
 
     <h2 class="titre-reglage">Ma progression</h2>
     <div class="groupe-lignes">
-      ${ligneReglage({ action: 'exporter', icone: 'telecharger', couleur: 'var(--c-droits)', titre: 'Télécharger ma progression', texte: 'Un fichier à garder ou à transférer' })}
+      ${ligneReglage({ action: 'exporter', icone: 'telecharger', couleur: 'var(--c-droits)', titre: 'Télécharger ma progression', texte: sauvegarde })}
       ${ligneReglage({ action: 'importer', icone: 'importer', couleur: 'var(--c-principes)', titre: 'Importer une progression', texte: 'Depuis un fichier téléchargé avant' })}
     </div>
     <p class="note-reglage">${ic('bouclier', 'ic ic-texte')} Votre progression reste sur cet appareil : aucun compte, aucune donnée envoyée. Pour changer d’appareil, téléchargez le fichier puis importez-le.</p>
@@ -1217,7 +1223,16 @@ function vueReglages() {
     <div class="groupe-lignes groupe-danger">
       ${ligneReglage({ action: 'reinitialiser', icone: 'corbeille', couleur: 'var(--ko)', titre: 'Effacer la progression', texte: `Seulement pour « ${p.court} ». Action définitive.`, danger: true })}
     </div>
-    <p class="note-reglage centre">${APP_NAME} · gratuit, sans publicité, open source</p>`, 'aucun');
+    <p class="note-reglage centre">${APP_NAME} · gratuit, sans publicité, open source<br><span id="version-app"></span></p>`, 'aucun');
+  if (resterAuMemeEndroit) window.scrollTo(0, resterAuMemeEndroit);
+  // Numéro de version : c'est le nom du cache du service worker (ex. « passeport-civique-v36 »).
+  if ('caches' in window) {
+    caches.keys().then((cles) => {
+      const v = cles.map((k) => k.match(/^passeport-civique-v(\d+)$/)?.[1]).filter(Boolean).map(Number).sort((a, b) => b - a)[0];
+      const el = document.getElementById('version-app');
+      if (v && el) el.textContent = `Version ${v}`;
+    }).catch(() => {});
+  }
 }
 
 /** Ligne d'information, non cliquable. */
@@ -1422,6 +1437,8 @@ document.addEventListener('click', async (ev) => {
       a.download = `passeport-civique-progression-${new Date().toISOString().slice(0, 10)}.json`;
       a.click();
       URL.revokeObjectURL(a.href);
+      store.setPref('derniereSauvegarde', new Date().toISOString());
+      if (location.hash.includes('reglages')) vueReglages();
       break;
     }
     case 'reinitialiser':
