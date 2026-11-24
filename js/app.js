@@ -834,50 +834,54 @@ async function vueChoixExamen() {
       <ul class="visuellement-cache">${derniers.map((r) => `<li>${fmtDate(r.date)} : ${r.score} sur ${r.total}${r.score >= EXAMEN.seuil ? ', réussi' : ''}</li>`).join('')}</ul>
     </div>` : '';
 
+  const niveau = (r) => (r.score / r.total >= 0.8 ? 'ok' : r.score / r.total >= 0.5 ? 'moyen' : 'ko');
   afficher(`
     <section>
-      <div class="hero" data-titre="Examen blanc">
-        <p class="hero-marque">${ic('chrono', 'ic ic-texte')} Examen blanc · ${e(p.court)}</p>
+      <div class="hero hero-accueil" data-titre="Examen blanc">
+        <p class="hero-marque">${ic('chrono', 'ic ic-texte')} Examen blanc</p>
+        <span class="puce-hero">${ic(p.icone, 'ic ic-texte')} ${e(p.court)}</span>
         <h1>Comme le jour de l’examen</h1>
-        <p class="hero-texte">${complets.length ? `Meilleur score : <strong>${meilleur}/${EXAMEN.nbQuestions}</strong>${meilleur >= EXAMEN.seuil ? ' · seuil atteint' : ` · encore ${EXAMEN.seuil - meilleur} pour le seuil`}` : 'Entraînez-vous dans les conditions réelles, chronomètre compris.'}</p>
-        <div class="stats">
-          <div class="stat"><strong>${EXAMEN.nbQuestions}</strong><small>questions</small></div>
-          <div class="stat"><strong>${EXAMEN.dureeMinutes} min</strong><small>au maximum</small></div>
-          <div class="stat"><strong>${EXAMEN.seuil}</strong><small>pour réussir</small></div>
+        <p class="hero-texte">${complets.length ? `Meilleur score : <strong>${meilleur}/${EXAMEN.nbQuestions}</strong>${meilleur >= EXAMEN.seuil ? ' · seuil atteint' : ` · encore ${EXAMEN.seuil - meilleur} pour le seuil`}` : 'Mettez-vous dans les conditions réelles, chronomètre compris.'}</p>
+        <div class="stats-hero">
+          <div><strong>${EXAMEN.nbQuestions}</strong><span>questions</span></div>
+          <div><strong>${EXAMEN.dureeMinutes} min</strong><span>au maximum</span></div>
+          <div><strong>${EXAMEN.seuil}</strong><span>pour réussir</span></div>
         </div>
       </div>
 
-      <div class="chevauche pile-cartes">
-        ${carteAction({ action: 'examen', attrs: 'data-type="complet"', icone: 'chrono', couleur: 'var(--c-principes)', titre: 'Lancer l’examen complet', texte: `Les 5 thèmes, dont ${NB_SITUATIONS} mises en situation`, meta: `${EXAMEN.nbQuestions} questions · ${EXAMEN.dureeMinutes} minutes` })}
-      </div>
-
-      <div class="carte regles">
-        <p>${ic('retour', 'ic ic-texte')} Vous pouvez revenir aux questions précédentes et changer vos réponses.</p>
-        <p>${ic('valide', 'ic ic-texte')} La correction complète s’affiche à la fin.</p>
-        <p>${ic('chrono', 'ic ic-texte')} À la fin du temps, l’examen se termine tout seul.</p>
+      <h2 class="titre-section">Examen complet</h2>
+      <div class="carte-vedette vedette-examen">
+        <span class="vedette-haut">${pastille('chrono')}<strong>Les 5 thèmes, dont ${NB_SITUATIONS} mises en situation</strong></span>
+        <button class="bouton large" data-action="examen" data-type="complet">${ic('jouer')} Lancer l’examen</button>
+        <ul class="regles-examen">
+          <li>${ic('retour', 'ic ic-texte')} On peut revenir en arrière et changer ses réponses.</li>
+          <li>${ic('naturalisation', 'ic ic-texte')} On peut marquer une question pour la revoir.</li>
+          <li>${ic('valide', 'ic ic-texte')} La correction complète s’affiche à la fin.</li>
+          <li>${ic('chrono', 'ic ic-texte')} À la fin du temps, l’examen se termine tout seul.</li>
+        </ul>
       </div>
 
       ${graphique}
 
-      <h2 class="titre-section">Examen par module</h2>
-      <p class="intro-page">${EXAMEN_MODULE.nbQuestions} questions sur un seul thème, au même rythme que l’examen.</p>
-      <div class="grille-modules">
+      <h2 class="titre-reglage">Examen par module</h2>
+      <div class="groupe-lignes">
         ${THEMES.map((t) => {
           const r = [...ex].reverse().find((x) => x.type === t.id);
-          return `<button class="tuile tuile-module" data-action="examen" data-type="${t.id}" style="--c:${t.couleur}">
-            ${pastille(t.icone, 'petite')}<strong>${t.court}</strong>
-            ${r ? `<span class="score-pf ${r.score / r.total >= 0.8 ? 'ok' : r.score / r.total >= 0.5 ? 'moyen' : 'ko'}">${r.score}/${r.total}</span>` : '<small>Pas encore passé</small>'}
+          return `<button class="ligne-reglage" data-action="examen" data-type="${t.id}" style="--c:${t.couleur}">
+            ${pastille(t.icone, 'petite')}<span class="lt-texte"><strong>${t.court}</strong><small>${r ? 'Dernier résultat' : `${EXAMEN_MODULE.nbQuestions} questions · pas encore passé`}</small></span>
+            ${r ? `<span class="score-pf ${niveau(r)}">${r.score}/${r.total}</span>` : `<span class="chevron">${ic('chevron')}</span>`}
           </button>`;
         }).join('')}
       </div>
+      <p class="note-reglage">${EXAMEN_MODULE.nbQuestions} questions sur un seul thème, au même rythme que l’examen.</p>
 
-      ${ex.length ? `<h2 class="titre-section">Historique</h2>
+      ${ex.length ? `<h2 class="titre-reglage">Historique</h2>
       <div class="groupe-lignes historique-examens">
-        ${ex.slice(-8).reverse().map((r) => {
+        ${ex.slice(-5).reverse().map((r) => {
           const t = r.type === 'complet' ? null : themeById(r.type);
-          return `<div class="ligne-reglage ligne-historique" style="--c:${t ? t.couleur : 'var(--c-principes)'}">
+          return `<div class="ligne-reglage ligne-info" style="--c:${t ? t.couleur : 'var(--c-principes)'}">
             ${pastille(t ? t.icone : 'chrono', 'petite')}
-            <span class="lt-texte"><strong>${t ? e(t.court) : 'Examen complet'}</strong><small>${new Date(r.date).toLocaleDateString('fr-FR')} · ${r.reussi ? 'réussi' : 'pas encore réussi'}</small></span>
+            <span class="lt-texte"><strong>${t ? e(t.court) : 'Examen complet'}</strong><small>${fmtDate(r.date)} · ${r.reussi ? 'réussi' : 'pas encore réussi'}</small></span>
             <span class="score-pf ${r.reussi ? 'ok' : 'ko'}">${r.score}/${r.total}</span>
           </div>`;
         }).join('')}

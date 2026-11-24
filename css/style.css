@@ -1344,6 +1344,14 @@ body.sans-nav { padding-bottom: 24px; }
 .votre-rep, .bonne-rep { padding: 8px 10px; }
 .votre-rep > span { color: var(--texte-2); }
 
+/* Examen blanc : carte de lancement avec les règles */
+.hero-accueil .puce-hero { margin-top: 14px; }
+.regles-examen { list-style: none; margin: 4px 0 0; padding: 12px 0 0; display: grid; gap: 8px; border-top: 1px solid var(--bord); }
+.regles-examen li { display: flex; align-items: flex-start; gap: 10px; font-size: .9rem; line-height: 1.4; color: var(--texte-2); }
+.regles-examen .ic { flex: none; margin-top: .15em; color: var(--primaire); }
+.vedette-examen .vedette-haut strong { font-size: 1.05rem; }
+.vedette-examen .bouton { min-height: 54px; }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 
