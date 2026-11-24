@@ -1352,6 +1352,11 @@ body.sans-nav { padding-bottom: 24px; }
 .vedette-examen .vedette-haut strong { font-size: 1.05rem; }
 .vedette-examen .bouton { min-height: 54px; }
 
+/* Progrès : pourcentage par thème, replis espacés */
+.pct-theme { flex: none; min-width: 48px; text-align: right; font-weight: 800; color: var(--c); font-variant-numeric: tabular-nums; }
+.hero-accueil .stats-hero { margin-top: 14px; }
+.groupe-lignes + .note-reglage + .repli, .groupe-lignes + .repli, .repli + .repli { margin-top: 10px; }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 

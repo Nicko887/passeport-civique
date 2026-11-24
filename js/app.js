@@ -997,50 +997,58 @@ async function vueProgres() {
 
   afficher(`
     <section>
-      <div class="hero" data-titre="Mes progrès">
-        <div class="hero-ligne">
-          <div>
-            <p class="hero-marque">${ic('cible', 'ic ic-texte')} Mes progrès</p>
-            <h1>${b.vues === 0 ? 'Votre suivi personnalisé' : b.reussite >= 0.8 ? 'Vous êtes sur la bonne voie' : 'Continuez, ça avance'}</h1>
-            <p class="hero-texte">${b.vues === 0 ? 'Répondez à quelques questions : l’application repère vos points faibles.' : `Progression globale : <strong>${pct(b.progression)}</strong>${b.maitrisees ? ` · ${b.maitrisees} questions maîtrisées` : ''}`}</p>
-            ${serie > 1 ? `<p class="serie">${ic('flamme', 'ic ic-texte')} ${serie} jours d’affilée</p>` : ''}
-          </div>
-          ${anneau(b.progression, 96)}
-        </div>
-        ${b.vues ? `<div class="stats">
-          <div class="stat"><strong>${b.vues}</strong><small>travaillées</small></div>
-          <div class="stat"><strong>${b.reussite !== null ? pct(b.reussite) : '–'}</strong><small>de réussite</small></div>
-          <div class="stat"><strong>${b.aRevoir}</strong><small>à revoir</small></div>
-        </div>` : ''}
+      <div class="hero hero-accueil" data-titre="Mes progrès">
+        <p class="hero-marque">${ic('cible', 'ic ic-texte')} Mes progrès</p>
+        <span class="puce-hero">${ic(p.icone, 'ic ic-texte')} ${e(p.court)}</span>
+        <h1>${b.vues === 0 ? 'Votre suivi personnalisé' : b.reussite >= 0.8 ? 'Vous êtes sur la bonne voie' : 'Continuez, ça avance'}</h1>
+        ${b.vues === 0
+          ? '<p class="hero-texte">Répondez à quelques questions : l’application repère vos points faibles.</p>'
+          : `<div class="progres-hero">
+              <div class="progres-hero-texte"><strong>${pct(b.progression)}</strong><span>de progression sur ${b.total} questions</span></div>
+              <div class="barre-hero">${barre(b.progression, 'Progression globale')}</div>
+            </div>
+            <div class="stats-hero">
+              <div><strong>${b.vues}</strong><span>travaillées</span></div>
+              <div><strong>${b.reussite !== null ? pct(b.reussite) : '–'}</strong><span>bonnes réponses</span></div>
+              <div><strong>${b.maitrisees}</strong><span>maîtrisées</span></div>
+            </div>`}
+        ${serie > 1 ? `<p class="serie">${ic('flamme', 'ic ic-texte')} ${serie} jours d’affilée</p>` : ''}
       </div>
 
-      <div class="chevauche pile-cartes">
-        ${b.aRevoir
-          ? carteAction({ href: '#/revision', icone: 'revoir', couleur: 'var(--c-histoire)', titre: 'Révisions du jour', texte: `${b.aRevoir} question${b.aRevoir > 1 ? 's' : ''} à revoir maintenant` })
-          : carteAction({ href: '#/entrainement/tout', icone: 'crayon', couleur: 'var(--c-droits)', titre: b.vues ? 'Continuer l’entraînement' : 'Faire une première série', texte: b.vues ? 'Aucune révision prévue aujourd’hui' : `${SERIE_ENTRAINEMENT} questions pour établir votre bilan` })}
-      </div>
+      <h2 class="titre-section">Votre prochaine étape</h2>
+      ${b.aRevoir
+        ? `<a class="carte-vedette" href="#/revision">
+            <span class="vedette-haut">${pastille('revoir')}<strong>Vos révisions du jour</strong></span>
+            <span class="vedette-texte">${b.aRevoir} question${b.aRevoir > 1 ? 's' : ''} à revoir maintenant, pour bien les retenir.</span>
+            <span class="bouton large">Réviser maintenant ${ic('chevron')}</span></a>`
+        : `<a class="carte-vedette" href="#/entrainement/tout">
+            <span class="vedette-haut">${pastille('crayon')}<strong>${b.vues ? 'Continuez l’entraînement' : 'Faites une première série'}</strong></span>
+            <span class="vedette-texte">${b.vues ? 'Aucune révision prévue aujourd’hui. Une nouvelle série fera avancer votre bilan.' : `${SERIE_ENTRAINEMENT} questions pour établir votre bilan.`}</span>
+            <span class="bouton large">${b.vues ? 'Continuer' : 'Commencer'} ${ic('chevron')}</span></a>`}
 
       ${b.vues === 0 ? `
-      <h2 class="titre-section">Comment ça marche</h2>
+      <h2 class="titre-reglage">Comment ça marche</h2>
       <ol class="carte etapes-pf">
         <li>${pastille('crayon', 'petite')}<span><strong>Vous répondez</strong><small>à des séries de questions, à votre rythme.</small></span></li>
         <li>${pastille('cible', 'petite')}<span><strong>L’application repère</strong><small>les parties où vous faites des erreurs.</small></span></li>
         <li>${pastille('revoir', 'petite')}<span><strong>Vous révisez</strong><small>avec un rappel du cours et des questions ciblées.</small></span></li>
       </ol>` : `
-      <h2 class="titre-section">Par thème</h2>
-      <div class="carte score-themes">
+      <h2 class="titre-reglage">Par thème</h2>
+      <div class="groupe-lignes">
         ${THEMES.map((t) => {
           const bt = bilan(qs.filter((q) => q.t === t.id));
-          return `<a class="score-theme lien-bloc" href="#/theme/${t.id}" style="--c:${t.couleur}">
+          return `<a class="ligne-reglage ligne-partie" href="#/theme/${t.id}" style="--c:${t.couleur}">
             ${pastille(t.icone, 'petite')}
-            <span class="st-texte"><span class="st-ligne"><strong>${t.court}</strong><span class="st-score">${pct(bt.progression)}</span></span>${barre(bt.progression, t.court)}</span>
+            <span class="lt-texte"><strong>${t.court}</strong><small>${bt.maitrisees}/${bt.total} maîtrisées</small>${barre(bt.progression, t.court)}</span>
+            <span class="pct-theme">${pct(bt.progression)}</span>
           </a>`;
         }).join('')}
       </div>`}
 
-      ${pf.faibles.length ? `<div class="titre-avec-aide"><h2 class="titre-section">À travailler en priorité</h2><small>Touchez une partie pour la réviser</small></div>
+      ${pf.faibles.length ? `<h2 class="titre-reglage">À travailler en priorité</h2>
         ${groupe(prioritaires)}
-        ${autres.length ? `<details class="repli"><summary>${ic('chevron', 'ic ic-texte ic-tourne')} Voir ${autres.length} autres parties</summary>${groupe(autres)}</details>` : ''}`
+        <p class="note-reglage">Touchez une partie pour la réviser pas à pas. Le pourcentage indique vos bonnes réponses.</p>
+        ${autres.length ? `<details class="repli"><summary>${ic('chevron', 'ic ic-texte ic-tourne')} Voir ${autres.length} autres parties à travailler</summary>${groupe(autres)}</details>` : ''}`
         : b.vues ? `<div class="carte carte-info ok">${ic('valide')}<p>Aucun point faible repéré pour l’instant. Continuez à explorer de nouvelles parties !</p></div>` : ''}
 
       ${forts.length ? `<details class="repli"><summary>${ic('valide', 'ic ic-texte')} Points forts (${forts.length})</summary>${groupe(forts)}</details>` : ''}
