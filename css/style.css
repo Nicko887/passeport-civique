@@ -1282,6 +1282,15 @@ body.sans-nav { padding-bottom: 24px; }
   color: #fff; font: inherit; font-size: .92rem; font-weight: 750; cursor: pointer;
 }
 .selecteur-examen:active { background: rgba(255, 255, 255, .24); }
+.libelle-examen { margin: 18px 0 6px; font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; opacity: .8; }
+.libelle-examen + .selecteur-examen { margin-top: 0; padding: 5px 5px 5px 6px; gap: 10px; }
+.sel-icone { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 99px; background: #fff; color: #2446b8; }
+.sel-nom { font-size: .98rem; }
+.sel-changer {
+  display: inline-flex; align-items: center; gap: 2px; margin-left: 4px; padding: 5px 8px 5px 12px;
+  border-radius: 99px; background: #fff; color: #172a6e; font-size: .8rem; font-weight: 800;
+}
+.sel-changer .ic { width: 15px; height: 15px; opacity: 1; }
 .ic-bas { transform: rotate(90deg); opacity: .85; }
 .hero-accueil h1 { margin-top: 10px; }
 .progres-hero { margin-top: 10px; }
@@ -1305,6 +1314,21 @@ body.sans-nav { padding-bottom: 24px; }
 .ca-meta strong { font-size: inherit; }
 .pied-accueil { margin: 20px 6px 8px; }
 .pied-accueil a { color: var(--primaire); }
+
+/* Écran Thème : action principale, raccourcis, parties numérotées */
+.vedette-theme { margin-bottom: 10px; border-color: color-mix(in srgb, var(--c) 30%, var(--bord)); background: linear-gradient(160deg, color-mix(in srgb, var(--c) 10%, var(--surface)), var(--surface) 70%); }
+.vedette-theme .pastille { --c: inherit; }
+.vedette-theme .bouton { background: var(--c); color: var(--sur-primaire); }
+.raccourcis-theme { display: grid; grid-template-columns: repeat(auto-fit, minmax(0, 1fr)); gap: 8px; }
+.tuile-raccourci { padding: 12px 10px; gap: 4px; text-decoration: none; }
+.tuile-raccourci strong { font-size: .92rem; }
+.tuile-raccourci small { font-size: .76rem; }
+.num-partie {
+  flex: none; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 11px;
+  background: color-mix(in srgb, var(--c) 14%, var(--surface)); color: var(--c); font-weight: 800;
+}
+.ligne-partie .lt-texte .barre { height: 5px; margin: 6px 0 0; }
+.ligne-partie .lt-texte .barre span { background: var(--c); }
 
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }

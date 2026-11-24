@@ -177,8 +177,10 @@ async function vueAccueil() {
           <p class="hero-marque"><span class="logo-marque petit-logo">${ic('valide')}</span>${APP_NAME}</p>
           <a class="retour retour-hero" href="#/reglages" aria-label="Réglages">${ic('reglages')}</a>
         </div>
-        <button class="selecteur-examen" data-action="ouvrir-parcours" aria-haspopup="dialog" style="--c:${p.couleur}">
-          ${ic(p.icone, 'ic ic-texte')}<span>${p.court}</span>${ic('chevron', 'ic ic-texte ic-bas')}
+        <p class="libelle-examen">Vous préparez</p>
+        <button class="selecteur-examen" data-action="ouvrir-parcours" aria-haspopup="dialog" aria-label="Examen préparé : ${p.court}. Changer d’examen" style="--c:${p.couleur}">
+          <span class="sel-icone">${ic(p.icone, 'ic ic-texte')}</span><span class="sel-nom">${p.court}</span>
+          <span class="sel-changer">Changer ${ic('chevron', 'ic ic-texte ic-bas')}</span>
         </button>
         <h1>${b.vues === 0 ? 'Prêt à commencer ?' : 'Bon retour !'}</h1>
         ${b.vues === 0
@@ -236,28 +238,51 @@ async function vueTheme(themeId) {
   const qs = (await questions()).filter((q) => q.t === t.id);
   const b = bilan(qs);
   const nbSit = qs.filter((q) => q.s).length;
+  const iTheme = THEMES.findIndex((x) => x.id === t.id);
+  const niveau = (x) => (x >= 0.8 ? 'ok' : x >= 0.5 ? 'moyen' : 'ko');
+  const parties = Object.entries(t.sousThemes).map(([id, titre]) => ({ id, titre, b: bilan(qs.filter((q) => q.st === id)) })).filter((x) => x.b.total);
+  const raccourcis = [
+    { href: `#/cours/${t.id}`, icone: 'cours', titre: 'Le cours', texte: 'À lire ou écouter' },
+    nbSit ? { href: `#/entrainement/situations/${t.id}`, icone: 'boussole', titre: 'Situations', texte: `${nbSit} cas concrets` } : null,
+    { href: `#/examen/${t.id}`, icone: 'chrono', titre: 'Examen', texte: `${EXAMEN_MODULE.nbQuestions} questions` },
+  ].filter(Boolean);
   afficher(`
-    ${entete(t.court)}
-    <section style="--c:${t.couleur}">
-      <div class="bandeau bandeau-theme">
-        <div><p class="sur-titre">${ic(t.icone, 'ic ic-texte')} Thème</p><h2>${t.titre}</h2><p>${b.total} questions · ${b.maitrisees} maîtrisées</p></div>
-        ${anneau(b.progression, 96)}
+    <div class="hero hero-cours hero-revision" data-titre="${e(t.court)}" data-retour="#/" style="--c:${t.couleur}">
+      <div class="hero-haut">
+        <a class="retour retour-hero" href="#/" aria-label="Retour à l’accueil">${ic('retour')}</a>
+        <span class="hero-marque">Thème ${iTheme + 1} sur ${THEMES.length}</span>
       </div>
-      <div class="pile-cartes">
-        ${carteAction({ href: `#/cours/${t.id}`, icone: 'cours', couleur: t.couleur, titre: 'Lire le cours', texte: 'Les points essentiels, à lire ou à écouter', bouton: 'chevron' })}
-        ${carteAction({ href: `#/entrainement/${t.id}`, icone: 'crayon', couleur: t.couleur, titre: 'S’entraîner sur ce thème', texte: `${SERIE_ENTRAINEMENT} questions avec corrections` })}
-        ${nbSit ? carteAction({ href: `#/entrainement/situations/${t.id}`, icone: 'boussole', couleur: t.couleur, titre: 'Mises en situation', texte: `${nbSit} cas concrets de la vie quotidienne` }) : ''}
-        ${carteAction({ href: `#/examen/${t.id}`, icone: 'chrono', couleur: t.couleur, titre: 'Examen du module', texte: `${EXAMEN_MODULE.nbQuestions} questions, au rythme de l’examen` })}
+      <span class="puce-hero">${ic(t.icone, 'ic ic-texte')} ${t.court}</span>
+      <h1>${t.titre}</h1>
+      <div class="stats-hero">
+        <div><strong>${b.total}</strong><span>questions</span></div>
+        <div><strong>${b.maitrisees}</strong><span>maîtrisées</span></div>
+        <div><strong>${b.reussite !== null ? pct(b.reussite) : '–'}</strong><span>bonnes réponses</span></div>
       </div>
-      <h2 class="titre-section">Parties du thème</h2>
-      <div class="liste-themes">
-        ${Object.entries(t.sousThemes).map(([id, titre]) => {
-          const bs = bilan(qs.filter((q) => q.st === id));
-          if (!bs.total) return '';
-          return ligneTheme({ href: `#/revision/${t.id}/${id}`, titre, barreVal: bs.progression, sousTexte: `${bs.total} questions${bs.reussite !== null ? ' · ' + pct(bs.reussite) + ' de bonnes réponses' : ''}` });
-        }).join('')}
+      <div class="barre-hero">${barre(b.progression, 'Progression du thème')}</div>
+    </div>
+
+    <section class="chevauche" style="--c:${t.couleur}">
+      <a class="carte-vedette vedette-theme" href="#/entrainement/${t.id}">
+        <span class="vedette-haut">${pastille('crayon')}<strong>${b.vues ? 'Continuer sur ce thème' : 'S’entraîner sur ce thème'}</strong></span>
+        <span class="vedette-texte">Une série de ${SERIE_ENTRAINEMENT} questions corrigées, adaptées à votre niveau.</span>
+        <span class="bouton large">${b.vues ? 'Continuer' : 'Commencer'} ${ic('chevron')}</span>
+      </a>
+      <div class="raccourcis-theme">
+        ${raccourcis.map((r) => `<a class="tuile tuile-raccourci" href="${r.href}">${pastille(r.icone, 'petite')}<strong>${r.titre}</strong><small>${r.texte}</small></a>`).join('')}
       </div>
-    </section>`, 'accueil');
+    </section>
+
+    <h2 class="titre-reglage">Les ${parties.length} parties du thème</h2>
+    <div class="groupe-lignes" style="--c:${t.couleur}">
+      ${parties.map((x, k) => `<a class="ligne-reglage ligne-partie" href="#/revision/${t.id}/${x.id}">
+        <span class="num-partie">${k + 1}</span>
+        <span class="lt-texte"><strong>${e(x.titre)}</strong>
+          <small>${x.b.total} questions · ${x.b.maitrisees} maîtrisée${x.b.maitrisees > 1 ? 's' : ''}</small>${barre(x.b.progression, x.titre)}</span>
+        ${x.b.reussite !== null ? `<span class="score-pf ${niveau(x.b.reussite)}" title="Bonnes réponses">${pct(x.b.reussite)}</span>` : `<span class="chevron">${ic('chevron')}</span>`}
+      </a>`).join('')}
+    </div>
+    <p class="note-reglage">Touchez une partie pour la réviser pas à pas. Le pourcentage indique vos bonnes réponses.</p>`, 'accueil');
 }
 
 // ----- Cours -----
