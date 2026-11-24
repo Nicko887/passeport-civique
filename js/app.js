@@ -307,25 +307,29 @@ async function vueListeCours() {
 
   afficher(`
     <section>
-      <div class="hero" data-titre="Cours">
+      <div class="hero hero-accueil" data-titre="Cours">
         <p class="hero-marque">${ic('cours', 'ic ic-texte')} Cours</p>
         <h1>Apprendre l’essentiel</h1>
         <p class="hero-texte">Un cours par thème de l’examen, en français simple, à lire ou à écouter.</p>
-        <div class="stats">
-          <div class="stat"><strong>${THEMES.length}</strong><small>cours</small></div>
-          <div class="stat"><strong>${nbParties}</strong><small>parties</small></div>
-          <div class="stat"><strong>${minutes} min</strong><small>de lecture</small></div>
+        <div class="stats-hero">
+          <div><strong>${THEMES.length}</strong><span>cours</span></div>
+          <div><strong>${nbParties}</strong><span>parties</span></div>
+          <div><strong>${minutes} min</strong><span>de lecture</span></div>
         </div>
       </div>
 
-      <div class="chevauche pile-cartes">
-        ${dernier
-          ? carteAction({ href: `#/cours/${dernier.id}`, icone: dernier.icone, couleur: dernier.couleur, titre: 'Reprendre la lecture', texte: dernier.titre, bouton: 'chevron' })
-          : carteAction({ href: `#/cours/${THEMES[0].id}`, icone: THEMES[0].icone, couleur: THEMES[0].couleur, titre: 'Commencer par le premier cours', texte: THEMES[0].titre, bouton: 'chevron' })}
-        ${audio.audioDisponible ? carteAction({ href: '#/ecouter', icone: 'casque', couleur: 'var(--c-institutions)', titre: 'Écouter les cours', texte: 'Comme un podcast, dans les transports ou en cuisinant' }) : ''}
-      </div>
+      <h2 class="titre-section">${dernier ? 'Reprendre où vous en étiez' : 'Par où commencer ?'}</h2>
+      ${(() => {
+        const t = dernier || THEMES[0];
+        return `<a class="carte-vedette vedette-theme" href="#/cours/${t.id}" style="--c:${t.couleur}">
+          <span class="vedette-haut">${pastille(t.icone)}<strong>${t.titre}</strong></span>
+          <span class="vedette-texte">${dernier ? 'Le dernier cours que vous avez ouvert.' : 'Le premier thème de l’examen : les symboles, les valeurs et la laïcité.'}</span>
+          <span class="bouton large">${dernier ? 'Reprendre la lecture' : 'Commencer la lecture'} ${ic('chevron')}</span>
+        </a>`;
+      })()}
+      ${audio.audioDisponible ? `<div class="groupe-lignes">${ligneReglage({ href: '#/ecouter', icone: 'casque', couleur: 'var(--c-institutions)', titre: 'Écouter les cours', texte: 'Comme un podcast, dans les transports ou en cuisinant' })}</div>` : ''}
 
-      <h2 class="titre-section">Les ${THEMES.length} cours</h2>
+      <h2 class="titre-reglage">Les ${THEMES.length} cours</h2>
       <div class="groupe-lignes liste-cours">
         ${THEMES.map((t, i) => {
           const c = cours[i];
@@ -362,7 +366,7 @@ async function vueCours(themeId, sectionId) {
 
   afficher(`
     <div class="barre-lecture" aria-hidden="true"><span id="progression-lecture"></span></div>
-    <div class="hero hero-cours" data-titre="${e(c.titre || t.titre)}" data-retour="#/cours" style="--c:${t.couleur}">
+    <div class="hero hero-cours hero-lecture" data-titre="${e(c.titre || t.titre)}" data-retour="#/cours" style="--c:${t.couleur}">
       <div class="hero-haut">
         <a class="retour retour-hero" href="#/cours" aria-label="Retour à la liste des cours">${ic('retour')}</a>
         <span class="hero-marque">${ic(t.icone, 'ic ic-texte')} Cours · thème ${iTheme + 1} sur ${THEMES.length}</span>
@@ -372,7 +376,7 @@ async function vueCours(themeId, sectionId) {
       ${audio.audioDisponible ? `<button class="bouton bouton-clair" data-action="ecouter-cours" data-theme="${t.id}">${ic('casque')} Écouter tout le cours</button>` : ''}
     </div>
 
-    <article class="cours chevauche" style="--c:${t.couleur}">
+    <article class="cours cours-lecture" style="--c:${t.couleur}">
       <div class="carte intro-cours">${c.intro.html}</div>
 
       <nav class="carte sommaire" aria-label="Sommaire du cours">

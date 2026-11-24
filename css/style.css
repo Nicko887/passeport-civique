@@ -1357,6 +1357,12 @@ body.sans-nav { padding-bottom: 24px; }
 .hero-accueil .stats-hero { margin-top: 14px; }
 .groupe-lignes + .note-reglage + .repli, .groupe-lignes + .repli, .repli + .repli { margin-top: 10px; }
 
+/* Cours : bandeau net, plus de chevauchement */
+.hero-lecture { padding-bottom: 22px; }
+.hero-lecture .bouton-clair { margin-top: 4px; }
+.cours-lecture { margin-top: 16px; }
+.vedette-theme + .groupe-lignes { margin-top: 0; }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 
