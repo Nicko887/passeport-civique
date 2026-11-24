@@ -1330,6 +1330,20 @@ body.sans-nav { padding-bottom: 24px; }
 .ligne-partie .lt-texte .barre { height: 5px; margin: 6px 0 0; }
 .ligne-partie .lt-texte .barre span { background: var(--c); }
 
+/* Résultats : jauge du seuil, actions, corrections sans bande à gauche */
+.jauge { margin-top: 18px; }
+.jauge-piste { position: relative; height: 12px; border-radius: 99px; background: rgba(255, 255, 255, .22); }
+.jauge-val { position: absolute; inset: 0 auto 0 0; width: var(--v); border-radius: 99px; background: #fff; }
+.jauge-seuil { position: absolute; top: -5px; bottom: -5px; left: var(--s); width: 3px; margin-left: -1.5px; border-radius: 2px; background: #ffd166; box-shadow: 0 0 0 2px rgba(0, 0, 0, .15); }
+.jauge-legende { position: relative; display: flex; justify-content: space-between; margin-top: 6px; font-size: .76rem; font-weight: 650; opacity: .9; }
+.jauge-seuil-txt { position: absolute; left: var(--s); transform: translateX(-50%); color: #ffd166; font-weight: 800; white-space: nowrap; }
+.actions-resultat { display: grid; gap: 8px; padding: 12px; }
+.actions-resultat .bouton { min-height: 52px; }
+.carte-corr, .carte-corr.ok, .carte-corr.ko { border-left: 1px solid var(--bord); }
+.carte-corr .corr-tete { padding-bottom: 8px; margin-bottom: 10px; border-bottom: 1px solid var(--bord); }
+.votre-rep, .bonne-rep { padding: 8px 10px; }
+.votre-rep > span { color: var(--texte-2); }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 

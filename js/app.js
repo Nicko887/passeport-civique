@@ -725,7 +725,7 @@ function suivante() {
 }
 
 /** Bandeau de résultat : anneau, titre et chiffres clés. */
-function heroResultat({ reussi, sur, retour, score, total, titre, texte, stats }) {
+function heroResultat({ reussi, sur, retour, score, total, titre, texte, stats, seuil }) {
   return `
     <div class="hero hero-resultat ${reussi ? 'reussi' : ''}">
       <div class="hero-haut">
@@ -738,8 +738,28 @@ function heroResultat({ reussi, sur, retour, score, total, titre, texte, stats }
         <h1>${titre}</h1>
         <p class="hero-texte">${texte}</p>
       </div>
+      ${seuil ? jaugeSeuil(score, total, seuil) : ''}
       <div class="stats">${stats.map(([n, l]) => `<div class="stat"><strong>${n}</strong><small>${l}</small></div>`).join('')}</div>
     </div>`;
+}
+
+/** Jauge du score avec le seuil de réussite marqué (ex. 32 sur 40). */
+function jaugeSeuil(score, total, seuil) {
+  return `<div class="jauge" style="--v:${(score / total) * 100}%; --s:${(seuil / total) * 100}%" role="img" aria-label="${score} bonnes réponses sur ${total}, seuil de réussite : ${seuil}">
+    <div class="jauge-piste"><span class="jauge-val"></span><span class="jauge-seuil"></span></div>
+    <div class="jauge-legende"><span>0</span><span class="jauge-seuil-txt">Seuil : ${seuil}</span><span>${total}</span></div>
+  </div>`;
+}
+
+/** Actions après un résultat : une action principale, une secondaire. */
+function actionsResultat(principale, secondaire) {
+  const bouton = (a, cls) => a.href
+    ? `<a class="${cls}" href="${a.href}">${ic(a.icone)} ${a.titre}</a>`
+    : `<button class="${cls}" data-action="${a.action}" ${a.attrs || ''}>${ic(a.icone)} ${a.titre}</button>`;
+  return `<div class="carte actions-resultat">
+    ${bouton(principale, 'bouton large')}
+    ${secondaire ? bouton(secondaire, 'bouton secondaire large') : ''}
+  </div>`;
 }
 
 /** Carte de correction d'une question (résultats d'entraînement et d'examen). */
@@ -776,9 +796,8 @@ function vueResultatEntrainement() {
         texte: ratees.length ? 'Les questions ratées reviendront dans vos révisions pour bien les retenir.' : 'Toutes les réponses sont justes.',
         stats: [[bonnes, 'bonnes réponses'], [total - bonnes, total - bonnes > 1 ? 'erreurs' : 'erreur'], [`${Math.round(ratio * 100)} %`, 'de réussite']],
       })}
-      <div class="chevauche pile-cartes">
-        ${carteAction({ action: 'rejouer', icone: 'revoir', couleur: 'var(--c-droits)', titre: 'Nouvelle série', texte: `${SERIE_ENTRAINEMENT} autres questions adaptées à votre niveau` })}
-        ${carteAction({ href: '#/progres', icone: 'cible', couleur: 'var(--c-societe)', titre: 'Voir mes points faibles', texte: 'Les parties à travailler en priorité', bouton: 'chevron' })}
+      <div class="chevauche">
+        ${actionsResultat({ action: 'rejouer', icone: 'jouer', titre: 'Nouvelle série' }, { href: '#/progres', icone: 'cible', titre: 'Voir mes points faibles' })}
       </div>
       ${ratees.length ? `<h2 class="titre-section">À retenir (${ratees.length})</h2>
         <div class="liste-corrections">${ratees.map(([q, k]) => carteCorrection(q, k, s.reponses[k])).join('')}</div>` : ''}
@@ -926,10 +945,12 @@ function terminerExamen() {
         titre: reussi ? 'Examen réussi !' : 'Pas encore… mais vous progressez',
         texte: reussi ? `Vous avez dépassé le seuil de ${seuil} bonnes réponses.` : `Il fallait ${seuil} bonnes réponses sur ${total}. Encore ${Math.max(0, seuil - score)} pour réussir.`,
         stats: [[score, 'bonnes réponses'], [nbErreurs, nbErreurs > 1 ? 'erreurs' : 'erreur'], [`${dureeMin} min`, 'de durée']],
+        seuil,
       })}
-      <div class="chevauche pile-cartes">
-        ${carteAction({ href: '#/progres', icone: 'cible', couleur: 'var(--c-societe)', titre: 'Travailler mes points faibles', texte: 'Un rappel du cours, puis des questions ciblées', bouton: 'chevron' })}
-        ${carteAction({ action: 'examen', attrs: `data-type="${s.type}"`, icone: 'revoir', couleur: 'var(--c-principes)', titre: 'Repasser un examen', texte: 'Avec de nouvelles questions' })}
+      <div class="chevauche">
+        ${reussi
+          ? actionsResultat({ action: 'examen', attrs: `data-type="${s.type}"`, icone: 'revoir', titre: 'Repasser un examen' }, nbErreurs ? { href: '#/progres', icone: 'cible', titre: 'Travailler mes points faibles' } : null)
+          : actionsResultat({ href: '#/progres', icone: 'cible', titre: 'Travailler mes points faibles' }, { action: 'examen', attrs: `data-type="${s.type}"`, icone: 'revoir', titre: 'Repasser un examen' })}
       </div>
       ${parTheme.length > 1 ? `<h2 class="titre-section">Résultat par thème</h2>
         <div class="carte score-themes">${parTheme.map((x) => `
