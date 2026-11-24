@@ -1216,6 +1216,62 @@ h2.titre-reglage { font-size: .76rem; font-weight: 750; text-transform: uppercas
 .feuille-actions { position: sticky; bottom: calc(-16px - env(safe-area-inset-bottom)); display: grid; grid-template-columns: 1fr 1.4fr; gap: 10px; margin: 16px -16px calc(-16px - env(safe-area-inset-bottom)); padding: 12px 16px calc(16px + env(safe-area-inset-bottom)); background: var(--surface); border-top: 1px solid var(--bord); }
 .feuille-actions .bouton { min-height: 52px; }
 
+/* Entraînement en cours : série en segments, compteur, verdict dans la barre du bas */
+.segments-serie { display: flex; gap: 4px; height: 10px; }
+.segments-serie span { flex: 1; border-radius: 99px; background: var(--surface-2); transition: background .2s ease; }
+.segments-serie .courant { background: color-mix(in srgb, var(--c, var(--primaire)) 45%, var(--surface-2)); }
+.segments-serie .ok { background: var(--ok); }
+.segments-serie .ko { background: var(--ko); }
+.compteur-bonnes {
+  flex: none; display: inline-flex; align-items: center; gap: 5px; min-height: 40px; padding: 6px 12px;
+  border-radius: 99px; background: var(--ok-doux); color: var(--ok); font-weight: 800; font-variant-numeric: tabular-nums;
+}
+.compteur-bonnes .ic { stroke-width: 3; }
+.pied-verdict { display: grid; grid-template-columns: 1fr; justify-content: stretch; gap: 10px; animation: apparait .2s ease; }
+.pied-verdict.ok { background: color-mix(in srgb, var(--ok-doux) 92%, transparent); border-top-color: color-mix(in srgb, var(--ok) 35%, var(--bord)); }
+.pied-verdict.ko { background: color-mix(in srgb, var(--ko-doux) 92%, transparent); border-top-color: color-mix(in srgb, var(--ko) 35%, var(--bord)); }
+.verdict { display: flex; align-items: center; gap: 12px; }
+.verdict > span:last-child { display: grid; }
+.verdict strong { font-size: 1.12rem; font-weight: 800; }
+.pied-verdict.ok .verdict strong { color: var(--ok); }
+.pied-verdict.ko .verdict strong { color: var(--ko); }
+.verdict small { font-size: .84rem; color: var(--texte-2); }
+.pied-verdict.ok .rond-etat { background: var(--ok); }
+.pied-verdict.ko .rond-etat { background: var(--ko); }
+.pied-verdict .bouton { width: 100%; }
+.pied-verdict.ok .bouton { background: var(--ok); color: var(--surface); }
+.pied-verdict.ko .bouton { background: var(--ko); color: var(--surface); }
+.correction { padding-bottom: 0; }
+.correction > :first-child { margin-top: 16px; }
+
+/* Cartes d'action sans bande de couleur à gauche : la pastille porte la couleur */
+.carte-action::before { display: none; }
+.carte-action { padding: 14px; }
+.ligne-theme:not(:has(.pastille)) { border-left: 1px solid var(--bord); }
+
+/* Barre de navigation du bas : pleine largeur, opaque, collée au bord (le contenu ne passe plus dessous) */
+body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
+body.sans-nav { padding-bottom: 24px; }
+.nav-bas {
+  left: 0; right: 0; bottom: 0; max-width: none; margin: 0;
+  display: flex; justify-content: center; gap: 0;
+  padding: 0 4px env(safe-area-inset-bottom);
+  border: 0; border-top: 1px solid var(--bord); border-radius: 0;
+  background: var(--surface); box-shadow: 0 -2px 18px rgba(20, 35, 60, .06);
+  -webkit-backdrop-filter: none; backdrop-filter: none;
+}
+.nav-bas a {
+  flex: 1; max-width: 112px; min-height: 60px; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 3px; padding: 6px 2px; border-radius: 0; background: none; font-size: .7rem; font-weight: 600; color: var(--texte-2);
+}
+.nav-bas a span { display: grid; place-items: center; width: 56px; height: 30px; border-radius: 99px; transition: background .15s ease; }
+.nav-bas a .ic { width: 23px; height: 23px; stroke-width: 1.8; transition: stroke-width .15s ease; }
+.nav-bas a.actif { background: none; color: var(--primaire); font-weight: 800; }
+.nav-bas a.actif span { background: var(--primaire-doux); }
+.nav-bas a.actif .ic { stroke-width: 2.3; }
+.nav-bas a:active { transform: none; opacity: .6; }
+.lecteur { bottom: calc(72px + env(safe-area-inset-bottom)); }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 

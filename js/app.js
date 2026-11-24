@@ -558,15 +558,22 @@ function vueQuestion() {
   const choisie = s.reponses[s.i];
   const nbRepondues = s.reponses.filter((r) => r !== undefined).length;
   const avance = examen ? nbRepondues / s.questions.length : (s.i + (s.verrou ? 1 : 0)) / s.questions.length;
+  const bonnes = s.questions.filter((qq, k) => s.reponses[k] !== undefined && s.reponses[k] === qq.bonne).length;
+  const juste = choisie === q.bonne;
+  const bravo = ['Bonne réponse !', 'Bravo !', 'Exactement !', 'Très bien !'][s.i % 4];
   afficher(`
     <div class="quiz" style="--c:${t.couleur}">
       <header class="quiz-tete">
         <button class="retour" data-action="quitter" aria-label="Quitter">${ic('fermer')}</button>
         <div class="quiz-avance">
           <div class="quiz-avance-texte"><strong>Question ${s.i + 1}</strong><small> sur ${s.questions.length}</small></div>
-          ${barre(avance, examen ? 'Questions répondues' : 'Avancement')}
+          ${!examen && s.questions.length <= 20 ? `<div class="segments-serie" role="img" aria-label="${bonnes} bonne${bonnes > 1 ? 's' : ''} réponse${bonnes > 1 ? 's' : ''} sur ${s.questions.length} questions">${s.questions.map((qq, k) => {
+            const r = s.reponses[k];
+            return `<span class="${r === undefined ? (k === s.i ? 'courant' : '') : r === qq.bonne ? 'ok' : 'ko'}"></span>`;
+          }).join('')}</div>` : barre(avance, examen ? 'Questions répondues' : 'Avancement')}
         </div>
-        ${examen ? `<div class="chrono" aria-live="off">${ic('chrono', 'ic ic-texte')}<span id="chrono">--:--</span></div>` : ''}
+        ${examen ? `<div class="chrono" aria-live="off">${ic('chrono', 'ic ic-texte')}<span id="chrono">--:--</span></div>`
+          : `<div class="compteur-bonnes" title="Bonnes réponses">${ic('valide', 'ic ic-texte')}<span>${bonnes}</span><span class="visuellement-cache"> bonnes réponses</span></div>`}
       </header>
 
       <div class="carte carte-question">
@@ -596,12 +603,16 @@ function vueQuestion() {
 
       <div id="retour-q">${!examen && s.verrou ? blocCorrection(q, choisie) : ''}</div>
 
-      ${examen || s.verrou ? `<div class="quiz-pied ${examen ? 'pied-examen' : ''}">
+      ${examen || s.verrou ? `<div class="quiz-pied ${examen ? 'pied-examen' : `pied-verdict ${juste ? 'ok' : 'ko'}`}">
+        ${!examen ? `<div class="verdict" role="status">
+          <span class="rond-etat">${ic(juste ? 'valide' : 'fermer')}</span>
+          <span><strong>${juste ? bravo : 'Pas tout à fait'}</strong><small>${juste ? 'Continuez comme ça.' : 'Cette question reviendra dans vos révisions.'}</small></span>
+        </div>` : ''}
         ${examen ? `
           <button class="bouton secondaire bouton-rond" data-action="prec" ${s.i === 0 ? 'disabled' : ''} aria-label="Question précédente">${ic('retour')}</button>
           <button class="bouton secondaire bouton-grille" data-action="ouvrir-grille" aria-haspopup="dialog" aria-label="Vue d’ensemble : ${nbRepondues} questions répondues sur ${s.questions.length}">${ic('des')} ${nbRepondues}/${s.questions.length}</button>
           ${s.i < s.questions.length - 1 ? `<button class="bouton" data-action="suiv">Suivante ${ic('chevron')}</button>` : `<button class="bouton bouton-ok" data-action="terminer">${ic('valide')} Terminer</button>`}
-        ` : `<button class="bouton large" data-action="suiv" id="btn-suiv">${s.i < s.questions.length - 1 ? `Question suivante ${ic('chevron')}` : `Voir mon résultat ${ic('chevron')}`}</button>`}
+        ` : `<button class="bouton large" data-action="suiv" id="btn-suiv">${s.i < s.questions.length - 1 ? `Continuer ${ic('chevron')}` : `Voir mon résultat ${ic('chevron')}`}</button>`}
       </div>` : ''}
 
       ${examen ? feuilleExamen(s, nbRepondues) : ''}
@@ -641,11 +652,7 @@ function feuilleExamen(s, nbRepondues) {
 
 function blocCorrection(q, choisie) {
   const ok = choisie === q.bonne;
-  return `<div class="correction ${ok ? 'ok' : 'ko'}" role="status">
-    <div class="correction-tete">
-      <span class="rond-etat">${ic(ok ? 'valide' : 'fermer')}</span>
-      <span><strong>${ok ? 'Bonne réponse !' : 'Pas tout à fait'}</strong><small>${ok ? 'Bravo, continuez comme ça.' : 'Pas de souci : cette question reviendra dans vos révisions.'}</small></span>
-    </div>
+  return `<div class="correction ${ok ? 'ok' : 'ko'}">
     ${ok ? '' : `<div class="bonne-reponse"><small>La bonne réponse</small><strong>${ic('valide', 'ic ic-texte')} ${e(q.a)}</strong></div>`}
     ${q.e ? `<div class="explication"><p class="explication-titre">${ic('ampoule', 'ic ic-texte')} Explication</p><p>${e(q.e)}</p></div>` : ''}
     ${blocLiens(q, true)}
