@@ -122,9 +122,9 @@ async function vueBienvenue() {
         <ul class="atouts">${atouts.map(([i, t]) => `<li><span>${ic(i)}</span>${t}</li>`).join('')}</ul>
       </div>
       <div class="chevauche">
-        <div class="carte choix-examen">
-          <h2>Quel examen préparez-vous ?</h2>
-          <p>Choisissez selon le titre que vous demandez.</p>
+        <div class="choix-examen">
+          <h2 class="titre-section">Quel examen préparez-vous ?</h2>
+          <p>Choisissez selon le titre de séjour ou la nationalité que vous demandez.</p>
           <div class="pile-choix">
             ${Object.values(PARCOURS).map((p, i) => `<button class="choix-parcours" data-action="choisir-parcours" data-p="${p.id}" style="--c:${p.couleur}">
               ${pastille(p.icone)}

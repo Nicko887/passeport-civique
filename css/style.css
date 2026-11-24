@@ -1363,6 +1363,13 @@ body.sans-nav { padding-bottom: 24px; }
 .cours-lecture { margin-top: 16px; }
 .vedette-theme + .groupe-lignes { margin-top: 0; }
 
+/* Bienvenue : plus de carte autour des choix (pas de carte dans une carte) */
+.bienvenue .choix-examen { padding: 0; }
+.bienvenue .choix-examen h2.titre-section { margin: 4px 2px 4px; font-size: 1.2rem; }
+.bienvenue .choix-examen > p { margin: 0 2px 14px; }
+.bienvenue .choix-parcours { background: var(--surface); box-shadow: var(--ombre); }
+.bienvenue .note-choix { margin-top: 12px; }
+
 /* Réglages : zone sensible séparée */
 .groupe-danger { border-color: color-mix(in srgb, var(--ko) 35%, var(--bord)); }
 .hero + h2.titre-reglage { margin-top: 20px; }
