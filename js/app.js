@@ -1109,7 +1109,8 @@ async function vueRevision(themeId, stId) {
       <div class="barre-hero">${barre(b.progression, titre)}</div>
     </div>
 
-    <section class="chevauche" style="--c:${t.couleur}">
+    <h2 class="titre-section">Votre parcours en 3 étapes</h2>
+    <section style="--c:${t.couleur}">
       <ol class="carte etapes-rev" aria-label="Étapes de la révision">
         ${etapes.map((x, i) => {
           const etat = i + 1 < etape ? 'faite' : i + 1 === etape ? 'active' : '';
@@ -1122,7 +1123,7 @@ async function vueRevision(themeId, stId) {
       </ol>
     </section>
 
-    ${section ? `<h2 class="titre-reglage" id="rappel">${ic('cours', 'ic ic-texte')} Rappel du cours</h2>
+    ${section ? `<h2 class="titre-section" id="rappel">Rappel du cours</h2>
     <article class="carte rappel-cours" style="--c:${t.couleur}">
       <div class="cours">${section.html}</div>
       <div class="actions-section">
