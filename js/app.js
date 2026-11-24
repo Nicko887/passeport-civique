@@ -1155,7 +1155,14 @@ function vueReglages() {
   const voix = audio.voixFrancaises();
   const p = PARCOURS[et.parcours];
   afficher(`
-    ${entete('Réglages')}
+    <div class="hero hero-accueil" data-titre="Réglages" data-retour="#/">
+      <div class="hero-haut">
+        <a class="retour retour-hero" href="#/" aria-label="Retour à l’accueil">${ic('retour')}</a>
+        <span class="hero-marque">${ic('reglages', 'ic ic-texte')} Réglages</span>
+      </div>
+      <h1>Votre application, à votre façon</h1>
+      <p class="hero-texte">Examen, taille du texte, voix et sauvegarde de votre progression.</p>
+    </div>
 
     <h2 class="titre-reglage">Mon examen</h2>
     <div class="groupe-lignes">
@@ -1193,7 +1200,6 @@ function vueReglages() {
     <div class="groupe-lignes">
       ${ligneReglage({ action: 'exporter', icone: 'telecharger', couleur: 'var(--c-droits)', titre: 'Télécharger ma progression', texte: 'Un fichier à garder ou à transférer' })}
       ${ligneReglage({ action: 'importer', icone: 'importer', couleur: 'var(--c-principes)', titre: 'Importer une progression', texte: 'Depuis un fichier téléchargé avant' })}
-      ${ligneReglage({ action: 'reinitialiser', icone: 'corbeille', couleur: 'var(--ko)', titre: 'Effacer la progression', texte: `Seulement pour « ${p.court} »`, danger: true })}
     </div>
     <p class="note-reglage">${ic('bouclier', 'ic ic-texte')} Votre progression reste sur cet appareil : aucun compte, aucune donnée envoyée. Pour changer d’appareil, téléchargez le fichier puis importez-le.</p>
 
@@ -1201,6 +1207,11 @@ function vueReglages() {
     <div class="groupe-lignes">
       ${ligneReglage({ href: '#/a-propos', icone: 'info', couleur: 'var(--c-institutions)', titre: 'À propos', texte: 'Sources, vie privée, contribuer' })}
       ${ligneReglage({ href: 'https://github.com/Nicko887/passeport-civique/issues', icone: 'attention', couleur: 'var(--attention)', titre: 'Signaler une erreur', texte: 'Sur GitHub (nouvel onglet)', externe: true })}
+    </div>
+
+    <h2 class="titre-reglage">Zone sensible</h2>
+    <div class="groupe-lignes groupe-danger">
+      ${ligneReglage({ action: 'reinitialiser', icone: 'corbeille', couleur: 'var(--ko)', titre: 'Effacer la progression', texte: `Seulement pour « ${p.court} ». Action définitive.`, danger: true })}
     </div>
     <p class="note-reglage centre">${APP_NAME} · gratuit, sans publicité, open source</p>`, 'aucun');
 }

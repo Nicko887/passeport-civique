@@ -1363,6 +1363,10 @@ body.sans-nav { padding-bottom: 24px; }
 .cours-lecture { margin-top: 16px; }
 .vedette-theme + .groupe-lignes { margin-top: 0; }
 
+/* Réglages : zone sensible séparée */
+.groupe-danger { border-color: color-mix(in srgb, var(--ko) 35%, var(--bord)); }
+.hero + h2.titre-reglage { margin-top: 20px; }
+
 /* Règle unique : aucun contenu ne chevauche un bandeau */
 .hero, .hero-bienvenue, .hero-cours, .hero-resultat, .hero-accueil { padding-bottom: 24px; }
 .chevauche { margin-top: 16px; }
