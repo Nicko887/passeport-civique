@@ -22,7 +22,18 @@ Application web **gratuite, open source, sans inscription** pour préparer l'exa
   - `js/audio.js` : lecture vocale par speechSynthesis ;
   - `js/markdown.js` : lecture des cours (liens, encadrés « À retenir ») ;
   - `js/icones.js` : icônes au trait en SVG, dessinées pour le projet (`ic(nom)`, `pastille(nom)`) ; **pas d'émojis dans l'interface**.
-- **Design (refonte du 23/11/2026) :** bandeau dégradé `.hero` + cartes qui le chevauchent (`.chevauche`) ; composants de `app.js` : `carteAction` (bande de couleur, pastille, bouton rond), `ligneTheme`, `heroResultat`, `carteCorrection`, `ligneReglage`. Couleurs des thèmes et des parcours dans `:root` (`--c-*`), avec mode sombre. Pas de drapeau ni d'imitation de l'identité visuelle de l'État. Captures de contrôle : Chrome sans interface en 390 × 844.
+- **Design (mobile d'abord, règles validées par l'utilisateur le 24/11/2026)** :
+  - **Bandeaux nets** : rien ne chevauche un `.hero`, qui se termine par une marge normale ; le contenu commence 16 px plus bas. `.chevauche` reste dans le code, mais ne fait plus chevaucher.
+  - **Une seule action principale par écran**, en grande carte `.carte-vedette` avec un gros bouton (« Votre prochaine étape », « Lancer l'examen »…). Les actions secondaires sont des lignes discrètes (`ligneReglage`).
+  - **Pas de carte dans une carte**, **pas de bande de couleur à gauche des cartes** : la couleur passe par la pastille et le bouton. Exceptions où la couleur a un sens : encadrés « À retenir », extraits du cours.
+  - **Listes homogènes** dans `.groupe-lignes` (style réglages de téléphone), titres `h2.titre-reglage` ou `.titre-section`.
+  - **Barre du bas** pleine largeur et opaque, façon Nimba, avec une pastille derrière l'icône de l'onglet actif.
+  - **Feuilles qui montent du bas** (`<dialog class="feuille">`) pour les choix : changer d'examen depuis l'accueil, vue d'ensemble de l'examen blanc.
+  - **Sélecteur d'examen de l'accueil** : libellé « Vous préparez » et bouton blanc « Changer », pour qu'on comprenne que c'est là qu'on choisit son examen.
+  - Composants de `app.js` : `carteAction`, `ligneTheme`, `ligneReglage`, `ligneInfo`, `heroResultat` (avec `jaugeSeuil`), `actionsResultat`, `carteCorrection`, `feuilleExamen`. Pastilles d'en-tête : `.puce-hero` ; chiffres clés : `.stats-hero`. Couleurs des thèmes et des parcours dans `:root` (`--c-*`), avec mode sombre.
+  - Pas de drapeau ni d'imitation de l'identité visuelle de l'État.
+  - Captures de contrôle : Chrome sans interface en 360 × 740 (le plus petit écran courant), en mode clair et sombre. Avant de garder un changement de design, comparer l'avant et l'après.
+- **Examen blanc** : on peut marquer une question « à revoir » et terminer l'examen à tout moment depuis la vue d'ensemble. **Entraînement** : progression en segments verts ou rouges, verdict coloré dans la barre du bas.
 - **Contenu modifiable :**
   - `contenu/qcm/<parcours>-<theme>.json` : bonne réponse, 3 distracteurs, explication, sous-thème, `a_verifier` ;
   - `contenu/qcm/csp-<theme>.json` : parcours CSP ; chaque question garde `reponses_suggerees` (source) et `construire.py` vérifie que la bonne réponse en fait partie et qu'aucune mauvaise réponse n'en fait partie ;
