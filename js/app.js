@@ -199,17 +199,21 @@ async function vueAccueil() {
         <span class="bouton large">${etape.bouton} ${ic('chevron')}</span>
       </a>
 
-      <div class="pile-cartes">
-        ${carteAction({ href: '#/examen', icone: 'chrono', couleur: 'var(--c-principes)', titre: 'Examen blanc', texte: 'Comme le jour de l’examen, chronométré', meta: dernierTxt })}
-        ${pf.faibles.length ? carteAction({ href: '#/progres', icone: 'cible', couleur: 'var(--c-societe)', titre: 'Vos points faibles', texte: `${pf.faibles.length} partie${pf.faibles.length > 1 ? 's' : ''} à travailler en priorité` }) : ''}
-        ${carteAction({ href: '#/ecouter', icone: 'casque', couleur: 'var(--c-institutions)', titre: 'Écouter les cours', texte: 'Comme un podcast, en marchant ou en cuisinant' })}
+      <div class="groupe-lignes">
+        ${ligneReglage({ href: '#/examen', icone: 'chrono', couleur: 'var(--c-principes)', titre: 'Examen blanc', texte: `Chronométré, comme le jour J · ${dernierTxt}` })}
+        ${pf.faibles.length ? ligneReglage({ href: '#/progres', icone: 'cible', couleur: 'var(--c-societe)', titre: 'Vos points faibles', texte: `${pf.faibles.length} partie${pf.faibles.length > 1 ? 's' : ''} à travailler en priorité` }) : ''}
+        ${ligneReglage({ href: '#/ecouter', icone: 'casque', couleur: 'var(--c-institutions)', titre: 'Écouter les cours', texte: 'Comme un podcast, en marchant ou en cuisinant' })}
       </div>
 
-      <h2 class="titre-section">Vos thèmes</h2>
-      <div class="liste-themes">
+      <h2 class="titre-reglage">Vos thèmes</h2>
+      <div class="groupe-lignes">
         ${THEMES.map((t) => {
           const bt = bilan(qs.filter((q) => q.t === t.id));
-          return ligneTheme({ href: `#/theme/${t.id}`, icone: t.icone, couleur: t.couleur, titre: t.court, barreVal: bt.progression, sousTexte: `${bt.maitrisees}/${bt.total} maîtrisées` });
+          return `<a class="ligne-reglage ligne-partie" href="#/theme/${t.id}" style="--c:${t.couleur}">
+            ${pastille(t.icone, 'petite')}
+            <span class="lt-texte"><strong>${t.court}</strong><small>${bt.vues ? `${bt.maitrisees}/${bt.total} maîtrisées` : `${bt.total} questions`}</small>${barre(bt.progression, t.court)}</span>
+            ${bt.vues ? `<span class="pct-theme">${pct(bt.progression)}</span>` : `<span class="chevron">${ic('chevron')}</span>`}
+          </a>`;
         }).join('')}
       </div>
       <p class="note-reglage centre pied-accueil">${ic('info', 'ic ic-texte')} Outil indépendant et gratuit, non officiel. <a href="#/a-propos">En savoir plus</a></p>

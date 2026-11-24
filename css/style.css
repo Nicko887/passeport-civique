@@ -1383,6 +1383,7 @@ body.sans-nav { padding-bottom: 24px; }
 .badges-apropos .ic { width: 13px; height: 13px; }
 
 .sans-coupure { white-space: nowrap; }
+.lt-texte small strong { font-size: inherit; display: inline; }
 
 /* Réglages : zone sensible séparée */
 .groupe-danger { border-color: color-mix(in srgb, var(--ko) 35%, var(--bord)); }
