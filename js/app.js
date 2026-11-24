@@ -154,14 +154,7 @@ async function vueAccueil() {
   const dernier = examens[examens.length - 1];
   const serie = store.getEtat().activite.serie;
 
-  const outils = [
-    ['#/cours', 'cours', 'Cours', '5 thèmes à lire ou écouter', 'var(--c-histoire)'],
-    ['#/entrainement', 'crayon', 'S’entraîner', 'QCM avec corrections', 'var(--c-droits)'],
-    ['#/progres', 'cible', 'Points faibles', pf.faibles.length ? pf.faibles.length + ' partie' + (pf.faibles.length > 1 ? 's' : '') + ' à travailler' : 'Votre suivi personnalisé', 'var(--c-societe)'],
-    ['#/ecouter', 'casque', 'Écouter', 'Les cours en audio', 'var(--c-institutions)'],
-  ];
-
-  // Les trois examens, avec le nombre de questions et la part maîtrisée de chacun.
+  // Les trois examens, pour la feuille de changement d'examen.
   const parcours = await Promise.all(Object.values(PARCOURS).map(async (x) => {
     const liste = x.id === p.id ? qs : await chargerQuestions(x.id).catch(() => []);
     const prog = store.getEtat().progress[x.id] || {};
@@ -169,51 +162,45 @@ async function vueAccueil() {
     return { ...x, total: liste.length, part: liste.length ? maitrisees / liste.length : 0 };
   }));
 
+  // Une seule action principale, selon l'avancement
+  const etape = b.aRevoir > 0
+    ? { href: '#/revision', icone: 'revoir', titre: 'Vos révisions du jour', texte: `${b.aRevoir} question${b.aRevoir > 1 ? 's' : ''} à revoir pour bien les retenir.`, bouton: 'Réviser maintenant' }
+    : b.vues === 0
+      ? { href: '#/entrainement/tout', icone: 'crayon', titre: 'Commencez par une première série', texte: `${SERIE_ENTRAINEMENT} questions, corrigées et expliquées une par une. Quelques minutes suffisent.`, bouton: 'Commencer' }
+      : { href: '#/entrainement/tout', icone: 'crayon', titre: 'Continuez l’entraînement', texte: `Une série de ${SERIE_ENTRAINEMENT} questions adaptées à votre niveau.`, bouton: 'Continuer' };
+  const dernierTxt = dernier ? `Dernier : <strong>${dernier.score}/${dernier.total}</strong>${dernier.type === 'complet' ? (dernier.reussi ? ' · réussi' : ' · pas encore') : ` (module ${e(themeById(dernier.type)?.court || '')})`}` : `${EXAMEN.nbQuestions} questions · ${EXAMEN.dureeMinutes} min`;
+
   afficher(`
     <section class="accueil">
-      <div class="hero" data-titre="${APP_NAME}">
-        <div class="hero-ligne">
-          <div>
-            <p class="hero-marque"><span class="logo-marque petit-logo">${ic('valide')}</span>${APP_NAME}</p>
-            <h1>${b.vues === 0 ? 'Préparez votre examen' : 'Bon retour !'}</h1>
-            <p class="hero-texte">${b.vues === 0 ? 'Choisissez votre examen et commencez quand vous voulez.' : `${e(p.court)} : vous maîtrisez <strong>${b.maitrisees}</strong> questions sur ${b.total}.`}</p>
-            ${serie > 1 ? `<p class="serie">${ic('flamme', 'ic ic-texte')} ${serie} jours d’affilée</p>` : ''}
-          </div>
-          ${anneau(b.progression, 96)}
+      <div class="hero hero-accueil" data-titre="${APP_NAME}">
+        <div class="hero-barre">
+          <p class="hero-marque"><span class="logo-marque petit-logo">${ic('valide')}</span>${APP_NAME}</p>
+          <a class="retour retour-hero" href="#/reglages" aria-label="Réglages">${ic('reglages')}</a>
         </div>
+        <button class="selecteur-examen" data-action="ouvrir-parcours" aria-haspopup="dialog" style="--c:${p.couleur}">
+          ${ic(p.icone, 'ic ic-texte')}<span>${p.court}</span>${ic('chevron', 'ic ic-texte ic-bas')}
+        </button>
+        <h1>${b.vues === 0 ? 'Prêt à commencer ?' : 'Bon retour !'}</h1>
+        ${b.vues === 0
+          ? `<p class="hero-texte">${b.total} questions pour préparer votre examen, à votre rythme.</p>`
+          : `<div class="progres-hero">
+              <div class="progres-hero-texte"><strong>${pct(b.progression)}</strong><span>de progression · ${b.vues} question${b.vues > 1 ? 's' : ''} travaillée${b.vues > 1 ? 's' : ''} sur ${b.total}</span></div>
+              <div class="barre-hero">${barre(b.progression, 'Progression')}</div>
+            </div>`}
+        ${serie > 1 ? `<p class="serie">${ic('flamme', 'ic ic-texte')} ${serie} jours d’affilée</p>` : ''}
       </div>
 
-      <div class="chevauche">
-        <h2 class="titre-sur-hero">Mon examen</h2>
-        <div class="pile-cartes" role="group" aria-label="Choisir l’examen à préparer">
-          ${parcours.map((x) => x.id === p.id
-            ? `<a class="carte-action carte-parcours actif" href="#/entrainement/tout" style="--c:${x.couleur}">
-                ${pastille(x.icone)}
-                <span class="ca-texte"><strong>${x.court}</strong><small class="choisi">${ic('valide', 'ic ic-texte')} Examen choisi</small>
-                  <span class="ca-meta">${x.total} questions · ${pct(x.part)} acquis</span></span>
-                <span class="rond-action" aria-label="S’entraîner">${ic('jouer')}</span></a>`
-            : `<button class="carte-action carte-parcours" data-action="choisir-parcours" data-p="${x.id}" style="--c:${x.couleur}">
-                ${pastille(x.icone)}
-                <span class="ca-texte"><strong>${x.court}</strong><small>${x.resume}</small>
-                  <span class="ca-meta">${x.total} questions${x.part ? ` · ${pct(x.part)} acquis` : ''}</span></span>
-                <span class="rond-action rond-discret">${ic('chevron')}</span></button>`).join('')}
-        </div>
-      </div>
+      <h2 class="titre-section">Votre prochaine étape</h2>
+      <a class="carte-vedette" href="${etape.href}">
+        <span class="vedette-haut">${pastille(etape.icone)}<strong>${etape.titre}</strong></span>
+        <span class="vedette-texte">${etape.texte}</span>
+        <span class="bouton large">${etape.bouton} ${ic('chevron')}</span>
+      </a>
 
-      <h2 class="titre-section">Continuer</h2>
       <div class="pile-cartes">
-        ${b.aRevoir > 0
-          ? carteAction({ href: '#/revision', icone: 'revoir', couleur: 'var(--c-histoire)', titre: 'Mes révisions du jour', texte: `${b.aRevoir} question${b.aRevoir > 1 ? 's' : ''} à revoir pour bien les retenir` })
-          : carteAction({ href: '#/entrainement/tout', icone: 'crayon', couleur: 'var(--c-droits)', titre: `${b.vues === 0 ? 'Commencer' : 'Continuer'} l’entraînement`, texte: `Série de ${SERIE_ENTRAINEMENT} questions adaptées à votre niveau` })}
-        ${carteAction({ href: '#/examen', icone: 'chrono', couleur: 'var(--c-principes)', titre: 'Examen blanc', texte: 'Comme le jour de l’examen', meta: `${EXAMEN.nbQuestions} questions · ${EXAMEN.dureeMinutes} min` })}
-      </div>
-
-      ${dernier ? `
-      <p class="carte carte-dernier resultat-ligne ${dernier.reussi ? 'ok' : 'ko'}">${ic(dernier.reussi ? 'valide' : 'fermer', 'ic ic-texte')} Dernier examen blanc : <strong>${dernier.score}/${dernier.total}</strong>${dernier.reussi ? ', réussi' : ', pas encore'} ${dernier.type === 'complet' ? '' : '(module ' + e(themeById(dernier.type)?.court || '') + ')'}</p>` : ''}
-
-      <h2 class="titre-section">Outils de préparation</h2>
-      <div class="grille-tuiles">
-        ${outils.map(([href, icone, titre, texte, c]) => `<a class="tuile" href="${href}" style="--c:${c}">${pastille(icone)}<strong>${titre}</strong><small>${texte}</small></a>`).join('')}
+        ${carteAction({ href: '#/examen', icone: 'chrono', couleur: 'var(--c-principes)', titre: 'Examen blanc', texte: 'Comme le jour de l’examen, chronométré', meta: dernierTxt })}
+        ${pf.faibles.length ? carteAction({ href: '#/progres', icone: 'cible', couleur: 'var(--c-societe)', titre: 'Vos points faibles', texte: `${pf.faibles.length} partie${pf.faibles.length > 1 ? 's' : ''} à travailler en priorité` }) : ''}
+        ${carteAction({ href: '#/ecouter', icone: 'casque', couleur: 'var(--c-institutions)', titre: 'Écouter les cours', texte: 'Comme un podcast, en marchant ou en cuisinant' })}
       </div>
 
       <h2 class="titre-section">Vos thèmes</h2>
@@ -223,8 +210,24 @@ async function vueAccueil() {
           return ligneTheme({ href: `#/theme/${t.id}`, icone: t.icone, couleur: t.couleur, titre: t.court, barreVal: bt.progression, sousTexte: `${bt.maitrisees}/${bt.total} maîtrisées` });
         }).join('')}
       </div>
-      <a class="lien-discret" href="#/reglages">${ic('reglages', 'ic ic-texte')} Réglages : texte, voix, sauvegarde</a>
-    </section>`, 'accueil');
+      <p class="note-reglage centre pied-accueil">${ic('info', 'ic ic-texte')} Outil indépendant et gratuit, non officiel. <a href="#/a-propos">En savoir plus</a></p>
+    </section>
+
+    <dialog class="feuille" id="feuille-parcours" aria-labelledby="titre-parcours">
+      <div class="feuille-poignee" aria-hidden="true"></div>
+      <div class="feuille-tete">
+        <h2 id="titre-parcours">Changer d’examen</h2>
+        <button class="retour" data-action="fermer-parcours" aria-label="Fermer">${ic('fermer')}</button>
+      </div>
+      <p class="feuille-resume">Chaque examen garde sa propre progression.</p>
+      <div class="groupe-lignes">
+        ${parcours.map((x) => `<button class="ligne-reglage ligne-radio ${x.id === p.id ? 'actif' : ''}" data-action="choisir-parcours" data-p="${x.id}" style="--c:${x.couleur}" aria-pressed="${x.id === p.id}">
+          ${pastille(x.icone, 'petite')}<span class="lt-texte"><strong>${x.court}</strong><small>${x.resume}${x.part ? ` · ${pct(x.part)} acquis` : ''}</small></span>
+          <span class="radio" aria-hidden="true">${x.id === p.id ? ic('valide') : ''}</span></button>`).join('')}
+      </div>
+    </dialog>`, 'accueil');
+  const feuille = document.getElementById('feuille-parcours');
+  feuille?.addEventListener('click', (ev) => { if (ev.target === feuille) feuille.close(); });
 }
 
 async function vueTheme(themeId) {
@@ -1261,7 +1264,10 @@ document.addEventListener('click', async (ev) => {
   if (!el) return;
   const d = el.dataset;
   switch (d.action) {
+    case 'ouvrir-parcours': document.getElementById('feuille-parcours')?.showModal(); break;
+    case 'fermer-parcours': document.getElementById('feuille-parcours')?.close(); break;
     case 'choisir-parcours':
+      document.getElementById('feuille-parcours')?.close();
       store.setParcours(d.p);
       if (location.hash.includes('reglages')) { toast('Examen choisi : ' + PARCOURS[d.p].titre); vueReglages(); }
       else {
