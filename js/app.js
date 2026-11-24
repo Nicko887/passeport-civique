@@ -564,7 +564,7 @@ function vueQuestion() {
         <button class="retour" data-action="quitter" aria-label="Quitter">${ic('fermer')}</button>
         <div class="quiz-avance">
           <div class="quiz-avance-texte"><strong>Question ${s.i + 1}</strong><small> sur ${s.questions.length}</small></div>
-          ${barre(avance, 'Avancement')}
+          ${barre(avance, examen ? 'Questions répondues' : 'Avancement')}
         </div>
         ${examen ? `<div class="chrono" aria-live="off">${ic('chrono', 'ic ic-texte')}<span id="chrono">--:--</span></div>` : ''}
       </header>
@@ -573,6 +573,7 @@ function vueQuestion() {
         <div class="quiz-etiquettes">
           <span class="etiquette">${ic(t.icone, 'ic ic-texte')} ${t.court}</span>
           ${q.s ? `<span class="etiquette etiquette-situation">${ic('boussole', 'ic ic-texte')} Mise en situation</span>` : ''}
+          ${examen ? `<button class="marque-revoir ${s.marquees.has(s.i) ? 'actif' : ''}" data-action="marquer" aria-pressed="${s.marquees.has(s.i)}">${ic('naturalisation', 'ic ic-texte')} ${s.marquees.has(s.i) ? 'Marquée' : 'À revoir'}</button>` : ''}
         </div>
         <h1 class="quiz-question">${e(q.q)}</h1>
         ${audio.audioDisponible ? `<button class="lien-audio" data-action="lire-question">${ic('son', 'ic ic-texte')} Écouter la question</button>` : ''}
@@ -595,17 +596,47 @@ function vueQuestion() {
 
       <div id="retour-q">${!examen && s.verrou ? blocCorrection(q, choisie) : ''}</div>
 
-      ${examen ? `<details class="carte grille-exam"><summary>${ic('des', 'ic ic-texte')} Vue d’ensemble : ${nbRepondues}/${s.questions.length} répondues</summary>
-        <div class="grille-num">${s.questions.map((_, k) => `<button data-action="aller" data-k="${k}" class="${s.reponses[k] !== undefined ? 'faite' : ''} ${k === s.i ? 'courante' : ''}" aria-label="Question ${k + 1}${s.reponses[k] !== undefined ? ', répondue' : ''}">${k + 1}</button>`).join('')}</div></details>` : ''}
-
-      ${examen || s.verrou ? `<div class="quiz-pied">
+      ${examen || s.verrou ? `<div class="quiz-pied ${examen ? 'pied-examen' : ''}">
         ${examen ? `
-          <button class="bouton secondaire" data-action="prec" ${s.i === 0 ? 'disabled' : ''}>${ic('retour')} Précédente</button>
+          <button class="bouton secondaire bouton-rond" data-action="prec" ${s.i === 0 ? 'disabled' : ''} aria-label="Question précédente">${ic('retour')}</button>
+          <button class="bouton secondaire bouton-grille" data-action="ouvrir-grille" aria-haspopup="dialog" aria-label="Vue d’ensemble : ${nbRepondues} questions répondues sur ${s.questions.length}">${ic('des')} ${nbRepondues}/${s.questions.length}</button>
           ${s.i < s.questions.length - 1 ? `<button class="bouton" data-action="suiv">Suivante ${ic('chevron')}</button>` : `<button class="bouton bouton-ok" data-action="terminer">${ic('valide')} Terminer</button>`}
         ` : `<button class="bouton large" data-action="suiv" id="btn-suiv">${s.i < s.questions.length - 1 ? `Question suivante ${ic('chevron')}` : `Voir mon résultat ${ic('chevron')}`}</button>`}
       </div>` : ''}
+
+      ${examen ? feuilleExamen(s, nbRepondues) : ''}
     </div>`, 'aucun');
-  if (examen) majChrono();
+  if (examen) {
+    // Toucher en dehors de la feuille la referme
+    document.getElementById('feuille-exam')?.addEventListener('click', (ev) => { if (ev.target.id === 'feuille-exam') ev.target.close(); });
+    majChrono();
+  }
+}
+
+/** Feuille « Vue d'ensemble » de l'examen : grille des questions, marques, fin anticipée. */
+function feuilleExamen(s, nbRepondues) {
+  const n = s.questions.length;
+  const marquees = s.marquees.size;
+  return `<dialog class="feuille" id="feuille-exam" aria-labelledby="titre-feuille">
+    <div class="feuille-poignee" aria-hidden="true"></div>
+    <div class="feuille-tete">
+      <h2 id="titre-feuille">Vue d’ensemble</h2>
+      <button class="retour" data-action="fermer-grille" aria-label="Fermer">${ic('fermer')}</button>
+    </div>
+    <p class="feuille-resume"><strong>${nbRepondues}</strong> répondue${nbRepondues > 1 ? 's' : ''} · <strong>${n - nbRepondues}</strong> sans réponse${marquees ? ` · <strong>${marquees}</strong> marquée${marquees > 1 ? 's' : ''}` : ''}</p>
+    <ul class="legende-grille" aria-hidden="true">
+      <li><span class="faite"></span>Répondue</li><li><span></span>Sans réponse</li><li><span class="marquee"></span>À revoir</li>
+    </ul>
+    <div class="grille-num">${s.questions.map((_, k) => {
+      const faite = s.reponses[k] !== undefined;
+      const marquee = s.marquees.has(k);
+      return `<button data-action="aller" data-k="${k}" class="${faite ? 'faite' : ''} ${marquee ? 'marquee' : ''} ${k === s.i ? 'courante' : ''}" aria-label="Question ${k + 1}${faite ? ', répondue' : ', sans réponse'}${marquee ? ', à revoir' : ''}">${k + 1}</button>`;
+    }).join('')}</div>
+    <div class="feuille-actions">
+      <button class="bouton secondaire" data-action="fermer-grille">Continuer</button>
+      <button class="bouton bouton-ok" data-action="terminer">${ic('valide')} Terminer</button>
+    </div>
+  </dialog>`;
 }
 
 function blocCorrection(q, choisie) {
@@ -815,7 +846,7 @@ async function demarrerExamen(type) {
     liste = tirerModule(qs, type, EXAMEN_MODULE.nbQuestions);
     duree = liste.length * EXAMEN_MODULE.secondesParQuestion;
   }
-  session = { mode: 'examen', type, questions: liste.map(preparer), i: 0, reponses: [], fin: Date.now() + duree * 1000, debut: Date.now() };
+  session = { mode: 'examen', type, questions: liste.map(preparer), i: 0, reponses: [], marquees: new Set(), fin: Date.now() + duree * 1000, debut: Date.now() };
   clearInterval(minuterie);
   minuterie = setInterval(majChrono, 1000);
   vueQuestion();
@@ -1238,10 +1269,18 @@ document.addEventListener('click', async (ev) => {
       break;
     case 'suiv': suivante(); break;
     case 'prec': session.i = Math.max(0, session.i - 1); vueQuestion(); break;
-    case 'aller': session.i = Number(d.k); vueQuestion(); break;
+    case 'aller': document.getElementById('feuille-exam')?.close(); session.i = Number(d.k); vueQuestion(); window.scrollTo(0, 0); break;
+    case 'ouvrir-grille': document.getElementById('feuille-exam')?.showModal(); break;
+    case 'fermer-grille': document.getElementById('feuille-exam')?.close(); break;
+    case 'marquer':
+      if (session.marquees.has(session.i)) session.marquees.delete(session.i); else session.marquees.add(session.i);
+      vueQuestion();
+      break;
     case 'terminer': {
       const manquantes = session.questions.length - session.reponses.filter((x) => x !== undefined).length;
-      if (!manquantes || confirm(`Il reste ${manquantes} question${manquantes > 1 ? 's' : ''} sans réponse. Terminer quand même ?`)) terminerExamen();
+      const marquees = session.marquees?.size || 0;
+      const avertir = [manquantes ? `${manquantes} question${manquantes > 1 ? 's' : ''} sans réponse` : '', marquees ? `${marquees} question${marquees > 1 ? 's' : ''} marquée${marquees > 1 ? 's' : ''} « à revoir »` : ''].filter(Boolean).join(' et ');
+      if (!avertir || confirm(`Il reste ${avertir}. Terminer quand même ?`)) { document.getElementById('feuille-exam')?.close(); terminerExamen(); }
       break;
     }
     case 'quitter':
@@ -1321,7 +1360,7 @@ document.addEventListener('change', async (ev) => {
 
 // Raccourcis clavier pendant les questions : 1-4 ou A-D pour répondre, Entrée pour continuer.
 document.addEventListener('keydown', (ev) => {
-  if (!session || ev.target.matches('input, select, textarea')) return;
+  if (!session || ev.target.matches('input, select, textarea') || document.querySelector('dialog[open]')) return;
   const k = '1234'.indexOf(ev.key) >= 0 ? '1234'.indexOf(ev.key) : 'abcd'.indexOf(ev.key.toLowerCase());
   if (k >= 0 && k < session.questions[session.i].options.length && ev.key.length === 1) { repondre(k); ev.preventDefault(); }
   else if (ev.key === 'Enter' && session.mode !== 'examen' && session.verrou) { suivante(); ev.preventDefault(); }

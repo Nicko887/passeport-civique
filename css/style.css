@@ -1176,6 +1176,46 @@ h2.titre-reglage { font-size: .76rem; font-weight: 750; text-transform: uppercas
 .piste-titre { display: grid; }
 .pile-ecoute + .note-reglage a { color: var(--primaire); }
 
+/* Examen en cours : marque « à revoir », barre du bas, feuille « vue d'ensemble » */
+.quiz-etiquettes { align-items: center; }
+.marque-revoir {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 5px; min-height: 34px; padding: 4px 12px;
+  border-radius: 99px; border: 1.5px solid var(--bord); background: var(--surface); color: var(--texte-2);
+  font-size: .82rem; font-weight: 700; cursor: pointer;
+}
+.marque-revoir.actif { border-color: var(--attention); background: color-mix(in srgb, var(--attention) 14%, var(--surface)); color: var(--attention); }
+.pied-examen { display: grid; grid-template-columns: auto auto 1fr; gap: 8px; }
+.pied-examen .bouton-rond { width: 54px; padding: 0; }
+.pied-examen .bouton-grille { padding: 0 14px; gap: 6px; font-variant-numeric: tabular-nums; }
+.pied-examen .bouton:disabled { opacity: .4; }
+
+.feuille {
+  position: fixed; inset: auto 0 0 0; width: 100%; max-width: 560px; max-height: 88vh; margin: 0 auto;
+  padding: 8px 16px calc(16px + env(safe-area-inset-bottom)); overflow: auto;
+  border: 0; border-radius: 26px 26px 0 0; background: var(--surface); color: var(--texte);
+  box-shadow: 0 -10px 40px rgba(8, 16, 48, .25);
+}
+.feuille[open] { animation: feuille-monte .24s ease-out; }
+.feuille::backdrop { background: rgba(8, 12, 30, .45); }
+@keyframes feuille-monte { from { transform: translateY(40%); opacity: .4; } to { transform: none; opacity: 1; } }
+.feuille-poignee { width: 42px; height: 5px; margin: 0 auto 10px; border-radius: 9px; background: var(--bord); }
+.feuille-tete { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.feuille-tete h2 { margin: 0; font-size: 1.25rem; }
+.feuille-resume { margin: 4px 0 10px; font-size: .9rem; color: var(--texte-2); }
+.feuille-resume strong { color: var(--texte); }
+.legende-grille { list-style: none; display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 0 0 12px; padding: 0; font-size: .8rem; color: var(--texte-2); }
+.legende-grille li { display: flex; align-items: center; gap: 6px; }
+.legende-grille span { width: 14px; height: 14px; border-radius: 4px; border: 1px solid var(--bord); background: var(--surface); }
+.legende-grille span.faite { background: var(--primaire-doux); border-color: var(--primaire); }
+.legende-grille span.marquee { background: var(--attention); border-color: var(--attention); }
+.feuille .grille-num { margin: 0; grid-template-columns: repeat(auto-fill, minmax(46px, 1fr)); }
+.feuille .grille-num button { position: relative; min-height: 46px; color: var(--texte); }
+.feuille .grille-num .faite { background: var(--primaire-doux); border-color: var(--primaire); color: var(--primaire-fonce); }
+.feuille .grille-num .courante { outline: 3px solid var(--primaire); outline-offset: 1px; }
+.feuille .grille-num .marquee::after { content: ""; position: absolute; top: 4px; right: 4px; width: 9px; height: 9px; border-radius: 50%; background: var(--attention); }
+.feuille-actions { position: sticky; bottom: calc(-16px - env(safe-area-inset-bottom)); display: grid; grid-template-columns: 1fr 1.4fr; gap: 10px; margin: 16px -16px calc(-16px - env(safe-area-inset-bottom)); padding: 12px 16px calc(16px + env(safe-area-inset-bottom)); background: var(--surface); border-top: 1px solid var(--bord); }
+.feuille-actions .bouton { min-height: 52px; }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 
