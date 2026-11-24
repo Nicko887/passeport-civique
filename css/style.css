@@ -1363,6 +1363,10 @@ body.sans-nav { padding-bottom: 24px; }
 .cours-lecture { margin-top: 16px; }
 .vedette-theme + .groupe-lignes { margin-top: 0; }
 
+/* Règle unique : aucun contenu ne chevauche un bandeau */
+.hero, .hero-bienvenue, .hero-cours, .hero-resultat, .hero-accueil { padding-bottom: 24px; }
+.chevauche { margin-top: 16px; }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 
