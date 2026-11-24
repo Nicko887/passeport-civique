@@ -392,33 +392,64 @@ async function pistesTheme(themeId) {
   const md = await chargerCours(themeId);
   if (!md) return [];
   const t = themeById(themeId);
-  return lireCours(md).sections.filter((s) => s.id !== 'sources').map((s) => ({ titre: s.titre, texte: s.texte, theme: t.court, themeId }));
+  return lireCours(md).sections.filter((s) => s.id !== 'sources').map((s, n) => ({ titre: s.titre, texte: s.texte, theme: t.court, themeId, n }));
 }
+
+/** Durée d'écoute estimée, en minutes (environ 150 mots par minute à vitesse normale). */
+const minutesEcoute = (pistes) => Math.max(1, Math.round(pistes.reduce((n, p) => n + `${p.titre} ${p.texte}`.split(/\s+/).length, 0) / 150 / (Number(store.getEtat().prefs.vitesse) || 1)));
 
 async function vueEcouter() {
   if (!audio.audioDisponible) {
-    afficher(`${entete('Écouter')}<div class="carte"><p>Votre navigateur ne permet pas la lecture audio. Essayez avec Chrome, Edge ou Safari.</p></div>`, 'ecouter');
+    afficher(`${entete('Écouter les cours', '#/cours')}<div class="carte carte-info attention">${ic('attention')}<p>Votre navigateur ne permet pas la lecture audio. Essayez avec Chrome, Edge ou Safari.</p></div>`, 'cours');
     return;
   }
   const blocs = [];
   for (const t of THEMES) blocs.push({ t, pistes: await pistesTheme(t.id) });
+  const toutes = blocs.flatMap((b) => b.pistes);
+  const enCours = audio.etatAudio().piste?.themeId;
   afficher(`
-    ${entete('Écouter les cours', '#/cours')}
-    <p class="intro-page">Écoutez les cours comme un podcast : dans les transports, en cuisinant… Choisissez un thème ou une partie.</p>
-    <div id="lecteur"></div>
-    ${blocs.map(({ t, pistes }) => `
-      <div class="carte bloc-ecoute" style="--c:${t.couleur}">
-        <div class="bloc-ecoute-tete">
+    <div class="hero" data-titre="Écouter les cours" data-retour="#/cours">
+      <div class="hero-haut">
+        <a class="retour retour-hero" href="#/cours" aria-label="Retour aux cours">${ic('retour')}</a>
+        <span class="hero-marque">${ic('casque', 'ic ic-texte')} Cours audio</span>
+      </div>
+      <h1>Écouter les cours</h1>
+      <p class="hero-texte">Comme un podcast : dans les transports, en cuisinant… Écoutez tout, un thème ou une seule partie.</p>
+      <div class="stats-hero">
+        <div><strong>${THEMES.length}</strong><span>thèmes</span></div>
+        <div><strong>${toutes.length}</strong><span>parties</span></div>
+        <div><strong>${minutesEcoute(toutes)} min</strong><span>d’écoute environ</span></div>
+      </div>
+    </div>
+
+    <section class="chevauche">
+      ${carteAction({ action: 'ecouter-tout', icone: 'casque', couleur: 'var(--c-institutions)', titre: 'Tout écouter', texte: 'Les cinq thèmes à la suite, du début', meta: `${toutes.length} parties` })}
+    </section>
+
+    <h2 class="titre-reglage">Choisir un thème</h2>
+    <div class="pile-ecoute">
+    ${blocs.map(({ t, pistes }, k) => `
+      <details class="carte bloc-ecoute" style="--c:${t.couleur}" ${enCours ? (enCours === t.id ? 'open' : '') : (k === 0 ? 'open' : '')}>
+        <summary class="bloc-ecoute-tete">
           ${pastille(t.icone, 'petite')}
-          <span class="lt-texte"><strong>${t.court}</strong><small>${pistes.length ? `${pistes.length} parties` : 'Bientôt disponible'}</small></span>
-          ${pistes.length ? `<button class="rond-action" data-action="ecouter-cours" data-theme="${t.id}" aria-label="Écouter tout le cours ${e(t.court)}">${ic('jouer')}</button>` : ''}
-        </div>
-        <ol class="pistes">${pistes.map((p, i) => `<li><button class="piste" data-action="ecouter-cours" data-theme="${t.id}" data-index="${i}"><span class="num">${i + 1}</span><span class="piste-titre">${e(p.titre)}</span>${ic('jouer', 'ic ic-piste')}</button></li>`).join('')}</ol>
-      </div>`).join('')}`, 'ecouter');
+          <span class="lt-texte"><strong>${t.court}</strong><small>${pistes.length ? `${pistes.length} parties · environ ${minutesEcoute(pistes)} min` : 'Bientôt disponible'}</small></span>
+          ${pistes.length ? `<button class="rond-action petit-rond" data-action="ecouter-cours" data-theme="${t.id}" aria-label="Écouter tout le thème ${e(t.court)}">${ic('jouer')}</button>` : ''}
+          <span class="chevron ic-tourne">${ic('chevron')}</span>
+        </summary>
+        <ol class="pistes">${pistes.map((p, i) => `<li><button class="piste" data-action="ecouter-cours" data-theme="${t.id}" data-index="${i}" data-cle="${t.id}:${i}"><span class="num">${i + 1}</span><span class="piste-titre">${e(p.titre)}<small class="en-ecoute">${ic('son', 'ic ic-texte')} En écoute</small></span>${ic('jouer', 'ic ic-piste')}</button></li>`).join('')}</ol>
+      </details>`).join('')}
+    </div>
+    <p class="note-reglage">La voix et la vitesse se règlent dans les <a href="#/reglages">réglages</a>.</p>`, 'cours');
   majLecteur(audio.etatAudio());
 }
 
 function majLecteur(s) {
+  // Met en évidence la partie en cours d'écoute
+  const cle = s.statut !== 'arret' && s.piste ? `${s.piste.themeId}:${s.piste.n}` : '';
+  document.querySelectorAll('.piste[data-cle]').forEach((b) => {
+    b.classList.toggle('en-cours', b.dataset.cle === cle);
+    if (b.dataset.cle === cle) b.closest('details')?.setAttribute('open', '');
+  });
   let el = document.getElementById('lecteur-flottant');
   if (s.statut === 'arret' && !s.piste) { el?.remove(); return; }
   if (s.statut === 'arret') { el?.remove(); return; }
@@ -1239,7 +1270,13 @@ document.addEventListener('click', async (ev) => {
       break;
     }
     case 'lire-texte': audio.ecouter([{ titre: '', texte: d.texte, theme: 'Lecture' }], 0, majLecteur); break;
-    case 'ecouter-cours': await lancerEcoute(d.theme, d.index); break;
+    case 'ecouter-cours': ev.preventDefault?.(); await lancerEcoute(d.theme, d.index); break;
+    case 'ecouter-tout': {
+      const toutes = [];
+      for (const t of THEMES) toutes.push(...await pistesTheme(t.id));
+      if (toutes.length) audio.ecouter(toutes, 0, majLecteur);
+      break;
+    }
     case 'audio-pause': audio.pauseReprise(); break;
     case 'audio-suiv': audio.suivant(); break;
     case 'audio-prec': audio.precedent(); break;

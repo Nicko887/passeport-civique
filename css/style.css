@@ -1156,6 +1156,26 @@ h2.titre-reglage { font-size: .76rem; font-weight: 750; text-transform: uppercas
 .note-choix { margin: 12px 4px 0; font-size: .8rem; color: var(--texte-2); text-align: center; }
 .choix-examen + .reperes { margin-top: 14px; }
 
+/* Écouter : thèmes repliables, partie en cours d'écoute mise en évidence */
+.pile-ecoute { display: grid; gap: 10px; }
+.pile-ecoute .bloc-ecoute { margin: 0; padding: 0; overflow: hidden; }
+.bloc-ecoute > summary { list-style: none; cursor: pointer; padding: 14px; }
+.bloc-ecoute > summary::-webkit-details-marker { display: none; }
+.bloc-ecoute > summary .chevron { margin-left: -4px; }
+.bloc-ecoute[open] > summary .ic-tourne { transform: rotate(90deg); }
+.bloc-ecoute > summary .ic-tourne { transition: transform .15s ease; }
+.petit-rond { width: 38px; height: 38px; box-shadow: none; }
+.petit-rond .ic { width: 18px; height: 18px; }
+.bloc-ecoute .pistes { margin: 0; padding: 0 14px 6px; border-top: 1px solid var(--bord); }
+.bloc-ecoute .piste { min-height: 52px; }
+.piste .num { flex: none; }
+.piste-titre small.en-ecoute { display: none; align-items: center; gap: 4px; margin-top: 2px; font-size: .78rem; font-weight: 750; color: var(--c); }
+.piste.en-cours { color: var(--c); font-weight: 700; }
+.piste.en-cours .num { background: var(--c); color: var(--sur-primaire); }
+.piste.en-cours small.en-ecoute { display: flex; }
+.piste-titre { display: grid; }
+.pile-ecoute + .note-reglage a { color: var(--primaire); }
+
 /* Carte de l'examen choisi */
 .carte-parcours small.choisi { display: inline-flex; align-items: center; gap: 4px; color: var(--c); font-weight: 750; }
 
