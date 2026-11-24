@@ -1376,6 +1376,12 @@ body.sans-nav { padding-bottom: 24px; }
 .pile-ecoute .bloc-ecoute { border: 0; border-radius: 0; box-shadow: none; }
 .pile-ecoute .bloc-ecoute + .bloc-ecoute { border-top: 1px solid var(--bord); }
 
+/* À propos : badges dans le bandeau */
+.badges-apropos { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 14px 0 0; }
+.badges-apropos { flex-wrap: nowrap; gap: 5px; }
+.badges-apropos span { display: inline-flex; align-items: center; gap: 4px; padding: 4px 9px; border-radius: 99px; background: rgba(255, 255, 255, .16); font-size: .74rem; font-weight: 700; white-space: nowrap; }
+.badges-apropos .ic { width: 13px; height: 13px; }
+
 /* Réglages : zone sensible séparée */
 .groupe-danger { border-color: color-mix(in srgb, var(--ko) 35%, var(--bord)); }
 .hero + h2.titre-reglage { margin-top: 20px; }

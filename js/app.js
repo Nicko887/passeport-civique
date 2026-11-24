@@ -1237,15 +1237,11 @@ function vueAPropos() {
         <span class="logo-marque logo-grand">${ic('valide')}</span>
         <h1>${APP_NAME}</h1>
         <p class="hero-texte">Pour préparer l’examen civique : carte pluriannuelle, carte de résident et naturalisation.</p>
+        <p class="badges-apropos"><span>${ic('valide', 'ic ic-texte')} Gratuit</span><span>${ic('bouclier', 'ic ic-texte')} Sans publicité</span><span>${ic('code', 'ic ic-texte')} Open source</span></p>
       </div>
     </div>
 
     <section class="chevauche">
-      <ul class="reperes reperes-apropos" aria-label="En bref">
-        <li>${pastille('valide', 'petite')}<span>Gratuit, sans publicité</span></li>
-        <li>${pastille('bouclier', 'petite')}<span>Sans compte ni inscription</span></li>
-        <li>${pastille('code', 'petite')}<span>Ouvert à tous (open source)</span></li>
-      </ul>
       <div class="carte carte-info attention">${ic('attention')}<p>C’est un <strong>outil indépendant</strong> : il n’est pas édité par l’État ni par le ministère de l’Intérieur.</p></div>
     </section>
 
