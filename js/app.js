@@ -516,42 +516,46 @@ async function vueChoixEntrainement() {
   const p = PARCOURS[parcoursCourant()];
   afficher(`
     <section>
-      <div class="hero" data-titre="S’entraîner">
-        <p class="hero-marque">${ic('crayon', 'ic ic-texte')} S’entraîner · ${e(p.court)}</p>
+      <div class="hero hero-accueil" data-titre="S’entraîner">
+        <p class="hero-marque">${ic('crayon', 'ic ic-texte')} S’entraîner</p>
+        <span class="puce-hero">${ic(p.icone, 'ic ic-texte')} ${e(p.court)}</span>
         <h1>Entraînez-vous à votre rythme</h1>
         <p class="hero-texte">${b.vues ? `Déjà <strong>${b.vues}</strong> questions travaillées sur ${b.total}.` : `${b.total} questions pour préparer votre examen.`}</p>
-        <div class="stats">
+        <div class="stats-hero">
           ${b.vues
-            ? `<div class="stat"><strong>${b.vues}</strong><small>vues</small></div>
-               <div class="stat"><strong>${b.reussite !== null ? pct(b.reussite) : '–'}</strong><small>de réussite</small></div>
-               <div class="stat"><strong>${b.aRevoir}</strong><small>à revoir</small></div>`
-            : `<div class="stat"><strong>${b.total}</strong><small>questions</small></div>
-               <div class="stat"><strong>${THEMES.length}</strong><small>thèmes</small></div>
-               <div class="stat"><strong>${sit.length}</strong><small>situations</small></div>`}
+            ? `<div><strong>${b.vues}</strong><span>travaillées</span></div>
+               <div><strong>${b.reussite !== null ? pct(b.reussite) : '–'}</strong><span>bonnes réponses</span></div>
+               <div><strong>${b.aRevoir}</strong><span>à revoir</span></div>`
+            : `<div><strong>${b.total}</strong><span>questions</span></div>
+               <div><strong>${THEMES.length}</strong><span>thèmes</span></div>
+               <div><strong>${sit.length}</strong><span>situations</span></div>`}
         </div>
       </div>
 
-      <div class="chevauche pile-cartes">
-        ${b.aRevoir ? carteAction({ href: '#/revision', icone: 'revoir', couleur: 'var(--c-histoire)', titre: 'Révisions du jour', texte: `${b.aRevoir} question${b.aRevoir > 1 ? 's' : ''} à revoir maintenant` }) : ''}
-        ${carteAction({ href: '#/entrainement/tout', icone: 'des', couleur: 'var(--c-droits)', titre: 'Série adaptée', texte: `${SERIE_ENTRAINEMENT} questions choisies selon votre niveau` })}
-        ${sit.length ? carteAction({ href: '#/entrainement/situations', icone: 'boussole', couleur: 'var(--c-societe)', titre: 'Mises en situation', texte: 'Des cas concrets de la vie quotidienne', meta: `${NB_SITUATIONS} sur ${EXAMEN.nbQuestions} à l’examen` }) : ''}
+      <h2 class="titre-section">${b.aRevoir ? 'À faire aujourd’hui' : 'Série du jour'}</h2>
+      <a class="carte-vedette" href="${b.aRevoir ? '#/revision' : '#/entrainement/tout'}">
+        <span class="vedette-haut">${pastille(b.aRevoir ? 'revoir' : 'des')}<strong>${b.aRevoir ? 'Vos révisions du jour' : 'Série adaptée à votre niveau'}</strong></span>
+        <span class="vedette-texte">${b.aRevoir ? `${b.aRevoir} question${b.aRevoir > 1 ? 's' : ''} à revoir maintenant, pour bien les retenir.` : `${SERIE_ENTRAINEMENT} questions choisies parmi tous les thèmes.`}</span>
+        <span class="bouton large">${b.aRevoir ? 'Réviser maintenant' : b.vues ? 'Continuer' : 'Commencer'} ${ic('chevron')}</span>
+        <ul class="regles-examen">
+          <li>${ic('valide', 'ic ic-texte')} La correction s’affiche tout de suite, avec une explication.</li>
+          <li>${ic('revoir', 'ic ic-texte')} Les erreurs reviennent plus tard, pour bien les retenir.</li>
+        </ul>
+      </a>
+
+      <div class="groupe-lignes">
+        ${b.aRevoir ? ligneReglage({ href: '#/entrainement/tout', icone: 'des', couleur: 'var(--c-droits)', titre: 'Série adaptée', texte: `${SERIE_ENTRAINEMENT} questions selon votre niveau` }) : ''}
+        ${sit.length ? ligneReglage({ href: '#/entrainement/situations', icone: 'boussole', couleur: 'var(--c-societe)', titre: 'Mises en situation', texte: `Cas concrets · ${NB_SITUATIONS} sur ${EXAMEN.nbQuestions} à l’examen` }) : ''}
       </div>
 
-      <ul class="reperes" aria-label="Comment fonctionne l’entraînement">
-        <li>${pastille('valide', 'petite')}<span>Correction tout de suite</span></li>
-        <li>${pastille('revoir', 'petite')}<span>Les erreurs reviennent plus tard</span></li>
-        <li>${pastille('cible', 'petite')}<span>Questions adaptées à votre niveau</span></li>
-      </ul>
-
-      <h2 class="titre-section">Par thème</h2>
-      <div class="grille-themes">
+      <h2 class="titre-reglage">Par thème</h2>
+      <div class="groupe-lignes">
         ${THEMES.map((t) => {
           const bt = bilan(qs.filter((q) => q.t === t.id));
-          return `<a class="tuile tuile-theme" href="#/entrainement/${t.id}" style="--c:${t.couleur}">
+          return `<a class="ligne-reglage ligne-partie" href="#/entrainement/${t.id}" style="--c:${t.couleur}">
             ${pastille(t.icone, 'petite')}
-            <strong>${t.court}</strong>
-            ${barre(bt.progression, t.court)}
-            <small>${bt.vues ? `${bt.vues}/${bt.total} vues` : `${bt.total} questions`}</small>
+            <span class="lt-texte"><strong>${t.court}</strong><small>${bt.vues ? `${bt.vues}/${bt.total} questions travaillées` : `${bt.total} questions`}</small>${barre(bt.progression, t.court)}</span>
+            <span class="chevron">${ic('chevron')}</span>
           </a>`;
         }).join('')}
       </div>
